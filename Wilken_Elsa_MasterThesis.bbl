@@ -1,0 +1,67 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chance and Kurucz(2010)]{chance2010improved}
+K~Chance and RL~Kurucz.
+\newblock An improved high-resolution solar reference spectrum for earth's
+  atmosphere measurements in the ultraviolet, visible, and near infrared.
+\newblock \emph{Journal of quantitative spectroscopy and radiative transfer},
+  111\penalty0 (9):\penalty0 1289--1295, 2010.
+
+\bibitem[L{\"u}bcke et~al.(2014)L{\"u}bcke, Bobrowski, Arellano, Galle,
+  Garz{\'o}n, Vogel, and Platt]{lubcke2014bro}
+Peter L{\"u}bcke, Nicole Bobrowski, S~Arellano, Bo~Galle, G~Garz{\'o}n, Leif
+  Vogel, and U~Platt.
+\newblock Bro/so 2 molar ratios from scanning doas measurements in the novac
+  network.
+\newblock \emph{Solid Earth}, 5\penalty0 (1):\penalty0 409, 2014.
+
+\bibitem[Platt and Bobrowski(2015)]{platt2015quantification}
+U~Platt and N~Bobrowski.
+\newblock Quantification of volcanic reactive halogen emissions.
+\newblock \emph{Volcanism and Global Change, eds A. Schmidt, K. Fristad, L.
+  Elkins-Tanton, Cambridge University Press, Cambridge, UK, ISBN}, 1466525386,
+  2015.
+
+\bibitem[Platt and Stutz(2008)]{platt2008differential}
+Ulrich Platt and Jochen Stutz.
+\newblock Differential absorption spectroscopy.
+\newblock \emph{Differential Optical Absorption Spectroscopy}, pages 135--174,
+  2008.
+
+\bibitem[Schmidt and Robock(2015)]{schmidt2015volcanismarticle}
+A~Schmidt and A~Robock.
+\newblock Volcanism, the atmosphere and climate through time.
+\newblock \emph{Volcanism Glob. Environ. Chang}, pages 195--207, 2015.
+
+\bibitem[Schmidt et~al.(2015)Schmidt, Fristad, and
+  Elkins-Tanton]{schmidt2015volcanism}
+Anja Schmidt, Kirsten Fristad, and Linda~T Elkins-Tanton.
+\newblock Volcanism and global environmental change, 2015.
+
+\bibitem[Schmincke(2000)]{schmincke2000vulkanismus}
+Hans-Ulrich Schmincke.
+\newblock \emph{Vulkanismus}.
+\newblock Wissenschaftliche Buchgesellschaft, 3 edition, 2000.
+
+\bibitem[Solomon et~al.(1998)Solomon, Portmann, Garcia, Randel, Wu, Nagatani,
+  Gleason, Thomason, Poole, and McCormick]{solomon1998ozone}
+S~Solomon, RW~Portmann, RR~Garcia, W~Randel, F~Wu, R~Nagatani, J~Gleason,
+  L~Thomason, LR~Poole, and MP~McCormick.
+\newblock Ozone depletion at mid-latitudes: Coupling of volcanic aerosols and
+  temperature variability to anthropogenic chlorine.
+\newblock \emph{Geophysical research letters}, 25\penalty0 (11):\penalty0
+  1871--1874, 1998.
+
+\bibitem[Thordarson and Self(2003)]{thordarson2003atmospheric}
+Thorvaldur Thordarson and Stephen Self.
+\newblock Atmospheric and environmental effects of the 1783--1784 laki
+  eruption: A review and reassessment.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 108\penalty0
+  (D1), 2003.
+
+\end{thebibliography}
