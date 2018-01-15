@@ -192,20 +192,25 @@
 		\label{fig:contaminationdependencyratio}
 	\end{figure}
 	\chapter{Limitations for the evaluation of  BrO}
-	Since the SO2 amount in a volcano plume is rather high, the measurement of SO2 is unproblematic compared to BrO.\\
+    Since the SO2 amount in a volcano plume is rather high (magnitude of SO2 at Tungurahua $\approx 1e^{18}$, \cite{WarnachSimon}) , the evaluation of SO2 is unproblematic compared to BrO.\\
 	Evaluating BrO is more difficult since the amount is much smaller and the measurement error relative to the column density much larger. Since we want to get the BrO/SO2 we need to maximize the accuracy of BrO.
-	Therefore the aim is to choose the reference with respect to the BrO error, to minimize the BrO Error and to increase the amount of	reliable BrO/SO2 ratio data.\\
-	We figured out, that the BrO Error depends strongly on the surrounding conditions when recording the plume and the reference. In the following we will take a closer look on the dependens of the BrO error on external parameters. 
+	Therefore the aim is to choose the reference with respect to the BrO error, to minimize the BrO Error and to increase the amount of reliable BrO/SO2 ratio data.\\
+	We figured out, that the BrO Error depends strongly on the surrounding conditions when recording the plume and the reference. In the following, we will take a closer look at the dependence of the BrO error on external parameters. 
 	%
 	\section{BrO Error dependence on external parameters}
 	%HOW IS THE ERROR CALCULATED AND WHY AND DETECTION LIMIT (PLATT \& STUTZ)
-	The measurement depends on the surrounding conditions like temperature or cloudiness\\
+	The measurement and evaluation depends on the surrounding conditions like temperature or cloudiness \cite{lubcke2014optical}\\
 	If choosing a new reference we need to take the surrounding conditions into account\\
-	The better the surrounding conditions of the time where the reference is measured coincide with the conditions the plume is measured, the lower is the BrO error \\
-	The surrounding conditions we take into account are temperature, colorindex, exposure time, elevation-angle and daytime.
+	The better the surrounding conditions of the time where the reference is measured coincide with the conditions of the time when the plume is measured, the lower is the BrO error \\
+	The surrounding conditions we take into account are temperature, colorindex, exposure time, elevation-angle, daytime and the temporal difference.\\
+	In almost all cases (99\%) the absolute BrO Error is minimal when using the reference recorded at the same time as te plume spectrum. So we won't be able to get an BrO Error which is smaller than the "Same Time Error".   
 
 	
 	\subsection{Time}
+	Due to instrument drifts the fit quality decreases with the time difference between recording the plume and the reference. Therefore it is better to use an reference in temporal proximity.\\
+	
+	\Cref{shiftPic} shows the Instrumental drift as a function of Time, to create \cref{shiftPic} we used Tungurahua data, 2008 from June to November.\\
+	We found out that the time interval where it is still reasonable to use references is about 14 days. Therefore we only use references where the recording time difference between plume and reference is smaller than two weeks.
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{Bilder/Datum_100h}

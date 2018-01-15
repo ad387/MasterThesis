@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,6 +11,12 @@ K~Chance and RL~Kurucz.
   atmosphere measurements in the ultraviolet, visible, and near infrared.
 \newblock \emph{Journal of quantitative spectroscopy and radiative transfer},
   111\penalty0 (9):\penalty0 1289--1295, 2010.
+
+\bibitem[L{\"u}bcke(2014)]{lubcke2014optical}
+Peter L{\"u}bcke.
+\newblock \emph{Optical remote sensing measurements of bromine and sulphur
+  emissions: Investigating their potential as tracers of volcanic activity}.
+\newblock PhD thesis, 2014.
 
 \bibitem[L{\"u}bcke et~al.(2014)L{\"u}bcke, Bobrowski, Arellano, Galle,
   Garz{\'o}n, Vogel, and Platt]{lubcke2014bro}
@@ -63,5 +69,11 @@ Thorvaldur Thordarson and Stephen Self.
   eruption: A review and reassessment.
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 108\penalty0
   (D1), 2003.
+
+\bibitem[Warnach(2015)]{WarnachSimon}
+Simon Warnach.
+\newblock Improvements of bro and so2 retrievals of novac data - tungurahua
+  volcano as a case study.
+\newblock Master's thesis, 2015.
 
 \end{thebibliography}
