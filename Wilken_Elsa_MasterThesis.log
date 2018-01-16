@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  15 JAN 2018 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  16 JAN 2018 16:27
 entering extended mode
 **./Wilken_Elsa_MasterThesis.tex
 (Wilken_Elsa_MasterThesis.tex
@@ -867,12 +867,7 @@ line 74.
 Package pdftex.def Info: Requested size: 341.43442pt x 201.42781pt on input lin
 e 74.
 
-LaTeX Warning: Reference `NOVAC Seite' on page 12 undefined on input line 91.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--95
-
- []
+LaTeX Warning: Reference `NOVAC Seite' on page 12 undefined on input line 92.
 
 [12
 
@@ -883,22 +878,22 @@ chapter 3.
 ]
 chapter 4.
 
-LaTeX Warning: Reference `tab: 1' on page 15 undefined on input line 109.
+LaTeX Warning: Reference `tab: 1' on page 15 undefined on input line 112.
 
 
-LaTeX Warning: Reference `fig so2' on page 15 undefined on input line 109.
+LaTeX Warning: Reference `fig so2' on page 15 undefined on input line 112.
 
 
-LaTeX Warning: Reference `fig so2' on page 15 undefined on input line 110.
+LaTeX Warning: Reference `fig so2' on page 15 undefined on input line 113.
 
 
-LaTeX Warning: Reference ` fig bro' on page 15 undefined on input line 116.
+LaTeX Warning: Reference ` fig bro' on page 15 undefined on input line 119.
 
 
-LaTeX Warning: Reference `...' on page 1 undefined on input line 120.
+LaTeX Warning: Reference `...' on page 1 undefined on input line 123.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--121
+Underfull \hbox (badness 10000) in paragraph at lines 112--124
 
  []
 
@@ -908,42 +903,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--121
 <Bilder/contaminated.pdf, id=346, pagebox=cropbox, 370.38374pt x 341.275pt>
 File: Bilder/contaminated.pdf Graphic file (type pdf)
 <use Bilder/contaminated.pdf>
-Package pdftex.def Info: Bilder/contaminated.pdf  used on input line 127. on in
-put line 127.
+Package pdftex.def Info: Bilder/contaminated.pdf  used on input line 130. on in
+put line 130.
 Package pdftex.def Info: Requested size: 298.75267pt x 275.27518pt on input lin
-e 127.
+e 130.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--147
+Underfull \hbox (badness 10000) in paragraph at lines 135--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--147
+Underfull \hbox (badness 10000) in paragraph at lines 135--150
 
  []
 
 [16 <./Bilder/contaminated.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 148--158
+Underfull \hbox (badness 10000) in paragraph at lines 151--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--175
+Underfull \hbox (badness 10000) in paragraph at lines 163--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--175
+Underfull \hbox (badness 10000) in paragraph at lines 163--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--175
+Underfull \hbox (badness 10000) in paragraph at lines 163--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--175
+Underfull \hbox (badness 10000) in paragraph at lines 163--178
 
  []
 
@@ -953,82 +948,70 @@ File: E:/Masterarbeit/Analyse_Contamination/contaminationdependency_so2.pdf Gra
 phic file (type pdf)
 <use E:/Masterarbeit/Analyse_Contamination/contaminationdependency_so2.pdf>
 Package pdftex.def Info: E:/Masterarbeit/Analyse_Contamination/contaminationdep
-endency_so2.pdf  used on input line 178. on input line 178.
+endency_so2.pdf  used on input line 181. on input line 181.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 178.
+e 181.
 <E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro.pdf, id=367,
  pagebox=cropbox, 505.89pt x 505.89pt>
 File: E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro.pdf Gra
 phic file (type pdf)
 <use E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro.pdf>
 Package pdftex.def Info: E:/Masterarbeit/Analyse_Contamination/contaminationdep
-endency_bro.pdf  used on input line 184. on input line 184.
+endency_bro.pdf  used on input line 187. on input line 187.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 184.
+e 187.
 <E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio.pdf, id=36
 8, pagebox=cropbox, 505.89pt x 505.89pt>
 File: E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio.pdf G
 raphic file (type pdf)
 <use E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio.pdf>
 Package pdftex.def Info: E:/Masterarbeit/Analyse_Contamination/contaminationdep
-endency_ratio.pdf  used on input line 190. on input line 190.
+endency_ratio.pdf  used on input line 193. on input line 193.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 190.
+e 193.
 [17] [18 <E:/Masterarbeit/Analyse_Contamination/contaminationdependency_so2.pdf
 >] [19 <E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro.pdf>]
 [20 <E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio.pdf>]
 chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-
- []
+LaTeX Warning: Reference `shiftPic' on page 1 undefined on input line 215.
 
 
-LaTeX Warning: Reference `shiftPic' on page 1 undefined on input line 212.
-
-
-LaTeX Warning: Reference `shiftPic' on page 1 undefined on input line 212.
+LaTeX Warning: Reference `shiftPic' on page 1 undefined on input line 215.
 
 <Bilder/Datum_100h.pdf, id=553, pagebox=cropbox, 361.35pt x 578.16pt>
 File: Bilder/Datum_100h.pdf Graphic file (type pdf)
 <use Bilder/Datum_100h.pdf>
-Package pdftex.def Info: Bilder/Datum_100h.pdf  used on input line 216. on inpu
-t line 216.
+Package pdftex.def Info: Bilder/Datum_100h.pdf  used on input line 219. on inpu
+t line 219.
 Package pdftex.def Info: Requested size: 298.75267pt x 478.01123pt on input lin
-e 216.
-<Bilder/Datum.png, id=554, 1300.86pt x 505.89pt>
+e 219.
+[21
+
+]
+<Bilder/Datum.png, id=562, 1300.86pt x 505.89pt>
 File: Bilder/Datum.png Graphic file (type png)
 <use Bilder/Datum.png>
-Package pdftex.def Info: Bilder/Datum.png  used on input line 222. on input lin
-e 222.
+Package pdftex.def Info: Bilder/Datum.png  used on input line 225. on input lin
+e 225.
 Package pdftex.def Info: Requested size: 469.47313pt x 182.56796pt on input lin
-e 222.
+e 225.
 
-Overfull \hbox (42.68173pt too wide) in paragraph at lines 222--223
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 225--226
 [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 227.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 227.
- [21
-
-] [22 <./Bilder/Datum_100h.pdf>]
-<Bilder/DiffTemp_Tungu.pdf, id=614, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DiffTemp_Tungu.pdf, id=564, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffTemp_Tungu.pdf Graphic file (type pdf)
 <use Bilder/DiffTemp_Tungu.pdf>
 Package pdftex.def Info: Bilder/DiffTemp_Tungu.pdf  used on input line 233. on 
 input line 233.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
  233.
-<Bilder/DiffTemp_Nevad.pdf, id=615, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DiffTemp_Nevad.pdf, id=565, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffTemp_Nevad.pdf Graphic file (type pdf)
 <use Bilder/DiffTemp_Nevad.pdf>
 Package pdftex.def Info: Bilder/DiffTemp_Nevad.pdf  used on input line 234. on 
@@ -1036,23 +1019,30 @@ input line 234.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
  234.
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/Diffdaytime_Tungu.pdf, id=616, pagebox=cropbox, 505.89pt x 505.89pt>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 238.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 238.
+<Bilder/Diffdaytime_Tungu.pdf, id=566, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/Diffdaytime_Tungu.pdf Graphic file (type pdf)
 <use Bilder/Diffdaytime_Tungu.pdf>
 Package pdftex.def Info: Bilder/Diffdaytime_Tungu.pdf  used on input line 246. 
 on input line 246.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
  246.
-<Bilder/Diffdaytime_Nevad.pdf, id=617, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/Diffdaytime_Nevad.pdf, id=567, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/Diffdaytime_Nevad.pdf Graphic file (type pdf)
 <use Bilder/Diffdaytime_Nevad.pdf>
 Package pdftex.def Info: Bilder/Diffdaytime_Nevad.pdf  used on input line 247. 
 on input line 247.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
  247.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1061,31 +1051,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-[23 <./Bilder/Datum.png>]
-Overfull \vbox (1.35753pt too high) has occurred while \output is active []
-
-
-[24 <./Bilder/DiffTemp_Tungu.pdf> <./Bilder/DiffTemp_Nevad.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Bilder/DiffTemp_Nevad.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
-> <./Bilder/Diffdaytime_Tungu.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Bilder/Diffdaytime_Tungu.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
-> <./Bilder/Diffdaytime_Nevad.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Bilder/Diffdaytime_Nevad.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->]
-<Bilder/DiffColidx_Tungu.pdf, id=814, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DiffColidx_Tungu.pdf, id=568, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffColidx_Tungu.pdf Graphic file (type pdf)
 <use Bilder/DiffColidx_Tungu.pdf>
 Package pdftex.def Info: Bilder/DiffColidx_Tungu.pdf  used on input line 261. o
 n input line 261.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
  261.
-<Bilder/DiffColidx_Nevad.pdf, id=815, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DiffColidx_Nevad.pdf, id=569, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffColidx_Nevad.pdf Graphic file (type pdf)
 <use Bilder/DiffColidx_Nevad.pdf>
 Package pdftex.def Info: Bilder/DiffColidx_Nevad.pdf  used on input line 262. o
@@ -1093,18 +1066,21 @@ n input line 262.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
  262.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
-<Bilder/DiffElevAngle_Tungu.pdf, id=816, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DiffElevAngle_Tungu.pdf, id=570, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffElevAngle_Tungu.pdf Graphic file (type pdf)
 <use Bilder/DiffElevAngle_Tungu.pdf>
 Package pdftex.def Info: Bilder/DiffElevAngle_Tungu.pdf  used on input line 274
 . on input line 274.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
  274.
-<Bilder/DiffElevAngle_Nevad.pdf, id=817, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DiffElevAngle_Nevad.pdf, id=571, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffElevAngle_Nevad.pdf Graphic file (type pdf)
 <use Bilder/DiffElevAngle_Nevad.pdf>
 Package pdftex.def Info: Bilder/DiffElevAngle_Nevad.pdf  used on input line 275
@@ -1114,7 +1090,8 @@ Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/AbsofElevationAngleAsFunctionofBrOError_AllData.pdf, id=818, pagebox=cr
+[22] [23 <./Bilder/Datum_100h.pdf>]
+<Bilder/AbsofElevationAngleAsFunctionofBrOError_AllData.pdf, id=627, pagebox=cr
 opbox, 433.62pt x 361.35pt>
 File: Bilder/AbsofElevationAngleAsFunctionofBrOError_AllData.pdf Graphic file (
 type pdf)
@@ -1123,14 +1100,14 @@ Package pdftex.def Info: Bilder/AbsofElevationAngleAsFunctionofBrOError_AllData
 .pdf  used on input line 283. on input line 283.
 Package pdftex.def Info: Requested size: 298.75267pt x 248.97337pt on input lin
 e 283.
-<Bilder/DiffExpTime_Tungu.pdf, id=819, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DiffExpTime_Tungu.pdf, id=628, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffExpTime_Tungu.pdf Graphic file (type pdf)
 <use Bilder/DiffExpTime_Tungu.pdf>
 Package pdftex.def Info: Bilder/DiffExpTime_Tungu.pdf  used on input line 290. 
 on input line 290.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
  290.
-<Bilder/DiffExpTime_Nevad.pdf, id=820, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DiffExpTime_Nevad.pdf, id=629, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffExpTime_Nevad.pdf Graphic file (type pdf)
 <use Bilder/DiffExpTime_Nevad.pdf>
 Package pdftex.def Info: Bilder/DiffExpTime_Nevad.pdf  used on input line 291. 
@@ -1143,9 +1120,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--296
  []
 
 
-Underfull \vbox (badness 2126) has occurred while \output is active []
+Underfull \vbox (badness 2990) has occurred while \output is active []
 
- [25 <./Bilder/DiffColidx_Tungu.pdf> <./Bilder/DiffColidx_Nevad.pdf
+ [24 <./Bilder/Datum.png> <./Bilder/DiffTemp_Tungu.pdf> <./Bilder/DiffTemp_Neva
+d.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/DiffTemp_Nevad.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./Bilder/Diffdaytime_Tungu.pdf> <./Bilder/Diffdaytime_Nevad.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/Diffdaytime_Nevad.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Bilder/DiffColidx_Tungu.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/DiffColidx_Tungu.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Bilder/DiffColidx_Nevad.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/DiffColidx_Nevad.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -1164,7 +1157,7 @@ pdfTeX warning: pdflatex.exe (file ./Bilder/DiffExpTime_Nevad.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
 chapter 6.
-<E:/Masterarbeit/Analyse_minSO2/percentage_minSO2.pdf, id=1147, pagebox=cropbox
+<E:/Masterarbeit/Analyse_minSO2/percentage_minSO2.pdf, id=1146, pagebox=cropbox
 , 361.35pt x 289.08pt>
 File: E:/Masterarbeit/Analyse_minSO2/percentage_minSO2.pdf Graphic file (type p
 df)
@@ -1173,7 +1166,7 @@ Package pdftex.def Info: E:/Masterarbeit/Analyse_minSO2/percentage_minSO2.pdf
 used on input line 319. on input line 319.
 Package pdftex.def Info: Requested size: 298.75267pt x 239.0056pt on input line
  319.
-<E:/Masterarbeit/Analyse_minSO2/data_minSO2.pdf, id=1148, pagebox=cropbox, 361.
+<E:/Masterarbeit/Analyse_minSO2/data_minSO2.pdf, id=1147, pagebox=cropbox, 361.
 35pt x 289.08pt>
 File: E:/Masterarbeit/Analyse_minSO2/data_minSO2.pdf Graphic file (type pdf)
 <use E:/Masterarbeit/Analyse_minSO2/data_minSO2.pdf>
@@ -1387,7 +1380,7 @@ sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Wilken_Elsa_MasterThesis.pdf (37 pages, 975922 bytes).
+Output written on Wilken_Elsa_MasterThesis.pdf (37 pages, 975722 bytes).
 PDF statistics:
  1913 PDF objects out of 2073 (max. 8388607)
  123 named destinations out of 1000 (max. 500000)
