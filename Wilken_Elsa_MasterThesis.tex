@@ -213,7 +213,12 @@
 	Due to instrument drifts the fit quality decreases with the time difference between recording the plume and the reference. Therefore it is better to use an reference in temporal proximity.\\
 	%
 	\Cref{shiftPic} shows the Instrumental drift as a function of time, to create \cref{shiftPic} we used Tungurahua data, 2008 from June to November. We can observe that the drift changes with time. If we use the reference and plume spectra of the same time, we do not need to care about these effects, since the shift is equal for the plume and reference spectrum, but if the recording time is not the same the quality of the fit changes with the differences in wavelength shift which increases with the time difference.\\
-	We found out that the time interval where it is still reasonable to use references is about 14 days. Therefore we only use references where the recording time difference between plume and reference is smaller than two weeks. When using a references with a temporal difference to the plume of more than 14 days the probability, that the fit quality and thus the BrO error increases to much for our purposes. ??????????????????
+	In \cref{fig:dat} the BrO Error as a function of the time difference between recording the plume and the reference is shown. The running mean is drawn with a black line. The BrO Error increases with time difference.\\
+	To evaluate the maximal time difference, were we still get reliable results we calculated for all possible reference-plume pairs the corresponding BrO Error. With this data we are able to find for all plume spectra the associated reference where the BrO Error is minimal. In \cref{Histogram} a histogram is plotted with the probability of picking the best reference as a function of the time difference. Obviously the best results are if the day of measuring the reference is the same day as measuring the reference that means, if the time difference is smaller than one day. We allow all time difference which are in one sigma area. 
+	
+	We found out that the time interval where it is still reasonable to use references is about 14 days. Therefore we only use references where the recording time difference between plume and reference is smaller than two weeks. When using a references with a temporal difference to the plume of more than 14 days the probability, that the fit quality and thus the BrO error increases to much for our purposes. \\
+	\\
+
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{Bilder/Datum_100h}
