@@ -81,22 +81,24 @@
 		%
 		NOVAC was originally funded by the European Union on the first October in 2005. The aim of NOVAC is to  establish  a  global  
 		network  of  stations  for  the  quantitative  measurement  of  volcanic gas  emissions. At the beginning NOVAC encompassed observatories of 15 volcanoes in Africa America and Europe, including some of the most active and strongest degassing volcanoes in the world. Although the EU-funding has stopped, the network has been constantly growing since it was founded. In 2017 more than 80 Instruments are installed at over 30 volcanoes in more than 13 countries.\\
-		The great advantage of the data monitored with NOVAC is the fact
+		The great advantage of the data monitored in NOVAC is the fact
 		that NOVAC provides continues gas emission data over many years. Therefore one is able to get more statistical stable results.\\
 		The instruments used in NOVAC are scanning UV-spectrometer : Mini Doas instruments. \\
 		The  Mini-DOAS  instrument  represents  a  major  breakthrough  in  volcanic  gas	monitoring as it is capable of real-time semi-continuous unattended measurement of the total emission fluxes of  SO2	and BrO from a volcano. Semi-continues means in this case that the measurement is only possible during day time when enough Sun light is there.\\
 		%
 		The  basic  mini-DOAS  system  consists  of  a  pointing  telescope  fiber-coupled  to  a  spectrograph.  
 		Ultraviolet light from the sun, scattered from aerosols and molecules in the atmosphere, is collected by 
-		means  of  a  telescope  with  a  quartz  lens  defining  a  field-of-view  of  12  mrad. \ref{NOVAC Seite} \\
+		means  of  a  telescope  with  a  quartz  lens  defining  a  field-of-view  of  12  mrad.
+		\ref{NOVAC Seite} \\
+		The spectrometers measure in the UV region in a wavelength range of 280 to 420 nm. In this range are the differential structures of SO2 and BrO dominant.
 		\\
  		The Novac-instruments need to be very robust to stand the conditions around volcanoes. Therefore the design of the instruments is rather simple, this means the instruments do not have internal stabilisation features like temperature stabilization to keep the measurement independent of external parameters (for example Temperature).
 		This comes along with a reduced precision of the data, but the huge amount of data produced by NOVAC compensates this disadvantage.  
 	
 	
 	\chapter{Measurement Routine}
-	The Instruments are set up five to ten km downwind of the volcano of the volcano. To cover different wind directions and  facilitate measurements of plume height and plume direction two to five instruments are installed at each volcano. Ideally the measurement plane is orthogonal to the plume, to get the best measurement results. In reality the measurement plane could be twisted.\\
-	The Instruments record spectra in different viewing angles from 
+	The Instruments are set up five to ten km downwind of the volcano of the volcano. To cover most of the occurring wind directions two to five instruments are installed at each volcano. Ideally the measurement plane is orthogonal to the plume, to get the best measurement results. In reality the measurement plane could be twisted.\\
+	The Instruments record spectra in different viewing angles covering a the hole sky from horizon to horizon from 
 	-90$^{\circ}$ to 90$^{\circ}$. The zenith is at 0$^{\circ}$.
 	The measurement routine starts with a spectrum in zenith direction: The pre-reference.
 	Afterwards the dark current spectrum is recorded.\\
@@ -106,6 +108,7 @@
 	\section{NOVAC-Evaluation}
 	In the following we describe the technical implementation of the DOAS approach using the data of NOVAC instruments:\\
 	The first important task is to locate volcano plume and the reference region using the data from te measurement routine described above.
+	
 	To do so we use the pre-reference (the spectra recorded at an elevation angle of  0$^{\circ} $) to evaluate spectra for SO2 at every elevation angle as described in chapter \ref{DOAS}, that means we divide each recorded spectra by the pre-reference and take the logarithm  to get rid of the Frauenhofer structures and to be able to just look at the important structures of the plume. To get the gas amounts of the evaluated spectra, one fits the absorption spectrum of all important gases on the spectrum. In our case we take all gases written in tab. \ref{tab: 1} into account. The result will be an SO2 curve as it is shown in fig. \ref{fig so2}.
 	Figure \ref{fig so2} shows the relative SO2 column density to the pre-reference as a function of the elevation angle. We can clearly observe a a maximum of SO2 and a minimum. Inside the plume the SO2 amount is much higher than in the outside the plume. Therefore we assume that the location of the SO2 maximum match with the location of the plume. We assume that the minimum of the SO2 curve refers to a region outside of the plume which is in most times the case. The SO2 amount in the earths atmosphere is negligible so we take it as a region of zero SO2. Now it is possible to locate the plume region as the SO2 maximum, whereas the minimum of the SO2 curve the reference region is. \\
 	To technically detect the plume region we use a gauss fit of the So2 curve.
@@ -192,20 +195,30 @@
 		\label{fig:contaminationdependencyratio}
 	\end{figure}
 	\chapter{Limitations for the evaluation of  BrO}
-	Since the SO2 amount in a volcano plume is rather high, the measurement of SO2 is unproblematic compared to BrO.\\
+    Since the SO2 amount in a volcano plume is rather high (magnitude of SO2 at Tungurahua $\approx 1e^{18}$, \cite{WarnachSimon}) , the evaluation of SO2 is unproblematic compared to BrO.\\
 	Evaluating BrO is more difficult since the amount is much smaller and the measurement error relative to the column density much larger. Since we want to get the BrO/SO2 we need to maximize the accuracy of BrO.
-	Therefore the aim is to choose the reference with respect to the BrO error, to minimize the BrO Error and to increase the amount of	reliable BrO/SO2 ratio data.\\
-	We figured out, that the BrO Error depends strongly on the surrounding conditions when recording the plume and the reference. In the following we will take a closer look on the dependens of the BrO error on external parameters. 
+	Therefore the aim is to choose the reference with respect to the BrO error, to minimize the BrO Error and to increase the amount of reliable BrO/SO2 ratio data.\\
+	We figured out, that the BrO Error depends strongly on the surrounding conditions when recording the plume and the reference. In the following, we will take a closer look at the dependence of the BrO error on external parameters. 
 	%
 	\section{BrO Error dependence on external parameters}
 	%HOW IS THE ERROR CALCULATED AND WHY AND DETECTION LIMIT (PLATT \& STUTZ)
-	The measurement depends on the surrounding conditions like temperature or cloudiness\\
+	The measurement and evaluation depends on the surrounding conditions like temperature or cloudiness \cite{lubcke2014optical}\\
 	If choosing a new reference we need to take the surrounding conditions into account\\
-	The better the surrounding conditions of the time where the reference is measured coincide with the conditions the plume is measured, the lower is the BrO error \\
-	The surrounding conditions we take into account are temperature, colorindex, exposure time, elevation-angle and daytime.
+	The better the surrounding conditions of the time where the reference is measured coincide with the conditions of the time when the plume is measured, the lower is the BrO error \\
+	The surrounding conditions we take into account are temperature, colorindex, exposure time, elevation-angle, daytime and the temporal difference.\\
+	In almost all cases (99\%) the absolute BrO Error is minimal when using the reference recorded at the same time as te plume spectrum. So we won't be able to get an BrO Error which is smaller than the "Same Time Error".   
 
 	
 	\subsection{Time}
+	Due to instrument drifts the fit quality decreases with the time difference between recording the plume and the reference. Therefore it is better to use an reference in temporal proximity.\\
+	%
+	\Cref{shiftPic} shows the Instrumental drift as a function of time, to create \cref{shiftPic} we used Tungurahua data, 2008 from June to November. We can observe that the drift changes with time. If we use the reference and plume spectra of the same time, we do not need to care about these effects, since the shift is equal for the plume and reference spectrum, but if the recording time is not the same the quality of the fit changes with the differences in wavelength shift which increases with the time difference.\\
+	In \cref{fig:dat} the BrO Error as a function of the time difference between recording the plume and the reference is shown. The running mean is drawn with a black line. The BrO Error increases with time difference.\\
+	To evaluate the maximal time difference, were we still get reliable results we calculated for all possible reference-plume pairs the corresponding BrO Error. With this data we are able to find for all plume spectra the associated reference where the BrO Error is minimal. In \cref{Histogram} a histogram is plotted with the probability of picking the best reference as a function of the time difference. Obviously the best results are if the day of measuring the reference is the same day as measuring the reference that means, if the time difference is smaller than one day. We allow all time difference which are in one sigma area. 
+	
+	We found out that the time interval where it is still reasonable to use references is about 14 days. Therefore we only use references where the recording time difference between plume and reference is smaller than two weeks. When using a references with a temporal difference to the plume of more than 14 days the probability, that the fit quality and thus the BrO error increases to much for our purposes. \\
+	\\
+
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{Bilder/Datum_100h}
@@ -218,10 +231,7 @@
 		\caption{}
 		\label{fig:dat}
 	\end{figure}
-	\begin{itemize}
-		\item Due to instrument drifts the fit quality decreases with the time difference between recording the plume and the reference. Therefore it is better to use an reference in temporal proximity.
-		\item We found out that the time interval where it is still reasonable to use references is about 14 days. Therefore we only use references where the recording time difference between plume and reference is smaller than two weeks.
-	\end{itemize}
+
 	\subsection{Temperature}
 	%einbinden einer Grafik
 	\begin{figure}[h!]			
