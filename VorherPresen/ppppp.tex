@@ -1,0 +1,55 @@
+\documentclass[]{article}
+\usepackage{graphicx} % Required for including images in figures
+\usepackage{booktabs} % Required for horizontal rules in tables
+\usepackage{multicol} % Required for creating multiple columns in slides
+\usepackage[english]{babel} % Document language - required for customizing section titles
+\usepackage{color}
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{multicol}
+\usepackage{textpos}
+\usepackage{tikz}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+
+%opening
+
+
+\begin{document}
+
+
+\section{Calcualtions}
+
+\begin{equation}
+\Delta \epsilon = \frac{d\epsilon}{dt}+\frac{d\epsilon}{d ^{\circ}}+\frac{d\epsilon}{dT}+\frac{d\epsilon}{ddt} +\frac{d\epsilon}{dc}
+\end{equation}
+With $\epsilon$ describes the BrO Error, t: time between plumetime and referencetime, T, temperaure; dt: daytime, c: colorindex\\
+If we assume a that all differentiations are linear, than we get a 
+equation system :
+
+\begin{equation}
+\Delta \epsilon = a_{t}\cdot\Delta t+a_{^{\circ}}\cdot\Delta ^{\circ}+a_{T}\cdot\Delta T+a_{dt}\cdot\Delta dt +a_{c}\cdot\Delta c
+\end{equation}
+Hereby are the constants 
+\begin{table}[h]
+\begin{tabular}{c|c}
+\toprule
+$a_{t}$&\\
+\midrule
+$a_{^{\circ}}$&\\
+\midrule
+$a_{T}$&\\
+\midrule
+$a_{dt}$&\\
+\midrule
+$a_{c}$&\\
+\bottomrule
+\end{tabular}
+\end{table}
+\section{Error as a function of Plume-Time and Reference Time}
+As one can assume the mean BrO error raises with the time difference between the Plume and the reference. 
+\\
+picture
+\\
+One can observe that a possible time interval where the values of the BrO errors are still acceptable is about 3 days, otherwise the values of the calculated BrO are
+in the majority negative due to instrument drifts. The following figures show how the data changes with the maximum time difference of 3 days - 72 hours
+\end{document}
