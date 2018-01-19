@@ -174,10 +174,21 @@
 	Therefore we use plume location we found by using SO2 to evaluate the BrO column density.\\
 	For the evaluation we use the data of more than one measurement, to increase the fit quality.\\
 	We are mainly interested in the BrO/SO2 ratio, with the calculations described above it is now possible the get this ratio.
-	In \cref{...} is the NOVAC Evaluation visualized.
+	In \cref{...} is the NOVAC Evaluation visualized.\\
+	Taking the BrO/SO2 ratio if the column densities are close to zero yields unpredictable and unrealistic results. Thus spectra measured outside of the volcano plume need to be excluded.
+	This could be achieved by setting a BrO or/and a SO2 threshold. A reasonable BrO threshold need to be at least in the order of the DOAS fit error. But this could lead to elevated BrO/SO2 ratios, since the BrO error is often close to the detection limit, and thus exclude all low BrO column densities from the evaluation.
+	%
 	
+	\textcolor{red}{	
+	To avoid this problem, an SO2 threshold of $7\cdot 10^{17} \frac{molec}{cm^2}$ was used
+	to select spectra for the evaluation of the BrO/SO2 ratio. This threshold is
+	a relatively high SO2 column density. However, for the lower values of the
+	BrO/SO2 ratio in  this would result in a BrO column
+	density as low as $4\cdot 10^{13} \frac{molec}{cm^2}$, a value only slightly higher than the
+	average DOAS retrieval error for BrO. This approach assures that scans not seeing
+	significant amounts of volcanic gas are filtered out and thus will not significantly
+	influence the BrO/SO2 ratio. \citealp{lubcke2014bro}}
 	
-
 	\section{Contamination Problem}
 	\begin{figure}
 		\centering
@@ -299,19 +310,12 @@
 		\label{fig:shorttermshift}
 	\end{figure}
 	\subsection{Temperature}
-	The Instrument design of the NOVAC instruments compromise between accuracy and longetivity as explained in \cref{NOVAC}. In particular there are no internal thermal stabilizations installed as an attempt to reduce the need for power. This can influence the recorded spectra.\\
-	
-	
-	$\bullet$ For DOAS analysy it is crucial to assign the wavelength range of photons collected by each pixel to te respective pixel.
-	%
-	THe wavelength to pixel mapping  (WMP) is commonly performed by a Mercury lamp ore by comparison with the hig hdefined kuruz spectrum. 
-	%
-	The WMP depends on optcal alignment of the spectrometer and therfore it is not constant. This optical alignment depends on the temperature. 
-	%
-	\cite{pinardi2007influence} has shown that variations of the Instruments temperature can cause changes in the instrument line function and can also cause shifts in the WMP.
-	\cite{WarnachSimon} showed the dependency of short term shifts on the instrument temperature \Cref{fig:shorttermshift}.\\
-	
-	
+	The Instrument design of the NOVAC instruments compromise between accuracy and longetivity as explained in \cref{NOVAC}. In particular there are no internal thermal stabilizations installed as an attempt to reduce the need for power. This can influence the recorded spectra.\\	
+	Each pixel of the spectrometer, which is used for the DOAS experiment, collects photons of a certain wavelength range.\\
+	The calibration for the wavelength to pixel mapping (WMP) is commonly done with a Mercury lamp or by the comparison with the high defined Kuruz spectrum.
+	As the WMP depends on the optical alignment of the spectrometer, which itself depends on the temperature, it is not constant.
+	Changes in the spectrometers temperature can cause changes in the instrument line function and shifts in the WMP (\cite{pinardi2007influence}). 
+	Moreover, \cite{WarnachSimon} show that, short term shifts are related to the instrument temperature (see \Cref{fig:shorttermshift}).\\
 	The above discussed temperature dependence of the WMP causes a reduction of the fitquality with increasing instrument temperature between plume and reference. Thus the BrO Error increases as well with the temperature difference. To quantify the BrO error dependency on the temperature all plume spectra of Tungurahua from August 2008 to August 2009 (Nevado del Ruiz from .... to ....) where evaluated with all plume spectra of the same time. In this time span 1647 "multi-add" spectra from tree different instruments where recorded, so we get approximately 1646$^2$ plume reference pairs and their corresponding BrO error and temperature. The BrO error as function of the temperature difference can be seen in \cref{fig:difftemp}. The blue dots shows the mean BrO error at the specific temperature difference, the standard deviation is illustrated with gray bars.\\
 	When compare the data of Tungurahua  and Nevado Del Ruiz it is noteworthy that the BrO error on temperature dependence of the Data of Nevado Del Ruiz is stronger and the deviation is weaker than at Tungurahua, this may occur due to the larger temperature fluctuation at Nevado Del Ruiz. ?????????? quellen bitte!\\
 	When looking at all discussed external parameters, temperature has  the strongest impact on the BrO error due to the strong impact on the WMP.
@@ -355,24 +359,16 @@
 	Clouds  have  a  strong  influence  on  the  atmospheric  radiative  transfer  and  thus  affect  the  interpretation  and  analysis of DOAS - observations \cite{wagner2014cloud}.
 	
 	Clouds can be identified by several measurement quantities that they influence.
-	Since Mie scattering is dominant in clouds, the radiation scattered on a cloud has
-	a different colour than the Rayleigh sky as can be easily observed by the white
-	colour of clouds. Therefore clouds can, for example, be identified by looking at
-	the ratio of the measured intensity at two wavelengths, a so-called colour index.
-	For a zenith-looking instrument clouds usually enhance the measured radiation
-	intensity. \cite{wagner2014cloud}.\\
-
-	If  clouds  are  present  during  the  measurements could this cause large errors of the retrieved gas column density and the corresponding uncertainties.
-	Cloud effects could especially be important if either the plume ore reference is recorded with a cloudy sky while the corresponding reference ore plume was recorded under not cloudy conditions. 
-	This effect could also occur if broken clouds are present. Then, measurements at some elevation angles might "see" clouds while others do not.
-	\\
-	The Colour Index (CI) in this work was calculated between 320nm and 360 nm.
-	The two wavelengths were chosen as they are as far apart as the filter used for
-	stray-light prevention in the spectrometers allows. On the other hand, the lower
-	wavelength avoids the deep UV range where SO2 and O3 absorption plays a
-	dominant role. When clouds are present more radiation from larger wavelengths
-	arrives due to Mie scattering in the cloud. Therefore, the CI decreases when
-	clouds are present. \cite{lubcke2014optical}\\
+	As Mie scattering is dominant in clouds the wavelength of the light that is scattered is different than the Rayleigh sky. Thus, clouds can be easily identified by their white color.
+	Therefore, the cloudiness of the sky can be quantified in a scalar measure defined by the ratio of the measured intensity at two wavelengths, the so-called colour index.
+	\cite{wagner2014cloud} showed that for a zenith-looking instrument the measured radiation intensity is enhanced by clouds. Thus, clouds can cause large errors for the retrieved gas column density and the corresponding uncertainties. 
+	Cloud effects are especially severe if the cloudiness for the recorded plume and reference spectra strongly defer. Also for broken clouds the described effect can be observed as measurements at some elevation angles might be influenced by clouds while others are not.
+	In this work the Colour Index (CI) is the ratio between the intensities at 320nm and 360 nm.
+	These two wavelengths are as far apart as the filter used for stray-light prevention in the spectrometers allows.
+	%% I don’t understand 	
+	On the other hand, the lower wavelength avoids the deep UV range where SO2 and O3 absorption plays a dominant role.
+	%% I don’t understand 	
+	The Mie scattering in the clouds is responsible for the higher amount of radiation from larger wavelengths. This results in a decrease of the CI (\cite{lubcke2014optical}).
 	\\
 	We evaluated the CI at the zenith, to increase the stability of the fit we added in each cases 10 intensitys. Using always the zenith to evaluate the colour index makes the colour index more comparable, but if broken clouds occur, the CI of the reference and the plume could differ from the calculated CI of the zenith. This could be a reason for the large deviations of the mean BrO error as function of the colour index (see \cref{fig:diffcolidx})
 
@@ -415,7 +411,7 @@
 	\end{itemize}
 	%--------------------------------------------------------------------------------------------------------------
 	\chapter{Method}
-	Based on the findings about the influence of external parameters on the BrO error we developed an algorithm which is able to pick an appropriate volcanic trace gas free reference. 
+	Based on the findings about the influence of external parameters on the BrO error we developed an algorithm which is able to pick an appropriate volcanic-trace-gas free reference.\\ 
 	The first step is, to evaluate every reference with solar atlas spectrum, to check for contamination.	A Spectrum is treated as contaminated if the SO2 column density of the reference (evaluated with a solar atlas spectrum) is larger as 2$\cdot 10^{17}\frac{molec}{cm^2}$.\\
 	\\
 	If the reference is contaminated:
@@ -427,57 +423,87 @@
 		\item We evaluate the plume spectra with the new reference.
 	\end{itemize}
 
-	We tried several methods for choosing the best reference based on the analysis of external parameters. Fitting the data with a second order polynomial brought the best results.
+	%
+	The assumption is, that the BrO error $\epsilon_{BrO}$ can be described as the sum of $\epsilon_{0}$ and the deviation of $\epsilon_{BrO}$ with respect to all external parameters. $\epsilon_{0}$ is the BrO error when evalute the plume spectrum with the "same-time-reference", it is determined due to the accurateness of the NOVAC-instruments.
+	\begin{align}
+		\epsilon_{BrO} &=  \epsilon_{0}+\frac{d\epsilon}{dt}+\frac{d\epsilon}{d ^{\circ}}+\frac{d\epsilon}{dT}+\frac{d\epsilon}{ddt} +\frac{d\epsilon}{dc} + \mathcal{O}\left(OE\right) \\
+		\rightarrow \Delta \epsilon_{BrO} &= \epsilon_{BrO} - \epsilon_{0} =\frac{d\epsilon}{dt}+\frac{d\epsilon}{d ^{\circ}}+\frac{d\epsilon}{dT}+\frac{d\epsilon}{ddt} +\frac{d\epsilon}{dc} + \mathcal{O}\left(OP\right) 
+		\label{calc:err}
+	\end{align}
+	With $\epsilon_{BrO}$ describes the BrO Error, t: time between plumetime and referencetime, T, temperaure; dt: daytime, c: colorindex, OP: other excluded external parameters\\
+	The task occurring at this stage is to find the best representation for the deviations. An then find the reference which minimize $\Delta \epsilon_{BrO} $\\
+	%
+	\\
+	%
+	The easiest way is to just calculate the BrO error of all possible references for every plume. Using this method we would be able to just choose the reference where the BrO error is minimal. But this takes to much time since the evaluation would be proportional to the number of possible references because the evaluation need to be done for every plume-reference pair. Doing the evaluation for every plume-reference pair would make it impossible to do the evaluation in real, or near real time.\\
+	%
+	But we use this optimal evaluation to rate our model and compare them among each other. The optimal evaluation always choose the reference with the smallest absolute error. We don't use the relative error due to his vulnerability. Using the relative error could lead to a less preciseness.\\
+	%
+	\\
+	Hier ein Bild, das eine Plume gegen viele referencen auswertet und hier die Abweichungen zeigt\\
+	\\
+	%
+	The results of the algorithm which chooses the reference automatically are described relative to an optimal evaluation. If the relative error is larger than 5 we don't use the data.\\
+	\\
+	We tried several methods for choosing the best reference based on the analysis of external parameters. Fitting the data with a first order polynomial brought the best results.
+	
+	
 	\section{Fit data}
-	linear approximation of the Data
+	When looking at the analysis of the external parameters (see fig. \ref{fig:difftemp}-\ref{fig:diffexptime}) we can observe curves which are symmetric to the zero position. Therefore we conclude that it makes no difference whether the difference of a specific external parameter is positiv or negativ. Thus we take the absolute values for our calculations.\\
+	\\
+	%
+	If we assume that all differentiations are linear, than we can write \cref{calc:err}
+	as:  
+	
+	\begin{equation}
+		\Delta \epsilon_{BrO} = a_{t}\cdot\Delta t+a_{^{\circ}}\cdot\Delta ^{\circ}+a_{T}\cdot\Delta T+a_{dt}\cdot\Delta dt +a_{c}\cdot\Delta c + \mathcal{O}\left(OP\right)
+		\label{calc:delterr}
+	\end{equation}
+	%
+	We used the same data as in \cref{fig:difftemp}-\ref{fig:diffexptime} to get the coefficients $a_{x}$ of \cref{calc:delterr}. We used on ordinary least square linear regression to get the coefficients $a_{x}$. In particular we used the python function LinearRegression from the library sklearn \cite{SKlearn}.  
 
-\vspace{1cm}
-\begin{equation*}
-\Delta	\epsilon_{BrO} = a_{t}\cdot\Delta t+a_{temp}\cdot\Delta temp+a_{daytime}\cdot\Delta daytime +a_{coloridx}\cdot\Delta coloridx
-\end{equation*}
-	Hereby are the constants 
-\begin{table}[h]
-	\begin{tabular}{c|c|c}
-		\toprule
-		Constant& importance& deviation\\
-		\toprule
-		$a_{T}$& 0.661 & 29$\%$\\
-		\midrule
-		$a_{ET}$&0.011&164$\%$\\
-		\midrule
-		$a_{t}$& 0.133&50$\%$\\
-		\midrule
-		$a_{dt}$&0.138&	65$\%$\\
-		\midrule
-		$a_{c}$&0.061&136$\%$\\
-		\bottomrule
-	\end{tabular}
-\end{table}
+	
+	
+	
+	The constants for Tungurahua and Nevado Del Ruiz are:
+	\begin{table}[h]
+		\begin{tabular}{c|c|c}
+			\toprule
+			Constant& importance& deviation\\
+			\toprule
+			$a_{T}$& 0.661 & 29$\%$\\
+			\midrule
+			$a_{ET}$&0.011&164$\%$\\
+			\midrule
+			$a_{t}$& 0.133&50$\%$\\
+			\midrule
+			$a_{dt}$&0.138&	65$\%$\\
+			\midrule
+			$a_{c}$&0.061&136$\%$\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
 	\begin{itemize}
 	
 		\item Plume data are reliable if the SO2 column density is larger as 7 $\cdot 10^{17} \frac{molec}{cm^2}$
 		\item Data are above the detection limit if the column density as two times larger than the fit error.
 		\item If the reference is contaminated:
 
-		\item The results are described relative to an optimal evaluation
-		\item The optimal Evaluation is done by choosing the smallest total error
-		\item If the relative error is larger than 5 we don't use the data
 	\end{itemize}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_minSO2/percentage_minSO2}
-	\caption{}
-	\label{fig:percentageminso2}
-\end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_minSO2/data_minSO2}
-	\caption{}
-	\label{fig:dataminso2}
-\end{figure}
-
-	\section{Other approaches}
-		\begin{table}[h]
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_minSO2/percentage_minSO2}
+		\caption{}
+		\label{fig:percentageminso2}
+	\end{figure}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_minSO2/data_minSO2}
+		\caption{}
+		\label{fig:dataminso2}
+	\end{figure}
+			\begin{table}[h]
 		%		\begin{tabular}{|p{2cm}|p{2.5cm}|p{1.5cm}|p{1.5cm}||p{1cm}|}
 		%		%	\toprule
 		%			&& Error & Amount of Data&davon gültig\\
@@ -513,6 +539,8 @@
 			\bottomrule
 		\end{tabular}
 	\end{table}
+	\section{Other approaches}
+
 	$\bullet$ In the optimal results are 15$\%$ valid data
 	\begin{itemize}
 		\item We also tried other possibilities than fitting to find the reference where the BrO error is minimal. In the following we present two additional possibilities but compared to fitting the results are not as good.
@@ -521,10 +549,17 @@
 	\begin{itemize}
 		\item Description of the Nearest Neighbours Method
 	\end{itemize}
+		\textcolor{red}{Nearest neighbor search (NNS), as a form of proximity search, is the optimization problem of finding the point in a given set that is closest (or most similar) to a given point. Closeness is typically expressed in terms of a dissimilarity function: the less similar the objects, the larger the function values. Formally, the nearest-neighbor (NN) search problem is defined as follows: given a set S of points in a space M and a query point q$\in$ M, find the closest point in S to q. Donald Knuth in vol. 3 of The Art of Computer Programming (1973) called it the post-office problem, referring to an application of assigning to a residence the nearest post office. A direct generalization of this problem is a k-NN search, where we need to find the k closest points.	
+		Most commonly M is a metric space and dissimilarity is expressed as a distance metric, which is symmetric and satisfies the triangle inequality. Even more common, M is taken to be the d-dimensional vector space where dissimilarity is measured using the Euclidean distance, Manhattan distance or other distance metric. However, the dissimilarity function can be arbitrary. One example are asymmetric Bregman divergences, for which the triangle inequality does not hold.}
 	\subsection{Iterative}
 	\begin{itemize}
 		\item Description of the iterative Method
 	\end{itemize}
+	The idea of the iterative method was, that the importance of the individual external parameters are very different, that means if we have the list of possible references, we took all referenes where the temperature difference is minimal, so we get a new, much smaller list of possible referenecs. From this list we choose all references where the next external parameter for example the daytime is minimal and get again a new list. We proceed this way with the following external parameters. We experiment with the sequence of the parameters, to increase the success of the method. The final sequence was:
+	\begin{equation*}
+	Temperature \bullet ................
+	\end{equation*} 
+	
 	\chapter{Comparison with NOVAC Evaluation}
 	\begin{itemize}
 		\item Results only for contaminated data

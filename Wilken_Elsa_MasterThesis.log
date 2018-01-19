@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  19 JAN 2018 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  19 JAN 2018 18:59
 entering extended mode
 **./Wilken_Elsa_MasterThesis.tex
 (Wilken_Elsa_MasterThesis.tex
@@ -998,105 +998,106 @@ LaTeX Warning: Reference ` fig bro' on page 17 undefined on input line 173.
 LaTeX Warning: Reference `...' on page 1 undefined on input line 177.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--178
+Underfull \hbox (badness 10000) in paragraph at lines 166--188
 
  []
 
 [17
 
  <./Bilder/Simon/Bilder_Tung/Algorithm.png>]
-<Bilder/contaminated.pdf, id=374, pagebox=cropbox, 370.38374pt x 341.275pt>
-File: Bilder/contaminated.pdf Graphic file (type pdf)
-<use Bilder/contaminated.pdf>
-Package pdftex.def Info: Bilder/contaminated.pdf  used on input line 184. on in
-put line 184.
-Package pdftex.def Info: Requested size: 298.75267pt x 275.27518pt on input lin
-e 184.
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--205
-
- []
-
-[18 <./Bilder/Simon/Bilder_Tung/SO2_Scan.png (PNG copy)> <./Bilder/Simon/Bilder
-_Tung/BrO_Scan.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 206--216
-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./Bilder/contaminated.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 218--233
+ [18 <./Bilder/Simon/Bilder_Tung/SO2_Scan.png (PNG copy)> <./Bilder/Simon/Bilde
+r_Tung/BrO_Scan.png (PNG copy)>]
+<Bilder/contaminated.pdf, id=387, pagebox=cropbox, 370.38374pt x 341.275pt>
+File: Bilder/contaminated.pdf Graphic file (type pdf)
+<use Bilder/contaminated.pdf>
+Package pdftex.def Info: Bilder/contaminated.pdf  used on input line 192. on in
+put line 192.
+Package pdftex.def Info: Requested size: 298.75267pt x 275.27518pt on input lin
+e 192.
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--233
+Underfull \hbox (badness 10000) in paragraph at lines 196--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--233
+Underfull \hbox (badness 10000) in paragraph at lines 196--213
+
+ []
+
+[19 <./Bilder/contaminated.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 214--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--233
+Underfull \hbox (badness 10000) in paragraph at lines 226--241
 
  []
 
-<E:/Masterarbeit/Analyse_Contamination/contaminationdependency_so2.pdf, id=403,
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--241
+
+ []
+
+[20]
+<E:/Masterarbeit/Analyse_Contamination/contaminationdependency_so2.pdf, id=416,
  pagebox=cropbox, 505.89pt x 505.89pt>
 File: E:/Masterarbeit/Analyse_Contamination/contaminationdependency_so2.pdf Gra
 phic file (type pdf)
 <use E:/Masterarbeit/Analyse_Contamination/contaminationdependency_so2.pdf>
 Package pdftex.def Info: E:/Masterarbeit/Analyse_Contamination/contaminationdep
-endency_so2.pdf  used on input line 236. on input line 236.
+endency_so2.pdf  used on input line 244. on input line 244.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 236.
-<E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro.pdf, id=404,
+e 244.
+<E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro.pdf, id=417,
  pagebox=cropbox, 505.89pt x 505.89pt>
 File: E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro.pdf Gra
 phic file (type pdf)
 <use E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro.pdf>
 Package pdftex.def Info: E:/Masterarbeit/Analyse_Contamination/contaminationdep
-endency_bro.pdf  used on input line 242. on input line 242.
+endency_bro.pdf  used on input line 250. on input line 250.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 242.
-<E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio.pdf, id=40
-5, pagebox=cropbox, 505.89pt x 505.89pt>
+e 250.
+<E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio.pdf, id=41
+8, pagebox=cropbox, 505.89pt x 505.89pt>
 File: E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio.pdf G
 raphic file (type pdf)
 <use E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio.pdf>
 Package pdftex.def Info: E:/Masterarbeit/Analyse_Contamination/contaminationdep
-endency_ratio.pdf  used on input line 248. on input line 248.
+endency_ratio.pdf  used on input line 256. on input line 256.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 248.
-[20] [21 <E:/Masterarbeit/Analyse_Contamination/contaminationdependency_so2.pdf
->] [22 <E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro.pdf>]
-[23 <E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio.pdf>]
+e 256.
+ [21 <E:/Masterarbeit/Analyse_Contamination/contaminationdependency_so2.pdf>] [
+22 <E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro.pdf>] [23
+ <E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio.pdf>]
 chapter 4.
-<Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png, id=588, 712.91344pt x 752.812
+<Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png, id=593, 712.91344pt x 752.812
 5pt>
 File: Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png  used 
-on input line 272. on input line 272.
+on input line 280. on input line 280.
 Package pdftex.def Info: Requested size: 298.75267pt x 315.46689pt on input lin
-e 272.
+e 280.
 
-LaTeX Warning: Reference `Histogram' on page 1 undefined on input line 279.
+LaTeX Warning: Reference `Histogram' on page 1 undefined on input line 287.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1104,41 +1105,41 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [24
 
 ]
-<Bilder/Datum_100h.pdf, id=601, pagebox=cropbox, 361.35pt x 578.16pt>
+<Bilder/Datum_100h.pdf, id=605, pagebox=cropbox, 361.35pt x 578.16pt>
 File: Bilder/Datum_100h.pdf Graphic file (type pdf)
 <use Bilder/Datum_100h.pdf>
-Package pdftex.def Info: Bilder/Datum_100h.pdf  used on input line 285. on inpu
-t line 285.
+Package pdftex.def Info: Bilder/Datum_100h.pdf  used on input line 293. on inpu
+t line 293.
 Package pdftex.def Info: Requested size: 298.75267pt x 478.01123pt on input lin
-e 285.
-<Bilder/Datum.png, id=602, 1300.86pt x 505.89pt>
+e 293.
+<Bilder/Datum.png, id=606, 1300.86pt x 505.89pt>
 File: Bilder/Datum.png Graphic file (type png)
 <use Bilder/Datum.png>
-Package pdftex.def Info: Bilder/Datum.png  used on input line 290. on input lin
-e 290.
+Package pdftex.def Info: Bilder/Datum.png  used on input line 298. on input lin
+e 298.
 Package pdftex.def Info: Requested size: 469.47313pt x 182.56796pt on input lin
-e 290.
+e 298.
 
-Overfull \hbox (42.68173pt too wide) in paragraph at lines 290--291
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 298--299
 [][] 
  []
 
-<Bilder/Simon/Bilder_Tung/D2J2140_Before.png, id=604, 579.3645pt x 405.9165pt>
+<Bilder/Simon/Bilder_Tung/D2J2140_Before.png, id=608, 579.3645pt x 405.9165pt>
 File: Bilder/Simon/Bilder_Tung/D2J2140_Before.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/D2J2140_Before.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/D2J2140_Before.png  used on i
-nput line 296. on input line 296.
+nput line 304. on input line 304.
 Package pdftex.def Info: Requested size: 209.13013pt x 146.52003pt on input lin
-e 296.
-<Bilder/Simon/Bilder_Tung/D2J2140_After.png, id=605, 580.3281pt x 405.1938pt>
+e 304.
+<Bilder/Simon/Bilder_Tung/D2J2140_After.png, id=609, 580.3281pt x 405.1938pt>
 File: Bilder/Simon/Bilder_Tung/D2J2140_After.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/D2J2140_After.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/D2J2140_After.png  used on in
-put line 297. on input line 297.
+put line 305. on input line 305.
 Package pdftex.def Info: Requested size: 209.13013pt x 146.01804pt on input lin
-e 297.
+e 305.
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--301
+Underfull \hbox (badness 10000) in paragraph at lines 289--309
 
  []
 
@@ -1152,62 +1153,59 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--313
-
- []
-
-<Bilder/DiffTemp_Tungu.pdf, id=619, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DiffTemp_Tungu.pdf, id=623, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffTemp_Tungu.pdf Graphic file (type pdf)
 <use Bilder/DiffTemp_Tungu.pdf>
-Package pdftex.def Info: Bilder/DiffTemp_Tungu.pdf  used on input line 319. on 
-input line 319.
-Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
- 319.
-<Bilder/DiffTemp_Nevad.pdf, id=620, pagebox=cropbox, 505.89pt x 505.89pt>
-File: Bilder/DiffTemp_Nevad.pdf Graphic file (type pdf)
-<use Bilder/DiffTemp_Nevad.pdf>
-Package pdftex.def Info: Bilder/DiffTemp_Nevad.pdf  used on input line 320. on 
+Package pdftex.def Info: Bilder/DiffTemp_Tungu.pdf  used on input line 320. on 
 input line 320.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
  320.
+<Bilder/DiffTemp_Nevad.pdf, id=624, pagebox=cropbox, 505.89pt x 505.89pt>
+File: Bilder/DiffTemp_Nevad.pdf Graphic file (type pdf)
+<use Bilder/DiffTemp_Nevad.pdf>
+Package pdftex.def Info: Bilder/DiffTemp_Nevad.pdf  used on input line 321. on 
+input line 321.
+Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
+ 321.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 325.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 326.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 325.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-[27 <./Bilder/Datum_100h.pdf>]
-<Bilder/Diffdaytime_Tungu.pdf, id=679, pagebox=cropbox, 505.89pt x 505.89pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 326.
+<Bilder/Diffdaytime_Tungu.pdf, id=626, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/Diffdaytime_Tungu.pdf Graphic file (type pdf)
 <use Bilder/Diffdaytime_Tungu.pdf>
-Package pdftex.def Info: Bilder/Diffdaytime_Tungu.pdf  used on input line 334. 
-on input line 334.
-Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
- 334.
-<Bilder/Diffdaytime_Nevad.pdf, id=680, pagebox=cropbox, 505.89pt x 505.89pt>
-File: Bilder/Diffdaytime_Nevad.pdf Graphic file (type pdf)
-<use Bilder/Diffdaytime_Nevad.pdf>
-Package pdftex.def Info: Bilder/Diffdaytime_Nevad.pdf  used on input line 335. 
+Package pdftex.def Info: Bilder/Diffdaytime_Tungu.pdf  used on input line 335. 
 on input line 335.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
  335.
- [28 <./Bilder/Datum.png> <./Bilder/Simon/Bilder_Tung/D2J2140_Before.png (PNG c
-opy)> <./Bilder/Simon/Bilder_Tung/D2J2140_After.png (PNG copy)>] [29 <./Bilder/
-DiffTemp_Tungu.pdf> <./Bilder/DiffTemp_Nevad.pdf
+<Bilder/Diffdaytime_Nevad.pdf, id=627, pagebox=cropbox, 505.89pt x 505.89pt>
+File: Bilder/Diffdaytime_Nevad.pdf Graphic file (type pdf)
+<use Bilder/Diffdaytime_Nevad.pdf>
+Package pdftex.def Info: Bilder/Diffdaytime_Nevad.pdf  used on input line 336. 
+on input line 336.
+Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
+ 336.
+ [26] [27 <./Bilder/Datum_100h.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+[28 <./Bilder/Datum.png> <./Bilder/Simon/Bilder_Tung/D2J2140_Before.png (PNG co
+py)> <./Bilder/Simon/Bilder_Tung/D2J2140_After.png (PNG copy)>]
+Overfull \vbox (1.35753pt too high) has occurred while \output is active []
+
+
+[29 <./Bilder/DiffTemp_Tungu.pdf> <./Bilder/DiffTemp_Nevad.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/DiffTemp_Nevad.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
@@ -1220,259 +1218,261 @@ on: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./Bilder/Diffdaytime_Nevad.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
-
- []
-
-<Bilder/DiffColidx_Tungu.pdf, id=876, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DiffColidx_Tungu.pdf, id=880, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffColidx_Tungu.pdf Graphic file (type pdf)
 <use Bilder/DiffColidx_Tungu.pdf>
-Package pdftex.def Info: Bilder/DiffColidx_Tungu.pdf  used on input line 350. o
-n input line 350.
-Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
- 350.
-<Bilder/DiffColidx_Nevad.pdf, id=877, pagebox=cropbox, 505.89pt x 505.89pt>
-File: Bilder/DiffColidx_Nevad.pdf Graphic file (type pdf)
-<use Bilder/DiffColidx_Nevad.pdf>
-Package pdftex.def Info: Bilder/DiffColidx_Nevad.pdf  used on input line 351. o
+Package pdftex.def Info: Bilder/DiffColidx_Tungu.pdf  used on input line 351. o
 n input line 351.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
  351.
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--364
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--378
-
- []
-
-[30 <./Bilder/DiffColidx_Tungu.pdf> <./Bilder/DiffColidx_Nevad.pdf
+<Bilder/DiffColidx_Nevad.pdf, id=881, pagebox=cropbox, 505.89pt x 505.89pt>
+File: Bilder/DiffColidx_Nevad.pdf Graphic file (type pdf)
+<use Bilder/DiffColidx_Nevad.pdf>
+Package pdftex.def Info: Bilder/DiffColidx_Nevad.pdf  used on input line 352. o
+n input line 352.
+Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
+ 352.
+ [30 <./Bilder/DiffColidx_Tungu.pdf> <./Bilder/DiffColidx_Nevad.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/DiffColidx_Nevad.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
-<Bilder/DiffElevAngle_Tungu.pdf, id=978, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DiffElevAngle_Tungu.pdf, id=982, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffElevAngle_Tungu.pdf Graphic file (type pdf)
 <use Bilder/DiffElevAngle_Tungu.pdf>
-Package pdftex.def Info: Bilder/DiffElevAngle_Tungu.pdf  used on input line 388
-. on input line 388.
+Package pdftex.def Info: Bilder/DiffElevAngle_Tungu.pdf  used on input line 381
+. on input line 381.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
- 388.
-<Bilder/DiffElevAngle_Nevad.pdf, id=979, pagebox=cropbox, 505.89pt x 505.89pt>
+ 381.
+<Bilder/DiffElevAngle_Nevad.pdf, id=983, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffElevAngle_Nevad.pdf Graphic file (type pdf)
 <use Bilder/DiffElevAngle_Nevad.pdf>
-Package pdftex.def Info: Bilder/DiffElevAngle_Nevad.pdf  used on input line 389
-. on input line 389.
+Package pdftex.def Info: Bilder/DiffElevAngle_Nevad.pdf  used on input line 382
+. on input line 382.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
- 389.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Bilder/DiffExpTime_Tungu.pdf, id=980, pagebox=cropbox, 505.89pt x 505.89pt>
+ 382.
+<Bilder/DiffExpTime_Tungu.pdf, id=984, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffExpTime_Tungu.pdf Graphic file (type pdf)
 <use Bilder/DiffExpTime_Tungu.pdf>
-Package pdftex.def Info: Bilder/DiffExpTime_Tungu.pdf  used on input line 400. 
-on input line 400.
+Package pdftex.def Info: Bilder/DiffExpTime_Tungu.pdf  used on input line 393. 
+on input line 393.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
- 400.
-<Bilder/DiffExpTime_Nevad.pdf, id=981, pagebox=cropbox, 505.89pt x 505.89pt>
+ 393.
+<Bilder/DiffExpTime_Nevad.pdf, id=985, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DiffExpTime_Nevad.pdf Graphic file (type pdf)
 <use Bilder/DiffExpTime_Nevad.pdf>
-Package pdftex.def Info: Bilder/DiffExpTime_Nevad.pdf  used on input line 401. 
-on input line 401.
+Package pdftex.def Info: Bilder/DiffExpTime_Nevad.pdf  used on input line 394. 
+on input line 394.
 Package pdftex.def Info: Requested size: 209.13013pt x 209.1299pt on input line
- 401.
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
-
- []
-
-[32 <./Bilder/DiffElevAngle_Tungu.pdf> <./Bilder/DiffElevAngle_Nevad.pdf
+ 394.
+[31 <./Bilder/DiffElevAngle_Tungu.pdf> <./Bilder/DiffElevAngle_Nevad.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/DiffElevAngle_Nevad.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] [33 <./Bilder/DiffExpTime_Tungu.pdf> <./Bilder/DiffExpTime_Nevad.pdf
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+[32 <./Bilder/DiffExpTime_Tungu.pdf> <./Bilder/DiffExpTime_Nevad.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/DiffExpTime_Nevad.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
 chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--422
+Underfull \hbox (badness 10000) in paragraph at lines 411--415
 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 429--446
 
-[34
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--446
+
+ []
+
+[33
 
 ]
-<E:/Masterarbeit/Analyse_minSO2/percentage_minSO2.pdf, id=1181, pagebox=cropbox
+Underfull \hbox (badness 10000) in paragraph at lines 449--454
+
+ []
+
+[34]
+<E:/Masterarbeit/Analyse_minSO2/percentage_minSO2.pdf, id=1196, pagebox=cropbox
 , 361.35pt x 289.08pt>
 File: E:/Masterarbeit/Analyse_minSO2/percentage_minSO2.pdf Graphic file (type p
 df)
 <use E:/Masterarbeit/Analyse_minSO2/percentage_minSO2.pdf>
 Package pdftex.def Info: E:/Masterarbeit/Analyse_minSO2/percentage_minSO2.pdf  
-used on input line 468. on input line 468.
+used on input line 493. on input line 493.
 Package pdftex.def Info: Requested size: 298.75267pt x 239.0056pt on input line
- 468.
-<E:/Masterarbeit/Analyse_minSO2/data_minSO2.pdf, id=1182, pagebox=cropbox, 361.
+ 493.
+<E:/Masterarbeit/Analyse_minSO2/data_minSO2.pdf, id=1197, pagebox=cropbox, 361.
 35pt x 289.08pt>
 File: E:/Masterarbeit/Analyse_minSO2/data_minSO2.pdf Graphic file (type pdf)
 <use E:/Masterarbeit/Analyse_minSO2/data_minSO2.pdf>
 Package pdftex.def Info: E:/Masterarbeit/Analyse_minSO2/data_minSO2.pdf  used o
-n input line 474. on input line 474.
+n input line 499. on input line 499.
 Package pdftex.def Info: Requested size: 298.75267pt x 239.0056pt on input line
- 474.
+ 499.
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
 []\T1/cmr/m/n/12 Amount
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
 []\T1/cmr/m/n/12 valid
  []
 
 
-Overfull \hbox (1.83015pt too wide) in paragraph at lines 502--503
+Overfull \hbox (1.83015pt too wide) in paragraph at lines 525--526
 [][]| 
  []
 
 
-Overfull \hbox (2.2226pt too wide) in paragraph at lines 503--504
+Overfull \hbox (2.2226pt too wide) in paragraph at lines 526--527
 []\T1/cmr/m/n/12 10,5$\OT1/cmr/m/n/12 %$| 
  []
 
 
-Overfull \hbox (1.83015pt too wide) in paragraph at lines 506--507
+Overfull \hbox (1.83015pt too wide) in paragraph at lines 529--530
 [][]| 
  []
 
 
-Overfull \hbox (1.83015pt too wide) in paragraph at lines 510--511
+Overfull \hbox (1.83015pt too wide) in paragraph at lines 533--534
 [][]| 
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 [35 <E:/Masterarbeit/Analyse_minSO2/percentage_minSO2.pdf>] [36 <E:/Masterarbei
-t/Analyse_minSO2/data_minSO2.pdf>]
+t/Analyse_minSO2/data_minSO2.pdf>] [37]
 chapter 6.
 
-Overfull \hbox (7.10025pt too wide) in paragraph at lines 532--533
+Overfull \hbox (7.10025pt too wide) in paragraph at lines 564--565
 []\T1/cmr/m/n/12 Difference in SO2 data eval-u-ated with NOVAC-method and conta
 mination-
  []
 
 
-Overfull \hbox (7.58633pt too wide) in paragraph at lines 533--534
+Overfull \hbox (7.58633pt too wide) in paragraph at lines 565--566
 []\T1/cmr/m/n/12 Difference in BrO data eval-u-ated with NOVAC-method and conta
 mination-
- []
-
-[37
-
-]
-chapter 7.
-
-LaTeX Warning: Command \" invalid in math mode on input line 552.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 552.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 552.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 552.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 552.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 552.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 552.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 552.
-
-Missing character: There is no ü in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 552--554
-
- []
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 567.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 567.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 567.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 567.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 567.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 567.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 567.
-
-Missing character: There is no ü in font cmr10!
-
-LaTeX Warning: Command \" invalid in math mode on input line 567.
-
-Missing character: There is no ü in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 567--569
-
  []
 
 [38
 
 ]
-chapter 8.
+chapter 7.
+
+LaTeX Warning: Command \" invalid in math mode on input line 584.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 584.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 584.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 584.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 584.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 584.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 584.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 584.
+
+Missing character: There is no ü in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--586
+
+ []
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 599.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 599.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 599.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 599.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 599.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 599.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 599.
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Command \" invalid in math mode on input line 599.
+
+Missing character: There is no ü in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--601
+
+ []
+
 [39
 
 ]
-chapter 9.
+chapter 8.
 [40
+
+]
+chapter 9.
+[41
 
 ]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 585.
-[41
+(scrkbase)              on input line 617.
+[42
 
 ]
 
@@ -1487,7 +1487,7 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              inconsistent.
 (scrreprt)              Because of this, you should remove `\end{appendix}'
 (scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 586.
+(scrreprt)              `\appendix' on input line 618.
 
 chapter A.
 (Wilken_Elsa_MasterThesis.lof
@@ -1504,24 +1504,28 @@ Overfull \hbox (1.7165pt too wide) in paragraph at lines 8--8
 \tf@lot=\write6
 \openout6 = `Wilken_Elsa_MasterThesis.lot'.
 
- (Wilken_Elsa_MasterThesis.bbl [42
+ (Wilken_Elsa_MasterThesis.bbl [43
 
 ]
 chapter B.
-[43
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [44
 
-]) [44]
+]) [45]
 \openout2 = `deposition.aux'.
 
- (deposition.tex) [45
+
+(deposition.tex) [46
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 595.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 595.
- (Wilken_Elsa_MasterThesis.aux
-(titlepages-eng.aux) (abstracts.aux) (deposition.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 595.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 595.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 627.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 627.
+ (Wilken_Elsa_MasterThesis.aux (titlepages-eng.aux)
+(abstracts.aux) (deposition.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 627.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 627.
 Package rerunfilecheck Info: File `Wilken_Elsa_MasterThesis.out' has not change
 d.
 (rerunfilecheck)             Checksum: 9AE1291C4FF47591C00390F3A03BFD9F;3224.
@@ -1529,44 +1533,46 @@ d.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 595.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 627.
  ) 
 Here is how much of TeX's memory you used:
- 11394 strings out of 493312
- 190834 string characters out of 3138883
+ 11428 strings out of 493312
+ 191644 string characters out of 3138883
  389665 words of memory out of 3000000
- 14575 multiletter control sequences out of 15000+200000
- 21201 words of font info for 47 fonts, out of 3000000 for 9000
+ 14600 multiletter control sequences out of 15000+200000
+ 21514 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,11n,80p,8837b,587s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
 i600\ecti1200.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Novac_Eval\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2488.pk> <C:\Users\Novac_
-Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <
+\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Novac_Eval\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Novac_
+Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2488.pk> <
 C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecsx1440.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
-appen\ec\dpi600\ecsx1200.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk> <C:\Users\Novac_Eval\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Novac_Eval
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\U
-sers\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecs
-x1728.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecrm1440.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\jknappen\ec\dpi600\ecss1440.pk> <C:\Users\Novac_Eval\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1728.pk><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Wilken_Elsa_MasterThesis.pdf (45 pages, 3413924 bytes).
+\ecrm1200.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecsx1440.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\Novac_Eval\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk> <C:\Users\Novac_Eval
+\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\U
+sers\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
+x1095.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecsx1728.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk
+\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Novac_Eval\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1440.pk> <C:\Users\Novac_Eval\App
+Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1728.pk><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Wilken_Elsa_MasterThesis.pdf (46 pages, 3438400 bytes).
 PDF statistics:
- 1976 PDF objects out of 2073 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
+ 2030 PDF objects out of 2073 (max. 8388607)
+ 153 named destinations out of 1000 (max. 500000)
  529 words of extra memory for PDF output out of 10000 (max. 10000000)
 
