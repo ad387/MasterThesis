@@ -28,6 +28,8 @@
 \usepackage                     {hyperref}
 \usepackage						{cleveref}
 \usepackage						{subfigure}
+\usepackage						{multirow}
+\usepackage						{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 % links
 \definecolor{darkblue}{rgb}{0.0,0.0,0.4}
 \definecolor{darkgreen}{rgb}{0.0,0.4,0.0}
@@ -183,7 +185,8 @@
 		\caption{}
 		\label{fig:contaminated}
 	\end{figure}
-	
+	---------------------- genaue angebane tungurhaua u NEVADO\\
+	\\
 	It might occur that in rare (ca. 10\% of the data) scenarios, the
 	volcanic plume covers the whole scan region.
 	This could happen if for example the volcanic plume of the day before still extend over the hole scan area as a consequence of windless conditions.
@@ -412,19 +415,29 @@
 	\end{itemize}
 	%--------------------------------------------------------------------------------------------------------------
 	\chapter{Method}
+	Based on the findings about the influence of external parameters on the BrO error we developed an algorithm which is able to pick an appropriate volcanic trace gas free reference. 
+	The first step is, to evaluate every reference with solar atlas spectrum, to check for contamination.	A Spectrum is treated as contaminated if the SO2 column density of the reference (evaluated with a solar atlas spectrum) is larger as 2$\cdot 10^{17}\frac{molec}{cm^2}$.\\
+	\\
+	If the reference is contaminated:
+	\begin{itemize}
+		\item We have a list of possible references where all references are not contaminated and the temporal distance to the plume date is no longer than 14 days.
+		\item we calculate of all possible references the differences in the external parameters
+		\item We use the analysis of external parameters described above to estimate the BrO error of all references
+		\item We choose the reference with the smallest estimated BrO error as new reference
+		\item We evaluate the plume spectra with the new reference.
+	\end{itemize}
+
+	We tried several methods for choosing the best reference based on the analysis of external parameters. Fitting the data with a second order polynomial brought the best results.
 	\section{Fit data}
 	\begin{itemize}
-		\item A Spectrum is treated as contaminated if the SO2 column density of the reference (evaluated with a solar atlas spectrum) is larger as 2$\cdot 10^{17}\frac{molec}{cm^2}$.
+	
 		\item Plume data are reliable if the SO2 column density is larger as 7 $\cdot 10^{17} \frac{molec}{cm^2}$
 		\item Data are above the detection limit if the column density as two times larger than the fit error.
 		\item If the reference is contaminated:
-		\begin{itemize}
-			\item We have a list of possible references where all references are not contaminated and the temporal distance to the plume date is no longer than 14 days.
-			\item we calculate of all possible references the differences in the external parameters
-			\item We use the analyse of external parameters described above to estimate the BrO error of all references
-			\item We choose the reference with the smallest estimated BrO error as new reference
-			\item We evaluate the plume spectra with the new reference.
-		\end{itemize}
+
+		\item The results are described relative to an optimal evaluation
+		\item The optimal Evaluation is done by choosing the smallest total error
+		\item If the relative error is larger than 5 we don't use the data
 	\end{itemize}
 \begin{figure}
 	\centering
@@ -440,6 +453,43 @@
 \end{figure}
 
 	\section{Other approaches}
+		\begin{table}[h]
+		%		\begin{tabular}{|p{2cm}|p{2.5cm}|p{1.5cm}|p{1.5cm}||p{1cm}|}
+		%		%	\toprule
+		%			&& Error & Amount of Data&davon gültig\\
+		%			\toprule
+		%			\multirow{2}{5em}{All Variables} 
+		%				& independent& 1.51 & 95$\%$&10,5$\%$\\
+		%				& dependent & 1.40&176 &14\\
+		%			\midrule
+		%			\multirow{2}{5em}{Exposure Time}
+		%					&  independent &1.47&174&18\\
+		%					& All &1.39&176&13\\
+		%			\midrule
+		%			\multirow{2}{5em}{Exp.Time u Coloridx}
+		%					&  independent &1.4&175&20\\
+		%					& All &1.35&176&13\\
+		%			\bottomrule
+		%		\end{tabular}
+		\begin{tabular}{|p{2cm}|p{2.5cm}|p{1.5cm}|p{1.5cm}||p{1cm}|}
+			%	\toprule
+			&& Error & Amount of Data&valid data\\
+			\toprule
+			\multirow{2}{5em}{All Variables} 
+			& independent& 1.51 & 95$\%$&10,5$\%$\\
+			& dependent & 1.40&98$\%$ &8$\%$\\
+			\midrule
+			\multirow{2}{5em}{Exposure Time}
+			&  independent &1.47&97$\%$&10$\%$\\
+			& All &1.39&98$\%$&7$\%$\\
+			\midrule
+			\multirow{2}{5em}{Exp.Time u Coloridx}
+			&  independent &1.40& 98$\%$&11\\
+			& All & 1.35& 98$\%$&7$\%$\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	$\bullet$ In the optimal results are 15$\%$ valid data
 	\begin{itemize}
 		\item We also tried other possibilities than fitting to find the reference where the BrO error is minimal. In the following we present two additional possibilities but compared to fitting the results are not as good.
 	\end{itemize}
