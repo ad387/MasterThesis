@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -25,6 +25,14 @@ Peter L{\"u}bcke, Nicole Bobrowski, S~Arellano, Bo~Galle, G~Garz{\'o}n, Leif
 \newblock Bro/so 2 molar ratios from scanning doas measurements in the novac
   network.
 \newblock \emph{Solid Earth}, 5\penalty0 (1):\penalty0 409, 2014.
+
+\bibitem[Pinardi et~al.(2007)Pinardi, Roozendael, and
+  Fayt]{pinardi2007influence}
+G~Pinardi, MV~Roozendael, and C~Fayt.
+\newblock The influence of spectrometer temperature variability on the data
+  retrieval of so2.
+\newblock \emph{NOVAC second annual activity report, NOVAC consortium},
+  44:\penalty0 48, 2007.
 
 \bibitem[Platt and Bobrowski(2015)]{platt2015quantification}
 U~Platt and N~Bobrowski.
@@ -69,6 +77,14 @@ Thorvaldur Thordarson and Stephen Self.
   eruption: A review and reassessment.
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 108\penalty0
   (D1), 2003.
+
+\bibitem[Wagner et~al.(2014)Wagner, Apituley, Beirle, D{\"o}rner, Friess,
+  Remmers, and Shaiganfar]{wagner2014cloud}
+T~Wagner, A~Apituley, S~Beirle, S~D{\"o}rner, U~Friess, J~Remmers, and
+  R~Shaiganfar.
+\newblock Cloud detection and classification based on max-doas observations.
+\newblock \emph{Atmospheric Measurement Techniques}, 7\penalty0 (5):\penalty0
+  1289--1320, 2014.
 
 \bibitem[Warnach(2015)]{WarnachSimon}
 Simon Warnach.

@@ -51,10 +51,32 @@
 	\input{Chapters/1_Intruduction}
 	\part{Theoretical Background}
 	\section{Volcanism and volcanic chemistry}
+
+	
 	\subsection{Volcanism}
 	\subsection{Volcanic degassing}
+		\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Plume}
+		\caption{}
+		\label{fig:broplume}
+	\end{figure}
 	\subsection{Volcanic gases and their impact on the climate}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/Climate_Influence}
+		\caption{}
+		\label{fig:climateinfluence}
+	\end{figure}
+	
 	\subsection{Volcanic plume chemistry}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Explosion}
+		\caption{}
+		\label{fig:broexplosion}
+	\end{figure}
+	
 	\subsection{Sulphur species}
 	\subsection{Bromine oxide}
 	\subsection{Using volcanic gases to study volcanic activity}
@@ -63,6 +85,12 @@
 	\subsection{Scattering processes in the atmosphere}
 	\subsection{Beer-Lambert Law}
 	\subsection{Differential Optical Absorption Spectroscopy(DOAS)\label{DOAS}}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/DOAS_Intensity}
+		\caption{}
+		\label{fig:doasintensity}
+	\end{figure}
 	
 	\part{Evaluation of the Data of Tungurahua and Nevado Del Ruiz}
 	
@@ -86,6 +114,11 @@
 		The instruments used in NOVAC are scanning UV-spectrometer : Mini Doas instruments. \\
 		The  Mini-DOAS  instrument  represents  a  major  breakthrough  in  volcanic  gas	monitoring as it is capable of real-time semi-continuous unattended measurement of the total emission fluxes of  SO2	and BrO from a volcano. Semi-continues means in this case that the measurement is only possible during day time when enough Sun light is there.\\
 		%
+		\begin{figure}
+			\subfigure[Bezeichnung der linken Grafik]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/NOVAC_Instrument}}
+			\subfigure[Bezeichnung der rechten Grafik]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/NOVAC_scan_geo}}
+			\caption{Titel unterm gesamten Bild}
+		\end{figure}
 		The  basic  mini-DOAS  system  consists  of  a  pointing  telescope  fiber-coupled  to  a  spectrograph.  
 		Ultraviolet light from the sun, scattered from aerosols and molecules in the atmosphere, is collected by 
 		means  of  a  telescope  with  a  quartz  lens  defining  a  field-of-view  of  12  mrad.
@@ -96,7 +129,13 @@
 		This comes along with a reduced precision of the data, but the huge amount of data produced by NOVAC compensates this disadvantage.  
 	
 	
-	\chapter{Measurement Routine}
+	\section{Measurement Routine}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\linewidth]{Bilder/Simon/Bilder_Tung/Map_Tungurahua2}
+		\caption{}
+		\label{fig:maptungurahua2}
+	\end{figure}
 	The Instruments are set up five to ten km downwind of the volcano of the volcano. To cover most of the occurring wind directions two to five instruments are installed at each volcano. Ideally the measurement plane is orthogonal to the plume, to get the best measurement results. In reality the measurement plane could be twisted.\\
 	The Instruments record spectra in different viewing angles covering a the hole sky from horizon to horizon from 
 	-90$^{\circ}$ to 90$^{\circ}$. The zenith is at 0$^{\circ}$.
@@ -104,8 +143,21 @@
 	Afterwards the dark current spectrum is recorded.\\
 	Then the Instrument turns automatically to the side, recording spectra at the Elevation Angle from -90$^{\circ}$ to 90$^{\circ}$ with steps of 3.6$^{\circ}$. \\
 	One hole measurement takes from 6 to 15 minutes.
+
+	
 	\chapter{Evaluation Routine}
 	\section{NOVAC-Evaluation}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.5\linewidth]{Bilder/Simon/Bilder_Tung/Algorithm}
+		\caption{}
+		\label{fig:algorithm}
+	\end{figure}
+	\begin{figure}
+		\subfigure[Bezeichnung der linken Grafik]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan}}
+		\subfigure[Bezeichnung der rechten Grafik]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/BrO_Scan}}
+		\caption{Titel unterm gesamten Bild}
+	\end{figure}
 	In the following we describe the technical implementation of the DOAS approach using the data of NOVAC instruments:\\
 	The first important task is to locate volcano plume and the reference region using the data from te measurement routine described above.
 	
@@ -212,33 +264,60 @@
 	\subsection{Time}
 	Due to instrument drifts the fit quality decreases with the time difference between recording the plume and the reference. Therefore it is better to use an reference in temporal proximity.\\
 	%
-	\Cref{shiftPic} shows the Instrumental drift as a function of time, to create \cref{shiftPic} we used Tungurahua data, 2008 from June to November. We can observe that the drift changes with time. If we use the reference and plume spectra of the same time, we do not need to care about these effects, since the shift is equal for the plume and reference spectrum, but if the recording time is not the same the quality of the fit changes with the differences in wavelength shift which increases with the time difference.\\
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW}
+		\caption{}
+		\label{fig:driftkomplettnew}
+	\end{figure}
+	%
+	\Cref{fig:driftkomplettnew} shows the Instrumental drift as a function of time, to create \cref{fig:driftkomplettnew} we used Tungurahua data, 2008 from June to November. We can observe that the drift changes with time. If we use the reference and plume spectra of the same time, we do not need to care about these effects, since the shift is equal for the plume and reference spectrum, but if the recording time is not the same the quality of the fit changes with the differences in wavelength shift which increases with the time difference.\\
 	In \cref{fig:dat} the BrO Error as a function of the time difference between recording the plume and the reference is shown. The running mean is drawn with a black line. The BrO Error increases with time difference.\\
 	To evaluate the maximal time difference, were we still get reliable results we calculated for all possible reference-plume pairs the corresponding BrO Error. With this data we are able to find for all plume spectra the associated reference where the BrO Error is minimal. In \cref{Histogram} a histogram is plotted with the probability of picking the best reference as a function of the time difference. Obviously the best results are if the day of measuring the reference is the same day as measuring the reference that means, if the time difference is smaller than one day. We allow all time difference which are in one sigma area. 
 	
 	We found out that the time interval where it is still reasonable to use references is about 14 days. Therefore we only use references where the recording time difference between plume and reference is smaller than two weeks. When using a references with a temporal difference to the plume of more than 14 days the probability, that the fit quality and thus the BrO error increases to much for our purposes. \\
 	\\
-
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{Bilder/Datum_100h}
 		\caption{}
 		\label{fig:datum100h}
-	\end{figure}
-	
+	\end{figure}	
 	\begin{figure}[h!]
 		\includegraphics[width=1.1\linewidth]{Bilder/Datum}
 		\caption{}
 		\label{fig:dat}
 	\end{figure}
-
+	%
+	\begin{figure}[h!]		
+		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/D2J2140_Before}}
+		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/D2J2140_After}}
+		\caption{Titel unterm gesamten Bild}
+		\label{fig:shorttermshift}
+	\end{figure}
 	\subsection{Temperature}
-	%einbinden einer Grafik
+	The Instrument design of the NOVAC instruments compromise between accuracy and longetivity as explained in \cref{NOVAC}. In particular there are no internal thermal stabilizations installed as an attempt to reduce the need for power. This can influence the recorded spectra.\\
+	
+	
+	$\bullet$ For DOAS analysy it is crucial to assign the wavelength range of photons collected by each pixel to te respective pixel.
+	%
+	THe wavelength to pixel mapping  (WMP) is commonly performed by a Mercury lamp ore by comparison with the hig hdefined kuruz spectrum. 
+	%
+	The WMP depends on optcal alignment of the spectrometer and therfore it is not constant. This optical alignment depends on the temperature. 
+	%
+	\cite{pinardi2007influence} has shown that variations of the Instruments temperature can cause changes in the instrument line function and can also cause shifts in the WMP.
+	\cite{WarnachSimon} showed the dependency of short term shifts on the instrument temperature \Cref{fig:shorttermshift}.\\
+	
+	
+	The above discussed temperature dependence of the WMP causes a reduction of the fitquality with increasing instrument temperature between plume and reference. Thus the BrO Error increases as well with the temperature difference. To quantify the BrO error dependency on the temperature all plume spectra of Tungurahua from August 2008 to August 2009 (Nevado del Ruiz from .... to ....) where evaluated with all plume spectra of the same time. In this time span 1647 "multi-add" spectra from tree different instruments where recorded, so we get approximately 1646$^2$ plume reference pairs and their corresponding BrO error and temperature. The BrO error as function of the temperature difference can be seen in \cref{fig:difftemp}. The blue dots shows the mean BrO error at the specific temperature difference, the standard deviation is illustrated with gray bars.\\
+	When compare the data of Tungurahua  and Nevado Del Ruiz it is noteworthy that the BrO error on temperature dependence of the Data of Nevado Del Ruiz is stronger and the deviation is weaker than at Tungurahua, this may occur due to the larger temperature fluctuation at Nevado Del Ruiz. ?????????? quellen bitte!\\
+	When looking at all discussed external parameters, temperature has  the strongest impact on the BrO error due to the strong impact on the WMP.
 	\begin{figure}[h!]			
 		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/DiffTemp_Tungu}}
 		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/DiffTemp_Nevad}}
 		\caption{Titel unterm gesamten Bild}
-	\end{figure}
+		\label{fig:difftemp}
+	\end{figure}[h!]
 	\begin{itemize}
 		\item The BrO error has the strongest dependence on the temperature difference. At Tungurahua (Nevado Del Ruiz) the BrO error increases by factor of $3.53\cdot10^{12}$  per degree.
 		\begin{align*}
@@ -247,10 +326,12 @@
 		\end{align*}
 	\end{itemize}
 	\subsection{Daytime}
+	During the day o al lot of external parameters like temperature, solar altitude etc. change. In particular the solar altitude could have an impact on the fit quality since the light path of the sun is much longer at the evening than at noon. \Cref{fig:diffdaytime} shows the dependency of the BrO error on the daytime. The data are calculated as described for the temperature. As for the temperature the dependence of Nevado Del Ruiz is much larger than of Tungurahua, this might occur during the larger distance from the equator of Nevado Del Ruiz -> besser beschreiben
 	\begin{figure}[h!]			
 		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Diffdaytime_Tungu}}
 		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/Diffdaytime_Nevad}}
 		\caption{Titel unterm gesamten Bild}
+		\label{fig:diffdaytime}
 	\end{figure}
 	\begin{itemize}
 		\item We found a dependency of the BrO error on the daytime. We assume, that this dependency comes from other external parameters which change during the day. 
@@ -262,11 +343,36 @@
 		
 	\end{itemize}
 	\subsection{Colorindex}
-	\begin{figure}[h!]		
+	\begin{figure}[h]		
 		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/DiffColidx_Tungu}}
 		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/DiffColidx_Nevad}}
 		\caption{Titel unterm gesamten Bild}
+		\label{fig:diffcolidx}
 	\end{figure}
+	Clouds  have  a  strong  influence  on  the  atmospheric  radiative  transfer  and  thus  affect  the  interpretation  and  analysis of DOAS - observations \cite{wagner2014cloud}.
+	
+	Clouds can be identified by several measurement quantities that they influence.
+	Since Mie scattering is dominant in clouds, the radiation scattered on a cloud has
+	a different colour than the Rayleigh sky as can be easily observed by the white
+	colour of clouds. Therefore clouds can, for example, be identified by looking at
+	the ratio of the measured intensity at two wavelengths, a so-called colour index.
+	For a zenith-looking instrument clouds usually enhance the measured radiation
+	intensity. \cite{wagner2014cloud}.\\
+
+	If  clouds  are  present  during  the  measurements could this cause large errors of the retrieved gas column density and the corresponding uncertainties.
+	Cloud effects could especially be important if either the plume ore reference is recorded with a cloudy sky while the corresponding reference ore plume was recorded under not cloudy conditions. 
+	This effect could also occur if broken clouds are present. Then, measurements at some elevation angles might "see" clouds while others do not.
+	\\
+	The Colour Index (CI) in this work was calculated between 320nm and 360 nm.
+	The two wavelengths were chosen as they are as far apart as the filter used for
+	stray-light prevention in the spectrometers allows. On the other hand, the lower
+	wavelength avoids the deep UV range where SO2 and O3 absorption plays a
+	dominant role. When clouds are present more radiation from larger wavelengths
+	arrives due to Mie scattering in the cloud. Therefore, the CI decreases when
+	clouds are present. \cite{lubcke2014optical}\\
+	\\
+	We evaluated the CI at the zenith, to increase the stability of the fit we added in each cases 10 intensitys. Using always the zenith to evaluate the colour index makes the colour index more comparable, but if broken clouds occur, the CI of the reference and the plume could differ from the calculated CI of the zenith. This could be a reason for the large deviations of the mean BrO error as function of the colour index (see \cref{fig:diffcolidx})
+
 	\begin{itemize}
 		\item 	The BrO Error increases with the Colorindex differences as \\
 		\begin{align*}
@@ -275,27 +381,28 @@
 		\end{align*}
 	\end{itemize}
 	\subsection{Elevation Angle}
-	\begin{figure}[h!]			
+		\begin{figure}[h!]			
 		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/DiffElevAngle_Tungu}}
 		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/DiffElevAngle_Nevad}}
 		\caption{Titel unterm gesamten Bild}
 	\end{figure}
-	\begin{itemize}
-		\item 	The BrO error doesn't depend significantly on the difference between the Elevation Angles. This could have several reasons. One problem is, that the Elevation Angle of Plume and Reference spectrum is not the same. This could also be a reason of uncertainty of the evaluations of the plume spectrum.
-	\end{itemize}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{Bilder/AbsofElevationAngleAsFunctionofBrOError_AllData}
-	\caption{}
-	\label{fig:absofelevationangleasfunctionofbroerroralldata}
-\end{figure}
+	The elevation angle describes the angle between the horizon and the zenith. When using the plume spectrum and the reference spectrum of the same time, the difference in elevation angle cannot be zero, since the plume is always somewhere else than the reference located.\\
+	The BrO error doesn't depend significantly on the difference between the Elevation Angles. This could have several reasons. One problem is, that the Elevation Angle of Plume and Reference spectrum is not the same. This could also be a reason of uncertainty of the evaluations of the plume spectrum.
+
+
+
 
 	\subsection{Exposure Time}
 	\begin{figure}		
 		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/DiffExpTime_Tungu}}
 		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/DiffExpTime_Nevad}}
 		\caption{Titel unterm gesamten Bild}
+		\label{fig:diffexptime}
 	\end{figure}
+	The Exposure Time is a degree of sky lightness.The  exposure time is the length of time the sensor of the NOVAC instrument is exposed to light. The amount of light that reaches the film or image sensor is proportional to the exposure time. The exposure time is adjusted in the way that the maximum intensity does not overly the capacity of the sensor.\\
+	We can observe an small dependency of the BrO error on the Exposure time at Tungurahua and Nevado Del Ruiz as it is shown in \cref{fig:diffexptime}
+	
+
 	\begin{itemize}
 		\item The BrO Error increases with the exposure time differences as\\
 		\begin{align*}
