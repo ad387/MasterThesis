@@ -429,6 +429,30 @@
 
 	We tried several methods for choosing the best reference based on the analysis of external parameters. Fitting the data with a second order polynomial brought the best results.
 	\section{Fit data}
+	linear approximation of the Data
+
+\vspace{1cm}
+\begin{equation*}
+\Delta	\epsilon_{BrO} = a_{t}\cdot\Delta t+a_{temp}\cdot\Delta temp+a_{daytime}\cdot\Delta daytime +a_{coloridx}\cdot\Delta coloridx
+\end{equation*}
+	Hereby are the constants 
+\begin{table}[h]
+	\begin{tabular}{c|c|c}
+		\toprule
+		Constant& importance& deviation\\
+		\toprule
+		$a_{T}$& 0.661 & 29$\%$\\
+		\midrule
+		$a_{ET}$&0.011&164$\%$\\
+		\midrule
+		$a_{t}$& 0.133&50$\%$\\
+		\midrule
+		$a_{dt}$&0.138&	65$\%$\\
+		\midrule
+		$a_{c}$&0.061&136$\%$\\
+		\bottomrule
+	\end{tabular}
+\end{table}
 	\begin{itemize}
 	
 		\item Plume data are reliable if the SO2 column density is larger as 7 $\cdot 10^{17} \frac{molec}{cm^2}$
