@@ -1,0 +1,264 @@
+\documentclass[]{article}
+\usepackage{amsmath}
+
+\usepackage{booktabs} % Required for horizontal rules in tables
+\usepackage{multicol} % Required for creating multiple columns in slides
+\usepackage[ngerman]{babel} % Document language - required for customizing section titles
+\usepackage{color}
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{multicol}
+\usepackage{textpos}
+\usepackage{tikz}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc} 
+\usepackage{graphicx} 
+ \usepackage{placeins}
+\usepackage{subcaption} 
+
+\usepackage{geometry}
+\usepackage{vwcol} 
+%\usepackage{unicode-math}
+%\setmathfont{XITS Math}
+\definecolor{darkred}{RGB}{100,0,0}
+\geometry{a4paper, top=15mm, left=25mm, right=15mm, bottom=10mm,
+headsep=10mm, footskip=6mm}
+%opening
+\title{Zwischenbericht}
+\author{Elsa Wilken}
+
+\begin{document}
+
+\maketitle
+
+
+
+\section*{Statistics for all Data where the SO$_2$ amount\\ is larger than $7\cdot 10^{17}\frac{molec}{cm^ 2}$}
+Im folgenden habe ich die Daten, die mit der Novac Auswertung berechnet wurden mit denen verglichen, die mit Hilfe eines anderen Referenzspectrums berechnet wurden.\\
+Es handelt sich also ausschließlich um Daten deren Referenz kontaminiert war. Nich kontaminierte Daten werden nicht eingerechnet.
+Im ersten Abschnitt werden hier alle Daten mit eingerechnet, deren SO2 Wert über den Limit von $7\cdot 10^{17}\frac{molec}{c^{2}}$ liegen. Also alle Daten die glaubwürdig in einer Vulkan Fahne gemessen wurden.\\
+Im zweiten Abschnitt wurden nur Daten mit eingerechnet die über dem Detektion Limit liegen.\\
+%
+\newline
+%
+Es werden jeweils für BrO/SO2, SO2 und BrO die Menge an Daten in \% angegeben deren column density, berechnet mit der NOVAC Auswertung größer sind als die column denstiy welche mit einem anderen Referenzspektrum berechnet wurde. Außerdem wird die die Menge an Daten angegeben, die bei der Novac Auswertung kleiner sind und die Menge an Daten, die sich innerhalb der Fehlergrenzen nicht unterscheiden.
+
+\begin{align*}
+& \textbf{\text{ratio statistic}}\\
+& \text{Anteil der Daten wo der "Novac-Wert" kleiner ist:} &  6.1\%\\
+& \text{Anteil der Daten wo der "Novac-Wert" größer ist:}&  11.6\%\\
+& \text{Anteil der Daten die im Fehlerbereich übereinstimmen} &  82.3\%\\
+\\
+& \textbf{\text{so2 statistic}}\\
+&  \text{Anteil der Daten wo der "Novac-Wert" kleiner ist:}  &  97.6\% \\
+& \text{Anteil der Daten wo der "Novac-Wert" größer ist:}&  0\%\\
+& \text{Anteil der Daten die im Fehlerbereich übereinstimmen}&  2.4\%\\
+\\
+& \textbf{\text{bro statistic}}\\
+& \text{Anteil der Daten wo der "Novac-Wert" kleiner ist:}  &  20.7 \%\\
+& \text{Anteil der Daten wo der "Novac-Wert" größer ist:} &  7.3\%\\
+& \text{Anteil der Daten die im Fehlerbereich übereinstimmen} &  72.0\%\\
+\end{align*}
+\section*{Statistics for all valid Data\\ (Data above the detection limit)}
+
+\begin{align*}
+& \textbf{ratio statistic}\\
+& \text{Anteil der Daten wo der "Novac-Wert" kleiner ist:} & 15.8\%\\
+& \text{Anteil der Daten wo der "Novac-Wert" größer ist:} & 21.1\%\\
+&\text{Anteil der Daten die im Fehlerbereich übereinstimmen} &  63.2\%\\
+& \textbf{so2 statistic}\\
+& \text{Anteil der Daten wo der "Novac-Wert" kleiner ist:} &  100\%\\
+& \text{Anteil der Daten wo der "Novac-Wert" größer ist:} &  0\% \\
+& \text{Anteil der Daten die im Fehlerbereich übereinstimmen} &  0\% \\
+& \textbf{bro statistic}\\
+& \text{Anteil der Daten wo der "Novac-Wert" kleiner ist:} &  63.2\\
+& \text{Anteil der Daten wo der "Novac-Wert" größer ist:} &  0\% \\
+&\text{Anteil der Daten die im Fehlerbereich übereinstimmen} &  36.8\%\\
+\end{align*}
+\section*{Pictures}
+%
+Im Folgenden werden die Zeitreihen zu den oben geschrieben Statisken gezeigt. Hierbei werden die Novac Daten grün gekennzeichnet und die "neuen" Daten blau. Die Mittlung der Daten wird mit einem Farbig gekennzeichneten durchgehender Linie symbolisiert.\\
+%
+\newline
+%
+Die folgenden Plots zeigen den Vergleich zwischen den verschieden auswertungs-Methoden. 
+Figure \ref{fig:demo} zeigt alle Daten während Figure \ref{fig:demo1} nur die Daten zeigt, die über dem Detektion Limit liegen.\\
+%
+\begin{figure}[h]
+   \begin{subfigure}[t]{0.33\textwidth} 
+		\includegraphics[width=1\linewidth]{./Plots/ratio_all_data}
+		\caption{}
+		\label{fig:ratio_all_data}
+   \end{subfigure}\hfill% 
+   \begin{subfigure}[t]{0.33\textwidth} 
+	\includegraphics[width=1\linewidth]{./Plots/bro_all_data}
+	\caption{}
+	\label{fig:ratio_all_data}
+   \end{subfigure} %\\[5pt]% 
+   \begin{subfigure}[t]{0.33\textwidth} 
+		\includegraphics[width=1\linewidth]{./Plots/so2_all_data}
+		\caption{}
+		\label{fig:ratio_all_data}
+   \end{subfigure} 
+   \caption{Alle Daten mit einem SO2 Wert der größer als $7\cdot10^{17}\frac{molec}{cm^2}$ ist. Die Novac-Werte sind grün dargestellt, die neu berechneten blau.\\ 
+   a)ratio, b) bro, c) so2} 
+   \label{fig:demo} 
+\end{figure} 
+%
+\begin{figure}[h]
+   \begin{subfigure}[t]{0.33\textwidth} 
+		\includegraphics[width=1\linewidth]{./Plots/ratio_valid_data}
+		\caption{}
+		\label{fig:ratio_all_data}
+   \end{subfigure}\hfill% 
+   \begin{subfigure}[t]{0.33\textwidth} 
+	\includegraphics[width=1\linewidth]{./Plots/bro_valid_data}
+	\caption{}
+	\label{fig:ratio_all_data}
+   \end{subfigure} %\\[5pt]% 
+   \begin{subfigure}[t]{0.33\textwidth} 
+		\includegraphics[width=1\linewidth]{./Plots/so2_valid_data}
+		\caption{}
+		\label{fig:ratio_all_data}
+   \end{subfigure} 
+   \caption{Alle Daten die über dem Detektion Limit liegen. Die Novac-Werte sind grün dargestellt, die neu berechneten blau.\\
+   a)ratio, b) bro, c) so2} 
+   \label{fig:demo1} 
+\end{figure}
+\FloatBarrier 
+%
+Nun werden die neu berechneten Daten mit den nich kontaminierten verglichen.
+Wieder werden erst alle Daten gezeigt und nur die, die über dem Detektion Limit liegen\\
+%
+\newline
+\newline
+%
+\begin{figure}[h!]
+   \begin{subfigure}[t]{0.33\textwidth} 
+		\includegraphics[width=1\linewidth]{./Plots/ratio_all_notcont_data}
+		\caption{}
+		\label{fig:ratio_all_data}
+   \end{subfigure}\hfill% 
+   \begin{subfigure}[t]{0.33\textwidth} 
+	\includegraphics[width=1\linewidth]{./Plots/bro_all_notcont_data}
+	\caption{}
+	\label{fig:ratio_all_data}
+   \end{subfigure} %\\[5pt]% 
+   \begin{subfigure}[t]{0.33\textwidth} 
+		\includegraphics[width=1\linewidth]{./Plots/so2_all_notcont_data}
+		\caption{}
+		\label{fig:ratio_all_data}
+   \end{subfigure} 
+   \caption{Alle Daten mit einem SO2 Wert der größer als $7\cdot10^{17}\frac{molec}{cm^2}$ ist. Die grünen Werte sind die nich kontaminierten,
+   die blauen sind die kontaminierten Werte, berechnet durch die neue Auswertungs- Methode.\\
+   a)ratio, b) bro, c) so2} 
+   \label{fig:demo2} 
+\end{figure} 
+%
+\begin{figure}[h]
+   \begin{subfigure}[t]{0.33\textwidth} 
+		\includegraphics[width=1\linewidth]{./Plots/ratio_valid_notcont_data}
+		\caption{}
+		\label{fig:ratio_all_data}
+   \end{subfigure}\hfill% 
+   \begin{subfigure}[t]{0.33\textwidth} 
+	\includegraphics[width=1\linewidth]{./Plots/bro_valid_notcont_data}
+	\caption{}
+	\label{fig:ratio_all_data}
+   \end{subfigure} %\\[5pt]% 
+   \begin{subfigure}[t]{0.33\textwidth} 
+		\includegraphics[width=1\linewidth]{./Plots/so2_valid_notcont_data}
+		\caption{}
+		\label{fig:ratio_all_data}
+   \end{subfigure} 
+   \caption{Alle Daten die über dem Detektion Limit liegen. Die grünen Werte sind die nich kontaminierten,
+      die blauen sind die kontaminierten Werte, berechnet durch die neue Auswertungs- Methode.\\
+   a)ratio, b) bro, c) so2} 
+   \label{fig:demo3} 
+\end{figure}
+\FloatBarrier
+%
+%\begin{figure}[h!]
+%   \begin{subfigure}[t]{0.33\textwidth} 
+%		\includegraphics[width=1\linewidth]{./Plots/ratio_all_notcont_content_data}
+%		\caption{}
+%		\label{fig:ratio_all_data}
+%   \end{subfigure}\hfill% 
+%   \begin{subfigure}[t]{0.33\textwidth} 
+%	\includegraphics[width=1\linewidth]{./Plots/bro_all_notcont_content_data}
+%	\caption{}
+%	\label{fig:ratio_all_data}
+%   \end{subfigure} %\\[5pt]% 
+%   \begin{subfigure}[t]{0.33\textwidth} 
+%		\includegraphics[width=1\linewidth]{./Plots/so2_all_notcont_content_data}
+%		\caption{}
+%		\label{fig:ratio_all_data}
+%   \end{subfigure} 
+%   \caption{All dater except where so2$<7\cdot10^{17}\frac{molec}{cm^2}$
+%   a)ratio, b) bro, c) so2} 
+%   \label{fig:demo2} 
+%\end{figure} 
+%
+%\begin{figure}[h]
+%   \begin{subfigure}[t]{0.33\textwidth} 
+%		\includegraphics[width=1\linewidth]{./Plots/ratio_valid_notcont_content_data}
+%		\caption{}
+%		\label{fig:ratio_all_data}
+%   \end{subfigure}\hfill% 
+%   \begin{subfigure}[t]{0.33\textwidth} 
+%	\includegraphics[width=1\linewidth]{./Plots/bro_valid_notcont_content_data}
+%	\caption{}
+%	\label{fig:ratio_all_data}
+%   \end{subfigure} %\\[5pt]% 
+%   \begin{subfigure}[t]{0.33\textwidth} 
+%		\includegraphics[width=1\linewidth]{./Plots/so2_valid_notcont_content_data}
+%		\caption{}
+%		\label{fig:ratio_all_data}
+%   \end{subfigure} 
+%   \caption{Valid data
+%   a)ratio, b) bro, c) so2} 
+%   \label{fig:demo3} 
+%\end{figure}
+%
+Nutzt man auch die kontaminierten Daten, erhöht siech die Menge der Daten, die man am Schluss für die Auswertung nutzen kann:\\
+%
+\newline
+%
+Zunahme der Ratio Daten in$ \%$ 46.48\\
+Zunahme der Ratio Daten über dem Detektion Limit in $\%$ 34.48\\
+\\
+Zunahme der SO2 Daten in $ \%$ 50.7\\
+Zunahme der Ratio Daten über dem Detektion Limit $ \%$ 50.7\\
+\end{document}
+%& \textbf{\text{ratio statistic}}\\
+%& \text{amount of data who are larger than the novac data} & 10 ca 6.1\%\\
+%& \text{amount of data who are smaller than the novac data}& 19 ca 11.6\%\\
+%& number same & 135 ca 82.3\%\\
+%\\
+%& \textbf{\text{so2 statistic}}\\
+%&  \text{amount of data who are larger than the novac data}  & 160ca 97.6\% \\
+%& \text{amount of data who are smaller than the novac data}& 0 ca 0\%\\
+%& number same& 4 ca 2.4\%\\
+%\\
+%& \textbf{\text{bro statistic}}\\
+%& \text{amount of data who are larger than the novac data}  & 34 ca 20.7 \%\\
+%& \text{amount of data who are smaller than the novac data} & 12 ca 7.3\%\\
+%& number same & 118 ca 72.0\%\\
+%\end{align*}
+%\section*{Statistics for all valid Data\\ (Data above the detection limit)}
+%
+%\begin{align*}
+%& \textbf{ratio statistic}\\
+%& \text{amount of data who are larger than the novac data} & 3 ca 15.8\%\\
+%& \text{amount of data who are smaller than the novac data} & 4 ca 21.1\%\\
+%& \text{number same} & 12 ca 63.2\%\\
+%& \textbf{so2 statistic}\\
+%& \text{amount of data who are larger than the novac data} & 19 ca 100\%\\
+%& \text{amount of data who are smaller than the novac data} & 0 ca 0\% \\
+%& \text{number same} & 0  ca 0\% \\
+%& \textbf{bro statistic}\\
+%& \text{amount of data who are larger than the novac data} & 12 ca 63.2\\
+%& \text{amount of data who are smaller than the novac data} & 0  ca 0\% \\
+%& \text{number same} & 7 ca 36.8\%\\
+%\end{align*}
