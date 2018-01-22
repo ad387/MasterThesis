@@ -18,6 +18,7 @@
 ]                                       {scrreprt}
 
 % used pagages
+%\usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash]{caption}
 \usepackage     [utf8]          {inputenc}
 \usepackage     [T1]            {fontenc}
 \usepackage                     {color}
@@ -30,6 +31,8 @@
 \usepackage						{subfigure}
 \usepackage						{multirow}
 \usepackage						{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage						{multicol} % Required for creating multiple columns in slides
+
 % links
 \definecolor{darkblue}{rgb}{0.0,0.0,0.4}
 \definecolor{darkgreen}{rgb}{0.0,0.4,0.0}
@@ -464,25 +467,66 @@
 
 	
 	
+
 	
-	The constants for Tungurahua and Nevado Del Ruiz are:
-	\begin{table}[h]
-		\begin{tabular}{c|c|c}
-			\toprule
-			Constant& importance& deviation\\
-			\toprule
-			$a_{T}$& 0.661 & 29$\%$\\
-			\midrule
-			$a_{ET}$&0.011&164$\%$\\
-			\midrule
-			$a_{t}$& 0.133&50$\%$\\
-			\midrule
-			$a_{dt}$&0.138&	65$\%$\\
-			\midrule
-			$a_{c}$&0.061&136$\%$\\
-			\bottomrule
-		\end{tabular}
-	\end{table}
+
+		
+		The constants for Tungurahua and Nevado Del Ruiz are:
+		\begin{table}
+			\subfigure[Data of Nevado Del Riz D2J2201\_0]{
+			\begin{tabular}{c|c|c}
+				\toprule
+				Constant &value & importance\\
+				\toprule
+				$a_{T}$&  7.338e+12&0.840\\
+				\midrule
+				$a_{ET}$&1.545e+10&0.045\\
+				\midrule
+				$a_{t}$&-2.6e+09& 0.0\\
+				\midrule
+				$a_{dt}$&1.805e+12&0.091\\
+				\midrule
+				$a_{c}$&2.301e+13& 0.031\\
+				\bottomrule
+			\end{tabular}}
+			%	\caption{Data from Nevado Del Ruiz from the D2J2201\_0 instrument. All external parameter where taken into account. $\epsilon_{0} = =  5.404e+12$}
+			\qquad
+			\subfigure[Data of Nevado Del Riz D2J2200\_0]{
+			\begin{tabular}{c|c|c}
+				\toprule
+				Constant &value & importance \\
+				\toprule
+				$a_{T}$& 1.162e+13&0.908 \\
+				\midrule
+				$a_{ET}$&2.811e+10& 0.046\\
+				\midrule
+				$a_{t}$&-1.7e+09& 0.0\\
+				\midrule
+				$a_{dt}$&1.076e+12&0.034\\
+				\midrule
+				$a_{c}$& 3.587e+13& 0.016\\
+				\bottomrule
+			\end{tabular}}
+					\subfigure[Data of Nevado Del Both Instruments]{
+			\begin{tabular}{c|c|c}
+				\toprule
+				Constant &value & importance \\
+				\toprule
+				$a_{T}$& 1.073e+13&0.973 \\
+				\midrule
+				$a_{ET}$&3.478e+10&  0.070\\
+				\midrule
+				$a_{t}$&-9.1e+08& 0.0\\
+				\midrule
+				$a_{dt}$& 1.523e+11&0.006\\
+				\midrule
+				$a_{c}$& -6.811e+13& -0.047\\
+				\bottomrule
+		\end{tabular}}
+			\caption{(a)Data from Nevado Del Ruiz from the D2J2201\_0 instrument. All external parameter where taken into account. $\epsilon_{0} = =  5.404e+12$
+				(b)Data from Nevado Del Ruiz from the D2J2200\_0 instrument. All external parameter where taken into account. $\epsilon_{0} = =  1.105e+13$ (c) Data from Nevado Del Ruiz from both instrument. All external parameter where taken into account. $\epsilon_{0} = 1.260e+13$}
+		\end{table}	
+
 
 	\begin{itemize}
 	
@@ -539,6 +583,25 @@
 			\bottomrule
 		\end{tabular}
 	\end{table}
+
+
+	\begin{table}[h]
+		\centering
+		{Evaluation of all contaminated data from Nevado Del Ruiz}
+		\vspace*{1cm}
+		\begin{tabular}{|p{2.2cm}|p{4.4cm}|p{5.0cm}|}
+			\toprule
+			Instrument& Dev from opt eval. (mean/median) & valid data\\
+			\toprule
+			$D2J2201\_0$ &1.14 / 0.82293& 128/283 = 45.2\%\\
+			\midrule
+			$D2J2200\_0$ &1.5 / 0.89965&954/1109 = 86.0\%\\
+			\midrule 
+			Both &1.26/0.847&1073/1392 = 77.1\%\\
+			\bottomrule
+		\end{tabular}
+	\caption{Data from Nevado Del Ruiz from the D2J2201\_0 instrument. All external parameter where taken into account. $\epsilon_{0} = =  5.404e+12$}
+	\end{table}
 	\section{Other approaches}
 
 	$\bullet$ In the optimal results are 15$\%$ valid data
@@ -561,6 +624,7 @@
 	\end{equation*} 
 	
 	\chapter{Comparison with NOVAC Evaluation}
+	We want to 
 	\begin{itemize}
 		\item Results only for contaminated data
 		\begin{itemize}
@@ -568,9 +632,36 @@
 			\item Difference in BrO data evaluated with NOVAC-method and contamination-based evaluation
 			\item Difference in BrO/So2 Ratio data evaluated with NOVAC-method and contamination-based evaluation
 		\end{itemize}
+		\item Amount of BrO data more than before (valid and not valid and above dection limit)
+		\item Amount of SO2 data more than before (valid and not valid and above dection limit)
+		\item Amount of BrO/SO2 data more than before (valid and not valid and above dection limit)
 		\item More BrO data: 51\%
 		\item  More valid BrO data: 38\%
+		\item Compare the dayly means: how many more data? due to higher S02 values
+		\item 
 	\end{itemize}
+
+	\begin{figure}[h]		
+		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_bro_diff_novac_conbased}}
+		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/bro_diff_novac_conbased}}
+		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_so2_diff_novac_conbased}}
+		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/so2_diff_novac_conbased}}
+		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased}}
+		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased}}
+	\caption{The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }
+	\label{fig:diffcontbase}
+	\end{figure}
+	%
+	\begin{figure}[h]		
+		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_bro_novac_conbased}}
+		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/bro_novac_conbased}}
+		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_so2_novac_conbased}}
+		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/so2_novac_conbased}}
+		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_novac_conbased}}
+		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased}}
+		\caption{The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }
+		\label{fig:diffNovac}
+	\end{figure}
 	\chapter{Results}
 	Interpretation of the BrO/SO2 ratio time-series
 	\section{Tungurahua}
