@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  23 JAN 2018 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  25 JAN 2018 15:38
 entering extended mode
 **./Wilken_Elsa_MasterThesis.tex
 (Wilken_Elsa_MasterThesis.tex
@@ -1585,6 +1585,13 @@ LaTeX Warning: Float too large for page by 25.26079pt on input line 664.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<Bilder/BarPlot.pdf, id=1308, pagebox=cropbox, 433.62pt x 433.62pt>
+File: Bilder/BarPlot.pdf Graphic file (type pdf)
+<use Bilder/BarPlot.pdf>
+Package pdftex.def Info: Bilder/BarPlot.pdf  used on input line 667. on input l
+ine 667.
+Package pdftex.def Info: Requested size: 298.75267pt x 298.76805pt on input lin
+e 667.
 [39
 
 ] [40 <./Bilder/Tungurahua_Pic/tung_bro_diff_novac_conbased.pdf> <./Bilder/Neva
@@ -1637,98 +1644,98 @@ age
 pdfTeX warning: pdflatex.exe (file ./Bilder/NevadoDelRuiz_Pic/ratio_novac_conba
 sed.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
 e
->]
+>] [42 <./Bilder/BarPlot.pdf>]
 chapter 7.
 
-LaTeX Warning: Command \" invalid in math mode on input line 678.
+LaTeX Warning: Command \" invalid in math mode on input line 685.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 678.
+LaTeX Warning: Command \" invalid in math mode on input line 685.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 678.
+LaTeX Warning: Command \" invalid in math mode on input line 685.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 678.
+LaTeX Warning: Command \" invalid in math mode on input line 685.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 678.
+LaTeX Warning: Command \" invalid in math mode on input line 685.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 678.
+LaTeX Warning: Command \" invalid in math mode on input line 685.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 678.
+LaTeX Warning: Command \" invalid in math mode on input line 685.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 678.
+LaTeX Warning: Command \" invalid in math mode on input line 685.
 
 Missing character: There is no ü in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 678--680
+Underfull \hbox (badness 10000) in paragraph at lines 685--687
 
  []
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 693.
+LaTeX Warning: Command \" invalid in math mode on input line 700.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 693.
+LaTeX Warning: Command \" invalid in math mode on input line 700.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 693.
+LaTeX Warning: Command \" invalid in math mode on input line 700.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 693.
+LaTeX Warning: Command \" invalid in math mode on input line 700.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 693.
+LaTeX Warning: Command \" invalid in math mode on input line 700.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 693.
+LaTeX Warning: Command \" invalid in math mode on input line 700.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 693.
+LaTeX Warning: Command \" invalid in math mode on input line 700.
 
 Missing character: There is no ü in font cmr10!
 
-LaTeX Warning: Command \" invalid in math mode on input line 693.
+LaTeX Warning: Command \" invalid in math mode on input line 700.
 
 Missing character: There is no ü in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 693--695
+Underfull \hbox (badness 10000) in paragraph at lines 700--702
 
  []
 
-[42
-
-]
-chapter 8.
 [43
 
 ]
-chapter 9.
+chapter 8.
 [44
+
+]
+chapter 9.
+[45
 
 ]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 711.
-[45
+(scrkbase)              on input line 718.
+[46
 
 ]
 
@@ -1743,7 +1750,7 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              inconsistent.
 (scrreprt)              Because of this, you should remove `\end{appendix}'
 (scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 712.
+(scrreprt)              `\appendix' on input line 719.
 
 chapter A.
 (Wilken_Elsa_MasterThesis.lof
@@ -1757,35 +1764,35 @@ Overfull \hbox (1.7165pt too wide) in paragraph at lines 8--8
 \openout5 = `Wilken_Elsa_MasterThesis.lof'.
 
  (Wilken_Elsa_MasterThesis.lot
-Underfull \vbox (badness 6675) has occurred while \output is active []
+Underfull \vbox (badness 1859) has occurred while \output is active []
 
- [46
+ [47
 
 ])
 \tf@lot=\write6
 \openout6 = `Wilken_Elsa_MasterThesis.lot'.
 
 
-(Wilken_Elsa_MasterThesis.bbl [47]
+(Wilken_Elsa_MasterThesis.bbl [48]
 chapter B.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [48
+) [49
 
-]) [49]
+]) [50]
 \openout2 = `deposition.aux'.
 
 
-(deposition.tex) [50
+(deposition.tex) [51
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 721.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 721.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 728.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 728.
  (Wilken_Elsa_MasterThesis.aux (titlepages-eng.aux)
 (abstracts.aux) (deposition.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 721.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 721.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 728.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 728.
 Package rerunfilecheck Info: File `Wilken_Elsa_MasterThesis.out' has not change
 d.
 (rerunfilecheck)             Checksum: 9AE1291C4FF47591C00390F3A03BFD9F;3224.
@@ -1793,13 +1800,13 @@ d.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 721.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 728.
  ) 
 Here is how much of TeX's memory you used:
- 11644 strings out of 493312
- 197298 string characters out of 3138883
+ 11653 strings out of 493312
+ 197472 string characters out of 3138883
  402061 words of memory out of 3000000
- 14773 multiletter control sequences out of 15000+200000
+ 14779 multiletter control sequences out of 15000+200000
  23044 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,14n,80p,8837b,627s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1830,9 +1837,9 @@ nts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Wilken_Elsa_MasterThesis.pdf (50 pages, 4007611 bytes).
+Output written on Wilken_Elsa_MasterThesis.pdf (51 pages, 4022872 bytes).
 PDF statistics:
- 2569 PDF objects out of 2984 (max. 8388607)
- 176 named destinations out of 1000 (max. 500000)
- 589 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2620 PDF objects out of 2984 (max. 8388607)
+ 178 named destinations out of 1000 (max. 500000)
+ 594 words of extra memory for PDF output out of 10000 (max. 10000000)
 

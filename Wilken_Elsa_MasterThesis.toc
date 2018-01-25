@@ -34,14 +34,14 @@
 \contentsline {subsection}{\numberline {5.2.1}Nearest neighbours}{37}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Iterative}{38}{subsection.5.2.2}
 \contentsline {chapter}{\numberline {6}Comparison with NOVAC Evaluation}{39}{chapter.6}
-\contentsline {chapter}{\numberline {7}Results}{42}{chapter.7}
-\contentsline {section}{\numberline {7.1}Tungurahua}{42}{section.7.1}
-\contentsline {section}{\numberline {7.2}Nevado Del Ruiz}{42}{section.7.2}
-\contentsline {chapter}{\numberline {8}Issues of our method}{43}{chapter.8}
-\contentsline {section}{\numberline {8.1}Contamination of the plume}{43}{section.8.1}
-\contentsline {chapter}{\numberline {9}Conclusion}{44}{chapter.9}
-\contentsline {part}{\numberline {III}Appendix}{45}{part.3}
-\contentsline {chapter}{\numberline {A}Lists}{46}{appendix.A}
-\contentsline {section}{\numberline {A.1}List of Figures}{46}{section.A.1}
-\contentsline {section}{\numberline {A.2}List of Tables}{47}{section.A.2}
-\contentsline {chapter}{\numberline {B}Bibliography}{48}{appendix.B}
+\contentsline {chapter}{\numberline {7}Results}{43}{chapter.7}
+\contentsline {section}{\numberline {7.1}Tungurahua}{43}{section.7.1}
+\contentsline {section}{\numberline {7.2}Nevado Del Ruiz}{43}{section.7.2}
+\contentsline {chapter}{\numberline {8}Issues of our method}{44}{chapter.8}
+\contentsline {section}{\numberline {8.1}Contamination of the plume}{44}{section.8.1}
+\contentsline {chapter}{\numberline {9}Conclusion}{45}{chapter.9}
+\contentsline {part}{\numberline {III}Appendix}{46}{part.3}
+\contentsline {chapter}{\numberline {A}Lists}{47}{appendix.A}
+\contentsline {section}{\numberline {A.1}List of Figures}{47}{section.A.1}
+\contentsline {section}{\numberline {A.2}List of Tables}{48}{section.A.2}
+\contentsline {chapter}{\numberline {B}Bibliography}{49}{appendix.B}
