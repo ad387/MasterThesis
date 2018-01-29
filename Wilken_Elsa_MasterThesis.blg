@@ -1,11 +1,56 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Wilken_Elsa_MasterThesis.aux
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Wilken_Elsa_MasterThesis.aux
 A level-1 auxiliary file: titlepages-eng.aux
 A level-1 auxiliary file: abstracts.aux
 The style file: plainnat.bst
 A level-1 auxiliary file: deposition.aux
 Database file #1: references.bib
+Warning--to sort, need author or key in NOVACsite
 Warning--to sort, need author or key in SKlearn
+Warning--empty year in NOVACsite
 Warning--empty year in SKlearn
 Warning--empty school in lubcke2014optical
 Warning--empty school in WarnachSimon
-(There were 4 warnings)
+You've used 19 entries,
+            2773 wiz_defined-function locations,
+            710 strings with 8297 characters,
+and the built_in function-call counts, 8351 in all, are:
+= -- 737
+> -- 491
+< -- 13
++ -- 169
+- -- 150
+* -- 660
+:= -- 1275
+add.period$ -- 56
+call.type$ -- 19
+change.case$ -- 105
+chr.to.int$ -- 19
+cite$ -- 46
+duplicate$ -- 377
+empty$ -- 676
+format.name$ -- 179
+if$ -- 1743
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 16
+newline$ -- 102
+num.names$ -- 68
+pop$ -- 228
+preamble$ -- 1
+purify$ -- 88
+quote$ -- 0
+skip$ -- 308
+stack$ -- 0
+substring$ -- 268
+swap$ -- 36
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 199
+warning$ -- 6
+while$ -- 69
+width$ -- 0
+write$ -- 243
+(There were 6 warnings)

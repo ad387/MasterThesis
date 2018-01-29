@@ -1,9 +1,14 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[NOV()]{NOVACsite}
+{NOVAC} novac-site.
+\newblock \url{http://www.novac-project.eu/}.
+\newblock Accessed: 2018-01-29.
 
 \bibitem[SKl()]{SKlearn}
 {Python} scikit-learn.org.
@@ -11,12 +16,23 @@
   \url{http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html}.
 \newblock Accessed: 2018-01-19.
 
+\bibitem[Bussemer(1993)]{bussemer1993ring}
+Markus Bussemer.
+\newblock Der ring-effekt: Ursachen und einflu{\ss} auf die spektroskopische
+  messung stratosph{\"a}rischer spurenstoffe.
+\newblock \emph{Diplomathesis, University of Heidelberg}, 1993.
+
 \bibitem[Chance and Kurucz(2010)]{chance2010improved}
 K~Chance and RL~Kurucz.
 \newblock An improved high-resolution solar reference spectrum for earth's
   atmosphere measurements in the ultraviolet, visible, and near infrared.
 \newblock \emph{Journal of quantitative spectroscopy and radiative transfer},
   111\penalty0 (9):\penalty0 1289--1295, 2010.
+
+\bibitem[Kraus(2006)]{kraus2006doasis}
+Stefan Kraus.
+\newblock \emph{DOASIS: A framework design for DOAS}.
+\newblock Shaker, 2006.
 
 \bibitem[L{\"u}bcke(2014)]{lubcke2014optical}
 Peter L{\"u}bcke.
@@ -31,6 +47,13 @@ Peter L{\"u}bcke, Nicole Bobrowski, S~Arellano, Bo~Galle, G~Garz{\'o}n, Leif
 \newblock Bro/so 2 molar ratios from scanning doas measurements in the novac
   network.
 \newblock \emph{Solid Earth}, 5\penalty0 (1):\penalty0 409, 2014.
+
+\bibitem[Perner and Platt(1979)]{perner1979detection}
+D~Perner and U~Platt.
+\newblock Detection of nitrous acid in the atmosphere by differential optical
+  absorption.
+\newblock \emph{Geophysical Research Letters}, 6\penalty0 (12):\penalty0
+  917--920, 1979.
 
 \bibitem[Pinardi et~al.(2007)Pinardi, Roozendael, and
   Fayt]{pinardi2007influence}
@@ -76,6 +99,13 @@ S~Solomon, RW~Portmann, RR~Garcia, W~Randel, F~Wu, R~Nagatani, J~Gleason,
   temperature variability to anthropogenic chlorine.
 \newblock \emph{Geophysical research letters}, 25\penalty0 (11):\penalty0
   1871--1874, 1998.
+
+\bibitem[Solomon et~al.(1987)Solomon, Schmeltekopf, and
+  Sanders]{solomon1987interpretation}
+Susan Solomon, Arthur~L Schmeltekopf, and Ryan~W Sanders.
+\newblock On the interpretation of zenith sky absorption measurements.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 92\penalty0
+  (D7):\penalty0 8311--8319, 1987.
 
 \bibitem[Thordarson and Self(2003)]{thordarson2003atmospheric}
 Thorvaldur Thordarson and Stephen Self.

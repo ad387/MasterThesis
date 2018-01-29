@@ -32,7 +32,7 @@
 \usepackage						{multirow}
 \usepackage						{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 \usepackage						{multicol} % Required for creating multiple columns in slides
-
+\usepackage		[version=4]		{mhchem}
 % links
 \definecolor{darkblue}{rgb}{0.0,0.0,0.4}
 \definecolor{darkgreen}{rgb}{0.0,0.4,0.0}
@@ -53,7 +53,7 @@
   \tableofcontents
   %% Put your contents here
 	\chapter{Introduction}	
-	\input{Chapters/1_Intruduction}
+	\input{Chapters/1_Introduction/1_Intruduction}
 	\part{Theoretical Background}
 	\section{Volcanism and volcanic chemistry}
 
@@ -78,7 +78,7 @@
 	implications of volcanic degassing on the atmosphere and the Earth’s climate will
 	be discussed in Section 2.3. The introductory chapter will conclude in Section 2.4
 	with examples of the usefulness of volcanic gas emission measurements. An
-	outlook will be given as to how measurements of the SO2 emission rate and the
+	outlook will be given as to how measurements of the \ce{SO2} emission rate and the
 	chemical composition can be used to gain knowledge about volcanic systems
 	and especially how they can help to improve the accuracy of volcanic eruption
 	forecasts.
@@ -201,7 +201,7 @@
 	concentration of 1000 mg CO2 per kg melt and a CO2/H2O ratio of 5 has a
 	vesicularity of 50% at a depth of approximately 300 m. At this depth practically
 	all CO2 and 70% of the H2O are exsolved from the magma but only 20% of
-	the SO2 and almost none of the HCl are exsolved. When ascending further the
+	the \ce{SO2} and almost none of the HCl are exsolved. When ascending further the
 	degassing of HCl will start at a depth of 100m while at this depth most of the
 	H2O has already exsolved. The composition of gases can therefore evolve, and
 	in this example the SO2/HCl ratio would decrease during magma ascent. Using
@@ -214,7 +214,7 @@
 	and how they can lead to degassing patterns will be described below, it is
 	first necessary to address how the rise of gas can lead to variations in the
 	chemical composition: Temperature changes of the ascending gas can lead to a
-	re-equilibration (i.e., SO2 reacts to H2S at decreasing temperatures) and gases
+	re-equilibration (i.e., \ce{SO2} reacts to H2S at decreasing temperatures) and gases
 	can also interact with crustal rock or groundwater during ascending. According
 	to Giggenbach (1996) the composition of gases due to processes at depth does
 	not vary during “conventional observational periods”. The author claims that
@@ -288,7 +288,7 @@ with petrological methods (Shinohara, 2008)
 	\subsection{Volcanic gases and their impact on the climate}
 	Volcanoes emit large amounts of gases into the atmosphere. In descending
 	magnitude the most important gases are H2O, CO2, various sulphur species led
-	by SO2 and H2S and halogen compounds (see Table 2.1). While water vapour is
+	by \ce{SO2} and H2S and halogen compounds (see Table 2.1). While water vapour is
 	the most abundant gas in a volcanic plume, and responsible for the condensation
 	of the plume that can be observed at many quietly degassing volcanoes from
 	large distances, the total abundance is negligible when compared to evaporation
@@ -300,63 +300,63 @@ with petrological methods (Shinohara, 2008)
 	year, comparable to the CO2 emissions from countries as Pakistan (0.18Gt),
 	Kazakhstan (0.25 Gt) or South Africa (0.44 Gt) (Gerlach, 2011, and references
 	therein). However, on time scales of 105 a CO2 degassing has an important role
-	in the Earth system, since it offsets CO2 burial in the sediments. SO2 is the
+	in the Earth system, since it offsets CO2 burial in the sediments. \ce{SO2} is the
 	third most abundant gas and can be measured by remote sensing in the UV. It
 	is therefore often measured as a proxy for volcanic activity. The yearly global
-	SO2 emissions by volcanoes range between 7.5 - 10.5TgSyr–1 (Halmer et al.,
-	2002) and are therefore of the same magnitude as anthropogenic SO2 emissions
+	\ce{SO2} emissions by volcanoes range between 7.5 - 10.5TgSyr–1 (Halmer et al.,
+	2002) and are therefore of the same magnitude as anthropogenic \ce{SO2} emissions
 	(55TgSyr–1 for the year 2000 were given in IPCC, 2013).
-	SO2 and BrO are the two trace gases in volcanic plumes that are the main topic
+	\ce{SO2} and \ce{BrO} are the two trace gases in volcanic plumes that are the main topic
 	of this thesis. This chapter therefore gives a brief overview over the chemistry
-	of SO2 and BrO in the atmosphere after emission from the volcanic vent. The
+	of \ce{SO2} and \ce{BrO} in the atmosphere after emission from the volcanic vent. The
 	impacts of volcanic gas emissions on the environment and especially the influence
-	of SO2 on the Earth’s climate will be discussed following Robock (2000). The
-	part about SO2 summarizes parts of the review paper by Oppenheimer et al.
-	(2011) and the chemistry of BrO is based on the papers of Bobrowski et al. (2007)
+	of \ce{SO2} on the Earth’s climate will be discussed following Robock (2000). The
+	part about \ce{SO2} summarizes parts of the review paper by Oppenheimer et al.
+	(2011) and the chemistry of \ce{BrO} is based on the papers of Bobrowski et al. (2007)
 	and von Glasow (2010). Both parts also contain ideas from von Glasow et al.
 	(2009).
-	Regardless of the path of SO2 scavenging,
+	Regardless of the path of \ce{SO2} scavenging,
 	dry or wet deposition or oxidation
 	to sulfuric acid, the molecule
 	can influence the environment in several
 	ways. A local effect, especially
 	compared to the influences on the
 	Earth’s climate, are direct influences
-	of SO2 on humans (respiratory problems,
+	of \ce{SO2} on humans (respiratory problems,
 	asthma) and plants in the areas
 	affected by volcanic gases. Acid rain
 	caused by volcanic plumes can prevent
 	the growth of plants. Darrall (1989)
-	reviewed the influences of SO2 on photosynthesis,
+	reviewed the influences of \ce{SO2} on photosynthesis,
 	and found that long-term
-	exposures with SO2 concentrations between
+	exposures with \ce{SO2} concentrations between
 	100 - 250 ppb can inhibit photosynthesis
 	of plants. Delmelle et al.
-	(2002) measured SO2 concentrations
+	(2002) measured \ce{SO2} concentrations
 	around Masaya volcano, Nicaragua.
 	The authors found concentrations of
 	up to 230 ppb and an area downwind
 	of the volcano with a decreased number
 	of plant communities. Similar
 	studies were done by Longo et al.
-	(2005), who studied SO2 concentrations
+	(2005), who studied \ce{SO2} concentrations
 	and fine aerosol downwind of Kilauea
 	volcano on Hawaii. The authors
-	found high SO2 concentrations of over
+	found high \ce{SO2} concentrations of over
 	61.9 ppb with atmospheric sampling in the Kau desert south of Kilauea crater.
-	Despite these lower SO2 concentrations, plant growth is largely diminished in the
+	Despite these lower \ce{SO2} concentrations, plant growth is largely diminished in the
 	Kau desert. Fig. 2.4 gives an impression of plants in the Kau desert. It should be
-	noted, though, that while SO2 certainly has negative effects on plant life other
+	noted, though, that while \ce{SO2} certainly has negative effects on plant life other
 	species in the volcanic plume (e.g., HF) are most likely deposited within close
-	proximity of SO2 on the ground as well.
+	proximity of \ce{SO2} on the ground as well.
 	Sulphur influences on the Earth’s climate
-	On a global scale, SO2 and especially its oxidation product sulphuric acid have
-	a large impact on Earth’s climate. The total annual SO2 emissions are low
+	On a global scale, \ce{SO2} and especially its oxidation product sulphuric acid have
+	a large impact on Earth’s climate. The total annual \ce{SO2} emissions are low
 	compared with anthropogenic emissions. Halmer et al. (2002) estimated mean
-	annual S emitted as SO2 by volcanoes between 1972 and 2000 to be in the range
-	between 7.5 - 10.5TgSyr–1. The estimates for anthropogenic SO2 emissions for
+	annual S emitted as \ce{SO2} by volcanoes between 1972 and 2000 to be in the range
+	between 7.5 - 10.5TgSyr–1. The estimates for anthropogenic \ce{SO2} emissions for
 	the year 2000 have a mean value of 55TgSyr–1 (IPCC, 2013). However, Graf et al.
-	(1997) suggested that the impact of volcanic SO2 emissions is higher, since they
+	(1997) suggested that the impact of volcanic \ce{SO2} emissions is higher, since they
 	are released into the free troposphere or into the stratosphere during eruptions,
 	whereas most anthropogenic emissions are released into the planetary boundary
 	layer. After emission into the atmosphere SO2, is oxidised to sulphuric acid. The
@@ -400,28 +400,28 @@ with petrological methods (Shinohara, 2008)
 	
 	\subsection{Sulphur species}
 	2.3.1 Sulphur species
-	Sulphur species, mainly SO2 and H2S are the third most abundant species in
-	volcanic plumes after H2O and CO2. SO2 contributes up to 25% of the total
+	Sulphur species, mainly \ce{SO2} and H2S are the third most abundant species in
+	volcanic plumes after H2O and CO2. \ce{SO2} contributes up to 25% of the total
 	volume of the volcanic plume and H2S ranges between 1 - 10% (see Table 2.1).
-	As opposed to the two most dominant species, SO2 does not have considerable
-	background levels in the atmosphere. The SO2 concentration in the atmosphere
+	As opposed to the two most dominant species, \ce{SO2} does not have considerable
+	background levels in the atmosphere. The \ce{SO2} concentration in the atmosphere
 	is usually below 1 ppb while the concentration in a volcanic plume can easily
 	achieve levels of 1 ppm (Oppenheimer, 2003a). The low background values
 	together with the stability and the relatively strong UV absorption make SO2
 	an easily accessible tracer for volcanic gas emissions (see next Section 2.4).
 	After their release from the reducing conditions in the volcanic vent the gases
 	enter the atmosphere, which is an oxidising environment. H2S is slowly oxidized
-	to SO2 when released into the atmosphere. The first step is the reaction of SH
+	to \ce{SO2} when released into the atmosphere. The first step is the reaction of SH
 %	with OH:2
 %	H2S + OH −−−−−−−!
 %	k=4.7×10−12 H2O + SH (C 2.1)
 	The SH radical then undergoes a series of reactions in the atmosphere that
-	lead to the formation of SO2 (Seinfeld and Pandis, 2006). Theoretically H2S
+	lead to the formation of \ce{SO2} (Seinfeld and Pandis, 2006). Theoretically H2S
 	can react with the halogen radicals Cl and Br to form SH, which results in H2S
 	lifetimes of only a few seconds (Aiuppa et al., 2007). However, Aiuppa et al.
 	(2007) could not reproduce these low H2S lifetimes in measurements that showed
 	a constant SO2/H2S ratio at distances up to several kilometres from the vent.
-	SO2 is removed from the atmosphere by wet and dry deposition or oxidized to
+	\ce{SO2} is removed from the atmosphere by wet and dry deposition or oxidized to
 	sulphuric acid. In the gaseous phase the reaction with OH to sulphuric acid is
 	rather slow:
 %	SO2 + OH M
@@ -433,12 +433,12 @@ with petrological methods (Shinohara, 2008)
 %	−−−−−−−−!
 %	k=5.7×104 s−1 H2SO4 (C 2.4)
 	The rate constant k in Eq. C2.4 is given for 50% humidity in Atkinson
-	et al. (2004). Möller (1980) calculated an SO2 loss rate of k = 1.2 10-6 s-1 for
+	et al. (2004). Möller (1980) calculated an \ce{SO2} loss rate of k = 1.2 10-6 s-1 for
 	homogeneous reactions in the gas phase, or converted to hours a loss of 0.43%
-	SO2 per hour. In heterogeneous reactions, such as reactions of SO2 on particles
+	\ce{SO2} per hour. In heterogeneous reactions, such as reactions of \ce{SO2} on particles
 	or in the liquid phase of particles, the oxidation process is much faster. Möller
-	(1980) gave loss rates of k = 0.1- 1 10-5 s-1 for reactions of SO2 on aerosol
-	particles and k = 5 10-5 s-1 for liquid phase oxidation. The equations for the reaction of SO2 in the liquid phase are (Möller, 1980):
+	(1980) gave loss rates of k = 0.1- 1 10-5 s-1 for reactions of \ce{SO2} on aerosol
+	particles and k = 5 10-5 s-1 for liquid phase oxidation. The equations for the reaction of \ce{SO2} in the liquid phase are (Möller, 1980):
 %	SO2,g + H2Oaq −)−−*− (SO2 · H2O)aq (C2.5)
 %	(SO2 · H2O)aq + H2O −−* )−− HSO−3,aq + H3O+
 %	aq (C 2.6)
@@ -449,16 +449,16 @@ with petrological methods (Shinohara, 2008)
 	reaction with OH (Platt and Stutz, 2008). The oxidation of SO2 can also take
 	place on aerosol particles by reactions with O3, H2O2, HOCl, HOBr or oxygen if
 	catalysts (iron, manganes) are available (von Glasow et al., 2009).
-	Considering these different pathways and regarding the importance of SO2 as
-	a tracer for volcanic activity and for the comparison of SO2 with other trace
-	gases, it is worthwhile to compare measured SO2 loss rates with the values given
-	above. There are only a few reports of high SO2 loss rates. Jaeschke et al.
+	Considering these different pathways and regarding the importance of \ce{SO2} as
+	a tracer for volcanic activity and for the comparison of \ce{SO2} with other trace
+	gases, it is worthwhile to compare measured \ce{SO2} loss rates with the values given
+	above. There are only a few reports of high \ce{SO2} loss rates. Jaeschke et al.
 %	(1982) and Oppenheimer et al. (1998) reported loss rates between 110−3 s−1
 	and 7  10-4 s-1, which would lead to an e-folding time between only 16 and
 	23 minutes. However, older data listed in Oppenheimer et al. (1998) showed
 %	loss rates between 5  10−5 s−1 and 210−7 s−1, therefore leading to e-folding
 	times between 5 hours and several weeks. McGonigle et al. (2004) studied the
-	depletion rate of SO2 using the DOAS technique at Masaya volcano, Nicaragua.
+	depletion rate of \ce{SO2} using the DOAS technique at Masaya volcano, Nicaragua.
 	The authors found that there are negligible variations of up to 500 s - 2000 s
 	after release from the volcano. Furthermore, the authors argue that Jaeschke
 	et al. (1982) had problems with using CO2 as a tracer to compare the SO2
@@ -468,42 +468,42 @@ with petrological methods (Shinohara, 2008)
 	direction. Oppenheimer et al. (1998) measured ash plumes during the wet season
 	at Soufriere Hills, Montserrat. Repeated measurements at the same volcano with
 	more traverses during the dry season and ash-free volcanic plumes, found an one
-	order of magnitude slower SO2 loss rate (Rodríguez et al., 2008). Recent studies
-	from satellites by Beirle et al. (2013) investigated the SO2 loss rates at Kilauea,
-	Hawaii. The authors found mean monthly SO2 life times between 16 and 57 h,
+	order of magnitude slower \ce{SO2} loss rate (Rodríguez et al., 2008). Recent studies
+	from satellites by Beirle et al. (2013) investigated the \ce{SO2} loss rates at Kilauea,
+	Hawaii. The authors found mean monthly \ce{SO2} life times between 16 and 57 h,
 	with the longer lifetimes in summer, when the cloud coverage is lower. While
-	satellites are not able to assess potential SO2 loss close to the volcanic vent due
+	satellites are not able to assess potential \ce{SO2} loss close to the volcanic vent due
 	to restrictions of their spatial and time resolution, this study still shows slow
-	SO2 loss rates with robust observations over a long time-scale.
-	In this work it is assumed that SO2 is stable during the time frame that usually
+	\ce{SO2} loss rates with robust observations over a long time-scale.
+	In this work it is assumed that \ce{SO2} is stable during the time frame that usually
 	occurs during ground-based remote sensing measurements (a few up to several
 	tens of minutes during this thesis).
 	\subsection{Bromine oxide}
 		2.3.2 Bromine oxide
 	Bromine oxide (BrO) was detected for the first time at Soufriere Hills volcano
-	(Montserrat) by Bobrowski et al. (2003). Since then, BrO has been detected
+	(Montserrat) by Bobrowski et al. (2003). Since then, \ce{BrO} has been detected
 	at many volcanoes by ground-based measurements (e.g., Bobrowski and Platt,
 	2007; Bobrowski et al., 2007; Oppenheimer et al., 2006; Vogel, 2011) or from
 	airborne platforms (Heue et al., 2011; Kelly et al., 2013). Theys et al. (2009)
-	were able to detect BrO from satellite after the Kasatochi eruption in 2008, and
-	Hörmann et al. (2013) were able to find BrO in volcanic plumes from 11 erupting
+	were able to detect \ce{BrO} from satellite after the Kasatochi eruption in 2008, and
+	Hörmann et al. (2013) were able to find \ce{BrO} in volcanic plumes from 11 erupting
 	volcanoes with data from the GOME-2 instrument.
 	However, it is actually mainly HBr, not BrO, that is emitted from volcanoes.
-	BrO is formed after the volcanic gas mixes with ozone-rich ambient air. Gerlach
+	\ce{BrO} is formed after the volcanic gas mixes with ozone-rich ambient air. Gerlach
 	(2004) and Martin et al. (2006) used thermodynamical equilibrium calculations
 	to assess the source of bromine and found that there is not enough Br or BrO
-	in hot magmatic gases to explain the BrO concentration measured, e.g. at
+	in hot magmatic gases to explain the \ce{BrO} concentration measured, e.g. at
 	Soufriere Hills by Bobrowski and Platt (2007). Instead, the volcanic gases mix
 	with atmospheric air at high temperatures, in the so-called effective source region
 	(Bobrowski et al., 2007), see Figure 2.6. This can be compared to a chimney,
 	where hot air released from the volcano pulls in atmospheric air through the
 	permeable edifice (Gerlach, 2004). The mixing process at high temperatures
  changes the gas composition and leads to an increase in bromine
-	species other than HBr such as Br, Br2 and BrO (Martin et al., 2006; von Glasow,
+	species other than HBr such as Br, Br2 and \ce{BrO} (Martin et al., 2006; von Glasow,
 	2010). Further mixing with atmospheric air leads to cooling down to ambient
 	temperatures where the so-called Bromine Explosion starts. The term Bromine
-	Explosion originates from BrO observations in polar regions, where a similar
-	non-linear increase in BrO concentration has been observed (Hönninger and
+	Explosion originates from \ce{BrO} observations in polar regions, where a similar
+	non-linear increase in \ce{BrO} concentration has been observed (Hönninger and
 	Platt, 2002; Lehrer et al., 1997; Wennberg, 1999).
 	The Bromine Explosion mechanism can be summarized as:
 %	HBrgas −−! Br−
@@ -515,48 +515,48 @@ with petrological methods (Shinohara, 2008)
 %	(aq) −−! Br2(aq) + H2O (C 2.10)
 %	Br2,aq −−! Br2,gas (C 2.11)
 %	Br2 + h −−! 2 Br (C 2.12)
-%	Br + O3 −−! BrO + O2 (C 2.13)
-%	BrO + HO2 −−! HOBr + O2 (C 2.14)
-%	BrO + BrO −−! 2 Br + O2 (C 2.15)
-%	BrO + BrO −−! Br2 + O2 (C 2.16)
+%	Br + O3 −−! \ce{BrO} + O2 (C 2.13)
+%	\ce{BrO} + HO2 −−! HOBr + O2 (C 2.14)
+%	\ce{BrO} + \ce{BrO} −−! 2 Br + O2 (C 2.15)
+%	\ce{BrO} + \ce{BrO} −−! Br2 + O2 (C 2.16)
 	C2.8 and C2.9 describe the uptake of HBr and HOBr on the surface of an
 	aerosol particle and subsequent transformation into the liquid phase. At low pH
 	< 6.5 (Fickert et al., 1999) or at cold temperatures H+, Br– and HOBr react to
 	form Br2 (C 2.10) that is then released back into the gas phase (C 2.11). Br2
 	reacts to Br via photolysis if sunlight is available (C 2.12). The necessity of solar
 	radiation for the Bromine Explosion in volcanic plumes was verified by Kern et al.
-	(2009), who could measure elevated BrO during daytime, but not at night at
+	(2009), who could measure elevated \ce{BrO} during daytime, but not at night at
 	Masaya volcano, Nicaragua. In the next step Br that was formed from Br2 and
-	O3 reacts to BrO (C 2.13). The role of O3 in Eq.C2.13 was shown by Bobrowski
-	et al. (2007) and Louban et al. (2009) who measured higher BrO/SO2 ratios at
+	O3 reacts to \ce{BrO} (C 2.13). The role of O3 in Eq.C2.13 was shown by Bobrowski
+	et al. (2007) and Louban et al. (2009) who measured higher \ce{BrO}/\ce{SO2} ratios at
 	the edges of the volcanic plume rather than in the middle of the plume, where
 	less ambient (ozone-rich) air is available. Kelly et al. (2013) was able to measure
 	the evolution of ozone depletion in volcanic plumes from an airborne platform.
-	BrO can react with HO2 to form HOBr again leading back from C2.15 to C2.9.
-	The result of this reaction cycle is the formation of BrO and the destruction of
-	O3. BrO can also react with another BrO molecule to form Br2 or Br (C. 2.15
+	\ce{BrO} can react with HO2 to form HOBr again leading back from C2.15 to C2.9.
+	The result of this reaction cycle is the formation of \ce{BrO} and the destruction of
+	O3. \ce{BrO} can also react with another \ce{BrO} molecule to form Br2 or Br (C. 2.15
 	and 2.16), which in turn would react again to BrO. The Bromine Explosion
 	reaction cycle is schematically shown in Figure 2.7.
 	Considering the multitude of chemical reactions that take part in the formation
-	of BrO and because BrO is a secondary volcanic gas, there is some discussion as to
-	whether BrO/SO2 ratio can be a useful indicator of volcano activity. If BrO/SO2 ratios are used as an indicator of volcanic activity, influences from the formation
-	of BrO in the atmosphere have to be ruled out or characterized carefully. SO2 can
+	of \ce{BrO} and because \ce{BrO} is a secondary volcanic gas, there is some discussion as to
+	whether \ce{BrO}/\ce{SO2} ratio can be a useful indicator of volcano activity. If \ce{BrO}/\ce{SO2} ratios are used as an indicator of volcanic activity, influences from the formation
+	of \ce{BrO} in the atmosphere have to be ruled out or characterized carefully. \ce{SO2} can
 	be regarded as stable during times that are typically observed in ground-based
 	remote sensing observations (see above). Perspectives on the time scales of BrO
 	formation have changed over the last couple of years. Bobrowski et al. (2007)
-	and Roberts et al. (2009) estimated an increase in the BrO/SO2 ratio up to
+	and Roberts et al. (2009) estimated an increase in the \ce{BrO}/\ce{SO2} ratio up to
 	several tens of minutes after release from the vent. Newer publications and an
 	improving dataset led Bobrowski and Giuffrida (2012) to the conclusion that the
-	BrO/SO2 ratio increases in the first minutes after release from the volcano, and
+	\ce{BrO}/\ce{SO2} ratio increases in the first minutes after release from the volcano, and
 	then stays constant for some time (see Figure 2.8). Vogel (2011) and Gliß (2013)
-	were able to measure the evolution of the BrO/SO2 ratio in the young plume of
+	were able to measure the evolution of the \ce{BrO}/\ce{SO2} ratio in the young plume of
 	Pacaya volcano and Etna volcano respectively using horizontal DOAS scanning
 	measurements and found a strong increase within the first five minutes after
-	release. Vogel (2011) also measured the BrO/SO2 ratios in ageing plumes at Mt.
+	release. Vogel (2011) also measured the \ce{BrO}/\ce{SO2} ratios in ageing plumes at Mt.
 	Etna and found a constant ratio for plume ages of up to two hours. It has not
-	been sufficiently examined if the BrO/SO2 ratio depends on the ratio of Br/S
+	been sufficiently examined if the \ce{BrO}/\ce{SO2} ratio depends on the ratio of Br/S
 	exsolved from the magma. Nevertheless, it is import to rule out influences of
-	atmospheric chemistry in order to find a meaningful interpretation of BrO/SO2
+	atmospheric chemistry in order to find a meaningful interpretation of \ce{BrO}/SO2
 	ratios. The influence of the time following the mixing of volcanic gas with the
 	ambient atmosphere will be discussed in Chapter 5.
 	\subsection{Using volcanic gases to study volcanic activity}
@@ -572,15 +572,15 @@ with petrological methods (Shinohara, 2008)
 	of gases after and during the release from the volcanic vent. Furthermore the
 	plume composition changes when it reacts with the oxidizing atmosphere. Therefore
 	interpreting volcanic degassing data is complex. For example, Oppenheimer
-	et al. (2011) reported in their review paper on SO2 degassing, that decreasing
-	SO2 fluxes have been ascribed to:
+	et al. (2011) reported in their review paper on \ce{SO2} degassing, that decreasing
+	\ce{SO2} fluxes have been ascribed to:
 	• depletion of volatiles in a magma body
 	• decreased permeability of the magma in the conduit
 	The first process can be regarded as an indicator of decreasing volcanic activity.
 	The second process can be caused by, for example, the formation of a plug when
 	degassed magma starts crystallization. The plug leads to a build up of gas
 	pressure and ultimately might lead to an eruption (Clarke, 2013). Therefore the
-	observation of decreasing SO2 emission rates can indicate an increase as well as
+	observation of decreasing \ce{SO2} emission rates can indicate an increase as well as
 	a decrease of volcanic activity.
 	Despite these complications, measurements of volcanic gases can be an important
 	additional tool for the forecasting of volcanic activity to accompany
@@ -590,8 +590,8 @@ with petrological methods (Shinohara, 2008)
 	measurements together with fumarolic sampling helped, for instance, predict the
 	eruptions of Mount St. Helens, USA, in August 1980 and June 1981 (Casadevall
 	et al., 1983) or Pinatubo, Philippines, in 1991. The remote sensing of volcanic
-	SO2 experienced further spreading world-wide with the availability of miniature
-	spectrometers (Galle et al., 2003) that measure the SO2 column density by
+	\ce{SO2} experienced further spreading world-wide with the availability of miniature
+	spectrometers (Galle et al., 2003) that measure the \ce{SO2} column density by
 	using Differential Optical Absorption Spectroscopy (DOAS, Platt and Stutz,
 	2008). Besides being smaller and cheaper, these miniature spectrometers using
 	the DOAS technique have additional advantages for fieldwork in rugged
@@ -599,37 +599,37 @@ with petrological methods (Shinohara, 2008)
 	availability of more spectral information allows for the correction of radiative
 	transfer problems (Kern, 2009, and also Chapter 3) and to retrieve other trace
 	gases (e.g. O3, NO2 or BrO). An important step towards continuous monitoring
-	of volcanic SO2 emission rates was made with the Network for Observation
+	of volcanic \ce{SO2} emission rates was made with the Network for Observation
 	of Volcanic and Atmospheric Change (NOVAC, Galle et al., 2010). During
 	this EU-funded project scanning DOAS instruments were installed at several
-	volcanoes world-wide. The spectroscopic data for the BrO/SO2 ratios evaluated
+	volcanoes world-wide. The spectroscopic data for the \ce{BrO}/\ce{SO2} ratios evaluated
 	within this thesis were recorded by the NOVAC network, which will be discussed
 	in more detail in Chapter 5. Besides the monitoring instruments and the network
-	itself, the detection of abnormally high SO2 emission rates at Santa Ana volcano
+	itself, the detection of abnormally high \ce{SO2} emission rates at Santa Ana volcano
 	(El Salvador) before the eruption in 2005 was the first big success of the project
 	(Olmos et al., 2007). These measurements helped to plan the evacuation of
 	thousands of people living in the vicinity of Santa Ana volcano. Scanning DOAS
 	instruments need approximately 5 – 15 minutes for one scan across the complete
 	sky. These techniques are therefore rather suited to measure long-term variations
-	in the SO2 emission rates.
+	in the \ce{SO2} emission rates.
 	A lot of additional information can be gained when using instruments that
 	allow emission rate measurements with a higher time resolution. Boichu et al.
 	(2010) used two spectrometers with an optical system that led to a wide fieldof-
 	view covering the complete volcanic vent at Mount Erebus, Antartica. This
-	set-up allowed SO2 emission rate measurements with a time resolution of the
+	set-up allowed \ce{SO2} emission rate measurements with a time resolution of the
 	order of 1 Hz. Frequency analysis of the data revealed patterns with periods
 	between 11 and 24 minutes that allowed discussion of different models for the
-	degassing at Mt. Erebus. The SO2 camera, which is also used in large parts of
-	this thesis, makes SO2 emission rate measurements with a similar time resolution
-	possible. Holland et al. (2011) used SO2 camera measurements at Santiaguito,
+	degassing at Mt. Erebus. The \ce{SO2} camera, which is also used in large parts of
+	this thesis, makes \ce{SO2} emission rate measurements with a similar time resolution
+	possible. Holland et al. (2011) used \ce{SO2} camera measurements at Santiaguito,
 	Guatemala to identify shear-fracturing as the main process leading to cyclic
 	patterns of explosive eruptions rather than building of a viscous plug. Tamburello
-	et al. (2013) applied SO2 cameras at Etna, Italy, using a similar approach as
+	et al. (2013) applied \ce{SO2} cameras at Etna, Italy, using a similar approach as
 	Boichu et al. (2010), and suggested that periodic signals with periods between
 	40 – 250 s and 500 – 1200 s are caused by bursting of rising gas bubbles. First
-	steps in the direction of the analysis of high time resolution SO2 camera data
+	steps in the direction of the analysis of high time resolution \ce{SO2} camera data
 	are presented in Chapter 4 of this thesis.
-	In addition to the SO2 emission rate, the ratio between different trace gases can
+	In addition to the \ce{SO2} emission rate, the ratio between different trace gases can
 	be indicative of volcanic activity as well. The solubility of volatiles depends, e.g.
 	on depth and chemical composition of the magma (see Chapter 2.1), therefore
 	the composition of volcanic gases has been studied in depth. A good introduction
@@ -643,9 +643,9 @@ with petrological methods (Shinohara, 2008)
 	periods. The authors argue that chlorine is exsolved from the magma at deeper
 	levels (Cl/S > 1) while at shallower levels sulphur degassing dominates (Cl/S
 %	 0.1). Burton et al. (2007) measured volcanic gas composition (H2O, CO2,
-	CO, SO2 and HCl) by remote sensing using an open-path Fourier transform
+	CO, \ce{SO2} and HCl) by remote sensing using an open-path Fourier transform
 	infrared spectrometer (OP-FTIR) at Stromboli, Italy. The authors found that
-	the ratio of CO2/SO2 and SO2/HCl were 3-5 times higher during explosions than
+	the ratio of CO2/\ce{SO2} and SO2/HCl were 3-5 times higher during explosions than
 	during quiescent degassing. These observations paired with higher equilibrium
 	temperatures lead the authors to the conclusion that the explosions are driven by
 	gas slugs that originate from a deeper level than gas observed during quiescent
@@ -654,426 +654,176 @@ with petrological methods (Shinohara, 2008)
 	ratios show that bigger explosions originate from a depth of approximately
 	2.7 – 3km while smaller eruptions originate from depths as shallow as 0.8 km
 	below the crater at sea level.
-	The BrO/SO2 ratio has been measured using DOAS remote sensing measurements
+	The \ce{BrO}/\ce{SO2} ratio has been measured using DOAS remote sensing measurements
 	by several authors (e.g., Bobrowski and Platt, 2007; Bobrowski et al.,
 	2003, 2007; Hörmann et al., 2013; Kelly et al., 2013; Oppenheimer et al., 2006;
 	Theys et al., 2009; Vogel, 2011). However, despite naming the possibility to
-	use BrO/SO2 ratios as an additional tracer for volcanic activity, most of these
-	studies focused on the formation of BrO in the atmosphere. First long-time
+	use \ce{BrO}/\ce{SO2} ratios as an additional tracer for volcanic activity, most of these
+	studies focused on the formation of \ce{BrO} in the atmosphere. First long-time
 	measurements at Etna, Italy, were published by Bobrowski and Giuffrida (2012).
-	The authors measured the BrO/SO2 ratio covering the years 2005 - 2009 and
+	The authors measured the \ce{BrO}/\ce{SO2} ratio covering the years 2005 - 2009 and
 	found higher ratios during non-eruptive periods. During four eruptive periods
-	BrO/SO2 ratios were higher three months before the eruption compared to the
+	\ce{BrO}/\ce{SO2} ratios were higher three months before the eruption compared to the
 	ratios observed one month before the eruption. Studies on the seasonal variability
 	and the influence of humidity did not reveal obvious correlations. The authors
 	suggested a model in which bromine is released earlier than sulphur during the
 	magma’s ascent to explain the observed behaviour.
 	\section{Remote sensing of volcanic gases}
-	Remote sensing of volcanic gases
-	In this thesis, SO2 and BrO in volcanic plumes are measured with two different
-	remote sensing techniques, Differential Optical Absorption Spectroscopy (DOAS,
-	Platt and Stutz, 2008) and SO2 camera. Both techniques make it possible to
-	measure volcanic gases by examining their interaction with radiation. This
-	chapter will briefly describe absorption and scattering of radiation in the atmosphere
-	in Section 3.1. The concepts of the two measurement techniques will
-	be described in Sections 3.2 and 3.3. The chapter concludes with the effects of
-	radiative transfer on remote sensing measurements in Section 3.4.
+	In this thesis we are interested in the volcanic trace gases \ce{SO2} and BrO, both measured with the Differential Optical Absorption Spectroscopy (DOAS) a remote sensing technique proposed by \cite{platt2008differential}\\
+	\\
+	
 	\subsection{Absorption spectroscopy}
 	\subsection*{Beer-Lambert Law}
-	Atoms and molecules exist in several energy states with varying electron configuration.
-	Molecules can additionally have different rotational and vibrational
-	states. For simplicity, the basics of radiation transport in the atmosphere will
-	be explained only for molecules in the following paragraphs.
-	If the energy of a photon matches the energy gap between two states of a
-	molecule, the molecule can absorb the photon and enter the more energetic
-	state. The transition can only occur if the lower energetic state is occupied and
-	if the selection rules are fulfilled. The molecule can return to a lower state by
-	collision with other molecules or emission of a photon. However, the direction
-	of the emitted photon is usually not the direction of the incoming radiation.
-	Therefore, the radiation intensity measured behind an absorbing medium (e.g.
-	gases) decreases with increasing light-path through the medium.
-	This decrease is described by the Beer-Lambert law. For radiation of wave-
-	length  and an initial intensity I0 traversing a medium, the Beer-Lambert
-	law gives the light intensity Iafter passing through a path of length L,
-
-	where c(l) is the location-dependent concentration of the trace gas of interest
-	and  is its absorption cross section. The absorption cross section is
-	unique for each molecule and depends on pressure p as well as on temperature T.
-	The quantity measured with many optical remote sensing techniques is the
-	optical density ,
-
-	where S is the column density, the concentration of the trace gas integrated
-	along the light-path:
-
-	The concentration c for a constant trace gas distribution can be directly calculated
-	from the column density S if the path length L is known.
-	For measurements in the atmosphere, the situation is more complex, with
-	a multitude of different absorbers and scattering processes, such as Rayleigh
-	scattering (see Section 3.1.2) and Mie scattering (see Section 3.1.2) that have
-	to be taken into account. This is done by treating the scattering effects as
-	pseudo-absorbers with their respective extinction coefficients R for Rayleigh
-	scattering and M for Mie scattering. The extended Beer-Lambert Law reads:
-
-	This equation is valid for radiation traversing a medium of total length L, with
-	several absorbing species j that can have variable concentrations cj depending
-	on the position l in the light path. The first two terms in the exponential
-	function in Eq. 3.4 describe the extinction due to Rayleigh and Mie scattering in
-	the atmosphere; the third term describes the absorption of various molecules.
-	For simplicity, inelastic scattering and effects arising from turbulences in the
-	atmosphere are neglected here. The most important effect of inelastic scattering,
-	the Ring effect, will be described in Section 3.1.2 and 3.2.2.
+	The Lambert-Beer law describes the attenuation of light when traveling through a material.\\
+	This section will give an overview about the reasons for decreasing light intensity when going through a medium.\\
+	Atoms and Molecules exists in several energy states, depending on the different electron configuration. Moreover Molecules have additionally rotation and vibration states, also enclose to the energy states. If a photon matches the energy gap between two possible energy states, this includes, that the lower energy state is occupied and the selection rules are fulfilled  the molecule could absorb the photon, remaining in a higher energy state.\\
+	The additional photon energy could be loosed by collision with another molecule or by emission. But since the direction of the emitted photon is mostly not the same direction of the absorbed photon the intensity I$_{0}$ of the light before passing the medium is higher than the intensity I after traveling the distance L through the medium.\\
+	This can be described as:\\ 
+	\begin{equation}
+	I\left(L,\lambda\right) = I_{0}\left(\lambda\right)\cdot expt\left(-\int^{L}_{0}\sigma\left(\lambda,p,T\right)\cdot c\left(l\right)dl\right)
+	\end{equation}
+	where $c\left(l\right)$ is the location-dependent concentration of the trace gas of interest. $\sigma\left(\lambda,p,T\right)$ is the absorption cross section, $\sigma\left(\lambda,p,T\right)$ is unique for each molecule and depends on pressure p and on the temperature T.\\
+	%
+	An important quantity used in many optical remote sensing techniques is the optical density $\tau$. The optical density is a measure for the weakening of radiation when going through a material. $\tau$ can be calculated using the lambert beer law:
+	\begin{equation}
+	\tau = -ln\left(\frac{I\left(\lambda\right)}{I_{0}\left(\lambda\right)}\right) = \sigma\cdot S
+	\end{equation}
+	Hereby is $S$ the column density. The column density is the concentration of the trace when integrating along the light path, the dimension of $S$ is therefore the number of molecules divided by an area: $\frac{molec}{cm^2}$.
+	\begin{equation}
+	S = \int_{0}^{L}c\left(l\right)dl
+	\end{equation}
+	%
+	When measuring at a volcano, that means measuring in the atmosphere the situations gets more complex, since we need to deal with several absorbers and scattering processes have to be taken into account. One possibility is to treat scattering effects as pseudo absorbers with the respective extinction coefficients for Rayleigh ($\epsilon_R$) and  Mie ($\epsilon_M$) scattering
+	\begin{equation}
+	I\left(L,\lambda\right) = I_{0}\left(\lambda\right)\cdot expt\left(-\int^{L}_{0}\sum_{j}\sigma_{j}\left(\lambda,p,T\right)\cdot
+	c_{j}\left(l\right)+\epsilon_R\left(\lambda,l\right)+\epsilon_{M}\left(\lambda,l\right)dl\right)
+	\label{eq:lbe}
+	\end{equation}
+	The first term of \cref{eq:lbe} in the exponential function, multiple absorbers $j$ are considered, the corresponding concentration depends on the position l of the light path.
+	The last two terms in describe the extinction due to Rayleigh and Mie scattering in the atmosphere.\\
+	Inelastic scattering (for example the Ring effect) and effects due to turbulences in the atmosphere are neglected here.
+	
 	\subsection{Scattering processes in the atmosphere}
-Rayleigh scattering
-Rayleigh scattering describes elastic scattering (the photon energy does not
-change) on particles much smaller than the wavelength of the incident radiation.
-It has a strong wavelength dependency, scattering at shorter wavelengths is
-stronger, which leads to the blue colour of the sky. Platt and Stutz (2008) gave
-a simplified estimate of the Rayleigh scattering cross section:
+	muss dieses kapitel rein?
 
-Rayleigh scattering is (as the name implies) a scattering and not an absorption
-process. However, in the narrow-beam approximation it can be treated as an
-absorption process. This approximation assumes that the probability of a photon
-that was scattered out of the light beam is scattered back into the light beam
-is negligible. The Rayleigh extinction coefficient R for a number density of air
-molecules Nair is given by:
-
-The angular distribution of Rayleigh-scattered photons is given by the Rayleigh
-phase function:
-
-I0
-(3.7)
-Forward or backward scattering is stronger by up to a factor of 2, when
-compared to a scattering angle of  = 9
-Scattering and absorption by particles
-Photons can also interact with particles that have a size comparable to the
-wavelength of the incident radiation (via scattering or absorption). For spherical
-particles this process is described by the Mie theory. Because these particles can
-absorb and scatter radiation, the Mie extinction coefficient is divided into two
-parts
-
-with the particle radius r, the scattering coefficient s and the absorption
-coefficient a. Mie theory in general is very complex, even more for complex
-particle shapes. Therefore, only a few general remarks from Platt and Stutz
-(2008) will be given here.
-The single scattering albedo (SSA) of an aerosol is defined as:
-
-It defines the amount of radiation scattered by Mie particles, compared to the
-amount that was scattered or absorbed. An SSA of 1 describes pure scattering,
-whereas an SSA of 0 describes an aerosol that absorbs all radiation.
-Mie scattering is, similar to Rayleigh scattering, not an absorption process;
-however, it can be described as an absorption process in the narrow-beam
-approximation as well. The wavelength dependency of the Mie extinction
-coefficient M is:
-
-%Here  is the angstroem exponent (angstroeem, 1929, 1961), which is inversely
-related to the size of the aerosol particles. In general, Mie scattering exhibits a
-smaller wavelength dependency then Rayleigh scattering. Spinetti and Buongiorno
-(2007) measured the optical properties of aerosols in the plume of Etna,
-Italy and found angstroem exponents between 0.13 and 2.42 during episodes of
-quiescent degassing.
-The Mie phase function, and thus the scattering direction, depends on the
-%size parameter s:
-
-
-(3.11)
-In general it can be said, that forward scattering is more dominant in Mie
-scattering when compared to Rayleigh scattering, especially for increasing values
-%of s.
-Raman scattering
-In addition to elastic scattering, inelastic Raman scattering (i.e. the energy of the
-photon changes during the scattering process) may also occur in the atmosphere
-if the atom/molecule changes its excitation state during the scattering process.
-The photon can transfer energy to the molecule (Stokes process) or take up energy
-from the molecule (anti-Stokes process). If only the rotational state  of
-the molecule changes the process is called Rotational Raman scattering is used.
-When the vibrational excitation state changes as well, it is called rotationalvibrational
-Raman scattering. The cross sections for Raman scattering are orders
-of magnitudes smaller than those for Rayleigh scattering (Platt and Stutz, 2008).
-However, the influence of Raman scattering has to be considered for remote
-sensing applications. Due to the energy exchange during the scattering event,
-the incident photon has a different wavelength after the scattering process. This
-causes an effect known as the “Ring effect”, which is named after Grainger and
-Ring (1962). The Ring effect describes a decrease in the optical depth of the
-Fraunhofer lines due to photons that are inelastically scattered. The Ring effect
-is described in more detail in Section 3.2.2.
 	\subsection{Differential Optical Absorption Spectroscopy(DOAS)\label{DOAS}}
-	Eq. 3.4 cannot be applied to real measurements because obtaining the background
-	intensity I0 without absorbers would require removing the atmosphere.
-	Additionally it is impossible to distinguish between the various broad-band
-	effects, like scattering in the atmosphere or instrumental factors that influence
-	the measured spectra. Differential Optical Absorption Spectroscopy (DOAS)
-	is a technique that was invented in the late 1970s by Perner and Platt (1979)
-	and that overcomes these drawbacks by using only the narrow-band absorption
-	features of molecules to measure their column densities. This chapter will give
-	a brief overview of the basic concepts applied in this thesis. More detailed
-	information can be found in the comprehensive work by Platt and Stutz (2008),
-	which was the foundation for this section.
-	3.2.1 The DOAS principle
-	The DOAS technique takes advantage of the fact that scattering effects as well
-	as instrumental properties (i.e. the wavelength dependency of the spectrometer’s
-	optical system and grating) have a broad-band structure. The absorption cross
-	section of trace gases on the other hand has spectral broad-band as well as narrow-band features. It can be divided into the following two parts: a broadband
-	part  that only varies weakly with wavelength and a narrow-band
-	part which varies strongly with wavelength:
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/DOAS_Intensity}
+			\caption{}
+			\label{fig:doasintensity}
+		\end{figure}
+		
+	It is impossible to distinguish between various broad-band effects, like scattering in the atmosphere or instrument effects which influence the measured spectra \cite{lubcke2014optical}. Therefore \cref{eq:lbe} cannot be applied to real measurements.\\
+	Differential Optical Absorption Spectroscopy (DOAS) was invented in the late 1970s by \cite{perner1979detection}. This section will give an overview about the DOAS technique. More detailed information ca be found in the work of \cite{platt2008differential}\\
+	\newline
+	Differential Optical Absorption Spectroscopy uses the fact, that absorption can be divided into broad-band parts and narrow-band parts. Broad band parts are effects that only changes weakly with the wavelength,  i.e. scattering and instruments effects have a broad-band structure. 
+	Narrow-band part are effects that depends strongly on the wavelength.
+	Within the DOAS-Method only narrow-band absorption features of molecules are used to obtain their column densities.
+	The absorption cross section of trace gases$_j$ have broad-band ($\sigma_b\left(\lambda \right)$) and narrow band ($\sigma{'}\left(\lambda \right)$) features, only the narrow-band structures are used in DOAS.
+	\begin{equation}
+	\sigma\left(\lambda \right) = \sigma_b\left(\lambda \right) + \sigma{'}\left(\lambda \right)
+	\end{equation}
+	%
+	With this considerations the lambert-beer law \cref{eq:lbe} can be rewritten
+	dividing the exponential part into a narrow-band part and a broad-band part:
 
-	The Beer-Lambert law (Eq. 3.4) can now be rewritten with the exponential
-	function separated into one part that contains all broad-band effects (e.g.,
-	scattering as well as broad-band absorption features) and another part that only
-	contains the narrow-band absorption features of the trace gases:
+	\begin{align}
+	I\left(\lambda,L\right) = &\overbrace{I_{0}\left(\lambda\right)\cdot expt\left(-\int^{L}_{0}\sum_{j}\sigma_{b,j}\left(\lambda,p,T\right)\cdot c_{j}\left(l\right)+\epsilon_R\left(\lambda,l\right)+\epsilon_{M}\left(\lambda,l\right)dl\right)}^{=I^{'}_0\left(\lambda\right)} \cdot \nonumber \\
+	&expt\left(-\int^{L}_{0}\sum_{j}\sigma_{j}^{'}\left(\lambda,p,T\right)\cdot c_{j}\left(l\right)dl\right)
+	\label{eq:bb}
+	\end{align}	
+		%
+	The so defined $I^{'}_0\left(\lambda\right)$ differs from $I_0\left(\lambda\right)$ only by broad band effects. With $I^{'}_0\left(\lambda\right)$ a differential optical density $\tau^{'}$ can be defined:
+	\begin{equation}
+	\tau^{'} = ln\left(\frac{I^{'}_0\left(\lambda\right)}{I\left(\lambda\right)}\right) = \int_{0}^{L} \sum_{j} \sigma^{'}_{j} \cdot \left(\lambda\right) \cdot c_{j}\left(l\right)dl = \sum_{j}\sigma^{'}_{j}\left(\lambda\right)\cdot S_{j}
+	\label{eq:taustrich}
+	\end{equation}
+	
+	The optical density can now be calculated by using the difference of the column density $S_{M}$ in the measurement Spectrum to the column density $S_{R}$ of a reference spectrum. From \cref{eq:bb} we know:	
+	\begin{equation}
+	I_{P,R} = I^{'}_{0}\cdot exp\left(-S_{P,R}\cdot\sigma\left(\lambda\right)\right)
+	\label{eq:smr}
+	\end{equation}
+	In general the obtained column density $S_{M}$ is called differential slant column density: "dSCD". If the reference spectrum does not contain the trace gas of interest (Is not contaminated with trace gases) that means $S_{R} = 0$, $S_{M}$ is called the slant column	density (SCD). 
+	With \cref{eq:smr} the optical density is given by:
+	\begin{equation}
+	\tau\left(\lambda\right) = -ln\left(\frac{I_{M}}{I_{R}}\right) = \sigma\left(\lambda\right)\cdot\left(S_{M}-S_{R}\right)
+	\end{equation}
+	%
 
-	The newly defined intensity I0
-is the intensity without differential absorption,
-	it differs from I0 only in broad-band structures. Using I0
-	0, the differential
-	optical density can be defined (note that in this equation the differential
-	absorption cross sectionsj are used, see also Fig. 3.1):
+	
+	
+	\subsection{Technical implementation of the DOAS approach}
+	The theory explained above describes only the ideally situation. In real measurements more problems occur due to Instrument limitations inelastic scattering causing the Ring effect and due to impacts of external parameters like temperature.\\
+	I will give an short overview about these problem and the consequences four our retrieval, further informations can be found in \cite{lubcke2014optical}.\\
+	\subsubsection*{Optical and spectral resolution of the spectrometer}
+	The resolution of the spectrometer is finite, thus the detector receive a spectrum $I^{*}\left(\lambda\right)$ which can be retrieved with a convolution of the incident spectrum $I\left(\lambda\right)$ with the instrument function H$\left(\lambda\right)$:
+	\begin{equation}
+	I^{*}\left(\lambda\right) = I\left(\lambda\right)*H\left(\lambda\right)=\int I\left(\lambda-\lambda{'}\right)\cdot H\left(\lambda-\lambda{'}\right)d\lambda{'}
+	\end{equation} 
+	For the evaluation all $\sigma_{j}$  of the trace gases of interests need to have the same spectral resolution as the instrument used for recording the spectra. In this work we will use high resolution cross sections and convolute them with the instrument function H:
+	\begin{equation}
+	\sigma{*}\left(\lambda\right) = \sigma\left(\lambda\right)*H\left(\lambda\right)
+	\end{equation}
+	The Instrument function H can be approximated by using a the spectral lines of an mercury lamp since the width of those lines is only a few pm, they could be treated as delta peaks when comparing it to the resolution of the spectrometers.
+	
+	\subsubsection*{Effects from the detector}
+	The detector only has discrete pixels, therefore a wavelength interval need be mapped on a pixel $i$.
+	
+	\begin{equation}
+	I^{'}\left(i\right) = \int_{\lambda(i)}^{\lambda(i+1)}I^{*}\left(\lambda{'}d\right)d\lambda{'}
+	\end{equation}
+	For the retrieval the relationship between the detector channels and the wavelength of the spectrum need to be known.
+	The Wavelength to pixel mapping (WMP) for a detector with q channels can be calculated as:
 
-	Eq. 3.14 can now be solved for the column densities Sj . For the simple case of
-	only one trace gas with constant concentration c and a well-known light path L,
-	the concentration can be directly calculated from 
-
-	(3.15)
-	In a DOAS measurement only the difference of the column density SM in the
-	measurement spectrum  and the column density SR of the
-	reference spectrum  is obtained. The optical density is given
-	by:
-
-	In general for two spectra the obtained column density is called differential
-	slant column density dS. In the case that the reference reference spectrum IR
-	does not contain the trace gas of interest (SR = 0) it is called the slant column
-	density (SCD), the column density along some light path. In volcanological setting the ideal light-path is a straight line through the volcanic plume. In this
-	thesis, it is usually assumed that the reference spectrum is gas free. Whenever
-	the term column density is used it refers to the SCD. Only in Chapter 8 the
-	distinction between dS and the SCD is explicitly made.
-	3.2.2 Technical implementation of the DOAS approach
-	The theory described above is based on an ideal instrument. In reality, instruments
-	have limitations; spectrometers only have a finite optical and spectral
-	resolution and temperature dependencies can further influence the signal. The
-	chapter above also neglects the effect of inelastic scattering that causes the Ring
-	effect and also the solar I0 effect, an effect that influences the convolution of the
-	high-resolution reference cross sections. All these effects will be described in
-	this section. The section ends with a brief description of the DOASIS software’s
-	fitting routine (Kraus, 2006), which was used for the evaluation of spectroscopic
-	data in this thesis.
-	Optical and spectral resolution of the spectrometer
-	The optical and spectral resolution of spectrometers is finite. This leads to a
-	spectrum arriving at the detector that can be described as the convolution
-	of the incident spectrum  with the instrument line function (ILF) :
-
-	To correctly retrieve the column densities Sj , all reference cross sections j
-	used in Eq. 3.15 must have the same spectral resolution as the instrument used for
-	recording the spectra. This can be achieved, for example, by recording absorption
-	spectra and placing a calibration cell containing a known concentration of the
-	trace gas of interest in the light path. However, this is difficult to achieve in many
-	cases. Some species are too chemically reactive (e.g. the equilibrium between
-	NO2 and N2O4 depends on the temperature) and additionally calibration cells
-	tend to leak. For O3, the temperature dependency of the absorption cross
-	section presents another problem. Therefore, cross sections 
- at instrument
-	resolution are often calculated from high-resolution absorption cross sections
- measured in a laboratory by convolving them with the ILF H():
-
-	In DOASIS, the convolved spectrum is interpolated to the spectral grid of the
-	spectrometer after the convolution. Equation 3.18 is only an approximation that
-	can be used for small optical densities. A more accurate solution is shown in the
-	subsection about the solar I0 effect.
-	The ILF H that is needed for the convolution can be approximated by
-	measuring the lines of a Mercury lamp. The spectral width of these lines is typically only a few pm. Therefore, these lines can be seen as a delta peak in
-	good approximation when compared to the resolution of a typical spectrometer
-	(on the order of 0.6nm for the instruments used in this thesis).
-	Effects from the detector
-	The spectrumis recorded by a detector that only has discrete pixels. Therefore,
-	a wavelength-interval is mapped onto a pixel i:
-	I0(i) =
-
-	For the DOAS retrieval, it is important to know the relationship between the
-	channels of the detector and the wavelength of the spectrum. The so-called
-	wavelength-pixel-mapping for a detector with q channels can be described with
-	a polynomial:
-
-	The parameters k describe which wavelength corresponds to which pixel. 0
-	corresponds to a shift of the spectrum, and a change in 1 describes a squeeze or
-	stretch of the spectrum. The wavelength-pixel-mapping as well as the optical
-	properties of the spectrometer depend on the instrument’s temperature and the
-	ambient pressure in many cases. The temperature dependency is discussed in
-	more detail in Chapter 7.
-	To determine the wavelength-pixel-mapping, the peaks of a Mercury line
-	spectrum are measured in many applications. From the known wavelength of
-	the peaks and the pixels that correspond to these peaks the wavelength-pixelmapping
-	can be determined. More recently the wavelength-pixel-mapping is
-	determined by comparing a high-resolution solar spectrum (Chance and Kurucz,
-	2010), which is convolved to the instrument’s resolution with the measured
-	spectrum (Lehmann, 2014; van Rozendael, 2013). The latter approach is used
-	in this thesis, as Mercury line spectra for the NOVAC instruments were only
-	available at room temperature.
-	Two other important temperature-dependent effects of the detector are offset
-	and dark current. The offset is a low voltage that is added to the CCD signal
-	to prevent negative signals that could result from noise at very low intensities.
-	The analog-to-digital converter that converts the signal to a digital value cannot
-	handle negative values. The offset structure is temperature dependent and each
-	instrument has an individual offset structure. It can be removed by subtracting
-	an offset spectrum, which can be created by recording n spectra with minimal
-	exposure time and no radiation entering the spectrometer. The offset spectrum
-	has to be rescaled to match the number of spectra summed up in the measurement
-	spectrum.
-	The dark current of the CCD is caused by thermally excited electrons in the semiconductor’s depletion zone. The dark current signal increases linearly with
-	increasing exposure times and exponentially with increasing temperatures and can
-	be greatly reduced by cooling the detector. Additionally, it is signal dependent
-	(Stutz and Platt, 1993), but a first-order correction can be made by subtracting
-	a dark current spectrum from the offset-corrected measurement spectrum. The
-	dark current spectrum should be recorded at the same temperature as the
-	measurements, with no radiation entering the spectrometer and an exposure
-	time longer than the measurement’s exposure time. It has to be rescaled to
-	match the measurements exposure time.
-	The complete process of how radiation is measured and the incident spectrum
- is altered by the instrument’s optical system and subsequently mapped
-	onto discrete channels recorded by the detector is depicted in Figure 3.2.
-	The Ring effect
-	Inelastic scattering leads to the Ring effect (named after Grainger and Ring, 1962)
-	that can be observed as a filling of the Fraunhofer lines in spectra of scattered
-	solar radiation when compared to direct sunlight measurements. Today, it is
-	believed that the Ring effect is caused by rotational Raman scattering mainly on
-	O2 and N2 in the atmosphere (Bussemer, 1993; Solomon et al., 1987). Solomon
-	et al. (1987) suggested treating the Ring effect as a pseudo-absorber in the
-	evaluation of spectroscopic data based on the calculation listed below.
-	The radiation arriving at the instrument Imeas consists of parts that were
-	Rayleigh, Mie or Raman scattered in the atmosphere:
-	Imeas = IRayleigh + IMie + IRaman = Ielastic + IRaman (3.21)
-	The logarithm of Imeas can be expanded when taking into account that Raman
-	scattering is orders of magnitude weaker than elastic scattering processes:
+	\begin{eqnarray}
+	\lambda(i) = \sum_{k=0}^{q-1}\gamma_{k}\cdot i^{k}
+	\end{eqnarray}
+	Hereby is $\gamma_{0}$ a shift of the spectrum and $\gamma_{1}$ a squeeze (respectively stretch) of the spectrum.
+	The wavelength to pixel mapping can be discovered by using again a mercury lamp and compare pixel-position with the well known wavelength of the individual HG-lines of the mercury lamp.\\
+	The wavelength to pixel mapping depends on the instrument temperature as well as on the ambient pressure \cite{lubcke2014bro}.\\
+	\\
+	Do I need to mention dark current and offset???
+	\subsubsection*{Ring effect}
+	As mentioned above inelastic scattering causes the Ring effect (named after Grainger and Ring, 1962).
+	The Ring effect is observable through an filling of he Fraunehofer lines in spectra of scattered solar radiation, (e.g. if the sunlight travels through the earth atmosphere). when compared to direct sunlight measurements (e.g. outside of the earth atmosphere).
+	(\cite{bussemer1993ring},\cite{solomon1987interpretation}) proposes that the Ring effect is a result of  rotational Raman scattering mainly on
+	$O_2$ and $N_2$ in the atmosphere.
+	\cite{solomon1987interpretation} suggested to treat the Ring effect as a pseudo-absorber. 
 
 
-	The Ring spectrum that can be included as a pseudo-absorber in the DOAS
-	evaluation is defined as:
-	IRing = IRaman
-	Ielastic
-	(3.23)
-	The Raman Spectrum is needed for the calculation of the Ring effect. It can be
-	measured by comparing the intensities of light that is polarized perpendicular
-	and parallel to the scattering plane (Bussemer, 1993; Solomon et al., 1987). Another
-	approach is to calculate the Raman spectrum from a measured spectrum
-	using input knowledge on the concentrations of N2 and O2 in the atmosphere (Bussemer, 1993; Chance and Spurr, 1997). In this thesis, the latter approach
-	is used with the Ring spectrum being calculated from the DOASIS software
-	package (Kraus, 2006).
-	In cases with multiple Rayleigh scattering in the atmosphere or scattering on
-	clouds and aerosol particles, the wavelength dependency of the amplitude of the
-	Ring spectrum can vary (Wagner et al., 2009). For these cases a second Ring
-	spectrum, which is calculated from the original Ring spectrum by multiplying it
-	by a wavelength dependent term , is included in the evaluation:
-	IRing,2 = IRing 
-	In this work, the second Ring spectrum is orthogonalised against the first Ring
-	spectrum in the retrieval range.
-	The solar I0 effect
-	As outlined earlier in this section, typical spectrometers have a finite resolution
-	that cannot resolve all the structures of the Fraunhofer lines. The absorption
-	structures as seen by the spectrometer can therefore differ slightly from the absorption
-	cross sections that were recorded in the laboratory with an unstructured
-	light source and later convolved to match the instrument’s resolution (Platt
-	et al., 1997). Two effects called the solar I0-effect and the saturation effect
-	can occur. Both effects are caused by narrow spectral structures that are not
-	accurately taken into account when using cross sections as outlined in Eq. 3.18.
-	For the saturation effect, these are strong absorption lines that are smoothed out
-	during the convolution of the cross section. For the solar I0-effect, the causes
-	are narrow Fraunhofer lines that weight a cross section differently in reality.
-	Mathematically this can be shown by comparing an ideal measurement (infinite
-	resolution) with one trace gas with a real measurement. For an ideal measurement,
-	the DOAS approach would yield the optical density:
-
-	In reality, however, both intensities are measured with the instrument’s spectral
-	resolution (see Eq. 3.17) and the optical density  is:
-
-	Therefore, for strong absorbers or a structured light source (as the sun in
-	passive DOAS measurements), a correction has to be applied. Following Platt
-	and Stutz (2008) and Lehmann (2014), the corrected absorption cross sections 3 Remote sensing of volcanic gases
-	can be calculated as:
-
-
-	In this equation 
-	0,K is calculated by convolving a high resolution solar spectrum
-	(e.g. Chance and Kurucz, 2010):
-
-	For the second spectrum 
-	K an absorbing term according to Beer-Lambert law
-	is applied before the convolution:
-
-	A good estimate of the true column density is therefore needed to create the
-	corrected absorption cross sections. In this work, whenever solar I0-corrected
-	cross sections are used, the estimate was obtained by performing a fit using cross
-	sections according to Eq. 3.18. The obtained column densities were then used as
-	input parameters for Eq. 3.27.
-	The DOAS retrieval
-	The DOAS approach used in this thesis differs slightly from Eq. 3.14 and 3.15.
-	The fitting routine from the DOASIS software (Kraus, 2006) was used to evaluate
-	all spectroscopic data in this thesis.
-	Eq. 3.4 can be rewritten to:
-
-	differ between the background spectrum I0 and the measurement spectrum I.
-	The DOAS fitting routine varies the polynomial and the column densities
-
-	The DOASIS fit routine uses a combination of a standard least-squares fit and a
-	Levenberg-Marquard algorithm to minimize 
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/DOAS_Intensity}
-		\caption{}
-		\label{fig:doasintensity}
-	\end{figure}
 	
 	\part{Evaluation of the Data of Tungurahua and Nevado Del Ruiz}
 	
 	
 	\chapter{Network for Observation of Volcanic and Atmospheric Change \label{NOVAC}}
 	%	
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=0.8\linewidth]{Bilder/NOVAC2015}
-			\caption{Global map of the volcanoes monitored by NOVAC. Used with friendly permission of Santiago Arellano.}
-			\label{fig:novac2015}
-		\end{figure}
-		Network for Observation of Volcanic and Atmospheric Change (NOVAC) is a network of instruments monitoring volcanoes over the hole world. 
-		The aim of NOVAC is to gain another tool for risk assessment, for gas emissions and geophysical researches. Also many other scientific purposes are build on the data from NOVAC.\\
-		\Cref{fig:novac2015} shows a map, with all volcanoes of the Network for Obersavation of Volcanic and Atmospheric Change.\\
-		%
-		NOVAC was originally funded by the European Union on the first October in 2005. The aim of NOVAC is to  establish  a  global  
-		network  of  stations  for  the  quantitative  measurement  of  volcanic gas  emissions. At the beginning NOVAC encompassed observatories of 15 volcanoes in Africa America and Europe, including some of the most active and strongest degassing volcanoes in the world. Although the EU-funding has stopped, the network has been constantly growing since it was founded. In 2017 more than 80 Instruments are installed at over 30 volcanoes in more than 13 countries.\\
-		The great advantage of the data monitored in NOVAC is the fact
-		that NOVAC provides continues gas emission data over many years. Therefore one is able to get more statistical stable results.\\
-		The instruments used in NOVAC are scanning UV-spectrometer : Mini Doas instruments. \\
-		The  Mini-DOAS  instrument  represents  a  major  breakthrough  in  volcanic  gas	monitoring as it is capable of real-time semi-continuous unattended measurement of the total emission fluxes of  SO2	and BrO from a volcano. Semi-continues means in this case that the measurement is only possible during day time when enough Sun light is there.\\
-		%
-		\begin{figure}
-			\subfigure[Bezeichnung der linken Grafik]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/NOVAC_Instrument}}
-			\subfigure[Bezeichnung der rechten Grafik]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/NOVAC_scan_geo}}
-			\caption{Titel unterm gesamten Bild}
-		\end{figure}
-		The  basic  mini-DOAS  system  consists  of  a  pointing  telescope  fiber-coupled  to  a  spectrograph.  
-		Ultraviolet light from the sun, scattered from aerosols and molecules in the atmosphere, is collected by 
-		means  of  a  telescope  with  a  quartz  lens  defining  a  field-of-view  of  12  mrad.
-		\ref{NOVAC Seite} \\
-		The spectrometers measure in the UV region in a wavelength range of 280 to 420 nm. In this range are the differential structures of SO2 and BrO dominant.
-		\\
- 		The Novac-instruments need to be very robust to stand the conditions around volcanoes. Therefore the design of the instruments is rather simple, this means the instruments do not have internal stabilisation features like temperature stabilization to keep the measurement independent of external parameters (for example Temperature).
-		This comes along with a reduced precision of the data, but the huge amount of data produced by NOVAC compensates this disadvantage.  
-	
-	
-	\section{Measurement Routine}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.6\linewidth]{Bilder/Simon/Bilder_Tung/Map_Tungurahua2}
-		\caption{}
-		\label{fig:maptungurahua2}
-	\end{figure}
-	The Instruments are set up five to ten km downwind of the volcano of the volcano. To cover most of the occurring wind directions two to five instruments are installed at each volcano. Ideally the measurement plane is orthogonal to the plume, to get the best measurement results. In reality the measurement plane could be twisted.\\
-	The Instruments record spectra in different viewing angles covering a the hole sky from horizon to horizon from 
-	-90$^{\circ}$ to 90$^{\circ}$. The zenith is at 0$^{\circ}$.
-	The measurement routine starts with a spectrum in zenith direction: The pre-reference.
-	Afterwards the dark current spectrum is recorded.\\
-	Then the Instrument turns automatically to the side, recording spectra at the Elevation Angle from -90$^{\circ}$ to 90$^{\circ}$ with steps of 3.6$^{\circ}$. \\
-	One hole measurement takes from 6 to 15 minutes.
-
+	\input{Chapters/2_NOVAC/2_NOVAC}
 	
 	\chapter{Evaluation Routine}
 	\section{NOVAC-Evaluation}
+		The fitting routine based on the DOASIS software \cite{kraus2006doasis} is used to evaluate the spectroscopic data, recorded from NOVAC, in this work.
+		The equations used in the DOAS retrieval are slightly different from \cref{eq:taustrich}.
+		\Cref{eq:lbe} can be rewritten to:
+		\begin{align}
+		ln\left(I\left(\lambda, L\right)\right) = ln\left(I_0 \right) + P \left(\lambda\right) -	\int_{0}^{L}\sum_{j}\sigma_j \left(\lambda, p, T \right) \cdot c_j \left(l\right)dl\\
+		= ln\left(I_0 \right) + P \left(\lambda\right)-
+		\sum_{j}\sigma_j \left(\lambda, p, T \right) \cdot S_j
+		\label{eq:lben}
+		\end{align}
+		%
+		The term $ P \left(\lambda\right)$ is a polynomial that accounts for all broad-band effects that differ between the background spectrum $I_0\left(\lambda\right)$ and the measurement spectrum $I\left(\lambda\right)$.\\
+		The remaining task of the DOAS routing is to find a model function $F \left(\lambda\right)$ that minimizes $\chi^2$:
+		\begin{equation}
+		\chi^2 = \sum_{i=\lambda_1}^{\lambda_2}\left(ln(I(i))-F(i)\right)^2
+		\end{equation}
+		While $F\left(\lambda\right)$ can be expressed on the basis of \cref{eq:lben}:
+		\begin{equation}
+		F\left(\lambda\right) = ln\left(I_0 \right) + P \left(\lambda\right)-
+		\sum_{j}\sigma_j \left(\lambda\right) \cdot S_j
+		\end{equation}
+		The DOAS fitting routine uses a combination of a standard least-squares fit and a Levenberg-Marquard algorithm to minimize $\chi^2$
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.5\linewidth]{Bilder/Simon/Bilder_Tung/Algorithm}
@@ -1085,34 +835,51 @@ is the intensity without differential absorption,
 		\subfigure[Bezeichnung der rechten Grafik]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/BrO_Scan}}
 		\caption{Titel unterm gesamten Bild}
 	\end{figure}
+	\begin{table}
+		\begin{tabular}[|p{2cm}|p{2.5cm}|]{cc}
+			\ce{BrO} Evaluation&\ce{SO2} Evaluation\\
+			\toprule
+			\ce{SO2}&\\
+			O2&\\
+			O3&\\
+			O4&\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
 	In the following we describe the technical implementation of the DOAS approach using the data of NOVAC instruments:\\
 	The first important task is to locate volcano plume and the reference region using the data from te measurement routine described above.
-	
-	To do so we use the pre-reference (the spectra recorded at an elevation angle of  0$^{\circ} $) to evaluate spectra for SO2 at every elevation angle as described in chapter \ref{DOAS}, that means we divide each recorded spectra by the pre-reference and take the logarithm  to get rid of the Frauenhofer structures and to be able to just look at the important structures of the plume. To get the gas amounts of the evaluated spectra, one fits the absorption spectrum of all important gases on the spectrum. In our case we take all gases written in tab. \ref{tab: 1} into account. The result will be an SO2 curve as it is shown in fig. \ref{fig so2}.
-	Figure \ref{fig so2} shows the relative SO2 column density to the pre-reference as a function of the elevation angle. We can clearly observe a a maximum of SO2 and a minimum. Inside the plume the SO2 amount is much higher than in the outside the plume. Therefore we assume that the location of the SO2 maximum match with the location of the plume. We assume that the minimum of the SO2 curve refers to a region outside of the plume which is in most times the case. The SO2 amount in the earths atmosphere is negligible so we take it as a region of zero SO2. Now it is possible to locate the plume region as the SO2 maximum, whereas the minimum of the SO2 curve the reference region is. \\
-	To technically detect the plume region we use a gauss fit of the So2 curve.
-	To increase the quality and to get a more robust result the sum over several plume spectra is taken. If the gauss curve is too wide we use only the 10 spectra with the highest SO2 amount. For the reference we use the sum of 10 spectra with the lowest SO2 amount.\\
+	\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{VorherPresen/FlussDiag}
+\caption{}
+\label{fig:FlussDiag}
+\end{figure}
+
+	To do so we use the pre-reference (the spectra recorded at an elevation angle of  0$^{\circ} $) to evaluate spectra for \ce{SO2} at every elevation angle as described in chapter \ref{DOAS}, that means we divide each recorded spectra by the pre-reference and take the logarithm  to get rid of the Frauenhofer structures and to be able to just look at the important structures of the plume. To get the gas amounts of the evaluated spectra, one fits the absorption spectrum of all important gases on the spectrum. In our case we take all gases written in tab. \ref{tab: 1} into account. The result will be an \ce{SO2} curve as it is shown in fig. \ref{fig so2}.
+	Figure \ref{fig so2} shows the relative \ce{SO2} column density to the pre-reference as a function of the elevation angle. We can clearly observe a a maximum of \ce{SO2} and a minimum. Inside the plume the \ce{SO2} amount is much higher than in the outside the plume. Therefore we assume that the location of the \ce{SO2} maximum match with the location of the plume. We assume that the minimum of the \ce{SO2} curve refers to a region outside of the plume which is in most times the case. The \ce{SO2} amount in the earths atmosphere is negligible so we take it as a region of zero SO2. Now it is possible to locate the plume region as the \ce{SO2} maximum, whereas the minimum of the \ce{SO2} curve the reference region is. \\
+	To technically detect the plume region we use a gauss fit of the \ce{SO2} curve.
+	To increase the quality and to get a more robust result the sum over several plume spectra is taken. If the gauss curve is too wide we use only the 10 spectra with the highest \ce{SO2} amount. For the reference we use the sum of 10 spectra with the lowest \ce{SO2} amount.\\
 	%
-	The so found reference spectrum is used to fit it on the SO2 absorption lines of Gases to get the absolute column densities of SO2 and BrO in the plume spectrum\\
+	The so found reference spectrum is used to fit it on the \ce{SO2} absorption lines of Gases to get the absolute column densities of \ce{SO2} and \ce{BrO} in the plume spectrum\\
 	\\
-	Since the BrO column density is much lower than the SO2 column density and lies just slightly above the detection limit the plume is hard to detect using the BrO column density as it is shown in fig. \ref{ fig bro}. 
-	Therefore we use plume location we found by using SO2 to evaluate the BrO column density.\\
+	Since the \ce{BrO} column density is much lower than the \ce{SO2} column density and lies just slightly above the detection limit the plume is hard to detect using the \ce{BrO} column density as it is shown in fig. \ref{ fig bro}. 
+	Therefore we use plume location we found by using \ce{SO2} to evaluate the \ce{BrO} column density.\\
 	For the evaluation we use the data of more than one measurement, to increase the fit quality.\\
-	We are mainly interested in the BrO/SO2 ratio, with the calculations described above it is now possible the get this ratio.
+	We are mainly interested in the \ce{BrO}/\ce{SO2} ratio, with the calculations described above it is now possible the get this ratio.
 	In \cref{...} is the NOVAC Evaluation visualized.\\
-	Taking the BrO/SO2 ratio if the column densities are close to zero yields unpredictable and unrealistic results. Thus spectra measured outside of the volcano plume need to be excluded.
-	This could be achieved by setting a BrO or/and a SO2 threshold. A reasonable BrO threshold need to be at least in the order of the DOAS fit error. But this could lead to elevated BrO/SO2 ratios, since the BrO error is often close to the detection limit, and thus exclude all low BrO column densities from the evaluation.
+	Taking the \ce{BrO}/\ce{SO2} ratio if the column densities are close to zero yields unpredictable and unrealistic results. Thus spectra measured outside of the volcano plume need to be excluded.
+	This could be achieved by setting a \ce{BrO} or/and a \ce{SO2} threshold. A reasonable \ce{BrO} threshold need to be at least in the order of the DOAS fit error. But this could lead to elevated \ce{BrO}/\ce{SO2} ratios, since the \ce{BrO} error is often close to the detection limit, and thus exclude all low \ce{BrO} column densities from the evaluation.
 	%
 	
 	\textcolor{red}{	
-	To avoid this problem, an SO2 threshold of $7\cdot 10^{17} \frac{molec}{cm^2}$ was used
-	to select spectra for the evaluation of the BrO/SO2 ratio. This threshold is
-	a relatively high SO2 column density. However, for the lower values of the
-	BrO/SO2 ratio in  this would result in a BrO column
+	To avoid this problem, an \ce{SO2} threshold of $7\cdot 10^{17} \frac{molec}{cm^2}$ was used
+	to select spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. This threshold is
+	a relatively high \ce{SO2} column density. However, for the lower values of the
+	\ce{BrO}/\ce{SO2} ratio in  this would result in a \ce{BrO} column
 	density as low as $4\cdot 10^{13} \frac{molec}{cm^2}$, a value only slightly higher than the
 	average DOAS retrieval error for BrO. This approach assures that scans not seeing
 	significant amounts of volcanic gas are filtered out and thus will not significantly
-	influence the BrO/SO2 ratio. \citealp{lubcke2014bro}}
+	influence the \ce{BrO}/\ce{SO2} ratio. \citealp{lubcke2014bro}}
 	
 	\section{Contamination Problem}
 	\begin{figure}
@@ -1126,7 +893,7 @@ is the intensity without differential absorption,
 	It might occur that in rare (ca. 10\% of the data) scenarios, the
 	volcanic plume covers the whole scan region.
 	This could happen if for example the volcanic plume of the day before still extend over the hole scan area as a consequence of windless conditions.
-	In consequence, the reference	is contaminated with volcanic trace gases. Thus the gas amount is underestimated by the NOVAC-Evaluation: In \cref{fig:contaminated} we see an example from April 2011 (Tungurahua) where the reference region is contaminated by volcanic trace gases. The blue SO2 curve shows our calculations with the NOVAC-Evaluation, but since there is still SO2 in the reference region, therefore the assumption, that the SO2 amount could be set to zero in the reference region is wrong. The red curve shows the real SO2 curve, and we will underestimate the total SO2 amount of the plume. Contamination occur in approximately 10$\%$ of the data.\\
+	In consequence, the reference	is contaminated with volcanic trace gases. Thus the gas amount is underestimated by the NOVAC-Evaluation: In \cref{fig:contaminated} we see an example from April 2011 (Tungurahua) where the reference region is contaminated by volcanic trace gases. The blue \ce{SO2} curve shows our calculations with the NOVAC-Evaluation, but since there is still \ce{SO2} in the reference region, therefore the assumption, that the \ce{SO2} amount could be set to zero in the reference region is wrong. The red curve shows the real \ce{SO2} curve, and we will underestimate the total \ce{SO2} amount of the plume. Contamination occur in approximately 10$\%$ of the data.\\
 	\\
 	If the reference region is for any reason
 	contaminated by volcanic trace gases, the reference spectrum has to be
@@ -1141,14 +908,14 @@ is the intensity without differential absorption,
 	\subsection*{Evaluation using a Solar Atlas Spectrum \label{kuruz}}
 	An alternative to choose the region with the lowest column density as reference region is to use a theoretical high resolution solar atlas spectrum as reference \cite{chance2010improved}.
 	The use of a theoretical solar atlas spectrum as a reference which is completely volcanic-trace-gases-free was first proposed by \cite{lubcke2014bro}.
-	The advantage of using a solar atlas spectrum as reference is, that we know that there are no volcanic trace gases, we do not need to assume, that the minimum SO2 amount is zero. The disadvantage is, that using a solar atlas spectrum comes along with a drawback of precision: A theoretical solar atlas spectrum is far more precise than the spectra of the NOVAC instruments therefore the instrument functions need to be modeled and added to the retrieval.\\ 
+	The advantage of using a solar atlas spectrum as reference is, that we know that there are no volcanic trace gases, we do not need to assume, that the minimum \ce{SO2} amount is zero. The disadvantage is, that using a solar atlas spectrum comes along with a drawback of precision: A theoretical solar atlas spectrum is far more precise than the spectra of the NOVAC instruments therefore the instrument functions need to be modeled and added to the retrieval.\\ 
 	The reduction of precision is acceptable for the
-	SO2 retrieval but not suitable for a BrO retrieval because then most data would be below the detection limit.\\
+	\ce{SO2} retrieval but not suitable for a \ce{BrO} retrieval because then most data would be below the detection limit.\\
 %
 \\
 %
 	Possible contaminations can be checked
-	by a theoretical solar atlas spectrum to evaluate the SO2 amount in the reference.
+	by a theoretical solar atlas spectrum to evaluate the \ce{SO2} amount in the reference.
 
 	\subsection*{Evaluation using a Spectrum of the same Instrument}
 	An alternative reference spectrum coud be a a volcanic-gas-free reference
@@ -1160,7 +927,7 @@ is the intensity without differential absorption,
 	\\
 	In this work we will combine both options in order to
 	achieve both, enhanced accuracy but still maximum possible precision of
-	the SO2 and BrO retrievals. So we use the solar atlas spectrum to check for 
+	the \ce{SO2} and \ce{BrO} retrievals. So we use the solar atlas spectrum to check for 
 	contamination and a reference spectrum recorded in temporal proximity by the same instrument as reference.\\
 	\\
 	%
@@ -1169,35 +936,35 @@ is the intensity without differential absorption,
 	
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_Contamination/contaminationdependency_so2}
+	%	\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_Contamination/contaminationdependency_so2}
 		\caption{}
 		\label{fig:contaminationdependencyso2}
 	\end{figure}
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro}
+%		\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_Contamination/contaminationdependency_bro}
 		\caption{}
 		\label{fig:contaminationdependencybro}
 	\end{figure}
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio}
+%		\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_Contamination/contaminationdependency_ratio}
 		\caption{}
 		\label{fig:contaminationdependencyratio}
 	\end{figure}
 	\chapter{Limitations for the evaluation of  BrO}
-    Since the SO2 amount in a volcano plume is rather high (magnitude of SO2 at Tungurahua $\approx 1e^{18}$, \cite{WarnachSimon}) , the evaluation of SO2 is unproblematic compared to BrO.\\
-	Evaluating BrO is more difficult since the amount is much smaller and the measurement error relative to the column density much larger. Since we want to get the BrO/SO2 we need to maximize the accuracy of BrO.
-	Therefore the aim is to choose the reference with respect to the BrO error, to minimize the BrO Error and to increase the amount of reliable BrO/SO2 ratio data.\\
-	We figured out, that the BrO Error depends strongly on the surrounding conditions when recording the plume and the reference. In the following, we will take a closer look at the dependence of the BrO error on external parameters. 
+    Since the \ce{SO2} amount in a volcano plume is rather high (magnitude of \ce{SO2} at Tungurahua $\approx 1e^{18}$, \cite{WarnachSimon}) , the evaluation of \ce{SO2} is unproblematic compared to BrO.\\
+	Evaluating \ce{BrO} is more difficult since the amount is much smaller and the measurement error relative to the column density much larger. Since we want to get the \ce{BrO}/\ce{SO2} we need to maximize the accuracy of BrO.
+	Therefore the aim is to choose the reference with respect to the \ce{BrO} error, to minimize the \ce{BrO} Error and to increase the amount of reliable \ce{BrO}/\ce{SO2} ratio data.\\
+	We figured out, that the \ce{BrO} Error depends strongly on the surrounding conditions when recording the plume and the reference. In the following, we will take a closer look at the dependence of the \ce{BrO} error on external parameters. 
 	%
-	\section{BrO Error dependence on external parameters}
+	\section{\ce{BrO} Error dependence on external parameters}
 	%HOW IS THE ERROR CALCULATED AND WHY AND DETECTION LIMIT (PLATT \& STUTZ)
 	The measurement and evaluation depends on the surrounding conditions like temperature or cloudiness \cite{lubcke2014optical}\\
 	If choosing a new reference we need to take the surrounding conditions into account\\
-	The better the surrounding conditions of the time where the reference is measured coincide with the conditions of the time when the plume is measured, the lower is the BrO error \\
+	The better the surrounding conditions of the time where the reference is measured coincide with the conditions of the time when the plume is measured, the lower is the \ce{BrO} error \\
 	The surrounding conditions we take into account are temperature, colorindex, exposure time, elevation-angle, daytime and the temporal difference.\\
-	In almost all cases (99\%) the absolute BrO Error is minimal when using the reference recorded at the same time as te plume spectrum. So we won't be able to get an BrO Error which is smaller than the "Same Time Error".   
+	In almost all cases (99\%) the absolute \ce{BrO} Error is minimal when using the reference recorded at the same time as te plume spectrum. So we won't be able to get an \ce{BrO} Error which is smaller than the "Same Time Error".   
 
 	
 	\subsection{Time}
@@ -1211,10 +978,10 @@ is the intensity without differential absorption,
 	\end{figure}
 	%
 	\Cref{fig:driftkomplettnew} shows the Instrumental drift as a function of time, to create \cref{fig:driftkomplettnew} we used Tungurahua data, 2008 from June to November. We can observe that the drift changes with time. If we use the reference and plume spectra of the same time, we do not need to care about these effects, since the shift is equal for the plume and reference spectrum, but if the recording time is not the same the quality of the fit changes with the differences in wavelength shift which increases with the time difference.\\
-	In \cref{fig:dat} the BrO Error as a function of the time difference between recording the plume and the reference is shown. The running mean is drawn with a black line. The BrO Error increases with time difference.\\
-	To evaluate the maximal time difference, were we still get reliable results we calculated for all possible reference-plume pairs the corresponding BrO Error. With this data we are able to find for all plume spectra the associated reference where the BrO Error is minimal. In \cref{Histogram} a histogram is plotted with the probability of picking the best reference as a function of the time difference. Obviously the best results are if the day of measuring the reference is the same day as measuring the reference that means, if the time difference is smaller than one day. We allow all time difference which are in one sigma area. 
+	In \cref{fig:dat} the \ce{BrO} Error as a function of the time difference between recording the plume and the reference is shown. The running mean is drawn with a black line. The \ce{BrO} Error increases with time difference.\\
+	To evaluate the maximal time difference, were we still get reliable results we calculated for all possible reference-plume pairs the corresponding \ce{BrO} Error. With this data we are able to find for all plume spectra the associated reference where the \ce{BrO} Error is minimal. In \cref{Histogram} a histogram is plotted with the probability of picking the best reference as a function of the time difference. Obviously the best results are if the day of measuring the reference is the same day as measuring the reference that means, if the time difference is smaller than one day. We allow all time difference which are in one sigma area. 
 	
-	We found out that the time interval where it is still reasonable to use references is about 14 days. Therefore we only use references where the recording time difference between plume and reference is smaller than two weeks. When using a references with a temporal difference to the plume of more than 14 days the probability, that the fit quality and thus the BrO error increases to much for our purposes. \\
+	We found out that the time interval where it is still reasonable to use references is about 14 days. Therefore we only use references where the recording time difference between plume and reference is smaller than two weeks. When using a references with a temporal difference to the plume of more than 14 days the probability, that the fit quality and thus the \ce{BrO} error increases to much for our purposes. \\
 	\\
 	\begin{figure}
 		\centering
@@ -1241,9 +1008,9 @@ is the intensity without differential absorption,
 	As the WMP depends on the optical alignment of the spectrometer, which itself depends on the temperature, it is not constant.
 	Changes in the spectrometers temperature can cause changes in the instrument line function and shifts in the WMP (\cite{pinardi2007influence}). 
 	Moreover, \cite{WarnachSimon} show that, short term shifts are related to the instrument temperature (see \Cref{fig:shorttermshift}).\\
-	The above discussed temperature dependence of the WMP causes a reduction of the fitquality with increasing instrument temperature between plume and reference. Thus the BrO Error increases as well with the temperature difference. To quantify the BrO error dependency on the temperature all plume spectra of Tungurahua from August 2008 to August 2009 (Nevado del Ruiz from .... to ....) where evaluated with all plume spectra of the same time. In this time span 1647 "multi-add" spectra from tree different instruments where recorded, so we get approximately 1646$^2$ plume reference pairs and their corresponding BrO error and temperature. The BrO error as function of the temperature difference can be seen in \cref{fig:difftemp}. The blue dots shows the mean BrO error at the specific temperature difference, the standard deviation is illustrated with gray bars.\\
-	When compare the data of Tungurahua  and Nevado Del Ruiz it is noteworthy that the BrO error on temperature dependence of the Data of Nevado Del Ruiz is stronger and the deviation is weaker than at Tungurahua, this may occur due to the larger temperature fluctuation at Nevado Del Ruiz. ?????????? quellen bitte!\\
-	When looking at all discussed external parameters, temperature has  the strongest impact on the BrO error due to the strong impact on the WMP.
+	The above discussed temperature dependence of the WMP causes a reduction of the fitquality with increasing instrument temperature between plume and reference. Thus the \ce{BrO} Error increases as well with the temperature difference. To quantify the \ce{BrO} error dependency on the temperature all plume spectra of Tungurahua from August 2008 to August 2009 (Nevado del Ruiz from .... to ....) where evaluated with all plume spectra of the same time. In this time span 1647 "multi-add" spectra from tree different instruments where recorded, so we get approximately 1646$^2$ plume reference pairs and their corresponding \ce{BrO} error and temperature. The \ce{BrO} error as function of the temperature difference can be seen in \cref{fig:difftemp}. The blue dots shows the mean \ce{BrO} error at the specific temperature difference, the standard deviation is illustrated with gray bars.\\
+	When compare the data of Tungurahua  and Nevado Del Ruiz it is noteworthy that the \ce{BrO} error on temperature dependence of the Data of Nevado Del Ruiz is stronger and the deviation is weaker than at Tungurahua, this may occur due to the larger temperature fluctuation at Nevado Del Ruiz. ?????????? quellen bitte!\\
+	When looking at all discussed external parameters, temperature has  the strongest impact on the \ce{BrO} error due to the strong impact on the WMP.
 	\begin{figure}[h!]			
 		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/DiffTemp_Tungu}}
 		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/DiffTemp_Nevad}}
@@ -1251,23 +1018,25 @@ is the intensity without differential absorption,
 		\label{fig:difftemp}
 	\end{figure}[h!]
 	\begin{itemize}
-		\item The BrO error has the strongest dependence on the temperature difference. At Tungurahua (Nevado Del Ruiz) the BrO error increases by factor of $3.53\cdot10^{12}$  per degree.
+		\item The \ce{BrO} error has the strongest dependence on the temperature difference. At Tungurahua (Nevado Del Ruiz) the \ce{BrO} error increases by factor of $3.53\cdot10^{12}$  per degree.
 		\begin{align*}
 		\rightarrow&  BrO_{Error} = f(ext. P)+ 3.53\cdot10^{12}\cdot\frac{\Delta T}{1C^{\circ}} + \mathcal{O}\left(\right) & Tungurahua\\
 		\rightarrow&  BrO_{Error} = f(ext. P)+7.56\cdot10^{12}\cdot\frac{\Delta T}{1C^{\circ}} + \mathcal{O}\left(\right) & Nevado Del Ruiz\\
 		\end{align*}
 	\end{itemize}
 	\subsection{Daytime}
-	During the day o al lot of external parameters like temperature, solar altitude etc. change. In particular the solar altitude could have an impact on the fit quality since the light path of the sun is much longer at the evening than at noon. \Cref{fig:diffdaytime} shows the dependency of the BrO error on the daytime. The data are calculated as described for the temperature. As for the temperature the dependence of Nevado Del Ruiz is much larger than of Tungurahua, this might occur during the larger distance from the equator of Nevado Del Ruiz -> besser beschreiben
+	During the day o al lot of external parameters like temperature, solar altitude etc. change. In particular the solar altitude could have an impact on the fit quality since the light path of the sun is much longer at the evening than at noon. \Cref{fig:diffdaytime} shows the dependency of the \ce{BrO} error on the daytime. The data are calculated as described for the temperature. As for the temperature the dependence of Nevado Del Ruiz is much larger than of Tungurahua, this might occur during the larger distance from the equator of Nevado Del Ruiz -> besser beschreiben
+
 	\begin{figure}[h!]			
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Diffdaytime_Tungu}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/Diffdaytime_Nevad}}
+		
+		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/DiffDaytime_Tungu}}
+		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/DiffDaytime_Nevad}}
 		\caption{Titel unterm gesamten Bild}
 		\label{fig:diffdaytime}
 	\end{figure}
 	\begin{itemize}
-		\item We found a dependency of the BrO error on the daytime. We assume, that this dependency comes from other external parameters which change during the day. 
-		\item The BrO Error increases with the daytime differences like: \\
+		\item We found a dependency of the \ce{BrO} error on the daytime. We assume, that this dependency comes from other external parameters which change during the day. 
+		\item The \ce{BrO} Error increases with the daytime differences like: \\
 		\begin{align*}
 		\rightarrow&  BrO_{Error} = f(ext. P)+1.33\cdot10^{12}\cdot\frac{\Delta DT}{1h}  + \mathcal{O}\left(\right)& Tungurahua\\
 		\rightarrow&  BrO_{Error} = f(ext. P)+1.58\cdot10^{13}\cdot\frac{\Delta DT}{1h} + \mathcal{O}\left(\right) & Nevado Del Ruiz\\
@@ -1291,14 +1060,14 @@ is the intensity without differential absorption,
 	In this work the Colour Index (CI) is the ratio between the intensities at 320nm and 360 nm.
 	These two wavelengths are as far apart as the filter used for stray-light prevention in the spectrometers allows.
 	%% I don’t understand 	
-	On the other hand, the lower wavelength avoids the deep UV range where SO2 and O3 absorption plays a dominant role.
+	On the other hand, the lower wavelength avoids the deep UV range where \ce{SO2} and O3 absorption plays a dominant role.
 	%% I don’t understand 	
 	The Mie scattering in the clouds is responsible for the higher amount of radiation from larger wavelengths. This results in a decrease of the CI (\cite{lubcke2014optical}).
 	\\
-	We evaluated the CI at the zenith, to increase the stability of the fit we added in each cases 10 intensitys. Using always the zenith to evaluate the colour index makes the colour index more comparable, but if broken clouds occur, the CI of the reference and the plume could differ from the calculated CI of the zenith. This could be a reason for the large deviations of the mean BrO error as function of the colour index (see \cref{fig:diffcolidx})
+	We evaluated the CI at the zenith, to increase the stability of the fit we added in each cases 10 intensitys. Using always the zenith to evaluate the colour index makes the colour index more comparable, but if broken clouds occur, the CI of the reference and the plume could differ from the calculated CI of the zenith. This could be a reason for the large deviations of the mean \ce{BrO} error as function of the colour index (see \cref{fig:diffcolidx})
 
 	\begin{itemize}
-		\item 	The BrO Error increases with the Colorindex differences as \\
+		\item 	The \ce{BrO} Error increases with the Colorindex differences as \\
 		\begin{align*}
 		\rightarrow&  BrO_{Error} = f(ext. P)+ 1.01\cdot10^{13}\cdot\frac{\Delta Cidx}{0.1} + \mathcal{O}\left(\right) & Tungurahua\\
 		\rightarrow&  BrO_{Error} = f(ext. P)+  4\cdot10^{13}\cdot\frac{\Delta Cidx}{0.1} + \mathcal{O}\left(\right) & Nevado Del Ruiz\\
@@ -1311,7 +1080,7 @@ is the intensity without differential absorption,
 		\caption{Titel unterm gesamten Bild}
 	\end{figure}
 	The elevation angle describes the angle between the horizon and the zenith. When using the plume spectrum and the reference spectrum of the same time, the difference in elevation angle cannot be zero, since the plume is always somewhere else than the reference located.\\
-	The BrO error doesn't depend significantly on the difference between the Elevation Angles. This could have several reasons. One problem is, that the Elevation Angle of Plume and Reference spectrum is not the same. This could also be a reason of uncertainty of the evaluations of the plume spectrum.
+	The \ce{BrO} error doesn't depend significantly on the difference between the Elevation Angles. This could have several reasons. One problem is, that the Elevation Angle of Plume and Reference spectrum is not the same. This could also be a reason of uncertainty of the evaluations of the plume spectrum.
 
 
 
@@ -1324,11 +1093,11 @@ is the intensity without differential absorption,
 		\label{fig:diffexptime}
 	\end{figure}
 	The Exposure Time is a degree of sky lightness.The  exposure time is the length of time the sensor of the NOVAC instrument is exposed to light. The amount of light that reaches the film or image sensor is proportional to the exposure time. The exposure time is adjusted in the way that the maximum intensity does not overly the capacity of the sensor.\\
-	We can observe an small dependency of the BrO error on the Exposure time at Tungurahua and Nevado Del Ruiz as it is shown in \cref{fig:diffexptime}
+	We can observe an small dependency of the \ce{BrO} error on the Exposure time at Tungurahua and Nevado Del Ruiz as it is shown in \cref{fig:diffexptime}
 	
 
 	\begin{itemize}
-		\item The BrO Error increases with the exposure time differences as\\
+		\item The \ce{BrO} Error increases with the exposure time differences as\\
 		\begin{align*}
 		\rightarrow&  BrO_{Error} = f(ext. P)+ 1.92\cdot10^{12}\cdot\frac{\Delta ET}{10^{-2}s} + \mathcal{O}\left(\right) & Tungurahua\\
 		\rightarrow&  BrO_{Error} = f(ext. P)+ 1.0\cdot10^{13}\cdot\frac{\Delta T}{10^{-2}s} + \mathcal{O}\left(\right) & Nevado Del Ruiz\\
@@ -1336,31 +1105,31 @@ is the intensity without differential absorption,
 	\end{itemize}
 	%--------------------------------------------------------------------------------------------------------------
 	\chapter{Method}
-	Based on the findings about the influence of external parameters on the BrO error we developed an algorithm which is able to pick an appropriate volcanic-trace-gas free reference.\\ 
-	The first step is, to evaluate every reference with solar atlas spectrum, to check for contamination.	A Spectrum is treated as contaminated if the SO2 column density of the reference (evaluated with a solar atlas spectrum) is larger as 2$\cdot 10^{17}\frac{molec}{cm^2}$.\\
+	Based on the findings about the influence of external parameters on the \ce{BrO} error we developed an algorithm which is able to pick an appropriate volcanic-trace-gas free reference.\\ 
+	The first step is, to evaluate every reference with solar atlas spectrum, to check for contamination.	A Spectrum is treated as contaminated if the \ce{SO2} column density of the reference (evaluated with a solar atlas spectrum) is larger as 2$\cdot 10^{17}\frac{molec}{cm^2}$.\\
 	\\
 	If the reference is contaminated:
 	\begin{itemize}
 		\item We have a list of possible references where all references are not contaminated and the temporal distance to the plume date is no longer than 14 days.
 		\item we calculate of all possible references the differences in the external parameters
-		\item We use the analysis of external parameters described above to estimate the BrO error of all references
-		\item We choose the reference with the smallest estimated BrO error as new reference
+		\item We use the analysis of external parameters described above to estimate the \ce{BrO} error of all references
+		\item We choose the reference with the smallest estimated \ce{BrO} error as new reference
 		\item We evaluate the plume spectra with the new reference.
 	\end{itemize}
 
 	%
-	The assumption is, that the BrO error $\epsilon_{BrO}$ can be described as the sum of $\epsilon_{0}$ and the deviation of $\epsilon_{BrO}$ with respect to all external parameters. $\epsilon_{0}$ is the BrO error when evalute the plume spectrum with the "same-time-reference", it is determined due to the accurateness of the NOVAC-instruments.
+	The assumption is, that the \ce{BrO} error $\epsilon_{BrO}$ can be described as the sum of $\epsilon_{0}$ and the deviation of $\epsilon_{BrO}$ with respect to all external parameters. $\epsilon_{0}$ is the \ce{BrO} error when evalute the plume spectrum with the "same-time-reference", it is determined due to the accurateness of the NOVAC-instruments.
 	\begin{align}
 		\epsilon_{BrO} &=  \epsilon_{0}+\frac{d\epsilon}{dt}+\frac{d\epsilon}{d ^{\circ}}+\frac{d\epsilon}{dT}+\frac{d\epsilon}{ddt} +\frac{d\epsilon}{dc} + \mathcal{O}\left(OE\right) \\
 		\rightarrow \Delta \epsilon_{BrO} &= \epsilon_{BrO} - \epsilon_{0} =\frac{d\epsilon}{dt}+\frac{d\epsilon}{d ^{\circ}}+\frac{d\epsilon}{dT}+\frac{d\epsilon}{ddt} +\frac{d\epsilon}{dc} + \mathcal{O}\left(OP\right) 
 		\label{calc:err}
 	\end{align}
-	With $\epsilon_{BrO}$ describes the BrO Error, t: time between plumetime and referencetime, T, temperaure; dt: daytime, c: colorindex, OP: other excluded external parameters\\
+	With $\epsilon_{BrO}$ describes the \ce{BrO} Error, t: time between plumetime and referencetime, T, temperaure; dt: daytime, c: colorindex, OP: other excluded external parameters\\
 	The task occurring at this stage is to find the best representation for the deviations. An then find the reference which minimize $\Delta \epsilon_{BrO} $\\
 	%
 	\\
 	%
-	The easiest way is to just calculate the BrO error of all possible references for every plume. Using this method we would be able to just choose the reference where the BrO error is minimal. But this takes to much time since the evaluation would be proportional to the number of possible references because the evaluation need to be done for every plume-reference pair. Doing the evaluation for every plume-reference pair would make it impossible to do the evaluation in real, or near real time.\\
+	The easiest way is to just calculate the \ce{BrO} error of all possible references for every plume. Using this method we would be able to just choose the reference where the \ce{BrO} error is minimal. But this takes to much time since the evaluation would be proportional to the number of possible references because the evaluation need to be done for every plume-reference pair. Doing the evaluation for every plume-reference pair would make it impossible to do the evaluation in real, or near real time.\\
 	%
 	But we use this optimal evaluation to rate our model and compare them among each other. The optimal evaluation always choose the reference with the smallest absolute error. We don't use the relative error due to his vulnerability. Using the relative error could lead to a less preciseness.\\
 	%
@@ -1452,20 +1221,20 @@ is the intensity without differential absorption,
 
 	\begin{itemize}
 	
-		\item Plume data are reliable if the SO2 column density is larger as 7 $\cdot 10^{17} \frac{molec}{cm^2}$
+		\item Plume data are reliable if the \ce{SO2} column density is larger as 7 $\cdot 10^{17} \frac{molec}{cm^2}$
 		\item Data are above the detection limit if the column density as two times larger than the fit error.
 		\item If the reference is contaminated:
 
 	\end{itemize}
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_minSO2/percentage_minSO2}
+%		\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_minSO2/percentage_minSO2}
 		\caption{}
 		\label{fig:percentageminso2}
 	\end{figure}
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_minSO2/data_minSO2}
+%		\includegraphics[width=0.7\linewidth]{E:/Masterarbeit/Analyse_minSO2/data_minSO2}
 		\caption{}
 		\label{fig:dataminso2}
 	\end{figure}
@@ -1528,7 +1297,7 @@ is the intensity without differential absorption,
 
 	$\bullet$ In the optimal results are 15$\%$ valid data
 	\begin{itemize}
-		\item We also tried other possibilities than fitting to find the reference where the BrO error is minimal. In the following we present two additional possibilities but compared to fitting the results are not as good.
+		\item We also tried other possibilities than fitting to find the reference where the \ce{BrO} error is minimal. In the following we present two additional possibilities but compared to fitting the results are not as good.
 	\end{itemize}
 	\subsection{Nearest neighbours}
 	\begin{itemize}
@@ -1550,15 +1319,15 @@ is the intensity without differential absorption,
 	\begin{itemize}
 		\item Results only for contaminated data
 		\begin{itemize}
-			\item Difference in SO2 data evaluated with NOVAC-method and contamination-based evaluation
-			\item Difference in BrO data evaluated with NOVAC-method and contamination-based evaluation
-			\item Difference in BrO/So2 Ratio data evaluated with NOVAC-method and contamination-based evaluation
+			\item Difference in \ce{SO2} data evaluated with NOVAC-method and contamination-based evaluation
+			\item Difference in \ce{BrO} data evaluated with NOVAC-method and contamination-based evaluation
+			\item Difference in \ce{BrO}/\ce{SO2} Ratio data evaluated with NOVAC-method and contamination-based evaluation
 		\end{itemize}
-		\item Amount of BrO data more than before (valid and not valid and above dection limit)
-		\item Amount of SO2 data more than before (valid and not valid and above dection limit)
-		\item Amount of BrO/SO2 data more than before (valid and not valid and above dection limit)
-		\item More BrO data: 51\%
-		\item  More valid BrO data: 38\%
+		\item Amount of \ce{BrO} data more than before (valid and not valid and above dection limit)
+		\item Amount of \ce{SO2} data more than before (valid and not valid and above dection limit)
+		\item Amount of \ce{BrO}/\ce{SO2} data more than before (valid and not valid and above dection limit)
+		\item More \ce{BrO} data: 51\%
+		\item  More valid \ce{BrO} data: 38\%
 		\item Compare the dayly means: how many more data? due to higher S02 values
 		\item 
 	\end{itemize}
@@ -1592,7 +1361,7 @@ is the intensity without differential absorption,
 \end{figure}
 
 	\chapter{Results}
-	Interpretation of the BrO/SO2 ratio time-series
+	Interpretation of the \ce{BrO}/\ce{SO2} ratio time-series
 	\section{Tungurahua}
 	\begin{figure}
 		\centering
