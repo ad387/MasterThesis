@@ -1,70 +1,70 @@
 \select@language {english}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces }}{14}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces }}{17}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces }}{17}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces }}{21}{figure.1.4}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces }}{25}{figure.1.5}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces schematic sketch of a Bromine Explosion. Release of \ce {HBr} at the volcanic vent. Mixing with ambient air in the effective source region leads to \ce {Br} formation. This resulting Bromine species react to \ce {BrO} with ozone from the plume. Adapted from \cite {bobrowski2007reactive}}}{15}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Influence of volcanic eruptions and quiet degassing on earth climate. Redrawn on the basis of \cite {robock2000volcanic}}}{17}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces }}{18}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Dependency of the ratios of different volcanic trace gases on depth. Data originate from Stromboli volcano. From \cite {lubcke2014optical} reproduced from Burton et al. (2007)}}{21}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Basic idea of the DOAS principle: Light attenuate due to broad band and narrow band effects. Broad band extinction caused by aerosols and Raylight scattering $\left (I_0\rightarrow I^{'}\right )$. The measured intensity $I$ is formed by narrow band effects due to differential absorption structures by trace gases with optical density $\tau ^{'}$. Adapted from \cite {kern2009spectroscopic}}}{26}{figure.1.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Global map of the volcanoes monitored by NOVAC. Used with friendly permission of Santiago Arellano.}}{29}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Titel unterm gesamten Bild}}{30}{figure.2.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Bezeichnung der linken Grafik}}}{30}{figure.2.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Bezeichnung der rechten Grafik}}}{30}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces }}{31}{figure.2.3}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Global map of the volcanoes monitored by NOVAC. Used with friendly permission of Santiago Arellano.}}{30}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces shematic sketch of a NOVAC Instrument. From \cite {galle2010network}}}{31}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces }}{32}{figure.2.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces }}{33}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Titel unterm gesamten Bild}}{34}{figure.3.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Bezeichnung der linken Grafik}}}{34}{figure.3.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Bezeichnung der rechten Grafik}}}{34}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces }}{34}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces }}{36}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces }}{37}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces }}{37}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces }}{37}{figure.3.7}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces SCD's as a function of viewing angles. Adapted from \cite {WarnachSimon}}}{34}{figure.3.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\ce {SO2} SCD as a function of the elevation angle with error bars resulting from the DOASIS fitting routine}}}{34}{figure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\ce {BrO} SCD as a function of the elevation angle with error bars resulting from the DOASIS fitting routine}}}{34}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sketch of the DOAS Routine }}{36}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces (a) \ce {SO2} SCD as a function of the elevation angle. The co-added Plume region is marked with red diamonds, and the co added reference region with green stars. From \cite {WarnachSimon}. (b) Flow chart of the BrO and SO2 evaluation. From \cite {lubcke2014optical}.}}{37}{figure.3.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { }}}{37}{figure.3.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { }}}{37}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Scan with a contaminated reference spectrum from April 2011. From \cite {WarnachSimon}}}{38}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces }}{40}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces }}{40}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces }}{40}{figure.3.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces }}{39}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces }}{41}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces }}{42}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Titel unterm gesamten Bild}}{42}{figure.4.4}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{42}{figure.4.4}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{42}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Titel unterm gesamten Bild}}{43}{figure.4.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{43}{figure.4.5}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{43}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Titel unterm gesamten Bild}}{43}{figure.4.6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{43}{figure.4.6}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{43}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Titel unterm gesamten Bild}}{44}{figure.4.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{44}{figure.4.7}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{44}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Titel unterm gesamten Bild}}{45}{figure.4.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{45}{figure.4.8}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{45}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Titel unterm gesamten Bild}}{46}{figure.4.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{46}{figure.4.9}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{46}{figure.4.9}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces }}{42}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces }}{44}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces }}{45}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Titel unterm gesamten Bild}}{45}{figure.4.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{45}{figure.4.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{45}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Titel unterm gesamten Bild}}{46}{figure.4.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{46}{figure.4.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{46}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Titel unterm gesamten Bild}}{46}{figure.4.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{46}{figure.4.6}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{46}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Titel unterm gesamten Bild}}{47}{figure.4.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{47}{figure.4.7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{47}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Titel unterm gesamten Bild}}{48}{figure.4.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{48}{figure.4.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{48}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Titel unterm gesamten Bild}}{49}{figure.4.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{49}{figure.4.9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{49}{figure.4.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces }}{48}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces }}{49}{figure.5.2}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces }}{51}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces }}{52}{figure.5.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }}{53}{figure.6.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{53}{figure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{53}{figure.6.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{53}{figure.6.1}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{53}{figure.6.1}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Data of Tungurahua}}}{53}{figure.6.1}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Data of Nevado Del Riz}}}{53}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }}{54}{figure.6.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{54}{figure.6.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{54}{figure.6.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{54}{figure.6.2}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{54}{figure.6.2}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Data of Tungurahua}}}{54}{figure.6.2}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Data of Nevado Del Riz}}}{54}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces }}{55}{figure.6.3}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }}{56}{figure.6.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{56}{figure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{56}{figure.6.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{56}{figure.6.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{56}{figure.6.1}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Data of Tungurahua}}}{56}{figure.6.1}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Data of Nevado Del Riz}}}{56}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }}{57}{figure.6.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{57}{figure.6.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{57}{figure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{57}{figure.6.2}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{57}{figure.6.2}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Data of Tungurahua}}}{57}{figure.6.2}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Data of Nevado Del Riz}}}{57}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces }}{58}{figure.6.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces }}{57}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces }}{58}{figure.7.2}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces }}{60}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces }}{61}{figure.7.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

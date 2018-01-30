@@ -8,39 +8,41 @@
 \BOOKMARK [2][-]{subsection.1.1.5}{Sulphur species}{subsection.1.1.1}% 8
 \BOOKMARK [2][-]{subsection.1.1.6}{Bromine oxide}{subsection.1.1.1}% 9
 \BOOKMARK [2][-]{subsection.1.1.7}{Using volcanic gases to study volcanic activity}{subsection.1.1.1}% 10
-\BOOKMARK [1][-]{section.1.2}{Remote sensing of volcanic gases}{section.1.1}% 11
-\BOOKMARK [2][-]{subsection.1.2.1}{Absorption spectroscopy}{section.1.2}% 12
-\BOOKMARK [2][-]{subsection.1.2.2}{Scattering processes in the atmosphere}{section.1.2}% 13
-\BOOKMARK [2][-]{subsection.1.2.3}{Differential Optical Absorption Spectroscopy\(DOAS\)}{section.1.2}% 14
-\BOOKMARK [2][-]{subsection.1.2.4}{Technical implementation of the DOAS approach}{section.1.2}% 15
-\BOOKMARK [-1][-]{part.2}{Evaluation of the Data of Tungurahua and Nevado Del Ruiz}{}% 16
-\BOOKMARK [0][-]{chapter.2}{Network for Observation of Volcanic and Atmospheric Change }{part.2}% 17
-\BOOKMARK [1][-]{section.2.1}{Measurement Routine}{chapter.2}% 18
-\BOOKMARK [0][-]{chapter.3}{Evaluation Routine}{part.2}% 19
-\BOOKMARK [1][-]{section.3.1}{NOVAC-Evaluation}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.2}{Contamination Problem}{chapter.3}% 21
-\BOOKMARK [0][-]{chapter.4}{Limitations for the evaluation of BrO}{part.2}% 22
-\BOOKMARK [1][-]{section.4.1}{BrO Error dependence on external parameters}{chapter.4}% 23
-\BOOKMARK [2][-]{subsection.4.1.1}{Time}{section.4.1}% 24
-\BOOKMARK [2][-]{subsection.4.1.2}{Temperature}{section.4.1}% 25
-\BOOKMARK [2][-]{subsection.4.1.3}{Daytime}{section.4.1}% 26
-\BOOKMARK [2][-]{subsection.4.1.4}{Colorindex}{section.4.1}% 27
-\BOOKMARK [2][-]{subsection.4.1.5}{Elevation Angle}{section.4.1}% 28
-\BOOKMARK [2][-]{subsection.4.1.6}{Exposure Time}{section.4.1}% 29
-\BOOKMARK [0][-]{chapter.5}{Method}{part.2}% 30
-\BOOKMARK [1][-]{section.5.1}{Fit data}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.2}{Other approaches}{chapter.5}% 32
-\BOOKMARK [2][-]{subsection.5.2.1}{Nearest neighbours}{section.5.2}% 33
-\BOOKMARK [2][-]{subsection.5.2.2}{Iterative}{section.5.2}% 34
-\BOOKMARK [0][-]{chapter.6}{Comparison with NOVAC Evaluation}{part.2}% 35
-\BOOKMARK [0][-]{chapter.7}{Results}{part.2}% 36
-\BOOKMARK [1][-]{section.7.1}{Tungurahua}{chapter.7}% 37
-\BOOKMARK [1][-]{section.7.2}{Nevado Del Ruiz}{chapter.7}% 38
-\BOOKMARK [0][-]{chapter.8}{Issues of our method}{part.2}% 39
-\BOOKMARK [1][-]{section.8.1}{Contamination of the plume}{chapter.8}% 40
-\BOOKMARK [0][-]{chapter.9}{Conclusion}{part.2}% 41
-\BOOKMARK [-1][-]{part.3}{Appendix}{}% 42
-\BOOKMARK [0][-]{appendix.A}{Lists}{part.3}% 43
-\BOOKMARK [1][-]{section.A.1}{List of Figures}{appendix.A}% 44
-\BOOKMARK [1][-]{section.A.2}{List of Tables}{appendix.A}% 45
-\BOOKMARK [0][-]{appendix.B}{Bibliography}{part.3}% 46
+\BOOKMARK [2][-]{subsection.1.1.8}{Tungurahua}{subsection.1.1.1}% 11
+\BOOKMARK [2][-]{subsection.1.1.9}{Nevado Del Ruiz}{subsection.1.1.1}% 12
+\BOOKMARK [1][-]{section.1.2}{Remote sensing of volcanic gases}{section.1.1}% 13
+\BOOKMARK [2][-]{subsection.1.2.1}{Absorption spectroscopy}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.2}{Scattering processes in the atmosphere}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.3}{Differential Optical Absorption Spectroscopy\(DOAS\)}{section.1.2}% 16
+\BOOKMARK [2][-]{subsection.1.2.4}{Technical implementation of the DOAS approach}{section.1.2}% 17
+\BOOKMARK [-1][-]{part.2}{Evaluation of the Data of Tungurahua and Nevado Del Ruiz}{}% 18
+\BOOKMARK [0][-]{chapter.2}{Network for Observation of Volcanic and Atmospheric Change }{part.2}% 19
+\BOOKMARK [1][-]{section.2.1}{Measurement Routine}{chapter.2}% 20
+\BOOKMARK [0][-]{chapter.3}{Evaluation Routine}{part.2}% 21
+\BOOKMARK [1][-]{section.3.1}{NOVAC-Evaluation}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.2}{Contamination Problem}{chapter.3}% 23
+\BOOKMARK [0][-]{chapter.4}{Limitations for the evaluation of BrO}{part.2}% 24
+\BOOKMARK [1][-]{section.4.1}{BrO Error dependence on external parameters}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.1.1}{Time}{section.4.1}% 26
+\BOOKMARK [2][-]{subsection.4.1.2}{Temperature}{section.4.1}% 27
+\BOOKMARK [2][-]{subsection.4.1.3}{Daytime}{section.4.1}% 28
+\BOOKMARK [2][-]{subsection.4.1.4}{Colorindex}{section.4.1}% 29
+\BOOKMARK [2][-]{subsection.4.1.5}{Elevation Angle}{section.4.1}% 30
+\BOOKMARK [2][-]{subsection.4.1.6}{Exposure Time}{section.4.1}% 31
+\BOOKMARK [0][-]{chapter.5}{Method}{part.2}% 32
+\BOOKMARK [1][-]{section.5.1}{Fit data}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.2}{Other approaches}{chapter.5}% 34
+\BOOKMARK [2][-]{subsection.5.2.1}{Nearest neighbours}{section.5.2}% 35
+\BOOKMARK [2][-]{subsection.5.2.2}{Iterative}{section.5.2}% 36
+\BOOKMARK [0][-]{chapter.6}{Comparison with NOVAC Evaluation}{part.2}% 37
+\BOOKMARK [0][-]{chapter.7}{Results}{part.2}% 38
+\BOOKMARK [1][-]{section.7.1}{Tungurahua}{chapter.7}% 39
+\BOOKMARK [1][-]{section.7.2}{Nevado Del Ruiz}{chapter.7}% 40
+\BOOKMARK [0][-]{chapter.8}{Issues of our method}{part.2}% 41
+\BOOKMARK [1][-]{section.8.1}{Contamination of the plume}{chapter.8}% 42
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{part.2}% 43
+\BOOKMARK [-1][-]{part.3}{Appendix}{}% 44
+\BOOKMARK [0][-]{appendix.A}{Lists}{part.3}% 45
+\BOOKMARK [1][-]{section.A.1}{List of Figures}{appendix.A}% 46
+\BOOKMARK [1][-]{section.A.2}{List of Tables}{appendix.A}% 47
+\BOOKMARK [0][-]{appendix.B}{Bibliography}{part.3}% 48

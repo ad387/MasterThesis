@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -16,6 +16,14 @@
   \url{http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html}.
 \newblock Accessed: 2018-01-19.
 
+\bibitem[Bobrowski et~al.(2007)Bobrowski, Von~Glasow, Aiuppa, Inguaggiato,
+  Louban, Ibrahim, and Platt]{bobrowski2007reactive}
+Nicole Bobrowski, R~Von~Glasow, A~Aiuppa, S~Inguaggiato, I~Louban, OW~Ibrahim,
+  and U~Platt.
+\newblock Reactive halogen chemistry in volcanic plumes.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 112\penalty0
+  (D6), 2007.
+
 \bibitem[Bussemer(1993)]{bussemer1993ring}
 Markus Bussemer.
 \newblock Der ring-effekt: Ursachen und einflu{\ss} auf die spektroskopische
@@ -28,6 +36,23 @@ K~Chance and RL~Kurucz.
   atmosphere measurements in the ultraviolet, visible, and near infrared.
 \newblock \emph{Journal of quantitative spectroscopy and radiative transfer},
   111\penalty0 (9):\penalty0 1289--1295, 2010.
+
+\bibitem[Galle et~al.(2010)Galle, Johansson, Rivera, Zhang, Kihlman, Kern,
+  Lehmann, Platt, Arellano, and Hidalgo]{galle2010network}
+Bo~Galle, Mattias Johansson, Claudia Rivera, Yan Zhang, Manne Kihlman,
+  Christoph Kern, Thomas Lehmann, Ulrich Platt, Santiago Arellano, and Silvana
+  Hidalgo.
+\newblock Network for observation of volcanic and atmospheric change
+  (novac)—a global network for volcanic gas monitoring: Network layout and
+  instrument description.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 115\penalty0
+  (D5), 2010.
+
+\bibitem[Kern(2009)]{kern2009spectroscopic}
+Christoph Kern.
+\newblock \emph{Spectroscopic measurements of volcanic gas emissions in the
+  ultra-violet wavelength region}.
+\newblock PhD thesis, 2009.
 
 \bibitem[Kraus(2006)]{kraus2006doasis}
 Stefan Kraus.
@@ -75,6 +100,12 @@ Ulrich Platt and Jochen Stutz.
 \newblock Differential absorption spectroscopy.
 \newblock \emph{Differential Optical Absorption Spectroscopy}, pages 135--174,
   2008.
+
+\bibitem[Robock(2000)]{robock2000volcanic}
+Alan Robock.
+\newblock Volcanic eruptions and climate.
+\newblock \emph{Reviews of Geophysics}, 38\penalty0 (2):\penalty0 191--219,
+  2000.
 
 \bibitem[Schmidt and Robock(2015)]{schmidt2015volcanismarticle}
 A~Schmidt and A~Robock.

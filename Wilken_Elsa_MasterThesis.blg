@@ -10,47 +10,48 @@ Warning--to sort, need author or key in NOVACsite
 Warning--to sort, need author or key in SKlearn
 Warning--empty year in NOVACsite
 Warning--empty year in SKlearn
+Warning--empty school in kern2009spectroscopic
 Warning--empty school in lubcke2014optical
 Warning--empty school in WarnachSimon
-You've used 19 entries,
+You've used 23 entries,
             2773 wiz_defined-function locations,
-            710 strings with 8297 characters,
-and the built_in function-call counts, 8351 in all, are:
-= -- 737
-> -- 491
-< -- 13
-+ -- 169
-- -- 150
-* -- 660
-:= -- 1275
-add.period$ -- 56
-call.type$ -- 19
-change.case$ -- 105
-chr.to.int$ -- 19
-cite$ -- 46
-duplicate$ -- 377
-empty$ -- 676
-format.name$ -- 179
-if$ -- 1743
+            730 strings with 9065 characters,
+and the built_in function-call counts, 10414 in all, are:
+= -- 904
+> -- 670
+< -- 15
++ -- 230
+- -- 207
+* -- 849
+:= -- 1618
+add.period$ -- 68
+call.type$ -- 23
+change.case$ -- 135
+chr.to.int$ -- 23
+cite$ -- 55
+duplicate$ -- 453
+empty$ -- 802
+format.name$ -- 240
+if$ -- 2149
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 16
-newline$ -- 102
-num.names$ -- 68
-pop$ -- 228
+missing$ -- 19
+newline$ -- 122
+num.names$ -- 84
+pop$ -- 284
 preamble$ -- 1
-purify$ -- 88
+purify$ -- 115
 quote$ -- 0
-skip$ -- 308
+skip$ -- 376
 stack$ -- 0
-substring$ -- 268
-swap$ -- 36
+substring$ -- 301
+swap$ -- 40
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 199
-warning$ -- 6
-while$ -- 69
+type$ -- 243
+warning$ -- 7
+while$ -- 83
 width$ -- 0
-write$ -- 243
-(There were 6 warnings)
+write$ -- 294
+(There were 7 warnings)
