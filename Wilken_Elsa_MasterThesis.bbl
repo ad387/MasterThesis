@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -47,6 +47,14 @@ Bo~Galle, Mattias Johansson, Claudia Rivera, Yan Zhang, Manne Kihlman,
   instrument description.
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 115\penalty0
   (D5), 2010.
+
+\bibitem[Hall et~al.(1999)Hall, Robin, Beate, Mothes, and
+  Monzier]{hall1999tungurahua}
+Minard~L Hall, Claude Robin, Bernardo Beate, Patricia Mothes, and Michel
+  Monzier.
+\newblock Tungurahua volcano, ecuador: structure, eruptive history and hazards.
+\newblock \emph{Journal of Volcanology and Geothermal Research}, 91\penalty0
+  (1):\penalty0 1--21, 1999.
 
 \bibitem[Kern(2009)]{kern2009spectroscopic}
 Christoph Kern.
