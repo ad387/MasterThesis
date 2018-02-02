@@ -1267,9 +1267,20 @@ with petrological methods (Shinohara, 2008)
 		\item check das noch mal
 	\end{itemize}
 	To obtain the reference with minimal expected  BrO error the calculation of \cref{calc:delterr} and the corresponding coefficients from \cref{tab:coef} were used. The maximal temporal difference between measuring the reference and the plume is two weeks.
-	
-	
-	
+	\Cref{fig:diffNovac} shows a comparison of the data when evaluating with the NOVAC-method and the contamination based method. The x axis shows the column density calculated with NOVAC-method, the y axis shows the column density calculated the the contamination based method. Only data are used where the corresponding SO2 column density lies above the plume limit ($SO2\_SCD>7\cdot 10^{17}$). Meaning the column densities evaluated with the contamination based method. The corresponding SO2 SCD's evaluated with NOVAC could be below $7\cdot 10^{17}$.
+	The plots at the left side show the results from the Tungurahua volcano while the plots at the right side show the results from Nevado Del Ruiz volcano. The BrO data are visualized in the plots at the top of \cref{fig:diffNovac}. \\
+	\\
+	Beschreibung\\
+	\\
+	In the middle of \cref{fig:diffNovac} are the results of SO2 visualized:\\
+	\\
+	Beschreibung\\
+	\\
+	The BrO/SO2 ratio is visualized at the bottom of \cref{fig:diffNovac}:\\
+	\\
+	Beschreibung\\
+	\\
+	Another interesting question is, whether the change in the gas column density respectively the ratio depends on the amount evaluated with the NOVAC-method. To check this dependency \cref{fig:diffcontbase} was plotted. The data used for this figure are the same as for \cref{fig:diffNovac}
 	
 
 	\begin{itemize}
@@ -1287,7 +1298,16 @@ with petrological methods (Shinohara, 2008)
 		\item Compare the dayly means: how many more data? due to higher S02 values
 		\item 
 	\end{itemize}
-
+	\begin{figure}[h]		
+		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_bro_novac_conbased}}
+		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/bro_novac_conbased}}
+		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_so2_novac_conbased}}
+		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/so2_novac_conbased}}
+		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_novac_conbased}}
+		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased}}
+		\caption{The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }
+		\label{fig:diffNovac}
+	\end{figure}
 	\begin{figure}[h]		
 		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_bro_diff_novac_conbased}}
 		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/bro_diff_novac_conbased}}
@@ -1299,16 +1319,6 @@ with petrological methods (Shinohara, 2008)
 	\label{fig:diffcontbase}
 	\end{figure}
 	%
-	\begin{figure}[h]		
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_bro_novac_conbased}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/bro_novac_conbased}}
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_so2_novac_conbased}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/so2_novac_conbased}}
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_novac_conbased}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased}}
-		\caption{The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }
-		\label{fig:diffNovac}
-	\end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{Bilder/BarPlot}
