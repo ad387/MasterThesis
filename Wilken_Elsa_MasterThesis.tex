@@ -593,9 +593,7 @@ with petrological methods (Shinohara, 2008)
 	magma’s ascent to explain the observed behaviour.}
 	\subsection*{Tungurahua}
 	Tungurahua is a subduction zone volcano located in the Ecuadorian Andes (Lat: 01$^{\circ}$,28$^{'}$S; Long:78$^{\circ}$,27$^{'}$W). 2014 Tungurahua was one of the most active volcanoes in southern America, since then the activity was decreasing. Tungurahua is 5023m high and is one of the defining volcanoes of the eastern volcanic rows in Ecuador. \cite{hall1999tungurahua}
-	
-
-	
+		
 	\subsection*{Nevado Del Ruiz}
 	Nevado Del Ruiz is also a subduction zone volcano. 	Nevado Del Ruiz  is located in the Central Cordillera of Colombia, 140 km west of Bogota.
 	(Lat: 04$^{\circ}$,53$^{'}$S; Long:75$^{\circ}$,19$^{'}$W) 
@@ -892,7 +890,7 @@ with petrological methods (Shinohara, 2008)
 	Therefore the aim is to choose the reference with respect to the \ce{BrO} error, to minimize the \ce{BrO} Error and to increase the amount of reliable \ce{BrO}/\ce{SO2} ratio data.\\
 	We figured out, that the \ce{BrO} Error depends strongly on the surrounding conditions when recording the plume and the reference. In the following, we will take a closer look at the dependence of the \ce{BrO} error on external parameters. 
 	%
-	\section{\ce{BrO} Error dependence on external parameters}
+	\section{\ce{BrO} Error dependence on external parameters \label{Chap:BROErr}}
 	%HOW IS THE ERROR CALCULATED AND WHY AND DETECTION LIMIT (PLATT \& STUTZ)
 	The measurement and evaluation depends on the surrounding conditions like temperature or cloudiness \cite{lubcke2014optical}\\
 	If choosing a new reference we need to take the surrounding conditions into account\\
@@ -1096,8 +1094,25 @@ with petrological methods (Shinohara, 2008)
 	\end{equation}
 	%
 	We used the same data as in \cref{fig:difftemp}-\ref{fig:diffexptime} to get the coefficients $a_{x}$ of \cref{calc:delterr}. We used on ordinary least square linear regression to get the coefficients $a_{x}$. In particular we used the python function LinearRegression from the library sklearn \cite{SKlearn}.  
-
 	
+	In \cref{Chap:BROErr} the dependency of the BrO error on external parameters are discussed. The question occurring here is, which parameters should we use for the algorithm which choose the reference automatic?
+	To answer this question for the fitting routine we evaluated data of Tungurahua and Nevado Del Ruiz with different combinations of the external parameter described in \cref{Chap:BROErr}. Since we could not observe any correlation between the BrO Error and the Elevation angle the external parameter elvation angle was neglected in this analysis. To rate the results for the single instruments (three at Tungurahua and two at Nevado Del Ruiz) the difference to the "optimal evaluation" (explained in \ref{optimal evaition}) was used. Hereby the factor x, a quantity which describes the distinction between the optimal-Method and the contamination based method serves as indicator:
+	\begin{equation}
+	X = \frac{1}{n}\sum_{k}^{n} \frac{EContBased_{ k}}{EOpt_{ k}}
+	\end{equation}
+	$n$ is the total amount of contaminated spectra, $EOpt$ is the BrO error, in the optimal-evaluation, $EContBased$ is the BrO error, in the contamination based-evaluation. 
+	\Cref{fig:WelcheEP} shows the calculations of the x factor for th e Tungurahua and the Nevado Del Ruiz volcano. The x-axis shows the external parameter used for the factor X. The y-axis shows the added factors x for every instrument at the volcanoes. The x factors were weighted with the percentage amount of data. We can see, that for both volcanoes the x factor is minimal for the combination of the following external parameters:\\
+	\textit{$\bullet$ Temperature  $\bullet$ Daytime  $\bullet$ Exposure Time  $\bullet$ Temporal Difference}
+	The factors X change from instrument to instrument. The results for every instrument can be seen in the appendix (\cref{fig:I2J8548}). The factors X range from xxxxxxx to xxxxxxxxxxxx.
+	\begin{figure}
+		\subfigure[Nevado Del Ruiz]{
+		\includegraphics[width=0.5\linewidth]{"Bilder/WelcheEP/Nevado Del Ruiz"}}
+		\subfigure[Tungurahua]{
+		\includegraphics[width=0.5\linewidth]{Bilder/WelcheEP/Tungurahua}}
+		\caption{}
+		\label{fig:WelcheEP}
+	\end{figure}
+
 	
 
 	
@@ -1268,7 +1283,7 @@ with petrological methods (Shinohara, 2008)
 	\end{itemize}
 	To obtain the reference with minimal expected  BrO error the calculation of \cref{calc:delterr} and the corresponding coefficients from \cref{tab:coef} were used. The maximal temporal difference between measuring the reference and the plume is two weeks.
 	\Cref{fig:diffNovac} shows a comparison of the data when evaluating with the NOVAC-method and the contamination based method. The x axis shows the column density calculated with NOVAC-method, the y axis shows the column density calculated the the contamination based method. Only data are used where the corresponding SO2 column density lies above the plume limit ($SO2\_SCD>7\cdot 10^{17}$). Meaning the column densities evaluated with the contamination based method. The corresponding SO2 SCD's evaluated with NOVAC could be below $7\cdot 10^{17}$.
-	The plots at the left side show the results from the Tungurahua volcano while the plots at the right side show the results from Nevado Del Ruiz volcano. The BrO data are visualized in the plots at the top of \cref{fig:diffNovac}. \\
+	The plots at the left side show the results from the Tungurahua volcano while the plots at the right side show the results from Nevado Del Ruiz volcano. The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. The BrO data are visualized in the plots at the top of \cref{fig:diffNovac}. \\
 	\\
 	Beschreibung\\
 	\\
@@ -1280,7 +1295,7 @@ with petrological methods (Shinohara, 2008)
 	\\
 	Beschreibung\\
 	\\
-	Another interesting question is, whether the change in the gas column density respectively the ratio depends on the amount evaluated with the NOVAC-method. To check this dependency \cref{fig:diffcontbase} was plotted. The data used for this figure are the same as for \cref{fig:diffNovac}
+	Another interesting question is, whether the change in the gas column density respectively the ratio depends on the amount evaluated with the NOVAC-method. To check this dependency \cref{fig:diffcontbase} was plotted. The data used for this figure are the same as for \cref{fig:diffNovac}. 
 	
 
 	\begin{itemize}
@@ -1298,26 +1313,23 @@ with petrological methods (Shinohara, 2008)
 		\item Compare the dayly means: how many more data? due to higher S02 values
 		\item 
 	\end{itemize}
+	
 	\begin{figure}[h]		
 		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_bro_novac_conbased}}
 		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/bro_novac_conbased}}
 		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_so2_novac_conbased}}
 		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/so2_novac_conbased}}
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_novac_conbased}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased}}
+%		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_novac_conbased}}
+%		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased}}
 		\caption{The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }
 		\label{fig:diffNovac}
 	\end{figure}
-	\begin{figure}[h]		
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_bro_diff_novac_conbased}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/bro_diff_novac_conbased}}
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_so2_diff_novac_conbased}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/so2_diff_novac_conbased}}
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased}}
-	\caption{The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }
-	\label{fig:diffcontbase}
-	\end{figure}
+		\begin{figure}[h]		
+			\subfigure{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_novac_conbased}}
+			\subfigure{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased}}
+			\subfigure{\includegraphics[width=0.49\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased}}
+			\subfigure{\includegraphics[width=0.49\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased}}
+		\end{figure}
 	%
 \begin{figure}
 	\centering
@@ -1388,6 +1400,17 @@ with petrological methods (Shinohara, 2008)
 
   \part{Appendix}
   \begin{appendix}
+	\begin{figure}
+		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/D2J2140}}
+		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/D2J2200_0}}
+		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/D2J2200_1}}
+		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/D2J2201_0}}
+		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/I2J8546}}
+		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/I2J8548}}
+		\caption{}
+		\label{fig:I2J8548}
+		\end{figure}
+
     \chapter{Lists}
     \listoffigures
     \listoftables
