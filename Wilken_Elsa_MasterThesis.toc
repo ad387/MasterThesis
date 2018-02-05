@@ -30,20 +30,20 @@
 \contentsline {subsection}{\numberline {6.1.4}Colorindex}{44}{subsection.6.1.4}
 \contentsline {subsection}{\numberline {6.1.5}Elevation Angle}{46}{subsection.6.1.5}
 \contentsline {subsection}{\numberline {6.1.6}Exposure Time}{47}{subsection.6.1.6}
-\contentsline {chapter}{\numberline {7}Method}{49}{chapter.7}
-\contentsline {section}{\numberline {7.1}Fit data}{50}{section.7.1}
-\contentsline {section}{\numberline {7.2}Other approaches}{54}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Nearest neighbours}{54}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Iterative}{55}{subsection.7.2.2}
-\contentsline {chapter}{\numberline {8}Comparison with NOVAC Evaluation}{56}{chapter.8}
-\contentsline {chapter}{\numberline {9}Results}{61}{chapter.9}
-\contentsline {section}{\numberline {9.1}Tungurahua}{61}{section.9.1}
-\contentsline {section}{\numberline {9.2}Nevado Del Ruiz}{61}{section.9.2}
-\contentsline {chapter}{\numberline {10}Issues of our method}{64}{chapter.10}
-\contentsline {section}{\numberline {10.1}Contamination of the plume}{64}{section.10.1}
-\contentsline {chapter}{\numberline {11}Conclusion}{65}{chapter.11}
-\contentsline {part}{\numberline {III}Appendix}{66}{part.3}
-\contentsline {chapter}{\numberline {A}Lists}{68}{appendix.A}
-\contentsline {section}{\numberline {A.1}List of Figures}{68}{section.A.1}
-\contentsline {section}{\numberline {A.2}List of Tables}{70}{section.A.2}
-\contentsline {chapter}{\numberline {B}Bibliography}{71}{appendix.B}
+\contentsline {chapter}{\numberline {7}Method}{52}{chapter.7}
+\contentsline {section}{\numberline {7.1}Fit data}{53}{section.7.1}
+\contentsline {section}{\numberline {7.2}Other approaches}{57}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Nearest neighbours}{57}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Iterative}{58}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Comparison with NOVAC Evaluation}{59}{chapter.8}
+\contentsline {chapter}{\numberline {9}Results}{64}{chapter.9}
+\contentsline {section}{\numberline {9.1}Tungurahua}{64}{section.9.1}
+\contentsline {section}{\numberline {9.2}Nevado Del Ruiz}{64}{section.9.2}
+\contentsline {chapter}{\numberline {10}Issues of our method}{67}{chapter.10}
+\contentsline {section}{\numberline {10.1}Contamination of the plume}{67}{section.10.1}
+\contentsline {chapter}{\numberline {11}Conclusion}{68}{chapter.11}
+\contentsline {part}{\numberline {III}Appendix}{69}{part.3}
+\contentsline {chapter}{\numberline {A}Lists}{71}{appendix.A}
+\contentsline {section}{\numberline {A.1}List of Figures}{71}{section.A.1}
+\contentsline {section}{\numberline {A.2}List of Tables}{73}{section.A.2}
+\contentsline {chapter}{\numberline {B}Bibliography}{74}{appendix.B}

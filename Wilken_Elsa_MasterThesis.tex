@@ -321,8 +321,33 @@ with petrological methods (Shinohara, 2008)
 		\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Explosion}
 		\caption{}
 		\label{fig:broexplosion}
-	\end{figure}
+	\end{figure}}
 	\subsection{Sulphur species}
+	Sulphur species are the third most abundant gases in volcanic plumes, hereby contributes SO2 with about 25\% and \ce{H2S} with 1 to 10\%. Only \ce{H2O} and \ce{CO2} have a larger share on the volcanic gases in the plume.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\textcolor{red}{
 	2.3.1 Sulphur species
 	Sulphur species, mainly \ce{SO2} and H2S are the third most abundant species in
 	volcanic plumes after H2O and CO2. \ce{SO2} contributes up to 25% of the total
@@ -1035,6 +1060,86 @@ with petrological methods (Shinohara, 2008)
 		\rightarrow&  BrO_{Error} = f(ext. P)+ 1.0\cdot10^{13}\cdot\frac{\Delta T}{10^{-2}s} + \mathcal{O}\left(\right) & Nevado Del Ruiz\\
 		\end{align*}
 	\end{itemize}
+	\subsection*{Dependency of external parameters on each other}
+		\textbf{Difference of Temperature on  Difference of Exposure Time}
+		\begin{equation}
+		\Delta T =  -26.32\cdot \Delta ExpTime + 2\cdot 10^{-15}
+		\end{equation}
+		
+		\textbf{Difference of Temperature on  Difference of colorindex}
+		\begin{equation}
+		\Delta T = 0.0022\cdot \Delta ColIdX +2\cdot 10^{-19}
+		\end{equation}
+		
+				\textbf{Difference of Temperature on  Difference of Day time}
+		\begin{equation}
+		\Delta T =0.262\cdot \Delta daytime -4\cdot 10^{-17}
+		\end{equation}
+		
+						\textbf{Difference of Temperature on  Difference of Elevation angle}
+		\begin{equation}
+		\Delta T =1.08\cdot \Delta Elev Angle -1\cdot 10^{-16}
+		\end{equation}
+
+		\textbf{Difference of Exposure on  Difference of  Col Idx}
+		\begin{equation}
+		\Delta Exposure  =-6.22\cdot 10^{-5} \Delta Col Idx  +1\cdot 10^{-18}
+		\end{equation}
+		
+				\textbf{Difference of  Exposure on  Difference of Day time}
+		\begin{equation}
+		\Delta Exposure  =-0.004\cdot \Delta daytime -1\cdot 10^{-17}
+		\end{equation}
+		
+						\textbf{Difference of  Exposure  on  Difference ofElevation angle}
+		\begin{equation}
+		\Delta Exposure  =-0.047\cdot \Delta  ElevAngle +3\cdot 10^{-16}
+		\end{equation}
+
+
+		\textbf{Difference of  Colorindex  on  Difference of Day time}
+		\begin{equation}
+		\Delta ColIdX  =4.51\cdot \Delta daytime-1.2\cdot 10^{-15}
+		\end{equation}
+		
+		\textbf{Difference of  Colorindex  on  Difference of Elevation angle}
+		\begin{equation}
+		\Delta ColIdX  =-52\cdot \Delta ElevAngle+ 1.45\cdot 10^{-14}
+		\end{equation}
+		
+				\textbf{Difference of  Colorindex  on  Difference of Elevation angle}
+		\begin{equation}
+		\Delta ColIdX  =3.5\cdot \Delta ElevAngle-6\cdot 10^{-16}
+		\end{equation}
+	\begin{figure}
+			\subfigure[I2J8546\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8546_0DiffTemp_Tungu}}
+			\subfigure[I2J8548\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8548_0DiffTemp_Tungu}}
+			\subfigure[D2J2140\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2140_0DiffTemp_Tungu}}
+			\caption{DiffTemp at Tungurahua}
+			\label{fig:DiffTemptunge}
+	\end{figure}
+	\begin{figure}
+		\subfigure[I2J8546\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8546_0DiffColidx_Tungu}}
+		\subfigure[I2J8548\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8548_0DiffColidx_Tungu}}
+		\subfigure[D2J2140\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2140_0DiffColidx_Tungu}}
+		\caption{Colorindex at Tungurahua}
+		\label{fig:diffcolidxtungu}
+	\end{figure}
+	\begin{figure}
+		\subfigure[I2J8546\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8546_0DiffDaytime_Tungu}}
+		\subfigure[I2J8548\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8548_0DiffDaytime_Tungu}}
+		\subfigure[D2J2140\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2140_0DiffDaytime_Tungu}}
+		\caption{Colorindex at Tungurahua}
+		\label{fig:DiffDaytime}
+	\end{figure}
+	\begin{figure}
+		\subfigure[I2J8546\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8546_0DiffExpTime_Tungu}}
+		\subfigure[I2J8548\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8548_0DiffExpTime_Tungu}}
+		\subfigure[D2J2140\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2140_0DiffExpTime_Tungu}}
+		\caption{DiffExpTime at Tungurahua}
+		\label{fig:DiffExpTime}
+	\end{figure}
+	
 	%--------------------------------------------------------------------------------------------------------------
 	\chapter{Method}
 	Based on the findings about the influence of external parameters on the \ce{BrO} error we developed an algorithm which is able to pick an appropriate volcanic-trace-gas free reference.\\ 
