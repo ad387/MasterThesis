@@ -46,22 +46,14 @@
 \contentsline {figure}{\numberline {6.9}{\ignorespaces The BrO Measurement Error as a function of the difference of exposure time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in exposure time is observably.}}{48}{figure.6.9}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{48}{figure.6.9}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{48}{figure.6.9}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces DiffTemp at Tungurahua}}{50}{figure.6.10}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {I2J8546\_0}}}{50}{figure.6.10}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {I2J8548\_0}}}{50}{figure.6.10}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {D2J2140\_0}}}{50}{figure.6.10}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Colorindex at Tungurahua}}{50}{figure.6.11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {I2J8546\_0}}}{50}{figure.6.11}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {I2J8548\_0}}}{50}{figure.6.11}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {D2J2140\_0}}}{50}{figure.6.11}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Colorindex at Tungurahua}}{50}{figure.6.12}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {I2J8546\_0}}}{50}{figure.6.12}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {I2J8548\_0}}}{50}{figure.6.12}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {D2J2140\_0}}}{50}{figure.6.12}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces DiffExpTime at Tungurahua}}{51}{figure.6.13}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {I2J8546\_0}}}{51}{figure.6.13}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {I2J8548\_0}}}{51}{figure.6.13}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {D2J2140\_0}}}{51}{figure.6.13}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces }}{48}{figure.6.10}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces DiffExpTime at Tungurahua}}{50}{figure.6.11}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {I2J8546\_0}}}{50}{figure.6.11}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {I2J8548\_0}}}{50}{figure.6.11}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {D2J2140\_0}}}{50}{figure.6.11}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces BrO Error as a function of the external while measering the Plume and the Reference at Nevado del ruiz}}{51}{figure.6.12}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {D2J2201\_0}}}{51}{subfigure.6.13.8}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {D2J2200\_0}}}{51}{subfigure.6.13.8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces }}{53}{figure.7.1}
 \contentsline {figure}{\numberline {7.2}{\ignorespaces }}{55}{figure.7.2}

@@ -323,9 +323,8 @@ with petrological methods (Shinohara, 2008)
 		\label{fig:broexplosion}
 	\end{figure}}
 	\subsection{Sulphur species}
-	Sulphur species are the third most abundant gases in volcanic plumes, hereby contributes SO2 with about 25\% and \ce{H2S} with 1 to 10\%. Only \ce{H2O} and \ce{CO2} have a larger share on the volcanic gases in the plume.
-	
-	
+	Sulphur species are the third most abundant gases in volcanic plumes, hereby contributes SO2 with about 25\% and \ce{H2S} with 1 to 10\%. Only \ce{H2O} and \ce{CO2} have a larger share on the volcanic gases in the plume \Cref{Tab:Tracegasesinvolc}.\\
+	Outside of the volcanic plume the SO2 amount is with approximately 1ppb negligible, in contrast the So2 amount inside he plume can easily reach 1ppm \cite{Coppenheimer 2003} 
 	
 	
 	
@@ -1061,6 +1060,13 @@ with petrological methods (Shinohara, 2008)
 		\end{align*}
 	\end{itemize}
 	\subsection*{Dependency of external parameters on each other}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{"../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Difference in Temperature [C]_Tungu"}
+		\caption{}
+		\label{fig:difference-in-exposure-time-msdifference-in-temperature-ctungu}
+	\end{figure}
+	
 		\textbf{Difference of Temperature on  Difference of Exposure Time}
 		\begin{equation}
 		\Delta T =  -26.32\cdot \Delta ExpTime + 2\cdot 10^{-15}
@@ -1112,33 +1118,56 @@ with petrological methods (Shinohara, 2008)
 		\Delta ColIdX  =3.5\cdot \Delta ElevAngle-6\cdot 10^{-16}
 		\end{equation}
 	\begin{figure}
-			\subfigure[I2J8546\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8546_0DiffTemp_Tungu}}
-			\subfigure[I2J8548\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8548_0DiffTemp_Tungu}}
-			\subfigure[D2J2140\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2140_0DiffTemp_Tungu}}
-			\caption{DiffTemp at Tungurahua}
+			\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8546_0DiffTemp_Tungu}}
+			\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8548_0DiffTemp_Tungu}}
+			\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2140_0DiffTemp_Tungu}}
+	%		\caption{DiffTemp at Tungurahua}
 			\label{fig:DiffTemptunge}
-	\end{figure}
-	\begin{figure}
-		\subfigure[I2J8546\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8546_0DiffColidx_Tungu}}
-		\subfigure[I2J8548\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8548_0DiffColidx_Tungu}}
-		\subfigure[D2J2140\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2140_0DiffColidx_Tungu}}
-		\caption{Colorindex at Tungurahua}
+%	\end{figure}
+%	\begin{figure}
+		\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8546_0DiffColidx_Tungu}}
+		\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8548_0DiffColidx_Tungu}}
+		\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2140_0DiffColidx_Tungu}}
+%		\caption{Colorindex at Tungurahua}
 		\label{fig:diffcolidxtungu}
-	\end{figure}
-	\begin{figure}
-		\subfigure[I2J8546\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8546_0DiffDaytime_Tungu}}
-		\subfigure[I2J8548\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8548_0DiffDaytime_Tungu}}
-		\subfigure[D2J2140\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2140_0DiffDaytime_Tungu}}
-		\caption{Colorindex at Tungurahua}
+%	\end{figure}
+%	\begin{figure}
+		\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8546_0DiffDaytime_Tungu}}
+		\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8548_0DiffDaytime_Tungu}}
+		\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2140_0DiffDaytime_Tungu}}
+%		\caption{Colorindex at Tungurahua}
 		\label{fig:DiffDaytime}
-	\end{figure}
-	\begin{figure}
 		\subfigure[I2J8546\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8546_0DiffExpTime_Tungu}}
 		\subfigure[I2J8548\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/I2J8548_0DiffExpTime_Tungu}}
 		\subfigure[D2J2140\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2140_0DiffExpTime_Tungu}}
 		\caption{DiffExpTime at Tungurahua}
 		\label{fig:DiffExpTime}
 	\end{figure}
+
+
+		\begin{figure}
+			\centering
+			\caption{BrO Error as a function of the external while measering the Plume and the Reference at Nevado del ruiz}
+			\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2201_0DiffTemp_Nevad}}
+			\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2200_0_DiffTemp_Nevad}}\\
+		%	
+		%	\label{fig:DiffTemptungeNevad}
+			\centering
+			\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2201_0DiffColidx_Nevad.pdf}}
+			\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2200_0_DiffColidx_Nevad.pdf}}
+
+			\label{fig:diffcolidxtunguNevad}
+
+			\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2201_0DiffDaytime_Nevad}}
+			\subfigure{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2200_0_DiffDaytime_Nevad}}
+
+			\label{fig:DiffDaytimeNevad}
+
+			\subfigure[D2J2201\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2201_0DiffExpTime_Nevad}}
+			\subfigure[D2J2200\_0]{\includegraphics[width=0.3\linewidth]{Bilder/BrOError_onVariables_050218/D2J2200_0_DiffExpTime_Nevad}}
+
+			\label{fig:DiffExpTimeNevad}
+		\end{figure}
 	
 	%--------------------------------------------------------------------------------------------------------------
 	\chapter{Method}
@@ -1489,11 +1518,11 @@ with petrological methods (Shinohara, 2008)
  	
  \end{small}
 	\chapter{Issues of our method}
-	
+	The presented method 
 	\section{Contamination of the plume}
-	\begin{itemize}
-		\item As discussed above it might occur, that, that the reference is contaminated for example by the plume of the day before. If that happens, we underestimate the gas amount by using a contaminated reference. But another possibility is, that the plume is also contaminated. This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates in the plume. If this is the case, using an other reference would lead to an overestimation of the column density of gases.
-	\end{itemize}
+	
+	 As discussed above it might occur, that, that the reference is contaminated for example by the plume of the day before. If that happens, we underestimate the gas amount by using a contaminated reference. But another possibility is, that the plume is also contaminated. This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates in the plume. If this is the case, using an other reference would lead to an overestimation of the column density of gases.
+
 
 	\chapter{Conclusion}
 	....
