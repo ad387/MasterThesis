@@ -2,83 +2,84 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces schematic sketch of a Bromine Explosion. Release of \ce {HBr} at the volcanic vent. Mixing with ambient air in the effective source region leads to \ce {Br} formation. This resulting Bromine species react to \ce {BrO} with ozone from the plume. Adapted from \cite {bobrowski2007reactive}}}{11}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Influence of volcanic eruptions and quiet degassing on earth climate. Redrawn on the basis of \cite {robock2000volcanic}}}{11}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces }}{12}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Dependency of the ratios of different volcanic trace gases on depth. Data originate from Stromboli volcano. From \cite {lubcke2014optical} reproduced from Burton et al. (2007)}}{14}{figure.2.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces }}{11}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Influence of volcanic eruptions and quiet degassing on earth climate. Redrawn on the basis of \cite {robock2000volcanic}}}{14}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Dependency of the ratios of different volcanic trace gases on depth. Data originate from Stromboli volcano. From \cite {lubcke2014optical} reproduced from Burton et al. (2007)}}{15}{figure.2.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Basic idea of the DOAS principle: Light attenuate due to broad band and narrow band effects. The broad band extinction is caused by aerosols and Raylight scattering $\left (I_0\rightarrow I^{'}\right )$. The measured intensity $I$ is formed by narrow band effects due to differential absorption structures by trace gases with the optical density $\tau ^{'}$. Adapted from \cite {kern2009spectroscopic}}}{17}{figure.3.1}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Basic idea of the DOAS principle: Light attenuate due to broad band and narrow band effects. The broad band extinction is caused by aerosols and Raylight scattering $\left (I_0\rightarrow I^{'}\right )$. The measured intensity $I$ is formed by narrow band effects due to differential absorption structures by trace gases with the optical density $\tau ^{'}$. Adapted from \cite {kern2009spectroscopic}}}{18}{figure.3.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Global map of the volcanoes monitored by NOVAC. Used with friendly permission of Santiago Arellano.}}{21}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces shematic sketch of a NOVAC instrument. From \cite {galle2010network}}}{22}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Topographig Map of the Tungurahua Volcano. The predominant plume direction is shaded in yellow. Four NOVAC stations are shown as red squares, the corresponding scanning geometry is sketched with black lines. From \cite {hidalgo2015so2}.}}{23}{figure.4.3}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Global map of the volcanoes monitored by NOVAC. Used with friendly permission of Santiago Arellano.}}{22}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces schematic sketch of a NOVAC instrument. From \cite {galle2010network}}}{23}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Topographig Map of the Tungurahua Volcano. The predominant plume direction is shaded in yellow. Four NOVAC stations are shown as red squares, the corresponding scanning geometry is sketched with black lines. From \cite {hidalgo2015so2}.}}{24}{figure.4.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces SCD's as a function of viewing angles. Adapted from \cite {WarnachSimon}}}{25}{figure.5.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\ce {SO2} SCD as a function of the elevation angle with error bars resulting from the DOASIS fitting routine}}}{25}{figure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\ce {BrO} SCD as a function of the elevation angle with error bars resulting from the DOASIS fitting routine}}}{25}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces NOVAC Evaluation: (a) Measurement at the volcanoe (b) Evaluation of the spectral data with the DOAS routine using the absoption cross sections of BrO and SO2. (c) finding the location of the plume and reference (d) the ratios BrO/SO2 at Tungurahua }}{26}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Sketch of the DOAS Routine }}{27}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces (a) \ce {SO2} SCD as a function of the elevation angle. The co-added Plume region is marked with red diamonds, and the co added reference region with green stars. From \cite {WarnachSimon}. (b) Flow chart of the BrO and SO2 evaluation. From \cite {lubcke2014optical}.}}{28}{figure.5.4}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { }}}{28}{figure.5.4}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { }}}{28}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Scan with a contaminated reference spectrum from April 2011. From \cite {WarnachSimon}}}{29}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces }}{30}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces }}{30}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces }}{30}{figure.5.8}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces (a) \ce {SO2} SCD as a function of the elevation angle with error bars resulting from the DOASIS fitting routin. (b) \ce {BrO} SCD as a function of the elevation angle with error bars resulting from the DOASIS fitting routinee Adapted from \cite {WarnachSimon}}}{26}{figure.5.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{26}{figure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{26}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces NOVAC Evaluation: (a) Measurement at the volcanoe (b) Evaluation of the spectral data with the DOAS routine using the absoption cross sections of BrO and SO2. (c) finding the location of the plume and reference (d) the ratios BrO/SO2 at Tungurahua }}{27}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Sketch of the DOAS Routine }}{28}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces (a) \ce {SO2} SCD as a function of the elevation angle. The co-added Plume region is marked with red diamonds, and the co added reference region with green stars. From \cite {WarnachSimon}. (b) Flow chart of the BrO and SO2 evaluation. From \cite {lubcke2014optical}.}}{29}{figure.5.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { }}}{29}{figure.5.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { }}}{29}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Scan with a contaminated reference spectrum from April 2011. From \cite {WarnachSimon}}}{30}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces }}{31}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces }}{31}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces }}{31}{figure.5.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces }}{32}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces }}{34}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces }}{35}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Titel unterm gesamten Bild}}{35}{figure.6.4}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{35}{figure.6.4}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{35}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces The BrO Measurement Error as a function of the difference of temperature between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in temperature is observable.}}{36}{figure.6.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{36}{figure.6.5}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{36}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces The BrO Measurement Error as a function of the difference of the day time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in day time is observable.}}{37}{figure.6.6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{37}{figure.6.6}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{37}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces The BrO Measurement Error as a function of the difference of colorindex between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in colorindex is observably.}}{38}{figure.6.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{38}{figure.6.7}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{38}{figure.6.7}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces The BrO Measurement Error as a function of the Elevation Angle. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. We can't see any significant correlation.}}{39}{figure.6.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{39}{figure.6.8}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{39}{figure.6.8}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The BrO Measurement Error as a function of the difference of exposure time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in exposure time is observably.}}{40}{figure.6.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{40}{figure.6.9}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{40}{figure.6.9}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces }}{40}{figure.6.10}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces DiffExpTime at Tungurahua}}{42}{figure.6.11}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {I2J8546\_0}}}{42}{figure.6.11}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {I2J8548\_0}}}{42}{figure.6.11}
-\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {D2J2140\_0}}}{42}{figure.6.11}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces BrO Error as a function of the external while measering the Plume and the Reference at Nevado del ruiz}}{43}{figure.6.12}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {D2J2201\_0}}}{43}{subfigure.6.13.8}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {D2J2200\_0}}}{43}{subfigure.6.13.8}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces }}{33}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces }}{35}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces }}{36}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Titel unterm gesamten Bild}}{36}{figure.6.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{36}{figure.6.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{36}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces The BrO Measurement Error as a function of the difference of temperature between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in temperature is observable.}}{37}{figure.6.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{37}{figure.6.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{37}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces The BrO Measurement Error as a function of the difference of the day time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in day time is observable.}}{38}{figure.6.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{38}{figure.6.6}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{38}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces The BrO Measurement Error as a function of the difference of colorindex between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in colorindex is observably.}}{39}{figure.6.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{39}{figure.6.7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{39}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces The BrO Measurement Error as a function of the Elevation Angle. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. We can't see any significant correlation.}}{40}{figure.6.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{40}{figure.6.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{40}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The BrO Measurement Error as a function of the difference of exposure time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in exposure time is observably.}}{41}{figure.6.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{41}{figure.6.9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{41}{figure.6.9}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces }}{41}{figure.6.10}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces DiffExpTime at Tungurahua}}{43}{figure.6.11}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {I2J8546\_0}}}{43}{figure.6.11}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {I2J8548\_0}}}{43}{figure.6.11}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {D2J2140\_0}}}{43}{figure.6.11}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces BrO Error as a function of the external while measering the Plume and the Reference at Nevado del ruiz}}{44}{figure.6.12}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {D2J2201\_0}}}{44}{subfigure.6.13.8}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {D2J2200\_0}}}{44}{subfigure.6.13.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces }}{45}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces }}{47}{figure.7.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nevado Del Ruiz}}}{47}{figure.7.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tungurahua}}}{47}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces }}{47}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces }}{47}{figure.7.4}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces }}{46}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces }}{48}{figure.7.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nevado Del Ruiz}}}{48}{figure.7.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tungurahua}}}{48}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces }}{48}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces }}{48}{figure.7.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }}{53}{figure.8.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{53}{figure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{53}{figure.8.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{53}{figure.8.1}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{53}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces }}{55}{figure.8.2}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }}{54}{figure.8.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{54}{figure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{54}{figure.8.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{54}{figure.8.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{54}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces }}{56}{figure.8.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces }}{57}{figure.9.1}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces }}{58}{figure.9.2}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces }}{58}{figure.9.1}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces }}{59}{figure.9.2}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces }}{61}{figure.10.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {.1}{\ignorespaces }}{62}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{62}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{62}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{62}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{62}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{62}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{62}{figure.Alph0.1}
+\contentsline {figure}{\numberline {.1}{\ignorespaces }}{64}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{64}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{64}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{64}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{64}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{64}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{64}{figure.Alph0.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

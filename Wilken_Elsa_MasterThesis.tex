@@ -54,109 +54,134 @@
   %% Put your contents here
 	\chapter{Introduction}	
 	\input{Chapters/1_Introduction/1_Intruduction}
-	\part{Theoretical Background}
-	\chapter{Volcanism and volcanic chemistry}
-	\section{Volcanism}
+    \part{Theoretical Background}
+\chapter{Volcanism and volcanic chemistry}
+\section{Volcanism}
 The high thermal energy in the deep interior of the earth is mostly well separated from the earth’s surface by the earth’s crust. A volcano is geological structure that allows magma to reach the earth’s surface. Such a phenomenon can occur in various ways. In the following paragraphs the different types of volcanoes are described.
 \paragraph{ Mid-ocean ridge volcanism}
-The mid-ocean ridge volcanism can be traced back to tectonic processes of oceanic plates. The spreading of two plates, that are pulled apart, leads to a thinning of the oceanic earth crust. This way solid material from the upper mantel (lower than 100 km) can ascend to depths of approximately 50 km. As the pressure at this depth is much lower, the mantle material starts to melt to basaltic magma that fills the gap between the two plates. 
+The mid-ocean ridge volcanism can be traced back to tectonic processes of oceanic plates. The spreading of two plates, that are pulled apart, leads to a thinning of the oceanic earth crust. This way solid material from the upper mantel (lower than 100 km) can ascend to depths of approximately 50 km. As the pressure at this depth is much lower, the mantle material starts to melt to basaltic magma that fills the gap between the two plates.
 \paragraph{ Continental rift zone volcanism}
-Similar to mid-ocean ridge volcanism continental rift zone volcanism results from two continental plate are pulled apart. 
+Similar to mid-ocean ridge volcanism continental rift zone volcanism results from two continental plate are pulled apart.
 \paragraph{ Subduction zone volcanoes}
 Subduction zone volcanoes occur if an oceanic plate converges under another plate (oceanic or continental). This way the descending plate penetrate into the lower mantle. At a depth of 80-150 km the water of this plate evaporates and rises and causes the mantle material above to melt. The resulting water-rich magma mainly consists of andesite. Subduction zone volcanoes are known for their violent eruptions caused by the low viscosity magma.
 \paragraph{ Hot-spot volcanoes} Hot-spot volcanoes occur on continental or oceanic plates. This type of volcanoes arises from a hot spot at the coremantle boundary inside Earth that leads to a plume in the mantle where solid material can rise. This material melts to basaltic magma at a depth of 100-150 km. Through a futher rise also other types of magma (e.g. rhyolitic, more-viscous magma) can arise.
 
-	\subsection{Volcanic degassing}
+\subsection{Volcanic degassing}
 
 
-		\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Plume}
-		\caption{schematic sketch of a Bromine Explosion.
-			Release of \ce{HBr} at the volcanic vent. Mixing with ambient air in the effective source region leads to \ce{Br} formation. This resulting Bromine species react to \ce{BrO} with ozone from the plume. Adapted from \cite{bobrowski2007reactive}}
-		\label{fig:broplume}
-	\end{figure}
-	\subsection{Volcanic gases and their impact on the climate}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Plume}
+	\caption{schematic sketch of a Bromine Explosion.
+		Release of \ce{HBr} at the volcanic vent. Mixing with ambient air in the effective source region leads to \ce{Br} formation. This resulting Bromine species react to \ce{BrO} with ozone from the plume. Adapted from \cite{bobrowski2007reactive}}
+	\label{fig:broplume}
+\end{figure}
 
+\subsection{Volcanic plume chemistry}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Explosion}
+	\caption{}
+	\label{fig:broexplosion}
+\end{figure}
+\subsection{Sulphur species}
+Sulphur species are the third most abundant gases in volcanic plumes, hereby contributes SO2 with about 25\% and \ce{H2S} with 1 to 10\%. Only \ce{H2O} and \ce{CO2} have a larger share on the volcanic gases in the plume \Cref{Tab:Tracegasesinvolc}.\\
+Outside of the volcanic plume the SO2 amount is with approximately 1ppb negligible, in contrast the So2 amount inside he plume can easily reach 1ppm \cite{Coppenheimer 2003}
+When \ce{H2S} escapes from the volcano vent, it enters the oxidizing conditions in the atmosphere. The conversion of \ce{H2S} into \ce{SO2} starts with:
+\begin{equation*}
+\ce{H2O}+\ce{OH}\rightarrow \ce{H2O}+\ce{SH}
+\end{equation*}
+The \ce{SH} radical goes through a series of reactions, leading to the \ce{SO2} formation \cite{Seinfeld}\\
+\ce{SO2} is removed from the atmosphere by dry or wet
+deposition. At homogeneous reactions the lifetime is from 1-3 weeks \cite{robock2000volcanic}. Heterogenous reactions such as take place on particles or liquid phases leads to much faster depletions.\\
+Further discussions of the stability of SO2 in the atmosphere can be found at \cite{lubcke2014optical}.\\
+In this thesis it is assumed that SO2 is stable on timescales occurring with ground based remote sensing measuring of about 20 minutes. \\
+The SO2 amount in the atmosphere outside of the volcanic plume is with approximately 1ppb negligible. In contrast the SO2 amount in the plume can easily reach 1ppm \cite{Oppenheimer}.\\
+The fact that the SO2 amount in the atmospheric background compared to the SO2 amount in the plume is negligible alongside
 
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/Climate_Influence}
-		\caption{Influence of volcanic eruptions and quiet degassing on earth climate. Redrawn on the basis of \cite{robock2000volcanic}}
-		\label{fig:climateinfluence}
-	\end{figure}
-	\subsection{Volcanic plume chemistry}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Explosion}
-		\caption{}
-		\label{fig:broexplosion}
-	\end{figure}
-	\subsection{Sulphur species}
-	Sulphur species are the third most abundant gases in volcanic plumes, hereby contributes SO2 with about 25\% and \ce{H2S} with 1 to 10\%. Only \ce{H2O} and \ce{CO2} have a larger share on the volcanic gases in the plume \Cref{Tab:Tracegasesinvolc}.\\
-	Outside of the volcanic plume the SO2 amount is with approximately 1ppb negligible, in contrast the So2 amount inside he plume can easily reach 1ppm \cite{Coppenheimer 2003} 
-	When \ce{H2S} escapes from the volcano vent, it enters the oxidizing conditions in the atmosphere. The conversion of \ce{H2S} into \ce{SO2} starts with:
-	\begin{equation*}
-	\ce{H2O}+\ce{OH}\rightarrow \ce{H2O}+\ce{SH}
-	\end{equation*} 
-	The \ce{SH} radical goes through a series of reactions, leading to the \ce{SO2} formation \cite{Seinfeld}\\
-	\ce{SO2} is removed from the atmosphere by dry or wet
-	 deposition. At homogeneous reactions the lifetime is from 1-3 weeks \cite{robock2000volcanic}. Heterogenous reactions such as take place on particles or liquid phases leads to much faster depletions.\\
-	 Further discussions of the stability of SO2 in the atmosphere can be found at \cite{lubcke2014optical}.\\
-	 In this thesis it is assumed that SO2 is stable on timescales occurring with ground based remote sensing measuring of about 20 minutes. \\
-	 The SO2 amount in the atmosphere outside of the volcanic plume is with approximately 1ppb negligible. In contrast the SO2 amount in the plume can easily reach 1ppm \cite{Oppenheimer}.\\
-	 The fact that the SO2 amount in the atmospheric background compared to the SO2 amount in the plume is negligible alongside
-	
-	\subsection{Bromine oxide}
-	The amount of Bromine in volcanic plumes is rather low compared to SO2 \cite{Bobrowski 2013}. The first time Bromine monoxid (BrO) was observed at a volcano was 2013 at the soufriere hills by \cite{Bobrowski 2013}. Since then many others were able to detect BrO using ground based remote sensing measurement techiques (DOAS: see \cref{DOAS})\\
-	\\
-	examples
-	\\
-	The main Bromine formation which is released from the volcano is  \ce{HBr}. BrO is formed due to mixing with the ozone rich atmosphere at ambient temperatures \cite{bobrowski2007reactive}.\\
-	Due to the raising of hot air in the volcano vent , ambient air is pulled into the vent. There temperatures of  600$^{\circ}C$ to 1200$^{\circ}C$	prevent the formation of BrO. Only Br id formed. BrO occures after further cooling and mixing while rising. When the temperature cooles down to ambient conditions the so called "Bromine Explosion" causes a non linear formation of BrO.
-	The "Bromine Explosion" is illustrated in \cref{fig:broexplosion} and can be described with the following reaction cycle:
-	\begin{align}
-		\ce{HBr}_{gas} &\rightarrow \ce{Br}^{-}_{aq} + \ce{H}^{+}_{aq}\\
-		\ce{HOBr}_{(gas)} &\rightarrow \ce{HOBr}_{(aq)} \\
-		\ce{HOBr}_{(aq)} + \ce{Br}^{-}_{(aq)} + \ce{H}^{-}_{(aq)} &\rightarrow
-	    \ce{Br}_{2(aq)} +  \ce{H2O}\\
-		\ce{Br}_{2,aq} &\rightarrow \ce{Br}_{2,gas} \\
-		\ce{Br2} + h\nu &\rightarrow 2 \ce{Br} \\
-		\ce{Br} + \ce{O3} &\rightarrow \ce{BrO} + \ce{O2} \\
-		\ce{BrO} + \ce{HO2} &\rightarrow \ce{HOBr} + \ce{O2} \\
-		\ce{BrO} + \ce{BrO} &\rightarrow 2 \ce{Br} + \ce{O2} \\
-		\ce{BrO} + \ce{BrO} &\rightarrow \ce{Br2} + \ce{O2} 
-	\end{align}
-	
-	The exponential BrO formation is slightly diminished by 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+\subsection{Bromine oxide}
+The amount of Bromine in volcanic plumes is rather low compared to SO2 \cite{Bobrowski 2013}. The first time Bromine monoxid (BrO) was observed at a volcano was 2013 at the soufriere hills by \cite{Bobrowski 2013}. Since then many others were able to detect BrO using ground based remote sensing measurement techiques (DOAS: see \cref{DOAS})\\
+\\
+examples
+\\
+The main Bromine formation which is released from the volcano is  \ce{HBr}. BrO is formed due to mixing with the ozone rich atmosphere at ambient temperatures \cite{bobrowski2007reactive}.\\
+Due to the raising of hot air in the volcano vent , ambient air is pulled into the vent. There temperatures of  600$^{\circ}C$ to 1200$^{\circ}C$    prevent the formation of BrO. Only Br id formed. BrO occures after further cooling and mixing while rising. When the temperature cooles down to ambient conditions the so called "Bromine Explosion" causes a non linear formation of BrO.
+The "Bromine Explosion" is illustrated in \cref{fig:broexplosion} and can be described with the following reaction cycle:
+\begin{align}
+\ce{HBr}_{gas} &\rightarrow \ce{Br}^{-}_{aq} + \ce{H}^{+}_{aq}\\
+\ce{HOBr}_{(gas)} &\rightarrow \ce{HOBr}_{(aq)} \\
+\ce{HOBr}_{(aq)} + \ce{Br}^{-}_{(aq)} + \ce{H}^{-}_{(aq)} &\rightarrow
+\ce{Br}_{2(aq)} +  \ce{H2O}\\
+\ce{Br}_{2,aq} &\rightarrow \ce{Br}_{2,gas} \\
+\ce{Br2} + h\nu &\rightarrow 2 \ce{Br} \\
+\ce{Br} + \ce{O3} &\rightarrow \ce{BrO} + \ce{O2} \\
+\ce{BrO} + \ce{HO2} &\rightarrow \ce{HOBr} + \ce{O2} \\
+\ce{BrO} + \ce{BrO} &\rightarrow 2 \ce{Br} + \ce{O2} \\
+\ce{BrO} + \ce{BrO} &\rightarrow \ce{Br2} + \ce{O2}
+\end{align}
 
-
-	\subsection{Using volcanic gases to study volcanic activity}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Zwischenbericht2018/Bilder/so2_bro}
-		\caption{Dependency of the ratios of different volcanic trace gases on depth. Data originate from Stromboli volcano. From \cite{lubcke2014optical} reproduced from Burton et al. (2007)}
-		\label{fig:so2bro}
-	\end{figure}	
+The exponential BrO formation is slightly diminished by
 
 
 
+
+
+
+
+\subsection{Volcanic gases and their impact on the climate}
+Volcanic gases have a large impact on the earth climate especially SO2 or more specific its oxidation product sulfur acid.\\ 
+The relevance of CO2 for the climate is a subject of many discussions, the share of volcanic co2 is rather low further informations can be found in:...\\\\
+\cite{halmer2002annual} estimated the mean annual SO2 emitted from volcanoes from 1972 to 200 as 7.5 to 10.5TgSyr$^-1$, while the anthropogenic So2 amount for 2000 is estimated as 55TgSyr$^-1$ \cite{IPCC}. Despite the less So2 occuring from volcanoes the impact may be higher as the impact of the antropogenic So2. \cite{graf1997volcanic} supposed that the volcaninc So2 has a higher impact on the climate since its reaches up to the stratosphere while the antropogenic so2 is mostly located in plantery boundary layer. In the lower troposhere sulphuric acid has a lifetime of about a week whereas the liftime in the stratosphere is about a year \cite{IPCC}.\\
+Sulphuric acid in the atmosphere increases the aerth albedo due to direct backscattering radiation. Additional the condensation on sulphuric acid particles leads to finer droplets thus to more stable and more white clouds this increases the albedo as well \cite{twomey1974pollution}.
+volcanic particles can be surfaces for heterogeneous reaction. The result is a depletion of stratospheric Ozone, and thus more high energetic solar flux on the earth surface.
+Large particles may backscatter IR radiation fromt the earth surface and the lower atmosphere leading to a small reduction of the net cooling of the lower troposphere.
+In the upper trophosphere ore stratosphere absorption of IR or UV radiation results in a net heating in the stratosphere and a cooling at the earth surface.
+\Cref{fig:climateinfluence} shows the above described effects and their localization in the atmosphere.
+The dominating radiative effect of volcanic gases is a cooling of the earth atmosphere due to  more backscattered radiation, more diffusive scattering\cite{robock2000volcanic}.
+\cite{IPCC} records a volcanic radiative forcing of $-0.11Wm^{-1}$ between 2008 and 2011. For comparison the radiative of CO2 is estimated as  $1.68Wm^{-1}$.
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/Climate_Influence}
+	\caption{Influence of volcanic eruptions and quiet degassing on earth climate. Redrawn on the basis of \cite{robock2000volcanic}}
+	\label{fig:climateinfluence}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\subsection{Using volcanic gases to study volcanic activity}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Zwischenbericht2018/Bilder/so2_bro}
+	\caption{Dependency of the ratios of different volcanic trace gases on depth. Data originate from Stromboli volcano. From \cite{lubcke2014optical} reproduced from Burton et al. (2007)}
+	\label{fig:so2bro}
+\end{figure}    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	\subsection*{Tungurahua}
 	Tungurahua is a subduction zone volcano located in the Ecuadorian Andes (Lat: 01$^{\circ}$,28$^{'}$S; Long:78$^{\circ}$,27$^{'}$W). 2014 Tungurahua was one of the most active volcanoes in southern America, since then the activity was decreasing. Tungurahua is 5023m high and is one of the defining volcanoes of the eastern volcanic rows in Ecuador. \cite{hall1999tungurahua}
@@ -168,14 +193,14 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
 	 
 	\chapter{Remote sensing of volcanic gases}
 	In this thesis we are interested in the volcanic trace gases \ce{SO2} and BrO, both measured with the Differential Optical Absorption Spectroscopy (DOAS) a remote sensing technique proposed by \cite{platt2008differential}\\
-	This chapter will give a short overview about the measuring technique.
 	
 
 	\section*{Beer-Lambert Law}
+	The Lambert-Beer law describes the attenuation of light when traveling through a material.\\
 	This section will give an overview about the reasons for decreasing light intensity when going through a medium.\\
 	The Lambert-Beer law describes the attenuation of light when traveling through a material.\\
-
-	Atoms and Molecules exists in several energy states, depending on the different electron configuration. Moreover Molecules have additionally rotation and vibration states, also enclose to the energy states. If a photon matches the energy gap between two possible energy states, this includes, that the lower energy state is occupied and the selection rules are fulfilled, the molecule could absorb the photon, remaining in a higher energy state.\\
+                                                                                                                                                                                                                                                                                       ,
+	Atoms and Molecules exists in several energy states, depending on the different electron configuration. Moreover Molecules have additionally rotation and vibration states, also enclose to the energy states. If a photon matches the energy gap between two possible energy states, this includes, that the lower energy state is occupied and the selection rules are fulfilled  the molecule could absorb the photon, remaining in a higher energy state.\\
 	The additional photon energy could be loosed by collision with another molecule or by emission. But since the direction of the emitted photon is mostly not the same direction of the absorbed photon the intensity I$_{0}$ of the light before passing the medium is higher than the intensity I after traveling the distance L through the medium.\\
 	This can be described as:\\ 
 	\begin{equation}
@@ -200,7 +225,7 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
 	\end{equation}
 	The first term of \cref{eq:lbe} in the exponential function, multiple absorbers $j$ are considered, the corresponding concentration depends on the position l of the light path.
 	The last two terms in describe the extinction due to Rayleigh and Mie scattering in the atmosphere.\\
-	Inelastic scattering (for example the Ring effect) and effects due to turbulences in the atmosphere, are neglected here.
+	Inelastic scattering (for example the Ring effect) and effects due to turbulences in the atmosphere are neglected here.
 
 	\section{Differential Optical Absorption Spectroscopy(DOAS)\label{DOAS}}
 		\begin{figure}
@@ -296,11 +321,11 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
 	\input{Chapters/2_NOVAC/2_NOVAC}
 	
 	\chapter{Evaluation Routine}
-		\Cref{DOAS} gives an overview about the theory of the DOAS Method. This chapter will go through the algorithm which is used for the evaluation of the spectroscopic data recorded in NOVAC. 
+		This chapter will go through the algorithm which is used for the evaluation of the spectroscopic data recorded in NOVAC. 
 		The occurring problem of contamination of the reference will be explained and possible solutions will be presented.
 		 
 	\section{NOVAC-Evaluation}
-		The fitting routine used for this work is based on the DOASIS software \cite{kraus2006doasis}. 
+		The fitting routine used for this thesis is based on the DOASIS software \cite{kraus2006doasis}. 
 		The equations of the DOAS retrieval of this work are slightly different from \cref{eq:taustrich}.
 		\Cref{eq:lbe} can be rewritten to:
 		\begin{align}
@@ -311,7 +336,7 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
 		\end{align}
 		%
 		The term $ P \left(\lambda\right)$ is a polynomial that accounts for all broad-band effects that differ between the background spectrum $I_0\left(\lambda\right)$ and the measurement spectrum $I\left(\lambda\right)$.\\
-		All Gases $j$ with relevant structures in the wavelength range used for the evaluation of SO2 (BrO) and the additional pseudo absorbers are listed in \cref{tab:gases}.\\
+
 		The remaining task of the DOAS routing is to find a model function $F \left(\lambda\right)$ that minimizes $\chi^2$:
 		\begin{equation}
 		\chi^2 = \sum_{i=\lambda_1}^{\lambda_2}\left(ln(I(i))-F(i)\right)^2
@@ -323,26 +348,16 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
 		\end{equation}
 	The DOAS fitting routine uses a combination of a standard least-squares fit and a Levenberg-Marquard algorithm to minimize $\chi^2$\\
 	\\
-	\begin{table}
-		\begin{tabular}[|p{2cm}|p{2.5cm}|]{cc}
-			\ce{BrO} Evaluation&\ce{SO2} Evaluation\\
-			\toprule
-			\ce{SO2}&\\
-			O2&\\
-			O3&\\
-			O4&\\
-			\bottomrule		
-			\end{tabular}
-			\label{tab:gases}
-			\caption{All Gases used in NOVAC- Evaluation when retrieving the column densities of BrO and SO2}
-		\end{table}
-	
-	The Network for Observation of Volcanic and Atmospheric Change provides Spectral Data for 50 different elevation angles. For the DOAS evaluation we need a reference and a measurement spectrum. To get the SCD's we need to get references without any amount of the volcanic trace gas of interest (This will be discussed more detailed in \cref{Chap:Cont}). With the so found $F\left(\lambda\right)$ the column density of  BrO and SO2 from the measurement spectrum relatively to the reference spectrum can be calculated using the calculations made above. 
-	
+	The So2 evaluation takes place in the wavelength range between 314.8~nm and 328~nm. Including a SO2 absorption cross section recorded at a Temperature of 298K \cite{vandaele2009fourier}. and a O3 absorption cross section recorded at 221K\cite{burrows1999atmospheric}.\\
+	The BrO evaluation was performed in a wavelength range of 330.6~nm and 352.7~nm. Here the following absorption cross sections where used:
+	BrO at 298K \cite{fleischmann2004new}, the So2 and O3 absorption cross sections described above and O4 \cite{hermans2003absorption}, NO2 at 298K \cite{vandaele1998measurements} and CH2O at 298K \cite{meller2000temperature}.\\
+	%
+	The Network for Observation of Volcanic and Atmospheric Change provides Spectral Data for $\approx$ 50 different elevation angles. For the DOAS evaluation we need a reference and a measurement spectrum. To get the SCD's we need to get references without any amount of the volcanic trace gas of interest (This will be discussed more detailed in \cref{Chap:Cont}). With the so found $F\left(\lambda\right)$ the column density of  BrO and SO2 from the measurement spectrum relatively to the reference spectrum can be calculated using the calculations made above. \\
+	\\
 	\begin{figure}
-		\subfigure[\ce{SO2} SCD as a function of the elevation angle with error bars resulting from the DOASIS fitting routine]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan_0}}
-		\subfigure[\ce{BrO} SCD as a function of the elevation angle with error bars resulting from the DOASIS fitting routine]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/BrO_Scan}}
-		\caption{SCD's as a function of viewing angles. Adapted from \cite{WarnachSimon}}
+		\subfigure[]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan_0}}
+		\subfigure[]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/BrO_Scan}}
+		\caption{(a) \ce{SO2} SCD as a function of the elevation angle with error bars resulting from the DOASIS fitting routin. (b) \ce{BrO} SCD as a function of the elevation angle with error bars resulting from the DOASIS fitting routinee  Adapted from \cite{WarnachSimon}}
 		\label{fig:plumeref}
 	\end{figure}
 	%
@@ -353,10 +368,14 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
 		\caption{NOVAC Evaluation: (a) Measurement at the volcanoe (b) Evaluation of the spectral data with the DOAS routine using the absoption cross sections of BrO and SO2. (c) finding the location of the plume and reference (d) the ratios BrO/SO2 at Tungurahua }
 		\label{fig:NOVAC_Eval}
 	\end{figure}
+	%
+	The first step is to correct each spectra of the scan for dark current and offset using the dark current spectrum.
+	The next important task is to locate the measurement spectrum in the volcano plume and the reference region. 
+	To do so the pre-reference (the spectra recorded at an elevation angle of  0$^{\circ} $) is used to perform the evaluation of the scan spectra recorded at every elevation angle.
+	For every spectrum of the scan the so2 differential slant column density (dSCD) with respect to the pre-reference is calculated by the DOASIS fit routine.
 
-	The first important task is to locate the measurement spetrum in the volcano plume and the reference region which need to be outside of the plume. 
-	To do so we use the pre-reference (the spectra recorded at an elevation angle of  0$^{\circ} $) to evaluate spectra for \ce{SO2} at every elevation angle as described in chapter \ref{DOAS}, that means we divide each recorded spectra by the pre-reference and take the logarithm  to get rid of the Frauenhofer structures and to be able to just look at the important structures of the plume. The result is \ce{SO2} dSCD's as a function of the elevation angle. So we can localize the maximum and the minimum of \ce{SO2} amount, but not the SCD's.  To get the gas dSCD's of the evaluated spectra, one fits the absorption cross section of all important gases on the recorded spectrum. In our case we take all gases written in tab. \ref{tab: 1} into account.
-	 Inside the plume the \ce{SO2} amount is much higher than outside the plume.  The location of the \ce{SO2} maximum match with the location of the plume. We assume that the minimum of the \ce{SO2} curve refers to a region outside of the plume which is in most times the case. The \ce{SO2} amount in the earths atmosphere is negligible so we take it as a region of zero \ce{SO2}. Now it is possible to locate the plume region as the \ce{SO2} maximum, whereas the minimum of the \ce{SO2} curve the reference region is. \\
+	The result is \ce{SO2} dSCD's as a function of the elevation angle. So we can localize the maximum and the minimum of \ce{SO2}
+	The location of the \ce{SO2} maximum match with the location of the plume. We assume that the minimum of the \ce{SO2} curve refers to a region outside of the plume which is in most times the case. The \ce{SO2} amount in the earths atmosphere is negligible so we take it as a region of zero \ce{SO2}. Now it is possible to locate the plume region as the \ce{SO2} maximum, whereas the minimum of the \ce{SO2} curve the reference region is. \\
 	To technically detect the plume region we use a gauss fit of the \ce{SO2} curve.
 	To increase the quality and to get a more robust result the sum over several plume spectra is taken. If the gauss curve is too wide we use only the 10 spectra with the highest \ce{SO2} amount. For the reference we use the sum of 10 spectra with the lowest \ce{SO2} amount.\\
 	%
@@ -366,7 +385,7 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
 		\caption{Sketch of the DOAS Routine }
 		\label{fig:FlussDiag}
 	\end{figure}
-	The so found reference spectrum is used to fit it on the \ce{SO2} absorption lines of Gases to get the absolute column densities of \ce{SO2} and \ce{BrO} in the plume spectrum\\
+	
 	In \cref{fig:plumeref} (a) the SO2 SCD as a function of the elevation angle is shown. The SO2 curve show a clear maximum at the position of the plume at an elevation angle of approximately $-30^{\circ}$ to $0^{\circ}$  and a reference region at an elevation angle of $40^{\circ}$ to $70^{\circ}$. (b): The extrema of the BrO curve are not as distinct as at the SO2 curve. \\
 	Since the \ce{BrO} column density is much lower than the \ce{SO2} column density and lies just slightly above the detection limit the plume is hard to detect using the \ce{BrO} column density as it is shown in fig. \ref{fig:plumeref} (b). 
 	Therefore we use plume location we found by using \ce{SO2} to evaluate the \ce{BrO} column density.\\
@@ -607,7 +626,7 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
 	\subsection*{Dependency of external parameters on each other}
 	\begin{figure}
 		\centering
-%		\includegraphics[width=0.7\linewidth]{"../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Difference in Temperature [C]_Tungu"}
+		\includegraphics[width=0.7\linewidth]{"../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Difference in Temperature [C]_Tungu"}
 		\caption{}
 		\label{fig:difference-in-exposure-time-msdifference-in-temperature-ctungu}
 	\end{figure}
@@ -1064,6 +1083,13 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
  \end{small}
 	\chapter{Issues of our method}
 	The presented method 
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Bilder/BrO_Dep/D2J2140_0_6_02_18_DiffDaytime_BrO}
+		\caption{}
+		\label{fig:d2j2140060218diffdaytimebro}
+	\end{figure}
+	
 	\section{Contamination of the plume}
 	
 	 As discussed above it might occur, that, that the reference is contaminated for example by the plume of the day before. If that happens, we underestimate the gas amount by using a contaminated reference. But another possibility is, that the plume is also contaminated. This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates in the plume. If this is the case, using an other reference would lead to an overestimation of the column density of gases.

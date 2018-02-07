@@ -1,61 +1,29 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: Wilken_Elsa_MasterThesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Wilken_Elsa_MasterThesis.aux
 A level-1 auxiliary file: titlepages-eng.aux
 A level-1 auxiliary file: abstracts.aux
-White space in argument---line 55 of file Wilken_Elsa_MasterThesis.aux
+White space in argument---line 41 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Coppenheimer
  :                        2003}
+I'm skipping whatever remains of this command
+White space in argument---line 60 of file Wilken_Elsa_MasterThesis.aux
+ : \citation{Bobrowski
+ :                     2013}
+I'm skipping whatever remains of this command
+White space in argument---line 61 of file Wilken_Elsa_MasterThesis.aux
+ : \citation{Bobrowski
+ :                     2013}
 I'm skipping whatever remains of this command
 The style file: plainnat.bst
 A level-1 auxiliary file: deposition.aux
 Database file #1: references.bib
+Warning--I didn't find a database entry for "Seinfeld"
+Warning--I didn't find a database entry for "Oppenheimer"
 Warning--to sort, need author or key in NOVACsite
 Warning--to sort, need author or key in SKlearn
 Warning--empty year in NOVACsite
 Warning--empty year in SKlearn
+Warning--can't use both author and editor fields in IPCC
 Warning--empty school in kern2009spectroscopic
 Warning--empty school in lubcke2014optical
 Warning--empty school in WarnachSimon
-You've used 25 entries,
-            2773 wiz_defined-function locations,
-            742 strings with 9622 characters,
-and the built_in function-call counts, 11767 in all, are:
-= -- 1014
-> -- 802
-< -- 15
-+ -- 274
-- -- 249
-* -- 984
-:= -- 1838
-add.period$ -- 74
-call.type$ -- 25
-change.case$ -- 155
-chr.to.int$ -- 25
-cite$ -- 59
-duplicate$ -- 495
-empty$ -- 877
-format.name$ -- 284
-if$ -- 2416
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 21
-newline$ -- 132
-num.names$ -- 92
-pop$ -- 320
-preamble$ -- 1
-purify$ -- 133
-quote$ -- 0
-skip$ -- 414
-stack$ -- 0
-substring$ -- 337
-swap$ -- 42
-text.length$ -- 2
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 265
-warning$ -- 7
-while$ -- 93
-width$ -- 0
-write$ -- 320
-(There was 1 error message)
+(There were 3 error messages)

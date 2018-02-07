@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{35}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -24,6 +24,15 @@ Nicole Bobrowski, R~Von~Glasow, A~Aiuppa, S~Inguaggiato, I~Louban, OW~Ibrahim,
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 112\penalty0
   (D6), 2007.
 
+\bibitem[Burrows et~al.(1999)Burrows, Richter, Dehn, Deters, Himmelmann, Voigt,
+  and Orphal]{burrows1999atmospheric}
+JP~Burrows, A~Richter, A~Dehn, B~Deters, S~Himmelmann, S~Voigt, and J~Orphal.
+\newblock Atmospheric remote-sensing reference data from gome—2.
+  temperature-dependent absorption cross sections of o3 in the 231--794 nm
+  range.
+\newblock \emph{Journal of quantitative spectroscopy and radiative transfer},
+  61\penalty0 (4):\penalty0 509--517, 1999.
+
 \bibitem[Bussemer(1993)]{bussemer1993ring}
 Markus Bussemer.
 \newblock Der ring-effekt: Ursachen und einflu{\ss} auf die spektroskopische
@@ -37,6 +46,14 @@ K~Chance and RL~Kurucz.
 \newblock \emph{Journal of quantitative spectroscopy and radiative transfer},
   111\penalty0 (9):\penalty0 1289--1295, 2010.
 
+\bibitem[Fleischmann et~al.(2004)Fleischmann, Hartmann, Burrows, and
+  Orphal]{fleischmann2004new}
+Oliver~C Fleischmann, Matthias Hartmann, John~P Burrows, and Johannes Orphal.
+\newblock New ultraviolet absorption cross-sections of bro at atmospheric
+  temperatures measured by time-windowing fourier transform spectroscopy.
+\newblock \emph{Journal of Photochemistry and Photobiology A: Chemistry},
+  168\penalty0 (1-2):\penalty0 117--132, 2004.
+
 \bibitem[Galle et~al.(2010)Galle, Johansson, Rivera, Zhang, Kihlman, Kern,
   Lehmann, Platt, Arellano, and Hidalgo]{galle2010network}
 Bo~Galle, Mattias Johansson, Claudia Rivera, Yan Zhang, Manne Kihlman,
@@ -48,6 +65,13 @@ Bo~Galle, Mattias Johansson, Claudia Rivera, Yan Zhang, Manne Kihlman,
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 115\penalty0
   (D5), 2010.
 
+\bibitem[Graf et~al.(1997)Graf, Feichter, and Langmann]{graf1997volcanic}
+Hans-F Graf, Johann Feichter, and B{\"a}rbel Langmann.
+\newblock Volcanic sulfur emissions: Estimates of source strength and its
+  contribution to the global sulfate distribution.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 102\penalty0
+  (D9):\penalty0 10727--10738, 1997.
+
 \bibitem[Hall et~al.(1999)Hall, Robin, Beate, Mothes, and
   Monzier]{hall1999tungurahua}
 Minard~L Hall, Claude Robin, Bernardo Beate, Patricia Mothes, and Michel
@@ -55,6 +79,22 @@ Minard~L Hall, Claude Robin, Bernardo Beate, Patricia Mothes, and Michel
 \newblock Tungurahua volcano, ecuador: structure, eruptive history and hazards.
 \newblock \emph{Journal of Volcanology and Geothermal Research}, 91\penalty0
   (1):\penalty0 1--21, 1999.
+
+\bibitem[Halmer et~al.(2002)Halmer, Schmincke, and Graf]{halmer2002annual}
+Martina~M Halmer, H-U Schmincke, and H-F Graf.
+\newblock The annual volcanic gas input into the atmosphere, in particular into
+  the stratosphere: a global data set for the past 100 years.
+\newblock \emph{Journal of Volcanology and Geothermal Research}, 115\penalty0
+  (3-4):\penalty0 511--528, 2002.
+
+\bibitem[Hermans et~al.(2003)Hermans, Vandaele, Fally, Carleer, Colin, Coquart,
+  Jenouvrier, and Merienne]{hermans2003absorption}
+C~Hermans, AC~Vandaele, S~Fally, M~Carleer, R~Colin, B~Coquart, A~Jenouvrier,
+  and M-F Merienne.
+\newblock Absorption cross-section of the collision-induced bands of oxygen
+  from the uv to the nir.
+\newblock In \emph{Weakly interacting molecular pairs: unconventional absorbers
+  of radiation in the atmosphere}, pages 193--202. Springer, 2003.
 
 \bibitem[Hidalgo et~al.(2015)Hidalgo, Battaglia, Arellano, Steele, Bernard,
   Bourquin, Galle, Arrais, and V{\'a}sconez]{hidalgo2015so2}
@@ -64,6 +104,15 @@ Silvana Hidalgo, Jean Battaglia, Santiago Arellano, Alexander Steele, Benjamin
   Transition from continuous to episodic activity.
 \newblock \emph{Journal of Volcanology and Geothermal Research}, 298:\penalty0
   1--14, 2015.
+
+\bibitem[IPCC(2013)]{IPCC}
+IPCC.
+\newblock \emph{Summary for Policymakers}, book section SPM, page 1–30.
+\newblock Cambridge University Press, Cambridge, United Kingdom and New York,
+  NY, USA, 2013.
+\newblock ISBN ISBN 978-1-107-66182-0.
+\newblock \doi{10.1017/CBO9781107415324.004}.
+\newblock URL \url{www.climatechange2013.org}.
 
 \bibitem[Kern(2009)]{kern2009spectroscopic}
 Christoph Kern.
@@ -89,6 +138,13 @@ Peter L{\"u}bcke, Nicole Bobrowski, S~Arellano, Bo~Galle, G~Garz{\'o}n, Leif
 \newblock Bro/so 2 molar ratios from scanning doas measurements in the novac
   network.
 \newblock \emph{Solid Earth}, 5\penalty0 (1):\penalty0 409, 2014.
+
+\bibitem[Meller and Moortgat(2000)]{meller2000temperature}
+Richard Meller and Geert~K Moortgat.
+\newblock Temperature dependence of the absorption cross sections of
+  formaldehyde between 223 and 323 k in the wavelength range 225--375 nm.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 105\penalty0
+  (D6):\penalty0 7089--7101, 2000.
 
 \bibitem[Perner and Platt(1979)]{perner1979detection}
 D~Perner and U~Platt.
@@ -161,6 +217,30 @@ Thorvaldur Thordarson and Stephen Self.
   eruption: A review and reassessment.
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 108\penalty0
   (D1), 2003.
+
+\bibitem[Twomey(1974)]{twomey1974pollution}
+S~Twomey.
+\newblock Pollution and the planetary albedo.
+\newblock \emph{Atmospheric Environment (1967)}, 8\penalty0 (12):\penalty0
+  1251--1256, 1974.
+
+\bibitem[Vandaele et~al.(1998)Vandaele, Hermans, Simon, Carleer, Colin, Fally,
+  Merienne, Jenouvrier, and Coquart]{vandaele1998measurements}
+Ann~Carine Vandaele, Christian Hermans, Paul~C Simon, Michel Carleer,
+  R{\'e}ginald Colin, Sophie Fally, Marie-France Merienne, Alain Jenouvrier,
+  and Bernard Coquart.
+\newblock Measurements of the no2 absorption cross-section from 42 000 cm- 1 to
+  10 000 cm- 1 (238--1000 nm) at 220 k and 294 k.
+\newblock \emph{Journal of Quantitative Spectroscopy and Radiative Transfer},
+  59\penalty0 (3-5):\penalty0 171--184, 1998.
+
+\bibitem[Vandaele et~al.(2009)Vandaele, Hermans, and
+  Fally]{vandaele2009fourier}
+Ann~Carine Vandaele, Christian Hermans, and Sophie Fally.
+\newblock Fourier transform measurements of so2 absorption cross sections: Ii.:
+  Temperature dependence in the 29 000--44 000 cm- 1 (227--345 nm) region.
+\newblock \emph{Journal of Quantitative Spectroscopy and Radiative Transfer},
+  110\penalty0 (18):\penalty0 2115--2126, 2009.
 
 \bibitem[Wagner et~al.(2014)Wagner, Apituley, Beirle, D{\"o}rner, Friess,
   Remmers, and Shaiganfar]{wagner2014cloud}
