@@ -7,43 +7,43 @@
 \contentsline {paragraph}{\nonumberline Continental rift zone volcanism}{10}{section*.3}
 \contentsline {paragraph}{\nonumberline Subduction zone volcanoes}{10}{section*.4}
 \contentsline {paragraph}{\nonumberline Hot-spot volcanoes}{10}{section*.5}
-\contentsline {subsection}{\numberline {2.1.1}Volcanic degassing}{12}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Volcanic plume chemistry}{12}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Sulphur species}{12}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Bromine oxide}{12}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Volcanic gases and their impact on the climate}{13}{subsection.2.1.5}
-\contentsline {subsection}{\numberline {2.1.6}Using volcanic gases to study volcanic activity}{14}{subsection.2.1.6}
-\contentsline {chapter}{\numberline {3}Remote sensing of volcanic gases}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Differential Optical Absorption Spectroscopy(DOAS)}{17}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Technical Implementation of the DOAS Approach}{19}{subsection.3.1.1}
-\contentsline {part}{\numberline {II}Evaluation of the Data of Tungurahua and Nevado Del Ruiz}{21}{part.2}
-\contentsline {chapter}{\numberline {4}Network for Observation of Volcanic and Atmospheric Change }{22}{chapter.4}
-\contentsline {section}{\numberline {4.1}Measurement Routine}{23}{section.4.1}
-\contentsline {chapter}{\numberline {5}Evaluation Routine}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}NOVAC-Evaluation}{25}{section.5.1}
+\contentsline {section}{\numberline {2.2}Volcanic degassing}{12}{section.2.2}
+\contentsline {section}{\numberline {2.3}Volcanic plume chemistry}{12}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Sulphur species}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Bromine oxide}{12}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Volcanic gases and their impact on the climate}{13}{section.2.4}
+\contentsline {section}{\numberline {2.5}Using the BrO/So2 ratio to study volcanic activity}{14}{section.2.5}
+\contentsline {chapter}{\numberline {3}Remote sensing of volcanic gases}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Differential Optical Absorption Spectroscopy(DOAS)}{18}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Technical Implementation of the DOAS Approach}{20}{subsection.3.1.1}
+\contentsline {part}{\numberline {II}Evaluation of the Data of Tungurahua and Nevado Del Ruiz}{22}{part.2}
+\contentsline {chapter}{\numberline {4}Network for Observation of Volcanic and Atmospheric Change }{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Measurement Routine}{24}{section.4.1}
+\contentsline {chapter}{\numberline {5}Evaluation Routine}{26}{chapter.5}
+\contentsline {section}{\numberline {5.1}NOVAC-Evaluation}{26}{section.5.1}
 \contentsline {section}{\numberline {5.2}Contamination Problem}{29}{section.5.2}
 \contentsline {chapter}{\numberline {6}Limitations for the evaluation of BrO}{32}{chapter.6}
 \contentsline {section}{\numberline {6.1}\ce {BrO} Error dependence on external parameters }{32}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Time}{32}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Temperature}{34}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Daytime}{36}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Colorindex}{37}{subsection.6.1.4}
-\contentsline {subsection}{\numberline {6.1.5}Elevation Angle}{39}{subsection.6.1.5}
-\contentsline {subsection}{\numberline {6.1.6}Exposure Time}{40}{subsection.6.1.6}
-\contentsline {chapter}{\numberline {7}Method}{45}{chapter.7}
-\contentsline {section}{\numberline {7.1}Fit data}{46}{section.7.1}
-\contentsline {section}{\numberline {7.2}Other approaches}{50}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Nearest neighbours}{50}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Iterative}{51}{subsection.7.2.2}
-\contentsline {chapter}{\numberline {8}Comparison with NOVAC Evaluation}{52}{chapter.8}
-\contentsline {chapter}{\numberline {9}Results}{57}{chapter.9}
-\contentsline {section}{\numberline {9.1}Tungurahua}{57}{section.9.1}
-\contentsline {section}{\numberline {9.2}Nevado Del Ruiz}{57}{section.9.2}
-\contentsline {chapter}{\numberline {10}Issues of our method}{60}{chapter.10}
-\contentsline {section}{\numberline {10.1}Contamination of the plume}{60}{section.10.1}
-\contentsline {chapter}{\numberline {11}Conclusion}{62}{chapter.11}
-\contentsline {part}{\numberline {III}Appendix}{63}{part.3}
-\contentsline {chapter}{\numberline {A}Lists}{65}{appendix.A}
-\contentsline {section}{\numberline {A.1}List of Figures}{65}{section.A.1}
-\contentsline {section}{\numberline {A.2}List of Tables}{67}{section.A.2}
-\contentsline {chapter}{\numberline {B}Bibliography}{68}{appendix.B}
+\contentsline {subsection}{\numberline {6.1.1}Temporal Difference}{33}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Temperature}{36}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Daytime }{39}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Colorindex}{40}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}Elevation Angle}{42}{subsection.6.1.5}
+\contentsline {subsection}{\numberline {6.1.6}Exposure Time}{44}{subsection.6.1.6}
+\contentsline {chapter}{\numberline {7}Method}{50}{chapter.7}
+\contentsline {section}{\numberline {7.1}Fit data}{51}{section.7.1}
+\contentsline {section}{\numberline {7.2}Other approaches}{55}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Nearest neighbours}{55}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Iterative}{56}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Comparison with NOVAC Evaluation}{57}{chapter.8}
+\contentsline {chapter}{\numberline {9}Results}{62}{chapter.9}
+\contentsline {section}{\numberline {9.1}Tungurahua}{62}{section.9.1}
+\contentsline {section}{\numberline {9.2}Nevado Del Ruiz}{62}{section.9.2}
+\contentsline {chapter}{\numberline {10}Issues of our method}{65}{chapter.10}
+\contentsline {section}{\numberline {10.1}Contamination of the plume}{65}{section.10.1}
+\contentsline {chapter}{\numberline {11}Conclusion}{67}{chapter.11}
+\contentsline {part}{\numberline {III}Appendix}{68}{part.3}
+\contentsline {chapter}{\numberline {A}Lists}{70}{appendix.A}
+\contentsline {section}{\numberline {A.1}List of Figures}{70}{section.A.1}
+\contentsline {section}{\numberline {A.2}List of Tables}{72}{section.A.2}
+\contentsline {chapter}{\numberline {B}Bibliography}{73}{appendix.B}

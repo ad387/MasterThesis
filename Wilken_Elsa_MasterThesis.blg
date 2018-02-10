@@ -13,6 +13,14 @@ White space in argument---line 61 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Bobrowski
  :                     2013}
 I'm skipping whatever remains of this command
+White space in argument---line 83 of file Wilken_Elsa_MasterThesis.aux
+ : \citation{Hörman
+ :                  et al 2013}
+I'm skipping whatever remains of this command
+White space in argument---line 84 of file Wilken_Elsa_MasterThesis.aux
+ : \citation{Beirle
+ :                  at al 2014}
+I'm skipping whatever remains of this command
 The style file: plainnat.bst
 A level-1 auxiliary file: deposition.aux
 Database file #1: references.bib
@@ -26,4 +34,4 @@ Warning--can't use both author and editor fields in IPCC
 Warning--empty school in kern2009spectroscopic
 Warning--empty school in lubcke2014optical
 Warning--empty school in WarnachSimon
-(There were 3 error messages)
+(There were 5 error messages)

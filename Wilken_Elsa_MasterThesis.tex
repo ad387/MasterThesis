@@ -66,7 +66,7 @@ Similar to mid-ocean ridge volcanism continental rift zone volcanism results fro
 Subduction zone volcanoes occur if an oceanic plate converges under another plate (oceanic or continental). This way the descending plate penetrate into the lower mantle. At a depth of 80-150 km the water of this plate evaporates and rises and causes the mantle material above to melt. The resulting water-rich magma mainly consists of andesite. Subduction zone volcanoes are known for their violent eruptions caused by the low viscosity magma.
 \paragraph{ Hot-spot volcanoes} Hot-spot volcanoes occur on continental or oceanic plates. This type of volcanoes arises from a hot spot at the coremantle boundary inside Earth that leads to a plume in the mantle where solid material can rise. This material melts to basaltic magma at a depth of 100-150 km. Through a futher rise also other types of magma (e.g. rhyolitic, more-viscous magma) can arise.
 
-\subsection{Volcanic degassing}
+\section{Volcanic degassing}
 
 
 \begin{figure}
@@ -77,14 +77,14 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
 	\label{fig:broplume}
 \end{figure}
 
-\subsection{Volcanic plume chemistry}
+\section{Volcanic plume chemistry}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Explosion}
 	\caption{}
 	\label{fig:broexplosion}
 \end{figure}
-\subsection{Sulphur species}
+\subsection{Sulphur species\label{chap:so2}}
 Sulphur species are the third most abundant gases in volcanic plumes, hereby contributes SO2 with about 25\% and \ce{H2S} with 1 to 10\%. Only \ce{H2O} and \ce{CO2} have a larger share on the volcanic gases in the plume \Cref{Tab:Tracegasesinvolc}.\\
 Outside of the volcanic plume the SO2 amount is with approximately 1ppb negligible, in contrast the So2 amount inside he plume can easily reach 1ppm \cite{Coppenheimer 2003}
 When \ce{H2S} escapes from the volcano vent, it enters the oxidizing conditions in the atmosphere. The conversion of \ce{H2S} into \ce{SO2} starts with:
@@ -128,7 +128,7 @@ The exponential BrO formation is slightly diminished by
 
 
 
-\subsection{Volcanic gases and their impact on the climate}
+\section{Volcanic gases and their impact on the climate}
 Volcanic gases have a large impact on the earth climate especially SO2 or more specific its oxidation product sulfur acid.\\ 
 The relevance of CO2 for the climate is a subject of many discussions, the share of volcanic co2 is rather low further informations can be found in:...\\\\
 \cite{halmer2002annual} estimated the mean annual SO2 emitted from volcanoes from 1972 to 200 as 7.5 to 10.5TgSyr$^-1$, while the anthropogenic So2 amount for 2000 is estimated as 55TgSyr$^-1$ \cite{IPCC}. Despite the less So2 occuring from volcanoes the impact may be higher as the impact of the antropogenic So2. \cite{graf1997volcanic} supposed that the volcaninc So2 has a higher impact on the climate since its reaches up to the stratosphere while the antropogenic so2 is mostly located in plantery boundary layer. In the lower troposhere sulphuric acid has a lifetime of about a week whereas the liftime in the stratosphere is about a year \cite{IPCC}.\\
@@ -157,7 +157,7 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 
 
 
-\subsection{Using volcanic gases to study volcanic activity}
+\section{Using the BrO/So2 ratio to study volcanic activity}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{Zwischenbericht2018/Bilder/so2_bro}
@@ -165,9 +165,40 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 	\label{fig:so2bro}
 \end{figure}    
 	
-	
-	
-	
+	Volcanic degassing is influenced by many factors, which can be exploit to study volcanic activity by using the gas composition of the volcano plume. Therefore remote sensing should be an additional tool for forecasting of volcanic activity next to classical monitoring techniques like seismographic and deformation measurements.\\
+	Inside of volcanoes volatiles are in solution in magmatic melt. The Henry law \cref{Henrylaw} describes the necessary conditions for gas formation:
+	\begin{equation}
+	P = K_{H}\cdot c
+	\label{Henrylaw}
+	\end{equation}
+	Here P is the partial pressure at equilibrium of the solute, c is the concentration and $ K_{H}$ is the Henry constant which is anti proportional the the solubility $\alpha$ ($\alpha = \frac{1}{ K_{H}}$).
+	If the partial pressure of the gas solute (in this case a magmatic gas constituent) exceeds the pressure of the surrounding solvent, a formation of gaseous bubbles occur. Otherwise, if the partial pressure of the gas in the solution is below the surrounding pressure the formation of gas bubbles stops.\\
+	The solubility $\alpha$ depends on the temperature, the chemical composition and on the solvent (here magma). Whereas the partial pressure of the constituent depends on the surrounding pressure. The pressure below the volcanic vent increases with depth, this leads to a correlation between the partial pressure of the constituents and the depth.
+	The result is, that the gas starts exsolving at a certain depth depending on the  partial pressure of the constituent. Thus the gas bubble formation increases with rising magma. But at a certain depth the percentage of solved gas is different for each volcanic gas. The result is, that the composition of the gases changes with depth. So gas ratios contain information about its originating source depth.\\
+	Prior to volcanic eruptions the magma starts raising since the gas is mostly less dense than the magma it raises faster and could be therefore a indicator for its origin source depth thus a indicator for the volcanic activity.\\
+	\Cref{fig:so2bro} shows the ratios of H2O/CO2,S/CL,CO2/S as a function of the pressure respectively on the depth. 
+	%
+	Especially halogen-sulfur ineresting due to ambient air concentrations are negligible
+	%
+	Noguchi and kamiya 1963 found decrease Cl/S prior to eruptive periods
+	%
+	pennisi and le cloarec 1998 lower CL/S ratio during reuptive periods than not erutive periods at etna
+	%
+	Burton et al 2007 at stromboli co2/so2 so2/hCl ratios 3-5 times higher during explosions  compaered to quiet degasing
+	%
+	the authors compared these data to gas formation simulations for different degassing source depth (see fig ..) they concluded that these eruptions were driven by gas slugs from deeper levels where the ratios were higher while quiet degasing originates from from shallow magma
+	%
+	BrO/SO2 curves like in fig .. are not avalible due to lack of  bromine solubility curve but the following observations were made:
+	%
+	changes of BrO/So2 were found by bobrowsky and giuffrida 2012: multiple eruptions between 2006 and 2009 highest ratios 2-3 month before the eruptions the ratio then decreased and was lowest during eruptiv ephase -> bromine exsolved ealyer at lower depth than sulphur 
+	%
+	lübke found decrease of bro 5 month prior to th eruption 2012 at nevado del ruiz can also be atributed to a earlyer exsolution of bromine during rising magma
+	%
+	Despite the lack of the solubility curve of BrO until now, the BrO/SO2 has a great potential for investigations of the volcanic activity. The first reason is, that both gases can be measured with remote sensing by DOAS instruments. For examples ground based measurements by \cite{bobrowski2007reactive},\cite{lubcke2014optical} ore satelite based measurement by \cite{Hörman et al 2013}ore \cite{Beirle at al 2014}. The advanteg of remote sensing techniques is the possibility of measuring during eruptions which is with in situ measurements not always possible.
+	Secondly due to the NOVAC network (See \ref{NOVAC}) continues measurements are possible.\\
+	Another reason for the research on BrO/SO2 ratios at volcanoes is the constance of the ratio from 5 to at least 30 minutes after release \cite{bobrowski2007reactive};\cite{lubcke2014optical}. As well as the constance from 5 to 20 km off the volcano see \ref{bild von Simon noch kriegen}. This ensures that the data measured from different positions or at different conditions are comparable.\\
+	\\
+	This chapter motivated the research on the BrO/SO2 ratio as a tracer for volcanic activity.
 	
 	
 	
@@ -184,12 +215,15 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 	
 
 	\subsection*{Tungurahua}
-	Tungurahua is a subduction zone volcano located in the Ecuadorian Andes (Lat: 01$^{\circ}$,28$^{'}$S; Long:78$^{\circ}$,27$^{'}$W). 2014 Tungurahua was one of the most active volcanoes in southern America, since then the activity was decreasing. Tungurahua is 5023m high and is one of the defining volcanoes of the eastern volcanic rows in Ecuador. \cite{hall1999tungurahua}
+	Tungurahua is a subduction zone volcano located in the Ecuadorian Andes (Lat: 01$^{\circ}$,28$^{'}$S; Long:78$^{\circ}$,27$^{'}$W). 2014 Tungurahua was one of the most active volcanoes in southern America, since then the activity was decreasing. Tungurahua is 5023m high and is one of the defining volcanoes of the eastern volcanic rows in Ecuador. \cite{hall1999tungurahua}\\
+	Welche daten von welchen zeiten werden angeschaut??
 		
 	\subsection*{Nevado Del Ruiz}
 	Nevado Del Ruiz is also a subduction zone volcano. 	Nevado Del Ruiz  is located in the Central Cordillera of Colombia, 140 km west of Bogota.
 	(Lat: 04$^{\circ}$,53$^{'}$S; Long:75$^{\circ}$,19$^{'}$W) 
 	The hight of Nevado Del Ruiz is 5389 m.
+	\\
+	Welche daten von welchen zeiten werden angeschaut??
 	 
 	\chapter{Remote sensing of volcanic gases}
 	In this thesis we are interested in the volcanic trace gases \ce{SO2} and BrO, both measured with the Differential Optical Absorption Spectroscopy (DOAS) a remote sensing technique proposed by \cite{platt2008differential}\\
@@ -375,23 +409,22 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 	For every spectrum of the scan the so2 differential slant column density (dSCD) with respect to the pre-reference is calculated by the DOASIS fit routine.
 
 	The result is \ce{SO2} dSCD's as a function of the elevation angle. So we can localize the maximum and the minimum of \ce{SO2}
-	The location of the \ce{SO2} maximum match with the location of the plume. We assume that the minimum of the \ce{SO2} curve refers to a region outside of the plume which is in most times the case. The \ce{SO2} amount in the earths atmosphere is negligible so we take it as a region of zero \ce{SO2}. Now it is possible to locate the plume region as the \ce{SO2} maximum, whereas the minimum of the \ce{SO2} curve the reference region is. \\
+	The location of the \ce{SO2} maximum match with the location of the plume. We assume that the minimum of the \ce{SO2} curve refers to a region outside of the plume which is in most times the case. The \ce{SO2} amount in the earths atmosphere is negligible (see  \cref{chap:so2}) so we take it as a region of zero \ce{SO2}. Now it is possible to locate the plume region as the \ce{SO2} maximum, whereas the minimum of the \ce{SO2} curve the reference region is. \\
 	To technically detect the plume region we use a gauss fit of the \ce{SO2} curve.
 	To increase the quality and to get a more robust result the sum over several plume spectra is taken. If the gauss curve is too wide we use only the 10 spectra with the highest \ce{SO2} amount. For the reference we use the sum of 10 spectra with the lowest \ce{SO2} amount.\\
 	%
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Bilder/DOAS_Routine}
-		\caption{Sketch of the DOAS Routine }
-		\label{fig:FlussDiag}
-	\end{figure}
-	
-	In \cref{fig:plumeref} (a) the SO2 SCD as a function of the elevation angle is shown. The SO2 curve show a clear maximum at the position of the plume at an elevation angle of approximately $-30^{\circ}$ to $0^{\circ}$  and a reference region at an elevation angle of $40^{\circ}$ to $70^{\circ}$. (b): The extrema of the BrO curve are not as distinct as at the SO2 curve. \\
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=0.7\linewidth]{Bilder/DOAS_Routine}
+%		\caption{Sketch of the DOAS Routine }
+%		\label{fig:FlussDiag}
+%	\end{figure}
+	The absolut slant column densities (SCD's) of BrO and So2 can now be calculated with the so found reference and plume spectrum.
+	In \cref{fig:plumeref} (a) the SO2 SCD as a function of the elevation angle is shown. The SO2 curve show a clear maximum at the position of the plume at an elevation angle of approximately $-30^{\circ}$ to $0^{\circ}$  and a reference region at an elevation angle of $40^{\circ}$ to $70^{\circ}$. \cref{fig:plumeref} (b): The extrema of the BrO curve are not as distinct as at the SO2 curve. The assumption is, that the BrO of the plume can be found at the same elevation angle as is founded fr the so2. Thus the localization of the plume only need to be done once.
 	Since the \ce{BrO} column density is much lower than the \ce{SO2} column density and lies just slightly above the detection limit the plume is hard to detect using the \ce{BrO} column density as it is shown in fig. \ref{fig:plumeref} (b). 
 	Therefore we use plume location we found by using \ce{SO2} to evaluate the \ce{BrO} column density.\\
-	For the evaluation we use the data of more than one measurement, to increase the fit quality.\\
-	We are mainly interested in the \ce{BrO}/\ce{SO2} ratio, with the calculations described above it is now possible the get this ratio.
-	In \cref{...} is the NOVAC Evaluation visualized.\\
+	\Cref{fig:algorithm} (b): shows the routine of adding multiple spectra of consecutive measuring times.\\
+	%
 	Taking the \ce{BrO}/\ce{SO2} ratio if the column densities are close to zero yields unpredictable and unrealistic results. Thus spectra measured outside of the volcano plume need to be excluded.
 	This could be achieved by setting a \ce{BrO} or/and a \ce{SO2} threshold. A reasonable \ce{BrO} threshold need to be at least in the order of the DOAS fit error. But this could lead to elevated \ce{BrO}/\ce{SO2} ratios, since the \ce{BrO} error is often close to the detection limit, and thus exclude all low \ce{BrO} column densities from the evaluation.
 	%
@@ -401,13 +434,13 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 		\caption{(a) \ce{SO2} SCD as a function of the elevation angle. The co-added Plume region is marked with red diamonds, and the co added reference region with green stars. From \cite{WarnachSimon}. (b) Flow chart of the BrO and SO2 evaluation. From \cite{lubcke2014optical}.}
 		\label{fig:algorithm}
 	\end{figure}
-	The other possibility is to set a \ce{SO2} threshold. In this thesis an \ce{SO2} threshold of $7\cdot 10^{17} \frac{molec}{cm^2}$ was used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. $7\cdot 10^{17} \frac{molec}{cm^2}$ is relatively high column density. However this this approach assures that no significant amount of gases will be filtered out, therefore the BrO/So2 will not be significantly influenced \citealp{lubcke2014bro} and that all accepted measurement spectra will be inside of the volcano plume. 
+	The other possibility is to set a \ce{SO2} threshold. In this thesis an \ce{SO2} threshold (plume limit) of $7\cdot 10^{17} \frac{molec}{cm^2}$ was used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. $7\cdot 10^{17} \frac{molec}{cm^2}$ is a relatively high column density. However this this approach assures that no significant amount of gases will be filtered out, therefore the BrO/So2 will not be significantly influenced \citealp{lubcke2014bro} and that all accepted measurement spectra will be inside of the volcano plume. 
 	
 	\section{Contamination Problem\label{Chap:Cont}}	
 	It might occur that in rare (ca. 10\% of the data) scenarios, the
 	volcanic plume covers the whole scan region.
 	This could happen if for example the volcanic plume of the day before still extend over the hole scan area as a consequence of windless conditions.
-	In consequence, the reference	is contaminated with volcanic trace gases. Thus the gas amount is underestimated by the NOVAC-Evaluation: In \cref{fig:contaminated} we see an example from April 2011 (Tungurahua) where the reference region is contaminated by volcanic trace gases. The blue \ce{SO2} curve shows our calculations with the NOVAC-Evaluation, but since there is still \ce{SO2} in the reference region, therefore the assumption, that the \ce{SO2} amount could be set to zero in the reference region is wrong. The red curve shows the real \ce{SO2} curve, and we will underestimate the total \ce{SO2} amount of the plume. Contamination occur in approximately 10$\%$ of the data.\\
+	In consequence, the reference	is contaminated with volcanic trace gases. Thus the gas amount is underestimated by the NOVAC-Evaluation: In \cref{fig:contaminated} we see an example from April 2011 (Tungurahua) where the reference region is contaminated by volcanic trace gases. The blue \ce{SO2} curve shows our calculations with the NOVAC-Evaluation, but since there is still \ce{SO2} in the reference region, the assumption, that the \ce{SO2} amount could be set to zero in the reference region is wrong. The red curve shows the real \ce{SO2} curve, which lies significantly above the NOVAC -curve. Contamination occur in approximately 10$\%$ of the data.\\
 	\\
 		\begin{figure}
 			\centering
@@ -418,7 +451,7 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 	If the reference region is for any reason
 	contaminated by volcanic trace gases, the reference spectrum has to be
 	replaced by a volcanic-gas-free reference. Alternative spectra are a
-	theoretical solar atlas spectrum (the use of a solar atlas spectrum will be described in \cref{kuruz}) ore a a volcanic-gas-free reference
+	theoretical solar atlas spectrum or a volcanic-gas-free reference
 	spectrum recorded by the same instrument.\\ 
 	%
 	\\
@@ -438,7 +471,7 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 	by a theoretical solar atlas spectrum to evaluate the \ce{SO2} amount in the reference.
 	%
 	\subsection*{Evaluation using a Spectrum of the same Instrument}
-	An alternative reference spectrum could be a a volcanic-gas-free reference
+	An alternative reference spectrum could be a volcanic-gas-free reference
 	spectrum recorded by the same instrument. When using such a reference several problems occur:\\
 	As described in \cref{NOVAC} the instruments used in NOVAC do not include features like temperature stabilisation due to that the measurements are not independent from external parameters. 
 	So we need to choose a reference recorded at similar conditions with respect to meteorology and	radiation as well as in the temporal proximity due to instrumental changes with time and ambient conditions. Ideally the external conditions should be equal to the conditions when the plume was recorded.\\
@@ -450,6 +483,7 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 	the \ce{SO2} and \ce{BrO} retrievals. So we use the solar atlas spectrum to check for 
 	contamination and a reference spectrum recorded in temporal proximity by the same instrument as reference.\\
 	\\
+	Thus if contamination occurs it is possible to choose from a list of gas free alternative references. In theory, for ideal instruments al references should lead to the same results for the gas retrievals. But instruments are imperfect (see \cref{NOVAC}) thus the reference need to be chosen carefully an order to improve the results.\\
 	%
 	\\
 	In the following we will discuss how to find the an optimal reference from another scan automatically.
@@ -473,103 +507,174 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 		\label{fig:contaminationdependencyratio}
 	\end{figure}
 	\chapter{Limitations for the evaluation of  BrO}
-    Since the \ce{SO2} amount in a volcano plume is rather high (magnitude of \ce{SO2} at Tungurahua $\approx 1e^{18}$, \cite{WarnachSimon}) , the evaluation of \ce{SO2} is unproblematic compared to BrO.\\
-	Evaluating \ce{BrO} is more difficult since the amount is much smaller and the measurement error relative to the column density much larger. Since we want to get the \ce{BrO}/\ce{SO2} we need to maximize the accuracy of BrO.
-	Therefore the aim is to choose the reference with respect to the \ce{BrO} error, to minimize the \ce{BrO} Error and to increase the amount of reliable \ce{BrO}/\ce{SO2} ratio data.\\
-	We figured out, that the \ce{BrO} Error depends strongly on the surrounding conditions when recording the plume and the reference. In the following, we will take a closer look at the dependence of the \ce{BrO} error on external parameters. 
+	This chapter discuss the evaluation of BrO by DOAS Instruments of NOVAC.\\
+	Compared to the SO2 SCD (magnitude of \ce{SO2} at Tungurahua $\approx 1e^{18}$, \cite{WarnachSimon}) the BrO SCD is rather low. This results in a larger uncertaintiy of the BrO SCD. Most of te BrO data are below the detection lime of BrO$_{err}$/BrO$_{value}$<1/4. SCD's of So2 are in almost all cases (?????\% of the data) above the detection limit. 
+	Choosing a different reference than the reference meausred at the same tima as the plume results in 99\% of all data in an increasing absolut error. 
+	%
+	Thus an \ce{BrO} Error which is smaller than the "Same Time Error" will not be possible to retrieve when calculating the gas slant column densities with a different reference. However the aim is to get the smallest possible error to achieve a maximal amount of reliable BrO/SO2 ratio data.\\
+	\\
+	References where the surrounding conditions e.g temperature or cloudiness are equivalent with the surrounding conditions of the  plume measuring lead to a small error.
+	Since we want to get the \ce{BrO}/\ce{SO2} we need to maximize the accuracy of BrO.
+	Therefore the aim is to choose the reference with respect to the \ce{BrO} error, to minimize the \ce{BrO} In the following, we will take a closer look at the dependence of the \ce{BrO} error on external parameters. 
 	%
 	\section{\ce{BrO} Error dependence on external parameters \label{Chap:BROErr}}
 	%HOW IS THE ERROR CALCULATED AND WHY AND DETECTION LIMIT (PLATT \& STUTZ)
 	The measurement and evaluation depends on the surrounding conditions like temperature or cloudiness \cite{lubcke2014optical}\\
-	If choosing a new reference we need to take the surrounding conditions into account\\
+	As a result the surrounding conditions need to be taken into account if choosing a new reference.\\
 	The better the surrounding conditions of the time where the reference is measured coincide with the conditions of the time when the plume is measured, the lower is the \ce{BrO} error \\
-	The surrounding conditions we take into account are temperature, colorindex, exposure time, elevation-angle, daytime and the temporal difference.\\
-	In almost all cases (99\%) the absolute \ce{BrO} Error is minimal when using the reference recorded at the same time as te plume spectrum. So we won't be able to get an \ce{BrO} Error which is smaller than the "Same Time Error".   
+	\\
 
+	The surrounding conditions that are considered in this thesis are: 
+	\begin{itemize}
+		\item Temporal Difference
+		\item Temperature, 
+		\item Colorindex, 
+		\item Exposure Time, 
+		\item Elevation Angle, 
+		\item Daytime 	
+	\end{itemize}
+	The analysis of these external parameter will be done for spectra recorded at Tungurahua and Nevado Del Ruiz. At Tungurahua three instruments with data recorded in the time span from July in 2008 to August in 2009 are used. Nevado Del Ruiz contributes with two instruments in the time from the end of 2009 to the end of 2011.
 	
-	\subsection{Time}
-	Due to instrument drifts the fit quality decreases with the time difference between recording the plume and the reference. Therefore it is better to use an reference in temporal proximity.\\
-	%
-	\begin{figure}[h]
+	In this time span at Tungurahua 1647 "multi-add" spectra from the pillate instruments where recorded, so we get approximately 1646$^2$ plume reference pairs, the corresponding differences in the external parameter and their associated \ce{BrO} error.
+	
+	
+	\subsection{Temporal Difference}
+	\begin{figure}
 		\centering
-		\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW}
-		\caption{}
+		\includegraphics[width=1\linewidth]{Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW}
+		\caption{Wavelength shift over the time. The shift is shown for six NOVAC- instruments from Tungurahua. The red and yellow dots show the running mean about 20 days. Red line indicates a temperature independent long term polynomial. From \cite{WarnachSimon}}
 		\label{fig:driftkomplettnew}
 	\end{figure}
 	%
-	\Cref{fig:driftkomplettnew} shows the instrumental drift as a function of time, to create \cref{fig:driftkomplettnew} we used Tungurahua data, 2008 from June to November. We can observe that the drift changes with time. If we use the reference and plume spectra of the same time, we do not need to care about these effects, since the shift is equal for the plume and reference spectrum, but if the recording time is not the same the quality of the fit changes with the differences in wavelength shift which increases with the time difference.\\
-	In \cref{fig:dat} the \ce{BrO} Error as a function of the time difference between recording the plume and the reference is shown. The running mean is drawn with a black line. The \ce{BrO} Error increases with time difference.\\
-	To evaluate the maximal time difference, were we still get reliable results we calculated for all possible reference-plume pairs the corresponding \ce{BrO} Error. With this data we are able to find for all plume spectra the associated reference where the \ce{BrO} Error is minimal. In \cref{Histogram} a histogram is plotted with the probability of picking the best reference as a function of the time difference. Obviously the best results are if the day of measuring the reference is the same day as measuring the reference that means, if the time difference is smaller than one day. We allow all time difference which are in one sigma area. 
-	
-	We found out that the time interval where it is still reasonable to use references is about 14 days. Therefore we only use references where the recording time difference between plume and reference is smaller than two weeks. When using a references with a temporal difference to the plume of more than 14 days the probability, that the fit quality and thus the \ce{BrO} error increases to much for our purposes. \\
-	\\
 	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Bilder/Datum_100h}
-		\caption{}
-		\label{fig:datum100h}
-	\end{figure}	
-	\begin{figure}[h!]
-		\includegraphics[width=1.1\linewidth]{Bilder/Datum}
-		\caption{}
+		\subfigure[]{
+			\includegraphics[width=0.5\linewidth]{Bilder/Datum}}
+		\subfigure[]{
+			\includegraphics[width=0.5\linewidth]{Bilder/Datum_100h}}
+		
+		\caption{The BrO error as a function of the temporal difference shown for the Pillate instrument from Tungurahua (2008-2009). (a) Temporal differences up to 400 days are shown. (b) Temporal differences below 120h; periodical BrO error evolution indicates the impact of the daytime}
 		\label{fig:dat}
 	\end{figure}
+	Due to instrument drifts the fit quality decreases with the time difference between recording the plume and the reference. This could be a result of a wavelength shift over time which was observed by \cite{WarnachSimon}.\cite{WarnachSimon} suggested the drift is caused by a hysteresis effect. \Cref{fig:driftkomplettnew} show the wavelength shift as a function of the time for six NOVAC instruments located at Tungurahua in the time between 2008 to 2014. For the analysis in thesis data of Tungurahua between 2008 to the mid of 2009 are used. \Cref{fig:driftkomplettnew} shows a rather steep drift in this time interval. \cite{WarnachSimon} observed a decrease of the shift after initial negative drift after the first 2 years at Pillate. Thus it could be that the temporal difference could become less important for old instruments. For the following discussions we used data of Pillate from 2008 to 2009.\\
 	%
-	\begin{figure}[h!]		
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/D2J2140_Before}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/D2J2140_After}}
-		\caption{Titel unterm gesamten Bild}
+	When using reference and plume spectra of the same time, these effects are cut out since the shift is equal for the plume and reference spectrum, For increasing temporal different between reference and plume measurement time the fit quality decreases and thus the BrO Error\\
+	In \cref{fig:dat} the \ce{BrO} Error as a function of the time difference between recording the plume and the reference is shown. The running mean is drawn with a black line. \\
+	In \cref{fig:dat} (a) it can be seen that a large temporal differences result in an increase of BrO Error of more than 600\%. BrO Errors of such magnitudes are too large for our purposes therefore it is usefull to define a maximal temporal difference. Furthermore it can be seen that the evolution of the BrO error with the temporal difference is symmetric around zero, thus it is not necessary to distinguish between positive or negative temporal differences.\\
+	%
+	
+	 \cref{fig:dat} (b) shows the evolution of the BrO Error for a maximal temporal difference of 120 hours. It is only possible to record data during daytime. This couses the lack of data at some temporal differences. A periodic decrease of the BrO error can be seen. This is a result of a decrease of the BrO error when the surrounding conditions coincidence. In this case the daytime coincidence couses the BrO error decrease, for further discussion of the daytime see \cref{chap:daytime}.\\
+	 \cref{fig:dat} is created by using the data only from the Pillate instrument at Tungurahua.\\	
+	%
+	\textcolor{blue}{To evaluate the maximal time difference, were we still get reliable results we calculated for all possible reference-plume pairs the corresponding \ce{BrO} Error. With this data we are able to find for all plume spectra the associated reference where the \ce{BrO} Error is minimal. In \cref{Histogram} a histogram is plotted with the probability of picking the best reference as a function of the time difference. Obviously the best results are if the day of measuring the reference is the same day as measuring the reference that means, if the time difference is smaller than one day. We allow all time difference which are in one sigma area. }\\
+	%
+	We found out that the time interval where it is still reasonable to use references is about 14 days. Therefore we only use references where the recording time difference between plume and reference is smaller than two weeks. When using a references with a temporal difference to the plume of more than 14 days the probability, that the fit quality and thus the \ce{BrO} error increases to much for our purposes. \\
+	For the following analysis of external parameters all temporal differences are below 14 days.
+	%
+	\begin{figure}		
+		\subfigure[]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/D2J2140_Before}}
+		\subfigure[]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/D2J2140_After}}
+		\caption{Short Term wavelength as a function of the instrument temperature for Pillate 1. (a) initial period  prior to January 2010 (b) after 2010. From \cite{WarnachSimon}}
 		\label{fig:shorttermshift}
 	\end{figure}
+	
+
 	\subsection{Temperature}
+	\begin{figure}
+		\subfigure[D2J2140\_0]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2140_0BrOERR_DiffTemp_Tungu}}
+		\subfigure[I2J8546\_0]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/I2J8546_0BrOERR_DiffTemp_Tungu}}
+		\subfigure[I2J8548\_0]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/I2J8548_0BrOERR_DiffTemp_Tungu}}
+		\centering
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2200_0BrOERR_DiffTemp_Nevad}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2201_0BrOERR_DiffTemp_Nevad}}
+		\caption{The BrO Measurement Error as a function of the difference of temperature between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in temperature is observable.}
+		\label{fig:difftemp}
+	\end{figure}
 	The instrument design of the NOVAC instruments compromise between accuracy and longetivity as explained in \cref{NOVAC}. In particular there are no internal thermal stabilizations installed as an attempt to reduce the need for power. This can influence the recorded spectra.\\	
 	Each pixel of the spectrometer, which is used for the DOAS experiment, collects photons of a certain wavelength range.\\
 	The calibration for the wavelength to pixel mapping (WMP) is commonly done with a Mercury lamp or by the comparison with the high defined Kuruz spectrum.
 	As the WMP depends on the optical alignment of the spectrometer, which itself depends on the temperature, it is not constant.
 	Changes in the spectrometers temperature can cause changes in the instrument line function and shifts in the WMP (\cite{pinardi2007influence}). 
 	Moreover, \cite{WarnachSimon} show that, short term shifts are related to the instrument temperature (see \Cref{fig:shorttermshift}).\\
-	The above discussed temperature dependence of the WMP causes a reduction of the fitquality with increasing instrument temperature between plume and reference. Thus the \ce{BrO} Error increases as well with the temperature difference. To quantify the \ce{BrO} error dependency on the temperature all plume spectra of Tungurahua from August 2008 to August 2009 (Nevado del Ruiz from .... to ....) where evaluated with all plume spectra of the same time. In this time span 1647 "multi-add" spectra from tree different instruments where recorded, so we get approximately 1646$^2$ plume reference pairs and their corresponding \ce{BrO} error and temperature. The \ce{BrO} error as function of the temperature difference can be seen in \cref{fig:difftemp}. The blue dots shows the mean \ce{BrO} error at the specific temperature difference, the standard deviation is illustrated with gray bars.\\
-	When compare the data of Tungurahua  and Nevado Del Ruiz it is noteworthy that the \ce{BrO} error on temperature dependence of the Data of Nevado Del Ruiz is stronger and the deviation is weaker than at Tungurahua, this may occur due to the larger temperature fluctuation at Nevado Del Ruiz. ?????????? quellen bitte!\\
-	When looking at all discussed external parameters, temperature has  the strongest impact on the \ce{BrO} error due to the strong impact on the WMP.
-	\begin{figure}[h!]			
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/DiffTemp_Tungu}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/DiffTemp_Nevad}}
-		\caption{The BrO Measurement Error as a function of the difference of temperature between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in temperature is observable.}
-		\label{fig:difftemp}
-	\end{figure}[h!]
+	The above discussed temperature dependence of the WMP causes a reduction of the fitquality with increasing instrument temperature difference between plume and reference. Thus the \ce{BrO} Error increases as well with the temperature difference. To quantify the \ce{BrO} error dependency on the temperature all plume spectra of Tungurahua from August 2008 to August 2009 (Nevado del Ruiz from end of 2009 to the end of 2011) where evaluated  with respect to all plume spectra of the same time period. 
+	The \ce{BrO} error as function of the temperature difference can be seen in \cref{fig:difftemp}. The blue dots shows the mean \ce{BrO} error at the specific temperature difference, the standard deviation is illustrated with gray bars.\\
+	The mean BrO deviation for the sametime evaluation is additionally added with a red point.
 	\begin{itemize}
-		\item The \ce{BrO} error has the strongest dependence on the temperature difference. At Tungurahua (Nevado Del Ruiz) the \ce{BrO} error increases by factor of $3.53\cdot10^{12}$  per degree.
-		\begin{align*}
+		\item The BrO error as a function of the difference in temperature is symmetric around zero for all observed instruments, thus the absolute difference in temperature is sufficient when evaluating the dependence on the temperature.
+		\item The BrO error show a large (up to 0.92 at D2J2201\_0 (\cref{fig:difftemp} (e))) correlation with the temperature difference.
+		\item The dependence on the temperature changes for every instrument.
+		\item The \ce{BrO} error has the strongest dependence on the temperature difference. 
+	\end{itemize}
+	
+	\begin{align*}
 		\rightarrow&  BrO_{Error} = f(ext. P)+ 3.53\cdot10^{12}\cdot\frac{\Delta T}{1C^{\circ}} + \mathcal{O}\left(\right) & Tungurahua\\
 		\rightarrow&  BrO_{Error} = f(ext. P)+7.56\cdot10^{12}\cdot\frac{\Delta T}{1C^{\circ}} + \mathcal{O}\left(\right) & Nevado Del Ruiz\\
-		\end{align*}
-	\end{itemize}
-	\subsection{Daytime}
-	During the day o al lot of external parameters like temperature, solar altitude etc. change. In particular the solar altitude could have an impact on the fit quality since the light path of the sun is much longer at the evening than at noon. \Cref{fig:diffdaytime} shows the dependency of the \ce{BrO} error on the daytime. The data are calculated as described for the temperature. As for the temperature the dependence of Nevado Del Ruiz is much larger than of Tungurahua, this might occur during the larger distance from the equator of Nevado Del Ruiz -> besser beschreiben
+	\end{align*}
 
-	\begin{figure}[h!]			
-		
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/DiffDaytime_Tungu}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/DiffDaytime_Nevad}}
+
+	\begin{table}[h]
+		\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+			%	\toprule
+		Instrument	&D2J2140\_0&I2J8546\_0& I2J8548\_0&D2J2200\_0&D2J2201\_0\\
+			\toprule
+			Slope&4.10e+12 &3.93e+12 &6.50e+12 &1.24e+13&8.17e+12 \\
+			\midrule
+			Correlation&&&&&\\
+			\midrule
+			Zero point&2.58e+13&2.23e+13&1.60e+13& 1.38e+13& 9.07e+12\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	When looking at all discussed external parameters, temperature has  the strongest impact on the \ce{BrO} error due to the strong impact on the WMP.
+	\subsection{Daytime \label{chap:daytime}}
+	\begin{figure}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2140_0BrOERR_DiffDaytime_Tungu}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/I2J8546_0BrOERR_DiffDaytime_Tungu}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/I2J8548_0BrOERR_DiffDaytime_Tungu}}
+		\centering
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2200_0BrOERR_DiffDaytime_Nevad}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2201_0BrOERR_DiffDaytime_Nevad}}
 		\caption{The BrO Measurement Error as a function of the difference of the day time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in day time is observable.}
 		\label{fig:diffdaytime}
 	\end{figure}
+	During the day o al lot of external parameters like temperature, solar altitude etc. change. In particular the solar altitude could have an impact on the fit quality since the light path of the sun is much longer at the evening than at noon. Therefore the scattering effects and the fraunehofer structures is different for both spectra.\\
+	\Cref{fig:diffdaytime} shows the dependency of the \ce{BrO} error on the daytime. The data are calculated as described for the temperature. 
+	
 	\begin{itemize}
-		\item We found a dependency of the \ce{BrO} error on the daytime. We assume, that this dependency comes from other external parameters which change during the day. 
-		\item The \ce{BrO} Error increases with the daytime differences like: \\
+		\item The BrO error as a function of the difference in daytime is almost symmetric around zero for all observed instruments, thus the absolute difference in temperature is sufficient as well when evaluating the dependence on the daytime.
+		\item The correlations of the instruments at the Nevado Del Ruiz volcano are significantly higher than at Tungurahua. The strongest correlation can be seen at Nevado Del Ruiz at D2J2201\_0 with 0.631 (e)
+		\item The I2J8546\_0 instrument does not show any significantly correlation
+		\item For very large daytime difference a decrease of the BrO error can be observed at D2J2140\_0.
+	\end{itemize}
 		\begin{align*}
 		\rightarrow&  BrO_{Error} = f(ext. P)+1.33\cdot10^{12}\cdot\frac{\Delta DT}{1h}  + \mathcal{O}\left(\right)& Tungurahua\\
 		\rightarrow&  BrO_{Error} = f(ext. P)+1.58\cdot10^{13}\cdot\frac{\Delta DT}{1h} + \mathcal{O}\left(\right) & Nevado Del Ruiz\\
 		\end{align*}
-		
-	\end{itemize}
+
+	\begin{table}[h]
+		\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+			%	\toprule
+			Instrument	&D2J2140\_0&I2J8546\_0& I2J8548\_0&D2J2200\_0&D2J2201\_0\\
+			\toprule
+			Slope&5.07e+12&1.40e+12 &3.77e+12 &2.04e+13& 1.38e+13\\
+			\midrule
+			Correlation&&&&&\\
+			\midrule
+			Zero point& 3.43e+13&3.39e+13&3.28e+13&  4.01e+13&  2.24e+13\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
 	\subsection{Colorindex}
-	\begin{figure}[h]		
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/DiffColidx_Tungu}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/DiffColidx_Nevad}}
+	\begin{figure}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2140_0BrOERR_DiffColidx_Tungu}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/I2J8546_0BrOERR_DiffColidx_Tungu}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/I2J8548_0BrOERR_DiffColidx_Tungu}}
+		\centering
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2200_0BrOERR_DiffColidx_Nevad}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2201_0BrOERR_DiffColidx_Nevad}}
 		\caption{The BrO Measurement Error as a function of the difference of colorindex between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in colorindex is observably.}
 		\label{fig:diffcolidx}
 	\end{figure}
+
 	Clouds  have  a  strong  influence  on  the  atmospheric  radiative  transfer  and  thus  affect  the  interpretation  and  analysis of DOAS - observations \cite{wagner2014cloud}.
 	
 	Clouds can be identified by several measurement quantities that they influence.
@@ -585,7 +690,10 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 	The Mie scattering in the clouds is responsible for the higher amount of radiation from larger wavelengths. This results in a decrease of the CI (\cite{lubcke2014optical}).
 	\\
 	We evaluated the CI at the zenith, to increase the stability of the fit we added in each cases 10 intensitys. Using always the zenith to evaluate the colour index makes the colour index more comparable, but if broken clouds occur, the CI of the reference and the plume could differ from the calculated CI of the zenith. This could be a reason for the large deviations of the mean \ce{BrO} error as function of the colour index (see \cref{fig:diffcolidx})
-
+	\begin{itemize}
+		\item The BrO error as a function of the difference in colour index is also symmetric around zero for all observed instruments, thus the absolute difference in colour index is sufficient for the evaluating.
+		\item The BrO error decreases for extreme differences in colour index for almost all instruments, the only exception is the  I2J8548\_0 at Tungurahua. Especially at D2J2140\_0 the curve is not monotonically increasing with increasing difference in colorindex. Even though  D2J2140\_0 is symmetric around zero.
+	\end{itemize}
 	\begin{itemize}
 		\item 	The \ce{BrO} Error increases with the Colorindex differences as \\
 		\begin{align*}
@@ -593,28 +701,83 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 		\rightarrow&  BrO_{Error} = f(ext. P)+  4\cdot10^{13}\cdot\frac{\Delta Cidx}{0.1} + \mathcal{O}\left(\right) & Nevado Del Ruiz\\
 		\end{align*}
 	\end{itemize}
-	\subsection{Elevation Angle}
-		\begin{figure}[h!]			
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/DiffElevAngle_Tungu}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/DiffElevAngle_Nevad}}
+	\begin{table}[h]
+	\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+			%	\toprule
+			Instrument	&D2J2140\_0&I2J8546\_0& I2J8548\_0&D2J2200\_0&D2J2201\_0\\
+			\toprule
+			Slope&2.30e+14 &7.92e+13 &1.17e+14 &5.42e+14&1.91e+14\\
+			\midrule
+			Correlation&&&&&\\
+			\midrule
+			Zero point&4.01e+13&3.36e+13&3.47e+13& 7.21e+13& 4.74e+13\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+		\subsection{Elevation Angle}
+	\begin{figure}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2140_0BrOERR_DiffElevAngle_Tungu}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/I2J8546_0BrOERR_DiffElevAngle_Tungu}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/I2J8548_0BrOERR_DiffElevAngle_Tungu}}
+		\centering
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2200_0BrOERR_DiffElevAngle_Nevad}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2201_0BrOERR_DiffElevAngle_Nevad}}
 		\caption{The BrO Measurement Error as a function of the Elevation Angle. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. We can't see any significant correlation.}
+		\label{fig:diffeleangle}
 	\end{figure}
-	The elevation angle describes the angle between the horizon and the zenith. When using the plume spectrum and the reference spectrum of the same time, the difference in elevation angle cannot be zero, since the plume is always somewhere else than the reference located.\\
+	The elevation angle describes the angle between the horizon and the zenith. When using the plume spectrum and the reference spectrum of the same time, the difference in elevation angle cannot be zero, since the location of the plume does not coincidence with the location of the reference.\\
 	The \ce{BrO} error doesn't depend significantly on the difference between the Elevation Angles. This could have several reasons. One problem is, that the Elevation Angle of Plume and Reference spectrum is not the same. This could also be a reason of uncertainty of the evaluations of the plume spectrum.
 
-
-
+	\begin{itemize}
+		\item The BrO error as a function of the difference in colour index is also symmetric around zero for all instruments, except  D2J2200\_0 at Nevado Del Ruiz. 
+		\item Only D2J2140\_0 shows a minimum of the BrO error at a difference in Elevation Angle of 0$^{\circ}$. The BrO error curve from D2J2200\_0 shows a minimum at around -20$^{\circ}$.
+		\item Because there is no significant dependence between BrO error and the difference in Elevation Angle it will not be considered in further analysis.
+	\end{itemize}
+	\begin{table}[h]
+		\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+			%	\toprule
+			Instrument	&D2J2140\_0&I2J8546\_0& I2J8548\_0&D2J2200\_0&D2J2201\_0\\
+			\toprule
+			Slope& 1.73e+8& 1.55e+10  &-9.00e+9 &2.92e+11&-3.96e+10\\
+			\midrule
+			Correlation&&&&&\\
+			\midrule
+			Zero point&4.77e+13&4.23e+13&3.78e+13&8.37e+13 &6.44e+13 \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
 
 	\subsection{Exposure Time}
-	\begin{figure}		
-		\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{Bilder/DiffExpTime_Tungu}}
-		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{Bilder/DiffExpTime_Nevad}}
+	\begin{figure}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2140_0BrOERR_DiffExpTime_Tungu}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/I2J8546_0BrOERR_DiffExpTime_Tungu}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/I2J8548_0BrOERR_DiffExpTime_Tungu}}
+		\centering
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2200_0BrOERR_DiffExpTime_Nevad}}
+		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2201_0BrOERR_DiffExpTime_Nevad}}
 		\caption{The BrO Measurement Error as a function of the difference of exposure time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the BrO Error with the distance in exposure time is observably.}
 		\label{fig:diffexptime}
 	\end{figure}
-	The Exposure Time is a degree of sky lightness.The  exposure time is the length of time the sensor of the NOVAC instrument is exposed to light. The amount of light that reaches the film or image sensor is proportional to the exposure time. The exposure time is adjusted in the way that the maximum intensity does not overly the capacity of the sensor.\\
+	The Exposure Time is a degree of sky lightness.The  exposure time is the length of time the sensor of the NOVAC instrument is exposed to light. In one scan the exposure time is set constant. The amount of light that reaches the film or image sensor is proportional to the exposure time. The exposure time is adjusted in the way that the maximum intensity does not overly the capacity of the sensor.\\
 	We can observe an small dependency of the \ce{BrO} error on the Exposure time at Tungurahua and Nevado Del Ruiz as it is shown in \cref{fig:diffexptime}
-	
+	\begin{itemize}
+		\item The BrO error as a function of the difference in Exposure Time is also symmetric around zero for all observed instruments, thus the absolute difference in the Exposure Time is sufficient for the evaluating.
+		\item The instruments at Tungurahua does not show significantly dependence on the Exposure Time, even though there is always a minimum of the BrO Error at a difference of the Exposure Time of 0ms.
+		\item Tungurahua shows a stronger correlation between the BrO error and the Exposure Time.
+	\end{itemize}
+	\begin{table}[h]
+		\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+			%	\toprule
+			Instrument	&D2J2140\_0&I2J8546\_0& I2J8548\_0&D2J2200\_0&D2J2201\_0\\
+			\toprule
+			Slope& 5.54e+9&1.54e+10 &3.04e+10&1.72e+11&9.37e+10\\
+			\midrule
+			Correlation&&&&&\\
+			\midrule
+			Zero point&4.62518714524e+13&3.57787064685e+13& 3.86543568152e+13& 6.87948712105e+13& 4.68419646903e+13\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
 
 	\begin{itemize}
 		\item The \ce{BrO} Error increases with the exposure time differences as\\
@@ -627,7 +790,7 @@ The dominating radiative effect of volcanic gases is a cooling of the earth atmo
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{"../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Difference in Temperature [C]_Tungu"}
-		\caption{}
+		\caption{A example of the dependency of external parameters on each other. The difference in Temperature as a function of the Exposure Time. Data from Tungurahua}
 		\label{fig:difference-in-exposure-time-msdifference-in-temperature-ctungu}
 	\end{figure}
 	
