@@ -17,7 +17,7 @@
 \BOOKMARK [0][-]{chapter.5}{Evaluation Routine}{part.2}% 17
 \BOOKMARK [1][-]{section.5.1}{NOVAC-Evaluation}{chapter.5}% 18
 \BOOKMARK [1][-]{section.5.2}{Contamination Problem}{chapter.5}% 19
-\BOOKMARK [0][-]{chapter.6}{Limitations for the evaluation of BrO}{part.2}% 20
+\BOOKMARK [0][-]{chapter.6}{BrO Evaluation and its limitations}{part.2}% 20
 \BOOKMARK [1][-]{section.6.1}{BrO Error dependence on external parameters }{chapter.6}% 21
 \BOOKMARK [2][-]{subsection.6.1.1}{Temporal Difference}{section.6.1}% 22
 \BOOKMARK [2][-]{subsection.6.1.2}{Temperature}{section.6.1}% 23
@@ -25,18 +25,18 @@
 \BOOKMARK [2][-]{subsection.6.1.4}{Colorindex}{section.6.1}% 25
 \BOOKMARK [2][-]{subsection.6.1.5}{Elevation Angle}{section.6.1}% 26
 \BOOKMARK [2][-]{subsection.6.1.6}{Exposure Time}{section.6.1}% 27
-\BOOKMARK [0][-]{chapter.7}{Method}{part.2}% 28
-\BOOKMARK [1][-]{section.7.1}{Fit data}{chapter.7}% 29
-\BOOKMARK [1][-]{section.7.2}{Other approaches}{chapter.7}% 30
-\BOOKMARK [2][-]{subsection.7.2.1}{Nearest neighbours}{section.7.2}% 31
-\BOOKMARK [2][-]{subsection.7.2.2}{Iterative}{section.7.2}% 32
-\BOOKMARK [0][-]{chapter.8}{Comparison with NOVAC Evaluation}{part.2}% 33
-\BOOKMARK [0][-]{chapter.9}{Results}{part.2}% 34
-\BOOKMARK [1][-]{section.9.1}{Tungurahua}{chapter.9}% 35
-\BOOKMARK [1][-]{section.9.2}{Nevado Del Ruiz}{chapter.9}% 36
-\BOOKMARK [0][-]{chapter.10}{Issues of our method}{part.2}% 37
-\BOOKMARK [1][-]{section.10.1}{Contamination of the plume}{chapter.10}% 38
-\BOOKMARK [0][-]{chapter.11}{Conclusion}{part.2}% 39
+\BOOKMARK [1][-]{section.6.2}{BrO dependence on external parameters}{chapter.6}% 28
+\BOOKMARK [0][-]{chapter.7}{Method}{part.2}% 29
+\BOOKMARK [1][-]{section.7.1}{Fit data}{chapter.7}% 30
+\BOOKMARK [1][-]{section.7.2}{Other approaches}{chapter.7}% 31
+\BOOKMARK [2][-]{subsection.7.2.1}{Nearest neighbours}{section.7.2}% 32
+\BOOKMARK [2][-]{subsection.7.2.2}{Iterative}{section.7.2}% 33
+\BOOKMARK [0][-]{chapter.8}{Comparison with NOVAC Evaluation}{part.2}% 34
+\BOOKMARK [1][-]{section.8.1}{BrO/SO2 Time series}{chapter.8}% 35
+\BOOKMARK [1][-]{section.8.2}{Nevado Del Ruiz}{chapter.8}% 36
+\BOOKMARK [0][-]{chapter.9}{Issues of our method}{part.2}% 37
+\BOOKMARK [1][-]{section.9.1}{Contamination of the plume}{chapter.9}% 38
+\BOOKMARK [0][-]{chapter.10}{Conclusion}{part.2}% 39
 \BOOKMARK [-1][-]{part.3}{Appendix}{}% 40
 \BOOKMARK [0][-]{appendix.A}{Lists}{part.3}% 41
 \BOOKMARK [1][-]{section.A.1}{List of Figures}{appendix.A}% 42

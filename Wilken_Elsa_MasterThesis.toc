@@ -22,7 +22,7 @@
 \contentsline {chapter}{\numberline {5}Evaluation Routine}{26}{chapter.5}
 \contentsline {section}{\numberline {5.1}NOVAC-Evaluation}{26}{section.5.1}
 \contentsline {section}{\numberline {5.2}Contamination Problem}{29}{section.5.2}
-\contentsline {chapter}{\numberline {6}Limitations for the evaluation of BrO}{32}{chapter.6}
+\contentsline {chapter}{\numberline {6}BrO Evaluation and its limitations}{32}{chapter.6}
 \contentsline {section}{\numberline {6.1}\ce {BrO} Error dependence on external parameters }{32}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Temporal Difference}{33}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Temperature}{36}{subsection.6.1.2}
@@ -30,20 +30,20 @@
 \contentsline {subsection}{\numberline {6.1.4}Colorindex}{40}{subsection.6.1.4}
 \contentsline {subsection}{\numberline {6.1.5}Elevation Angle}{42}{subsection.6.1.5}
 \contentsline {subsection}{\numberline {6.1.6}Exposure Time}{44}{subsection.6.1.6}
-\contentsline {chapter}{\numberline {7}Method}{50}{chapter.7}
-\contentsline {section}{\numberline {7.1}Fit data}{51}{section.7.1}
-\contentsline {section}{\numberline {7.2}Other approaches}{55}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Nearest neighbours}{55}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Iterative}{56}{subsection.7.2.2}
-\contentsline {chapter}{\numberline {8}Comparison with NOVAC Evaluation}{57}{chapter.8}
-\contentsline {chapter}{\numberline {9}Results}{62}{chapter.9}
-\contentsline {section}{\numberline {9.1}Tungurahua}{62}{section.9.1}
-\contentsline {section}{\numberline {9.2}Nevado Del Ruiz}{62}{section.9.2}
-\contentsline {chapter}{\numberline {10}Issues of our method}{65}{chapter.10}
-\contentsline {section}{\numberline {10.1}Contamination of the plume}{65}{section.10.1}
-\contentsline {chapter}{\numberline {11}Conclusion}{67}{chapter.11}
-\contentsline {part}{\numberline {III}Appendix}{68}{part.3}
-\contentsline {chapter}{\numberline {A}Lists}{70}{appendix.A}
-\contentsline {section}{\numberline {A.1}List of Figures}{70}{section.A.1}
-\contentsline {section}{\numberline {A.2}List of Tables}{72}{section.A.2}
-\contentsline {chapter}{\numberline {B}Bibliography}{73}{appendix.B}
+\contentsline {section}{\numberline {6.2}BrO dependence on external parameters}{48}{section.6.2}
+\contentsline {chapter}{\numberline {7}Method}{52}{chapter.7}
+\contentsline {section}{\numberline {7.1}Fit data}{53}{section.7.1}
+\contentsline {section}{\numberline {7.2}Other approaches}{56}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Nearest neighbours}{56}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Iterative}{58}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Comparison with NOVAC Evaluation}{59}{chapter.8}
+\contentsline {section}{\numberline {8.1}BrO/SO2 Time series}{63}{section.8.1}
+\contentsline {section}{\numberline {8.2}Nevado Del Ruiz}{63}{section.8.2}
+\contentsline {chapter}{\numberline {9}Issues of our method}{68}{chapter.9}
+\contentsline {section}{\numberline {9.1}Contamination of the plume}{68}{section.9.1}
+\contentsline {chapter}{\numberline {10}Conclusion}{70}{chapter.10}
+\contentsline {part}{\numberline {III}Appendix}{71}{part.3}
+\contentsline {chapter}{\numberline {A}Lists}{73}{appendix.A}
+\contentsline {section}{\numberline {A.1}List of Figures}{73}{section.A.1}
+\contentsline {section}{\numberline {A.2}List of Tables}{76}{section.A.2}
+\contentsline {chapter}{\numberline {B}Bibliography}{77}{appendix.B}

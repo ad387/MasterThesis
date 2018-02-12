@@ -62,39 +62,47 @@
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{45}{figure.6.8}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{45}{figure.6.8}
 \contentsline {figure}{\numberline {6.9}{\ignorespaces A example of the dependency of external parameters on each other. The difference in Temperature as a function of the Exposure Time. Data from Tungurahua}}{46}{figure.6.9}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces DiffExpTime at Tungurahua}}{48}{figure.6.10}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {I2J8546\_0}}}{48}{figure.6.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {I2J8548\_0}}}{48}{figure.6.10}
-\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {D2J2140\_0}}}{48}{figure.6.10}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces BrO Error as a function of the external while measering the Plume and the Reference at Nevado del ruiz}}{49}{figure.6.11}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {D2J2201\_0}}}{49}{subfigure.6.12.8}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {D2J2200\_0}}}{49}{subfigure.6.12.8}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Correlation matrix of the external parameters. The correlation is discrete colour coded. Positive correlation is labeled with a plus whereas negative correlation is labeled with a minus.}}{47}{figure.6.10}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces DiffExpTime at Tungurahua}}{49}{figure.6.11}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {I2J8546\_0}}}{49}{figure.6.11}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {I2J8548\_0}}}{49}{figure.6.11}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {D2J2140\_0}}}{49}{figure.6.11}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces BrO Error as a function of the external while measering the Plume and the Reference at Nevado del ruiz}}{50}{figure.6.12}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {D2J2201\_0}}}{50}{subfigure.6.13.8}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {D2J2200\_0}}}{50}{subfigure.6.13.8}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces }}{51}{figure.6.13}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {}}}{51}{figure.6.13}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {}}}{51}{figure.6.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces }}{51}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces }}{53}{figure.7.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nevado Del Ruiz}}}{53}{figure.7.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tungurahua}}}{53}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces }}{53}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces }}{53}{figure.7.4}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces }}{53}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces }}{55}{figure.7.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nevado Del Ruiz}}}{55}{figure.7.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tungurahua}}}{55}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces }}{57}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces }}{58}{figure.7.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces The dependency of the Difference between contamination based data and NOVAC to the data evaluated with the NOVAC data }}{59}{figure.8.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{59}{figure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{59}{figure.8.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{59}{figure.8.1}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{59}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces }}{61}{figure.8.2}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding SO2 column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the BrO column densities from Tungurahua; (b) Results for the BrO column densities from Nevado Del Ruiz; (c) Results for the SO2 column densities from Tungurahua; (d) Results for the SO2 column densities from Nevado Del Ruiz}}{61}{figure.8.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{61}{figure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{61}{figure.8.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{61}{figure.8.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{61}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding SO2 column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. (a)+(b): The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the BrO /SO2 column densities from Tungurahua; (b) Results for the BrO /SO2 column densities from Nevado Del Ruiz. (c) +(d) The column density calculated with NOVAC was substracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero, that means both evaluations lead to the same ratio. (c) Tungurahua (d) Nevado Del Ruiz}}{64}{figure.8.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{64}{figure.8.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{64}{figure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{64}{figure.8.2}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{64}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces }}{65}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces }}{66}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces }}{67}{figure.8.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces }}{63}{figure.9.1}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces }}{64}{figure.9.2}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces }}{69}{figure.9.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces }}{66}{figure.10.1}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {.1}{\ignorespaces }}{69}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{69}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{69}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{69}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{69}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{69}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{69}{figure.Alph0.1}
+\contentsline {figure}{\numberline {.1}{\ignorespaces }}{72}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{72}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{72}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{72}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{72}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{72}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{72}{figure.Alph0.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
