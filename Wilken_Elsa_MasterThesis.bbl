@@ -1,4 +1,4 @@
-\begin{thebibliography}{35}
+\begin{thebibliography}{36}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -210,6 +210,13 @@ Susan Solomon, Arthur~L Schmeltekopf, and Ryan~W Sanders.
 \newblock On the interpretation of zenith sky absorption measurements.
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 92\penalty0
   (D7):\penalty0 8311--8319, 1987.
+
+\bibitem[Textor et~al.(2004)Textor, Graf, Timmreck, and
+  Robock]{textor2004emissions}
+Christiane Textor, Hans-F Graf, Claudia Timmreck, and Alan Robock.
+\newblock Emissions from volcanoes.
+\newblock In \emph{Emissions of Atmospheric Trace Compounds}, pages 269--303.
+  Springer, 2004.
 
 \bibitem[Thordarson and Self(2003)]{thordarson2003atmospheric}
 Thorvaldur Thordarson and Stephen Self.

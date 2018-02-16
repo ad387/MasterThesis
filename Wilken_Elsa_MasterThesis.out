@@ -2,12 +2,12 @@
 \BOOKMARK [-1][-]{part.1}{Theoretical Background}{}% 2
 \BOOKMARK [0][-]{chapter.2}{Volcanism and volcanic chemistry}{part.1}% 3
 \BOOKMARK [1][-]{section.2.1}{Volcanism}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.2}{Volcanic degassing}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.3}{Volcanic plume chemistry}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.3.1}{Sulphur species}{section.2.3}% 7
-\BOOKMARK [2][-]{subsection.2.3.2}{Bromine oxide}{section.2.3}% 8
-\BOOKMARK [1][-]{section.2.4}{Volcanic gases and their impact on the climate}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.5}{Using the BrO/So2 ratio to study volcanic activity}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Volcanic gases and their impact on the climate}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.3}{Volcanic degassing}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.4}{Volcanic plume chemistry}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.4.1}{Sulphur species}{section.2.4}% 8
+\BOOKMARK [2][-]{subsection.2.4.2}{Bromine oxide}{section.2.4}% 9
+\BOOKMARK [1][-]{section.2.5}{Using the BrO/SO2 ratio to study volcanic activity}{chapter.2}% 10
 \BOOKMARK [0][-]{chapter.3}{Remote sensing of volcanic gases}{part.1}% 11
 \BOOKMARK [1][-]{section.3.1}{Differential Optical Absorption Spectroscopy\(DOAS\)}{chapter.3}% 12
 \BOOKMARK [2][-]{subsection.3.1.1}{Technical Implementation of the DOAS Approach}{section.3.1}% 13
@@ -15,7 +15,7 @@
 \BOOKMARK [0][-]{chapter.4}{Network for Observation of Volcanic and Atmospheric Change }{part.2}% 15
 \BOOKMARK [1][-]{section.4.1}{Measurement Routine}{chapter.4}% 16
 \BOOKMARK [0][-]{chapter.5}{Evaluation Routine}{part.2}% 17
-\BOOKMARK [1][-]{section.5.1}{NOVAC-Evaluation}{chapter.5}% 18
+\BOOKMARK [1][-]{section.5.1}{Conventional Evaluation Routine}{chapter.5}% 18
 \BOOKMARK [1][-]{section.5.2}{Contamination Problem}{chapter.5}% 19
 \BOOKMARK [0][-]{chapter.6}{BrO Evaluation and its limitations}{part.2}% 20
 \BOOKMARK [1][-]{section.6.1}{BrO Error dependence on external parameters }{chapter.6}% 21

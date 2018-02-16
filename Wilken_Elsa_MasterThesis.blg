@@ -1,29 +1,30 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Wilken_Elsa_MasterThesis.aux
 A level-1 auxiliary file: titlepages-eng.aux
 A level-1 auxiliary file: abstracts.aux
-White space in argument---line 41 of file Wilken_Elsa_MasterThesis.aux
+White space in argument---line 63 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Coppenheimer
  :                        2003}
 I'm skipping whatever remains of this command
-White space in argument---line 60 of file Wilken_Elsa_MasterThesis.aux
+White space in argument---line 78 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Bobrowski
  :                     2013}
 I'm skipping whatever remains of this command
-White space in argument---line 61 of file Wilken_Elsa_MasterThesis.aux
+White space in argument---line 79 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Bobrowski
  :                     2013}
 I'm skipping whatever remains of this command
-White space in argument---line 83 of file Wilken_Elsa_MasterThesis.aux
+White space in argument---line 95 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Hörman
  :                  et al 2013}
 I'm skipping whatever remains of this command
-White space in argument---line 84 of file Wilken_Elsa_MasterThesis.aux
+White space in argument---line 96 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Beirle
  :                  at al 2014}
 I'm skipping whatever remains of this command
 The style file: plainnat.bst
 A level-1 auxiliary file: deposition.aux
 Database file #1: references.bib
+Warning--I didn't find a database entry for "gerlach2004volcanic"
 Warning--I didn't find a database entry for "Seinfeld"
 Warning--I didn't find a database entry for "Oppenheimer"
 Warning--to sort, need author or key in NOVACsite
