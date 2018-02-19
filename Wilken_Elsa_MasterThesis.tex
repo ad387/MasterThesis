@@ -34,6 +34,10 @@
 \usepackage						{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 \usepackage						{multicol} % Required for creating multiple columns in slides
 \usepackage		[version=4]		{mhchem}
+%\usepackage{cvpr}
+%\usepackage{times}
+\usepackage{epsfig}
+\usepackage{amssymb}
 % links
 \definecolor{darkblue}{rgb}{0.0,0.0,0.4}
 \definecolor{darkgreen}{rgb}{0.0,0.4,0.0}
@@ -76,15 +80,15 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
 	\caption{Influence of volcanic eruptions and quiet degassing on earth climate. Redrawn on the basis of \cite{robock2000volcanic}}
 	\label{fig:climateinfluence}
 \end{figure}
-
-Volcanic gases have a large impact on the earth climate especially \ce{SO2}  or more specific its oxidation product sulfur acid.\\ 
+Volcanoes emit various gases (see \cref{tab.volcemissions}) in the atmosphere. This can occur due to volcanic eruptions or due quiet degassing. Gas emitted by quiet degassing remains in the troposphere while eruptions can inject volcanic gases up to the stratosphere \citet{robock2000volcanic}. Due to the larger lifetime in the stratosphere and a larger sensitivity of the stratospheric chemistry to the volcanic gases, these gases have a larger impact on the earth climate as will be discussed for SO2 below.
+Volcanic gases have a large impact on the earth climate especially CO2 and \ce{SO2}  or more specific its oxidation product sulfur acid.\\ 
 The relevance of  \ce{CO2} for the climate is a subject of many discussions, the share of volcanic  \ce{CO2} is rather low further informations can be found in:...\\\\
-
-\cite{halmer2002annual} estimated the mean annual \ce{SO2}  emitted from volcanoes from 1972 to 200 as 7.5 to 10.5TgSyr$^-1$, while the anthropogenic \ce{SO2}  amount for 2000 is estimated as 55TgSyr$^-1$ \citep{IPCC}. Despite the less \ce{SO2}  occuring from volcanoes the impact may be higher as the impact of the antropogenic So2. \cite{graf1997volcanic} supposed that the volcaninc \ce{SO2}  has a higher impact on the climate since its reaches up to the stratosphere while the antropogenic \ce{SO2}  is mostly located in plantery boundary layer. In the lower troposhere sulphuric acid has a lifetime of about a week whereas the liftime in the stratosphere is about a year \citep{IPCC}.\\
-Sulphuric acid in the atmosphere increases the aerth albedo due to direct backscattering radiation. Additional the condensation on sulphuric acid particles leads to finer droplets thus to more stable and more white clouds this increases the albedo as well \citep{twomey1974pollution}.
+Even though the emissions during eruptive episodes are up to one order higher than during quite degassing episodes, \cite{halmer2002annual} estimated that quiescent degassing contributes 40\% of the accumulated SO2 between 1972 to 2000.\\
+\cite{halmer2002annual} estimated the mean annual \ce{SO2}  emitted from volcanoes from 1972 to 200 as 7.5 to 10.5TgSyr$^-1$, while the anthropogenic \ce{SO2}  amount for 2000 is estimated as 55TgSyr$^-1$ \citep{IPCC}. Despite the less \ce{SO2}  occurring from volcanoes the impact may be higher as the impact of the anthropogenic So2. \cite{graf1997volcanic} supposed that the volcanic \ce{SO2}  has a higher impact on the climate since its reaches up to the stratosphere while the anthropogenic \ce{SO2}  is mostly located in planetary boundary layer. In the lower troposphere sulphuric acid has a lifetime of about a week whereas the lifetime in the stratosphere is about a year \citep{IPCC}.\\
+Sulphuric acid in the atmosphere increases the earth albedo due to direct backscattering radiation. Additional the condensation on sulphuric acid particles leads to finer droplets thus to more stable and more white clouds this increases the albedo as well \citep{twomey1974pollution}.
 volcanic particles can be surfaces for heterogeneous reaction. The result is a depletion of stratospheric Ozone, and thus more high energetic solar flux on the earth surface.
-Large particles may backscatter IR radiation fromt the earth surface and the lower atmosphere leading to a small reduction of the net cooling of the lower troposphere.
-In the upper trophosphere ore stratosphere absorption of IR or UV radiation results in a net heating in the stratosphere and a cooling at the earth surface.
+Large particles may backscatter IR radiation from the earth surface and the lower atmosphere leading to a small reduction of the net cooling of the lower troposphere.
+In the upper troposphere ore stratosphere absorption of IR or UV radiation results in a net heating in the stratosphere and a cooling at the earth surface.
 \Cref{fig:climateinfluence} shows the above described effects and their localization in the atmosphere.
 The dominating radiative effect of volcanic gases is a cooling of the earth atmosphere due to  more backscattered radiation, more diffusive scattering\citep{robock2000volcanic}.
 \cite{IPCC} records a volcanic radiative forcing of $-0.11Wm^{-1}$ between 2008 and 2011. For comparison the radiative of  \ce{CO2} is estimated as  $1.68Wm^{-1}$.
@@ -130,11 +134,14 @@ When \ce{H2S} escapes from the volcano vent, it enters the oxidizing conditions 
 \end{equation*}
 The \ce{SH} radical goes through a series of reactions, leading to the \ce{SO2} formation \cite{Seinfeld}\\
 \ce{SO2} is removed from the atmosphere by dry or wet
-deposition. At homogeneous reactions the lifetime is from 1-3 weeks \cite{robock2000volcanic}. Heterogenous reactions such as take place on particles or liquid phases leads to much faster depletions.\\
+deposition. At homogeneous reactions the lifetime is from 1-3 weeks \cite{robock2000volcanic}. Heterogeneous reactions such as take place on particles or liquid phases leads to much faster depletions. But this was yet not observed by volcanic plume measurements.\\
 Further discussions of the stability of \ce{SO2}  in the atmosphere can be found at \cite{lubcke2014optical}.\\
+However SO2 can be seen as stable several ours after the release of the volcanic vent.\\ The long lifetime  alongside of the negligible amount of SO2 in the atmospheric background makes SO" a good trace of the volcanic plume.
+Relatively to other trace gases SO2 may be used to examine their evolution independent of the plume dispersion.\\
+One attempt to use SO2 to examine other trace gases was made by \cite{bobrowski2007reactive}. They found a higher BrO/SO2 ratio at the edges of volcano plumes \textcolor{red}{hier noch den vulcan} and concluded that the BrO amount is higher at the edges due to the insufficient mixing with ozone rich air inside of the plume (see \ref{fig:broplume}).
 In this thesis it is assumed that \ce{SO2}  is stable on timescales occurring with ground based remote sensing measuring of about 20 minutes. \\
-The \ce{SO2}  amount in the atmosphere outside of the volcanic plume is with approximately 1ppb negligible. In contrast the \ce{SO2}  amount in the plume can easily reach 1ppm \cite{Oppenheimer}.\\
-The fact that the \ce{SO2}  amount in the atmospheric background compared to the \ce{SO2}  amount in the plume is negligible alongside
+
+
 
 \subsection{Bromine oxide}
 \begin{figure}
@@ -443,12 +450,19 @@ The exponential \ce{BrO}  formation is slightly diminished by
 	In \Cref{fig:dat} the \ce{BrO} Error as a function of the time difference between recording the plume and the reference is shown. The running mean is drawn with a black line. \\
 	In \Cref{fig:dat} (a) it can be seen that a large temporal differences result in an increase of \ce{BrO}  Error of more than 600\%. \ce{BrO}  Errors of such magnitudes are too large for our purposes therefore it is usefull to define a maximal temporal difference.\\
 	The maximal temporal difference should be large enough to ensure an amount of references which is large enough to be able to pick an reference with similar conditions, but the maximal temporal difference should be small enough to prevent to large BrO errors due to long term shifts.\\
-	\textcolor{blue}{To evaluate the maximal time difference, were we still get reliable results we calculated for all possible reference-plume pairs the corresponding \ce{BrO} Error. With this data we are able to find for all plume spectra the associated reference where the \ce{BrO} Error is minimal. In \Cref{Histogram} a histogram is plotted with the probability of picking the best reference as a function of the time difference. Obviously the best results are if the day of measuring the reference is the same day as measuring the reference that means, if the time difference is smaller than one day. We allow all time difference which are in one sigma area. }\\
+	\textcolor{blue}{To evaluate the maximal time difference, were we still get reliable results we calculated for all possible reference-plume pairs the corresponding \ce{BrO} Error. With this data we are able to find for all plume spectra the associated reference where the \ce{BrO} Error is minimal. In \Cref{Histogram} a histogram is plotted with the probability of picking the best reference as a function of the time difference. Obviously the best results are if the day of measuring the reference is the same day as measuring the reference that means, if the time difference is smaller than one day. A gauss fit was used to fit the data of the histogram We allow all time difference which are in two sigma area. Thus the maximal time difference is 14 days}\\
 	%
-	
+	\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{Bilder/Hist}
+\caption{Histogram showing the frequency of getting the best reference as function of the temporal difference between plume and reference measuring.}
+\label{fig:Hist}
+\end{figure}
+
 	 \Cref{fig:dat} (b) shows the evolution of the \ce{BrO}  Error for a maximal temporal difference of 120 hours. It is only possible to record data during daytime. This couses the lack of data at some temporal differences. A periodic decrease of the \ce{BrO}  error can be seen. This is a result of a decrease of the \ce{BrO}  error when the surrounding conditions coincidence. In this case the daytime coincidence couses the \ce{BrO}  error decrease, for further discussion of the daytime see \Cref{chap:daytime}.\\
 	%
-	We found out that the time interval where it is still reasonable to use references is about 14 days. Therefore we only use references where the recording time difference between plume and reference is smaller than two weeks. When using a references with a temporal difference to the plume of more than 14 days the probability, that the fit quality and thus the \ce{BrO} error increases to much for our purposes. \\
+	Restricting the temporal difference to 14 days the amount of possible gas free references decreases at the average to 195 alternative references per contaminated plume (see \cref{Tab:refstime}). Whereas none of the plumes do not do not have alternative references. The minimum amount of references is 8.\\
+	If a continuously evaluation is required, this means the spectra are evaluated directly after the recording, the number of suitable gas free references halves since only references recorded before the plume are available.\\
 	For the following analysis of external parameters all temporal differences are below 14 days.
 	%
 	\begin{figure}		
@@ -478,6 +492,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 			\bottomrule
 		\end{tabular}
 	\caption{Amount of Possible references while restricting the time span between plume and reference to two weeks.}
+	\label{Tab:refstime}
 	\end{table}	
 
 	Furthermore it can be seen that the evolution of the \ce{BrO}  error with the temporal difference is symmetric around zero, thus it is not necessary to distinguish between positive or negative temporal differences.
@@ -915,7 +930,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 	The difference in temperature correlates with the difference in daytime (Correlation of $\approx$ 0.5) with the difference in Exposure Time (Correlation of $\approx$ 0.4). The difference in temperature also slightly correlates with the difference in Colorindex (Correlation of $\approx$ 0.3) and the temporal difference (Correlation of $\approx$ 0.3) probably due to long term changes in Temperature. Furthermore the difference in Exposure Time correlates with the daytime and the colorindex (Correlation of $\approx$ 0.4).\\
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.7\linewidth]{"../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Difference in Temperature [C]_Tungu"}
+	%	\includegraphics[width=0.7\linewidth]{"../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Difference in Temperature [C]_Tungu"}
 		\caption{A example of the dependency of external parameters on each other. The difference in Temperature as a function of the Exposure Time. Data from Tungurahua}
 		\label{fig:difference-in-exposure-time-msdifference-in-temperature-ctungu}
 	\end{figure}
@@ -1285,12 +1300,91 @@ The exponential \ce{BrO}  formation is slightly diminished by
 	\begin{itemize}
 		\item We also tried other possibilities than fitting to find the reference where the \ce{BrO} error is minimal. In the following we present two additional possibilities but compared to fitting the results are not as good.
 	\end{itemize}
-	\subsection{Nearest neighbours}
-	\begin{itemize}
-		\item Description of the Nearest Neighbours Method
-	\end{itemize}
-		\textcolor{red}{Nearest neighbor search (NNS), as a form of proximity search, is the optimization problem of finding the point in a given set that is closest (or most similar) to a given point. Closeness is typically expressed in terms of a dissimilarity function: the less similar the objects, the larger the function values. Formally, the nearest-neighbor (NN) search problem is defined as follows: given a set S of points in a space M and a query point q$\in$ M, find the closest point in S to q. Donald Knuth in vol. 3 of The Art of Computer Programming (1973) called it the post-office problem, referring to an application of assigning to a residence the nearest post office. A direct generalization of this problem is a k-NN search, where we need to find the k closest points.	
-		Most commonly M is a metric space and dissimilarity is expressed as a distance metric, which is symmetric and satisfies the triangle inequality. Even more common, M is taken to be the d-dimensional vector space where dissimilarity is measured using the Euclidean distance, Manhattan distance or other distance metric. However, the dissimilarity function can be arbitrary. One example are asymmetric Bregman divergences, for which the triangle inequality does not hold.}
+
+\subsection{Nearest Neighbor Approach}
+
+
+Beside linear regression also the nearest neighbor approach can be utilized to estimate the BrO error for the evaluation with a potential reference spectrum.
+
+
+The nearest neighbor search describes an optimization problem for a given point $m \in \mathbb{R}^n$ and a set $S \subset \mathbb{R}^n$:
+
+%
+
+\begin{align}
+\bar{s}(m) = \min_{s \in S} d(m, s) \label{eq:1nn}
+\end{align}
+
+%
+Here $d(\cdot, \cdot)$ is a distance function that computes the dissimilarity between the two input arguments. Typical distance metrics are the L1 distance $d_{\text{L1} 	
+}(m, s) = ||m - s||^2$ or the L2 (also euclidean) distance function $d_{\text{L2} 
+}(m, s) = ||m - s||$. 
+
+
+In many cases not only one nearest neighbor but a set $M$ of $k$ nearest neighbors is of interest. In this case the optimization problem of Eq. \ref{eq:1nn} must be modified to
+
+%
+
+\begin{align}
+\bar{S_k}(m) = \min_{S_k \subset S} \sum_{s \in S_k, m \in M} d(s, m) \label{eq:knn}
+\end{align}
+
+%
+
+In many cases the nearest neighbor search is used to estimate a target variable $y_m$ for a feature vector $m \in \mathbb{R}^n$. This method assumes a given set feature vectors $S$ for which the target variables $y_S$ are known. Then the target variable $y_m$ for a given $m$ can be estimated by:
+
+%
+
+\begin{align}
+y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
+\end{align}
+
+%
+
+\subsection*{Advantages of the Nearest Neighbor approach}
+
+\begin{itemize}
+	
+	\item no pre-assumptions about fitting function 
+	
+\end{itemize}
+
+%
+
+\subsection*{Disadvantages of the Nearest Neighbor approach}
+
+\begin{itemize}
+	
+	\item slower
+	
+	\item pre-assumptions about feature importance required  
+	
+	\item a little worse results
+	
+\end{itemize}
+
+%
+
+
+
+
+
+%Nachteil:
+
+%* länger dauern
+
+%* etwas schlechter
+
+%* normalisieren von Features
+
+
+%Vorteil:
+
+%* nicht linear
+
+
+
+
 	\subsection{Iterative}
 	\begin{itemize}
 		\item Description of the iterative Method
