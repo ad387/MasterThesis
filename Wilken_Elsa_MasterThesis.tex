@@ -60,7 +60,7 @@
 	\chapter{Introduction}	
 	\input{Chapters/1_Introduction/1_Intruduction}
     \part{Theoretical Background}
-\chapter{Volcanism and volcanic chemistry}
+\chapter{Volcanism and volcani1c chemistry}
 
 \section{Volcanism}
 The high thermal energy in the deep interior of the earth is mostly well separated from the earth’s surface by the earth’s crust. A volcano is geological structure that allows magma to reach the earth’s surface. Such a phenomenon can occur in various ways. In the following paragraphs the different types of volcanoes are described.
@@ -76,7 +76,7 @@ Subduction zone volcanoes occur if an oceanic plate converges under another plat
 \section{Volcanic gases and their impact on the climate}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/Climate_Influence}
+	\includegraphics[width=0.8\linewidth]{Bilder/Simon/Bilder_Tung/Climate_Influence}
 	\caption{Influence of volcanic eruptions and quiet degassing on earth climate. Redrawn on the basis of \cite{robock2000volcanic}}
 	\label{fig:climateinfluence}
 \end{figure}
@@ -146,23 +146,22 @@ In this thesis it is assumed that \ce{SO2}  is stable on timescales occurring wi
 \subsection{Bromine oxide}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Plume}
+	\includegraphics[width=0.9\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Plume}
 	\caption{schematic sketch of a Bromine Explosion.
 		Release of \ce{HBr} at the volcanic vent. Mixing with ambient air in the effective source region leads to \ce{Br} formation. This resulting Bromine species react to \ce{BrO} with ozone from the plume. Adapted from \cite{bobrowski2007reactive}}
 	\label{fig:broplume}
 \end{figure}
-The amount of Bromine in volcanic plumes is rather low compared to \ce{SO2}  \cite{Bobrowski 2013}. The first time Bromine monoxid (BrO) was observed at a volcano was 2013 at the soufriere hills by \cite{Bobrowski 2013}. Since then many others were able to detect \ce{BrO}  using ground based remote sensing measurement techiques (DOAS: see \Cref{DOAS})\\
-\\
-examples
+The amount of Bromine in volcanic plumes is rather low compared to \ce{SO2}. The first time Bromine monoxid (BrO) was observed at a volcano was 2013 at the soufriere hills by \cite{Bobrowski 2013}. Since then many others were able to detect \ce{BrO}  using ground based remote sensing measurement techiques (DOAS: see \Cref{DOAS}) for exampel:
+\citet{bobrowski2007so2}, \citet{bobrowski2007reactive},\citet{vogel2011volcanic} and \cite{lubcke2014bro}
 \\
 The main Bromine formation which is released from the volcano is  \ce{HBr}. \ce{BrO}  is formed due to mixing with the ozone rich atmosphere at ambient temperatures \cite{bobrowski2007reactive}.\\
 Due to the raising of hot air in the volcano vent , ambient air is pulled into the vent. There temperatures of  600$^{\circ}C$ to 1200$^{\circ}C$    prevent the formation of \ce{BrO}. Only Br id formed. \ce{BrO}  occures after further cooling and mixing while rising. When the temperature cooles down to ambient conditions the so called "Bromine Explosion" causes a non linear formation of \ce{BrO}.
 The "Bromine Explosion" is illustrated in \Cref{fig:broexplosion} and can be described with the following reaction cycle:
 \begin{align}
-\ce{HBr}_{gas} &\rightarrow \ce{Br}^{-}_{aq} + \ce{H}^{+}_{aq}\\
+\ce{HBr}_{gas} &\rightarrow \ce{Br}^{-}_{aq} + \ce{H}^{+}_{aq} \label{eq1}\\
 \ce{HOBr}_{(gas)} &\rightarrow \ce{HOBr}_{(aq)} \\
-\ce{HOBr}_{(aq)} + \ce{Br}^{-}_{(aq)} + \ce{H}^{-}_{(aq)} &\rightarrow
-\ce{Br}_{2(aq)} +  \ce{H2O}\\
+\ce{HOBr}_{(aq)} + \ce{Br}^{-}_{(aq)} + \ce{H}^{+}_{(aq)} &\rightarrow
+\ce{Br}_{2(aq)} +  \ce{H2O}\label{eq2}\\
 \ce{Br}_{2,aq} &\rightarrow \ce{Br}_{2,gas} \\
 \ce{Br2} + h\nu &\rightarrow 2 \ce{Br} \\
 \ce{Br} + \ce{O3} &\rightarrow \ce{BrO} + \ce{O2} \\
@@ -170,13 +169,17 @@ The "Bromine Explosion" is illustrated in \Cref{fig:broexplosion} and can be des
 \ce{BrO} + \ce{BrO} &\rightarrow 2 \ce{Br} + \ce{O2} \\
 \ce{BrO} + \ce{BrO} &\rightarrow \ce{Br2} + \ce{O2}
 \end{align}
+The gaseous HBr emitted by the volcano is splited heterogeneously int H$^{+}$ and Br$^{-}$ (\cref{eq1}). Inside of an aerosol it forms with HOBr Br2 and H2O (\cref{eq2}). Br2 evaporates to the gaseous phase and splits photolytic  into 2Br .Including an ozon molecule (O3) the two Br react to 2BrO. The last step o the circle visualized in \Cref{fig:broexplosion} with blue lines is the reaction of a BrO with H20 to an HOBrO molecule condensing into the liquid phase  and thuse closing the circle. The non linear explosion occurs due the formation of two BrO particles from one HBr from the volcano.\\
+The BrO formation is slightly diminished due to self reaction of BrO molecules marked with the red lines in \cref{fig:broexplosion}. The 2BrO react with themselves and form Br2 or may split photolyticaly into 2Br.\\
+THe BrO concentration reaches a maximum approximately 5 minutes after emission and then remains constant for the next 25 minutes \textcolor{red}{hier noch nen Bild} \citet{lubcke2014bro}.
+ 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Explosion}
-	\caption{Bromine reactions inside of a volcanic vent. The release of Hbr at the volcaninc vent is drawn in orange. Inside of aerosols heterogeneous dissociation with HOBr forms Br2. Then Br2 splits photolytically into single Br radicals. \ce{BrO}  results through a reaction with  \ce{O3}upon mixing with ambient air. Reactions with  \ce{H2O}  forms HOBr creating an autocatalytic cycle. The reaction cycle along the blue lines are called Bromine explosion. From \cite{WarnachSimon}}
+	\includegraphics[width=0.9\linewidth]{Bilder/Simon/Bilder_Tung/BrO_Explosion}
+	\caption{Bromine reactions inside of a volcanic vent. The release of Hbr at the volcaninc vent is drawn  in orange. Inside of aerosols heterogeneous dissociation with HOBr forms Br2. Then Br2 splits photolytically into single Br radicals. \ce{BrO}  results through a reaction with  \ce{O3}upon mixing with ambient air. Reactions with  \ce{H2O}  forms HOBr creating an autocatalytic cycle. The reaction cycle along the blue lines are called Bromine explosion. From \cite{WarnachSimon}}
 	\label{fig:broexplosion}
 \end{figure}
-The exponential \ce{BrO}  formation is slightly diminished by
+
 
 
 
@@ -187,7 +190,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 \section{Using the \ce{BrO}/\ce{SO2}  ratio to study volcanic activity}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Zwischenbericht2018/Bilder/so2_bro}
+	\includegraphics[width=0.9\linewidth]{Zwischenbericht2018/Bilder/so2_bro}
 	\caption{Dependency of the ratios of different volcanic trace gases on depth. Data originate from Stromboli volcano. From \cite{lubcke2014optical} reproduced from Burton et al. (2007)}
 	\label{fig:so2bro}
 \end{figure}    
@@ -282,7 +285,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 	%
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.7\linewidth]{Bilder/DOASFunction}
+		\includegraphics[width=0.9\linewidth]{Bilder/DOASFunction}
 		\caption{}
 		\label{fig:doasfunction}
 	\end{figure}
@@ -300,7 +303,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 	\section{Differential Optical Absorption Spectroscopy(DOAS)\label{DOAS}}
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.7\linewidth]{Bilder/Simon/Bilder_Tung/DOAS_Intensity}
+			\includegraphics[width=0.8\linewidth]{Bilder/Simon/Bilder_Tung/DOAS_Intensity}
 			\caption{Basic idea of the DOAS principle: Light attenuate due to broad band and narrow band effects. The broad band extinction is caused by aerosols and Raylight scattering $\left(I_0\rightarrow I^{'}\right)$. The measured intensity $I$ is formed by narrow band effects due to differential absorption structures by trace gases with the optical density $\tau^{'}$. Adapted from \cite{kern2009spectroscopic}}
 			\label{fig:doasintensity}
 		\end{figure}
@@ -495,8 +498,9 @@ The exponential \ce{BrO}  formation is slightly diminished by
 	\label{Tab:refstime}
 	\end{table}	
 
-	Furthermore it can be seen that the evolution of the \ce{BrO}  error with the temporal difference is symmetric around zero, thus it is not necessary to distinguish between positive or negative temporal differences.
+	Furthermore it can be seen that the evolution of the \ce{BrO}  error with the temporal difference is symmetric around zero, thus it is not necessary to distinguish between positive or negative temporal differences.\\
 
+	
 	\subsection{Temperature}
 	\begin{figure}
 		\subfigure[D2J2140\_0]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2140_0BrOERR_DiffTemp_Tungu}}
@@ -550,6 +554,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 			$\Delta T_{2}$&6.3&5.7&2.5&1.1&1.1\\
 			\bottomrule
 		\end{tabular}
+		\label{tab:tempe}
 	\end{table}
 	When looking at all discussed external parameters, temperature has  the strongest impact on the \ce{BrO} error due to the strong impact on the WMP.
 %	\begin{table}
@@ -565,14 +570,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 %		68.1&
 %		84.7&
 %	    69.2\\
-%		\midrule
-%		Min&1&2&2&1 &2\\
-%		\midrule
-%		Max&105&212&356&411 &291\\
-%		\bottomrule
-%		\end{tabular}
-%	caption{maximal Time difference is 1$^{\circ}C$}
-%	\end{table}	
+
 	\begin{table}
 	\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
 		%	\toprule
@@ -593,10 +591,17 @@ The exponential \ce{BrO}  formation is slightly diminished by
 		\bottomrule
 	\end{tabular}
 	\caption{maximal Time difference is 3.358$^{\circ}C$}
+	\label{tab:decTemp}
 	\end{table}	
-
-
-
+The dependency of the BrO error on the difference in temperature is independent of the sign of the temperature difference. To quantify the degree of dependency between the BrO error and the difference in temperature the data are fitted with an polynom of the first order. As a result of the symmetry arount zero it is possible to not distinguish between positiv or negative temperture differences. THus the absolute temperature difference was used for the calulations of the fit. The slope and zero point are claculated for each instrument and are shown in \cref{tab:tempe}. 
+The zero points at Tungurahua vary from 1.6$\cdot10^{13}$ to .56$\cdot10^{13}$. The variation at Nevado Del Ruiz id from  9.07$\cdot10^{12}$ to 1.38$\cdot10^{13}$.\\
+\Cref{tab:tempe} shows as well the correlation between the BrO error and the absolute Temperature difference.
+The correlation was calculated using the python library \textcolor{red}{Name der library}. The correlation goes from 0.593 at D2J2140\_0 to  0.92 at D2J2201\_0 and show a large variation between the instruments.\\
+Furthermore the slope and the zero point are used to calculated the mean temperature difference $\Delta T_{2}$ where the mean BrO error increases to twice of zero point, the BrO error at temperature difference of zero.
+Hereby is the mean taken as the average of all instruments.\\
+If restricting the time difference to the mean $\Delta T_{2}$ of all instruments
+($Mean(\Delta T_{2}) = 3.3$) the amount of possible references decrease as it is shown in \cref{tab:decTemp}.\\
+The advantage of restricting the accepted temperature difference is more control about the choice of the best reference. The disadvantaged is that the amount of possible references decrease. Thus it could be that a reference is dismissed, which have a large temperature but the reference is equal in all other examined external references, thus it leads to a small BrO error.\\
 	\subsection{Daytime \label{chap:daytime}}
 	\begin{figure}
 		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2140_0BrOERR_DiffDaytime_Tungu}}
@@ -641,6 +646,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 			$\Delta DT_{2}$&6.8&24.2&8.7&1.9&1.62\\
 			\bottomrule
 		\end{tabular}
+		\label{tab:dtcalc}
 	\end{table}
 	\begin{table}
 	\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
@@ -662,6 +668,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 		\bottomrule
 	\end{tabular}
 	\caption{maximal Datime difference is  is 4.75h without I2J8546\_0 since the large uncertainty}
+	\label{tab:daytimerest}
 \end{table}	
 
 
@@ -687,7 +694,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 	\caption{maximal Time difference is 3.358$^{\circ}C$,maximal daytime diff is 4.75h without}
 \end{table}	
 
-
+\Cref{tab:dtcalc} shows equivalent calculations as \cref{tab:tempe}. Since the BrO Error plotted against the difference in daytime is symmetric around zero only the absolute differences in daytime are used. This data were fitted with a first order polynomial. The results can be seen in \cref{tab:dtcalc}. Furthermore the correaltions for each instruments and the the differences in daytime where the mean BrO error increases to twice of the zero point ($\Delta DT_{2}$) are shown. To gain more control about the algorithm a maximal daytime difference is defined where the corresponding references are still acceptable. The maximum daytime difference is defined as the mean $\Delta DT_{2}$ of every instrument. Since the data from instrument I2J8546\_0 does not significantly depend on the daytime, this instrument was excluded for the calculation of the mean. Mean($\Delta DT_{2}$) = 4.75. If restricting the data to only references with corresponding daytime of below Mean($\Delta DT_{2}$) we get an averaged decrease of possible references of \textcolor{red}{average decrease}. All decreases compared to \cref{Tab:refstime} are listed on \cref{tab:daytimerest}.
 
 	\subsection{Colorindex}
 	\begin{figure}
@@ -746,6 +753,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 			$\Delta CI_{2}$&0.174&0.424&0.297&0.133&0.248\\
 			\bottomrule
 		\end{tabular}
+		\label{tab:colidxcalc}
 	\end{table}
 
 	\begin{table}[h]
@@ -768,6 +776,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 		\bottomrule
 	\end{tabular}
 	\caption{Amount of Possible references while restricting the difference in colorindex  between plume and reference to differences above 0.2553.}
+	\label{tab:colidxres}
 \end{table}	
 
 
@@ -792,7 +801,8 @@ The exponential \ce{BrO}  formation is slightly diminished by
 	\end{tabular}
 	\caption{Amount of Possible references while restricting the difference in colorindex  between plume and reference to differences above 0.2553. maximal Time difference is 3.358$^{\circ}C$,maximal daytime diff is 4.75h without}
 \end{table}	
-
+As for the temperature and the daytime the BrO error fas fitted on the absolute differences in colorindex with an polynomial of the first grad for each instrument. The absolute difference can be taken due to the symetric around zero as it  can be seen in \cref{fig:diffcolidx}. The results including the slope, zero point, correlation and the colorindex where the BrO error increases to twice of the zero point ($\Delta CI_{2}$) are listed an \cref{tab:colidxcalc}.
+The data were restricted to references where the corresponding colorindex difference is below the mean of the $\Delta CI_{2}$ = 0.256. The remaining number of references compared to \cref{Tab:refstime} can be found in \cref{tab:colidxres}
 
 
 		\subsection{Elevation Angle}
@@ -832,7 +842,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 			\bottomrule
 		\end{tabular}
 	\end{table}
-
+	Since the BrO error does not depend noticeable on the Elevation Angle no restriction on differences of the elevation angle are needed.
 	\subsection{Exposure Time}
 	\begin{figure}
 		\subfigure[]{\includegraphics[width=0.3\linewidth]{Bilder/DEpendencoOfBrOErrorOnVariables_absolutedep/D2J2140_0BrOERR_DiffExpTime_Tungu}}
@@ -869,6 +879,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 			$\Delta T_{2}$&8357&662&1273&95&499\\
 			\bottomrule
 		\end{tabular}
+		\label{tab:exptimecalc}
 	\end{table}
 
 	\begin{itemize}
@@ -898,6 +909,7 @@ The exponential \ce{BrO}  formation is slightly diminished by
 		\bottomrule
 	\end{tabular}
 	\caption{Amount of Possible references while restricting the difference in Exposure Time  between plume and reference to differences below 632.25ms}
+	\label{tab:etrest}
 \end{table}	
 
 	\begin{table}
@@ -922,6 +934,8 @@ The exponential \ce{BrO}  formation is slightly diminished by
 \caption{Amount of Possible references while restricting the difference in colorindex  between plume and reference to differences above 0.2553. maximal Time difference is 3.358$^{\circ}C$,maximal daytime diff is 4.75h without Exposure Time  between plume and reference to differences below 632.25ms}
 \end{table}	
 
+\Cref{tab:exptimecalc} shows the slope, correlation, zero point and the $\Delta ET_{2}$s: th differences in Exposure time where the BrO Error increases by a factor of two compared to the difference of exposure time of zero.
+Restrictions of the exposure Time to the mean of the $\Delta ET_{2}$s of all instruments which is 632.25 ms leads to an average decrease compared to \cref{Tab:refstime} of data of \textcolor{red}{ hier den mittelwert}. The results for each instrument can be found in \cref{tab:etrest}.
 
 
 	\subsection*{Dependency of external parameters on each other}
@@ -1296,10 +1310,8 @@ The exponential \ce{BrO}  formation is slightly diminished by
 	Analyse ob der spass mit den correlations zusammenhaengt
 	\section{Other approaches}
 
-	$\bullet$ In the optimal results are 15$\%$ valid data
-	\begin{itemize}
-		\item We also tried other possibilities than fitting to find the reference where the \ce{BrO} error is minimal. In the following we present two additional possibilities but compared to fitting the results are not as good.
-	\end{itemize}
+	Fitting is not the only possibility of finding the optimal referecne out of the list of all possible references.\\
+	Also other possibilities were tried to find the best algorithm. In the following two additionally possibilities are presented. Both are based on the findings in \cref{Chap:BROErr}. 
 
 \subsection{Nearest Neighbor Approach}
 

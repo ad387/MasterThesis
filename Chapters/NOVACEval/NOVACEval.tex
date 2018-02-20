@@ -37,8 +37,8 @@ The \ce{BrO}  evaluation is performed for a wavelength range between 330.6~nm an
 The Network for Observation of Volcanic and Atmospheric Change provides spectral data for $\approx$ 50 different elevation angles. For the DOAS evaluation a reference and a measurement spectrum is needed. To get the SCD's the references need to be without any amount of the volcanic trace gas of interest (This will be discussed more detailed in \Cref{Chap:Cont}). With the $F\left(\lambda\right)$ the column density of  \ce{BrO}  and \ce{SO2} of the measurement spectrum relatively to the reference spectrum can be calculated using the calculations from above. \\
 \\
 \begin{figure}
-	\subfigure[]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan_0}}
-	\subfigure[]{\includegraphics[width=0.49\textwidth]{Bilder/Simon/Bilder_Tung/BrO_Scan}}
+	\subfigure[]{\includegraphics[width=0.51\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan_0}}
+	\subfigure[]{\includegraphics[width=0.51\textwidth]{Bilder/Simon/Bilder_Tung/BrO_Scan}}
 	\caption{(a) \ce{SO2} SCD as a function of the elevation angle with error bars computed by the DOASIS fitting routin. (b) \ce{BrO} SCD as a function of the elevation angle with error bars computed by the DOASIS fitting routine.  Taken from \cite{WarnachSimon}}
 	\label{fig:plumeref}
 \end{figure}
@@ -78,16 +78,17 @@ Taking the \ce{BrO}/\ce{SO2} ratio if the column densities are close to zero yie
 This could be achieved by setting a \ce{BrO} or/and an \ce{SO2} threshold. A reasonable \ce{BrO} threshold need to be at least in the order of the DOAS fit error. However this could lead to elevated \ce{BrO}/\ce{SO2} ratios, since the \ce{BrO} error is often close to the detection limit. Thus, all low \ce{BrO} column densities are excluded from the evaluation.
 %
 \begin{figure}
-	\subfigure[ ]{\includegraphics[width=0.5\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan}}
+	\subfigure[ ]{\includegraphics[width=0.53\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan}}
 	\subfigure[ ]{\includegraphics[width=0.47\textwidth]{Bilder/Simon/Bilder_Tung/Algorithm}}
 	\caption{(a) \ce{SO2} SCD as a function of the elevation angle. The co-added plume region is marked with red diamonds, and the co added reference region with green stars. From \cite{WarnachSimon}. (b) Flow chart of the \ce{BrO}  and \ce{SO2} evaluation. From \cite{lubcke2014optical}.}
 	\label{fig:algorithm}
 \end{figure}
-The other possibility is to set a \ce{SO2} threshold. In this thesis an \ce{SO2} threshold (plume limit) of $7\cdot 10^{17} \frac{molec}{cm^2}$ is used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. $7\cdot 10^{17} \frac{molec}{cm^2}$ is a relatively high column density. However, this this approach assures that no significant amount of gases will be filtered out, therefore the BrO/\ce{SO2} ratio will not be significantly influenced \citep{lubcke2014bro} and that all utilized measurement spectra will be inside of the volcano plume. 
+The other possibility is to set a \ce{SO2} threshold. In this thesis an \ce{SO2} threshold (plume limit) of $7\cdot 10^{17} \frac{molec}{cm^2}$ is used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. $7\cdot 10^{17} \frac{molec}{cm^2}$ is a relatively high column density. However, this this approach assures that no significant amount of gases will be filtered out, therefore the BrO/\ce{SO2} ratio will not be significantly influenced \citep{lubcke2014bro} and that all utilized measurement spectra will be inside of the volcano plume. \\
+Setting a plume limit leads to an decrease of usable data. The share of usable  data as a function of the plume limit is shown in \cref{fig:percentageminso2}. An exponential decrease of data can be observed. The plot is based on the data of Tungurahua. Plume limits below 7$\cdot10^{17}$ are shaded with yellow. A plume limit of 7$\cdot10^{17}$leads to a data share of approximately 10\%.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{Bilder/percentage_minSO2}
-	\caption{}
+	\caption{The decrease of the amount of usable data as a function of the plume limit. The plume limits below the actual plume limit of 7$\cdot10^{17}$ are marked with a yellow shade.}
 	\label{fig:percentageminso2}
 \end{figure}
 
@@ -145,6 +146,7 @@ Thus if contamination occurs it is possible to choose from a list of gas free al
 %
 \\
 As discussed above it might occur, that, that the reference is contaminated for example by the plume of the day before. If that happens, we underestimate the gas amount by using a contaminated reference. But another possibility is, that the plume is also contaminated. This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates at the instrument. If this is the case, using an other reference would lead to an overestimation of the column density of gases. With the data retrieved by the NOVAC instruments it is very difficult up to impossible to discover whether the plume is contaminated or not. \\
+\Cref{fig:contaminationdependencyso2} shows the strength of contamination as function of the mean SO2 amount of the day before. The strength of contamination is  measured as the difference when perform the evaluation for SO2 with the contaminated reference recorded as the same time as the plume spectrum was recorded and when using a gas free reference. The data where fitted with a linear function. The left plot shows data from the Tungurahua volcano, right the data of Nevado Del Ruiz are visualized. Even though both plots show a slightly increase of contamination strength with the mean amount of SO2 of the day before, the increase is not significant.\\
 \\
 However this thesis is build on the assumption, that the plume is free of additional contamination. In the following we discuss how to find the an optimal reference from another scan automatically.
 \begin{figure}
