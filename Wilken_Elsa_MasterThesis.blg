@@ -7,19 +7,15 @@ White space in argument---line 64 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Coppenheimer
  :                        2003}
 I'm skipping whatever remains of this command
-White space in argument---line 79 of file Wilken_Elsa_MasterThesis.aux
+White space in argument---line 76 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Bobrowski
  :                     2013}
 I'm skipping whatever remains of this command
-White space in argument---line 80 of file Wilken_Elsa_MasterThesis.aux
- : \citation{Bobrowski
- :                     2013}
-I'm skipping whatever remains of this command
-White space in argument---line 101 of file Wilken_Elsa_MasterThesis.aux
+White space in argument---line 96 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Hörman
  :                  et al 2013}
 I'm skipping whatever remains of this command
-White space in argument---line 102 of file Wilken_Elsa_MasterThesis.aux
+White space in argument---line 97 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Beirle
  :                  at al 2014}
 I'm skipping whatever remains of this command
@@ -78,4 +74,4 @@ warning$ -- 9
 while$ -- 157
 width$ -- 0
 write$ -- 497
-(There were 5 error messages)
+(There were 4 error messages)
