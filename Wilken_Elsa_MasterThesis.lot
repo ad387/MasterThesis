@@ -9,20 +9,19 @@
 \contentsline {table}{\numberline {6.1}{\ignorespaces Amount of Possible references while restricting the time span between plume and reference to two weeks.}}{44}{table.6.1}
 \contentsline {table}{\numberline {6.2}{\ignorespaces maximal Time difference is 3.358$^{\circ }C$}}{47}{table.6.2}
 \contentsline {table}{\numberline {6.3}{\ignorespaces maximal Datime difference is is 4.75h without I2J8546\_0 since the large uncertainty}}{49}{table.6.3}
-\contentsline {table}{\numberline {6.4}{\ignorespaces maximal Time difference is 3.358$^{\circ }C$,maximal daytime diff is 4.75h without}}{50}{table.6.4}
-\contentsline {table}{\numberline {6.5}{\ignorespaces Amount of Possible references while restricting the difference in colorindex between plume and reference to differences above 0.2553.}}{52}{table.6.5}
-\contentsline {table}{\numberline {6.6}{\ignorespaces Amount of Possible references while restricting the difference in colorindex between plume and reference to differences above 0.2553. maximal Time difference is 3.358$^{\circ }C$,maximal daytime diff is 4.75h without}}{53}{table.6.6}
-\contentsline {table}{\numberline {6.7}{\ignorespaces Amount of Possible references while restricting the difference in Exposure Time between plume and reference to differences below 632.25ms}}{57}{table.6.7}
-\contentsline {table}{\numberline {6.8}{\ignorespaces Amount of Possible references while restricting the difference in colorindex between plume and reference to differences above 0.2553. maximal Time difference is 3.358$^{\circ }C$,maximal daytime diff is 4.75h without Exposure Time between plume and reference to differences below 632.25ms}}{57}{table.6.8}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Amount of Possible references while restricting the difference in colorindex between plume and reference to differences above 0.2553.}}{52}{table.6.4}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Amount of Possible references while restricting the difference in colorindex between plume and reference to differences above 0.2553. maximal Time difference is 3.358$^{\circ }C$,maximal daytime diff is 4.75h without}}{52}{table.6.5}
+\contentsline {table}{\numberline {6.6}{\ignorespaces Amount of Possible references while restricting the difference in Exposure Time between plume and reference to differences below 632.25ms}}{57}{table.6.6}
+\contentsline {table}{\numberline {6.7}{\ignorespaces Amount of Possible references while restricting the difference in colorindex between plume and reference to differences above 0.2553. maximal Time difference is 3.358$^{\circ }C$,maximal daytime diff is 4.75h without Exposure Time between plume and reference to differences below 632.25ms}}{57}{table.6.7}
 \addvspace {10\p@ }
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz D2J2201\_0}}}{69}{subtable.7.0.4}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Data of Nevado Del Riz D2J2200\_0}}}{69}{subtable.7.0.4}
-\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Both Instruments}}}{69}{subtable.7.0.4}
-\contentsline {table}{\numberline {7.1}{\ignorespaces (a)Data from Nevado Del Ruiz from the D2J2201\_0 instrument. All external parameter where taken into account. $\epsilon _{0} = = 5.404e+12$ (b)Data from Nevado Del Ruiz from the D2J2200\_0 instrument. All external parameter where taken into account. $\epsilon _{0} = = 1.105e+13$ (c) Data from Nevado Del Ruiz from both instrument. All external parameter where taken into account. $\epsilon _{0} = 1.260e+13$}}{69}{table.7.1}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Data of Tungurahua D2J2201\_0}}}{70}{subtable.7.1.4}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Data of Tungurahua D2J2200\_0}}}{70}{subtable.7.1.4}
-\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Data of Tungurahua Both Instruments}}}{70}{subtable.7.1.4}
-\contentsline {table}{\numberline {7.2}{\ignorespaces (a)Data from Tungurahua from the instrument. All external parameter where taken into account. $\epsilon _{0} = = 5.404e+12$ (b)Data from Tungurahua from the instrument. All external parameter where taken into account. $\epsilon _{0} = = 1.105e+13$ (c) Data from Tungurahua from all instrument. All external parameter where taken into account. $\epsilon _{0} = 1.260e+13$}}{70}{table.7.2}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz D2J2201\_0}}}{70}{subtable.7.0.4}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Data of Nevado Del Riz D2J2200\_0}}}{70}{subtable.7.0.4}
+\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Both Instruments}}}{70}{subtable.7.0.4}
+\contentsline {table}{\numberline {7.1}{\ignorespaces (a)Data from Nevado Del Ruiz from the D2J2201\_0 instrument. All external parameter where taken into account. $\epsilon _{0} = = 5.404e+12$ (b)Data from Nevado Del Ruiz from the D2J2200\_0 instrument. All external parameter where taken into account. $\epsilon _{0} = = 1.105e+13$ (c) Data from Nevado Del Ruiz from both instrument. All external parameter where taken into account. $\epsilon _{0} = 1.260e+13$}}{70}{table.7.1}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Data of Tungurahua D2J2201\_0}}}{71}{subtable.7.1.4}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Data of Tungurahua D2J2200\_0}}}{71}{subtable.7.1.4}
+\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Data of Tungurahua Both Instruments}}}{71}{subtable.7.1.4}
+\contentsline {table}{\numberline {7.2}{\ignorespaces (a)Data from Tungurahua from the instrument. All external parameter where taken into account. $\epsilon _{0} = = 5.404e+12$ (b)Data from Tungurahua from the instrument. All external parameter where taken into account. $\epsilon _{0} = = 1.105e+13$ (c) Data from Tungurahua from all instrument. All external parameter where taken into account. $\epsilon _{0} = 1.260e+13$}}{71}{table.7.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
