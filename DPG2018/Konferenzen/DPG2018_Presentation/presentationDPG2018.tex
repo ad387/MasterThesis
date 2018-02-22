@@ -57,6 +57,7 @@
 %%------------------------------------------------
 % Various required packages
 \usepackage{eso-pic,picture}
+\usepackage{anyfontsize}
 \usepackage		[version=4]		{mhchem}
 \usepackage						{multirow}
 %\usepackage{amsthm} % Required for theorem environments
@@ -366,13 +367,15 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 
 
 \begin{frame}
-	\frametitle{\color{mygreen} NOVAC \hspace{2cm}
+	\frametitle{\color{mygreen} {\fontsize{14}{15}\selectfont Network for observation of volcanic and atmospheric change} \hspace{2cm}
 		\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-	Network for observation of volcanic and atmospheric change
+%	Network for observation of volcanic and atmospheric change
+	\vspace{-0.5cm}
 	\begin{columns}[T]
 		\only<1-3>{
 			\begin{column}{.5\textwidth}
-				\includegraphics[width=2.1\linewidth]{../../Bilder/NOVACPAD.pdf}
+				\centering
+				\includegraphics[width=2.1\linewidth]{../../Bilder/NOVACmap}
 			\end{column}
 			\hspace{2.2cm}
 			\begin{column}{.4\textwidth}
