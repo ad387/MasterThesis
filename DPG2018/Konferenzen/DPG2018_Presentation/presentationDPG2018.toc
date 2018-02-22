@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Motivation}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Network for Observation of Volcanic and Atmospheric Change (NOVAC)}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Differential Optical Absorption Spectroscopy (DOAS)}{8}{0}{1}
+\beamer@sectionintoc {2}{Influences on Reference}{31}{0}{2}
+\beamer@sectionintoc {3}{All year Data}{33}{0}{3}
