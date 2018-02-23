@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  22 FEB 2018 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  23 FEB 2018 18:45
 entering extended mode
 **./presentationDPG2018.tex
 (presentationDPG2018.tex
@@ -1239,6 +1239,12 @@ LaTeX Warning: Label `fig:doasfunction' multiply defined.
 
 LaTeX Warning: Label `fig:dddd' multiply defined.
 
+
+LaTeX Warning: Label `fig:doasfunction' multiply defined.
+
+
+LaTeX Warning: Label `fig:dddd' multiply defined.
+
 )
 \openout1 = `presentationDPG2018.aux'.
 
@@ -1269,12 +1275,12 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
-* \paperwidth=364.19536pt
-* \paperheight=273.14662pt
-* \textwidth=307.28987pt
-* \textheight=244.6939pt
+* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=398.3386pt
+* \textheight=227.62207pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
@@ -1499,28 +1505,28 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 <../../Bilder/so2_bro.png, id=44, 726.715pt x 492.84125pt>
 File: ../../Bilder/so2_bro.png Graphic file (type png)
 <use ../../Bilder/so2_bro.png>
-Package pdftex.def Info: ../../Bilder/so2_bro.png  used on input line 336. on i
-nput line 336.
-Package pdftex.def Info: Requested size: 178.37346pt x 120.969pt on input line 
-336.
+Package pdftex.def Info: ../../Bilder/so2_bro.png  used on input line 330. on i
+nput line 330.
+Package pdftex.def Info: Requested size: 213.5874pt x 144.84544pt on input line
+ 330.
 
-Overfull \hbox (29.72853pt too wide) in paragraph at lines 336--336
+Overfull \hbox (19.4181pt too wide) in paragraph at lines 330--330
  [] 
  []
 
 [2
 
  <../../Bilder/so2_bro.png>]
-<../../Bilder/NOVACmap.png, id=53, 703.12688pt x 414.79968pt>
+<../../Bilder/NOVACmap.png, id=54, 703.12688pt x 414.79968pt>
 File: ../../Bilder/NOVACmap.png Graphic file (type png)
 <use ../../Bilder/NOVACmap.png>
-Package pdftex.def Info: ../../Bilder/NOVACmap.png  used on input line 401. on 
-input line 401.
-Package pdftex.def Info: Requested size: 322.65527pt x 190.3418pt on input line
- 401.
+Package pdftex.def Info: ../../Bilder/NOVACmap.png  used on input line 366. on 
+input line 366.
+Package pdftex.def Info: Requested size: 239.00253pt x 140.99205pt on input lin
+e 366.
 
-Overfull \hbox (169.01035pt too wide) in paragraph at lines 401--401
- [][] 
+Overfull \hbox (39.83324pt too wide) in paragraph at lines 366--366
+[][]  
  []
 
 [3
@@ -1528,187 +1534,178 @@ Overfull \hbox (169.01035pt too wide) in paragraph at lines 401--401
  <../../Bilder/NOVACmap.png>]
 File: ../../Bilder/NOVACmap.png Graphic file (type png)
 <use ../../Bilder/NOVACmap.png>
-Package pdftex.def Info: ../../Bilder/NOVACmap.png  used on input line 401. on 
-input line 401.
-Package pdftex.def Info: Requested size: 322.65527pt x 190.3418pt on input line
- 401.
+Package pdftex.def Info: ../../Bilder/NOVACmap.png  used on input line 366. on 
+input line 366.
+Package pdftex.def Info: Requested size: 239.00253pt x 140.99205pt on input lin
+e 366.
 
-Overfull \hbox (169.01035pt too wide) in paragraph at lines 401--401
- [][] 
- []
-
-
-Overfull \vbox (71.35324pt too high) detected at line 401
+Overfull \hbox (39.83324pt too wide) in paragraph at lines 366--366
+[][]  
  []
 
 [4
 
 ]
-File: ../../Bilder/NOVACmap.png Graphic file (type png)
-<use ../../Bilder/NOVACmap.png>
-Package pdftex.def Info: ../../Bilder/NOVACmap.png  used on input line 401. on 
-input line 401.
-Package pdftex.def Info: Requested size: 322.65527pt x 190.3418pt on input line
- 401.
-
-Overfull \hbox (169.01035pt too wide) in paragraph at lines 401--401
- [][] 
- []
-
-[5
-
-]
-<../../Bilder/NOVAC2015SWTung.pdf, id=69, pagebox=cropbox, 558.085pt x 329.23pt
->
-File: ../../Bilder/NOVAC2015SWTung.pdf Graphic file (type pdf)
-<use ../../Bilder/NOVAC2015SWTung.pdf>
-Package pdftex.def Info: ../../Bilder/NOVAC2015SWTung.pdf  used on input line 4
-51. on input line 451.
-Package pdftex.def Info: Requested size: 341.43306pt x 201.42781pt on input lin
-e 451.
- [6
-
- <../../Bilder/NOVAC2015SWTung.pdf>]
-<../../Bilder/NOVAC2015SWst.pdf, id=83, pagebox=cropbox, 558.085pt x 329.23pt>
-File: ../../Bilder/NOVAC2015SWst.pdf Graphic file (type pdf)
-<use ../../Bilder/NOVAC2015SWst.pdf>
-Package pdftex.def Info: ../../Bilder/NOVAC2015SWst.pdf  used on input line 466
-. on input line 466.
-Package pdftex.def Info: Requested size: 341.43306pt x 201.42781pt on input lin
-e 466.
- [7
-
- <../../Bilder/NOVAC2015SWst.pdf>]
-<../../Bilder/DOASFunction.pdf, id=99, pagebox=cropbox, 589.20125pt x 455.7025p
+<../../Bilder/DOASFunction.pdf, id=65, pagebox=cropbox, 589.20125pt x 455.7025p
 t>
 File: ../../Bilder/DOASFunction.pdf Graphic file (type pdf)
 <use ../../Bilder/DOASFunction.pdf>
-Package pdftex.def Info: ../../Bilder/DOASFunction.pdf  used on input line 506.
- on input line 506.
-Package pdftex.def Info: Requested size: 148.64493pt x 114.9614pt on input line
- 506.
-<../../Bilder/dddd.pdf, id=100, pagebox=cropbox, 452.69125pt x 325.215pt>
+Package pdftex.def Info: ../../Bilder/DOASFunction.pdf  used on input line 431.
+ on input line 431.
+Package pdftex.def Info: Requested size: 165.04507pt x 127.65144pt on input lin
+e 431.
+<../../Bilder/dddd.pdf, id=66, pagebox=cropbox, 452.69125pt x 325.215pt>
 File: ../../Bilder/dddd.pdf Graphic file (type pdf)
 <use ../../Bilder/dddd.pdf>
-Package pdftex.def Info: ../../Bilder/dddd.pdf  used on input line 506. on inpu
-t line 506.
-Package pdftex.def Info: Requested size: 148.64493pt x 106.78534pt on input lin
-e 506.
+Package pdftex.def Info: ../../Bilder/dddd.pdf  used on input line 431. on inpu
+t line 431.
+Package pdftex.def Info: Requested size: 184.46024pt x 132.51526pt on input lin
+e 431.
 
-Overfull \vbox (7.45029pt too high) detected at line 506
+Overfull \vbox (21.40265pt too high) detected at line 431
  []
 
-[8
+[5
 
  <../../Bilder/DOASFunction.pdf> <../../Bilder/dddd.pdf
 
 pdfTeX warning: pdflatex.exe (file ../../Bilder/dddd.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
-File: ../../Bilder/DOASFunction.pdf Graphic file (type pdf)
-<use ../../Bilder/DOASFunction.pdf>
-Package pdftex.def Info: ../../Bilder/DOASFunction.pdf  used on input line 541.
- on input line 541.
-Package pdftex.def Info: Requested size: 148.64493pt x 114.9614pt on input line
- 541.
+<../../Bilder/ContaminationVis.pdf, id=136, pagebox=cropbox, 469.755pt x 341.27
+5pt>
+File: ../../Bilder/ContaminationVis.pdf Graphic file (type pdf)
+<use ../../Bilder/ContaminationVis.pdf>
+Package pdftex.def Info: ../../Bilder/ContaminationVis.pdf  used on input line 
+460. on input line 460.
+Package pdftex.def Info: Requested size: 194.1693pt x 141.06407pt on input line
+ 460.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:doasfunct
 ion}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.541 \end{frame}
+l.460 \end{frame}
                  
-<../../Bilder/SO2_Scan.png, id=171, 868.6854pt x 678.3744pt>
+<../../Bilder/SO2_Scan.png, id=137, 868.6854pt x 678.3744pt>
 File: ../../Bilder/SO2_Scan.png Graphic file (type png)
 <use ../../Bilder/SO2_Scan.png>
-Package pdftex.def Info: ../../Bilder/SO2_Scan.png  used on input line 541. on 
-input line 541.
-Package pdftex.def Info: Requested size: 148.64493pt x 116.07776pt on input lin
-e 541.
+Package pdftex.def Info: ../../Bilder/SO2_Scan.png  used on input line 460. on 
+input line 460.
+Package pdftex.def Info: Requested size: 194.1693pt x 151.6236pt on input line 
+460.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:dddd}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.541 \end{frame}
+l.460 \end{frame}
                  
-Overfull \vbox (9.45029pt too high) detected at line 541
+Overfull \vbox (28.64812pt too high) detected at line 460
  []
 
-[9
+[6
 
- <../../Bilder/SO2_Scan.png (PNG copy)>]
-<../../Bilder/contaminated.pdf, id=177, pagebox=cropbox, 370.38374pt x 341.275p
+ <../../Bilder/ContaminationVis.pdf> <../../Bilder/SO2_Scan.png (PNG copy)>]
+<../../Bilder/ContaminationVisualization.pdf, id=152, pagebox=cropbox, 469.755p
+t x 341.275pt>
+File: ../../Bilder/ContaminationVisualization.pdf Graphic file (type pdf)
+<use ../../Bilder/ContaminationVisualization.pdf>
+Package pdftex.def Info: ../../Bilder/ContaminationVisualization.pdf  used on i
+nput line 490. on input line 490.
+Package pdftex.def Info: Requested size: 174.75117pt x 126.95193pt on input lin
+e 490.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:doasfunct
+ion}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.490 		\end{frame}
+                   
+<../../Bilder/contaminated.pdf, id=153, pagebox=cropbox, 370.38374pt x 341.275p
 t>
 File: ../../Bilder/contaminated.pdf Graphic file (type pdf)
 <use ../../Bilder/contaminated.pdf>
-Package pdftex.def Info: ../../Bilder/contaminated.pdf  used on input line 558.
- on input line 558.
-Package pdftex.def Info: Requested size: 215.10196pt x 198.2pt on input line 55
-8.
-
-Overfull \vbox (34.60693pt too high) detected at line 558
+Package pdftex.def Info: ../../Bilder/contaminated.pdf  used on input line 490.
+ on input line 490.
+Package pdftex.def Info: Requested size: 174.75117pt x 161.01895pt on input lin
+e 490.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:dddd}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.490 		\end{frame}
+                   
+Overfull \vbox (21.9654pt too high) detected at line 490
  []
 
-[10
+[7
 
- <../../Bilder/contaminated.pdf>] [11
+ <../../Bilder/ContaminationVisualization.pdf> <../../Bilder/contaminated.pdf
 
-]
-<../../Bilder/Datum.png, id=195, 361.35pt x 433.62pt>
+pdfTeX warning: pdflatex.exe (file ../../Bilder/contaminated.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>]
+<../../Bilder/tung_so2_sametime_conbased.pdf, id=174, pagebox=cropbox, 505.89pt
+ x 361.35pt>
+File: ../../Bilder/tung_so2_sametime_conbased.pdf Graphic file (type pdf)
+<use ../../Bilder/tung_so2_sametime_conbased.pdf>
+Package pdftex.def Info: ../../Bilder/tung_so2_sametime_conbased.pdf  used on i
+nput line 518. on input line 518.
+Package pdftex.def Info: Requested size: 174.75117pt x 124.82027pt on input lin
+e 518.
+ [8
+
+ <../../Bilder/tung_so2_sametime_conbased.pdf>]
+<../../Bilder/Datum.png, id=222, 433.62pt x 361.35pt>
 File: ../../Bilder/Datum.png Graphic file (type png)
 <use ../../Bilder/Datum.png>
-Package pdftex.def Info: ../../Bilder/Datum.png  used on input line 597. on inp
-ut line 597.
-Package pdftex.def Info: Requested size: 156.07762pt x 187.29326pt on input lin
-e 597.
-
-Overfull \hbox (7.4327pt too wide) in paragraph at lines 597--597
- [] 
- []
-
-
-Overfull \vbox (23.29724pt too high) detected at line 597
- []
-
-[12
+Package pdftex.def Info: ../../Bilder/Datum.png  used on input line 542. on inp
+ut line 542.
+Package pdftex.def Info: Requested size: 165.04507pt x 137.54048pt on input lin
+e 542.
+ [9
 
  <../../Bilder/Datum.png>]
-<../../Bilder/Differcence_inTemperature[C].pdf, id=204, pagebox=cropbox, 648.42
+<../../Bilder/Differcence_inTemperature[C].pdf, id=231, pagebox=cropbox, 648.42
 25pt x 460.72125pt>
 File: ../../Bilder/Differcence_inTemperature[C].pdf Graphic file (type pdf)
 <use ../../Bilder/Differcence_inTemperature[C].pdf>
 Package pdftex.def Info: ../../Bilder/Differcence_inTemperature[C].pdf  used on
- input line 626. on input line 626.
-Package pdftex.def Info: Requested size: 142.26378pt x 101.07777pt on input lin
-e 626.
-<../../Bilder/Differcence_inExposureTime[ms].pdf, id=205, pagebox=cropbox, 648.
+ input line 572. on input line 572.
+Package pdftex.def Info: Requested size: 134.43835pt x 95.52406pt on input line
+ 572.
+<../../Bilder/Differcence_inExposureTime[ms].pdf, id=232, pagebox=cropbox, 648.
 4225pt x 460.72125pt>
 File: ../../Bilder/Differcence_inExposureTime[ms].pdf Graphic file (type pdf)
 <use ../../Bilder/Differcence_inExposureTime[ms].pdf>
 Package pdftex.def Info: ../../Bilder/Differcence_inExposureTime[ms].pdf  used 
-on input line 626. on input line 626.
-Package pdftex.def Info: Requested size: 142.26378pt x 101.07777pt on input lin
-e 626.
-<../../Bilder/Differcence_in_DayTime[h]a.pdf, id=206, pagebox=cropbox, 641.3962
+on input line 572. on input line 572.
+Package pdftex.def Info: Requested size: 134.43835pt x 95.52406pt on input line
+ 572.
+<../../Bilder/Differcence_in_DayTime[h]a.pdf, id=233, pagebox=cropbox, 641.3962
 6pt x 460.72125pt>
 File: ../../Bilder/Differcence_in_DayTime[h]a.pdf Graphic file (type pdf)
 <use ../../Bilder/Differcence_in_DayTime[h]a.pdf>
 Package pdftex.def Info: ../../Bilder/Differcence_in_DayTime[h]a.pdf  used on i
-nput line 626. on input line 626.
-Package pdftex.def Info: Requested size: 142.26378pt x 102.18852pt on input lin
-e 626.
-<../../Bilder/Differcence_inColorindex.pdf, id=207, pagebox=cropbox, 648.4225pt
+nput line 572. on input line 572.
+Package pdftex.def Info: Requested size: 134.43835pt x 96.5645pt on input line 
+572.
+<../../Bilder/Differcence_inColorindex.pdf, id=234, pagebox=cropbox, 648.4225pt
  x 460.72125pt>
 File: ../../Bilder/Differcence_inColorindex.pdf Graphic file (type pdf)
 <use ../../Bilder/Differcence_inColorindex.pdf>
 Package pdftex.def Info: ../../Bilder/Differcence_inColorindex.pdf  used on inp
-ut line 626. on input line 626.
-Package pdftex.def Info: Requested size: 142.26378pt x 101.07777pt on input lin
-e 626.
+ut line 572. on input line 572.
+Package pdftex.def Info: Requested size: 134.43835pt x 95.52406pt on input line
+ 572.
 
-Overfull \vbox (14.21196pt too high) detected at line 626
+Overfull \hbox (2.84285pt too wide) detected at line 572
+[][][] [][][][][][][][][] [][][][][][][] 
  []
 
-[13
+
+Overfull \vbox (14.14886pt too high) detected at line 572
+ []
+
+[10
 
  <../../Bilder/Differcence_inTemperature[C].pdf> <../../Bilder/Differcence_inEx
 posureTime[ms].pdf
@@ -1724,39 +1721,39 @@ pdfTeX warning: pdflatex.exe (file ../../Bilder/Differcence_in_DayTime[h]a.pdf)
 pdfTeX warning: pdflatex.exe (file ../../Bilder/Differcence_inColorindex.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<../../Bilder/tung_so2_novac_conbased.pdf, id=247, pagebox=cropbox, 505.89pt x 
+<../../Bilder/tung_so2_novac_conbased.pdf, id=273, pagebox=cropbox, 505.89pt x 
 433.62pt>
 File: ../../Bilder/tung_so2_novac_conbased.pdf Graphic file (type pdf)
 <use ../../Bilder/tung_so2_novac_conbased.pdf>
 Package pdftex.def Info: ../../Bilder/tung_so2_novac_conbased.pdf  used on inpu
-t line 648. on input line 648.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 648.
-<../../Bilder/so2_novac_conbased.pdf, id=248, pagebox=cropbox, 505.89pt x 433.6
+t line 604. on input line 604.
+Package pdftex.def Info: Requested size: 195.1881pt x 167.30481pt on input line
+ 604.
+<../../Bilder/so2_novac_conbased.pdf, id=274, pagebox=cropbox, 505.89pt x 433.6
 2pt>
 File: ../../Bilder/so2_novac_conbased.pdf Graphic file (type pdf)
 <use ../../Bilder/so2_novac_conbased.pdf>
 Package pdftex.def Info: ../../Bilder/so2_novac_conbased.pdf  used on input lin
-e 648. on input line 648.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 648.
+e 604. on input line 604.
+Package pdftex.def Info: Requested size: 195.1881pt x 167.30481pt on input line
+ 604.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 648.
+(Font)              <14.4> on input line 604.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 648.
+(Font)              <10> on input line 604.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 648.
+(Font)              <7> on input line 604.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 648.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 604.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 648.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 604.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 648.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 604.
 
-Overfull \vbox (9.98782pt too high) detected at line 648
+Overfull \vbox (7.9223pt too high) detected at line 604
  []
 
-[14
+[11
 
  <../../Bilder/tung_so2_novac_conbased.pdf> <../../Bilder/so2_novac_conbased.pd
 f
@@ -1764,61 +1761,27 @@ f
 pdfTeX warning: pdflatex.exe (file ../../Bilder/so2_novac_conbased.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-File: ../../Bilder/tung_so2_novac_conbased.pdf Graphic file (type pdf)
-<use ../../Bilder/tung_so2_novac_conbased.pdf>
-Package pdftex.def Info: ../../Bilder/tung_so2_novac_conbased.pdf  used on inpu
-t line 648. on input line 648.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 648.
-File: ../../Bilder/so2_novac_conbased.pdf Graphic file (type pdf)
-<use ../../Bilder/so2_novac_conbased.pdf>
-Package pdftex.def Info: ../../Bilder/so2_novac_conbased.pdf  used on input lin
-e 648. on input line 648.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 648.
-
-Overfull \vbox (9.98782pt too high) detected at line 648
- []
-
-[15
-
-]
-File: ../../Bilder/tung_so2_novac_conbased.pdf Graphic file (type pdf)
-<use ../../Bilder/tung_so2_novac_conbased.pdf>
-Package pdftex.def Info: ../../Bilder/tung_so2_novac_conbased.pdf  used on inpu
-t line 648. on input line 648.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 648.
-File: ../../Bilder/so2_novac_conbased.pdf Graphic file (type pdf)
-<use ../../Bilder/so2_novac_conbased.pdf>
-Package pdftex.def Info: ../../Bilder/so2_novac_conbased.pdf  used on input lin
-e 648. on input line 648.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 648.
-
-Overfull \vbox (9.98782pt too high) detected at line 648
- []
-
-[16
-
-]
-<../../Bilder/tung_bro_novac_conbased.pdf, id=344, pagebox=cropbox, 505.89pt x 
+<../../Bilder/tung_bro_novac_conbased.pdf, id=362, pagebox=cropbox, 505.89pt x 
 433.62pt>
 File: ../../Bilder/tung_bro_novac_conbased.pdf Graphic file (type pdf)
 <use ../../Bilder/tung_bro_novac_conbased.pdf>
 Package pdftex.def Info: ../../Bilder/tung_bro_novac_conbased.pdf  used on inpu
-t line 665. on input line 665.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 665.
-<../../Bilder/bro_novac_conbased.pdf, id=345, pagebox=cropbox, 505.89pt x 433.6
+t line 628. on input line 628.
+Package pdftex.def Info: Requested size: 195.1881pt x 167.30481pt on input line
+ 628.
+<../../Bilder/bro_novac_conbased.pdf, id=363, pagebox=cropbox, 505.89pt x 433.6
 2pt>
 File: ../../Bilder/bro_novac_conbased.pdf Graphic file (type pdf)
 <use ../../Bilder/bro_novac_conbased.pdf>
 Package pdftex.def Info: ../../Bilder/bro_novac_conbased.pdf  used on input lin
-e 665. on input line 665.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 665.
- [17
+e 628. on input line 628.
+Package pdftex.def Info: Requested size: 195.1881pt x 167.30481pt on input line
+ 628.
+
+Overfull \vbox (7.9223pt too high) detected at line 628
+ []
+
+[12
 
  <../../Bilder/tung_bro_novac_conbased.pdf> <../../Bilder/bro_novac_conbased.pd
 f
@@ -1826,80 +1789,66 @@ f
 pdfTeX warning: pdflatex.exe (file ../../Bilder/bro_novac_conbased.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-File: ../../Bilder/tung_bro_novac_conbased.pdf Graphic file (type pdf)
-<use ../../Bilder/tung_bro_novac_conbased.pdf>
-Package pdftex.def Info: ../../Bilder/tung_bro_novac_conbased.pdf  used on inpu
-t line 665. on input line 665.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 665.
-File: ../../Bilder/bro_novac_conbased.pdf Graphic file (type pdf)
-<use ../../Bilder/bro_novac_conbased.pdf>
-Package pdftex.def Info: ../../Bilder/bro_novac_conbased.pdf  used on input lin
-e 665. on input line 665.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 665.
- [18
-
-]
-File: ../../Bilder/tung_bro_novac_conbased.pdf Graphic file (type pdf)
-<use ../../Bilder/tung_bro_novac_conbased.pdf>
-Package pdftex.def Info: ../../Bilder/tung_bro_novac_conbased.pdf  used on inpu
-t line 665. on input line 665.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 665.
-File: ../../Bilder/bro_novac_conbased.pdf Graphic file (type pdf)
-<use ../../Bilder/bro_novac_conbased.pdf>
-Package pdftex.def Info: ../../Bilder/bro_novac_conbased.pdf  used on input lin
-e 665. on input line 665.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 665.
- [19
-
-]
-<../../Bilder/tung_ratio_novac_conbased.pdf, id=439, pagebox=cropbox, 505.89pt 
+<../../Bilder/tung_ratio_novac_conbased.pdf, id=451, pagebox=cropbox, 505.89pt 
 x 433.62pt>
 File: ../../Bilder/tung_ratio_novac_conbased.pdf Graphic file (type pdf)
 <use ../../Bilder/tung_ratio_novac_conbased.pdf>
 Package pdftex.def Info: ../../Bilder/tung_ratio_novac_conbased.pdf  used on in
-put line 680. on input line 680.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 680.
-<../../Bilder/ratio_novac_conbased.pdf, id=440, pagebox=cropbox, 505.89pt x 433
+put line 648. on input line 648.
+Package pdftex.def Info: Requested size: 195.1881pt x 167.30481pt on input line
+ 648.
+<../../Bilder/ratio_novac_conbased.pdf, id=452, pagebox=cropbox, 505.89pt x 433
 .62pt>
 File: ../../Bilder/ratio_novac_conbased.pdf Graphic file (type pdf)
 <use ../../Bilder/ratio_novac_conbased.pdf>
 Package pdftex.def Info: ../../Bilder/ratio_novac_conbased.pdf  used on input l
-ine 680. on input line 680.
-Package pdftex.def Info: Requested size: 150.57372pt x 129.06145pt on input lin
-e 680.
- [20
+ine 648. on input line 648.
+Package pdftex.def Info: Requested size: 195.1881pt x 167.30481pt on input line
+ 648.
+
+Overfull \vbox (7.9223pt too high) detected at line 648
+ []
+
+[13
 
  <../../Bilder/tung_ratio_novac_conbased.pdf> <../../Bilder/ratio_novac_conbase
 d.pdf
 
 pdfTeX warning: pdflatex.exe (file ../../Bilder/ratio_novac_conbased.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->] [21
+>]
+<../../Bilder/tung_so2_sametime.pdf, id=539, pagebox=cropbox, 505.89pt x 361.35
+pt>
+File: ../../Bilder/tung_so2_sametime.pdf Graphic file (type pdf)
+<use ../../Bilder/tung_so2_sametime.pdf>
+Package pdftex.def Info: ../../Bilder/tung_so2_sametime.pdf  used on input line
+ 669. on input line 669.
+Package pdftex.def Info: Requested size: 278.83578pt x 199.17319pt on input lin
+e 669.
 
-] [22
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 735--735
-[]\T1/lmss/m/n/10.95 (+20) Nevado Del
+Overfull \vbox (18.63014pt too high) detected at line 669
  []
 
+[14
 
-Underfull \hbox (badness 10000) in paragraph at lines 735--735
-[]\T1/lmss/m/n/10.95 (+20) not
+ <../../Bilder/tung_so2_sametime.pdf>]
+<../../Bilder/tung_so2_novac_sametime.pdf, id=587, pagebox=cropbox, 505.89pt x 
+361.35pt>
+File: ../../Bilder/tung_so2_novac_sametime.pdf Graphic file (type pdf)
+<use ../../Bilder/tung_so2_novac_sametime.pdf>
+Package pdftex.def Info: ../../Bilder/tung_so2_novac_sametime.pdf  used on inpu
+t line 669. on input line 669.
+Package pdftex.def Info: Requested size: 278.83578pt x 199.17319pt on input lin
+e 669.
+
+Overfull \vbox (18.63014pt too high) detected at line 669
  []
 
-[23
+[15
 
-] [24
+ <../../Bilder/tung_so2_novac_sametime.pdf>] [16
 
-] [25
-
-] [26
+] [17
 
 ]
 \tf@nav=\write6
@@ -1911,28 +1860,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 735--735
 \tf@snm=\write8
 \openout8 = `presentationDPG2018.snm'.
 
- 
+
+
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 785.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 785.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 767.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 767.
 (presentationDPG2018.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 785.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 785.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 767.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 767.
 Package rerunfilecheck Info: File `presentationDPG2018.out' has not changed.
-(rerunfilecheck)             Checksum: 9111E5101FC2F79E82132D94B38218CA;375.
+(rerunfilecheck)             Checksum: A8D7C641BFF8ABFEAC7ED1B30711628A;375.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31920 strings out of 493312
- 634328 string characters out of 3138883
- 741135 words of memory out of 3000000
- 34784 multiletter control sequences out of 15000+200000
- 606653 words of font info for 91 fonts, out of 3000000 for 9000
+ 31880 strings out of 493312
+ 634228 string characters out of 3138883
+ 741219 words of memory out of 3000000
+ 34761 multiletter control sequences out of 15000+200000
+ 600975 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,14n,59p,10390b,677s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,12n,59p,10390b,677s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
@@ -1942,15 +1892,14 @@ fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss
-bx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/sy
-mbols/msam10.pfb>
-Output written on presentationDPG2018.pdf (26 pages, 3983200 bytes).
+pe1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
+msso10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/symbols/msam10.pfb>
+Output written on presentationDPG2018.pdf (17 pages, 2628503 bytes).
 PDF statistics:
- 616 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 24760 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 703 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 22215 words of extra memory for PDF output out of 24883 (max. 10000000)
 

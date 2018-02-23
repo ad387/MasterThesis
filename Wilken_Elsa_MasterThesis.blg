@@ -17,15 +17,16 @@ White space in argument---line 98 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Beirle
  :                  at al 2014}
 I'm skipping whatever remains of this command
-White space in argument---line 439 of file Wilken_Elsa_MasterThesis.aux
+White space in argument---line 438 of file Wilken_Elsa_MasterThesis.aux
  : \citation{geeignete
  :                     quelle,irgendwo hab ich das schon gehoert}
 I'm skipping whatever remains of this command
 The style file: plainnat.bst
 A level-1 auxiliary file: deposition.aux
 Database file #1: references.bib
-Warning--I didn't find a database entry for "gerlach2004volcanic"
 Warning--I didn't find a database entry for "Seinfeld"
+Warning--I didn't find a database entry for "bobrowski2007so2"
+Warning--I didn't find a database entry for "vogel2011volcanic"
 Warning--to sort, need author or key in NOVACsite
 Warning--to sort, need author or key in SKlearn
 Warning--empty year in NOVACsite
@@ -33,6 +34,5 @@ Warning--empty year in SKlearn
 Warning--can't use both author and editor fields in IPCC
 Warning--empty school in kern2009spectroscopic
 Warning--empty school in lubcke2014optical
-Warning--empty school in vogel2011volcanic
 Warning--empty school in WarnachSimon
 (There were 5 error messages)

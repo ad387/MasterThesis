@@ -1,4 +1,4 @@
-\begin{thebibliography}{38}
+\begin{thebibliography}{37}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,12 +15,6 @@
 \newblock
   \url{http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html}.
 \newblock Accessed: 2018-01-19.
-
-\bibitem[Bobrowski and Platt(2007)]{bobrowski2007so2}
-N~Bobrowski and U~Platt.
-\newblock So2/bro ratios studied in five volcanic plumes.
-\newblock \emph{Journal of Volcanology and Geothermal Research}, 166\penalty0
-  (3-4):\penalty0 147--160, 2007.
 
 \bibitem[Bobrowski et~al.(2007)Bobrowski, Von~Glasow, Aiuppa, Inguaggiato,
   Louban, Ibrahim, and Platt]{bobrowski2007reactive}
@@ -70,6 +64,11 @@ Bo~Galle, Mattias Johansson, Claudia Rivera, Yan Zhang, Manne Kihlman,
   instrument description.
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 115\penalty0
   (D5), 2010.
+
+\bibitem[Gerlach(2004)]{gerlach2004volcanic}
+TM~Gerlach.
+\newblock Volcanic sources of tropospheric ozone-depleting trace gases.
+\newblock \emph{Geochemistry, Geophysics, Geosystems}, 5\penalty0 (9), 2004.
 
 \bibitem[Graf et~al.(1997)Graf, Feichter, and Langmann]{graf1997volcanic}
 Hans-F Graf, Johann Feichter, and B{\"a}rbel Langmann.
@@ -254,12 +253,6 @@ Ann~Carine Vandaele, Christian Hermans, and Sophie Fally.
   Temperature dependence in the 29 000--44 000 cm- 1 (227--345 nm) region.
 \newblock \emph{Journal of Quantitative Spectroscopy and Radiative Transfer},
   110\penalty0 (18):\penalty0 2115--2126, 2009.
-
-\bibitem[Vogel(2011)]{vogel2011volcanic}
-Leif Vogel.
-\newblock \emph{Volcanic plumes: Evaluation of spectroscopic measurements,
-  early detection, and bromine chemistry}.
-\newblock PhD thesis, 2011.
 
 \bibitem[Wagner et~al.(2014)Wagner, Apituley, Beirle, D{\"o}rner, Friess,
   Remmers, and Shaiganfar]{wagner2014cloud}

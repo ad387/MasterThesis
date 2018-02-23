@@ -20,7 +20,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %%----------------------------------------------------------------------------------------
 
-\documentclass{beamer} % KOMA script (article)
+\documentclass[aspectratio=169]{beamer} % KOMA script (article)
 
 \linespread{1.12} % Increase line spacing for readability
 %
@@ -182,8 +182,8 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 	
 \end{flushright}} % Presenters name(s)
 \newcommand*{\mydate}{\today} % Presentation date
-\newcommand*{\myuni}{$^1$Heidelberg University --- Institute of Environmental Physics\\
-	$^2$MPIC Mainz\hspace{7.4cm} \textcolor{white}{.}\\} % University or department
+\newcommand*{\myuni}{$^1$Heidelberg University --- Institute of Environmental Physics\hspace{2.44cm}\textcolor{white}{.}\\
+	$^2$Max-Planck-Institut for Chemistry\hspace{6.4cm} \textcolor{white}{.}\\} % University or department
 
 %%
 %%%%----------------------------------------------------------------------------------------
@@ -202,7 +202,7 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 		% Title slide - you may have to tweak a few of the numbers if you wish to make changes to the layout
 		\thispagestyle{empty} % No slide header and footer
 		\begin{tikzpicture}[remember picture,overlay] % Background box
-		\node [xshift=\paperwidth/2,yshift=\paperheight/1.7] at (current page.south west)[rectangle,fill,inner sep=0pt,minimum width=\paperwidth,minimum height=\paperheight/2.5,top color=mygreen,bottom color=mygreen]{}; % Change the height of the box, its colors and position on the page here
+		\node [xshift=\paperwidth/2,yshift=\paperheight/1.7] at (current page.south west)[rectangle,fill,inner sep=0pt,minimum width=\paperwidth,minimum height=\paperheight/2.2,top color=mygreen,bottom color=mygreen]{}; % Change the height of the box, its colors and position on the page here
 		\end{tikzpicture}
 		% Text within the box
 		\begin{flushright}
@@ -314,21 +314,15 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 	\frametitle{\color{mygreen}Motivation for BrO measurements\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
 		\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
 	\begin{multicols}{2}
-		
-		
-		\begin{itemize}
-			
-			
-			
-			\item The ratio of BrO and SO$_2$ changes with degassing source depth
-			%\item Remote sensing: BrO and SO$_2$
-			\item The ratio of BrO and SO$_2$ is a proxy for the volcanic activity
-			\item Change in BrO/SO$_2$ prior to eruption observed at Etna and Nevado del Ruiz
-			
+		\begin{itemize}	
+			\item The ratio of BrO and SO$_2$ changes with degassing source depth\\
+			$\rightarrow$ The ratio of BrO and SO$_2$ is a proxy for the volcanic activity
+			\item Change in BrO/SO$_2$ prior to eruption observed at Etna and Nevado del Ruiz	
+			\item Within NOVAC we are able to measure BrO and So2
 		\end{itemize}
 		\begin{figure}
 			\centering
-			\includegraphics[width=1.2\linewidth]{../../Bilder/so2_bro}
+			\includegraphics[width=1.1\linewidth]{../../Bilder/so2_bro}
 			\label{fig:bro_so2}
 		\end{figure}
 		
@@ -343,139 +337,70 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 
 
 \subsection{Network for Observation of Volcanic and Atmospheric Change (NOVAC)}
-
-%\textit{Initially} founded by European union. between 2005 and 2010
-%Over 80 Instruments are installed at about 30 active volcanoes (most in south America, few in arfrica, europe)\\
-%each volcano is typically monitored with two to four Novac stations.\\
-%\textit{Location}: typically located 5-10 km downwind
-%\textit{saved in} on servers at chalmers university sweden, uni Heidelberg, belgian Institute for space astronomy
-%\textit{Goal} Obtain Data about the volcanic emissions in real time in order to gain another quantity used in immanent risk assessment\\
-%continuous data recording\\
-%halogen sulfur ratio can be used as a proxy for volcanic processes\\
-%begin{frame}
-%\frametitle{\color{mygreen}Network for Observation of Volcanic and Atmospheric Change (NOVAC)\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
-%\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-%\begin{enumerate}
-%\item \textit{Initially} founded by European union (2005-2010)
-%\item Each volcano is typically monitored with two to four Novac stations.\\
-%\item \textit{Location}: typically located 5-10 km downwind
-%\item continuous data recording\\
-
-%\end{enumerate}
-%\end{frame}
-
-
-
 \begin{frame}
-	\frametitle{\color{mygreen} {\fontsize{14}{15}\selectfont Network for observation of volcanic and atmospheric change} \hspace{2cm}
+	\frametitle{\color{mygreen}  Network for observation of volcanic and atmospheric change (NOVAC) \hspace{2cm}
 		\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
 %	Network for observation of volcanic and atmospheric change
 	\vspace{-0.5cm}
 	\begin{columns}[T]
-		\only<1-3>{
 			\begin{column}{.5\textwidth}
-				\centering
-				\includegraphics[width=2.1\linewidth]{../../Bilder/NOVACmap}
+			\only<1-2>{	
+				\includegraphics[width=1.2\linewidth]{../../Bilder/NOVACmap}}
+	%		\only<3>{	
+	%			\includegraphics[width=1.2\linewidth]{../../Bilder/NOVAC2015SWTung}}
+	%		\only<4>{	
+	%			\includegraphics[width=1.2\linewidth]{../../Bilder/NOVAC2015SWst}}
 			\end{column}
 			\hspace{2.2cm}
 			\begin{column}{.4\textwidth}
-				\only<2>{
-					\vspace{1.1cm}
-					\begin{itemize}
-						\item about 40 volcanoes
-						\item 2-5 spectrometers at each volcano
-					\end{itemize}  }  
-				\visible<3>{
-						\vspace{1.1cm}
+				\visible<2->{
 						\begin{itemize}
 							\item Primary use of data SO$_2$ flux monitoring
-							\item L{\"u}bke et al (2014) also retrieved BrO
+							\item L{\"u}bcke et al (2014) also retrieved BrO
 							\item BrO close to detection limit
 							\item Here we investigate techniques to improve the BrO evaluation from NOVAC data
 						\end{itemize}
 						}
-			\end{column}}
-%
-		\end{columns}
-		
-	\end{frame}
-	
-	
-	
-	%\begin{frame}
-	%\frametitle{\color{mygreen}Network for Observation of Volcanic and Atmospheric Change (NOVAC)\\
-	%\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-	%%\setbeamercovered{transparent}
-	%
-	%  \begin{columns}[T]
-	%    \begin{column}{.5\textwidth}
-	%
-	%% Your image included here
-	%    \includegraphics[width=2\linewidth]{../Bilder/Presentation1_3_trans}
-	%
-	%    \end{column}
-	%    
-	%
-	%    \begin{column}{.5\textwidth}
-	%\textbf{
-	%	\begin{enumerate}
-	%	\item \textit{Initially} founded by European union (2005-2010)
-	%	\pause
-	%	\item Each volcano is typically monitored with two to four Novac stations.\\
-	%	\pause
-	%	\item \textit{Location}: typically located 5-10 km downwind
-	%	\pause
-	%	\item continuous data recording\\
-	%	\end{enumerate}
-	%}
-	%    \end{column}
-	%  \end{columns}
-	%\end{frame}
-	
-	
-	
-	
-	
-	\begin{frame}
-		\frametitle{\color{mygreen}Measurements at Tungurahua\\
-			\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-		\vspace{-0.1cm}
-		\begin{columns}
-			\begin{column}{12cm}
-				%\hspace{-2cm}
-				\includegraphics[width=1.0\linewidth]{../../Bilder/NOVAC2015SWTung}
 			\end{column}
-		\end{columns}
-		%
-		
+		\end{columns}		
 	\end{frame}
-	
-	
-	\begin{frame}
-		\frametitle{\color{mygreen}One of the NOVAC stations at Tungurahua\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
-			\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-		\vspace{-0.1cm}
-		\begin{columns}
-			\begin{column}{12cm}
-				%\hspace{-2cm}
-				\includegraphics[width=1.\linewidth]{../../Bilder/NOVAC2015SWst}
-			\end{column}
-		\end{columns}
-		
-		
-	\end{frame}
+
+%	\begin{frame}
+%		\frametitle{\color{mygreen}Measurements at Tungurahua\\
+%			\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
+%		\vspace{-0.1cm}
+%		\begin{columns}
+%			\begin{column}{12cm}
+%				%\hspace{-2cm}
+%				\includegraphics[width=1.0\linewidth]{../../Bilder/NOVAC2015SWTung}
+%			\end{column}
+%		\end{columns}
+%		%	
+%	\end{frame}
+%	
+%	
+%	\begin{frame}
+%		\frametitle{\color{mygreen}One of the NOVAC stations at Tungurahua\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
+%			\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
+%		\vspace{-0.1cm}
+%		\begin{columns}
+%			\begin{column}{12cm}
+%				%\hspace{-2cm}
+%				\includegraphics[width=1.\linewidth]{../../Bilder/NOVAC2015SWst}
+%			\end{column}
+%		\end{columns}
+%		
+%		
+%	\end{frame}
 	
 	
 	%%----------------------------------------------------------------------------------------
 	
 	
 	\subsection{Differential Optical Absorption Spectroscopy (DOAS)}
-	
-	
 	\begin{frame}
 		\frametitle{\color{mygreen}Differential optical absorption spectroscopy (DOAS)\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
 		\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-
 	\vspace{-1cm}
 	\begin{block}{}
 		\begin{multicols}{2}
@@ -487,19 +412,19 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 			\textbf{Optical density}
 			\vspace{-0.5cm}
 			\begin{equation*}
-			\tau_{i} = ln\left(\frac{I(\lambda)}{I^{'}_{0}\left(\lambda\right)}\right) = S\cdot\sigma_{i}
+			\tau_{i} = ln\left(\frac{I^{'}_{0}\left(\lambda\right)}{I(\lambda)}\right) = S\cdot\sigma_{i}
 			\end{equation*}
 		\end{multicols}	
 	\end{block}
 	\begin{multicols}{2}
 		\begin{figure}
 			\centering
-			\includegraphics[width=1\linewidth]{../../Bilder/DOASFunction}
+			\includegraphics[width=0.85\linewidth]{../../Bilder/DOASFunction}
 			\label{fig:doasfunction}
 		\end{figure}
 	\begin{figure}
 		\centering
-		\includegraphics[width=1\linewidth]{../../Bilder/dddd}
+		\includegraphics[width=0.95\linewidth]{../../Bilder/dddd}
 		\label{fig:dddd}
 	\end{figure}	
 	\end{multicols}
@@ -514,22 +439,16 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 \vspace{-1cm}
 \begin{block}{}
 	\begin{multicols}{2}
-		\textbf{Lambert-Beer Law} \\
-		\vspace{-0.5cm}
-		\begin{equation*}
-		\hspace*{-0.9cm}I\left(\lambda \right) = I^{'}_{0}\left(\lambda\right)\cdot exp\left(\sum_{i}\sigma_{i}\cdot c_{i}\cdot L \right)
-		\end{equation*}
-		\textbf{Optical density}
-		\vspace{-0.5cm}
-		\begin{equation*}
-		\tau_{i} = ln\left(\frac{I(\lambda)}{I^{'}_{0}\left(\lambda\right)}\right) = S\cdot\sigma_{i}
-		\end{equation*}
+		\begin{itemize}
+			\item Scan under difference viewing angles
+			\item Retrieve Plume location from SO2 Fit
+		\end{itemize}
 	\end{multicols}	
 \end{block}
 \begin{multicols}{2}
 	\begin{figure}
 		\centering
-		\includegraphics[width=1\linewidth]{../../Bilder/DOASFunction}
+		\includegraphics[width=1\linewidth]{../../Bilder/ContaminationVis}
 		\label{fig:doasfunction}
 	\end{figure}
 	\begin{figure}
@@ -541,22 +460,35 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 \end{frame}
 
 
-
-
-
-	
 	\begin{frame}
-		\frametitle{\color{mygreen}Contamination\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
-		\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-		\begin{figure}
-			\centering
-			\includegraphics[width=0.7\linewidth]{../../Bilder/contaminated}
-			\caption{}
-			\label{fig:contaminated}
-		\end{figure}
-	
-	\end{frame}	
-	
+		\frametitle{\color{mygreen}Contamination Problem\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
+			\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
+		
+		\vspace{-1cm}
+		\begin{block}{}
+
+				\begin{itemize}
+					\item If the whole scan is covered in the plume\\
+					\quad -the reference is contaminated
+				\end{itemize}
+
+		\end{block}
+	\vspace{1cm}
+		\begin{multicols}{2}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.9\linewidth]{../../Bilder/ContaminationVisualization}
+				\label{fig:doasfunction}
+			\end{figure}
+			\begin{figure}
+				\centering
+				\vspace*{-1.7cm}
+				\includegraphics[width=0.9\linewidth]{../../Bilder/contaminated}
+				\label{fig:dddd}
+			\end{figure}	
+		\end{multicols}
+		\end{frame}
+
 
 			
 
@@ -564,12 +496,25 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 			\frametitle{\color{mygreen} Checking for contamination\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
 				\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
 			\vspace{-0.2cm}
-			\begin{itemize}
-				\item Possible contaminations can be checked
-				by a theoretical solar atlas spectrum to evaluate the \ce{SO2} amount in the reference.
-				\item Data are contaminated if the \ce{SO2} amount in the reference is above $2\cdot 10^{17}$ 
-				\item Only accept \ce{SO2} SCDs above the plume limit of $7\cdot 10^{17} \frac{molec}{cm^2}$
-			\end{itemize}
+			\begin{multicols}{2}	
+				\vspace{-0.5cm}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.9\linewidth]{../../Bilder/tung_so2_sametime_conbased}
+				\label{fig:tungso2sametimeconbased}
+			\end{figure}	
+		\vspace{-0.5cm}	
+				\begin{itemize}
+					\item Data are contaminated if the \ce{SO2} amount in the reference is above $2\cdot 10^{17}$ 
+					\item Only accept \ce{SO2} SCDs above the plume limit of $7\cdot 10^{17} \frac{molec}{cm^2}$
+				\end{itemize}
+
+		\begin{itemize}
+			\item  Possible contaminations can be checked
+			by a theoretical solar atlas spectrum to evaluate the \ce{SO2} amount in the reference.
+			\item BrO can not evaluated by performing the retrieval with a solar atlas spectrum due to the small BrO amount in the plume
+		\end{itemize}
+			\end{multicols}
 		\end{frame}
 		%%--------------------------------------------------------
 		
@@ -577,15 +522,15 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 		\begin{frame}
 			\frametitle{\color{mygreen}Temporal difference between the reference and the plume \\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
 				\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-			\vspace{-0.2cm}
+			\vspace{-0.51cm}
 			\begin{multicols}{2}
-				
+				\vspace{-4cm}
 				\begin{figure}
 					\centering
-					\includegraphics[width=1.05\linewidth]{../../Bilder/Datum}
+					\includegraphics[width=0.85\linewidth]{../../Bilder/Datum}
 					\label{fig:Datum}
 				\end{figure}
-				\newpage
+		%		\newpage
 				\vspace*{0.5cm}
 				\begin{itemize}
 					\item Increase of BrO error with temporal difference
@@ -599,30 +544,31 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 		\begin{frame}
 			\frametitle{\color{mygreen}Influence of ambient conditions on BrO measurement error\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
 				\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-			\vspace{-0.2cm}
-			\begin{multicols}{2}
-				
+			
+			\begin{columns}[T]
+				\begin{column}{.75\textwidth}
+					\vspace{-0.9cm}
 				\begin{figure}[htbp] 
-					%\begin{minipage}[t]{0.5\textwidth}
-					
-					\includegraphics[width=5cm]{../../Bilder/Differcence_inTemperature[C]}
-					%\end{minipage}
-					\vspace{0.01cm}
-					%\begin{minipage}[t]{0.5\textwidth}
-					\includegraphics[width=5cm]{../../Bilder/Differcence_inExposureTime[ms]}
-					%\end{minipage}
+					\subfigure{		
+					\includegraphics[width=0.45\linewidth]{../../Bilder/Differcence_inTemperature[C]}}
+					\subfigure{	
+					\includegraphics[width=0.45\linewidth]{../../Bilder/Differcence_inExposureTime[ms]}}
+				\subfigure{	
+					\includegraphics[width=0.45\linewidth]{../../Bilder/Differcence_in_DayTime[h]a}}
+				\subfigure{	
+					\includegraphics[width=0.45\linewidth]{../../Bilder/Differcence_inColorindex}}
 				\end{figure}
-				\begin{figure}[htbp] 
-					%\begin{minipage}[t]{0.5\textwidth}
-					\includegraphics[width=5cm]{../../Bilder/Differcence_in_DayTime[h]a}
-					%\end{minipage}
-					\vspace{0.01cm}
-					%\begin{minipage}[t]{0.5\textwidth}
-					\includegraphics[width=5cm]{../../Bilder/Differcence_inColorindex}
-					%\end{minipage}
-				\end{figure}
-				
-			\end{multicols}
+			\end{column}
+		\begin{column}{.4\textwidth}
+				\begin{itemize}
+				\item Temperature
+				\item Colorindex
+				\item Exposure Time
+				\item Elevation Angle
+				\item Daytime 	
+			\end{itemize}
+		\end{column}
+	\end{columns}
 		\end{frame}
 		
 		%------------------------------------------------
@@ -633,132 +579,168 @@ Nicole Bobrowski$^{1,2}$, Ulrich Platt$^{1,2}$
 			\frametitle{\color{mygreen}Comparison of the different evaluations - SO$_2$\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
 				\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
 			\begin{figure}[h!]	
-				\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{../../Bilder/tung_so2_novac_conbased}}
-				\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{../../Bilder/so2_novac_conbased}}
+				\subfigure{\includegraphics[width=0.49\textwidth]{../../Bilder/tung_so2_novac_conbased}}
+				\subfigure{\includegraphics[width=0.49\textwidth]{../../Bilder/so2_novac_conbased}}
 			\end{figure}
-			\pause
-			\begin{multicols}{2}
-				\begin{itemize}
-					\item Contamination lead to a offset on \ce{SO2} SCDs\\
-					\newpage
-					\pause
-					\item Behavior at Tungurahua and Nevado Del Ruiz is equivalent
-				\end{itemize}
-			\end{multicols}
+			\vspace{-0.7cm}
+	\begin{multicols}{2}
+		\centering
+		Data of Tungurahua\\
+		Data of Nevado Del Riz
+		%				\begin{itemize}
+		%					\item Increase of low BrO/\ce{SO2} ratios
+		%					\item Decrease of high BrO/\ce{SO2} ratios
+		%				\end{itemize}
+	\end{multicols}
+%			\pause
+%			\begin{multicols}{2}
+%				\begin{itemize}
+%					\item Contamination lead to a offset on \ce{SO2} SCDs\\
+%					\newpage
+%					\pause
+%					\item Behavior at Tungurahua and Nevado Del Ruiz is equivalent
+%				\end{itemize}
+%			\end{multicols}
 		\end{frame}
 		
 		\begin{frame}
 			\frametitle{\color{mygreen}Comparison of the different evaluations - BrO\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
 				\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
 			\begin{figure}[h!]	
-				\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{../../Bilder/tung_bro_novac_conbased}}
-				\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{../../Bilder/bro_novac_conbased}}
+				\subfigure{\includegraphics[width=0.49\textwidth]{../../Bilder/tung_bro_novac_conbased}}
+				\subfigure{\includegraphics[width=0.49\textwidth]{../../Bilder/bro_novac_conbased}}
 			\end{figure}
-			\pause
-			\begin{multicols}{2}
-				\begin{itemize}
-					\item  Contamination lead to a offset on BrO SCDs\\ 
-					\pause
-					\item proportional BrO increase lower as for \ce{SO2}
-				\end{itemize}
-			\end{multicols}
+		\vspace{-0.7cm}
+\begin{multicols}{2}
+	\centering
+	Data of Tungurahua\\
+	Data of Nevado Del Riz
+
+\end{multicols}
+%			\pause
+%			\begin{multicols}{2}
+%				\begin{itemize}
+%					\item  Contamination lead to a offset on BrO SCDs\\ 
+%					\pause
+%					\item proportional BrO increase lower as for \ce{SO2}
+%				\end{itemize}
+%			\end{multicols}
 		\end{frame}
 		
 		\begin{frame}
 			\frametitle{\color{mygreen}Comparison of the different evaluations - BrO/SO$_2$\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
 				\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
 			\begin{figure}[h!]	
-				\subfigure[Data of Tungurahua]{\includegraphics[width=0.49\textwidth]{../../Bilder/tung_ratio_novac_conbased}}
-				\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.49\textwidth]{../../Bilder/ratio_novac_conbased}}
+				\subfigure{\includegraphics[width=0.49\textwidth]{../../Bilder/tung_ratio_novac_conbased}}
+				\subfigure{\includegraphics[width=0.49\textwidth]{../../Bilder/ratio_novac_conbased}
+				}
 			\end{figure}
+		\vspace{-0.7cm}
 			\begin{multicols}{2}
-				\begin{itemize}
-					\item Increase of low BrO/\ce{SO2} ratios
-					\item Decrease of high BrO/\ce{SO2} ratios
-				\end{itemize}
+				\centering
+				Data of Tungurahua\\
+				Data of Nevado Del Riz
+%				\begin{itemize}
+%					\item Increase of low BrO/\ce{SO2} ratios
+%					\item Decrease of high BrO/\ce{SO2} ratios
+%				\end{itemize}
 			\end{multicols}
 		\end{frame}
+	
+	
+\begin{frame}
+	\frametitle{\color{mygreen}Comparison with NOVAC evaluation\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
+		\color{mygreen}{\rule{0.8\textwidth}{2pt}}}	
+	\only<1>{
+		\vspace{-0.1cm}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{../../Bilder/tung_so2_sametime}
+		\label{fig:tungso2sametime}
+	\end{figure}}
+	\only<2>{
+		\vspace{-0.1cm}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{../../Bilder/tung_so2_novac_sametime}
+			\label{fig:tungso2novacsametime}
+		\end{figure}
+	}
+	\end{frame}	
 		
-		\begin{frame}
-			\frametitle{\color{mygreen}Comparison with NOVAC evaluation\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
-				\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-			\begin{table}
-				\begin{tabular}{p{3.5cm}p{2cm}p{3cm}}
-					&Tungurahua&Nevado Del Ruiz\\
-					\toprule
-					Total Amount of Data&6500&14005\\
-					\midrule
-					Total amount of Data above Plume Limit&6.7\%&12.8\%\\
-					\midrule
-					Contaminated Data &6.0\%&9.9\%\\
-					\bottomrule			
-				\end{tabular}
-			\end{table}
-		\end{frame}
-		
-		\begin{frame}
-			\frametitle{\color{mygreen}Comparison with NOVAC evaluation\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
-				\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-			\begin{table}
-				
-				\only<2>{		
-					\begin{tabular}{p{2cm}p{2cm}p{2.5cm}p{2.5cm}}
-						\multicolumn{4}{c}{\textbf{Contaminated data}}\\
-						\toprule
-						&&Tungurahua&Nevado Del Ruiz\\
-						\toprule
-						\multirow{2}{*}{\shortstack[l]{Within\\ Plume-limit}}& NOVAC&19.2\%&39.9\%\\
-						&NEW&41.9\%&77.9\%\\
-						\midrule
-						not analysable&&2.5\%&7.8\%\\
-						\bottomrule			
-					\end{tabular}
-				}
-				\only<1>{	
-					\begin{tabular}{p{2cm}p{2.5cm}p{3cm}}
-						\multicolumn{3}{c}{\textbf{Not contaminated data}}\\
-						\toprule
-						&Tungurahua&Nevado Del Ruiz\\
-						\toprule
-						{\shortstack[l]{Within\\ Plume-limit}}&5.5\%&8.8\%\\
-						
-						\bottomrule		
-					\end{tabular}}
-				\end{table}
-				\only<1>{\vspace{1cm}}
-				\begin{itemize}
-					\centering
-					\only<2>{\item percentage refers to the contaminated data}
-					\only<1>{\item percentage refers to the not contaminated data}
-				\end{itemize}
-				
-			\end{frame}
+%		\begin{frame}
+%			\frametitle{\color{mygreen}Comparison with NOVAC evaluation\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
+%				\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
+%			\begin{table}
+%				\begin{tabular}{p{3.5cm}p{2cm}p{3cm}}
+%					&Tungurahua&Nevado Del Ruiz\\
+%					\toprule
+%					Total Amount of Data&6500&14005\\
+%					\midrule
+%					Total amount of Data above Plume Limit&6.7\%&12.8\%\\
+%					\midrule
+%					Contaminated Data &6.0\%&9.9\%\\
+%					\bottomrule			
+%				\end{tabular}
+%			\end{table}
+%		\end{frame}
+%		
+%		\begin{frame}
+%			\frametitle{\color{mygreen}Comparison with NOVAC evaluation\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
+%				\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
+%			\begin{table}
+%				
+%				\only<2>{		
+%					\begin{tabular}{p{2cm}p{2cm}p{2.5cm}p{2.5cm}}
+%						\multicolumn{4}{c}{\textbf{Contaminated data}}\\
+%						\toprule
+%						&&Tungurahua&Nevado Del Ruiz\\
+%						\toprule
+%						\multirow{2}{*}{\shortstack[l]{Within\\ Plume-limit}}& NOVAC&19.2\%&39.9\%\\
+%						&NEW&41.9\%&77.9\%\\
+%						\midrule
+%						not analysable&&2.5\%&7.8\%\\
+%						\bottomrule			
+%					\end{tabular}
+%				}
+%				\only<1>{	
+%					\begin{tabular}{p{2cm}p{2.5cm}p{3cm}}
+%						\multicolumn{3}{c}{\textbf{Not contaminated data}}\\
+%						\toprule
+%						&Tungurahua&Nevado Del Ruiz\\
+%						\toprule
+%						{\shortstack[l]{Within\\ Plume-limit}}&5.5\%&8.8\%\\
+%						
+%						\bottomrule		
+%					\end{tabular}}
+%				\end{table}
+%				\only<1>{\vspace{1cm}}
+%				\begin{itemize}
+%					\centering
+%					\only<2>{\item percentage refers to the contaminated data}
+%					\only<1>{\item percentage refers to the not contaminated data}
+%				\end{itemize}
+%				
+%			\end{frame}
 			
 			
 			\begin{frame}
-				\frametitle{\color{mygreen}Summary\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
+				\frametitle{\color{mygreen}Conclusion and Outlook\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
 					\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-				
+				\textbf{Conclusion}
 				\begin{itemize}
 					\item Contaminated reference spectra lead to significant underestimation of SO$_2$ 
-					\item Optimized Evaluation: Keep environmental conditions of measurement and reference spectra similar 
-					
+					\item Optimized Evaluation: Keep environmental conditions of measurement and reference spectra similar 	
 					\item More valid Data with optimized reference evaluation
-					
 				\end{itemize}
-			\end{frame}
-			\begin{frame}
-				\frametitle{\color{mygreen}Outlook\\%\rule{_Breite_}{_Stärke_} %%andersrum ist's vertikal;)
-					\color{mygreen}{\rule{0.8\textwidth}{2pt}}}
-				
+			\textbf{Outlook}
 				\begin{enumerate}
-					
-					\item Measurements at volcanoes to verify the contamination
-					\item Examine contamination of the plume due to further measurements
-					\item Is contamination a result of low wind velocities? 
-					
+					\item Examination of "Plume Contamination"
+					\item Chemical analysis of BrO lifetimes
+					\item Examine contamination of the plume by further measurements
 				\end{enumerate}
 			\end{frame}
+
 			
 			
 			
