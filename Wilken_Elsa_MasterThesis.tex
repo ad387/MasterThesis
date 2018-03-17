@@ -60,7 +60,7 @@
 	\chapter{Introduction}	
 	\input{Chapters/1_Introduction/1_Intruduction}
     \part{Theoretical Background}
-\chapter{Volcanism and volcani1c chemistry}
+\chapter{Volcanism and volcanic chemistry}
 
 \section{Volcanism}
 The high thermal energy in the deep interior of the earth is mostly well separated from the earth’s surface by the earth’s crust. A volcano is geological structure that allows magma to reach the earth’s surface. Such a phenomenon can occur in various ways. In the following paragraphs the different types of volcanoes are described.
@@ -398,11 +398,12 @@ THe BrO concentration reaches a maximum approximately 5 minutes after emission a
 	\chapter{\ce{BrO}  Evaluation and its limitations}
 	This chapter discusses the evaluation of \ce{BrO}  by spectroscopic instruments of NOVAC.\\
 	The evaluation of the data from NOVAC is parted into the evaluation of SO2 and the evaluation of BrO. While the retrieving of SO2 is relatively easy due to the high amount of SO2  (magnitude of \ce{SO2} at Tungurahua $\approx 1e^{18}$), BrO evaluation is much more problematic (As it can be seen in \Cref{fig:plumeref}). The magnitude of BrO SCD are around $\approx 1e^{14}$. 
-	This results in a larger uncertaintiy of the \ce{BrO}  SCD. Most of te \ce{BrO}  data are below the detection lime of \ce{BrO}$_{err}$/BrO$_{value}$<1/4. SCD's of \ce{SO2}  are in almost all cases (99.5\% of the data) above the detection limit. 
+	This results in a larger uncertaintiy of the \ce{BrO}  SCD. Most of te \ce{BrO}  data are below the detection lime of \ce{BrO}$_{err}$/BrO$_{value}$<1/4. In comparison SCD's of \ce{SO2}  are in almost all cases (99.5\% of the data) above the detection limit. 
 	Choosing a different reference than the reference meausred at the same time as the plume results in 99\% of all data in an increasing absolut error. 
 	%
-	Thus an \ce{BrO} Error which is smaller than the "Same Time Error" will often not be possible to retrieve when calculating the gas slant column densities with a different reference. However due to the large uncertainty of BrO relative to So2 this thesis will concentrate on BrO. Thus the reference is chosen with respect to the BrO error to maximise the quality of the BrO/SO2 ratio. The amount of gas free alternative references is around 1500 per year. To make the best choice it is necessary to examine the conditions which influence the BrO retrieval.
+	Thus an \ce{BrO} Error which is smaller than the "Same Time Error" will often not be possible to retrieve when calculating the gas slant column densities with a different reference. However due to the large uncertainty of BrO relative to So2 this thesis will concentrate on BrO analysis. Thus the reference is chosen with respect to the BrO error to maximise the quality of the BrO/SO2 ratio. The amount of gas free alternative references is around 1500 per year. To make the best choice it is necessary to examine the conditions which influence the BrO retrieval.
 	\\
+	Every spectra is measured under certain conditions, these conditions are in general not the same when measuring the plume and the reference.
 	References where the surrounding conditions e.g temperature or cloudiness are equivalent with the surrounding conditions of the  plume measuring lead to a small error.
 	In the following, we will take a closer look at the dependence of the \ce{BrO} error on external parameters. 
 	%
@@ -418,7 +419,7 @@ THe BrO concentration reaches a maximum approximately 5 minutes after emission a
 
 	The surrounding conditions that are considered in this thesis are: 
 	\begin{itemize}
-		\item Temporal Difference
+		\item Temporal Difference between measuring the plume and the reference.
 		\item Temperature, 
 		\item Colorindex, 
 		\item Exposure Time, 
@@ -851,8 +852,17 @@ The data were restricted to references where the corresponding colorindex differ
 		\label{fig:diffeleangle}
 	\end{figure}
 	The elevation angle describes the angle between the horizon and the zenith. When using the plume spectrum and the reference spectrum of the same time, the difference in elevation angle cannot be zero, since the location of the plume does not coincidence with the location of the reference.\\
-	The \ce{BrO} error doesn't depend significantly on the difference between the Elevation Angles. This could have several reasons. One problem is, that the Elevation Angle of Plume and Reference spectrum is not the same. This could also be a reason of uncertainty of the evaluations of the plume spectrum.
-
+	As can be seen in \cref{fig:diffeleangle} the \ce{BrO} error does not depend significantly on the difference between the Elevation Angles. This could have several reasons. One problem is, that the Elevation Angle of Plume and Reference spectrum is not the same. This could also be a reason of uncertainty of the evaluations of the plume spectrum.
+	Only the data of the D2J2200\_0 instrument vary with the elevation angle. The observable variation of the BrO Error with the elevation angle differs from the symmetric dependence of all other external parameter, the minimum BrO error can be found at a difference in elevation angle of -20$^{\circ}$. This curve is a result of the solar altitude over the day which can be seen if we only use data of the same day time. Such a plot can be seen in \cite{fig:d2j22000diffelevangleonetempnevad}.
+	\begin{figure}
+		\subfigure{
+		\includegraphics[width=0.49\linewidth]{Bilder/D2J2200_0_DiffElevAngle_onedaytime_Nevad}}
+		\subfigure{
+		\includegraphics[width=0.49\linewidth]{Bilder/D2J2200_0_DiffElevAngle_onetemp_Nevad}}
+		\caption{Left: constant daytime,right: constant temperature}
+		\label{fig:d2j22000diffelevangleonetempnevad}
+	\end{figure}
+	
 	\begin{itemize}
 		\item The \ce{BrO}  error as a function of the difference in colour index is also symmetric around zero for all instruments, except  D2J2200\_0 at Nevado Del Ruiz. 
 		\item Only D2J2140\_0 shows a minimum of the \ce{BrO}  error at a difference in Elevation Angle of 0$^{\circ}$. The \ce{BrO}  error curve from D2J2200\_0 shows a minimum at around -20$^{\circ}$.
@@ -1106,9 +1116,12 @@ Restrictions of the exposure Time to the mean of the $\Delta ET_{2}$s of all ins
 			\label{fig:DiffExpTimeNevad}
 		\end{figure}
 	\subsection*{Summary}
-	We found an
+	This chapter examine the influence of external on the precision of the BrO evaluation. Herby the following parameter were considered: 
+	Temporal Difference, Temperature, Daytime, Colorindex, Elevation Angle, Exposure Time.  The findings are based on the data of three instruments installed at the Tungurahua volcano and two instruments at the Nevado Del Ruiz volcano. The maximal temporal difference between measuring the plume and the reference was set two 14 days to prevent large uncertainties in the BrO evaluation. Due to the mechanical influence on the wavelength to pixel mapping the temperature has at all analysed instruments the most significant impact on the BrO evaluation of all  considered external parameters. The Elevation Angle does not seem to influence the evaluation for all examined instruments thus the elevation is excluded from the evaluation. The influence of the other external parameter change at every instrument. So a relatively strong impact of the exposure time can be seen at the D2J2201\_0 instrument at Nevado Del Ruiz, while the exposure time does not seem to significantly influence the evaluation of the data from the  I2J8548\_0 at Tungurahua. A large part of the impact of the external parameters results from the dependence on the temperature. 
+
 	\section{\ce{BrO}  dependence on external parameters}
-	The external parameters not only influence the fit quality but also the evaluation of the gas amount. A high different in certain external parameter could distort the calculated \ce{BrO}  column density. \Cref{fig:d2j2140060218difftemperature-cbro} shows the evaluation of one Plume with respect to different references. The temporal difference between the references and the plume do not exceed two weeks. 
+	The external parameters not only influence the fit quality but also the evaluation of the gas amount. A high different in certain external parameter could distort the calculated \ce{BrO}  column density. \Cref{fig:d2j2140060218difftemperature-cbro} shows the evaluation of one Plume with respect to different references. The temporal difference between the references and the plume do not exceed two weeks. In theory we expect that the choice of  the reference should not make a difference, therefore all BrO column densities resulting from the evaluation should be equivalent. But we can see a high variation if choosing different references. The variability of the BrO column density depends as well on the external parameters, when looking at the temperature dependency a mean decrease of th BrO column density with the temperature can be seen. \Cref{fig:d2j2140060218difftemperature-cbro} is a result of an exemplary evaluation of one plume. An examination of all several plumes evaluated by different references is shown in \Cref{fig:alldatacorrwithbrodaytime-plumebro}. Here are equivalent plots shown as for the BrO Error (see for example \cref{fig:difftemp}). \Cref{fig:onerefd2j2140060218difftemperature-cbro} shows the exemplary evaluation of different plumes by on reference. Here we assume different column densities, but this variability should be independent of the difference in the external parameters. But \Cref{fig:onerefd2j2140060218difftemperature-cbro} shows a clear dependence on the Temperature. The correlation for this example is -0.76, thus it can be concluded, that here is also an significant dependence. 
+	Examination of the Daytime 
 	\begin{figure}
 		\subfigure[]{
 		\includegraphics[width=0.5\linewidth]{"Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_6_02_18_DiffTemperature [C]_BrO"}}
@@ -1525,7 +1538,13 @@ In the following we will discuss the results for the Tungurahua volcano and the 
  	To perform the evaluating of the contaminated data with the contamination based method 41.9 percent of the resulting \ce{SO2}  column densities are in the plume limit. Thus the reliable amount of contaminated data increase by 118.7 percentage while the total amount of data increase by 45.2 percent.\\
  	Due to using trace gas free references instead of contaminated references about 45.2 percent more data are available. \\
  	Due to the very small amount of \ce{BrO}  column densities above the detection limit often the daily mean of the \ce{BrO}/\ce{SO2}  ratios is used. Hereby at least tree to four "multi adds" per day in the plume limit need to be recorded. Thus performing the evaluation of contaminated data with the contamination based method leads to more data, thus some days which had less than  tree to four valid data points could then have four ore more multi adds. 12.5 percent more daily mean data can be retrieved when using the contamination based method. The amount of daily means increases less than the total amount of data, this effect can be explained due to a higher occurence of contamination if the \ce{SO2}  column densities are high, thus more data are retrieved for days with high \ce{SO2}  amount.
-
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Bilder/tung_so2_novac_sametime}
+		\caption{}
+		\label{fig:tungso2novacsametime}
+	\end{figure}
+	
 
 
 \section*{Nevado Del Ruiz}
@@ -1651,9 +1670,7 @@ The final time series of \ce{BrO}/\ce{SO2}  for Tungurahua and Nevado Del Ruiz a
 	In this thesis we made investigations on the contamination of the plume 
 	We found an significant increase of the SCDs of SO2 and BrO while the conatmination based evaluation leads to a higher increase of the SO2 amount compared to the BrO evaluation. Thus the BrO/SO2 ratio decreases for values above zero.\\
 	\cite{geeignete quelle, irgendwo hab ich das schon gehoert} made investigations on the lifetime of SO2 and BrO. The lifetime of SO2 can reach to several weeks, while the decay of BrO proceed in faster times. As a result we should observe a lower contamination of BrO. This could be observed in our results. In theory it could be that due to the smaller lifetimes of BrO contamination only influences the SO2 evaluation, if that is the case, the best option would be to use a high defined solar atlas spectrum as reference for the SO2 evaluation, but an reference recorded with the same instrument at the same time for the BrO evaluation, since BrO could not be retrieved using an high defined 
-	\begin{itemize}
-		\item 
-	\end{itemize}
+
 	
 	
 	

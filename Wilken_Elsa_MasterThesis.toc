@@ -1,7 +1,7 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}
 \contentsline {part}{\numberline {I}Theoretical Background}{9}{part.1}
-\contentsline {chapter}{\numberline {2}Volcanism and volcani1c chemistry}{10}{chapter.2}
+\contentsline {chapter}{\numberline {2}Volcanism and volcanic chemistry}{10}{chapter.2}
 \contentsline {section}{\numberline {2.1}Volcanism}{10}{section.2.1}
 \contentsline {paragraph}{\nonumberline Mid-ocean ridge volcanism}{10}{section*.2}
 \contentsline {paragraph}{\nonumberline Continental rift zone volcanism}{10}{section*.3}
@@ -29,21 +29,21 @@
 \contentsline {subsection}{\numberline {6.1.3}Daytime }{47}{subsection.6.1.3}
 \contentsline {subsection}{\numberline {6.1.4}Colorindex}{50}{subsection.6.1.4}
 \contentsline {subsection}{\numberline {6.1.5}Elevation Angle}{54}{subsection.6.1.5}
-\contentsline {subsection}{\numberline {6.1.6}Exposure Time}{54}{subsection.6.1.6}
-\contentsline {section}{\numberline {6.2}\ce {BrO} dependence on external parameters}{60}{section.6.2}
-\contentsline {chapter}{\numberline {7}Method}{66}{chapter.7}
-\contentsline {section}{\numberline {7.1}Fit data}{67}{section.7.1}
-\contentsline {section}{\numberline {7.2}Other approaches}{70}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Nearest Neighbor Approach}{70}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Iterative}{72}{subsection.7.2.2}
-\contentsline {chapter}{\numberline {8}Comparison with NOVAC Evaluation}{73}{chapter.8}
-\contentsline {section}{\numberline {8.1}BrO/\ce {SO2} Time series}{77}{section.8.1}
-\contentsline {section}{\numberline {8.2}Nevado Del Ruiz}{77}{section.8.2}
-\contentsline {chapter}{\numberline {9}Issues of our method}{81}{chapter.9}
-\contentsline {section}{\numberline {9.1}Contamination of the plume}{81}{section.9.1}
-\contentsline {chapter}{\numberline {10}Conclusion}{83}{chapter.10}
-\contentsline {part}{\numberline {III}Appendix}{84}{part.3}
-\contentsline {chapter}{\numberline {A}Lists}{88}{appendix.A}
-\contentsline {section}{\numberline {A.1}List of Figures}{88}{section.A.1}
-\contentsline {section}{\numberline {A.2}List of Tables}{92}{section.A.2}
-\contentsline {chapter}{\numberline {B}Bibliography}{93}{appendix.B}
+\contentsline {subsection}{\numberline {6.1.6}Exposure Time}{55}{subsection.6.1.6}
+\contentsline {section}{\numberline {6.2}\ce {BrO} dependence on external parameters}{63}{section.6.2}
+\contentsline {chapter}{\numberline {7}Method}{67}{chapter.7}
+\contentsline {section}{\numberline {7.1}Fit data}{68}{section.7.1}
+\contentsline {section}{\numberline {7.2}Other approaches}{71}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Nearest Neighbor Approach}{71}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Iterative}{73}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Comparison with NOVAC Evaluation}{74}{chapter.8}
+\contentsline {section}{\numberline {8.1}BrO/\ce {SO2} Time series}{78}{section.8.1}
+\contentsline {section}{\numberline {8.2}Nevado Del Ruiz}{78}{section.8.2}
+\contentsline {chapter}{\numberline {9}Issues of our method}{82}{chapter.9}
+\contentsline {section}{\numberline {9.1}Contamination of the plume}{82}{section.9.1}
+\contentsline {chapter}{\numberline {10}Conclusion}{84}{chapter.10}
+\contentsline {part}{\numberline {III}Appendix}{85}{part.3}
+\contentsline {chapter}{\numberline {A}Lists}{89}{appendix.A}
+\contentsline {section}{\numberline {A.1}List of Figures}{89}{section.A.1}
+\contentsline {section}{\numberline {A.2}List of Tables}{93}{section.A.2}
+\contentsline {chapter}{\numberline {B}Bibliography}{95}{appendix.B}

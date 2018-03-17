@@ -22,7 +22,7 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces { }}}{34}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces The decrease of the amount of usable data as a function of the plume limit. The plume limits below the actual plume limit of 7$\cdot 10^{17}$ are marked with a yellow shade.}}{35}{figure.5.4}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Scan with a contaminated reference spectrum from April 2011. From \cite {WarnachSimon}}}{36}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces }}{38}{figure.5.6}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The strength of contamination as function of the mean SO2 amount of the day before, The strength of contamination is defined as the difference in SO2 SCD when evaluation with an alternative reference, or neglect the contamination. Left: data from Tungurahua. Right: Data from Nevado Del Ruiz. }}{38}{figure.5.6}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Wavelength shift over the time. The shift is shown for six NOVAC- instruments from Tungurahua. The red and yellow dots show the running mean about 20 days. Red line indicates a temperature independent long term polynomial. From \cite {WarnachSimon}}}{41}{figure.6.1}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces The \ce {BrO} error as a function of the temporal difference shown for the Pillate instrument from Tungurahua (2008-2009). (a) Temporal differences up to 400 days are shown. (b) Temporal differences below 120h; periodical \ce {BrO} error evolution indicates the impact of the daytime}}{42}{figure.6.2}
@@ -56,69 +56,71 @@
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{53}{figure.6.8}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{53}{figure.6.8}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{53}{figure.6.8}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The \ce {BrO} Measurement Error as a function of the difference of exposure time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the \ce {BrO} Error with the distance in exposure time is observably.}}{55}{figure.6.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}{figure.6.9}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{55}{figure.6.9}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{55}{figure.6.9}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{55}{figure.6.9}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{55}{figure.6.9}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces A example of the dependency of external parameters on each other. The difference in Temperature as a function of the Exposure Time. Data from Tungurahua}}{58}{figure.6.10}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Correlation matrix of the external parameters. The correlation is discrete colour coded. Positive correlation is labeled with a plus whereas negative correlation is labeled with a minus.}}{59}{figure.6.11}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces DiffExpTime at Tungurahua}}{61}{figure.6.12}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {I2J8546\_0}}}{61}{figure.6.12}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {I2J8548\_0}}}{61}{figure.6.12}
-\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {D2J2140\_0}}}{61}{figure.6.12}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces \ce {BrO} Error as a function of the external while measering the Plume and the Reference at Nevado del ruiz}}{62}{figure.6.13}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {D2J2201\_0}}}{62}{subfigure.6.14.8}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {D2J2200\_0}}}{62}{subfigure.6.14.8}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces One Plume is evaluated by using different references. The plume was recorded at Tungurahua volcano with the D2J2140\_0 instrument. recording time was the 081203 at 1646 o clock. The y axis show the \ce {BrO} column density differene between the NOVAC method and contamination based Method. (a) The difference in \ce {BrO} is plotted as a function of the temperature difference between the plume and the references. Every data point indicates one reference. (b) The difference in \ce {BrO} is plotted as a function of the temporal difference between the one plume and the different references}}{63}{figure.6.14}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {}}}{63}{figure.6.14}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {}}}{63}{figure.6.14}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces One Reference is used to evaluated different Plume spectra. The reference was recorded at Tungurahua volcano with the D2J2140\_0 instrument. recording time was the 081115 at 1337 o clock. The y axis show the \ce {BrO} column density. (a) The \ce {BrO} is plotted as a function of the temporal difference between the one reference and the plumes (b) The \ce {BrO} is plotted as a function of the temperature difference between the plume and the references. Every data point stands for another plume evaluated with the same reference.}}{63}{figure.6.15}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{63}{figure.6.15}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{63}{figure.6.15}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces The difference of BrO when performing the evaluation with The NOVAC Method minus the contamination based method as a function of the Daytime when measuring the plume. The recording time of the reference was 081115 at 1337 o clock}}{64}{figure.6.16}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces The Dependence of the BrO evaluation on external parameter is shown. }}{65}{figure.6.17}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{65}{figure.6.17}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{65}{figure.6.17}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{65}{figure.6.17}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{65}{figure.6.17}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{65}{figure.6.17}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Left: constant daytime,right: constant temperature}}{54}{figure.6.9}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces The \ce {BrO} Measurement Error as a function of the difference of exposure time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the \ce {BrO} Error with the distance in exposure time is observably.}}{56}{figure.6.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{56}{figure.6.10}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{56}{figure.6.10}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{56}{figure.6.10}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{56}{figure.6.10}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{56}{figure.6.10}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces A example of the dependency of external parameters on each other. The difference in Temperature as a function of the Exposure Time. Data from Tungurahua}}{58}{figure.6.11}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Correlation matrix of the external parameters. The correlation is discrete colour coded. Positive correlation is labeled with a plus whereas negative correlation is labeled with a minus.}}{59}{figure.6.12}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces DiffExpTime at Tungurahua}}{61}{figure.6.13}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {I2J8546\_0}}}{61}{figure.6.13}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {I2J8548\_0}}}{61}{figure.6.13}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {D2J2140\_0}}}{61}{figure.6.13}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces \ce {BrO} Error as a function of the external while measering the Plume and the Reference at Nevado del ruiz}}{62}{figure.6.14}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {D2J2201\_0}}}{62}{subfigure.6.15.8}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {D2J2200\_0}}}{62}{subfigure.6.15.8}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces One Plume is evaluated by using different references. The plume was recorded at Tungurahua volcano with the D2J2140\_0 instrument. recording time was the 081203 at 1646 o clock. The y axis show the \ce {BrO} column density differene between the NOVAC method and contamination based Method. (a) The difference in \ce {BrO} is plotted as a function of the temperature difference between the plume and the references. Every data point indicates one reference. (b) The difference in \ce {BrO} is plotted as a function of the temporal difference between the one plume and the different references}}{64}{figure.6.15}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {}}}{64}{figure.6.15}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {}}}{64}{figure.6.15}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces One Reference is used to evaluated different Plume spectra. The reference was recorded at Tungurahua volcano with the D2J2140\_0 instrument. recording time was the 081115 at 1337 o clock. The y axis show the \ce {BrO} column density. (a) The \ce {BrO} is plotted as a function of the temporal difference between the one reference and the plumes (b) The \ce {BrO} is plotted as a function of the temperature difference between the plume and the references. Every data point stands for another plume evaluated with the same reference.}}{64}{figure.6.16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{64}{figure.6.16}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{64}{figure.6.16}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces The difference of BrO when performing the evaluation with The NOVAC Method minus the contamination based method as a function of the Daytime when measuring the plume. The recording time of the reference was 081115 at 1337 o clock}}{65}{figure.6.17}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces The Dependence of the BrO evaluation on external parameter is shown. }}{66}{figure.6.18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}{figure.6.18}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}{figure.6.18}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{66}{figure.6.18}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{66}{figure.6.18}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{66}{figure.6.18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces }}{67}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces }}{69}{figure.7.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nevado Del Ruiz}}}{69}{figure.7.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tungurahua}}}{69}{figure.7.2}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces }}{68}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces }}{70}{figure.7.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nevado Del Ruiz}}}{70}{figure.7.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tungurahua}}}{70}{figure.7.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce {SO2} column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce {BrO} column densities from Tungurahua; (b) Results for the \ce {BrO} column densities from Nevado Del Ruiz; (c) Results for the \ce {SO2} column densities from Tungurahua; (d) Results for the \ce {SO2} column densities from Nevado Del Ruiz}}{75}{figure.8.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{75}{figure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{75}{figure.8.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{75}{figure.8.1}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{75}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce {SO2} column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. (a)+(b): The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce {BrO} /\ce {SO2} column densities from Tungurahua; (b) Results for the \ce {BrO} /\ce {SO2} column densities from Nevado Del Ruiz. (c) +(d) The column density calculated with NOVAC was substracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero, that means both evaluations lead to the same ratio. (c) Tungurahua (d) Nevado Del Ruiz}}{78}{figure.8.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{78}{figure.8.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{78}{figure.8.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{78}{figure.8.2}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{78}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces }}{79}{figure.8.3}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce {SO2} column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce {BrO} column densities from Tungurahua; (b) Results for the \ce {BrO} column densities from Nevado Del Ruiz; (c) Results for the \ce {SO2} column densities from Tungurahua; (d) Results for the \ce {SO2} column densities from Nevado Del Ruiz}}{76}{figure.8.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{76}{figure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{76}{figure.8.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{76}{figure.8.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{76}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce {SO2} column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. (a)+(b): The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce {BrO} /\ce {SO2} column densities from Tungurahua; (b) Results for the \ce {BrO} /\ce {SO2} column densities from Nevado Del Ruiz. (c) +(d) The column density calculated with NOVAC was substracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero, that means both evaluations lead to the same ratio. (c) Tungurahua (d) Nevado Del Ruiz}}{79}{figure.8.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{79}{figure.8.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{79}{figure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{79}{figure.8.2}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{79}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces }}{80}{figure.8.3}
 \contentsline {figure}{\numberline {8.4}{\ignorespaces }}{80}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces }}{81}{figure.8.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Visualization of the contamination of the plume. An old plume of the day before. Due to a lack of wind the plume sinks down an accumulates above the instrument. The light path trough the old plume is longer when recording the reference spectra (orange).}}{82}{figure.9.1}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Visualization of the contamination of the plume. An old plume of the day before. Due to a lack of wind the plume sinks down an accumulates above the instrument. The light path trough the old plume is longer when recording the reference spectra (orange).}}{83}{figure.9.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {.1}{\ignorespaces }}{86}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{86}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{86}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{86}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{86}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{86}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{86}{figure.Alph0.1}
-\contentsline {figure}{\numberline {.2}{\ignorespaces }}{87}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{87}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{87}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{87}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{87}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{87}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{87}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{87}{figure.Alph0.2}
+\contentsline {figure}{\numberline {.1}{\ignorespaces }}{87}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{87}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{87}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{87}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{87}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{87}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{87}{figure.Alph0.1}
+\contentsline {figure}{\numberline {.2}{\ignorespaces }}{88}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{88}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{88}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{88}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{88}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{88}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{88}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{88}{figure.Alph0.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
