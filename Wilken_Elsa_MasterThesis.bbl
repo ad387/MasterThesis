@@ -1,9 +1,14 @@
-\begin{thebibliography}{37}
+\begin{thebibliography}{45}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Glo()]{GlobalVolcanismProgram}
+{Smithsonian Institution} global volcanism program.
+\newblock \url{https://volcano.si.edu/}.
+\newblock Accessed: 2018-03-20.
 
 \bibitem[NOV()]{NOVACsite}
 {NOVAC} novac-site.
@@ -15,6 +20,24 @@
 \newblock
   \url{http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html}.
 \newblock Accessed: 2018-01-19.
+
+\bibitem[Bobrowski and Giuffrida(2006)]{bobrowski2006bromine}
+N~Bobrowski and G~Giuffrida.
+\newblock Bromine monoxide/sulphur dioxide ratios in relation to volcanological
+  observations at mt.
+\newblock \emph{Etna}, 2009:\penalty0 433--445, 2006.
+
+\bibitem[Bobrowski and Platt(2007)]{bobrowski2007so2}
+N~Bobrowski and U~Platt.
+\newblock So2/bro ratios studied in five volcanic plumes.
+\newblock \emph{Journal of Volcanology and Geothermal Research}, 166\penalty0
+  (3-4):\penalty0 147--160, 2007.
+
+\bibitem[Bobrowski et~al.(2003)Bobrowski, H{\"o}nninger, Galle, and
+  Platt]{bobrowski2003detection}
+N~Bobrowski, G~H{\"o}nninger, B~Galle, and U~Platt.
+\newblock Detection of bromine monoxide in a volcanic plume.
+\newblock \emph{Nature}, 423\penalty0 (6937):\penalty0 273, 2003.
 
 \bibitem[Bobrowski et~al.(2007)Bobrowski, Von~Glasow, Aiuppa, Inguaggiato,
   Louban, Ibrahim, and Platt]{bobrowski2007reactive}
@@ -32,6 +55,13 @@ JP~Burrows, A~Richter, A~Dehn, B~Deters, S~Himmelmann, S~Voigt, and J~Orphal.
   range.
 \newblock \emph{Journal of quantitative spectroscopy and radiative transfer},
   61\penalty0 (4):\penalty0 509--517, 1999.
+
+\bibitem[Burton et~al.(2007)Burton, Allard, Mur{\'e}, and
+  La~Spina]{burton2007magmatic}
+Mike Burton, Patrick Allard, Filippo Mur{\'e}, and Alessandro La~Spina.
+\newblock Magmatic gas composition reveals the source depth of slug-driven
+  strombolian explosive activity.
+\newblock \emph{Science}, 317\penalty0 (5835):\penalty0 227--230, 2007.
 
 \bibitem[Bussemer(1993)]{bussemer1993ring}
 Markus Bussemer.
@@ -151,6 +181,20 @@ Richard Meller and Geert~K Moortgat.
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 105\penalty0
   (D6):\penalty0 7089--7101, 2000.
 
+\bibitem[Noguchi and Kamiya(1963)]{noguchi1963prediction}
+Kimio Noguchi and Hiroshi Kamiya.
+\newblock Prediction of volcanic eruption by measuring the chemical composition
+  and amounts of gases.
+\newblock \emph{Bulletin Volcanologique}, 26\penalty0 (1):\penalty0 367--378,
+  1963.
+
+\bibitem[Pennisi and Le~Cloarec(1998)]{pennisi1998variations}
+Maddalena Pennisi and Marie-Fran{\c{c}}oise Le~Cloarec.
+\newblock Variations of cl, f, and s in mount etna's plume, italy, between 1992
+  and 1995.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 103\penalty0
+  (B3):\penalty0 5061--5066, 1998.
+
 \bibitem[Perner and Platt(1979)]{perner1979detection}
 D~Perner and U~Platt.
 \newblock Detection of nitrous acid in the atmosphere by differential optical
@@ -253,6 +297,12 @@ Ann~Carine Vandaele, Christian Hermans, and Sophie Fally.
   Temperature dependence in the 29 000--44 000 cm- 1 (227--345 nm) region.
 \newblock \emph{Journal of Quantitative Spectroscopy and Radiative Transfer},
   110\penalty0 (18):\penalty0 2115--2126, 2009.
+
+\bibitem[Vogel(2011)]{vogel2011volcanic}
+Leif Vogel.
+\newblock \emph{Volcanic plumes: Evaluation of spectroscopic measurements,
+  early detection, and bromine chemistry}.
+\newblock PhD thesis, 2011.
 
 \bibitem[Wagner et~al.(2014)Wagner, Apituley, Beirle, D{\"o}rner, Friess,
   Remmers, and Shaiganfar]{wagner2014cloud}

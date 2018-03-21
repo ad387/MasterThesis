@@ -3,8 +3,9 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Influence of volcanic eruptions and quiet degassing on earth climate. Redrawn on the basis of \cite {robock2000volcanic}}}{11}{figure.2.1}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces schematic sketch of a Bromine Explosion. Release of \ce {HBr} at the volcanic vent. Mixing with ambient air in the effective source region leads to \ce {Br} formation. This resulting Bromine species react to \ce {BrO} with ozone from the plume. Adapted from \cite {bobrowski2007reactive}}}{14}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Bromine reactions inside of a volcanic vent. The release of Hbr at the volcaninc vent is drawn in orange. Inside of aerosols heterogeneous dissociation with HOBr forms Br2. Then Br2 splits photolytically into single Br radicals. \ce {BrO} results through a reaction with \ce {O3}upon mixing with ambient air. Reactions with \ce {H2O} forms HOBr creating an autocatalytic cycle. The reaction cycle along the blue lines are called Bromine explosion. From \cite {WarnachSimon}}}{16}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Dependency of the ratios of different volcanic trace gases on depth. Data originate from Stromboli volcano. From \cite {lubcke2014optical} reproduced from Burton et al. (2007)}}{17}{figure.2.4}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces BrO/So2 ratio as a function of the distance from the volcanic vent with a constant wind speed of 10 m/s. From \cite {lubcke2014optical}}}{15}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Bromine reactions inside of a volcanic vent. The release of Hbr at the volcaninc vent is drawn in orange. Inside of aerosols heterogeneous dissociation with HOBr forms Br2. Then Br2 splits photolytically into single Br radicals. \ce {BrO} results through a reaction with \ce {O3}upon mixing with ambient air. Reactions with \ce {H2O} forms HOBr creating an autocatalytic cycle. The reaction cycle along the blue lines are called Bromine explosion. From \cite {WarnachSimon}}}{16}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Dependency of the ratios of different volcanic trace gases on depth. Data originate from Stromboli volcano. From \cite {lubcke2014optical} reproduced from Burton et al. (2007)}}{17}{figure.2.5}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces }}{21}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Basic idea of the DOAS principle: Light attenuate due to broad band and narrow band effects. The broad band extinction is caused by aerosols and Raylight scattering $\left (I_0\rightarrow I^{'}\right )$. The measured intensity $I$ is formed by narrow band effects due to differential absorption structures by trace gases with the optical density $\tau ^{'}$. Adapted from \cite {kern2009spectroscopic}}}{22}{figure.3.2}
@@ -16,13 +17,13 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces (a) \ce {SO2} SCD as a function of the elevation angle with error bars computed by the DOASIS fitting routin. (b) \ce {BrO} SCD as a function of the elevation angle with error bars computed by the DOASIS fitting routine. Taken from \cite {WarnachSimon}}}{32}{figure.5.1}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{32}{figure.5.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{32}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces NOVAC Evaluation: (a) Measurement at the volcano (b) Evaluation of the spectral data with the DOAS routine using the absorption cross sections of \ce {BrO} and \ce {SO2}. (c) Finding the location of the plume and reference (d) Computation of the ratios BrO/\ce {SO2} at Tungurahua. }}{33}{figure.5.2}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces NOVAC Evaluation: (a) Measurement at the volcano (b) Evaluation of the spectral data with the DOAS routine using the absorption cross sections of \ce {BrO} and \ce {SO2}. (c) Finding the location of the plume and reference (d) (taken from \cite {WarnachSimon}) Computation of the ratios BrO/\ce {SO2} at Tungurahua. }}{33}{figure.5.2}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces (a) \ce {SO2} SCD as a function of the elevation angle. The co-added plume region is marked with red diamonds, and the co added reference region with green stars. From \cite {WarnachSimon}. (b) Flow chart of the \ce {BrO} and \ce {SO2} evaluation. From \cite {lubcke2014optical}.}}{34}{figure.5.3}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces { }}}{34}{figure.5.3}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces { }}}{34}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The decrease of the amount of usable data as a function of the plume limit. The plume limits below the actual plume limit of 7$\cdot 10^{17}$ are marked with a yellow shade.}}{35}{figure.5.4}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The decrease of the amount of data above the plume limit as a function of the plume limit. The plume limits below the actual plume limit of 7$\cdot 10^{17}$ are marked with a yellow shade.}}{35}{figure.5.4}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Scan with a contaminated reference spectrum from April 2011. From \cite {WarnachSimon}}}{36}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces The strength of contamination as function of the mean SO2 amount of the day before. The strength of contamination is defined as the difference in SO2 SCD when evaluation with an alternative reference, or neglect the contamination. Left: data from Tungurahua. Right: data from Nevado Del Ruiz. }}{38}{figure.5.6}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The strength of contamination as function of the mean \ce {SO2} amount of the day before. The strength of contamination is defined as the difference in \ce {SO2} SCD when evaluation with an alternative reference, or neglect the contamination. Left: data from Tungurahua. Right: data from Nevado Del Ruiz. }}{38}{figure.5.6}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Wavelength shift over the time. The shift is shown for six NOVAC- instruments from Tungurahua. The red and yellow dots show the running mean about 20 days. Red line indicates a temperature independent long term polynomial. From \cite {WarnachSimon}}}{41}{figure.6.1}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces The \ce {BrO} error as a function of the temporal difference shown for the Pillate instrument from Tungurahua (2008-2009). (a) Temporal differences up to 400 days are shown. (b) Temporal differences below 120h; periodical \ce {BrO} error evolution indicates the impact of the daytime}}{42}{figure.6.2}
@@ -57,12 +58,12 @@
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{52}{figure.6.8}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{52}{figure.6.8}
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Left: constant daytime,right: constant temperature}}{53}{figure.6.9}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces The \ce {BrO} measurement error as a function of the difference of exposure time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the \ce {BrO} error with the distance in exposure time is observably.}}{55}{figure.6.10}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}{figure.6.10}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{55}{figure.6.10}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{55}{figure.6.10}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{55}{figure.6.10}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{55}{figure.6.10}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces The \ce {BrO} measurement error as a function of the difference of exposure time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. A increase of the \ce {BrO} error with the distance in exposure time is observably.}}{54}{figure.6.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{54}{figure.6.10}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{54}{figure.6.10}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{54}{figure.6.10}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{54}{figure.6.10}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{54}{figure.6.10}
 \contentsline {figure}{\numberline {6.11}{\ignorespaces A example of the dependency of external parameters on each other. The difference in Temperature as a function of the Exposure Time. Data from Tungurahua}}{57}{figure.6.11}
 \contentsline {figure}{\numberline {6.12}{\ignorespaces Correlation matrix of the external parameters. The correlation is discrete colour coded. Positive correlation is labeled with a plus whereas negative correlation is labeled with a minus.}}{58}{figure.6.12}
 \contentsline {figure}{\numberline {6.13}{\ignorespaces DiffExpTime at Tungurahua}}{60}{figure.6.13}
@@ -86,22 +87,22 @@
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{64}{figure.6.18}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{64}{figure.6.18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces }}{66}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces }}{68}{figure.7.2}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Visualization of the contamination based Method. If the reference is contaminated a list of possible references is available, where the temporal difference between the plume and the reference is not longer than two weeks. For every possible reference, the estimated BrO error is calculated by considering the corresponding difference in important external parameters. The reference with the so calculated minima BrO error is used for the evaluation.}}{66}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Deviation from the "optimal evaluation" as a function of the selection of differences in external parameters which are used for the evaluation}}{68}{figure.7.2}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nevado Del Ruiz}}}{68}{figure.7.2}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tungurahua}}}{68}{figure.7.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce {SO2} column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce {BrO} column densities from Tungurahua; (b) Results for the \ce {BrO} column densities from Nevado Del Ruiz; (c) Results for the \ce {SO2} column densities from Tungurahua; (d) Results for the \ce {SO2} column densities from Nevado Del Ruiz}}{74}{figure.8.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{74}{figure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{74}{figure.8.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{74}{figure.8.1}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{74}{figure.8.1}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce {SO2} column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce {BrO} column densities from Tungurahua; (b) Results for the \ce {BrO} column densities from Nevado Del Ruiz; (c) Results for the \ce {SO2} column densities from Tungurahua; (d) Results for the \ce {SO2} column densities from Nevado Del Ruiz}}{73}{figure.8.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{73}{figure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{73}{figure.8.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{73}{figure.8.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{73}{figure.8.1}
 \contentsline {figure}{\numberline {8.2}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce {SO2} column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. (a)+(b): The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce {BrO} /\ce {SO2} column densities from Tungurahua; (b) Results for the \ce {BrO} /\ce {SO2} column densities from Nevado Del Ruiz. (c) +(d) The column density calculated with NOVAC was substracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero, that means both evaluations lead to the same ratio. (c) Tungurahua (d) Nevado Del Ruiz}}{77}{figure.8.2}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{77}{figure.8.2}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{77}{figure.8.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{77}{figure.8.2}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{77}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces }}{78}{figure.8.3}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Time series of \ce {SO2} column densities at Tungurahua. Blue data points are below the detection limit, green data points are not contaminated, valid SO2 SCDs. Red data points are contaminated data, evaluated with the contamination based method.}}{78}{figure.8.3}
 \contentsline {figure}{\numberline {8.4}{\ignorespaces }}{78}{figure.8.4}
 \contentsline {figure}{\numberline {8.5}{\ignorespaces }}{79}{figure.8.5}
 \addvspace {10\p@ }
