@@ -13,7 +13,7 @@ White space in argument---line 109 of file Wilken_Elsa_MasterThesis.aux
  : \citation{Beirle
  :                  at al 2014}
 I'm skipping whatever remains of this command
-White space in argument---line 462 of file Wilken_Elsa_MasterThesis.aux
+White space in argument---line 505 of file Wilken_Elsa_MasterThesis.aux
  : \citation{geeignete
  :                     quelle,irgendwo hab ich das schon gehoert}
 I'm skipping whatever remains of this command
@@ -22,6 +22,7 @@ A level-1 auxiliary file: deposition.aux
 Database file #1: references.bib
 Warning--I didn't find a database entry for "Seinfeld"
 Warning--I didn't find a database entry for "samaniego"
+Warning--I didn't find a database entry for "lubcke2014"
 Warning--I didn't find a database entry for "fig:d2j22000diffelevangleonetempnevad"
 Warning--to sort, need author or key in GlobalVolcanismProgram
 Warning--to sort, need author or key in NOVACsite

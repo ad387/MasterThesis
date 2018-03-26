@@ -1,4 +1,4 @@
-\begin{thebibliography}{45}
+\begin{thebibliography}{46}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -228,6 +228,13 @@ Alan Robock.
 \newblock Volcanic eruptions and climate.
 \newblock \emph{Reviews of Geophysics}, 38\penalty0 (2):\penalty0 191--219,
   2000.
+
+\bibitem[Salerno et~al.(2009)Salerno, Burton, Oppenheimer, Caltabiano, Tsanev,
+  and Bruno]{salerno2009novel}
+GG~Salerno, MR~Burton, C~Oppenheimer, T~Caltabiano, VI~Tsanev, and N~Bruno.
+\newblock Novel retrieval of volcanic so2 abundance from ultraviolet spectra.
+\newblock \emph{Journal of Volcanology and Geothermal Research}, 181\penalty0
+  (1-2):\penalty0 141--153, 2009.
 
 \bibitem[Schmidt and Robock(2015)]{schmidt2015volcanismarticle}
 A~Schmidt and A~Robock.
