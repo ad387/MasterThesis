@@ -326,7 +326,7 @@ THe BrO concentration reaches a maximum approximately 5 minutes after emission a
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{Bilder/DOASFunction}
-		\caption{Schematic sketch of the DOAS measurement routine \textcolor{red}{besser beschreiben}}
+		\caption{Schematic sketch of the DOAS measurement of volcanic plume constituents. The column density of the plume constituent of interest is retrieved by comparing the spectrum $I\left(\lambda \right)$ which is measured through the plume with the spectrum  $I_0^{'}\left(\lambda \right)$ measured outside of the plume.}
 		\label{fig:doasfunction}
 	\end{figure}
 	
@@ -923,7 +923,6 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 	For the retrieval only "Multi Add" data were used. The maximal temporal difference between measuring the reference and the plume is two weeks.\\
 	\\
 	We restricted non of the external parameter due to the higher x factor as it can be seen in ...\\
-	
 	%
 	Furthermore we do not distinguish between the individual instruments. ???????????\\
 	\begin{figure}[h!]	
@@ -938,6 +937,19 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 		\caption{Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce{SO2}  column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce{BrO}  column densities from Tungurahua; (b) Results for the \ce{BrO}  column densities from Nevado Del Ruiz; (c) Results for the \ce{SO2}  column densities from Tungurahua; (d) Results for the \ce{SO2}  column densities from Nevado Del Ruiz}
 		\label{fig:diffNovac}
 	\end{figure}
+\begin{figure}[h!]		
+	\subfigure[]{\includegraphics[width=0.5\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_novac_conbased}
+		\label{fig:diffratioa}}
+	\subfigure[]{\includegraphics[width=0.5\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased}
+		\label{fig:diffratiob}}
+	\subfigure[]{\includegraphics[width=0.5\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased}
+		\label{fig:diffratioc}}
+	\subfigure[]{\includegraphics[width=0.5\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased}
+		\label{fig:diffratiod}}
+	\caption{Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce{SO2}  column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. (a)+(b): The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce{BrO}  /\ce{SO2}  column densities from Tungurahua; (b) Results for the \ce{BrO}  /\ce{SO2}  column densities from Nevado Del Ruiz. 
+		(c) +(d) The column density calculated with NOVAC was substracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero, that means both evaluations lead to the same ratio. (c) Tungurahua (d) Nevado Del Ruiz}
+	\label{fig:diffratio}
+\end{figure}
 	\Cref{fig:diffNovac} shows a comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. The x-axis shows the column density of \ce{BrO}  respectively \ce{SO2}  calculated with NOVAC-method, the y-axis shows the column density calculated with the contamination based method. Only data are used where the corresponding \ce{SO2}  column density lies above the plume limit ($SO2\_SCD>7\cdot 10^{17}$). Meaning the column densities evaluated with the contamination based method. The corresponding \ce{SO2}  SCD's evaluated with NOVAC could be below $7\cdot 10^{17}$.
 	The plots at the left side (\Cref{fig:diffNovaca} and \ref{fig:diffNovacc}) show the results from the Tungurahua volcano while the plots at the right side (\Cref{fig:diffNovacb} and \ref{fig:diffNovacd}) show the results from Nevado Del Ruiz volcano. The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent.\\
 	\Cref{fig:diffNovaca} respectively \ref{fig:diffNovacb} show the results for the \ce{BrO}  retrieval:
@@ -953,21 +965,6 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 		\item The \ce{SO2}  column densities retrieved due to the contamination based method have become larger for almost every measurement compared to the NOVAC method.
 		\item An almost constant offset of 6.5$\cdot 10 ^{17}$ (Tungurahua) and 7.4$\cdot 10 ^{17}$ (Nevado Del Ruiz) can be seen.
 	\end{itemize}
-
-
-\begin{figure}[h!]		
-	\subfigure[]{\includegraphics[width=0.5\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_novac_conbased}
-	\label{fig:diffratioa}}
-	\subfigure[]{\includegraphics[width=0.5\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased}
-	\label{fig:diffratiob}}
-	\subfigure[]{\includegraphics[width=0.5\textwidth]{Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased}
-	\label{fig:diffratioc}}
-	\subfigure[]{\includegraphics[width=0.5\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased}
-	\label{fig:diffratiod}}
-	\caption{Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce{SO2}  column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. (a)+(b): The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce{BrO}  /\ce{SO2}  column densities from Tungurahua; (b) Results for the \ce{BrO}  /\ce{SO2}  column densities from Nevado Del Ruiz. 
-	(c) +(d) The column density calculated with NOVAC was substracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero, that means both evaluations lead to the same ratio. (c) Tungurahua (d) Nevado Del Ruiz}
-	\label{fig:diffratio}
-\end{figure}
 \Cref{fig:diffratio} shows the difference of the ration when performing the evaluation with the NOVAC method or the contamination based method. The results for Tungurahua are visualized at the left side (\Cref{fig:diffratioa} , \ref{fig:diffratioc}) and the results for Nevado Del Ruiz are shown at the right side  (\Cref{fig:diffratiob} , \ref{fig:diffratiod}). \Cref{fig:diffratioa} and \ref{fig:diffratiob} show the results of the contamination based method plotted against the results of the NOVAC method. \Cref{fig:diffratioc}  and \ref{fig:diffratiod} show the actual difference between both method. The column density calculated with NOVAC was substracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero, that means both evaluations lead to the same ratio.\\
 \begin{itemize}
 	\item For low \ce{BrO}/\ce{SO2}  ratios approximately below zero, the ratios calculated with the contamination based method are higher than the ratios retrieved with the NOVAC method. For higher \ce{BrO}/\ce{SO2}  ratios (approximately above zero) the ratios calculated with the NOVAC method are larger.
@@ -977,7 +974,42 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 Due to the increase of the \ce{SO2}  column density when performing the evaluation with the contamination based method more \ce{SO2}  SCD lie above the plume limit of $7\cdot10^{17}\quad \frac{molec}{cm^2}$. This leads to an increase of the amount of reliable data.\\ 
 In the following we will discuss the results for the Tungurahua volcano and the Nevado Del Ruiz. 
 
-
+\begin{table}
+	\subfigure{
+		\begin{tabular}{p{5cm}p{2cm}p{4cm}p{4cm}}
+			&&Tungurahua&Nevado Del Ruiz\\
+			\toprule
+			Total Amount of Data&&6500&14005\\
+			\midrule
+			Total amount of Data above Plume Limit&&6.7\%&12.8\%\\
+			\midrule
+			Contaminated Data &&0.060&0.099\\
+			\bottomrule			
+	\end{tabular}}
+	\subfigure{		
+		\begin{tabular}{|p{2cm}p{2cm}p{1.8cm}|p{1.8cm}}
+			\multicolumn{3}{c}{Contaminated data}\\
+			\toprule
+			&&Tungu rahua&Nevado Del Ruiz\\
+			\toprule
+			\multirow{2}{*}{\shortstack[l]{Within\\ Plume-limit}}& NOVAC&0.192&0.399\\
+			&Cont based&0.419&0.779\\
+			\midrule
+			not analysable&0.025&0.078\\
+			\bottomrule			
+		\end{tabular}
+	}
+	\subfigure{	
+		\begin{tabular}{p{2cm}p{1.8cm}|p{1.8cm}|}
+			\multicolumn{3}{c}{Not contaminated data}\\
+			\toprule
+			&Tungu rahua&Nevado Del Ruiz\\
+			\toprule
+			{\shortstack[l]{Within\\ Plume-limit}}&0.055&0.088\\
+			\bottomrule		
+	\end{tabular}}
+	\label{tab:calc}
+\end{table}
 
 \section{Tungurahua}
 	In the considered timespan from June 2008 to August 2009, 6500 multi add spectra are recorded. \\
@@ -989,12 +1021,12 @@ In the following we will discuss the results for the Tungurahua volcano and the 
  	When performing the evaluating of the contaminated data with the contamination based method 41.9 percent of the resulting \ce{SO2}  column densities are in the plume limit. Thus the reliable amount of contaminated data increase by 118.7 percentage while the total amount of data increase by 45.2 percent. Thus 7.986 percent of all data are above plume limit when consider contamination.\\
  	Due to using trace gas free references instead of contaminated references about 45.2 percent more data are available. \\
  	Due to the very small amount of \ce{BrO}  column densities above the detection limit often the daily mean of the \ce{BrO}/\ce{SO2}  ratios is used. Hereby at least tree to four "Multi Adds" per day in the plume limit need to be recorded. Thus performing the evaluation of contaminated data with the contamination based method leads to more data. Some days which had less than  tree to four valid data points could then have four or more multi adds. 12.5 percent more daily mean data can be retrieved when using the contamination based method. The amount of daily means increases less than the total amount of data, this effect can be explained due to a higher occurence of contamination if the \ce{SO2}  column densities are high, thus more data are retrieved for days with high \ce{SO2}  amount.
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Bilder/tung_so2_novac_sametime}
-		\caption{Time series of \ce{SO2} column densities at Tungurahua. Blue data points are below the detection limit, green data points are not contaminated, valid SO2 SCDs. Red data points are contaminated data, evaluated with the contamination based method.}
-		\label{fig:tungso2novacsametime}
-	\end{figure}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=0.7\linewidth]{Bilder/tung_so2_novac_sametime}
+%		\caption{Time series of \ce{SO2} column densities at Tungurahua. Blue data points are below the detection limit, green data points are not contaminated, valid SO2 SCDs. Red data points are contaminated data, evaluated with the contamination based method.}
+%		\label{fig:tungso2novacsametime}
+%	\end{figure}
 	
 
 
@@ -1020,54 +1052,41 @@ For the same reasons as described for the Tungurahua volcano we are also interes
 %
 %	Dh in den kontaminierten daten sind mit NOVAC ausgewerteten daten \underline{3.449} häufiger über dem plume limit\\
 %
-\begin{table}
-	\subfigure{
-	\begin{tabular}{p{5cm}p{2cm}p{4cm}p{4cm}}
-		&&Tungurahua&Nevado Del Ruiz\\
-		\toprule
-		Total Amount of Data&&6500&14005\\
-		\midrule
-		Total amount of Data above Plume Limit&&6.7\%&12.8\%\\
-		\midrule
-		Contaminated Data &&0.060&0.099\\
-		\bottomrule			
-	\end{tabular}}
-		\subfigure{		
-		\begin{tabular}{|p{2cm}p{2cm}p{1.8cm}|p{1.8cm}}
-			\multicolumn{3}{c}{Contaminated data}\\
-			\toprule
-			&&Tungu rahua&Nevado Del Ruiz\\
-			\toprule
-			\multirow{2}{*}{\shortstack[l]{Within\\ Plume-limit}}& NOVAC&0.192&0.399\\
-			&Cont based&0.419&0.779\\
-			\midrule
-			 not analysable&0.025&0.078\\
-			\bottomrule			
-		\end{tabular}
-	}
-	\subfigure{	
-		\begin{tabular}{p{2cm}p{1.8cm}|p{1.8cm}|}
-			\multicolumn{3}{c}{Not contaminated data}\\
-			\toprule
-			&Tungu rahua&Nevado Del Ruiz\\
-			\toprule
-			{\shortstack[l]{Within\\ Plume-limit}}&0.055&0.088\\
-			\bottomrule		
-		\end{tabular}}
-	\label{tab:calc}
-	\end{table}
 \section{BrO/\ce{SO2}  time series}
 The final time series of \ce{BrO}/\ce{SO2}  for Tungurahua and Nevado Del Ruiz are shown \Cref{fig:resultsnevadodelruiz-1}.
 
 	Interpretation of the \ce{BrO}/\ce{SO2} ratio time-series
-	\begin{figure}
-		\subfigure{
-		\includegraphics[width=0.49\linewidth]{Bilder/Results/Results_Tungurahua}}
-		\subfigure{
-		\includegraphics[width=0.49\linewidth]{"Bilder/Results/Results_NevadoDelRuiz (1)"}}
-		\caption{Time series of the BrO/So2 ratios for Nevado del Ruiz (left) and Tungurahua (right). The contaminated data are evaluated by using the contamination based method. The SO2 SCDs used for this plot are above the plume limit.}
-		\label{fig:resultsnevadodelruiz-1}
-	\end{figure}
+%	\begin{figure}
+%		\subfigure{
+%		\includegraphics[width=0.49\linewidth]{Bilder/Results/Results_Tungurahua}}
+%		\subfigure{
+%		\includegraphics[width=0.49\linewidth]{"Bilder/Results/Results_NevadoDelRuiz (1)"}}
+%		\caption{Time series of the BrO/So2 ratios for Nevado del Ruiz (left) and Tungurahua (right). The contaminated data are evaluated by using the contamination based method. The SO2 SCDs used for this plot are above the plume limit.}
+%		\label{fig:resultsnevadodelruiz-1}
+%	\end{figure}
+\begin{figure}
+	\centering
+	\subfigure{
+	\includegraphics[width=0.8\linewidth]{Bilder/ndr_so2_novac_sametime}}
+	\subfigure{
+	\includegraphics[width=0.8\linewidth]{Bilder/ndr_bro_sametime}}
+	\subfigure{
+	\includegraphics[width=0.8\linewidth]{Bilder/ndr_rat_sametime}}
+	\caption{Time series of the BrO/So2 ratios for Nevado del Ruiz . The contaminated data are evaluated by using the contamination based method. Blue data points are below the detection limit, green data points are not contaminated, valid SO2 SCDs. Red data points are contaminated data, evaluated with the contamination based method.}
+	\label{fig:ndrso2novacsametime}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure{
+	\includegraphics[width=0.8\linewidth]{Bilder/tung_bro_sametime}}
+	\subfigure{
+	\includegraphics[width=0.8\linewidth]{Bilder/tung_rat_sametime}}
+	\subfigure{
+	\includegraphics[width=0.8\linewidth]{Bilder/tung_so2_novac_sametime}}
+	\caption{Time series of the BrO/So2 ratios for Tungurahua. The contaminated data are evaluated by using the contamination based method.  Blue data points are below the detection limit, green data points are not contaminated, valid SO2 SCDs. Red data points are contaminated data, evaluated with the contamination based method.}
+	\label{fig:tungso2novacsametime}
+\end{figure}
+
 	\Cref{fig:dailymeanstungurahua} shows a time series of Daily means of the BrO/SO2 ratio. The minimum amount of valid data point within one day is above 4. Days where 3 or less valid data where recorded are not considered in this figure.  Thus all considered ratios have an SO2 SCD above the plume limit. The red marked ratios shows data which are only able to use, if the contaminated data are used as well.
 	\begin{figure}
 		\subfigure{

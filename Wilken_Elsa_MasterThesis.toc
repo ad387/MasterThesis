@@ -29,22 +29,22 @@
 \contentsline {subsection}{\numberline {6.1.3}Daytime }{52}{subsection.6.1.3}
 \contentsline {subsection}{\numberline {6.1.4}Colorindex}{55}{subsection.6.1.4}
 \contentsline {subsection}{\numberline {6.1.5}Elevation Angle}{57}{subsection.6.1.5}
-\contentsline {subsection}{\numberline {6.1.6}Exposure Time}{60}{subsection.6.1.6}
-\contentsline {section}{\numberline {6.2}\ce {BrO} dependence on external parameters}{70}{section.6.2}
-\contentsline {chapter}{\numberline {7}Contamination based method}{73}{chapter.7}
-\contentsline {section}{\numberline {7.1}Fit data}{75}{section.7.1}
-\contentsline {section}{\numberline {7.2}Other approaches}{77}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Nearest neighbor approach}{77}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Iterative approach}{79}{subsection.7.2.2}
-\contentsline {chapter}{\numberline {8}Comparison with NOVAC evaluation}{80}{chapter.8}
-\contentsline {section}{\numberline {8.1}Tungurahua}{82}{section.8.1}
-\contentsline {section}{\numberline {8.2}Nevado Del Ruiz}{83}{section.8.2}
-\contentsline {section}{\numberline {8.3}BrO/\ce {SO2} time series}{84}{section.8.3}
-\contentsline {chapter}{\numberline {9}Issues of our method}{88}{chapter.9}
-\contentsline {section}{\numberline {9.1}Contamination of the plume}{88}{section.9.1}
-\contentsline {chapter}{\numberline {10}Conclusion}{90}{chapter.10}
-\contentsline {part}{\numberline {III}Appendix}{92}{part.3}
-\contentsline {chapter}{\numberline {A}Lists}{98}{appendix.A}
-\contentsline {section}{\numberline {A.1}List of Figures}{98}{section.A.1}
-\contentsline {section}{\numberline {A.2}List of Tables}{103}{section.A.2}
-\contentsline {chapter}{\numberline {B}Bibliography}{107}{appendix.B}
+\contentsline {subsection}{\numberline {6.1.6}Exposure Time}{61}{subsection.6.1.6}
+\contentsline {section}{\numberline {6.2}\ce {BrO} dependence on external parameters}{67}{section.6.2}
+\contentsline {chapter}{\numberline {7}Contamination based method}{74}{chapter.7}
+\contentsline {section}{\numberline {7.1}Fit data}{76}{section.7.1}
+\contentsline {section}{\numberline {7.2}Other approaches}{78}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Nearest neighbor approach}{78}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Iterative approach}{80}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Comparison with NOVAC evaluation}{81}{chapter.8}
+\contentsline {section}{\numberline {8.1}Tungurahua}{83}{section.8.1}
+\contentsline {section}{\numberline {8.2}Nevado Del Ruiz}{85}{section.8.2}
+\contentsline {section}{\numberline {8.3}BrO/\ce {SO2} time series}{85}{section.8.3}
+\contentsline {chapter}{\numberline {9}Issues of our method}{90}{chapter.9}
+\contentsline {section}{\numberline {9.1}Contamination of the plume}{90}{section.9.1}
+\contentsline {chapter}{\numberline {10}Conclusion}{92}{chapter.10}
+\contentsline {part}{\numberline {III}Appendix}{94}{part.3}
+\contentsline {chapter}{\numberline {A}Lists}{100}{appendix.A}
+\contentsline {section}{\numberline {A.1}List of Figures}{100}{section.A.1}
+\contentsline {section}{\numberline {A.2}List of Tables}{106}{section.A.2}
+\contentsline {chapter}{\numberline {B}Bibliography}{109}{appendix.B}
