@@ -56,7 +56,7 @@ In the following we describe the technical implementation of the DOAS approach u
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{Bilder/NOVAC_Eval}
-	\caption{NOVAC Evaluation: (a) Measurement at the volcano (b) Evaluation of the spectral data with the DOAS routine using the absorption cross sections of \ce{BrO}  and \ce{SO2}. (c) Finding the location of the plume and reference (d) (taken from \cite{WarnachSimon}) Computation of the ratios BrO/\ce{SO2} at Tungurahua. \textcolor{red}{Bild noch ändern, letztes bild andere stil, verwechseln SO2 and BrO absorbtion }}
+	\caption{NOVAC Evaluation: (a) Measurement at the volcano (b) Evaluation of the spectral data with the DOAS routine using the absorption cross sections of \ce{BrO}  and \ce{SO2}. (c) Finding the location of the plume and reference (d) (taken from \cite{WarnachSimon}) Computation of the ratios BrO/\ce{SO2} at Tungurahua. \textcolor{red}{Bild noch ändern, letztes bild andere stil, verwechseln \ce{SO2} and BrO absorbtion }}
 	\label{fig:NOVAC_Eval}
 \end{figure}
 %
@@ -74,7 +74,7 @@ In \Cref{fig:plumeref} (a) an example \ce{SO2} SCD as a function of the elevatio
 Since the \ce{BrO} column density is much lower than the \ce{SO2} column density, and just lies slightly above the detection limit, the plume is hard to detect using the \ce{BrO} column density as it is shown in fig. \ref{fig:plumeref} (b). 
 Therefore we evaluate BrO only in the plume location determined by using \ce{SO2}.\\
 In a further step multiple reference and plume spectra of successive measurements are added to further increase the fit quality.
-\Cref{fig:NOVAC_Eval} visualizes the different steps described above in the retrieval of the BrO/SO2 ratios.\\
+\Cref{fig:NOVAC_Eval} visualizes the different steps described above in the retrieval of the BrO/\ce{SO2} ratios.\\
 \Cref{fig:algorithm} (b) shows the routine of adding multiple spectra of consecutive measuring times. In the following the spectra resulting from the multi adding technique will be referred to as "Multi Add Spectra". The algorithm for co-adding is visualized in \Cref{fig:algorithm} (b) was invented by \citet{vogel2011volcanic} and \citet{lubcke2014bro}.\\
 %
 Taking the \ce{BrO}/\ce{SO2} molar ratios if the column densities are close to zero yields unpredictable and unrealistic results. Thus, spectra measured in a thin volcano plume need to be excluded.
@@ -86,7 +86,7 @@ This could be achieved by setting a \ce{BrO} or/and an \ce{SO2} threshold. A rea
 	\caption{(a) \ce{SO2} SCD as a function of the elevation angle. The co-added plume region is marked with red diamonds, and the co added reference region with green stars. From \cite{WarnachSimon}. (b) Flow chart of the \ce{BrO}  and \ce{SO2} evaluation. From \cite{lubcke2014optical}.}
 	\label{fig:algorithm}
 \end{figure}
-The other possibility is to set an \ce{SO2} threshold. In this thesis an \ce{SO2} threshold (plume limit) of $7\cdot 10^{17} \frac{molec}{cm^2}$ is used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. $7\cdot 10^{17} \frac{molec}{cm^2}$ is a high threshold for the column density. However, this approach assures that only strongly significant gas amounts are accounted \citep{lubcke2014bro}. Choosing the SO2 threshold in this way leads to consistent observations for strong degassing, but low degassing events are rather excluded in the evaluation.\\
+The other possibility is to set an \ce{SO2} threshold. In this thesis an \ce{SO2} threshold (plume limit) of $7\cdot 10^{17} \frac{molec}{cm^2}$ is used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. $7\cdot 10^{17} \frac{molec}{cm^2}$ is a high threshold for the column density. However, this approach assures that only strongly significant gas amounts are accounted \citep{lubcke2014bro}. Choosing the \ce{SO2} threshold in this way leads to consistent observations for strong degassing, but low degassing events are rather excluded in the evaluation.\\
 \textcolor{red}{Ich würde hier noch erwähnen für welche Ratios wir mit diesem Plume Limit sensitiv sind (siehe Appendix in Dinger et al, 2018).}\\
 Increasing a plume limit leads to a decrease of usable data. The ratio of usable  data as a function of the plume limit is shown in \Cref{fig:percentageminso2}. An exponential decrease of data can be observed. The plot is based on the data of Tungurahua. Plume limits below 7$\cdot10^{17}$ are shaded in yellow. A plume limit of 7$\cdot10^{17}$ leads to a ratio of usable data of approximately 10\%.
 \begin{figure}
@@ -116,7 +116,7 @@ contaminated by volcanic trace gases, there are two possibilities: excluding the
 replaced by a volcanic-gas-free reference. Alternative spectra are a
 theoretical solar atlas spectrum or a volcanic-gas-free reference
 spectrum recorded by the same instrument at another time.\\
-A further possibility is to assume, that contamination only occurs for SO2, but not for BrO due to the smaller lifetimes of BrO, thus it is possible to use the Solar atlas spectrum for the So2 evaluation, but the reference, recorded by the NOVAC-instrument at the same time for the BrO retrieval. Hereby the assumption, that BrO is not contaminated need to be proved. \\
+A further possibility is to assume, that contamination only occurs for SO2, but not for BrO due to the smaller lifetimes of BrO, thus it is possible to use the Solar atlas spectrum for the \ce{SO2} evaluation, but the reference, recorded by the NOVAC-instrument at the same time for the BrO retrieval. Hereby the assumption, that BrO is not contaminated need to be proved. \\
 %
 \\
 %
@@ -166,6 +166,6 @@ However this thesis is build on the assumption, that the plume is free of additi
 	\includegraphics[width=0.5\linewidth]{Bilder/contaminationdependency_so2}}
 \subfigure{
 	\includegraphics[width=0.5\linewidth]{Bilder/contaminationdependency_so2_Nevad}}
-	\caption{The strength of contamination as function of the mean \ce{SO2} amount of the day before. The strength of contamination is defined as the difference in \ce{SO2} SCD  when evaluation with an alternative reference, or neglect the contamination. Left: data from Tungurahua. Right: data from Nevado Del Ruiz. \textcolor{red}{Wie wurde mean SO2 bestimmt? Wie sieht es bei max SO2 aus? (Und eigentlich müsse man ja eher die SO2 Emissionen anschauen. Die wir aber nicht (so einfach) kennen.)}}
+	\caption{The strength of contamination as function of the mean \ce{SO2} amount of the day before. The strength of contamination is defined as the difference in \ce{SO2} SCD  when evaluation with an alternative reference, or neglect the contamination. Left: data from Tungurahua. Right: data from Nevado Del Ruiz. \textcolor{red}{Wie wurde mean \ce{SO2} bestimmt? Wie sieht es bei max \ce{SO2} aus? (Und eigentlich müsse man ja eher die \ce{SO2} Emissionen anschauen. Die wir aber nicht (so einfach) kennen.)}}
 	\label{fig:contaminationdependencyso2}
 \end{figure}
