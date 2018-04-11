@@ -666,6 +666,7 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 	One possibility is to use all external parameters where the correlation is above a certain value. Since we want to get a selection valid for all instruments there are two possibilities: The first one is that we decide by using the mean correlation of all instruments. The second option is to use the highest correlation.
 	
 	\begin{table}[h]
+		\centering
 		\begin{tabular}{|p{4cm}|p{3cm}|p{3cm}|}
 			&  Mean -Correlation&  Highest   -Correlation\\
 			\toprule
@@ -931,15 +932,16 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 
 	\subsection{Iterative approach}
 
-	The idea of the iterative method is, that the importance of the individual external parameters are very different, that means if we have the list of possible references, we take all references where the temperature difference is minimal, so we get a new, much smaller list of possible referenecs. From this list we choose all references where the next external parameter for example the daytime is minimal and again get a new list. We proceed this way with the following external parameters. We experiment with the sequence of the parameters, to increase the success of the method. The final sequence is:
+	The idea of the iterative method is, that the importance of the individual external parameters are very different, that means if we have the list of possible references, we take all references where the temperature difference is minimal, so we get a new, much smaller list of possible references. From this list we choose all references where the next external parameter for example the daytime is minimal and again get a new list. We proceed this way with the following external parameters. We experiment with the sequence of the parameters, to increase the success of the method. The final sequence is:
 	\begin{equation*}
-	Temperature \bullet  Daytime  \bullet Colorindex \bullet Temporal Difference \bullet Exposure time
+	Temperature \bullet  Daytime  \bullet Colorindex \bullet Temporal\,\, Difference \bullet Exposure \,\, time
 	\end{equation*} 
 	\subsection*{Advantages of the iterative approach}
-	The advantages of the iterative aproach is the relative easy calculation and thus the short calculation time. Since the temperature is by far the external impact with the largest impact on the evaluation 	it is reasonable to look at first at the temperature, and after that on the other parameter. 
+	The advantages of the iterative approach is the simple calculation and thus the short calculation time. Since the temperature is by far the external impact with the largest impact on the evaluation it is reasonable to look at first at the temperature, and after that on the other parameters. \\
+	Another advantage is, that the external conditions of the resulting references, are in an well-defined framework, similar to the  conditions of the plume. Therefore the systematic errors resulting from the effects on the BrO SCDs (see \Cref{fig:difftempbroallinstruments}) can be kept small.
 	\subsection*{Disadvantages of the iterative approach}
-	The disadvantage of the iterative approach is the sequenz and that the result worse is
-
+	The iterative approach leads to an rigid evaluation of the data. References, which have very similar conditions as the plume could be excluded of the evaluation due to an large difference in one external parameter. The decision for the best suited reference is based on one by one parameter. Thus it is impossible to look at all parameters by the same time.   This could lead to a less optimal evaluation when looking at the BrO error.
+	As a result the iterative method has a worse X factor compared to the nearest neighbour and the fitting method.
 	
 	\chapter{Comparison with NOVAC evaluation}
 	This chapter shows and discuss the difference of the \ce{BrO}, \ce{SO2}  and \ce{BrO}/\ce{SO2}  ratio data when evaluating with the NOVAC-Method, or with the contamination based method.
