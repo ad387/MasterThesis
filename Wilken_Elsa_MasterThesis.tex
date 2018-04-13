@@ -444,13 +444,13 @@ THe BrO concentration reaches a maximum approximately 5 minutes after emission a
 	In all discussions on the impact of the external parameter on the retrieved \ce{BrO}  error the  dependency of the external parameter on each other are neglected. It is plausible that the temperature correlates with the cloudiness or the lightness due to sunlight. Therefore the correlation of the exposure time with the \ce{BrO}  error could be a result of the correlation of the temperature with the \ce{BrO}  error. \Cref{fig:difference-in-exposure-time-msdifference-in-temperature-ctungu} shows an example of the dependency of external parameters on each other. The difference in temperature as a function of the difference in exposure time. The \ce{BrO}  error is color-coded. \\
 	All correlations between the external parameters are shown in \Cref{fig:varcorrelationmatrix}. \Cref{fig:varcorrelationmatrix} shows discrete correlation values from 0.3 to 1. Correlations below 0.3 are ignored. Small plus and minus signs indicate whether the correlation is negative or positive. 
 	The temperature depends on the daytime, due to the dependence of the temperature on the sun, thus a correlation between the  difference in temperature and the difference in daytime (Correlation of $\approx$ 0.5) can be observed. Since the temperature depends on the intensity of the sun, it also correlates with  the difference in exposure time (Correlation of $\approx$ 0.4). The difference in temperature also slightly correlates with the difference in colorindex, due to the dependency of temperature on the cloudiness (Correlation of $\approx$ 0.3). The low correlations could appear due to the uniform cloudiness near to the equator. The correlation between the temperature difference to the temporal difference (Correlation of $\approx$ 0.3) probably occurs due to long term changes in temperature. Furthermore the difference in exposure time correlates with the daytime and the colorindex (Correlation of $\approx$ 0.4) as a result of the dependency on the sun intensity.\\
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.7\linewidth]{"../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Difference in Temperature [C]_Tungu"}
 		\caption{An example of the dependency of external parameters on each other. The difference in temperature as a function of the exposure time. data from Tungurahua.}
 		\label{fig:difference-in-exposure-time-msdifference-in-temperature-ctungu}
 	\end{figure}
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[width=1\linewidth]{Bilder/varCorrelation_matrix}
 		\caption{Correlation matrix of the external parameters. The correlation is discrete colour coded. Positive correlation is labeled with a plus whereas negative correlation is labeled with a minus. The correlation matrix is calculated using the data from D2J2140\_0.}
@@ -466,27 +466,29 @@ THe BrO concentration reaches a maximum approximately 5 minutes after emission a
 	Restricting the data, to where the temperature difference is kept below one degree, leads to an distortion of the data. Thus the results plotted in \Cref{fig:datwithoutotherparamallinstruments} to \Cref{fig:diffdaytimewithoutotherparamallinstruments} could also have systematic errors.\\
 	When comparing the correlations of the data from \Cref{fig:DiffExpTime} and \Cref{fig:DiffExpTimeNevad}  to the correlations of 
 	\Cref{fig:difftemp} to \Cref{fig:diffexptime} a large reduction of the correlation is obvious. Only the difference in temperature still shows a significant correlation to the \ce{BrO}  error. However, the minimal \ce{BrO}  error coincidence in almost all cases with a difference in external parameters of zero. A dependency of the \ce{BrO}  error on the external parameter can still be seen even tough the correlation is very small. \\
-	Excluding of the external parameters due to the rather low correlation leads to a worse quality of the results, since the effects of the single parameter add up to a not negligible amount. However, note that  the added impact of all external parameter except for the temperature are less important than the temperature. \textcolor{red}{Wäre super wenn du diese Behauptung durch Zahlen beweisen kannst. Wie viel besser ist die Trefferquote wenn du alle parameter berücksichtigst im vergleich zu temperatur weg lassen?}\\
+	Excluding of the external parameters due to the rather low correlation leads to a worse quality of the results, since the effects of the single parameter add up to a not negligible amount. However, note that  the added impact of all external parameter except for the temperature are less important than the temperature.
+	The BrO error of contaminated spectra evaluated with the contamination based method (See \Cref{chapt:contbased}) increases by 15\% if the other external parameters are excluded. If all external paramter except for the temperature are used the calculated BrO error increases by 37\%.\\
+	\\
 	For the final evaluation of contaminated data we use the results of \Cref{fig:difftemp} to \Cref{fig:diffcolidx}. Since the correlations between the external parameters are considered in the final 4 dimensional fit.\\
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.7\linewidth]{Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstruments}
 		\caption{The BrO measurement error as a function of the temporal difference between measuring the reference and the plume are shown. Therefor, the reference spectra are restricted such that the maximal temperature difference between reference and plume is $1^\circ C$.}
 		\label{fig:datwithoutotherparamallinstruments}
 	\end{figure}
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments}
 	\caption{The BrO measurement error as a function of the exposure time difference between measuring the reference and the plume are shown. Therefor, the reference spectra are restricted such that the maximal color index difference between reference and plume is $0.05$. The maximal daytime difference is $1h$.}
 	\label{fig:diffexptimewithoutotherparamallinstruments}
 \end{figure}
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments}
 	\caption{The BrO measurement error as a function of the color index difference between measuring the reference and the plume are shown. Therefor, the reference spectra are restricted such that the maximal temperature difference between reference and plume is $1^\circ C$. The maximal exposure time difference is $100 ms$.}
 	\label{fig:diffcolidxwithoutotherparamallinstruments}
 \end{figure}
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOtherparamallInstruments}
 	\caption{The BrO measurement error as a function of the daytime difference between measuring the reference and the plume are shown. Therefor, the reference spectra are restricted such that the maximal temperature difference between reference and plume is $1^\circ C$. The maximal exposure time difference is $100 ms$.
@@ -605,7 +607,7 @@ This chapter examines the influence of external on the precision of the BrO eval
 temporal difference, temperature, daytime, colorindex, elevation angle, exposure time.  The findings are based on the data of three instruments installed at the Tungurahua volcano and two instruments at the Nevado Del Ruiz volcano. The maximal temporal difference between measuring the plume and the reference is set to 14 days to prevent large uncertainties in the BrO evaluation. Due to the mechanical influence on the wavelength to pixel mapping the temperature for all analysed instruments has the most significant impact on the BrO evaluation for all considered external parameters. The elevation angle does not seem to influence the evaluation for all examined instruments thus the elevation is excluded from the evaluation. The influence of the other external parameter change at every instrument. So a relatively strong impact of the exposure time can be seen at the D2J2201\_0 instrument at Nevado Del Ruiz, while the exposure time does not seem to significantly influence the evaluation of the data from the  I2J8548\_0 at Tungurahua. 
 	
 	%--------------------------------------------------------------------------------------------------------------
-\chapter{Contamination based method}
+\chapter{Contamination based method \label{chapt:contbased}}
 	Based on the findings about the influence of external parameters on the \ce{BrO} error we propose an algorithm which is able to pick an appropriate volcanic-trace-gas free reference.\\ 
 	The first step is, to evaluate every reference with solar atlas spectrum, to check for contamination.\\
 	\\
@@ -626,7 +628,7 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 	\end{itemize}
 
 	%
-	The assumption is, that the \ce{BrO} error $\epsilon_{BrO}$ can be described as the sum of $\epsilon_{0}$ and the deviation of $\epsilon_{BrO}$ with respect to all external parameters. $\epsilon_{0}$ is the \ce{BrO} error when evaluate the plume spectrum with the "same-time-Reference". It is determined due to the accurateness of the NOVAC-instruments.
+	The assumption is, that the \ce{BrO} error $\epsilon_{BrO}$ can be described as the sum of $\epsilon_{0}$ and the deviation of $\epsilon_{BrO}$ with respect to all external parameters. $\epsilon_{0}$ is the \ce{BrO} error when evaluate the plume spectrum with the "same-time-reference". It is determined due to the accurateness of the NOVAC-instruments.
 	\begin{align}
 		\epsilon_{BrO} &=  \epsilon_{0}+\frac{d\epsilon}{dt}+\frac{d\epsilon}{d ^{\circ}}+\frac{d\epsilon}{dT}+\frac{d\epsilon}{ddt} +\frac{d\epsilon}{dc} + \mathcal{O}\left(OP\right) \\
 		\rightarrow \Delta \epsilon_{BrO} &= \epsilon_{BrO} - \epsilon_{0} =\frac{d\epsilon}{dt}+\underbrace{\frac{d\epsilon}{d ^{\circ}}}_{=0}+\frac{d\epsilon}{dT}+\frac{d\epsilon}{ddt} +\frac{d\epsilon}{dc} + \mathcal{O}\left(OP\right) 
@@ -682,24 +684,25 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			\midrule
 			Daytime &0.395&	0.631\\
 			\bottomrule
+			\label{tab:CorrEP}
 		\end{tabular}
-	\label{tab:CorrEP}
 	\caption{The correlation coefficients between the BrO measurement error and the different external parameters. As a correlation value both the average and the maximum correlation is given.}
 	\end{table}
+
 	\begin{figure}
 		\subfigure[Nevado Del Ruiz]{
 			\includegraphics[width=0.5\linewidth]{"Bilder/WelcheEP/Nevado Del Ruiz"}}
 		\subfigure[Tungurahua]{
 			\includegraphics[width=0.5\linewidth]{Bilder/WelcheEP/Tungurahua}}
-		\caption{Deviation from the "optimal evaluation" as a function of the selection of differences in external parameters which are used for the evaluation. Here the utilized combination of external parameters are plotted on the x-axis and the deviation on the y-axis. The ideal combination (lowest deviation) is marked with a red cross.}
+		\caption{Deviation from the NOVAC-evaluation as a function of the selection of differences in external parameters which are used for the evaluation. Here the utilized combination of external parameters are plotted on the x-axis and the deviation on the y-axis. The ideal combination (lowest deviation) is marked with a red cross.}
 		\label{fig:WelcheEP}
 	\end{figure}
-	To answer this question quantitatively for the fitting routine we evaluated data of Tungurahua and Nevado Del Ruiz with different combinations of the external parameter described in \Cref{Chap:BROErr}. Since we could not observe any correlation between the \ce{BrO} error and the elevation angle the external parameter elevation angle was neglected in this analysis. To rate the results for the single instruments (three at Tungurahua and two at Nevado Del Ruiz) the difference to the "optimal evaluation" (explained in \ref{optimal evaition}) is used. Hereby the factor $X$, a quantity which describes the distinction between the optimal-Method and the contamination based method, serves as a indicator:
+	To answer this question quantitatively for the fitting routine we evaluated data of Tungurahua and Nevado Del Ruiz with different combinations of the external parameter described in \Cref{Chap:BROErr}. Since we could not observe any correlation between the \ce{BrO} error and the elevation angle the external parameter elevation angle was neglected in this analysis. To rate the results for the single instruments (three at Tungurahua and two at Nevado Del Ruiz) the difference to the "NOVAC-evaluation" is used. Hereby the factor $X$, a quantity which describes the distinction between the NOVAC-Method and the contamination based method, serves as a indicator:
 	\begin{equation}
-	X = \frac{1}{n}\sum_{k}^{n} \frac{EContBased_{ k}}{EOpt_{ k}}
+	X = \frac{1}{n}\sum_{k}^{n} \frac{EContBased_{ k}}{Enovac_{ k}}
 	\label{eq:mean}
 	\end{equation}
-	$n$ is the total amount of contaminated spectra, $EOpt$ is the \ce{BrO}  error, in the optimal-evaluation, $EContBased$ is the \ce{BrO}  error, in the contamination based-evaluation. 
+	$n$ is the total amount of contaminated spectra, $Enovac$ is the relative \ce{BrO}  error, in the NOVAC-evaluation, $EContBased$ is the relative \ce{BrO}  error, in the contamination based-evaluation. 
 	\Cref{fig:WelcheEP} shows the $X$ factor for the Tungurahua and the Nevado Del Ruiz volcano. The y-axis shows the factors $X$ averaged over all instrument at the volcanoes.\\
 	The factors X change from instrument to instrument. The results for every instrument can be seen in the appendix (\Cref{fig:I2J8548}). The factors X range from 1.18 to 1.42.\\
 	Single references-plume pairs result in a very high BrO error, which has a very high impact on the calculation of the X factors. 
@@ -715,9 +718,9 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 %	
 
 	For the final algorithm this combination of external parameters is used.
-	The coefficients $a_{x}$ are calculated for each instrument at Nevado Del Ruiz and Tungurahua. Furthermore, the coefficients $a_{x}$ are calculated with the combined data from all instruments installed at one volcano. The results for the Nevado Del Ruiz volcano can be found in \Cref{tab:coefNevad} and for the Tungurahua volcano in \Cref{tab:coefTung}.
-
-	
+	The coefficients $a_{x}$ are calculated for each instrument at Nevado Del Ruiz and Tungurahua. Furthermore, the coefficients $a_{x}$ are calculated with the combined data from all instruments installed at one volcano. The results for the Nevado Del Ruiz volcano can be found in \Cref{tab:coefNevad} and for the Tungurahua volcano in \Cref{tab:coefTung}.\\
+	\\
+%	
 	\begin{table}
 		\subfigure{
 			\begin{tabular}{c|c|c}
@@ -759,7 +762,6 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			-1.6e+09& 0.0\\
 			\midrule
 			1.054e+12&0.033\\
-
 			\bottomrule
 	\end{tabular}}
 	\subfigure[Data of Nevado Del Both Instruments]{
@@ -788,8 +790,7 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			(b)Data from Nevado Del Ruiz from the D2J2200\_0 instrument.  %$\epsilon_{0} = =  1.105e+13$ (c) 
 			Data from Nevado Del Ruiz from both instrument. 
 			% $\epsilon_{0} = 1.260e+13$}
-		}
-		
+		}	
 	\end{table}	
 	\begin{table}[h!]
 	\subfigure{
@@ -867,6 +868,7 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			\midrule
 			\bottomrule
 	\end{tabular}}
+		\label{tab:coefTung}
 		\caption{The results of the fitting with a first order polynomial. The value shows the actual number. The importance,  referred to as
 			import,  indicates the relative impact on the evaluation.
 			The constants of \Cref{calc:delterr} are calculated.
@@ -875,9 +877,9 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			(c) Data from Tungurahua averaged over all instrument.  %$\epsilon_{0} = 1.260e+13$,
 			 both instruments Tungurahua% zero point  =  1.610e+13 \textcolor{red}{besser}
 		 }
-		\label{tab:coefTung}
 	\end{table}			
-	As it can concluded from \Cref{fig:WelcheEP} The best results are found if all parameters are used with a mean correlation above 0.3 (see \Cref{tab:CorrEP})
+	As it can concluded from \Cref{fig:WelcheEP} The best results are found if all parameters are used with a mean correlation above 0.3 (see \Cref{tab:CorrEP}).
+	
 	\section{Other approaches}
 
 	Fitting is not the only possibility of finding the optimal reference out of the list of all possible references.\\
@@ -926,9 +928,11 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 	The main advantage of the nearest neighbor method is that there is no need for a pre-assumption of a fitting method. The fitting method assumes that the BrO error depends linearly  on the external parameter. As it can be seen in \Cref{fig:difftemp}-\Cref{fig:diffexptime} this does not need to be the case. Thus, the nearest neighbor method is able to approximate the BrO error as a function of the external data in a more variable way.
 %
 \subsection*{Disadvantages of the nearest neighbor approach}
-	Compared to fitting the data, the nearest neighbor is much slower. The reason for this is, the vast amount of compassion operations that is nessesary for each computation. Thus, the calculation time increases with the amount of learning data.\\
+	Compared to fitting the data, the nearest neighbor is much slower. The reason for this is, the vast amount of compassion operations that is necessary for each computation. Thus, the calculation time increases with the amount of learning data.\\
 	To normalize the distances d, the normalization function needs to be chosen and therefore pre-assumptions about feature importance are required.
-	Including the fact, that the results of the nearest neighbor method a little worse compared to the fitting method \textcolor{red}{hier sagen wie der faktor X für die nearest neighbor methode ist}, the disadvantages of the nearest neighbor method outweigh the advantages.
+	The x factor increases by 80\%, from 1.24 for the fitting method 
+	to 2.24 for the nearest neighbour method.
+	Including the fact, that the results of the nearest neighbor method is worse compared to the fitting method, the disadvantages of the nearest neighbour method outweigh the advantages.
 
 	\subsection{Iterative approach}
 
@@ -941,7 +945,7 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 	Another advantage is, that the external conditions of the resulting references, are in an well-defined framework, similar to the  conditions of the plume. Therefore the systematic errors resulting from the effects on the BrO SCDs (see \Cref{fig:difftempbroallinstruments}) can be kept small.
 	\subsection*{Disadvantages of the iterative approach}
 	The iterative approach leads to an rigid evaluation of the data. References, which have very similar conditions as the plume could be excluded of the evaluation due to an large difference in one external parameter. The decision for the best suited reference is based on one by one parameter. Thus it is impossible to look at all parameters by the same time.   This could lead to a less optimal evaluation when looking at the BrO error.
-	As a result the iterative method has a worse X factor compared to the nearest neighbour and the fitting method.
+	As a result the iterative method has a worse X factor (X=1.73) compared to the nearest neighbour (X=2.24) and the fitting method (X=1.24).
 	
 	\chapter{Comparison with NOVAC evaluation}
 	This chapter shows and discuss the difference of the \ce{BrO}, \ce{SO2}  and \ce{BrO}/\ce{SO2}  ratio data when evaluating with the NOVAC-Method, or with the contamination based method.
