@@ -62,43 +62,43 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{83}{figure.8.1}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{83}{figure.8.1}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{83}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce {SO2} column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. (a)+(b): The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce {BrO} /\ce {SO2} column densities from Tungurahua; (b) Results for the \ce {BrO} /\ce {SO2} column densities from Nevado Del Ruiz. (c) +(d) The column density calculated with NOVAC is subtracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero. That means both evaluations lead to the same ratio. (c) Tungurahua (d) Nevado Del Ruiz}}{88}{figure.8.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{88}{figure.8.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{88}{figure.8.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{88}{figure.8.2}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{88}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Time series of the BrO/\ce {SO2} ratios for Nevado del Ruiz . The contaminated data are evaluated by using the contamination based method. Blue data points are below the detection limit, green data points are not contaminated, valid \ce {SO2} SCDs. Red data points are contaminated data, evaluated with the contamination based method.}}{90}{figure.8.3}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Time series of the BrO/\ce {SO2} ratios for Tungurahua. The contaminated data are evaluated by using the contamination based method. Blue data points are below the detection limit, green data points are not contaminated, valid \ce {SO2} SCDs. Red data points are contaminated data, evaluated with the contamination based method.}}{91}{figure.8.4}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces BrO/\ce {SO2} ratio daily mean time series for Nevado del Ruiz (left) and Tungurahua (right). \ce {SO2} SCDs used for this plot are above the plume limit of 7$\cdot 10^{17}$. The minimum amount of data per day are four. Days where less than four valid ratios are recorded are not considered in this plot. As a result of using the contaminated data as well more daily means are available, since more days have an amount of valid data's above four. Those dates are marked with red. The other data are colored in green.}}{92}{figure.8.5}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Visualization of the contamination of the plume. An old plume of the day before. Due to a lack of wind the plume sinks down an accumulates above the instrument. The light path trough the old plume is longer when recording the reference spectra (orange).}}{93}{figure.8.6}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Visualization of possible scenarios for contamination. Left: the plume sinks in the way that the instrument is within the plume, therefore, all elavation angles will contain volcanic trace gases, while the plume is not additionally contaminated. Right: the plume covers the hole sky, thus all elvation angles "see" volcanic trace gases. }}{93}{figure.8.7}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. Only data are used where the corresponding \ce {SO2} column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. (a)+(b): The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent. (a) Results for the \ce {BrO} /\ce {SO2} column densities from Tungurahua; (b) Results for the \ce {BrO} /\ce {SO2} column densities from Nevado Del Ruiz. (c) +(d) The column density calculated with NOVAC is subtracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero. That means both evaluations lead to the same ratio. (c) Tungurahua (d) Nevado Del Ruiz}}{87}{figure.8.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{87}{figure.8.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{87}{figure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{87}{figure.8.2}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{87}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Time series of the BrO/\ce {SO2} ratios for Nevado del Ruiz . The contaminated data are evaluated by using the contamination based method. Blue data points are below the detection limit, green data points are not contaminated, valid \ce {SO2} SCDs. Red data points are contaminated data, evaluated with the contamination based method.}}{89}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Time series of the BrO/\ce {SO2} ratios for Tungurahua. The contaminated data are evaluated by using the contamination based method. Blue data points are below the detection limit, green data points are not contaminated, valid \ce {SO2} SCDs. Red data points are contaminated data, evaluated with the contamination based method.}}{90}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces BrO/\ce {SO2} ratio daily mean time series for Nevado del Ruiz (left) and Tungurahua (right). \ce {SO2} SCDs used for this plot are above the plume limit of 7$\cdot 10^{17}$. The minimum amount of data per day are four. Days where less than four valid ratios are recorded are not considered in this plot. As a result of using the contaminated data as well more daily means are available, since more days have an amount of valid data's above four. Those dates are marked with red. The other data are colored in green.}}{91}{figure.8.5}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Visualization of the contamination of the plume. An old plume of the day before. Due to a lack of wind the plume sinks down an accumulates above the instrument. The light path trough the old plume is longer when recording the reference spectra (orange).}}{92}{figure.8.6}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Visualization of possible scenarios for contamination. Left: the plume sinks in the way that the instrument is within the plume, therefore, all elavation angles will contain volcanic trace gases, while the plume is not additionally contaminated. Right: the plume covers the hole sky, thus all elvation angles "see" volcanic trace gases. }}{92}{figure.8.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {.1}{\ignorespaces }}{99}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{99}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{99}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{99}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{99}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{99}{figure.Alph0.1}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{99}{figure.Alph0.1}
-\contentsline {figure}{\numberline {.2}{\ignorespaces }}{100}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{100}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{100}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{100}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{100}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{100}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{100}{figure.Alph0.2}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{100}{figure.Alph0.2}
-\contentsline {figure}{\numberline {.3}{\ignorespaces }}{101}{figure.Alph0.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{101}{figure.Alph0.3}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{101}{figure.Alph0.3}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{101}{figure.Alph0.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{101}{figure.Alph0.3}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{101}{figure.Alph0.3}
-\contentsline {figure}{\numberline {.4}{\ignorespaces }}{102}{figure.Alph0.4}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{102}{figure.Alph0.4}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{102}{figure.Alph0.4}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{102}{figure.Alph0.4}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{102}{figure.Alph0.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{102}{figure.Alph0.4}
+\contentsline {figure}{\numberline {.1}{\ignorespaces }}{98}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{98}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{98}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{98}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{98}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{98}{figure.Alph0.1}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{98}{figure.Alph0.1}
+\contentsline {figure}{\numberline {.2}{\ignorespaces }}{99}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{99}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{99}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{99}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{99}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{99}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{99}{figure.Alph0.2}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{99}{figure.Alph0.2}
+\contentsline {figure}{\numberline {.3}{\ignorespaces }}{100}{figure.Alph0.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{100}{figure.Alph0.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{100}{figure.Alph0.3}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{100}{figure.Alph0.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{100}{figure.Alph0.3}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{100}{figure.Alph0.3}
+\contentsline {figure}{\numberline {.4}{\ignorespaces }}{101}{figure.Alph0.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{101}{figure.Alph0.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{101}{figure.Alph0.4}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{101}{figure.Alph0.4}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{101}{figure.Alph0.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{101}{figure.Alph0.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

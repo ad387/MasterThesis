@@ -39,12 +39,12 @@
 \contentsline {chapter}{\numberline {8}Results}{82}{chapter.8}
 \contentsline {section}{\numberline {8.1}Tungurahua}{84}{section.8.1}
 \contentsline {section}{\numberline {8.2}Nevado Del Ruiz}{86}{section.8.2}
-\contentsline {section}{\numberline {8.3}BrO/\ce {SO2} time series}{89}{section.8.3}
-\contentsline {section}{\numberline {8.4}Issues of our method}{92}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Contamination of the plume}{92}{subsection.8.4.1}
-\contentsline {chapter}{\numberline {9}Conclusion}{95}{chapter.9}
-\contentsline {part}{\numberline {III}Appendix}{97}{part.3}
-\contentsline {chapter}{\numberline {A}Lists}{103}{appendix.A}
-\contentsline {section}{\numberline {A.1}List of Figures}{103}{section.A.1}
-\contentsline {section}{\numberline {A.2}List of Tables}{109}{section.A.2}
-\contentsline {chapter}{\numberline {B}Bibliography}{113}{appendix.B}
+\contentsline {section}{\numberline {8.3}BrO/\ce {SO2} time series}{88}{section.8.3}
+\contentsline {section}{\numberline {8.4}Issues of our method}{91}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Contamination of the plume}{91}{subsection.8.4.1}
+\contentsline {chapter}{\numberline {9}Conclusion}{94}{chapter.9}
+\contentsline {part}{\numberline {III}Appendix}{96}{part.3}
+\contentsline {chapter}{\numberline {A}Lists}{102}{appendix.A}
+\contentsline {section}{\numberline {A.1}List of Figures}{102}{section.A.1}
+\contentsline {section}{\numberline {A.2}List of Tables}{108}{section.A.2}
+\contentsline {chapter}{\numberline {B}Bibliography}{112}{appendix.B}
