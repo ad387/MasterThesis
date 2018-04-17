@@ -53,12 +53,6 @@ NOVAC provides spectral data for roughly 50 different elevation angles. For the 
 \end{figure}
 %
 In the following we describe the technical implementation of the DOAS approach using the data of NOVAC instruments:\\
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{Bilder/NOVAC_Eval}
-	\caption{NOVAC Evaluation: (a) Measurement at the volcano (b) Evaluation of the spectral data with the DOAS routine using the absorption cross sections of \ce{BrO}  and \ce{SO2}. (c) Finding the location of the plume and reference (d) (taken from \cite{WarnachSimon}) Computation of the ratios BrO/\ce{SO2} at Tungurahua. \textcolor{red}{Bild noch ändern, letztes bild andere stil, verwechseln \ce{SO2} and BrO absorbtion }}
-	\label{fig:NOVAC_Eval}
-\end{figure}
 %
 The first step is to correct each spectrum of the scan for dark current and offset using the dark spectrum.
 The next task is to locate the spectra in and outside of the volcanic plume.
@@ -68,7 +62,13 @@ For every spectrum of the scan the \ce{SO2} differential slant column density (d
 The result is \ce{SO2} dSCDs as a function of the elevation angle. This way the elevation angle corresponding to the maximum and the minimum of the \ce{SO2} column density can be determined. The location of the \ce{SO2} maximum defines the location of the plume. The assumption is that the minimum of the \ce{SO2} curve corresponds to a region outside of the plume which is true in most cases. The background \ce{SO2} amount in the earth atmosphere around Tungurahua is usually negligible (see  \Cref{chap:so2}) so we take it as a region of zero \ce{SO2}. \\
 We use a gauss fit of the \ce{SO2}-elevation-angle-curve to define the plume region.
 %
-\textcolor{green}{The sum over all plume spectra is taken, which are in the elevation angle interval of the gauss peak plus minus one sigma, to increase the photon statistic and to reduce the residuum. If the gauss curve is too wide, what this means in specific is that more then 10 spectra are added within the gauss evaluation, The running mean is calculated and the 10 spectra with the highest \ce{SO2} amount are used for the retrieval. As reference we use the sum of the 10 spectra with the lowest \ce{SO2} amount.}\\
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{Bilder/NOVAC_Eval}
+	\caption{NOVAC Evaluation: (a) Measurement at the volcano (b) Evaluation of the spectral data with the DOAS routine using the absorption cross sections of \ce{BrO}  and \ce{SO2}. (c) Finding the location of the plume and reference (taken from \cite{WarnachSimon}) (d) Computation of the ratios BrO/\ce{SO2}}
+	\label{fig:NOVAC_Eval}
+\end{figure}
+The sum over all plume spectra is taken, which are in the elevation angle interval of the gauss peak plus minus one sigma, to increase the photon statistic and to reduce the residuum. If the gauss curve is too wide, what this means in specific is that more then 10 spectra are added within the gauss evaluation, The running mean is calculated and the 10 spectra with the highest \ce{SO2} amount are used for the retrieval. As reference we use the sum of the 10 spectra with the lowest \ce{SO2} amount.\\
 The absolute slant column densities (SCD's) of \ce{BrO}  and \ce{SO2} can now be calculated with the previously defined reference and plume spectrum.
 In \Cref{fig:plumeref} (a) an example \ce{SO2} SCD as a function of the elevation angle is shown. The \ce{SO2} curve has a maximum at the position of the plume at an elevation angle of approximately $-30^{\circ}$ to $0^{\circ}$  and a reference region at an elevation angle of $40^{\circ}$ to $70^{\circ}$. \Cref{fig:plumeref} (b)  illustrates that  extrema of the \ce{BrO}  curve are not as distinct as it is the case for the \ce{SO2} curve.\\
 Since the \ce{BrO} column density is much lower than the \ce{SO2} column density, and just lies slightly above the detection limit, the plume is hard to detect using the \ce{BrO} column density as it is shown in fig. \ref{fig:plumeref} (b). 
@@ -124,7 +124,7 @@ In the following we will discuss the two alternative reference spectra.
 %
 \subsection*{Evaluation using a Solar Atlas spectrum \label{kuruz}}
 An alternative for choosing the region with the lowest column density as reference region is to use a theoretical high resolution solar atlas spectrum as reference \citep{chance2010improved}.
-\textcolor{green}{ist das richtig?? The use of a theoretical solar atlas spectrum as a reference which is completely volcanic-trace-gases-free was first proposed by \cite{salerno2009novel} and envolved by \citep{lubcke2014bro}.}
+The use of a theoretical solar atlas spectrum as a reference which is completely volcanic-trace-gases-free was first proposed by \cite{salerno2009novel} and evolved by \citep{lubcke2014bro}.
 The advantage of using a solar atlas spectrum as reference is, that we know that it is not affected by past or current volcanic gas emissions. Thus, it allows for a retrieval of the absolute trace gas SCDs in the volcanic gas plume. The disadvantage is, that using a solar atlas spectrum comes along with a drawback of precision: The spectral resolution of the theoretical solar atlas spectrum is much  higher than of the NOVAC instruments. Therefore the instrument functions would need to be perfectly modeled and added to the retrieval. This is not straight forward, because the instrumental line-shape varies over the wavelength region and is also mathmatically often not perfectly described by a simple approach like Gauss, lorents,..etc.\\ 
 The reduction of precision is acceptable for the
 \ce{SO2} retrieval but not suitable for a \ce{BrO} retrieval because then most data would be below the detection limit.\\

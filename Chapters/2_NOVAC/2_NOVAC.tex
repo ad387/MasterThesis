@@ -3,6 +3,7 @@
 %% NOVAC
 %% =============
 %%
+
 		\begin{figure}[h]
 			\centering
 			\includegraphics[width=0.8\linewidth]{Bilder/NOVAC2015}
@@ -11,15 +12,15 @@
 		\end{figure}
 		The Network for Observation of Volcanic and Atmospheric Change (NOVAC) is a network of instruments monitoring volcanoes over the whole world. 
 		%
-		NOVAC was installed to gain another tool for risk assessment, for gas emissions and geophysical researches.\\
+		NOVAC was installed to to add a monitoring parameter for volcanic activity by installing automatised instruments measuring SO2 emissions during daytime.\\
 		%
-		NOVAC was originally funded by the European Union on the first October in 2005. The aim of NOVAC is to  establish  a  global  
-		network  of  stations  for  the  quantitative  measurement  of  volcanic gas  emissions. At the beginning, NOVAC encompassed observatories of 15 volcanoes in Africa America and Europe, including some of the most active and strongest degassing volcanoes in the world. Although the EU-funding has stopped, the network has been constantly growing since it was founded. In 2017 more than 80 instruments are installed at over 30 volcanoes in more than 13 countries.
+		NOVAC was originally an European funded Research Project from 2005 until 2010. The aim of NOVAC is to  establish  a  global  
+		network  of  stations  for  the  quantitative  measurement  of  volcanic gas  emissions in particular SO2. At the beginning, NOVAC encompassed observatories of 15 volcanoes in Africa, America and Europe, including some of the most active and strongest degassing volcanoes in the world. Although the EU-funding has stopped, the network has been constantly growing since it was founded. In 2018 more than 80 instruments are installed at over 30 volcanoes in more than 13 countries.
 		\Cref{fig:novac2015} shows a map, with all volcanoes of the Network for Observation of Volcanic and Atmospheric Change.\\
 		
 		The great advantage of the data monitored in NOVAC is the fact that NOVAC provides continues gas emission data over many years. This ensures statistically meaningful results for the data evaluation.\\
 		The instruments used in NOVAC are scanning UV-spectrometer named Mini Doas instruments. \\
-		The  Mini DOAS  instrument  represents  a  major  breakthrough  in  volcanic  gas	monitoring as it is capable of real-time semi-continuous unattended measurement of the total emission fluxes of  \ce{SO2} and BrO from a volcano. Semi-continues in this case means that the measurement is only possible during daytime and if the sunlight is sufficient.\\
+		The  Mini DOAS  instrument  represents  a  major  breakthrough  in  volcanic  gas	monitoring as it is capable of real-time semi-continuous unattended measurement of the total emission fluxes of  \ce{SO2} and BrO from a volcano. Semi-continues in this case means that the measurement is only possible during daytime.\\
 		%
 		\begin{figure}
 			\centering
@@ -30,13 +31,11 @@
 		\end{figure}
 		The  basic  Mini DOAS  system  consists  of  a  pointing  telescope  fiber-coupled  to  a  spectrograph.  
 		Ultraviolet light from the sun, scattered from aerosols and molecules in the atmosphere, is collected by 
-		means  of  a  telescope  with  a  quartz  lens  defining  a  field-of-view  of  12~mrad.
-		\cite{NOVACsite} \\
-		The spectrometers measure in the UV region in a wavelength range of 280 to 420~nm. In this range the differential structures of \ce{SO2} and BrO are dominant.\\
-		%
-		The NOVAC-instruments need to be very robust to stand the conditions around volcanoes. Therefore the design of the instruments is rather simple, this means the instruments do not have internal stabilisation features like temperature stabilization to keep the measurement independent of external parameters.\\
-		This comes with a reduced precision of the data, but the huge amount of data produced by NOVAC compensates for this limitation.  
-		
+		means  of  a  telescope  with  a  quartz  lens  defining  a  field-of-view  of  12~mrad
+		\citep{NOVACsite}. \\
+		The spectrometers measure in the UV region in a wavelength range of 280 to 420~nm. In this range the differential structures of \ce{SO2} and BrO structures are dominant.\\
+		The lack of temperature stabilization at the instruments used by NOVAC comes with a reduced precision of the data, but the huge amount of data produced by NOVAC compensates for this limitation.  
+%		\textcolor{red}{naja und es kommt evben auch immer drauf an was fuer genauigkeiten man bracuht - wenn ich eine groessenordnung in der emissionsmessungen sehen will muss ich nicht auf ein promille genau messen,..}
 		
 		\section{Measurement routine}
 		\begin{figure}[h]
@@ -49,7 +48,7 @@
 		
 		For the calculations of gas data from the DOAS retrieval a scan of the Plume and a scan without any volcanic trace gases (reference spectrum) is needed.  The is done without any knowledge of the plume location by scanning the whole sky. 
 		The measurement routine starts with a spectrum in zenith direction: the pre-reference. The exposure time of the pre-reference will be used for the whole scan.
-		Afterwards, the dark current spectrum is recorded for the correction of the dark current and offset\\
+		Afterwards, the dark current spectrum is recorded for the correction of the dark and offset\\
 		Then the instrument turns automatically to the side, recording spectra at the elevation angle from -90$^{\circ}$ to 90$^{\circ}$ with steps of 3.6$^{\circ}$. \\
-		The instruments records 53 spectra per Scan, the pre-reference,the dark current spectrum and 51 spectra at different elevation angles.
-		One hole measurement takes 6 to 15 minutes.
+		The instruments records 53 spectra per scan, the pre-reference, the dark current spectrum and 51 spectra at different elevation angles.
+		One whole measurement cycle from horizon to horizon ans takes 6 to 15 minutes.
