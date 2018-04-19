@@ -1010,7 +1010,7 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 		\item The \ce{SO2}  column densities retrieved by the contamination based method become larger for almost every measurement compared to the NOVAC method.
 		\item An almost constant offset of 6.5$\cdot 10 ^{17}$ (Tungurahua) and 7.4$\cdot 10 ^{17}$ (Nevado Del Ruiz) can be observed.
 	\end{itemize}
-\Cref{fig:diffratio} shows the difference of the \ce{SO2}/\ce{BrO} ratio when performing the evaluation with the NOVAC method or the contamination based method. The results for Tungurahua are visualized on the left side (\Cref{fig:diffratioa} , \ref{fig:diffratioc}) and the results for Nevado Del Ruiz are shown on the right side  (\Cref{fig:diffratiob} , \ref{fig:diffratiod}). \Cref{fig:diffratioa} and \ref{fig:diffratiob} show the results of the contamination based method plotted against the results of the NOVAC method. \Cref{fig:diffratioc}  and \ref{fig:diffratiod} show the actual difference between both methods. The column density calculated with NOVAC is subtracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero. That means that both evaluations lead to the approximately same ratio.\\
+\Cref{fig:diffratio} shows the difference of the \ce{SO2}/\ce{BrO} ratio when performing the evaluation with the NOVAC method and the contamination based method. The results for Tungurahua are visualized on the left side (\Cref{fig:diffratioa} , \ref{fig:diffratioc}) and the results for Nevado Del Ruiz are shown on the right side  (\Cref{fig:diffratiob} , \ref{fig:diffratiod}). \Cref{fig:diffratioa} and \ref{fig:diffratiob} show the results of the contamination based method plotted against the results of the NOVAC method. \Cref{fig:diffratioc}  and \ref{fig:diffratiod} show the actual difference between both methods. The column density calculated with NOVAC is subtracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero. That means that both evaluations lead to the approximately same ratio.\\
 \begin{itemize}
 	\item For low \ce{BrO}/\ce{SO2}  ratios around below zero, the ratios calculated with the contamination based method are higher than the ratios retrieved with the NOVAC method. For higher \ce{BrO}/\ce{SO2}  ratios (above zero) the ratios calculated with the NOVAC method are larger.
 	\item The absolute difference between both evaluation methods increases with the increase of the absolute ratio
@@ -1171,30 +1171,31 @@ The plot at the bottom of \Cref{fig:ndrso2novacsametime} show the BrO/\ce{SO2} r
 %
 %	Dh in den kontaminierten daten sind mit NOVAC ausgewerteten daten \underline{3.449} häufiger über dem plume limit\\
 \FloatBarrier
-	\section{Issues of our method}
-	The presented method is questionable since we did not consider contamination of the plume due to a lack of information. And we did not consider the different lifetimes of \ce{SO2} and BrO. This leads to a faster 
+	\section{Issues of the contamination based method}
+	The presented method is questionable since it does not consider contamination of the plume due to a lack of information. Moreover, we do not consider the different lifetimes of \ce{SO2} and BrO. This leads to a faster depletion of BrO.
 	
 	\subsection{Contamination of the plume}
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{Bilder/Contaminationplume}
-		\caption{Visualization of the contamination of the plume. An old plume of the day before. Due to a lack of wind the plume sinks down an accumulates above the instrument. The light path trough the old plume is longer when recording the reference spectra (orange).}
+		\caption{Visualization of the contamination of the plume. Due to a lack of wind the old plume sinks down an accumulates
+		above the instrument. The light path trough the old plume is longer when recording the reference spectra (orange).}
 		\label{fig:contaminationplume}
 	\end{figure}
 		\begin{figure}
 			\centering
 			\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/Contaminationplumeinstrinplum}}
 			\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/Contaminationplumewideplume}}
-			\caption{Visualization of possible scenarios for contamination. Left: the plume sinks in the way that the instrument is within the plume, therefore, all elavation angles will contain volcanic trace gases, while the plume is not additionally contaminated. Right: the plume covers the hole sky, thus all elvation angles "see" volcanic trace gases. }
+			\caption{Visualization of possible scenarios for contamination. Left: the plume sinks in a way that the instrument is within the plume, therefore, all elavation angles will contain volcanic trace gases, while the plume is not additionally contaminated. Right: the plume covers the hole sky, thus all elvation angles "see" volcanic trace gases. }
 			\label{fig:contaminationplumewideplume}
 		\end{figure}
 
-	 As discussed above it might occur, that, the plume is contaminated as well. This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates at the instrument. If this is the case, using an contamination free reference of another time would lead to an overestimation of the column density of gases.\\
-	 The contamination of the plume is visualized in \Cref{fig:contaminationplume}. This is one possible occurence of contamination. As it can be seen gas of the old plume affected the measurement of the reference and the plume. However for this example the influence on the measurement of the reference is much larger since the light path trough the old plume (coloured orange in \Cref{fig:contaminationplume}) is longer for the reference than for the measurement of the volcanic plume. Thus we underestimate the Gas amount if we do not use an gas free reference, but overestimate if we do so.
+	 As discussed above it occurs, that, the plume is contaminated as well. This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates at the instrument. If this is the case, using an contamination free reference of another time would lead to an overestimation of the column density of gases.\\
+	 The contamination of the plume is visualized in \Cref{fig:contaminationplume}. This is one possible occurence of contamination. As it can be seen gas of the old plume affects the measurement of the reference and the plume. However, for this example the influence on the measurement of the reference is much larger since the light path trough the old plume (coloured orange in \Cref{fig:contaminationplume}) is longer for the reference than for the measurement of the volcanic plume. Thus, we underestimate the gas amount if we do not use a gas free reference, but might overestimate if we do so.
 	 The real gas amount might be between the measured amount with and without using a reference measured at another time.\\
-	 The contamination set up could differ from \Cref{fig:contaminationplume}. This would lead to different results. However the reference region is in most of the time at a larger elevation angle than the plume, thus, the assumption that the light pass trough the old plume is on the average longer for the reference, of both reference and plume are contaminated.
+	 The contamination setup could differ from \Cref{fig:contaminationplume}. This would lead to different results. However, the reference region is in most cases at a larger elevation angle than the plume. Thus, the assumption that the light path trough the old plume is in average longer for the reference, if both, reference and plume are contaminated.
 	 
-	  With the data retrieved by the NOVAC instruments it is very difficult up to impossible to discover whether the plume is contaminated or not. 
+	  With the data retrieved by the NOVAC instruments it is very difficult or even impossible to discover whether the plume is contaminated or not. 
 
 
 

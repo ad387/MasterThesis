@@ -40,7 +40,7 @@
 \contentsline {section}{\numberline {8.1}Tungurahua}{84}{section.8.1}
 \contentsline {section}{\numberline {8.2}Nevado Del Ruiz}{86}{section.8.2}
 \contentsline {section}{\numberline {8.3}BrO/\ce {SO2} time series}{88}{section.8.3}
-\contentsline {section}{\numberline {8.4}Issues of our method}{91}{section.8.4}
+\contentsline {section}{\numberline {8.4}Issues of the contamination based method}{91}{section.8.4}
 \contentsline {subsection}{\numberline {8.4.1}Contamination of the plume}{91}{subsection.8.4.1}
 \contentsline {chapter}{\numberline {9}Conclusion}{94}{chapter.9}
 \contentsline {part}{\numberline {III}Appendix}{96}{part.3}
