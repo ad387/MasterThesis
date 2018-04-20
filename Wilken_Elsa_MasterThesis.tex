@@ -426,7 +426,7 @@ THe BrO concentration reaches a maximum approximately 5 minutes after emission a
 	I^{'}\left(i\right) = \int_{\lambda(i)}^{\lambda(i+1)}I^{*}\left(\lambda{'}d\right)d\lambda{'}
 	\end{equation}
 	For the retrieval the relationship between the detector channels and the wavelength of the spectrum need to be known.
-	The wavelength to pixel mapping (WMP) for a detector with q channels can be calculated as:
+	The wavelength to pixel mapping (WPM) for a detector with q channels can be calculated as:
 
 	\begin{eqnarray}
 	\lambda(i) = \sum_{k=0}^{q-1}\gamma_{k}\cdot i^{k}
@@ -553,7 +553,7 @@ THe BrO concentration reaches a maximum approximately 5 minutes after emission a
 %		\end{figure}
 
 
-	\section{\ce{BrO}  dependence on external parameters}
+	\section{\ce{BrO}  dependence on external parameters\label{Chap:BrOdep}}
 	The external parameters not only influence the fit quality but also the evaluation of the gas amount. A high different in certain external parameter could distort the calculated \ce{BrO}  column density. \Cref{fig:d2j2140060218difftemperature-cbro} shows the evaluation of one plume with respect to different references. The temporal difference between the references and the plume do not exceed two weeks. In theory we expect that the choice of  the reference should not make a difference, therefore all BrO column densities resulting from the evaluation should be equivalent. But we can see a high variation if choosing different references. The variability of the BrO column density depends as well on the external parameters, when looking at the temperature dependency a mean decrease of th BrO column density with an increasing temperature can be observed.
 		\begin{figure}
 		\subfigure[]{
@@ -625,14 +625,16 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 	
 	%--------------------------------------------------------------------------------------------------------------
 \chapter{Contamination based method \label{chapt:contbased}}
-	Based on the findings about the influence of external parameters on the \ce{BrO} error we propose an algorithm which is able to pick an appropriate volcanic-trace-gas free reference.\\ 
+\textcolor{red}{Soweit ich verstanden habe, haben die "Other Approaches" keine Relevanz für dein Ergebnis. Aber sie stören den Lesefluss. Ich würde sie in den Appendix schieben.}\\
+\textcolor{red}{Wir brauchen einen anderen Namen dafür. Und man sollte hervorheben, dass das ein optionales Modul ist. Soll heißen, man kann es direkt in den Algorithmus einbauen und somit alles andere unverändert weiterverwenden. Erster Vorschlag für Namen: "Decontamination module"}
+	Based on the findings about the influence of external parameters on the \ce{BrO} error we propose an algorithm which is able to pick an appropriate volcanic-trace-gas free reference.\\ \textcolor{red}{We use the findings of the previous chapter in order to develop an algorithm which proposes a sufficiently good matching, recorded alternative for the reference spectrum. The algorithm is trained on the explicitely evaluated data (see chapter...). The ultimate algorithm however uses a list of ambient conditions rather than evaluated spectra as input. (Ich hoffe es wird klar was ich meine auch wenn es schlecht geschrieben ist. Hebe den Unterschied hervor zwischen wie der Algorithmus bzw. seine Settings gefunden wurden und was er am ende macht.)}
 	The first step is, to evaluate every reference with solar atlas spectrum, to check for contamination.\\
 	\\
 	If the reference is contaminated:
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{Bilder/Cont}
-		\caption{Visualization of the contamination based Method. If the reference is contaminated a list of possible references is available, where the temporal difference between the plume and the reference is not longer than two weeks. For every possible reference, the estimated BrO error is calculated by considering the corresponding difference in important external parameters. The reference with the so calculated minima BrO error is used for the evaluation.}
+		\caption{Visualization of the contamination based Method. A list of possible references is available, where the temporal difference between the plume and the reference is not longer than two weeks. For every possible reference, the estimated BrO error is calculated by considering the corresponding difference in important external parameters. The reference with the so calculated minima BrO error is used for the evaluation.}
 		\label{fig:Cont}
 	\end{figure}
 
@@ -645,7 +647,8 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 	\end{itemize}
 
 	%
-	The assumption is, that the \ce{BrO} error $\epsilon_{BrO}$ can be described as the sum of $\epsilon_{0}$ and the deviation of $\epsilon_{BrO}$ with respect to all external parameters. $\epsilon_{0}$ is the \ce{BrO} error when evaluate the plume spectrum with the "same-time-reference". It is determined due to the accurateness of the NOVAC-instruments.
+	$\epsilon_{0}$ is the \ce{BrO} error when evaluate the plume spectrum with the "same-time-reference".
+	The assumption is, that the \ce{BrO} error $\epsilon_{BrO}$ can be described as the sum of $\epsilon_{0}$ and the deviation of $\epsilon_{BrO}$ with respect to all external parameters. It is determined due to the accurateness of the NOVAC-instruments.
 	\begin{align}
 		\epsilon_{BrO} &=  \epsilon_{0}+\frac{d\epsilon}{dt}+\frac{d\epsilon}{d ^{\circ}}+\frac{d\epsilon}{dT}+\frac{d\epsilon}{ddt} +\frac{d\epsilon}{dc} + \mathcal{O}\left(OP\right) \\
 		\rightarrow \Delta \epsilon_{BrO} &= \epsilon_{BrO} - \epsilon_{0} =\frac{d\epsilon}{dt}+\underbrace{\frac{d\epsilon}{d ^{\circ}}}_{=0}+\frac{d\epsilon}{dT}+\frac{d\epsilon}{ddt} +\frac{d\epsilon}{dc} + \mathcal{O}\left(OP\right) 
@@ -656,16 +659,17 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 	%
 	\\
 	%
-	The easiest way is to just calculate the \ce{BrO} error of all possible references for every plume by using the DOASIS routine. If this method is used it is possible to choose the reference for which the \ce{BrO} error is minimal. However this takes to much computation time since the evaluation time would be proportional to the number of possible references because the evaluation needs to be done for $\mathcal{O}(n)$ with $n$ as the number of potential reference spectra. Doing this evaluation for every plume-reference pair makes it impossible to do the evaluation in real, or near real time.\\
+	The easiest way is to just calculate the \ce{BrO} error of all possible references for every plume by using the DOASIS routine. If this method is used it is possible to choose the reference for which the \ce{BrO} error is minimal. However this takes to much computation time since the evaluation time would be proportional to the number of possible references because the evaluation needs to be done for $\mathcal{O}(n)$ with $n$ as the number of potential reference spectra. Doing this evaluation for every plume-reference pair makes it impossible to do the evaluation in real, or near real time.\textcolor{red}{außerdem ist es statistisch gesehen gefährlich immer das Minimum zu nehmen, könnte ja auch zufällig passen. Man hat es daher deutlich einfach die Ergebnisse zu interpretieren, wenn man wenigstens ungefähr weiß,in welchem Parameter range der Algorithmus gesucht hat.}\\
 	%
 	In this thesis a novel approach of identifying an ideal reference spectrum, by considering externel parameters, is introduced. This way a much faster estimation with constant complexity $\mathcal{O}(1)$ is reached.
 	But the above described optimal evaluation is used to rate new approach and compare them among each other. The optimal evaluation always choose the reference with the smallest absolute error. We don't use the relative error due to his vulnerability. Using the relative error leads to a less precision since the references with the highest BrO column density is preferred.\\
 	%
-	The results of the algorithm which chooses the reference automatically are described relative to an optimal evaluation. If the relative error is larger than 5 the data are excluded from the evaluation.\\
+	The results of the algorithm which chooses the reference automatically are described relative to an optimal evaluation. If the relative error is larger than one \textcolor{red}{warum 1??} the data are excluded from the evaluation.\\
 	\\
 	In the following we examine several methods for choosing the best reference based on the analysis of external parameters. 
 	
 	\section{Fit data}
+	\textcolor{red}{titel zu unspezifisch} \\
 	The following chapter analyses fitting the data with a first order polynomial. \Cref{fig:difftemp} to \Cref{fig:diffexptime} show the \ce{BrO}  error as a function of external parameters. Hereby, the curves are symmetric around zero difference in the respective external parameter. Therefore, it is not necessary to distinguish between positive or negative deviations from the equal surrounding conditions. Thus, the absolute differences can be utilized.\\
 	\\
 	%
@@ -722,7 +726,7 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 	$n$ is the total amount of contaminated spectra, $Enovac$ is the relative \ce{BrO}  error, in the NOVAC-evaluation, $EContBased$ is the relative \ce{BrO}  error, in the contamination based-evaluation. 
 	\Cref{fig:WelcheEP} shows the $X$ factor for the Tungurahua and the Nevado Del Ruiz volcano. The y-axis shows the factors $X$ averaged over all instrument at the volcanoes.\\
 	The factors X change from instrument to instrument. The results for every instrument can be seen in the appendix (\Cref{fig:I2J8548}). The factors X range from 1.18 to 1.42.\\
-	Single references-plume pairs result in a very high BrO error, which has a very high impact on the calculation of the X factors. 
+
 %	\textcolor{red}{If using the median and not the mean as described in \Cref{eq:mean} our method is mostly better than the "optimal method".--> wenn du schon sagst, dass es mit dem median besser wird, dann schreib auch den Median Wert hin und better than optimal??? besser machen.}
 	As it can be seen in \Cref{fig:WelcheEP}  for both volcanoes the $X$ factor is minimal for the combination of the following external parameters:\\
 	
@@ -734,7 +738,7 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 	\end{table}
 %	
 
-	For the final algorithm this combination of external parameters is used.
+	For the final algorithm this combination of external parameters is used.\\	
 	The coefficients $a_{x}$ are calculated for each instrument at Nevado Del Ruiz and Tungurahua. Furthermore, the coefficients $a_{x}$ are calculated with the combined data from all instruments installed at one volcano. The results for the Nevado Del Ruiz volcano can be found in \Cref{tab:coefNevad} and for the Tungurahua volcano in \Cref{tab:coefTung}.\\
 	\\
 %	
@@ -758,13 +762,13 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 				\toprule
 				value & import\\
 				\toprule
-				 7.505e+12&0.866\\
+				 7.505$\cdot$ e+12&0.866\\
 				\midrule
-				3.482e+13&0.048\\
+				3.482$\cdot$ e+13&0.048\\
 				\midrule
-				-3.2e+09& 0.0\\
+				-3.2$\cdot$ e+09& 0.0\\
 				\midrule
-				1.869e+12&0.095\\
+				1.869$\cdot$ e+12&0.095\\
 				\bottomrule
 		\end{tabular}}		
 	\subfigure[Data of Nevado Del Riz D2J2200\_0]{
@@ -772,13 +776,13 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			\toprule
 			value & import \\
 			\toprule
-		 	 1.179e+13&0.925 \\
+		 	 1.179$\cdot$ e+13&0.925 \\
 			\midrule
-			1.024e+14& 0.046\\
+			1.024$\cdot$ e+14& 0.046\\
 			\midrule
-			-1.6e+09& 0.0\\
+			-1.6$\cdot$ e+09& 0.0\\
 			\midrule
-			1.054e+12&0.033\\
+			1.054$\cdot$ e+12&0.033\\
 			\bottomrule
 	\end{tabular}}
 	\subfigure[Data of Nevado Del Both Instruments]{
@@ -786,19 +790,21 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			\toprule
 			value & import \\
 			\toprule
-			1.07e+13&0.973 \\
+			1.07$\cdot$ e+13&0.973 \\
 			\midrule
-			3.48e+10&  0.070\\
+			3.48$\cdot$ e+10&  0.070\\
 			\midrule
-			-9.1e+08& 0.0\\
+			-9.1$\cdot$ e+08& 0.0\\
 			\midrule
-			 1.52e+11&0.006\\
+			 1.52$\cdot$ e+11&0.006\\
 			\midrule
-			 -6.81e+13& -0.047\\
+			 -6.81$\cdot$ e+13& -0.047\\
 			\bottomrule
 	\end{tabular}}
 	\label{tab:coefNevad}
-	\caption{ The results of the fitting with a first order polynomial. 
+	\caption{\textcolor{red}{import: du musst erklaeren was das bedeutet, insbesondere mathematisch/statistisch}
+		\textcolor{red}{Delta a\_T wird in 1C-Schritten gemessen (oder?!) aber in was werden die anderen Deltas gemessen, das hat doch sicher einen Einfluss auf diese Werte hier. Gibt es eine Moeglichkeit das zu normieren?}
+		\textcolor{red}{vielleicht kann man die "importance besser durch ein Saeulendiagramm veranschaulichen, mit allen 7 Instrumenten in einem Bild} The results of the fitting with a first order polynomial. 
 		The constants of \Cref{calc:delterr} are calculated.
 		The value shows the actual number. The importance,  referred to as
 		import, indicates the relative impact on the evaluation.
@@ -830,13 +836,13 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			\toprule
 			value & import\\
 			\toprule
-			 3.732e+12&0.664\\
+			 3.732$\cdot$ e+12&0.664\\
 			 \midrule
-			 6.982e+13&0.078\\
+			 6.982$\cdot$ e+13&0.078\\
 		     \midrule
-		     3.5e+10&0.2 \\
+		     3.5$\cdot$ e+10&0.2 \\
 			 \midrule
-			 7.797e+11&0.069\\
+			 7.797$\cdot$ e+11&0.069\\
 			 \midrule
 			 \bottomrule
 	\end{tabular}}
@@ -845,13 +851,13 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			\toprule
 				value & import \\
 				\toprule
-				6.459e+12&0.920\\
+				6.459$\cdot$ e+12&0.920\\
 				\midrule
-				2.760e+13&0.066\\
+				2.760$\cdot$ e+13&0.066\\
 				\midrule
-				1.2e+10 &0.13 \\
+				1.2$\cdot$ e+10 &0.13 \\
 				\midrule
-				-6.049e+11&-0.055\\
+				-6.049$\cdot$ e+11&-0.055\\
 				\midrule
 				\bottomrule
 	\end{tabular}}
@@ -860,13 +866,13 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			\toprule
 			value & import \\
 			\toprule
-			3.939e+12&0.850\\
+			3.939$\cdot$ e+12&0.850\\
 			\midrule
-			-1.521e+13&-0.042\\
+			-1.521$\cdot$ e+13&-0.042\\
 			\midrule
-			2.0e+10&0.2 \\
+			2.0$\cdot$ e+10&0.2 \\
 			\midrule
-			1.158e+11&0.017\\
+			1.158$\cdot$ e+11&0.017\\
 			\midrule
 			\bottomrule
 	\end{tabular}}
@@ -875,13 +881,13 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			\toprule
 			value & import \\
 			\toprule
-			5.055e+12&0.838\\	
+			5.055$\cdot$ e+12&0.838\\	
 			\midrule		
-			2.534e+13&0.057\\
+			2.534$\cdot$ e+13&0.057\\
 			\midrule
-			1.8e+10& 0.117\\
+			1.8$\cdot$ e+10& 0.117\\
 			\midrule
-			-1.109e+11&-0.012\\
+			-1.109$\cdot$ e+11&-0.012\\
 			\midrule
 			\bottomrule
 	\end{tabular}}
@@ -895,8 +901,48 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			 both instruments Tungurahua% zero point  =  1.610e+13 \textcolor{red}{besser}
 		 }
 	\end{table}			
-	As it can concluded from \Cref{fig:WelcheEP} The best results are found if all parameters are used with a mean correlation above 0.3 (see \Cref{tab:CorrEP}).
+	As it can concluded from \Cref{fig:WelcheEP} The best results are found if all parameters are used with a mean correlation above 0.3 (see \Cref{tab:CorrEP}).\\
+	\\
+	As it is shown in \Cref{Chap:BrOdep}, not only the BrO retrieval error depends on the difference in external parameter but also the BrO SCD (see \Cref{fig:difftempbroallinstruments}). 
+	The question is, if the correlation between the BrO error and an considered external parameter as can be seen in \Cref{fig:difftempbroallinstruments}, can also be found in the BrO SCD and the corresponding differences in external paramter of the final choice of the reference, resulting from the fit routine. The answer to this question is No, since the maximal correlation is below 0.01. On Comparison, the maximal correlation if all references are used is above 0.8. Thus we can conclude, that the BrO SCDs resulting from the fit routine do not depend largely on the differences in external parameter.\\
 	
+	The fitting routine provides a list, where the possible references are sorted by there probable compatibility with the plume spectra. To quantize the influence of the choice of the reference on the BrO SCD, the BrO SCDs, retrieved by using the first 10 spectra of the list provided by the fitting routine are compared.
+	For Tungurahua the mean standard deviation between the different BrO SCDs calculated with the different references is 28.7 \% of the mean BrO SCD. The mean BrO retrieval error is 43.8\% of the BrO SCD.
+	At Nevado del Ruiz the standard deviation of the BrO SCD is 25.4\% of the mean BrO SCD. The mean BrO retrieval error is 36.9\% of the BrO SCD.
+	
+		
+%	\\
+%	\textcolor{red}{The deviations between the single evalutions at Tungurahua are:\\
+%		std/mean (einzeln) 0.896; (median): 0.287\\
+%		mean:  4.10e+13; (median): 4.14e+13\\
+%		Std: 1.64e+13 ; (median):1.41e+13\\
+%		abs(mean) 4.74e+13 ; (median):4.17e+13\\
+%		std/mean (alles) 0.347 ; (median):0.298\\
+%		\\
+%		At Nevado Del ruiz we get:\\
+%		std/mean (einzeln) 1.122; (median): 0.254\\
+%		mean:  6.36e+13 ; (median):5.87e+13\\
+%		Std: 2.14e+13 ; (median):1.62e+13\\
+%		abs(mean) 6.87e+13; (median): 5.99e+13\\
+%		std/mean (alles) 0.312; (median): 0.236\\
+%		\\}
+%	
+%mit allen
+%Tungu:
+%
+%std/mean (einzeln) 0.605378273729 0.298527797774
+%mean:  3.98967133878e+13 4.05154e+13
+%Std: 1.8013442975e+13 1.53889261173e+13
+%abs(mean) 4.72802139124e+13 4.09881e+13
+%std/mean (alles) 0.380993263024 0.325483428349
+%
+%
+%NDR
+%std/mean (einzeln) 8.88210192704 1.88372452094
+%mean:  -1.1945882144e+14 -1.11303390977e+14
+%Std: 2.18819723274e+14 2.27473806618e+14
+%abs(mean) 1.34119574466e+14 1.146775e+14
+%std/mean (alles) 1.63152712157 1.6960522543	
 	\section{Other approaches}
 
 	Fitting is not the only possibility of finding the optimal reference out of the list of all possible references.\\
@@ -907,7 +953,7 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 
 Beside linear regression also the nearest neighbor approach can be utilized to estimate the BrO error for the evaluation with a potential reference spectrum.
 %
-The nearest neighbor search describes an optimization problem for a given point $m \in \mathbb{R}^n$ and a set $S \subset \mathbb{R}^n$:
+The nearest neighbor search \textcolor{red}{referenzieren} describes an optimization problem for a given point $m \in \mathbb{R}^n$ and a set $S \subset \mathbb{R}^n$:
 
 %
 
@@ -942,10 +988,10 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 %
 
 \subsection*{Advantages of the nearest neighbour approach}
-	The main advantage of the nearest neighbour method is that there is no need for a pre-assumption of a fitting method. The fitting method assumes that the BrO error depends linearly  on the external parameter. As it can be seen in \Cref{fig:difftemp}-\Cref{fig:diffexptime} this does not need to be the case. Thus, the nearest neighbour method is able to approximate the BrO error as a function of the external data in a more variable way.
+	The main advantage of the nearest neighbour method is that there is no need for a pre-assumption of a fitting method. The fitting method assumes that the BrO error depends linearly  on the external parameter. As it can be seen in \Cref{fig:difftemp}-\Cref{fig:diffexptime} this does not need to be the case. Thus, the nearest neighbour method is able to approximate the BrO error as a function of the external data in a more variable way\textcolor{red}{more general}.
 %
 \subsection*{Disadvantages of the nearest neighbour approach}
-	Compared to fitting the data, the nearest neighbour is much slower. The reason for this is, the vast amount of compassion operations that is necessary for each computation. Thus, the calculation time increases with the amount of learning data.\\
+	Compared to fitting the data, the nearest neighbour is much slower. The reason for this is, the vast amount of compassion operations that is necessary for each computation. Thus, the calculation time increases with the amount of training data.\\
 	To normalize the distances d, the normalization function needs to be chosen and therefore pre-assumptions about feature importance are required.
 	The x factor increases by 80\%, from 1.24 for the fitting method 
 	to 2.24 for the nearest neighbour method.
@@ -968,10 +1014,9 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 	This chapter shows and discusses the difference of the \ce{SO2}, \ce{BrO} and \ce{BrO}/\ce{SO2}  ratio data when evaluating with the NOVAC-Method, or with the contamination based method.
 	The aim is to discover the systematic differences between the different retrievals and to discuss the reliability of the data.\\
 	\\
-	To obtain the reference with minimal expected \ce{BrO}  error the calculation of \Cref{calc:delterr} and the corresponding coefficients from \Cref{tab:coefTung} (Tungurahua) and \Cref{tab:coefNevad} (Nevado Del Ruiz) are used. 
-	For the retrieval only "Multi Add" data are used. The maximal temporal difference between measuring the reference and the plume is two weeks.\\
-	\\
-	\textcolor{red}{wie wurden die daten jetzt hier ausgewertet?????}
+	To obtain the reference with minimal expected \ce{BrO}  error, the calculation of \Cref{calc:delterr} and the corresponding coefficients from \Cref{tab:coefTung} (Tungurahua) and \Cref{tab:coefNevad} (Nevado Del Ruiz) are used. 
+	For the retrieval only "Multi Add" data are used. The maximal temporal difference between measuring the reference and the plume is two weeks. The maximal temperature difference is 3.3 $^{\circ}$C.\\
+
 	\begin{figure}[h!]	
 		\subfigure[Data of Tungurahua]{\includegraphics[width=0.5\textwidth]{Bilder/Tungurahua_Pic/tung_bro_novac_conbased}
 		\label{fig:diffNovaca}}
@@ -997,7 +1042,7 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 		(c) +(d) The column density calculated with NOVAC is subtracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero. That means both evaluations lead to the same ratio. (c) Tungurahua (d) Nevado Del Ruiz}
 	\label{fig:diffratio}
 \end{figure}
-	\Cref{fig:diffNovac} shows a comparison of the results of contaminated data if performing the evaluation with the NOVAC-method and the contamination based method. The x-axis shows the column density of \ce{BrO} respectively \ce{SO2}  calculated with NOVAC-method, the y-axis shows the column density calculated with the contamination based method. Only data are used where the corresponding \ce{SO2}  column density lies above the plume limit ($SO2\_SCD>7\cdot 10^{17}$). Hereby, the column densities are evaluated with the contamination based method. Thus, the corresponding \ce{SO2}  SCD's evaluated with NOVAC could be below $7\cdot 10^{17}$.
+	\Cref{fig:diffNovac} shows a comparison of the results of contaminated data if performing the evaluation with the NOVAC-method and the contamination based method. The x-axis shows the column density of \ce{BrO} respectively \ce{SO2}  calculated with NOVAC-method, the y-axis shows the column density calculated with the contamination based method. Only data are used where the corresponding \ce{SO2}  column density lies above the plume limit ($SO2\_SCD>7\cdot 10^{17}$). Hereby, the column densities are evaluated with the contamination based method. Thus, the corresponding \ce{SO2}  SCDs evaluated with NOVAC could be below $7\cdot 10^{17}$.
 	The plots on the left side (\Cref{fig:diffNovaca} and \ref{fig:diffNovacc}) show the results from the Tungurahua volcano while the plots at the right side (\Cref{fig:diffNovacb} and \ref{fig:diffNovacd}) show the results from Nevado Del Ruiz volcano. The black solid line shows a linear fit of the data, the dotted line indicates where the both evaluation are equivalent.\\
 	\Cref{fig:diffNovaca} and \ref{fig:diffNovacb} show the results for the \ce{BrO}  retrieval:
 	\begin{itemize}
@@ -1064,7 +1109,7 @@ In the following we discuss the results for the Tungurahua volcano and the Nevad
 \section{Tungurahua}
 	In the considered timespan from June 2008 to August 2009, 6500 multi add spectra are recorded. \\
 	Using the conventional NOVAC-method to perform the evaluation and ignoring contamination results in an amount of 6.7 \% of \ce{SO2}  column densities within the plume limit. Thus 6.7 \% of the data can be used for the examination of the volcanic gas emissions in this timespan.\\
- 	6.0 percentage of all spectra are found as contaminated and thus need to be excluded from the conventional NOVAC-evaluation. From the remaining data,  if the contaminated spectra are excluded, only 5.5 \% of the \ce{SO2}  column densities are above the plume limit  (see  Table \ref{tab:calc}). \\
+ 	6.0 \% of all spectra are found as contaminated and thus need to be excluded from the conventional NOVAC-evaluation. From the remaining data,  if the contaminated spectra are excluded, only 5.5 \% of the \ce{SO2}  column densities are above the plume limit  (see  Table \ref{tab:calc}). \\
  	A higher amount of spectra within the \ce{SO2}  plume limit can be found in the contaminated data even if the contaminated data are evaluated with the NOVAC-method. Here, the percentage of data in the plume-limit is: 19.2\%.
  	This means that the contaminated data are 2.86 times more frequently above the detection limit. This leads to the presumption, that the probability of getting contaminated data increases with the gas amount leaving the volcano.\\
  	The following paragraph deals only with the contaminated data.	
@@ -1084,7 +1129,7 @@ In the following we discuss the results for the Tungurahua volcano and the Nevad
 
 \section{Nevado Del Ruiz}
 At Nevado Del Ruiz a larger time span is examined. Thus, there is a higher amount of "Multi Add" data of 14005.
-When ignoring contamination and evaluating all spectra with the NOVAC-method 12.8\% of the \ce{SO2} SCDs are above the plume limit.\\
+%When ignoring contamination and evaluating all spectra with the NOVAC-method 12.8\% of the \ce{SO2} SCDs are above the plume limit.\\
 The total amount of contamination data is 1392. This is equivalent to 9.9\% of all data. Evaluating the contaminated data with the NOVAC-method in 39.9\% of the cases yields SO2 SCDs within the plume limit. of the \ce{SO2} SCDs within the plume limit. As at Tungurahua the occurrence of data above the plume limit within the contaminated data is larger as for not contaminated data (by a factor of 3.4).\\
 The following paragraph only deals with the contaminated data.
 If using the contamination based method 77.9\% of the \ce{SO2} column densities are above the detection limit. Thus, an increase of \ce{SO2} SCDs above the plume limit within the contaminated data of 95\% is observable. In total the amount of \ce{SO2} SCDs above the plume limit increases by  68.8\%. percent. As a result 12.8\% of all data are above the plume limit.\\
@@ -1149,6 +1194,7 @@ The plot at the bottom of \Cref{fig:ndrso2novacsametime} show the BrO/\ce{SO2} r
 
 	\Cref{fig:dailymeanstungurahua} shows a time series of Daily means of the BrO/\ce{SO2} ratio. The minimum amount of valid data point within one day is above 4. Days where 3 or less valid data where recorded are not considered in this figure.  Thus all considered ratios have an \ce{SO2} SCD above the plume limit. The red marked ratios shows data which are only able to use, if the contaminated data are used as well.
 	\begin{figure}
+
 		\subfigure{
 		\includegraphics[width=0.5\linewidth]{Bilder/dailymeansNevadoDelRuiz}}
 		\subfigure{
@@ -1195,26 +1241,30 @@ The plot at the bottom of \Cref{fig:ndrso2novacsametime} show the BrO/\ce{SO2} r
 	 The real gas amount might be between the measured amount with and without using a reference measured at another time.\\
 	 The contamination setup could differ from \Cref{fig:contaminationplume}. This would lead to different results. However, the reference region is in most cases at a larger elevation angle than the plume. Thus, the assumption that the light path trough the old plume is in average longer for the reference, if both, reference and plume are contaminated.
 	 
-	  With the data retrieved by the NOVAC instruments it is very difficult or even impossible to discover whether the plume is contaminated or not. 
-
-
+	  With the data retrieved by the NOVAC instruments it is very difficult or even impossible to discover whether the plume is contaminated or not. \\
+	
+	\textcolor{red}{
+	\cite{geeignete quelle, irgendwo hab ich das schon gehoert} made investigations on the lifetime of \ce{SO2} and BrO. The lifetime of \ce{SO2} is several weeks, while the decay of BrO proceed in smaller time scales. As a result we should observe a lower contamination for BrO. This can be observed in our results. In theory it can be that due to the smaller lifetimes of BrO contamination only influences the \ce{SO2} evaluation, if that is the case, the best option would be to use a high defined solar atlas spectrum as reference for the \ce{SO2} evaluation, but an reference recorded with the same instrument at the same time for the BrO evaluation, since BrO could not be retrieved using an high defined solar atlas spectrum.}
 
 
 	\chapter{Conclusion}
 	
-	The Network for Observation of Volcanic and Atmospheric Change provides a very large of longtime timeseries. This treasure of the data contains a hge amount of informations about volcanoes, which could give an intresting insight of the physically foundations on volcanic activity.\\
-	The evaluation of the volcanoes is is in particular based on the assumption that the atmospheric background of the volcanic trace gases \ce{SO2} and BrO is negligible. This is important to assure since the evaluation calculates the dSCDs because the DOAS method only gets the difference in gas amount between the background, the reference and the signal, the plume spectra.\\
-	\citet{lubcke2014bro} found by using a solar atlas spectrum as reference that the reference provided by the NOVAC-Instrument is not always gas free. As a result some references are contaminated with volcanic trace gases. If that is the case the contaminated data eather needs to be excluded from the evaluation or the contaminated reference need to replaced by a gas free reference. If we want to keep the contaminated data we need to find an appropriate gasfree reference. A solar atlas spectrum can not be taken for the BrO evlaution due to the low amount of BrO and the increase of the BrO error if using a solar atlas spectrum. Thus a gasfree reference recorded by the same instrument is a possible choice.\\
-	There are more than one gasfree reference of the same instrument available. Due to the low accuracy of the BrO retrieval it is reasonably to choose the reference with respect to the BrO error.
-	An analysis of the BrO error as function of difference external parameter as: Temporal difference between measuring the plume and the reference; Temperature; Colorindex; Exposure time; Elevation angle;  Daytime, is presented. Differences in those parameters between the reference spectrum an the plume spectrum influence the evaluation. If both, the the reference and the plume a recorded at the same time all those external parameter are identical and therefore do not need to be considered in the evaluation. The dependence of the BrO column density on external parameters was discussed as well. \\
-	The result of this analysis, was, that in general the retrieved BrO error is minimal, if the considered parameter are similar for the plume and reference. Only the elevation angle does not seem to influence the retrieval. From the considered parameter the temperature has the most significant impact of 60\% up to 97\% compared to the other parameter, at all observed instruments at Tungurahua as well as at the Nevado Del Ruiz volcano. The importance of the other instruments are different for every instrument, depending on the location of the instrument and the instrument itself.\\
-	Based on this findings an algorithm is introduced to automatically find the alternative reference if a reference need to be replaced due to contamination of the reference which was measured at the same time as the plum spectrum.\\
-	Fitting the data with an four dimensional first order polynomial turned out to give the best results.\\
-	The evaluation of th contaminated data with the here invented algorithm showed that BrO as well as \ce{SO2} was underestimated by ignoring the contamination problem.
-	We showed that the contamination based method gives BrO SCDs with an on the average 1.2e+13 at Tungurahua (2.0e13 Nevado Del Ruiz) higher column density, while the \ce{SO2} amount increases as well with an on the average constant amount of 6.5e17 at Tungurahua (7.4e17 Nevado Del Ruiz) . Thus the results for the BrO/\ce{SO2} ratio calculated with the contamination based method changed compared to the conventional method in the way, that low ratios increases, while high ratios decreases.\\
-	A further advantage of the new calculation is, that due to the higher amount of the \ce{SO2} SCDs the amount of data above the plume limit increases. Using the contamination based method leads to an total increase of 45 \% (Tungurahua) and 87\% (Nevado Del Ruiz) of data.\\
-	\\	
-	\cite{geeignete quelle, irgendwo hab ich das schon gehoert} made investigations on the lifetime of \ce{SO2} and BrO. The lifetime of \ce{SO2} can reach to several weeks, while the decay of BrO proceed in faster times. As a result we should observe a lower contamination of BrO. This could be observed in our results. In theory it could be that due to the smaller lifetimes of BrO contamination only influences the \ce{SO2} evaluation, if that is the case, the best option would be to use a high defined solar atlas spectrum as reference for the \ce{SO2} evaluation, but an reference recorded with the same instrument at the same time for the BrO evaluation, since BrO could not be retrieved using an high defined 
+	The Network for Observation of Volcanic and Atmospheric Change provides a very large of longtime timeseries. This treasure of the data contains a huge amount of informations about volcanoes, which give an interesting insight of the physical foundations on volcanic activity.\\
+	The evaluation of the volcanoes is is in particular based on the assumption that the atmospheric background of the volcanic trace gases \ce{SO2} and BrO is negligible. This is important to assure since the DOAS method only captures the difference in gas amount between the background, the reference and the signal, the plume spectra.\\
+	By the usage of a solar atlas spectrum as reference, \citet{lubcke2014bro} found  that the reference provided by the NOVAC-Instrument is not always gas free. Thus is contaminated with volcanic trace gases. If that is the case the contaminated spectra either needs to be excluded from the evaluation or the contaminated reference needs to be replaced by a gas free reference. If we want to keep the contaminated data we need to find an appropriate gasfree reference. A solar atlas spectrum can not be used for the BrO evlaution due to the low amount of BrO and the increase of the BrO error if using a solar atlas spectrum. Thus, a gasfree reference recorded by the same instrument is a possible choice.\\
+	As the instruments are recoring continously, there are multiple potential gasfree reference spectra available for each plume spectrum. Due to the low accuracy of the BrO retrieval it is reasonably to choose the reference with respect to the BrO error.
+	An analysis of the if the dependency of the BrO error on several external parameters is presented. Hereby we focus on the temporal difference and the differences in temperature, Colorindex, exposure time, elevation angle and daytime between the plume and the reference spectra. These external parameters are found crucial for the retrieved BrO error. The dependence of the BrO column density on external parameters was discussed as well. 
+	\\
+	The result of this analysis, that in general the retrieved BrO error is minimal, if the considered parameter are similar for the plume and reference. Only the elevation angle does not seem to influence the retrieval. From the considered parameter the temperature has the most significant impact of 60\% up to 97\% compared to the other parameters, at all observed instruments at Tungurahua as well as at the Nevado Del Ruiz volcano. The importance of the other instruments are different for every instrument, depending on the location of the instrument and the instrument itself.\\
+	If both, the the reference and the plume a recorded at the same time all those external parameter are  identical which corresponds to the minimal expected error however might include involve a systematic error due to contamination.\\
+	Based on this findings an algorithm is introduced to automatically find the alternative reference if the reference, which is measured at the same time as the plum spectrum, to be replaced due to contamination.\\
+	Fitting the data with a four dimensional first order polynomial turned out to give the best estimation of the expected error on the trace gas measurement.\\
+	The evaluation of the contaminated data with the here proposed algorithm shows that BrO as well as \ce{SO2} was underestimated by ignoring the contamination problem.
+	We shows that the contamination based method in average estimates the value of the BrO column destiny by 1.2$\cdot$ e+13 higher at Tungurahua (2.0e13 Nevado Del Ruiz). The \ce{SO2} amount increases as well by an amount of 6.5$\cdot$ e+17 at Tungurahua (7.4$\cdot$ e+17 Nevado Del Ruiz) . Thus, the results for the BrO/\ce{SO2} ratio calculated with the contamination based method changed compared to the conventional method in the way, that low ratios increases, while high ratios decrease.\\
+	A further advantage of the new calculation is, that due to the higher amount of the \ce{SO2} SCDs the amount of data above the plume limit increases. Using the contamination based method leads to an total increase of data of 45 \% (Tungurahua) and 87\% (Nevado Del Ruiz).\\
+	\\
+	The Method proposed in this thesis improves the evaluation of the spectra provided by NOVAC and eliminates the systematic error occurring due to contamination. As a result the amount of usable data increases. This is a important step fo a better understanding of volcanoes.
+
 
 	
 	
