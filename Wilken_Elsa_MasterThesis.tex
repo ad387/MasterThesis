@@ -1016,7 +1016,7 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 	
 	
 	
-	
+
 	
 	\chapter{Results}
 	\textcolor{red}{1) Verbesserung der Lesbarkeit: "Strategisches" von "Technischem"
@@ -1037,8 +1037,8 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 	This chapter shows and discusses the difference of the \ce{SO2}, \ce{BrO} and \ce{BrO}/\ce{SO2}  ratio data when evaluating with the NOVAC-Method, or with the contamination based method.
 	The aim is to discover the systematic differences between the different retrievals and to discuss the reliability of the data.\\
 	\\
-	To obtain the reference with minimal expected \ce{BrO}  error, the calculation of \Cref{calc:delterr} and the corresponding coefficients from \Cref{tab:coefTung} (Tungurahua) and \Cref{tab:coefNevad} (Nevado Del Ruiz) are used. 
-	For the retrieval only "Multi Add" data are used. The maximal temporal difference between measuring the reference and the plume is two weeks. The maximal temperature difference is 3.3 $^{\circ}$C.\\
+	To obtain the reference leading to an evaluation with minimal expected \ce{BrO}  error, the calculation of \Cref{calc:delterr} and the corresponding coefficients from \Cref{tab:coefTung} (Tungurahua) and \Cref{tab:coefNevad} (Nevado Del Ruiz) are used. 
+	For the retrieval only "Multi Add" data are used. The maximal temporal difference between measuring the reference and the plume, accepted for the retrieval, is two weeks. The maximal accepted temperature difference is 3.3 $^{\circ}$C.\\
 
 	\begin{figure}[h!]	
 		\subfigure[Data of Tungurahua]{\includegraphics[width=0.5\textwidth]{Bilder/Tungurahua_Pic/tung_so2_novac_conbased}
@@ -1069,7 +1069,7 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 	We are interested in the systematic differences if using the contaminated same time references spectrum or a gas free alternative reference.  
 	\Cref{fig:diffNovac} shows a comparison of the results of contaminated data if performing the evaluation with the NOVAC-method and the contamination based method. 
 	%Only data are used where the \ce{SO2} SCDs evaluated with the contamination based method  lies above the plume limit ($SO2\_SCD>7\cdot 10^{17}\frac{molec}{cm^2}$). Thus, the corresponding \ce{SO2}  SCDs evaluated with NOVAC could be below $7\cdot 10^{17}$. 
-	As expected the \ce{SO2}  column densities retrieved by the contamination based method become larger for almost every measurement compared to the NOVAC method. The difference between the \ce{SO2} SCDs retrieved by the conventional NOVAC-method increases slightly with increasing SO2 SCD. Fitting of the data results in a slope of 1.22 (Tungurahua) and 1.16 (Nevado del Ruiz). Thus, we can conclude that  a higher SO2 amount leads to a slightly higher contamination (see \Cref{fig:diffNovac}). The extent of BrO contamination does not seem to depend on the BrO amount. The slope of the linear fit of the BrO SCDs have a slope which does not differ significantly from one. The slope at Tungurahua is 1.01 and for Nevado del Ruiz  is 1.07. \\
+	As expected the \ce{SO2}  column densities retrieved by the contamination based method are larger for almost every measurement compared to the NOVAC method. The difference between the \ce{SO2} SCDs retrieved by the conventional NOVAC-method increases slightly with increasing SO2 SCD. Fitting of the data results in a slope of 1.22 (Tungurahua) and 1.16 (Nevado del Ruiz). Thus, we can conclude that  a higher SO2 amount leads to a slightly higher contamination (see \Cref{fig:diffNovac}). The extent of BrO contamination does not seem to depend on the BrO amount. The slope of the linear fit of the BrO SCDs have a slope which does not differ significantly from one. The slope at Tungurahua is 1.01 and for Nevado del Ruiz  is 1.07. \\
 	\Cref{fig:diffratio} shows the difference of the \ce{SO2}/\ce{BrO} ratio when performing the evaluation with the NOVAC method and the contamination based method.\\
 	(\Cref{fig:diffratiob} , \ref{fig:diffratiod}). \Cref{fig:diffratioa} and \ref{fig:diffratiob} show the results of the contamination based method plotted against the results of the NOVAC method. \Cref{fig:diffratioc}  and \ref{fig:diffratiod} show the actual difference between both methods. The column density calculated with NOVAC is subtracted from the corresponding column density retrieved with the contamination based method.  For low \ce{BrO}/\ce{SO2}  ratios around below zero, the ratios calculated with the contamination based method are higher than the ratios retrieved with the NOVAC method. For higher \ce{BrO}/\ce{SO2}  ratios (above zero) the ratios calculated with the NOVAC method are larger. The absolute difference between both evaluation methods increases with the increase of the 
 \textcolor{red}{postives Offset, was ist der Effekt von der höheren Anzahl Datenpunkte}
@@ -1084,24 +1084,24 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 		\begin{tabular}{p{5cm}p{4cm}p{3cm}p{3cm}}
 			&&Tungurahua&Nevado Del Ruiz\\
 			\toprule
-			Total amount of data&&6500&14005\\
+			Total amount of scans&&6500&14005\\
 			\midrule
-			NOVAC: of data above plume limit&&0.064\%& 0.121\%\\
+			NOVAC: SO2 SCDs above plume limit&&0.064\%& 0.121\%\\
 			\midrule
-			NOVAC: of data above plume limit without cont.&& 0.055\%& 0.088\%\\
+			NOVAC: SO2 SCDs above plume limit without cont.&& 0.055\%& 0.088\%\\
 			\midrule
-			contaminated data&&6\%&9.9\%\\
+			contaminated scans&&6\%&9.9\%\\
 			\midrule
-			&Above NOVAC plume limit & 0.153&0.328\\
+			&NOVAC: above  plume limit & 0.153&0.328\\
 			\midrule
-			&Above contbased plume limit& 0.299&0.598\\			
+			&Contbased: above plume limit& 0.299&0.598\\			
 			\midrule
-			Not conatminated data above plume limit &&0.055&0.088\\
+			Not conatminated data: above plume limit &&0.055&0.088\\
 			\midrule
-			In totla above plume limit &&0.073&0.14\\
+			In total: above plume limit &&0.073&0.14\\
 			\bottomrule			
 	\end{tabular}}
-	\caption{Results for Tungurahua and Nevado Del Ruiz. The absolute amount of data and the amount of data within the plume limit and the amount of contaminated data are shown.  Results for Tungurahua and Nevado Del Ruiz. The temporal difference between the measuring times of plume and reference is not longer than $\pm$2week. The maximal temperature difference is smaller then 3.3$^{\circ}$C ($\Delta T < 3.3^{\circ}$C). The maximal relative BrO error for the contaminated data is not larger as the corresponding BrO SCD. }
+	\caption{Results for Tungurahua and Nevado Del Ruiz. The absolute amount of data and the amount of data above the plume limit and the amount of contaminated data are shown.  Results for Tungurahua and Nevado Del Ruiz. The temporal difference between the measuring times of plume and reference is not longer than $\pm$2week. The maximal temperature difference is smaller then 3.3$^{\circ}$C ($\Delta T < 3.3^{\circ}$C). The maximal relative BrO error for the contaminated data is not larger as the corresponding BrO SCD. }
 	\label{tab:calc1}
 \end{table}
 
@@ -1113,7 +1113,7 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 	6.4\% of the evaluated volcanic gas plumes contained \ce{SO2} above the "plume threshold of $7\cdot10^{17}\quad \frac{molec}{cm^2}$. Thus 6.4\% of the data can be used for the examination of the volcanic gas emissions in this timespan.\\
  	The analysis of the reference with an solar atlas spectrum spectra found 6.0 \% of all spectra as contaminated. To prevent a systematic error of the results this spectra need to be excluded from the conventional NOVAC-evaluation if no further calculations are made.\\
  	From the remaining data,  if the contaminated spectra are excluded, only 5.5 \% of the \ce{SO2}  column densities are above the plume limit  (see  Table \ref{tab:calc}). \\
- 	A higher amount of spectra within the \ce{SO2}  plume limit can be found in the contaminated data even if the contaminated data are evaluated with the NOVAC-method. Here, the percentage of data in the plume-limit is 0.153\%.
+ 	A higher amount of spectra above the \ce{SO2}  plume limit can be found in the contaminated data even if the contaminated data are evaluated with the NOVAC-method. Here, the percentage of data in the plume-limit is 0.153\%.
  	This means that the contaminated data are 2.381 times more frequently above the plume limit. This leads to the presumption, that the probability of getting contaminated data increases with the gas amount leaving the volcano.\\
  	The following paragraph deals only with the contaminated data.	
  	When performing the evaluation of the contaminated data with the contamination based method 0.299\% of the resulting \ce{SO2}  column densities are in the plume limit. Thus, the reliable amount of contaminated data increase bya factor of two while the total amount of data increase by 1.8 percent points. Thus 0.073\% of all data are above plume limit when using the contamination based method.\\
@@ -1129,12 +1129,12 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 
 
 \section{Nevado Del Ruiz}
-At Nevado Del Ruiz a larger time span (from the end of 2009 to the end of 2011) is examined. Thus, there is a higher amount of "Multi Add" data of 14005.
+At Nevado Del Ruiz a larger time span (from the end of 2009 to the end of 2011) is examined. The resulting amount of "Multi Add" data is 14005.
 Neglecting contamination and thus evaluate all data using the conventional NOVAC method results in 0.121 of all data above the plume limit. 
 %When ignoring contamination and evaluating all spectra with the NOVAC-method 12.8\% of the \ce{SO2} SCDs are above the plume limit.\\
-The total amount of contamination data is 1392. This is equivalent to 9.9\% of all data. Evaluating the contaminated data with the NOVAC-method in 32.8\% of the cases yields SO2 SCDs within the plume limit. of the \ce{SO2} SCDs within the plume limit. As at Tungurahua the occurrence of data above the plume limit within the contaminated data is larger as for not contaminated data (by a factor of 2.7).\\
+The total amount of contamination data is 1392. This is equivalent to 9.9\% of all data. Evaluating the contaminated data with the NOVAC-method yields in 32.8\% of the cases in SO2 SCDs above the plume limit. As at Tungurahua the occurrence of data above the plume limit within the contaminated data is larger as for not contaminated data (by a factor of 2.7).\\
 The following paragraph only deals with the contaminated data.
-If using the contamination based method 0.598\% of the \ce{SO2} column densities are above the detection limit. Thus, an increase of \ce{SO2} SCDs above the plume limit within the contaminated data of 95\% is observable. In total the amount of \ce{SO2} SCDs above the plume limit increases by 2.7 percent points. As a result 14.8\% of all data are above the plume limit.\\
+If using the contamination based method 0.598\% of the \ce{SO2} column densities are above the detection limit. Thus, an increase of the number of detected \ce{SO2} SCDs above the plume limit within the contaminated data of 95\% is observable. In total the number of \ce{SO2} SCDs above the plume limit increases by 2.7 percent points. As a result 14.8\% of all data are above the plume limit.\\
 \FloatBarrier
 
 
@@ -1213,9 +1213,9 @@ This section presents the final time series of SO2, BrO and \ce{BrO}/\ce{SO2}  f
 	\subsection*{Daily Means}
 	
 	 Due to the very small amount of volcanic gas plumes with 
-	\ce{BrO}  column densities above the detection limit often the daily mean of the \ce{BrO}/\ce{SO2}  ratios is used. Hereby at least four "Multi Adds" per day in the plume limit are considered in order to avoid outliers. Thus, performing the evaluation of contaminated data with the contamination based method leads to more data.\textcolor{red}{wie gehts eigentlich dem mitteleren BrO/SO2 fehler? (also (BrO/SO2)/sqrt(datenpunkte an dem tag) )}
+	\ce{BrO}  column densities above the detection limit often the daily mean of the \ce{BrO}/\ce{SO2}  ratios is used. Hereby at least four "Multi Adds" per day above the plume limit are considered in order to avoid outliers. Thus, performing the evaluation of contaminated data with the contamination based method leads to more data.\textcolor{red}{wie gehts eigentlich dem mitteleren BrO/SO2 fehler? (also (BrO/SO2)/sqrt(datenpunkte an dem tag) )}
 	%Some days which had less than  three to four valid data points could then have four or more multi adds. 
-	At Tungurahua 30.8\% more daily mean data can be retrieved when using the contamination based method compared to exclude the contaminated data. The amount of daily means increases less than the total amount of data, this effect can be explained due to a higher occurence of contamination if the \ce{SO2}  column densities are high, thus more data are retrieved for days with a high \ce{SO2}  amount.
+	At Tungurahua In fact 30.8\% more daily mean data can be retrieved when using the contamination based method compared to exclude the contaminated data. The amount of daily means increases less than the total amount of data, this effect can be explained due to a higher occurrence of contamination if the \ce{SO2}  column densities are high, thus more data are retrieved for days with a high \ce{SO2}  amount.
 	In the considered time period we have data on 365 days. 
 	If we exclude the contaminated data from the evaluation we get at 36 days daily means (more than 4 valid data points per day). If the contamination problem is neglected at 43 days daily means are retrieved. At 52 days we can calculate daily means if we use the contamination based method this is equivalent to 14.\% of all data.\\
 
@@ -1243,6 +1243,7 @@ This section presents the final time series of SO2, BrO and \ce{BrO}/\ce{SO2}  f
 	The contamination method is arguable because it does not consider contamination of the plume due to a lack of information. Moreover, we do not consider the different lifetimes of \ce{SO2} and BrO. This leads to a faster depletion of BrO.
 	\textcolor{red}{die besprechung der Lebensdauern muss noch ausführlicher werden. Insbesondere implizieren deine Daten, dass die BrO Lebensdauer relative lange ist. Ansonsten wäre ja zumindest eine Kontaminierung vom Tag davor nicht möglich. Das sollte auf jeden Fall einen ausführlich besprochenes ergebnis sein. Passend dazu eine Frage: Ist die Kontaminierung eigentlich vornehmlich morgens aufgetreten? Denn nachts kommt ja genauso viel \ce{Hbr} aus dem Vulkan, nur dass es eben nicht umgesetzt wird. (Memo an mich selbst!! :-D )}
 	\subsection{Contamination of the plume}
+	\textcolor{red}{UP:sollte dieser Para. nicht vor den Ergebnissen kommen?}
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{Bilder/Contaminationplume}
@@ -1258,7 +1259,7 @@ This section presents the final time series of SO2, BrO and \ce{BrO}/\ce{SO2}  f
 			\label{fig:contaminationplumewideplume}
 		\end{figure}
 
-	 As discussed above it occurs, that the plume is contaminated as well (see \Cref{fig:contaminationplume}). This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates at the instrument. In such a scenario, using an contamination free reference of another time would lead to an overestimation of the gas column densities in the plume.\\
+	 As discussed above it occurs, that the plume is contaminated as well (see \Cref{fig:contaminationplume}). This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates in the vicinity of the volcano and thus is seen by the instrument. In such a scenario, using an contamination free reference recorded at another time would lead to an overestimation of the gas column densities in the plume.\\
 	 This is one possible occurence of contamination. As it can be seen gas of the old plume affects the measurement of the reference and the plume. However, for this example the influence on the measurement of the reference is much larger since the light path trough the old plume (coloured orange in \Cref{fig:contaminationplume}) is longer for the reference than for the measurement of the volcanic plume. Thus, we underestimate the gas amount if we do not use a gas free reference, but might overestimate if we do so.
 	 The real gas amount might be between the measured amount with and without using a reference measured at another time.\\
 	 The contamination setup could differ from \Cref{fig:contaminationplume}. This would lead to different results. However, the reference region is in most cases at a larger elevation angle than the plume. Thus, the assumption that the light path trough the old plume is in average longer for the reference, if both, reference and plume are contaminated.

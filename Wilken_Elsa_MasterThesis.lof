@@ -12,7 +12,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Global map of the volcanoes monitored by NOVAC. Used with friendly permission of Santiago Arellano.}}{28}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces schematic sketch of a NOVAC instrument. From \cite {galle2010network}}}{29}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Topographig Map of the Tungurahua Volcano. The predominant plume direction is shaded in yellow. Four NOVAC stations are shown as red squares, the corresponding scanning geometry is sketched with black lines. From \cite {hidalgo2015so2}.}}{30}{figure.4.3}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Topographig Map of the Tungurahua Volcano (left, from \cite {hidalgo2015so2}) and Nevado del Ruiz volcanoe (right). The predominant plume direction is shaded in yellow. The NOVAC stations are shown as red squares, the corresponding scanning geometry is sketched with black lines. The prevalent plume dispersion is taken from the windrose shown in \url {https://www.meteoblue.com/en/weather/forecast/modelclimate/nevado-del-ruiz_colombia_3670563}, the topographic map is taken from google maps}}{30}{figure.4.3}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces (a) \ce {SO2} SCD as a function of the elevation angle with error bars computed by the DOASIS fitting routin. (b) \ce {BrO} SCD as a function of the elevation angle with error bars computed by the DOASIS fitting routine. Taken from \cite {WarnachSimon}}}{33}{figure.5.1}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{33}{figure.5.1}
