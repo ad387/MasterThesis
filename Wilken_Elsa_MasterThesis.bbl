@@ -1,4 +1,4 @@
-\begin{thebibliography}{47}
+\begin{thebibliography}{48}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -273,6 +273,15 @@ Susan Solomon, Arthur~L Schmeltekopf, and Ryan~W Sanders.
 \newblock On the interpretation of zenith sky absorption measurements.
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 92\penalty0
   (D7):\penalty0 8311--8319, 1987.
+
+\bibitem[Stutz and Platt(1996)]{Stutz:96}
+Jochen Stutz and Ulrich Platt.
+\newblock Numerical analysis and estimation of the statistical error of
+  differential optical absorption spectroscopy measurements with least-squares
+  methods.
+\newblock \emph{Appl. Opt.}, 35\penalty0 (30):\penalty0 6041--6053, Oct 1996.
+\newblock \doi{10.1364/AO.35.006041}.
+\newblock URL \url{http://ao.osa.org/abstract.cfm?URI=ao-35-30-6041}.
 
 \bibitem[Textor et~al.(2004)Textor, Graf, Timmreck, and
   Robock]{textor2004emissions}

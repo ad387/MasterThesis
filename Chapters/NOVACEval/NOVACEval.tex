@@ -73,12 +73,20 @@ The absolute slant column densities (SCD's) of \ce{BrO}  and \ce{SO2} can now be
 In \Cref{fig:plumeref} (a) an example \ce{SO2} SCD as a function of the elevation angle is shown. The \ce{SO2} curve has a maximum at the position of the plume at an elevation angle of approximately $-30^{\circ}$ to $0^{\circ}$  and a reference region at an elevation angle of $40^{\circ}$ to $70^{\circ}$. \Cref{fig:plumeref} (b)  illustrates that  extrema of the \ce{BrO}  curve are not as distinct as it is the case for the \ce{SO2} curve.\\
 Since the \ce{BrO} column density is much lower than the \ce{SO2} column density, and just lies slightly above the detection limit, the plume is hard to detect using the \ce{BrO} column density as it is shown in fig. \ref{fig:plumeref} (b). 
 Therefore we evaluate BrO only in the plume location determined by using \ce{SO2}.\\
+To avoid a distortion of the data as a consequence of relatively bad scans, only scans with a $\chi^2$ (BrO fit) below $10^{-3}$ ($\approx$	95 \% of all suitable scans) are considered.
 In a further step multiple reference and plume spectra of successive measurements are added to further increase the fit quality.
 \Cref{fig:NOVAC_Eval} visualizes the different steps described above in the retrieval of the BrO/\ce{SO2} ratios.\\
-\Cref{fig:algorithm} (b) shows the routine of adding multiple spectra of consecutive measuring times. In the following the spectra resulting from the multi adding technique will be referred to as "Multi Add Spectra". The algorithm for co-adding is visualized in \Cref{fig:algorithm} (b) was invented by \citet{vogel2011volcanic} and \citet{lubcke2014bro}.\\
+\Cref{fig:algorithm} (b) shows the routine of adding multiple spectra of consecutive measuring times. In the following the spectra resulting from the multi adding technique will be referred to as "Multi Add Spectra". The algorithm for co-adding is visualized in \Cref{fig:algorithm} (b) was invented by \citet{vogel2011volcanic} and \citet{lubcke2014bro}. At Tungurahua periods with significant degassing have a mean temporal resolution of 19 and up to 45 "Multi Add Spectra" per day (resulting from three instruments)\\
+
+The mean standard deviation is about $2.6\cdot10^{13} \frac{molec}{cm^{2}}$. Hereby the standard deviation is estimated as 2 times the DOAS fit error of the multi-scan BrO fit \citet{Stutz:96} \\
+
+The SO2	detection limit is in the order of $6\cdot10^{16}\frac{molec}{cm^{2}}$.\\
 %
-Taking the \ce{BrO}/\ce{SO2} molar ratios if the column densities are close to zero yields unpredictable and unrealistic results. Thus, spectra measured in a thin volcano plume need to be excluded.
-This could be achieved by setting a \ce{BrO} or/and an \ce{SO2} threshold. A reasonable \ce{BrO} threshold needs to be at least in the order of the DOAS fit error. However this could lead to elevated \ce{BrO}/\ce{SO2} ratios, since the \ce{BrO} error is often close to the detection limit. Thus, all low \ce{BrO} column densities are excluded from the evaluation  \citep{lubcke2014bro}, as an effect the ratios are systematic to high.
+Taking the \ce{BrO}/\ce{SO2} molar ratios if the column densities are close to zero yields unpredictable and unrealistic results. 
+Thus, spectra measured in a thin volcano plume need to be excluded.
+This could be achieved by setting a \ce{BrO} or/and an \ce{SO2} threshold. A reasonable \ce{BrO} threshold needs to be at least in the order of the DOAS fit error. The BrO detection limit can be enhanced by an daily averaging, then we get an detection limit of: BrO$_{DT}=\frac{2.6\cdot10^{13}}{n}\cdot\frac{molec}{cm^{2}}$ (n: number of Multi Add Scans per day): However most BrO SCDs are below the detection limit.\\
+However rejecting all BrO SCDs below the detection limit leads to an drastical decreases of data points and to systematic elevated \ce{BrO}/\ce{SO2} ratios  \citep{lubcke2014bro}.\\
+
 %
 \begin{figure}
 	\subfigure[ ]{\includegraphics[width=0.53\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan}}
@@ -86,13 +94,17 @@ This could be achieved by setting a \ce{BrO} or/and an \ce{SO2} threshold. A rea
 	\caption{(a) \ce{SO2} SCD as a function of the elevation angle. The co-added plume region is marked with red diamonds, and the co added reference region with green stars. From \cite{WarnachSimon}. (b) Flow chart of the \ce{BrO}  and \ce{SO2} evaluation. From \cite{lubcke2014optical}.}
 	\label{fig:algorithm}
 \end{figure}
-The other possibility is to set an \ce{SO2} threshold. In this thesis an \ce{SO2} threshold (plume limit) of $7\cdot 10^{17} \frac{molec}{cm^2}$ is used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. $7\cdot 10^{17} \frac{molec}{cm^2}$ is a high threshold for the column density. However, this approach assures that only strongly significant gas amounts are accounted \citep{lubcke2014bro}. Choosing the \ce{SO2} threshold in this way leads to consistent observations for strong degassing, but low degassing events are rather excluded in the evaluation.\\
-\textcolor{red}{Ich würde hier noch erwähnen für welche Ratios wir mit diesem Plume Limit sensitiv sind (siehe Appendix in Dinger et al, 2018).}\\
-Increasing a plume limit leads to a decrease of usable data. The ratio of usable  data as a function of the plume limit is shown in \Cref{fig:percentageminso2}. An exponential decrease of data can be observed. The plot is based on the data of Tungurahua. Plume limits below 7$\cdot10^{17}$ are shaded in yellow. A plume limit of 7$\cdot10^{17}$ leads to a ratio of usable data of approximately 10\%.
+The other possibility is to set an \ce{SO2} threshold to ensure only measuring in strong degassing periods. In this thesis an \ce{SO2} threshold (plume limit) of $7\cdot 10^{17} \frac{molec}{cm^2}$ is used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. 
+
+Within the data above a SO2 plume limit of $7\cdot 10^{17} \frac{molec}{cm^2}$ the maximum detection limit of the BrO/SO2 ratio is estimated as $(BrO/SO2)_{DT}	=	\frac{\ce{BrO}_{DT}}{SO2_{thres}}=\frac{4	}{\sqrt{n}}\cdot10^{-5}	 \leq 	1\cdot10^{-5}$.
+$7\cdot 10^{17} \frac{molec}{cm^2}$ is a high threshold for the column density. However, this approach assures that only strongly significant gas amounts are accounted \citep{lubcke2014bro}. Choosing the \ce{SO2} threshold in this way is a compromise getween a low BrO/SO2 detection limit and a sufficient amount of data.\\
+
+Increasing a plume limit leads to a decrease of usable data. The amount of usable  daily means as a function of the plume limit is shown in \Cref{fig:percentageminso2}. A plume limit of 7$\cdot10^{17}$ leads to a ratio of usable data of approximately 10\%.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Bilder/percentage_minSO2}
-	\caption{The decrease of the amount of data above the plume limit as a function of the plume limit. The plume limits below the actual plume limit of 7$\cdot10^{17}$ are marked with a yellow shade.\textcolor{red}{noch dazu:In Prozent sieht das in der Tat schrecklich aus, relevant für eine Zeitreihenanalyse ist aber eher die (absolute) Anzahl der Tage mit (Multi-Scan-)Daten. Vielleicht als zweites Bild daneben?! }}
+	\subfigure{	\includegraphics[width=0.49\linewidth]{Bilder/tungpercentage_minSO2}}
+	\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/percentage_minSO2}}
+	\caption{The decrease of the amount of daily means amount above the plume limit as a function of the SO2 column density. The SO2 SCDs below the actual plume limit of 7$\cdot10^{17}$ are marked with a yellow shade. Left: Data of three instruments at Tungurahua. Right: data of two instruments at Nevado del Ruiz.}
 	\label{fig:percentageminso2}
 \end{figure}
 
@@ -159,7 +171,9 @@ As discussed above it might occur, that the reference is contaminated for exampl
 %\textcolor{green}{das verstehe ich jetzt nicht - ich meine wenn wir jetzt das solar atlas spectrum nehmen ueberschaetzen wir ja , weil wir fahne von gestern und heute als eine einzige Fahne zusammen addieren...
 %	unterschaetzung haben wir wenn der bei zum beispiel kleiner windgeschwindigkeit -> breite fahne das instrument in keiner richtung fahnen freien himmel sieht - oder bei hoher windgeschwindigkeit und instrument nah am berg die fahne so runtergedreuckt wird das das instrument in der fahne steht..: Florian : @ Nicole zur Überschätzung: wenn wir annehmen, dass die alte, bodennahe Fahne überall die gleiche Dicke hat und die neue Fahne eher im Zenit steht, dann ist der Anteil der alten Fahne zum neuen Gesamtsignal kleiner als der alten Fahne zum neuen Referenzsignal. D.h. Überschätzung ja, aber weniger als simple Addition.} 
 If that happens, we underestimate the gas amount by using a contaminated reference. But another possibility is, that the plume itself is also contaminated. This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates at the instrument. If this is the case, using an other reference would lead to an overestimation of the column density of gases. With the data retrieved by the NOVAC instruments it is very difficult to discover whether the plume is contaminated or not. \\
-\Cref{fig:contaminationdependencyso2} shows the strength of contamination as function of the mean \ce{SO2} amount of the day before. The strength of contamination is  measured as the difference between the evaluation for \ce{SO2} with a contaminated reference recorded at the same time as the plume spectrum was recorded and using a gas free reference. The data where fitted with a linear function. The left plot shows data from the Tungurahua volcano. In the right plot the data of Nevado Del Ruiz are visualized. Even though both plots show a slight increase of contamination strength with the mean amount of \ce{SO2} of the day before, the increase is not significant.\\
+
+\Cref{fig:contaminationdependencyso2} shows the strength of contamination as function of the mean \ce{SO2} amount of the day before. The strength of contamination is  measured as the difference between the evaluation for \ce{SO2} with a contaminated reference recorded at the same time as the plume spectrum was recorded and using a gas free reference. Even though both plots show a slight increase of contamination strength with the mean amount of \ce{SO2} of the day before, the increase is not significant.
+The results dies not change, if 
 \textcolor{red}{hier waere es gut noch andere parameter zu testen - wie in Luebcke et al, zum beispile als funktion von Wind geschwindigkeit,..   Für NdR kann ich die Meteorologischen Daten ab 2014 beisteuern.}
 \\
 However this thesis is build on the assumption, that the plume is free of additional contamination \textcolor{yellow}{Nicole hat hier noch fragen, was ?}. In the following we discuss how to automatically determine an optimal reference from another scan.
@@ -168,6 +182,6 @@ However this thesis is build on the assumption, that the plume is free of additi
 	\includegraphics[width=0.5\linewidth]{Bilder/contaminationdependency_so2}}
 \subfigure{
 	\includegraphics[width=0.5\linewidth]{Bilder/contaminationdependency_so2_Nevad}}
-	\caption{The strength of contamination as function of the mean \ce{SO2} amount of the day before. The strength of contamination is defined as the difference in \ce{SO2} SCD  when evaluation with an alternative reference, or neglect the contamination. Left: data from Tungurahua. Right: data from Nevado Del Ruiz. \textcolor{red}{Wie wurde mean \ce{SO2} bestimmt? Wie sieht es bei max \ce{SO2} aus? (Und eigentlich müsse man ja eher die \ce{SO2} Emissionen anschauen. Die wir aber nicht (so einfach) kennen.)}}
+	\caption{The strength of contamination as function of the mean \ce{SO2} column density (daily mean) of the day before. The strength of contamination is defined as the difference in \ce{SO2} SCD  when evaluation with an alternative reference, or neglect the contamination. Left: data from Tungurahua. Right: data from Nevado Del Ruiz. \textcolor{red}{Wie wurde mean \ce{SO2} bestimmt? Wie sieht es bei max \ce{SO2} aus? (Und eigentlich müsse man ja eher die \ce{SO2} Emissionen anschauen. Die wir aber nicht (so einfach) kennen.)}}
 	\label{fig:contaminationdependencyso2}
 \end{figure}

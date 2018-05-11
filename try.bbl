@@ -1,0 +1,19 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Glo()]{GlobalVolcanismProgram}
+{Smithsonian Institution} global volcanism program.
+\newblock \url{https://volcano.si.edu/}.
+\newblock Accessed: 2018-03-20.
+
+\bibitem[Bobrowski et~al.(2003)Bobrowski, H{\"o}nninger, Galle, and
+  Platt]{bobrowski2003detection}
+N~Bobrowski, G~H{\"o}nninger, B~Galle, and U~Platt.
+\newblock Detection of bromine monoxide in a volcanic plume.
+\newblock \emph{Nature}, 423\penalty0 (6937):\penalty0 273, 2003.
+
+\end{thebibliography}

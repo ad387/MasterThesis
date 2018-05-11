@@ -73,10 +73,9 @@ The Mean, the corresponding standard deviation as well as the minimum and the ma
 			$cov$  is the covariance\\
 			$\sigma_X$ is the standard deviation of X\\
 			$\sigma_{Y}$ is the standard deviation of Y\\
-			\textcolor{red}{Here the correlation is calculated using the python library Numpy \textcolor{red}{referenzieren, mit versionsnummer etc.}.}}}
+			Here the correlation is computed using the python\footnote{version 2.7.1} library Numpy (version 1.5.6)}}
 	
 \end{center}
-
 %	
 \subsection{Temporal difference}
 %
@@ -106,21 +105,18 @@ For an increasing temporal different between reference and plume measurement tim
 \ce{BrO} errors of such magnitudes are too large for our purposes. Therefore, it is useful to set a maximal temporal difference, to prevent too large \ce{BrO} error and to reduce the calculation time.
 %
 In \Cref{fig:dat} (a) it can be seen that the evolution of the \ce{BrO}  error with the temporal difference is symmetric around zero. Thus it is not necessary to distinguish between positive or negative temporal differences.
-%
-\Cref{fig:dat} (b) shows the evolution of the \ce{BrO} error for a maximal absolute temporal difference of 120 hours. It is only possible to record data during daytime. This causes the lack of data in the night time. A periodic decrease of the \ce{BrO} error can be seen. This is a result of a decrease of the \ce{BrO} error when the ambient conditions coincidence. In this case the daytime coincidence causes the \ce{BrO}  error decrease. This effect is analyzed in detail in \Cref{chap:daytime}.\textcolor{red}{den Tagesgang kann man besser erklären und dann direkt schon mal die Untersuchung der Abhängigkeit von der Tageszeit motivieren.}\\
-
-The maximal temporal difference should be large enough to ensure a sufficient amount of references to be able to pick a reference with similar conditions. However, the maximal temporal difference should be small enough to prevent too large \ce{BrO} errors due to long term shifts.\\
+%The maximal temporal difference should be large enough to ensure a sufficient amount of references to be able to pick a reference with similar conditions. However, the maximal temporal difference should be small enough to prevent too large \ce{BrO} errors due to long term shifts.\\
 \\
 To evaluate the maximal time difference, for which we still get reliable results for every plume, where the "same time reference" is contaminated, the alternative reference is chosen, which leads to the minimal \ce{BrO} error.\\
 % histogram
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Bilder/Hist}
-	\caption{\textcolor{red}{Überschrift: besser irgendwo nahe der Gauskurve, aber nicht in die Überschrift,  bzw. Überschrift unnötig} Histogram showing the frequency of getting the best reference as function of the temporal difference between plume and reference measuring. A Gaussian-like distribution is retrieved. The red dotted line visualizes a Gaussian fit for the shown histogram. The mean $\mu$ of the gaussian curve is: $\mu = 0.9$, the variance $\sigma$ is: $\sigma = 11.8$. That width of the green bars is $s $.}
+	\includegraphics[width=0.6\linewidth]{Bilder/Hist}
+	\caption{Histogram showing the frequency of getting the best reference as function of the temporal difference between plume and reference measuring. A Gaussian-like distribution is retrieved. The red dotted line visualizes a Gaussian fit for the shown histogram. The mean $\mu$ of the gaussian curve is: $\mu = 0.9$, the variance $\sigma$ is: $\sigma = 13.9$. The width of the green bars is three days.}
 	\label{fig:Hist}
 \end{figure}
 %
-In \Cref{fig:Hist} a histogram with the probability of picking the best reference as a function of the time difference is plotted. \textcolor{red}{im mittel, die besseren ergebnisse liegen doch bei -1 (Balken) und +1,+2?! und der mittelwert ist bei +0.9!}Obviously, the best results are achieved, if the day of measuring the plume is the same day as measuring the reference. \textcolor{red}{in die Bildunterschrift, oder brauchst du das hier?} A Gaussian fit is used to fit the data of the histogram We allow all time differences within two sigma area. Thus, the maximal time difference is 14 days\\
+In \Cref{fig:Hist} a histogram with the probability of picking the best reference as a function of the time difference is plotted. The mean of the Gaussian fitted on the data is slightly above zero. However the variance is calculated as approximately 14 days, thus a mean of 0.9 is statistical irrelevant. For the retrieval we allow all time differences within one sigma area. Thus, the maximal time difference is about two weeks.\\
 
 % remaining possible reference spectra
 \begin{table}[h]
@@ -156,15 +152,19 @@ In \Cref{fig:Hist} a histogram with the probability of picking the best referenc
 	\caption{Amount of possible references when restricting the time span between plume and reference to two weeks. Here in the ”Mean” and “Std” row for each  instrument the average restriction is shown with the corresponding standard deviation. The “Min” and “Max” rows show the extend of restriction in the extreme cases (minimum and maximum amount of available references / restriction ratio).}
 	\label{Tab:refstime}
 \end{table}	
-By restricting the temporal difference to 14 days, the amount of possible gas free references decreases to an average of 195 alternative references per contaminated plume (see \cref{Tab:refstime}). Hereby every plume has potential alternative reference spectra. The minimum amount of references is 8.\textcolor{red}{Florian: verstehe ich nicht}\\
+By restricting the temporal difference to 14 days, the amount of possible gas free references decreases to an average of 195 alternative references per contaminated plume (see \cref{Tab:refstime}). Hereby in the data considered in this thesis every plume has potential alternative reference spectra and the minimum amount of references is 8. However in general a plume without alternative references could occur.\\
 If a continuous evaluation is required, this means the spectra are evaluated directly after the recording, the number of suitable gas free references halves since only references recorded before the plume are available.\\
-For the following analysis of the remaining external parameters all temporal differences are below 14 days.
+For the following analysis of the remaining external parameters all temporal differences are below 14 days.\\
+\\
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{Bilder/DatallInstruments}
 	\caption{The \ce{BrO} measurement error as a function of the temporal difference in days between the reference and the plume is shown for each of the individual instruments at Tungurahua and Nevado del Ruiz. The instruments at Nevado del Ruiz are coloured in blue, while the instruments at Tungurahua are coloured in red colour tones.  To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. An increase of the \ce{BrO} error with the absolute difference in temperature is observable. This is quantified by a correlation between the \ce{BrO} retrieval error and the absolute temporal difference. The plots reveal a symmetry around the axis with zero temperature difference.}
 	\label{fig:datallinstruments}
 \end{figure}
+%
+\Cref{fig:dat} (b) shows the evolution of the \ce{BrO} error for a maximal absolute temporal difference of 120 hours. It is only possible to record data during daytime. This causes the lack of data in the night time. A periodic decrease of the \ce{BrO} error can be seen. This is a result of a decrease of the \ce{BrO} error when the ambient conditions coincidence. In this case the daytime coincidence causes the \ce{BrO}  error decrease. This effect is analysed in detail in the following.
+
 
 \subsection{ Daytime \label{chap:daytime}}
 \begin{figure}
@@ -213,33 +213,33 @@ The $\Delta DT_{2}$, the daytime difference for which the BrO retrieval error do
 % tab_ratio CAPTION
 \begin{table}
 	\centering
-	\begin{tabular}{|p{1.8cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}|}
+	\begin{tabular}{p{1.8cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}}
 		%	\toprule
 		Instrument	&D2J2140&I2J8546& I2J8548&D2J2200&D2J2201\\
 		\toprule
 		Mean&
-		72.0/85.1\% &		147.4/90.0\%&
-		198.4/91.4\%&		275.0/96.8\%&
-		205.8/91.2\%\\
+		72.0 ($\entspricht\,$85.1\%) &		147.4 ($\entspricht\,$90.0\%)&
+		198.4 ($\entspricht\,$91.4\%)&		275.0 ($\entspricht\,$96.8\%)&
+		205.8 ($\entspricht\,$91.2\%)\\
 		\midrule
-		Std&		31.87/89.0\%&32.0/107.0\%&
-		71.0/109.5\%&		70.8/101.8\%&
-		50.1/121.6\% \\
+		Std&		31.87 ($\entspricht\,$89.0\%)&32.0 ($\entspricht\,$107.0\%)&
+		71.0 ($\entspricht\,$109.5\%)&		70.8 ($\entspricht\,$101.8\%)&
+		50.1 ($\entspricht\,$121.6\%) \\
 		\midrule
 		Min&
-		6/75.0\%&		58/51.3\%
-		&91/93.8\%		&54/84.4\%
-		&45/71.4\%\\
+		6 $\qquad$($\entspricht\,$75.0\%)&		58 ($\entspricht\,$51.3\%)
+		&91 ($\entspricht\,$93.8\%)		&54 ($\entspricht\,$84.4\%)
+		&45 ($\entspricht\,$71.4\%)\\
 		\midrule
 		Max&
-		160/94.7\% &
-		214/100\% &
-		399/100\% &
-		433/100\% &
-		297/100\% \\
+		160 ($\entspricht\,$94.7\%) &
+		214 ($\entspricht\,$100\%) &
+		399 ($\entspricht\,$100\%) &
+		433 ($\entspricht\,$100\%) &
+		297 ($\entspricht\,$100\%) \\
 		\bottomrule
 	\end{tabular}
-	\caption{\textcolor{red}{Du hast sehr viele von diesen Tabellen und sie sind ein bisschen schwierig zu verstehen, vor allem ist es nicht sofort klar, worauf sich die ganzen Prozente beziehen. siehe Kommentar in der Grafikunterschrift.}This table shows the absolute amount and the percentage corresponding to initial number of references without any restrictions of ambient conditions (table 6.1) of remaining references if restricting the daytime difference to the mean $\Delta DT_{2}$ over all instruments except I2J8546 due to the large uncertainty ($Mean(\Delta DT_{2}) = 4.75h$). Here in the ”Mean” and “Std” row for each  instrument the average restriction is shown with the corresponding standard deviation. The “Min” and “Max” rows show the extend of restriction in the extreme cases (minimum and maximum amount of available references / restriction ratio).\textcolor{red}{besser die Prozentzahl in Klammern schreiben und ein entspricht zeichen (Gleichheitszeichen mit Dach drauf) also: 72.0 ($\approx$85\%)}}
+	\caption{This table shows the absolute amount and the percentage corresponding to initial number of references without any restrictions of ambient conditions (table 6.1) of remaining references if restricting the daytime difference to the mean $\Delta DT_{2}$ over all instruments except I2J8546 due to the large uncertainty ($Mean(\Delta DT_{2}) = 4.75h$). Here in the ”Mean” and “Std” row for each  instrument the average restriction is shown with the corresponding standard deviation. The “Min” and “Max” rows show the extend of restriction in the extreme cases (minimum and maximum amount of available references / restriction ratio).}
 	\label{tab:daytimerest}
 \end{table}	
 % tab_ratio
@@ -314,33 +314,33 @@ The computed fitting parameters slope and intercept for each instrument are show
 		Instrument	&D2J2140&I2J8546& I2J8548&D2J2200&D2J2201\\
 		\toprule
 		Mean&
-		39.6/46.8\%&
-		119.3/72.9\%
-		&158.2/72.9\%
-		&233.6/82.3\%
-		&151.6/67.2\%\\
+		39.6 ($\entspricht\,$46.8\%)&
+		119.3 ($\entspricht\,$72.9\%)
+		&158.2 ($\entspricht\,$72.9\%)
+		&233.6 ($\entspricht\,$82.3\%)
+		&151.6 ($\entspricht\,$67.2\%)\\
 		\midrule
 		Std&
-		24.7/68.9\%&
-		50.4/168.6\%&
-		76.0/117.2\%&
-		84.5/121.6\%&
-		72.6/176.2\%\\
+		24.7 ($\entspricht\,$68.9\%)&
+		50.4 ($\entspricht\,$168.6\%)&
+		76.0 ($\entspricht\,$117.2\%)&
+		84.5 ($\entspricht\,$121.6\%)&
+		72.6 ($\entspricht\,$176.2\%)\\
 		\midrule
 		Min&
-		1/12.5\%
-		&8/7.1\%&
-		12/12.4\%&
-		3/4.7\% &
-		6/9.5\%\\
+		1 ($\entspricht\,$12.5\%)
+		&8 ($\entspricht\,$7.1\%)&
+		12 ($\entspricht\,$12.4\%)&
+		3 ($\entspricht\,$4.7\%) &
+		6 ($\entspricht\,$9.5\%)\\
 		\midrule
 		Max
 		&
-		130	/76.9\%&
-		213	/99.5\%&
-		386/96.7\%&
-		414	/95.6\% &
-		296	/99.7\%\\
+		130	 ($\entspricht\,$76.9\%)&
+		213	 ($\entspricht\,$99.5\%)&
+		386 ($\entspricht\,$96.7\%)&
+		414	 ($\entspricht\,$95.6\%) &
+		296	 ($\entspricht\,$99.7\%)\\
 		\bottomrule
 	\end{tabular}
 	\caption{This table shows the absolute amount and the ratio (to \Cref{Tab:refstime}) of remaining references if restricting the temperature difference to the mean $\Delta T_{2}$ over all instruments ($Mean(\Delta T_{2}) = 3.3^{\circ}C$). Here in the ”Mean” and “Std” row for each  instrument the average restriction is shown with the corresponding standard deviation. The “Min” and “Max” rows show the extend of restriction in the extreme cases (minimum and maximum amount of available references / restriction ratio).}
@@ -407,28 +407,28 @@ The correlation is as well calculated and ranges from 0.2 for the instrument I2J
 		Instrument	&D2J2140&I2J8546& I2J8548&D2J2200&D2J2201\\
 		\toprule
 		Mean&
-		84.6/100\% &	163.7/100\%&	215.6/99.3\%&
-		275.4/97.0\% &219.4/97.3\% \\
+		84.6 ($\entspricht\,$100\%) &	163.7 ($\entspricht\,$100\%)&	215.6 ($\entspricht\,$99.3\%)&
+		275.4 ($\entspricht\,$97.0\%) &219.4 ($\entspricht\,$97.3\%) \\
 		\midrule
 		Std&
-		35.8/100\% &	29.9/100\% &
-		65.4/101\%&
-		67.8/97.6\% &
-		49.86/121\% \\
+		35.8 ($\entspricht\,$100\%) &	29.9 ($\entspricht\,$100\%) &
+		65.4 ($\entspricht\,$101\%)&
+		67.8 ($\entspricht\,$97.6\%) &
+		49.86 ($\entspricht\,$121\%) \\
 		\midrule
 		Min&
-		8/100\% &
-		113/100\% 
-		&97/100\% 
-		&61/95.3\% 
-		&28	/44.4\% \\
+		8 ($\entspricht\,$100\%) &
+		113 ($\entspricht\,$100\%) 
+		&97 ($\entspricht\,$100\%) 
+		&61 ($\entspricht\,$95.3\%) 
+		&28	 ($\entspricht\,$44.4\%) \\
 		\midrule
 		Max
-		&169/100\% 
-		&214/100\% 
-		&399/100\% 
-		&421/97.2\% 
-		&297/100\%  \\
+		&169 ($\entspricht\,$100\%) 
+		&214 ($\entspricht\,$100\%) 
+		&399 ($\entspricht\,$100\%) 
+		&421 ($\entspricht\,$97.2\%) 
+		&297 ($\entspricht\,$100\%)  \\
 		\bottomrule
 	\end{tabular}
 	\caption{This table shows the absolute amount and the ratio  (to \Cref{Tab:refstime}) of remaining references if restricting the colorindex difference to the mean $\Delta CI_{2}$ over all instruments ($Mean(\Delta CI_{2}) = 0.2553.$). Here in the ”Mean” and “Std” row for each  instrument the average restriction is shown with the corresponding standard deviation. The “Min” and “Max” rows show the extend of restriction in the extreme cases (minimum and maximum amount of available references / restriction ratio).}
@@ -556,25 +556,25 @@ Nevado del Ruiz shows a stronger correlation between the \ce{BrO}  error and the
 		Instrument	&D2J2140&I2J8546& I2J8548&D2J2200&D2J2201\\
 		\toprule
 		Mean&
-		81.7/96.5\%		&162.8/99.4\%		&212.8/98.0\%		&284.0/100\%		&225.6/100\% \\
+		81.7 ($\entspricht\,$96.5\%)		&162.8 ($\entspricht\,$99.4\%)		&212.8 ($\entspricht\,$98.0\%)		&284.0 ($\entspricht\,$100\%)		&225.6 ($\entspricht\,$100\%) \\
 		\midrule
 		Std&
-		35.3/98.6\%&		30.1/101\%&
-		64.5/99.5\% &		69.5/100\% &
-		41.2/100\% \\
+		35.3 ($\entspricht\,$98.6\%)&		30.1 ($\entspricht\,$101\%)&
+		64.5 ($\entspricht\,$99.5\%) &		69.5 ($\entspricht\,$100\%) &
+		41.2 ($\entspricht\,$100\%) \\
 		\midrule
 		Min  &
-		8/100\%&113/100\%
-		&95/97.9\%
-		&64/100\%
-		&63/100\%\\
+		8 $\qquad$($\entspricht\,$100\%)&113 ($\entspricht\,$100\%)
+		&95 ($\entspricht\,$97.9\%)
+		&64 ($\entspricht\,$100\%)
+		&63 ($\entspricht\,$100\%)\\
 		\midrule
 		Max&
-		167/98.8\% &
-		214/100\% &
-		395/99.0\% &
-		433/100\%  &
-		297/100\% \\
+		167 ($\entspricht\,$98.8\%) &
+		214 ($\entspricht\,$100\%) &
+		395 ($\entspricht\,$99.0\%) &
+		433 ($\entspricht\,$100\%)  &
+		297 ($\entspricht\,$100\%) \\
 		\bottomrule
 	\end{tabular}
 	\caption{Amount of possible references when restricting the difference in exposure time  between plume and reference to differences below 632.25 ms.}
@@ -593,29 +593,29 @@ Restrictions of the exposure time to the mean of the $\Delta ET_{2}$s of all ins
 		Instrument	&D2J2140&I2J8546& I2J8548&D2J2200&D2J2201\\
 		\toprule
 		Mean&
-		36.0/42.6\%&	112.9/69.0\%&
-		148.9/68.6\%&	217.0/76.4\%&	140.4/62.2\%\\
+		36.0 ($\entspricht\,$42.6\%)&	112.9 ($\entspricht\,$69.0\%)&
+		148.9 ($\entspricht\,$68.6\%)&	217.0 ($\entspricht\,$76.4\%)&	140.4 ($\entspricht\,$62.2\%)\\
 		\midrule
 		Std&
-		22.35/62.4\%&
-		50.6/169.2\% &
-		75.9/117.1\%&
-		82.1/118.1\% &
-		71.0/172.3\% \\
+		22.35 ($\entspricht\,$62.4\%)&
+		50.6 ($\entspricht\,$169.2\%) &
+		75.9 ($\entspricht\,$117.1\%)&
+		82.1 ($\entspricht\,$118.1\%) &
+		71.0 ($\entspricht\,$172.3\%) \\
 		\midrule
 		Min&
-		1/12.5\%  &
-		8/7.1\%  &
-		12/12.4\%  &
-		3/4.7\%   &
-		6/9.5\%  \\
+		1$\qquad$ ($\entspricht\,$12.5\%)  &
+		8$\qquad$ ($\entspricht\,$7.1\%)  &
+		12 ($\entspricht\,$12.4\%)  &
+		3$\qquad$ ($\entspricht\,$4.7\%)   &
+		6$\qquad$ ($\entspricht\,$9.5\%)  \\
 		\midrule
 		Max
-		&127/75.1\%
-		&212/99.1\%
-		&382/95.7\%
-		&398/91.9\%
-		&283/95.3\%\\
+		&127 ($\entspricht\,$75.1\%)
+		&212 ($\entspricht\,$99.1\%)
+		&382 ($\entspricht\,$95.7\%)
+		&398 ($\entspricht\,$91.9\%)
+		&283 ($\entspricht\,$95.3\%)\\
 		\bottomrule
 	\end{tabular}
 	\label{tab:restrictall}

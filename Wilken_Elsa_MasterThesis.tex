@@ -48,6 +48,7 @@
     citecolor=darkgreen,
     urlcolor=darkblue
 }
+\newcommand{\entspricht}{\mathrel{\widehat{=}}}
 %\renewcommand{\partname}{}
 %\renewcommand{\thepart}{}
 
@@ -129,7 +130,7 @@ In the following the chemical reactions of the plume constituents \ce{BrO}  and 
 \subsection{Sulphur species\label{chap:so2}}
 Sulphur species are the third most abundant gases in volcanic plumes. Hereby \ce{SO2} contributes with about 25\% and \ce{H2S} with 1 to 10\%. Only \ce{H2O} and \ce{CO2} have a larger share on the volcanic gases in the plume \Cref{tab.volcemissions}.\\
 Outside of the volcanic plume the \ce{SO2}  amount is negligible with approximately 1ppb. In contrast the \ce{SO2}  amount inside he plume can easily reach 1ppm \cite{Coppenheimer 2003}
-When \ce{H2S} escapes from the volcano vent, it enters the oxidizing conditions in the atmosphere. The conversion of \ce{H2S} into \ce{SO2} starts with:
+When \ce{H2S} escapes from the volcano vent, it enters the oxidizing conditions in the atmosphere. The conver2sion of \ce{H2S} into \ce{SO2} starts with:
 \begin{equation*}
 \ce{H2O}+\ce{OH}\rightarrow \ce{H2O}+\ce{SH}
 \end{equation*}
@@ -952,7 +953,7 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 
 Beside linear regression also the nearest neighbor approach can be utilized to estimate the BrO error for the evaluation with a potential reference spectrum.
 %
-The nearest neighbor search \textcolor{red}{referenzieren} describes an optimization problem for a given point $m \in \mathbb{R}^n$ and a set $S \subset \mathbb{R}^n$:
+The nearest neighbor search\footnote{python library sklearn, version 0.18.1} describes an optimization problem for a given point $m \in \mathbb{R}^n$ and a set $S \subset \mathbb{R}^n$:
 
 %
 
@@ -987,7 +988,7 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 %
 
 \subsection*{Advantages of the nearest neighbour approach}
-	The main advantage of the nearest neighbour method is that there is no need for a pre-assumption of a fitting method. The fitting method assumes that the BrO error depends linearly  on the external parameter. As it can be seen in \Cref{fig:difftemp}-\Cref{fig:diffexptime} this does not need to be the case. Thus, the nearest neighbour method is able to approximate the BrO error as a function of the external data in a more variable way\textcolor{red}{more general}.
+	The main advantage of the nearest neighbour method is that there is no need for a pre-assumption of a fitting function. The fitting method assumes that the BrO error depends linearly  on the external parameter. As it can be seen in \Cref{fig:difftemp}-\Cref{fig:diffexptime} this does not need to be the case. Thus, the nearest neighbour method is able to approximate the BrO error without considering an specified function.
 %
 \subsection*{Disadvantages of the nearest neighbour approach}
 	Compared to fitting the data, the nearest neighbour is much slower. The reason for this is, the vast amount of compassion operations that is necessary for each computation. Thus, the calculation time increases with the amount of training data.\\
@@ -1012,7 +1013,7 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 	
 	
 	\section*{\textcolor{red}{summary}}
-	
+	\textcolor{red}{hier noch mal analysieren warum jetzt fitting}
 	
 	
 	
@@ -1427,7 +1428,7 @@ This section presents the final time series of SO2, BrO and \ce{BrO}/\ce{SO2}  f
     \chapter{Lists}
     \listoffigures
     \listoftables
-    \bibliography{references}{}
+	\bibliography{references}{}
     \citestyle{egu}
     \bibliographystyle{plainnat}
     \include{deposition}
