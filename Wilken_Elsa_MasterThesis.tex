@@ -614,7 +614,7 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 }
 \subfigure{
 	\includegraphics[width=0.45\linewidth]{Bilder/BrOVariables/DiffTempBrOallInstruments}}
-\caption{\textcolor{red}{für welche Daten?}The BrO measurement value as a function of the difference of the external parameters between measuring the reference and the plume are shown.}
+\caption{The BrO measurement value as a function of the difference of the external parameters between measuring the reference and the plume are shown.}
 	\label{fig:difftempbroallinstruments}
 \end{figure}
 \FloatBarrier
@@ -664,12 +664,11 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 	In this thesis a novel approach of identifying an ideal reference spectrum, by considering externel parameters, is introduced. This way a much faster estimation with constant complexity $\mathcal{O}(1)$ is reached.
 	But the above described optimal evaluation is used to rate new approach and compare them among each other. The optimal evaluation always choose the reference with the smallest absolute error. We don't use the relative error due to its vulnerability. Using the relative error leads to less precision since the references with the highest BrO column density is preferred.\\
 	%
-	The results of the algorithm which chooses the reference automatically are described relative to an optimal evaluation. If the relative error is larger than one \textcolor{red}{warum 1??} the data are excluded from the evaluation.\\
+	The results of the algorithm which chooses the reference automatically are described relative to an optimal evaluation. To avoid an 	    distortion of the results due to relatively bad match between reference and plume spectra all data with a relative BrO error larger          than one are excluded from the evaluation.\\
 	\\
 	In the following we examine several methods for choosing the best reference based on the analysis of external parameters. 
 	
-	\section{Fit data}
-	\textcolor{red}{titel zu unspezifisch} \\
+	\section{Fit with a first order polynomial}
 	The following chapter analyses fitting the data with a first order polynomial. \Cref{fig:difftemp} to \Cref{fig:diffexptime} show the \ce{BrO}  error as a function of external parameters. Hereby, the curves are symmetric around zero difference in the respective external parameter. Therefore, it is not necessary to distinguish between positive or negative deviations from the equal surrounding conditions. Thus, the absolute differences can be utilized.\\
 	\\
 	%
@@ -1013,6 +1012,12 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 	
 	
 	\section*{\textcolor{red}{summary}}
+	In this section three methods of finding the most suitable reference for a plume are presented.
+	Two of the presented method use the differences in external parameter between the plume and the reference to extrapolate to an possible error. At the end the reference with the lowest probable error is taken for the evaluation. One of these, is fitting method: A five dimensional first order polynomial is fitted on the difference of external parameter as a function of the BrO error. The other one the nearest neighbor method uses plume reference pairs with similiar differences in external parameters to guess a possible error. The third option uses a iterative approach to find the most suitable reference. The performance of the methods differ not very much. However in calculation time and in the amount of pre-assumptions which need to be made for the the methods are different. The fitting method has the best performance. The nearest neighbor method need the fewest pre-assumptions, while the calculation time and the performance is much worse than for the fitting method and the iterative approach. The iterative approach has the lowest calculation time, but the amount of pre assumptions is the largest. Thus the advantages of the fitting method predominate, therefore we use the fitting method for the evaluation.
+	\begin{itemize}
+	\item results almost same
+	\item 
+	\end{itemize}
 	\textcolor{red}{hier noch mal analysieren warum jetzt fitting}
 	
 	
@@ -1020,21 +1025,6 @@ y_m = \frac{1}{k} \sum y_S \label{eq:knn_regression}
 
 	
 	\chapter{Results}
-	\textcolor{red}{1) Verbesserung der Lesbarkeit: "Strategisches" von "Technischem"
-		teilen. Alles was für beiden Vulkane/allgemein erklärt werden kann vorne
-		oder hinten gesammelt besprechen. Die ganzen Prozentzahlen etc. in einer
-		Tabelle sammeln und ansonsten nur mit minimaler Wortzahl im Text
-		besprechen. Alle technischen Details der Bildbesprechung in die
-		Bildunterschriften. Dann kann man je nach Ziel entweder strategische
-		oder technische Abschnitte überspringen. Gerade ist es eher gemixt und
-		zwingt einen alles zu lesen.}\\
-		%
-		\textcolor{red}{Bisher besprichst du v.a. die quantitativen Ergebnisse, d.h. wie
-		ändern sich die Zeitreihen und Mittelwerte. Die qualitativen Ergebnisse
-		sollte am Ende nochmal klar benannt und interpretiert werden. Z.B.
-		siehst du eine klare BrO Kontaminierung. Angenommen dass die
-		kontaminierende Fahne vom Vortag stammt, bedeutet das, dass die BrO
-		Lebensdauer auch mindestens einen (halben) Tag lang sein müsste.}
 	This chapter shows and discusses the difference of the \ce{SO2}, \ce{BrO} and \ce{BrO}/\ce{SO2}  ratio data when evaluating with the NOVAC-Method, or with the contamination based method.
 	The aim is to discover the systematic differences between the different retrievals and to discuss the reliability of the data.\\
 	\\
