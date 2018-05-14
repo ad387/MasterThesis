@@ -13,15 +13,15 @@
 \contentsline {subsection}{\numberline {2.4.1}Sulphur species}{12}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Bromine oxide}{13}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}Using the \ce {BrO}/\ce {SO2} ratio to study volcanic activity}{15}{section.2.5}
-\contentsline {chapter}{\numberline {3}Remote sensing of volcanic gases}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Differential Optical Absorption Spectroscopy (DOAS)}{23}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Technical implementation of the DOAS approach}{24}{subsection.3.1.1}
-\contentsline {part}{\numberline {II}Evaluation of the data of Tungurahua and Nevado Del Ruiz}{27}{part.2}
-\contentsline {chapter}{\numberline {4}Network for Observation of Volcanic and Atmospheric Change }{28}{chapter.4}
-\contentsline {section}{\numberline {4.1}Measurement routine}{29}{section.4.1}
-\contentsline {chapter}{\numberline {5}Evaluation routine}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}Conventional evaluation routine}{31}{section.5.1}
-\contentsline {section}{\numberline {5.2}Contamination problem}{35}{section.5.2}
+\contentsline {chapter}{\numberline {3}Remote sensing of volcanic gases}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Differential Optical Absorption Spectroscopy (DOAS)}{22}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Technical implementation of the DOAS approach}{23}{subsection.3.1.1}
+\contentsline {part}{\numberline {II}Evaluation of the data of Tungurahua and Nevado Del Ruiz}{26}{part.2}
+\contentsline {chapter}{\numberline {4}Network for Observation of Volcanic and Atmospheric Change }{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Measurement routine}{28}{section.4.1}
+\contentsline {chapter}{\numberline {5}Evaluation routine}{30}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conventional evaluation routine}{30}{section.5.1}
+\contentsline {section}{\numberline {5.2}Contamination problem}{34}{section.5.2}
 \contentsline {chapter}{\numberline {6}\ce {BrO} evaluation and its limitations}{40}{chapter.6}
 \contentsline {section}{\numberline {6.1}Influence of ambient conditions on the measurement }{41}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Strategy}{42}{subsection.6.1.1}
@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {6.1.7}Exposure time}{59}{subsection.6.1.7}
 \contentsline {section}{\numberline {6.2}\ce {BrO} dependence on external parameters}{66}{section.6.2}
 \contentsline {chapter}{\numberline {7}Contamination based method }{75}{chapter.7}
-\contentsline {section}{\numberline {7.1}Fit data}{77}{section.7.1}
+\contentsline {section}{\numberline {7.1}Fit with a first order polynomial}{77}{section.7.1}
 \contentsline {section}{\numberline {7.2}Other approaches}{80}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Nearest neighbor approach}{80}{subsection.7.2.1}
 \contentsline {subsection}{\numberline {7.2.2}Iterative approach}{83}{subsection.7.2.2}
