@@ -37,19 +37,14 @@ The \ce{SO2} evaluation is performed for a wavelength range between 314.8~nm and
 The \ce{BrO}  evaluation is performed for a wavelength range between 330.6~nm and 352.7~nm (found by \citet{vogel2011volcanic}). The sum in \Cref{eq:F} includes for the BrO evaluation the following absorption cross sections:
 \ce{BrO}  at 298K \citep{fleischmann2004new}, the \ce{SO2} and  \ce{O3} absorption cross sections described above, \ce{O4} \citep{hermans2003absorption},  \ce{NO2} at 298K \citep{vandaele1998measurements} and  \ce{CH2O} at 298K \citep{meller2000temperature}.\\
 %
-The choice of the wavelength range as well as the considered trace gases used in the fits is based on studies on the optimal evaluation wavelength range in a combination of real measurement data and theoretical studies 
-Prior to the DOAS fitting. the spectra need to be calibrated, this done by using a wavelength to pixel mapping function (WMP) developed by \citet{lehman 2014}. The WMP uses a solar atlas spectrum that is concolced with the Hg line of the single instruments, hereby am initial calibration based on the Hg lines is given as a first parameter. The calibration is done by fitting the Fraunhofer lines of the recorded spectrum on the convolved Solar Atlas spectrum. The Rayleigh scattering is considered by adding a Ring spectrum as well as a wavelength dependent Ring spectrum (proportional to $\lambda^4$) \citep{wagner2009}. Mie scattering and broadband absorption structures were accounted due to adding a third order polynomial to the retrieval well as an offset polynomial to correct for stray-light influence \citep{lubcke2014bro}.\\
-The \ce{SO2} evaluation is performed for a wavelength range between 314.8~nm and 328~nm. Including a \ce{SO2} absorption cross section recorded at a temperature of 298K \citep{vandaele2009fourier} and a  \ce{O3} absorption cross section recorded at 221K \citep{burrows1999atmospheric}.\\
-The \ce{BrO}  evaluation is performed for a wavelength range between 330.6~nm and 352.7~nm (found by \citet{vogel2011volcanic}). The sum in \Cref{eq:F} includes for the BrO evaluation the following absorption cross sections:
-\ce{BrO}  at 298K \citep{fleischmann2004new}, the \ce{SO2} and  \ce{O3} absorption cross sections described above, \ce{O4} \citep{hermans2003absorption},  \ce{NO2} at 298K \citep{vandaele1998measurements} and  \ce{CH2O} at 298K \citep{meller2000temperature}.\\
+The choice of the wavelength range as well as the considered trace gases used in the fits is based on studies on the optimal evaluation wavelength range in a combination of real measurement data and theoretical studies \\
 %
 The choice of the wavelength range as well as the considered tracfor BrO and SO2, made by \citet{vogel2011volcanic}.\\
 The spectra of the trace gases were convoluted by using the 334.15 nm line of a mercury lamp.\\
-A further effect influencing the evaluation is the $I_{0}$ effect, in order to account for the I0-effect \citep{platt2008differential} an
-iterative approach was used. Further informations can be found at (Wagner et al., 2002), \cite{lubcke2014bro},\cite{vogel2011volcanic}).
+A further effect influencing the evaluation is the $I_{0}$ effect, in order to account for the I0-effect \citep{platt2008differential} an iterative approach was used. Further informations can be found at (Wagner et al., 2002), \cite{lubcke2014bro},\cite{vogel2011volcanic}).
 To further correct for small inaccuracies of the WMP, the FRS and both Ring spectra as one set, and all trace gases absorption cross sections as another set, are allowed to be shifted, and first order squeezed against the measurement spectrum.\\
 %
-NOVAC provides spectral data for roughly 50 different elevation angles. For the DOAS evaluation a reference and a measurement spectrum is needed. Obtaining the complete amount of volcanic gases is only possible in the case of the availability of references which are free of volcanic gases of interest(this will be discussed more detailed in \Cref{Chap:Cont}). The column density of  \ce{BrO}  and \ce{SO2} of the measurement spectrum relatively to the reference spectrum can be calculated \Cref{eq:Chi} and \ref{eq:F}. \\
+NOVAC provides spectral data for roughly 50 different elevation angles. For the DOAS evaluation a reference and a measurement spectrum is needed. Obtaining the complete amount of volcanic gases is only possible in the case of the availability of references which is free of the volcanic gases of interest (this will be discussed more detailed in \Cref{Chap:Cont}). The column density of  \ce{BrO}  and \ce{SO2} of the measurement spectrum relatively to the reference spectrum can be calculated \Cref{eq:Chi} and \ref{eq:F}. \\
 \\
 \begin{figure}
 	\subfigure[]{\includegraphics[width=0.51\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan_0}}
@@ -82,6 +77,12 @@ Therefore we evaluate BrO only in the plume location determined by using \ce{SO2
 To avoid a distortion of the data as a consequence of relatively bad scans, only scans with a $\chi^2$ (BrO fit) below $10^{-3}$ ($\approx$	95 \% of all suitable scans) are considered.
 In a further step multiple reference and plume spectra of successive measurements are added to further increase the fit quality.
 \Cref{fig:NOVAC_Eval} visualizes the different steps described above in the retrieval of the BrO/\ce{SO2} ratios.\\
+\begin{figure}
+	\subfigure[ ]{\includegraphics[width=0.53\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan}}
+	\subfigure[ ]{\includegraphics[width=0.47\textwidth]{Bilder/Simon/Bilder_Tung/Algorithm}}
+	\caption{(a) \ce{SO2} SCD as a function of the elevation angle. The co-added plume region is marked with red diamonds, and the co added reference region with green stars. From \cite{WarnachSimon}. (b) Flow chart of the \ce{BrO}  and \ce{SO2} evaluation. From \cite{lubcke2014optical}.}
+	\label{fig:algorithm}
+\end{figure}
 \Cref{fig:algorithm} (b) shows the routine of adding multiple spectra of consecutive measuring times. In the following the spectra resulting from the multi adding technique will be referred to as "Multi Add Spectra". The algorithm for co-adding is visualized in \Cref{fig:algorithm} (b) was invented by \citet{vogel2011volcanic} and \citet{lubcke2014bro}. At Tungurahua periods with significant degassing have a mean temporal resolution of 19 and up to 45 "Multi Add Spectra" per day (resulting from three instruments)\\
 
 The mean standard deviation is about $2.6\cdot10^{13} \frac{molec}{cm^{2}}$. Hereby the standard deviation is estimated as 2 times the DOAS fit error of the multi-scan BrO fit \citet{Stutz:96} \\
@@ -90,45 +91,42 @@ The SO2	detection limit is in the order of $6\cdot10^{16}\frac{molec}{cm^{2}}$.\
 %
 Taking the \ce{BrO}/\ce{SO2} molar ratios if the column densities are close to zero yields unpredictable and unrealistic results. 
 Thus, spectra measured in a thin volcano plume need to be excluded.
-This could be achieved by setting a \ce{BrO} or/and an \ce{SO2} threshold. A reasonable \ce{BrO} threshold needs to be at least in the order of the DOAS fit error. The BrO detection limit can be enhanced by an daily averaging, then we get an detection limit of: BrO$_{DT}=\frac{2.6\cdot10^{13}}{n}\cdot\frac{molec}{cm^{2}}$ (n: number of Multi Add Scans per day): However most BrO SCDs are below the detection limit.\\
-However rejecting all BrO SCDs below the detection limit leads to an drastical decreases of data points and to systematic elevated \ce{BrO}/\ce{SO2} ratios  \citep{lubcke2014bro}.\\
+This could be achieved by setting a \ce{BrO} or/and an \ce{SO2} threshold. A reasonable \ce{BrO} threshold needs to be at least in the order of the DOAS fit error. The BrO detection limit can be enhanced by an daily averaging, then we get an detection limit of: BrO$_{DT}=\frac{2.6\cdot10^{13}}{n}\cdot\frac{molec}{cm^{2}}$ (n: number of Multi Add Scans per day): However most BrO SCDs are below the detection limit.
+Rejecting all BrO SCDs below the detection limit leads to an drastical decreases of data points since only the high BrO SCDs will be maintained and thus to systematic elevated \ce{BrO}/\ce{SO2} ratios  \citep{lubcke2014bro}.\\
 
 %
-\begin{figure}
-	\subfigure[ ]{\includegraphics[width=0.53\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan}}
-	\subfigure[ ]{\includegraphics[width=0.47\textwidth]{Bilder/Simon/Bilder_Tung/Algorithm}}
-	\caption{(a) \ce{SO2} SCD as a function of the elevation angle. The co-added plume region is marked with red diamonds, and the co added reference region with green stars. From \cite{WarnachSimon}. (b) Flow chart of the \ce{BrO}  and \ce{SO2} evaluation. From \cite{lubcke2014optical}.}
-	\label{fig:algorithm}
-\end{figure}
 The other possibility is to set an \ce{SO2} threshold to ensure only measuring in strong degassing periods. In this thesis an \ce{SO2} threshold (plume limit) of $7\cdot 10^{17} \frac{molec}{cm^2}$ is used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. 
 
-Within the data above a SO2 plume limit of $7\cdot 10^{17} \frac{molec}{cm^2}$ the maximum detection limit of the BrO/SO2 ratio is estimated as $(BrO/SO2)_{DT}	=	\frac{\ce{BrO}_{DT}}{SO2_{thres}}=\frac{4	}{\sqrt{n}}\cdot10^{-5}	 \leq 	1\cdot10^{-5}$.
-$7\cdot 10^{17} \frac{molec}{cm^2}$ is a high threshold for the column density. However, this approach assures that only strongly significant gas amounts are accounted \citep{lubcke2014bro}. Choosing the \ce{SO2} threshold in this way is a compromise getween a low BrO/SO2 detection limit and a sufficient amount of data.\\
-
-Increasing a plume limit leads to a decrease of usable data. The amount of usable  daily means as a function of the plume limit is shown in \Cref{fig:percentageminso2}. A plume limit of 7$\cdot10^{17}$ leads to a ratio of usable data of approximately 10\%.
+Within the data above a \ce{SO2} plume limit of $7\cdot 10^{17} \frac{molec}{cm^2}$ the maximum detection limit of the BrO/\ce{SO2} ratio is estimated as $(BrO/SO2)_{DT}	=	\frac{\ce{BrO}_{DT}}{SO2_{thres}}=\frac{4	}{\sqrt{n}}\cdot10^{-5}	 \leq 	1\cdot10^{-5}$.
+$7\cdot 10^{17} \frac{molec}{cm^2}$ is a high threshold for the column density. However, this approach assures that only strongly significant gas amounts are accounted \citep{lubcke2014bro}. Choosing the \ce{SO2} threshold in this way is a compromise getween a low BrO/\ce{SO2} detection limit and a sufficient amount of data.\\
 \begin{figure}
 	\centering
 	\subfigure{	\includegraphics[width=0.49\linewidth]{Bilder/tungpercentage_minSO2}}
 	\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/percentage_minSO2}}
-	\caption{The decrease of the amount of daily means amount above the plume limit as a function of the SO2 column density. The SO2 SCDs below the actual plume limit of 7$\cdot10^{17}$ are marked with a yellow shade. Left: Data of three instruments at Tungurahua. Right: data of two instruments at Nevado del Ruiz.}
+	\caption{The decrease of the amount of daily means amount above the plume limit as a function of the \ce{SO2} column density. The \ce{SO2} SCDs below the actual plume limit of 7$\cdot10^{17}$ are marked with a yellow shade. Left: Data of three instruments at Tungurahua. Right: data of two instruments at Nevado del Ruiz.}
 	\label{fig:percentageminso2}
 \end{figure}
+Increasing a plume limit leads to a decrease of usable data. The amount of usable  daily means as a function of the plume limit is shown in \Cref{fig:percentageminso2}. A plume limit of 7$\cdot10^{17}$ leads to a ratio of usable data of approximately 10\%.
+
 
 \section{Contamination problem\label{Chap:Cont}}
-The conventional Evaluation is based on the assumption, that the reference is free of volcanic gases. This assumption was checked by using a volcanic gas free a high resolution solar atlas spectrum (see below) to evaluate the reference \cite{lubcke2014}; \cite{salerno2009novel}. In some reference spectra an amount of \ce{SO2}  different from zero is found. Thus we can conclude, that there are some references which contain a non-negligible amount of volcanic trace gases.
+
+The conventional Evaluation is based on the assumption, that the reference is free of volcanic gases. This assumption was checked by using a volcanic gas free a high resolution solar atlas spectrum (see below) to evaluate the reference \cite{lubcke2014optical}; \cite{salerno2009novel}. In some reference spectra an amount of \ce{SO2}  different from zero is found. Thus we can conclude, that there are some references which contain a non-negligible amount of volcanic trace gases.
 In rare (ca. 10\% of the data) scenarios, the
 volcanic plume covers the whole scan region.
 This could happen if for example the volcanic plume of the day before extends over the hole scan area as a consequence of windless conditions.
-In consequence, the reference	is contaminated with volcanic trace gases. Thus, the gas amount is underestimated by the NOVAC-evaluation: In \Cref{fig:contaminated} we see an example from April 2011 (Tungurahua) where the reference region is contaminated by volcanic trace gases. The blue \ce{SO2} curve shows the calculations with the NOVAC-evaluation, but since there is still \ce{SO2} in the reference region, the assumption, that the \ce{SO2} amount could be set to zero in the reference region is wrong. The red curve shows the real \ce{SO2} curve, which lies significantly above the NOVAC -curve.\\
+In consequence, the reference	is contaminated with volcanic trace gases. Thus, the gas amount is underestimated by the conventional NOVAC-evaluation: In \Cref{fig:contaminated} we see an example from April 2011 (Tungurahua) where the reference region is contaminated by volcanic trace gases. The blue \ce{SO2} curve shows the calculations with the NOVAC-evaluation, but since there is still \ce{SO2} in the reference region, the assumption, that the \ce{SO2} amount could be set to zero in the reference region is wrong. The red curve shows the \ce{SO2} curve, retrieved with a solar atlas spectrum as reference, which lies significantly above the NOVAC -curve.\\
 \\	
 %
-\\
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{Bilder/contaminated}
 	\caption{Scan with a contaminated reference spectrum from April 2011. From \cite{WarnachSimon}}
 	\label{fig:contaminated}
 \end{figure}
+\\
+
+
 If the reference region for any reason is
 contaminated by volcanic trace gases, there are two possibilities: excluding the contaminated data from the evaluation or the reference spectrum has to be
 replaced by a volcanic-gas-free reference. Alternative spectra are a
@@ -158,7 +156,6 @@ An alternative reference spectrum could be a volcanic-gas-free reference
 spectrum recorded by the same instrument at a different time. When using such a reference several problems occur:\\
 As described in \Cref{NOVAC} the instruments used in NOVAC do not include features like temperature stabilization. Due to that the measurements are not independent of external parameters. 
 So we need to choose a reference recorded at similar conditions with respect to meteorology and	radiation as well as in the temporal proximity due to instrumental changes with time and ambient conditions. Ideally the external conditions should be equal to the conditions at the time when the plume was recorded.\\
-\\
 %
 When performing the evaluation with the Solar Atlas Spectrum as reference, finding the instrument function occur to be a central challenge. If the instrument function for the solar atlas spectrum is found the functions is typically used for a few years This could lead to higher errors due to an gradual worse matching instrument function.
 Using the reference of the same instrument but recorded at another day, leads also to problems caused by different instrument functions, but compared to the calculated instrument function used for the evaluation with the solar atlas spectrum those differences in the instrument function could be smaller.
@@ -167,28 +164,64 @@ In this work we combine both options in order to
 achieve both, enhanced accuracy but still maximum possible precision of
 the \ce{SO2} and \ce{BrO} retrievals. So we use the solar atlas spectrum to check for 
 contamination and a reference spectrum recorded in temporal proximity by the same instrument as reference.\\
-\\
+\begin{figure}
+\centering
+\includegraphics[width=0.5\linewidth]{Bilder/ConProb}
+\caption{The possibility of contamination relatively to all not contaminated data recorded at the same time as a function of the day time. The probability is calculated by dividing the amount of contaminated scans recorded at a specific daytime by the amount of not contaminated data recorded at the same daytime. The square root of the data amount is taken as the error, the visualized error is than calculated by using error propagation. The local time can be calculated from the daytime as UTC-5h. The data are taken from the Nevado del Ruiz volcano.}
+\label{fig:conprob}
+\end{figure}
+The probability of contamination changes with the daytime as can be seen in \Cref{fig:conprob}. In the Morning the probability of contamination is much lower than at noon. Thus we can conclude that the conditions at the day favors the occurrence of contamination more than the conditions at night. The decrease of contamination at the evening can be a result of less data, and is therefore not significant.
+
 If contamination occurs it is possible to choose a new reference from a list of gas free alternative references. In theory, for ideal instruments all references should lead to
 	the same results for the gas retrievals. But instruments are imperfect (see Chapter
 	4) thus the reference need to be chosen carefully in order to ensure reliable results.\\
 %
 \\
-As discussed above it might occur, that the reference is contaminated for example by the plume of the day before.
-%\textcolor{green}{das verstehe ich jetzt nicht - ich meine wenn wir jetzt das solar atlas spectrum nehmen ueberschaetzen wir ja , weil wir fahne von gestern und heute als eine einzige Fahne zusammen addieren...
-%	unterschaetzung haben wir wenn der bei zum beispiel kleiner windgeschwindigkeit -> breite fahne das instrument in keiner richtung fahnen freien himmel sieht - oder bei hoher windgeschwindigkeit und instrument nah am berg die fahne so runtergedreuckt wird das das instrument in der fahne steht..: Florian : @ Nicole zur Überschätzung: wenn wir annehmen, dass die alte, bodennahe Fahne überall die gleiche Dicke hat und die neue Fahne eher im Zenit steht, dann ist der Anteil der alten Fahne zum neuen Gesamtsignal kleiner als der alten Fahne zum neuen Referenzsignal. D.h. Überschätzung ja, aber weniger als simple Addition.} 
-If that happens, we underestimate the gas amount by using a contaminated reference. But another possibility is, that the plume itself is also contaminated. This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates at the instrument. If this is the case, using an other reference would lead to an overestimation of the column density of gases. With the data retrieved by the NOVAC instruments it is very difficult to discover whether the plume is contaminated or not. \\
 
-If the contamination is a result of strong emissions of the day before, a dependency of the strength of contamination on the emission of the day before could appear. 
-The mean SO2 SCDs of a day (daily mean) could be used as a proxy for the total emission. The strength of contamination can be calculated as the difference between the evaluation for \ce{SO2} with a contaminated reference recorded at the same time as the plume spectrum was recorded and using a gas free reference. Such a plot is shown for Tungurahua and Nevado del Ruiz in \Cref{fig:contaminationdependencyso2}. Even though both plots show a slight increase of contamination strength with the mean amount of \ce{SO2} of the day before, the increase is not significant. Another possible proxy for the SO2 emission would be the maximum SO2 SCD of the day before contamination occures. However, taking the maximum does not lead to more significant relation between the emission and the strength of contamination. \\
-Thus the SO2 emission is if it influences the possibility of contamination not the only significant factor. To further examine the reasons for contamination the wind conditions should be studied in particular. 
-\textcolor{red}{hier waere es gut noch andere parameter zu testen - wie in Luebcke et al, zum beispile als funktion von Wind geschwindigkeit,..   Für NdR kann ich die Meteorologischen Daten ab 2014 beisteuern.}
+\subsection{Contamination of the plume}
+As discussed above it might occur, that the reference is contaminated for example by the plume of the day before.
+If that happens, we underestimate the gas amount by using a contaminated reference. But another possibility is, that the plume itself is also contaminated. This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates at the instrument. If this is the case, using an other reference would lead to an overestimation of the column density of gases. With the data retrieved by the NOVAC instruments it is very difficult to discover whether the plume is contaminated or not. \\
+%
+%Thus using a gas free reference in order to get rid of the contamination problem is arguable because it does not consider contamination of the plume. Moreover, we do not consider the different lifetimes of \ce{SO2} and BrO. This leads to a faster depletion of BrO.\\
+%
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Bilder/Contaminationplume}
+	\caption{Visualization of the contamination of the plume. Due to a lack of wind the old plume sinks down an accumulates
+		above the instrument. The light path trough the old plume is longer when recording the reference spectra (orange).}
+	\label{fig:contaminationplume}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/Contaminationplumeinstrinplum}}
+	\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/Contaminationplumewideplume}}
+	\caption{Visualization of possible scenarios for contamination. Left: the plume sinks in a way that the instrument is within the plume, therefore, all elavation angles will contain volcanic trace gases, while the plume is not additionally contaminated. Right: the plume covers the hole sky, thus all elvation angles "see" volcanic trace gases. }
+	\label{fig:contaminationplumewideplume}
+\end{figure}
+%
+Plume contamination could occur in a scenario described by  \Cref{fig:contaminationplume}.
+This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates in the vicinity of the volcano and thus is seen by the instrument. In such a scenario, using an contamination free reference recorded at another time would lead to an overestimation of the gas column densities in the plume.\\
+This is one possible occurrence of contamination. As it can be seen gas of the old plume affects the measurement of the reference and the plume. However, for this example the influence on the measurement of the reference is much larger since the light path trough the old plume (coloured orange in \Cref{fig:contaminationplume}) is longer for the reference than for the measurement of the volcanic plume. Thus, we underestimate the gas amount if we do not use a gas free reference, but might overestimate if we do so.
+The real gas amount might be between the measured amount with and without using a reference measured at another time.\\
+%The contamination setup could differ from \Cref{fig:contaminationplume}. This would lead to different results. However, the reference region is in most cases at a larger elevation angle than the plume. Thus, the assumption that the light path trough the old plume is in average longer for the reference, if both, reference and plume are contaminated.\\
+%
+With the data retrieved by the NOVAC instruments it is very difficult or even impossible to discover whether the plume is contaminated or not. \\
 \\
-However this thesis is build on the assumption, that the plume is free of additional contamination \textcolor{yellow}{Nicole hat hier noch fragen, was ?}. In the following we discuss how to automatically determine an optimal reference from another scan.
+\\
 \begin{figure}
 	\subfigure{
-	\includegraphics[width=0.5\linewidth]{Bilder/contaminationdependency_so2}}
-\subfigure{
-	\includegraphics[width=0.5\linewidth]{Bilder/contaminationdependency_so2_Nevad}}
+		\includegraphics[width=0.5\linewidth]{Bilder/contaminationdependency_so2}}
+	\subfigure{
+		\includegraphics[width=0.5\linewidth]{Bilder/contaminationdependency_so2_Nevad}}
 	\caption{The strength of contamination as function of the mean \ce{SO2} column density (daily mean) of the day before. The strength of contamination is defined as the difference in \ce{SO2} SCD  when evaluation with an alternative reference, or neglect the contamination. Left: data from Tungurahua. Right: data from Nevado Del Ruiz. }
 	\label{fig:contaminationdependencyso2}
 \end{figure}
+
+If the contamination is a result of strong emissions of the day before, a dependency of the strength of contamination on the emission of the day before could appear. 
+The mean \ce{SO2} SCDs of a day (daily mean) could be used as a proxy for the total emission. The strength of contamination can be calculated as the difference between the evaluation for \ce{SO2} with a contaminated reference recorded at the same time as the plume spectrum was recorded and using a gas free reference. Such a plot is shown for Tungurahua and Nevado del Ruiz in \Cref{fig:contaminationdependencyso2}. Even though both plots show a slight increase of contamination strength with the mean amount of \ce{SO2} of the day before, the increase is not significant. Another possible proxy for the \ce{SO2} emission would be the maximum \ce{SO2} SCD of the day before contamination occures. However, taking the maximum does not lead to more significant relation between the emission and the strength of contamination. \\
+Thus the \ce{SO2} emission is if it influences the possibility of contamination not the only significant factor. To further examine the reasons for contamination the wind conditions should be studied in particular. 
+%\textcolor{red}{hier waere es gut noch andere parameter zu testen - wie in Luebcke et al, zum beispile als funktion von Wind geschwindigkeit,..   Für NdR kann ich die Meteorologischen Daten ab 2014 beisteuern.}
+\\
+However this thesis is build on the assumption, that the plume is free of additional contamination. %\textcolor{yellow}{Nicole hat hier noch fragen, was ?}. 
+In the following we discuss how to automatically determine an optimal reference from another scan.
+

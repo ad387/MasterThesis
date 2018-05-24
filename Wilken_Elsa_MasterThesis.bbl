@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{53}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,7 +11,7 @@
 \newblock Accessed: 2018-03-20.
 
 \bibitem[NOV()]{NOVACsite}
-Novac-site.
+Novac-project.
 \newblock \url{http://www.novac-project.eu/}.
 \newblock Accessed: 2018-01-29.
 
@@ -20,6 +20,18 @@ Novac-site.
 \newblock
   \url{http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html}.
 \newblock Accessed: 2018-01-19.
+
+\bibitem[Win()]{Windrose}
+nevado-del-ruiz_colombia: Windrose.
+
+\bibitem[Beirle et~al.(2014)Beirle, H{\"o}rmann, Penning~de Vries, D{\"o}rner,
+  Kern, and Wagner]{beirle2014estimating}
+Steffen Beirle, Christoph H{\"o}rmann, M~Penning~de Vries, Stefan D{\"o}rner,
+  Christoph Kern, and Thomas Wagner.
+\newblock Estimating the volcanic emission rate and atmospheric lifetime of so
+  2 from space: a case study for k{\=\i}lauea volcano, hawaii.
+\newblock \emph{Atmospheric Chemistry and Physics}, 14\penalty0 (16):\penalty0
+  8309--8322, 2014.
 
 \bibitem[Bobrowski and Giuffrida(2006)]{bobrowski2006bromine}
 N~Bobrowski and G~Giuffrida.
@@ -140,6 +152,15 @@ Silvana Hidalgo, Jean Battaglia, Santiago Arellano, Alexander Steele, Benjamin
 \newblock \emph{Journal of Volcanology and Geothermal Research}, 298:\penalty0
   1--14, 2015.
 
+\bibitem[H{\"o}rmann et~al.(2013)H{\"o}rmann, Sihler, Bobrowski, Beirle,
+  De~Vries, Platt, and Wagner]{hormann2013systematic}
+C~H{\"o}rmann, H~Sihler, N~Bobrowski, S~Beirle, M~Penning De~Vries, U~Platt,
+  and T~Wagner.
+\newblock Systematic investigation of bromine monoxide in volcanic plumes from
+  space by using the gome-2 instrument.
+\newblock \emph{Atmospheric Chemistry and Physics}, 13\penalty0 (9):\penalty0
+  4749, 2013.
+
 \bibitem[IPCC(2013)]{IPCC}
 IPCC.
 \newblock \emph{Summary for Policymakers}, book section SPM, page 1–30.
@@ -187,6 +208,12 @@ Kimio Noguchi and Hiroshi Kamiya.
   and amounts of gases.
 \newblock \emph{Bulletin Volcanologique}, 26\penalty0 (1):\penalty0 367--378,
   1963.
+
+\bibitem[Oppenheimer et~al.(2003)Oppenheimer, Pyle, and
+  Barclay]{oppenheimer2003volcanic}
+Clive Oppenheimer, David~M Pyle, and Jenni Barclay.
+\newblock Volcanic degassing.
+\newblock Geological Society of London, 2003.
 
 \bibitem[Pennisi and Le~Cloarec(1998)]{pennisi1998variations}
 Maddalena Pennisi and Marie-Fran{\c{c}}oise Le~Cloarec.
@@ -257,6 +284,12 @@ Anja Schmidt, Kirsten Fristad, and Linda~T Elkins-Tanton.
 Hans-Ulrich Schmincke.
 \newblock \emph{Vulkanismus}.
 \newblock Wissenschaftliche Buchgesellschaft, 3 edition, 2000.
+
+\bibitem[Seinfeld and Pandis(2016)]{seinfeld2016atmospheric}
+John~H Seinfeld and Spyros~N Pandis.
+\newblock \emph{Atmospheric chemistry and physics: from air pollution to
+  climate change}.
+\newblock John Wiley \& Sons, 2016.
 
 \bibitem[Solomon et~al.(1998)Solomon, Portmann, Garcia, Randel, Wu, Nagatani,
   Gleason, Thomason, Poole, and McCormick]{solomon1998ozone}

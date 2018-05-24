@@ -17,27 +17,27 @@
 \BOOKMARK [0][-]{chapter.5}{Evaluation routine}{part.2}% 17
 \BOOKMARK [1][-]{section.5.1}{Conventional evaluation routine}{chapter.5}% 18
 \BOOKMARK [1][-]{section.5.2}{Contamination problem}{chapter.5}% 19
-\BOOKMARK [0][-]{chapter.6}{BrO evaluation and its limitations}{part.2}% 20
-\BOOKMARK [1][-]{section.6.1}{Influence of ambient conditions on the measurement }{chapter.6}% 21
-\BOOKMARK [2][-]{subsection.6.1.1}{Strategy}{section.6.1}% 22
-\BOOKMARK [2][-]{subsection.6.1.2}{Temporal difference}{section.6.1}% 23
-\BOOKMARK [2][-]{subsection.6.1.3}{Daytime }{section.6.1}% 24
-\BOOKMARK [2][-]{subsection.6.1.4}{Temperature}{section.6.1}% 25
-\BOOKMARK [2][-]{subsection.6.1.5}{Colorindex}{section.6.1}% 26
-\BOOKMARK [2][-]{subsection.6.1.6}{Elevation Angle}{section.6.1}% 27
-\BOOKMARK [2][-]{subsection.6.1.7}{Exposure time}{section.6.1}% 28
-\BOOKMARK [1][-]{section.6.2}{BrO dependence on external parameters}{chapter.6}% 29
-\BOOKMARK [0][-]{chapter.7}{Contamination based method }{part.2}% 30
-\BOOKMARK [1][-]{section.7.1}{Fit with a first order polynomial}{chapter.7}% 31
-\BOOKMARK [1][-]{section.7.2}{Other approaches}{chapter.7}% 32
-\BOOKMARK [2][-]{subsection.7.2.1}{Nearest neighbor approach}{section.7.2}% 33
-\BOOKMARK [2][-]{subsection.7.2.2}{Iterative approach}{section.7.2}% 34
-\BOOKMARK [0][-]{chapter.8}{Results}{part.2}% 35
-\BOOKMARK [1][-]{section.8.1}{Tungurahua}{chapter.8}% 36
-\BOOKMARK [1][-]{section.8.2}{Nevado Del Ruiz}{chapter.8}% 37
-\BOOKMARK [1][-]{section.8.3}{BrO/SO2 time series}{chapter.8}% 38
-\BOOKMARK [1][-]{section.8.4}{Issues of the contamination based method}{chapter.8}% 39
-\BOOKMARK [2][-]{subsection.8.4.1}{Contamination of the plume}{section.8.4}% 40
+\BOOKMARK [2][-]{subsection.5.2.1}{Contamination of the plume}{section.5.2}% 20
+\BOOKMARK [0][-]{chapter.6}{BrO evaluation and its limitations}{part.2}% 21
+\BOOKMARK [1][-]{section.6.1}{Influence of ambient conditions on the measurement }{chapter.6}% 22
+\BOOKMARK [2][-]{subsection.6.1.1}{Strategy}{section.6.1}% 23
+\BOOKMARK [2][-]{subsection.6.1.2}{Temporal difference}{section.6.1}% 24
+\BOOKMARK [2][-]{subsection.6.1.3}{Daytime }{section.6.1}% 25
+\BOOKMARK [2][-]{subsection.6.1.4}{Temperature}{section.6.1}% 26
+\BOOKMARK [2][-]{subsection.6.1.5}{Colorindex}{section.6.1}% 27
+\BOOKMARK [2][-]{subsection.6.1.6}{Elevation Angle}{section.6.1}% 28
+\BOOKMARK [2][-]{subsection.6.1.7}{Exposure time}{section.6.1}% 29
+\BOOKMARK [1][-]{section.6.2}{BrO dependence on external parameters}{chapter.6}% 30
+\BOOKMARK [0][-]{chapter.7}{Decontamination module }{part.2}% 31
+\BOOKMARK [1][-]{section.7.1}{Fit with a first order polynomial}{chapter.7}% 32
+\BOOKMARK [1][-]{section.7.2}{Other approaches}{chapter.7}% 33
+\BOOKMARK [2][-]{subsection.7.2.1}{Nearest neighbor approach}{section.7.2}% 34
+\BOOKMARK [2][-]{subsection.7.2.2}{Iterative approach}{section.7.2}% 35
+\BOOKMARK [0][-]{chapter.8}{Results}{part.2}% 36
+\BOOKMARK [1][-]{section.8.1}{Tungurahua}{chapter.8}% 37
+\BOOKMARK [1][-]{section.8.2}{Nevado Del Ruiz}{chapter.8}% 38
+\BOOKMARK [1][-]{section.8.3}{BrO/SO2 time series}{chapter.8}% 39
+\BOOKMARK [1][-]{section.8.4}{Disscusion of the BrO contamination}{chapter.8}% 40
 \BOOKMARK [0][-]{chapter.9}{Conclusion}{part.2}% 41
 \BOOKMARK [-1][-]{part.3}{Appendix}{}% 42
 \BOOKMARK [0][-]{appendix.A}{Lists}{part.3}% 43

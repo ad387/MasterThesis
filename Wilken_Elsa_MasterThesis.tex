@@ -26,7 +26,7 @@
 \usepackage                     {graphicx}
 \usepackage     [english]       {babel}
 \usepackage     [round]         {natbib}
-
+%\usepackage{wrapfig} %wrap text around table/figure
 \usepackage                     {hyperref}
 \usepackage						{cleveref}
 \usepackage						{subfigure}
@@ -129,18 +129,18 @@ In the following the chemical reactions of the plume constituents \ce{BrO}  and 
 
 \subsection{Sulphur species\label{chap:so2}}
 Sulphur species are the third most abundant gases in volcanic plumes. Hereby \ce{SO2} contributes with about 25\% and \ce{H2S} with 1 to 10\%. Only \ce{H2O} and \ce{CO2} have a larger share on the volcanic gases in the plume \Cref{tab.volcemissions}.\\
-Outside of the volcanic plume the \ce{SO2}  amount is negligible with approximately 1ppb. In contrast the \ce{SO2}  amount inside he plume can easily reach 1ppm \cite{Coppenheimer 2003}
-When \ce{H2S} escapes from the volcano vent, it enters the oxidizing conditions in the atmosphere. The conver2sion of \ce{H2S} into \ce{SO2} starts with:
+Outside of the volcanic plume the \ce{SO2}  amount is negligible with approximately 1ppb. In contrast the \ce{SO2}  amount inside he plume can easily reach 1ppm \cite{oppenheimer2003volcanic}
+When \ce{H2S} escapes from the volcano vent, it enters the oxidizing conditions in the atmosphere. The conversion of \ce{H2S} into \ce{SO2} starts with:
 \begin{equation*}
 \ce{H2O}+\ce{OH}\rightarrow \ce{H2O}+\ce{SH}
 \end{equation*}
-The \ce{SH} radical goes through a series of reactions, leading to the \ce{SO2} formation \cite{Seinfeld}\\
+The \ce{SH} radical goes through a series of reactions, leading to the \ce{SO2} formation \cite{seinfeld2016atmospheric}\\
 \ce{SO2} is removed from the atmosphere by dry or wet
 deposition. At homogeneous reactions the lifetime is from 1-3 weeks \cite{robock2000volcanic}. Heterogeneous reactions that take place on particles or liquid phases lead to much faster depletions. But this has not yet been observed in volcanic plume measurements.\\
 Further discussions of the stability of \ce{SO2}  in the atmosphere can be found at \cite{lubcke2014optical}.\\
 However, \ce{SO2} can be considered as stable several hours after the release of the volcanic vent.\\ The long lifetime  alongside with the negligible amount of \ce{SO2} in the atmospheric background makes \ce{SO2} a good tracer of the volcanic plume.
 Therefore relative to other trace gases \ce{SO2} may be used to examine their evolution independent of the plume dispersion.\\
-One attempt to use \ce{SO2} to examine other trace gases is made by \cite{bobrowski2007reactive}. They found a higher BrO/\ce{SO2} ratio at the edges of volcano plumes (Mt. Etna on Sicily, Italy, in August–October 2004 and May 2005 and Villarica in Chile in November 2004) and concluded that the BrO amount is higher at the edges due to the insufficient mixing with ozone rich air inside of the plume (see \ref{fig:broplume}).\\
+One attempt to use \ce{SO2} to examine other trace gases is made by \cite{bobrowski2007reactive}. They found a higher BrO/\ce{SO2} ratio at the edges of volcano plumes (Mt. Etna on Sicily, Italy, in August–October 2004 and May 2005 and Villarica in Chile in November 2004) and concluded that the BrO amount is higher at the edges due to the insufficient mixing with ozone rich air inside of the plume (see \Cref{fig:broplume}).\\
 In this thesis it is assumed that \ce{SO2}  is stable on time-scales occurring with ground based remote sensing measuring of about 20 minutes. \\
 
 
@@ -171,15 +171,10 @@ The "Bromine Explosion" is illustrated in \Cref{fig:broexplosion} and can be des
 \ce{BrO} + \ce{BrO} &\rightarrow 2 \ce{Br} + \ce{O2} \\
 \ce{BrO} + \ce{BrO} &\rightarrow \ce{Br2} + \ce{O2}
 \end{align}
-The gaseous \ce{HBr} emitted by the volcano is splited heterogeneously int H$^{+}$ and Br$^{-}$ (\cref{eq1}). Inside of an aerosol it forms with HOBr \ce{Br2} and \ce{H2O} (\cref{eq2}). \ce{Br2} evaporates to the gaseous phase and splits photolytic  into 2Br. Including an ozon molecule (\ce{O3}) the two Br react to 2BrO. The last step o the circle visualized in \Cref{fig:broexplosion} with blue lines is the reaction of a BrO with \ce{H2O} to an HOBrO molecule condensing into the liquid phase  and thuse closing the circle. The non linear explosion occurs due the formation of two BrO particles from one \ce{Hbr} from the volcano.\\
+The gaseous \ce{HBr} emitted by the volcano is split heterogeneously int H$^{+}$ and Br$^{-}$ (\cref{eq1}). Inside of an aerosol it forms with HOBr \ce{Br2} and \ce{H2O} (\cref{eq2}). \ce{Br2} evaporates to the gaseous phase and splits photolytic  into 2Br. Including an ozon molecule (\ce{O3}) the two Br react to 2BrO. The last step o the circle visualized in \cref{fig:broexplosion} with blue lines is the reaction of a BrO with \ce{H2O} to an HOBrO molecule condensing into the liquid phase  and thuse closing the circle. The non linear explosion occurs due the formation of two BrO particles from one \ce{Hbr} from the volcano.\\
 The BrO formation is slightly diminished due to self reaction of BrO molecules marked with the red lines in \cref{fig:broexplosion}. The 2BrO react with themselves and form \ce{Br2} or may split photolyticaly into 2Br.\\
 The BrO concentration reaches a maximum approximately 5 minutes after emission and then remains constant for the next 25 minutes \citet{lubcke2014bro}.
- \begin{figure}
- 	\centering
- 	\includegraphics[width=0.7\linewidth]{Bilder/rat_diff}
- 	\caption{BrO/\ce{SO2} ratio as a function of the distance from the volcanic vent with a constant wind speed of 10 m/s. From \cite{lubcke2014optical}.}
- 	\label{fig:ratdiff}
- \end{figure}
+
  
 \begin{figure}
 	\centering
@@ -195,9 +190,8 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 	\caption{Dependency of the ratios of different volcanic trace gases on depth. Data originate from Stromboli volcano. From \cite{lubcke2014optical} reproduced from Burton et al. (2007)}
 	\label{fig:so2bro}
 \end{figure}    
-	
 	Volcanic degassing is influenced by many factors, which can be exploit to study volcanic activity by using the gas composition of the volcano plume. Therefore remote sensing should be an additional tool for forecasting of volcanic activity next to classical monitoring techniques like seismographic and deformation measurements.\\
-	Inside of volcanoes volatiles are in solution in magmatic melt. The Henry law \Cref{Henrylaw} describes the necessary conditions for gas formation:
+	Inside of volcanoes volatiles are in solution in magmatic melt. The Henry law shown in \cref{Henrylaw} describes the necessary conditions for gas formation:
 	\begin{equation}
 	P = K_{H}\cdot c
 	\label{Henrylaw}
@@ -215,7 +209,13 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 	%
 	\citet{burton2007magmatic}  found \ce{CO2}/\ce{SO2} and \ce{SO2}/hCl ratios 3-5 times higher during explosions  compared to quiet degassing episodes.
 	%
-	the authors compared these data to gas formation simulations for different degassing source depth they concluded that these eruptions were driven by gas slugs from deeper levels where the ratios were higher while quiet degassing originates from from shallow magma.\\
+	 \begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Bilder/rat_diff}
+		\caption{BrO/\ce{SO2} ratio as a function of the distance from the volcanic vent with a constant wind speed of 10 m/s. From \cite{lubcke2014optical}.}
+		\label{fig:ratdiff}
+	\end{figure}	
+	The authors compared these data to gas formation simulations for different degassing source depth, they concluded that these eruptions were driven by gas slugs from deeper levels where the ratios were higher while quiet degassing originates from from shallow magma.\\
 	%
 	Especially halogen-sulfur ratios are interesting as possible tracer for the volcanic activity since the ambient air concentrations are negligible.
 	BrO/\ce{SO2}  curves equivalent as in \Cref{fig:so2bro} are yet not available due to lack of  bromine solubility curve but the following observations are made:
@@ -224,9 +224,9 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 	%
 	\citet{lubcke2014bro} found decrease of \ce{BrO}  5 month prior to the eruption 2012 at Nevado Del Ruiz which also can be attributed to a earlier exsolution of bromine during rising magma.
 	%
-	Despite the lack of the solubility curve of \ce{BrO}  until now, the \ce{BrO}/\ce{SO2}  has a great potential for investigations of the volcanic activity. The first reason is, that both gases can be measured with remote sensing by DOAS instruments. For examples ground based measurements by \cite{bobrowski2007reactive}, \cite{lubcke2014optical} or satellite based measurement \textcolor{red}{by \cite{Hörman et al 2013} or \cite{Beirle at al 2014}.} The advantage of remote sensing techniques is the possibility of measuring during eruptions which is with in situ measurements not always possible.
+	Despite the lack of the solubility curve of \ce{BrO}  until now, the \ce{BrO}/\ce{SO2}  has a great potential for investigations of the volcanic activity. The first reason is, that both gases can be measured with remote sensing by DOAS instruments. For examples ground based measurements by \cite{bobrowski2007reactive}, \cite{lubcke2014optical} or satellite based measurement by \cite{hormann2013systematic} or \cite{beirle2014estimating}. The advantage of remote sensing techniques is the possibility of measuring during eruptions which is with in situ measurements not always possible.
 	Secondly due to the NOVAC network (See \ref{NOVAC}) continues measurements are possible.\\
-	Another reason for the research on \ce{BrO}/\ce{SO2}  ratios at volcanoes is that the ratio is almost constant from 5 to at least 30 minutes after release \citep{bobrowski2007reactive};\citep{lubcke2014optical}. Furthermore \ref{fig:ratdiff} shows a almost constant ratio from 5 to 20 km off the volcano. This ensures that the data measured from different positions or at different conditions are comparable.\\
+	Another reason for the research on \ce{BrO}/\ce{SO2}  ratios at volcanoes is that the ratio is almost constant from 5 to at least 30 minutes after release \citep{bobrowski2007reactive};\citep{lubcke2014optical}. Furthermore \cref{fig:ratdiff} shows a almost constant ratio from 5 to 20 km off the volcano. This ensures that the data measured from different positions or at different conditions are comparable.\\
 	\\
 %	This chapter motivated the research on the \ce{BrO}/\ce{SO2}  ratio as a tracer for volcanic activity.
 	
@@ -308,7 +308,7 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 	The Beer-Lambert law describes the attenuation of light when travelling through a material.\\
 	This section will give an overview about the reasons for decreasing light intensity when going through a medium.\\
 	The Beer-Lambert law describes the attenuation of light when travelling through a material.\\
-                                                                                                                                                                                                                                                                                       ,
+%
 	Atoms and molecules exists in several energy states, depending on the different electron configuration. Moreover molecules have additionally rotation and vibration states, also enclose to the energy states. If a photon energy matches the energy gap between two possible energy states, this includes, that the lower energy state is occupied and the selection rules are fulfilled  the molecule could absorb the photon, remaining in a higher energy state.\\
 	The additional energy could be loosed by collision with another molecule or by emission. But since the direction of the emitted photon is mostly not the same direction of the absorbed photon the intensity I$_{0}$ of the light before passing the medium is higher than the intensity I after travelling the distance L through the medium.\\
 	This can be described as:\\ 
@@ -321,7 +321,7 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 	\begin{equation}
 	\tau = ln\left(\frac{I_{0}\left(\lambda\right)}{I\left(\lambda\right)}\right) = \sigma\cdot S
 	\end{equation}
-	The column density $S$ can be calculated as:
+	With $S$ is the column density. $S$ can be calculated as:
 	\begin{equation}
 	S = \int_{0}^{L}c\left(l\right)dl
 	\end{equation}
@@ -383,17 +383,18 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 	\label{eq:bb}
 	\end{align}	
 		%
-	The so defined $I^{'}_0\left(\lambda\right)$ differs from $I_0\left(\lambda\right)$ only by broad band effects. With $I^{'}_0\left(\lambda\right)$ a differential optical density $\tau^{'}$ can be defined:
+	The so defined $I^{'}_0\left(\lambda\right)$ differs from $I_0\left(\lambda\right)$ only by broad band effects. In this context the dependency of the absorption cross section on the temperature and the pressure can be neglected. With $I^{'}_0\left(\lambda\right)$ a differential optical density $\tau^{'}$ can be defined:
 	\begin{equation}
-	\tau^{'} = ln\left(\frac{I^{'}_0\left(\lambda\right)}{I\left(\lambda\right)}\right) = \int_{0}^{L} \sum_{j} \sigma^{'}_{j} \cdot \left(\lambda\right) \cdot c_{j}\left(l\right)dl = \sum_{j}\sigma^{'}_{j}\left(\lambda\right)\cdot S_{j}
+	\tau^{'} = ln\left(\frac{I^{'}_0\left(\lambda\right)}{I\left(\lambda\right)}\right) = \int_{0}^{L} \sum_{j} \sigma^{'}_{j}\left(\lambda\right) \cdot c_{j}\left(l\right)dl = \sum_{j}\sigma^{'}_{j}\left(\lambda\right)\cdot S_{j}
 	\label{eq:taustrich}
 	\end{equation}
 	
 	The optical density can now be calculated by using the difference of the column density $S_{M}$ in the measurement spectrum to the column density $S_{R}$ of a reference spectrum. From \Cref{eq:bb} we know:	
 	\begin{equation}
-	I_{P,R} = I^{'}_{0}\cdot exp\left(-S_{P,R}\cdot\sigma\left(\lambda\right)\right)
+	I_{M,R} = I^{'}_{0}\cdot exp\left(-S_{P,R}\cdot\sigma\left(\lambda\right)\right)\footnote{M: Measuremtn, R: Reference}
 	\label{eq:smr}
 	\end{equation}
+	
 	In general the obtained column density $S_{M}$ is called differential slant column density: "dSCD". If the reference spectrum does not contain the trace gas of interest (is not contaminated with trace gases) that means $S_{R} = 0$, $S_{M}$ is called the slant column	density (SCD). 
 	With \Cref{eq:smr} the optical density can be derived by:
 	\begin{equation}
@@ -403,7 +404,6 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 	
 	
 	\subsection{Technical implementation of the DOAS approach}
-	\textcolor{red}{Hier könnte man schon mal expliziter aufzeigen, wie eine andere Temperatur T + delta T zu einem Fehler führt. Als Vorbereitung für deine späteren Untersuchungen von delta T}
 	The theory explained above only describes the ideally situation. In real measurements more problems occur due to instrument limitations inelastic scattering causing the Ring effect and due to impacts of external parameters like temperature.\\
 	In the following a short overview about these problems and their consequences for our retrieval is given. Further information can be found in \cite{lubcke2014optical}.\\
 	\subsubsection*{Optical and spectral resolution of the spectrometer}
@@ -415,7 +415,7 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 	\begin{equation}
 	\sigma{*}\left(\lambda\right) = \sigma\left(\lambda\right)*H\left(\lambda\right)
 	\end{equation}
-	\textcolor{red}{bessere Darstellung zu $\sigma{*}$}
+%	\textcolor{red}{bessere Darstellung zu $\sigma{*}$}
 	The instrument function H can be approximated by using a the spectral lines of an mercury lamp since the width of those lines is only a few pm, they could be treated as delta peaks when comparing it to the resolution of the spectrometers.
 	
 	\subsubsection*{Effects of the detector}
@@ -483,7 +483,7 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 	When comparing the correlations of the data from \Cref{fig:datwithoutotherparamallinstruments} and \Cref{fig:diffexptimewithoutotherparamallinstruments}  to the correlations of 
 	\Cref{fig:datallinstruments} to \Cref{fig:diffexptime} a large reduction of the correlation is obvious. Only the difference in temperature still shows a significant correlation to the \ce{BrO}  error. However, the minimal \ce{BrO}  error coincidence in almost all cases with a difference in external parameters of zero. A dependency of the \ce{BrO}  error on the external parameter can still be seen even tough the correlation is very small. \\
 	Excluding of the external parameters due to the rather low correlation leads to a worse quality of the results, since the effects of the single parameter add up to a not negligible amount. However, note that  the added impact of all external parameter except for the temperature are less important than the temperature.
-	The BrO error of contaminated spectra evaluated with the contamination based method (See \Cref{chapt:contbased}) increases by 15\% if the other external parameters are excluded. If all external paramter except for the temperature are used the calculated BrO error increases by 37\%.\\
+	The BrO error of contaminated spectra evaluated with the new method in the following refereed to as decontamination module (See \Cref{chapt:contbased}) increases by 15\% if the other external parameters are excluded. If all external paramter except for the temperature are used the calculated BrO error increases by 37\%.\\
 	\\
 	For the final evaluation of contaminated data we use the results of \Cref{fig:difftemp} to \Cref{fig:diffcolidx}. Since the correlations between the external parameters are considered in the final 4 dimensional fit.\\
 	\begin{figure}[h]
@@ -558,11 +558,11 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 		\subfigure[]{
 			\includegraphics[width=0.5\linewidth]{"Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_6_02_18_DiffTemperature [C]_BrO"}}
 		\subfigure[]{\includegraphics[width=0.5\linewidth]{"Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_plumeat12Temperature [C]_BrO_TemporalDiff"}}	
-		\caption{\textcolor{red}{sehe ich das richtig, dass hier einer der Werte +-2 C hat und -4 Tage entfernt ist? Könnte dieser Wert genommen werden? Ich nehme an, später zeigst du noch Werte mit allen Parametern, wo das dann nicht mehr so ist}One plume is evaluated by using different references. The plume is recorded at Tungurahua volcano with the D2J2140\_0 instrument. The recording time was the  03.12.2008  at 16:46 o clock. The y axis shows the \ce{BrO}  column density difference between the NOVAC method and contamination based method. (a) The difference in \ce{BrO}  is plotted as a function of the temperature difference between the plume and the references. Every data point indicates one reference. (b) The difference in \ce{BrO}  is plotted as a function of the temporal difference between the one plume and the different references.}
+		\caption{One plume is evaluated by using different references. The plume is recorded at Tungurahua volcano with the D2J2140\_0 instrument. The recording time was the  03.12.2008  at 16:46 o clock. The y axis shows the \ce{BrO}  column density difference between the NOVAC method and decontamination module. (a) The difference in \ce{BrO}  is plotted as a function of the temperature difference between the plume and the references. Every data point indicates one reference. (b) The difference in \ce{BrO}  is plotted as a function of the temporal difference between the one plume and the different references.}
 		\label{fig:d2j2140060218difftemperature-cbro}		
 	\end{figure}
 	\Cref{fig:d2j2140060218difftemperature-cbro} is a result of an exemplary evaluation of one plume. An examination of all several plumes evaluated by different references is shown in \Cref{fig:difftempbroallinstruments}. The plots are equivalent to the plots for BrO error (for an example see \cref{fig:difftemp}). The BrO SCDs vary strongly with the differences in external parameters. It is observable, that the BrO SCDs recorded by the instruments at Nevado Del Ruiz vary in a larger range than for the BrO SCDs recorded by instruments at Tungurahua. This can also be observed for the BrO retrieval errors. The absolute BrO SCDs increase with the difference in external parameters.\\
-	 (a) Temporal difference: For the temporal difference no significant correlation can be observed. (b) Difference in color index: The correlations differ for every instrument even for instruments of the same volcano. The correlations vary from -0.368 to 0.46. (c) Difference in daytime: For the instruments at Nevado Del Ruiz the BrO SCD correlates strongly with the difference in daytime. This can be a result of the dependence on the temperature, since the correlations are very similiar, only the correlations are a little bit stronger for the difference in temperature. (d) The strange dependence which can be seen between the BrO error and the difference in elevation angle for the D2J2200 instrumnt can be seen in this plot as well. The other instruments do not show any correlation between the BrO SCD and the difference in elevation angle.(e) The correlations for the difference in exposure time are opposite to the correlations in daytime. 
+	 \Cref{fig:difftempbroallinstruments} (a): Temporal difference: For the temporal difference no significant correlation can be observed. \Cref{fig:difftempbroallinstruments} (b) Difference in color index: The correlations differ for every instrument even for instruments of the same volcano. The correlations vary from -0.368 to 0.46. \Cref{fig:difftempbroallinstruments} (c): Difference in daytime: For the instruments at Nevado Del Ruiz the BrO SCD correlates strongly with the difference in daytime. This can be a result of the dependence on the temperature, since the correlations are very similiar, only the correlations are a little bit stronger for the difference in temperature. \Cref{fig:difftempbroallinstruments} (d) The strange dependence which can be seen between the BrO error and the difference in elevation angle for the D2J2200 instrumnt can be seen in this plot as well. The other instruments do not show any correlation between the BrO SCD and the difference in elevation angle. \Cref{fig:difftempbroallinstruments} (e) The correlations for the difference in exposure time are opposite to the correlations in daytime. 
 %	\Cref{fig:onerefd2j2140060218difftemperature-cbro} shows the exemplary evaluation of different plumes by on reference. Here we assume different column densities, but this variability should be independent of the difference in the external parameters. But \Cref{fig:onerefd2j2140060218difftemperature-cbro} shows a clear dependence on the Temperature. The correlation for this example is -0.76, thus it can be concluded, that here is also an significant dependence. 
 
 %	\begin{figure}
@@ -575,7 +575,7 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 %	\end{figure}
 %	\begin{figure}
 %		\includegraphics[width=0.7\linewidth]{"Bilder/OneRefMorePlumes_refdate_081115_1337/onerefD2J2140_0_6_02_18_DiffDaytime (Plume)_BrO"}
-%		\caption{The difference of BrO when performing the evaluation with The NOVAC Method minus the contamination based method as a function of the Daytime when measuring the plume. The recording time of the reference was 081115 at 1337 o clock}
+%		\caption{The difference of BrO when performing the evaluation with The NOVAC Method minus the decontamination module as a function of the Daytime when measuring the plume. The recording time of the reference was 081115 at 1337 o clock}
 %		\end{figure}
 %	\begin{figure}
 %		\subfigure[]{
@@ -614,7 +614,7 @@ The BrO concentration reaches a maximum approximately 5 minutes after emission a
 }
 \subfigure{
 	\includegraphics[width=0.45\linewidth]{Bilder/BrOVariables/DiffTempBrOallInstruments}}
-\caption{\textcolor{red}{für welche Daten?}The BrO measurement value as a function of the difference of the external parameters between measuring the reference and the plume are shown.}
+\caption{The BrO measurement value as a function of the difference of the external parameters between measuring the reference and the plume are shown.}
 	\label{fig:difftempbroallinstruments}
 \end{figure}
 \FloatBarrier
@@ -623,17 +623,17 @@ This chapter examines the influence of external on the precision of the BrO eval
 temporal difference, temperature, daytime, colorindex, elevation angle, exposure time.  The findings are based on the data of three instruments installed at the Tungurahua volcano and two instruments at the Nevado Del Ruiz volcano. The maximal temporal difference between measuring the plume and the reference is set to 14 days to prevent large uncertainties in the BrO evaluation. Due to the mechanical influence on the wavelength to pixel mapping the temperature for all analysed instruments has the most significant impact on the BrO evaluation for all considered external parameters. The elevation angle does not seem to influence the evaluation for all examined instruments thus the elevation is excluded from the evaluation. The influence of the other external parameter change at every instrument. So a relatively strong impact of the exposure time can be seen at the D2J2201\_0 instrument at Nevado Del Ruiz, while the exposure time does not seem to significantly influence the evaluation of the data from the  I2J8548\_0 at Tungurahua. 
 	
 	%--------------------------------------------------------------------------------------------------------------
-\chapter{Contamination based method \label{chapt:contbased}}
-\textcolor{red}{Soweit ich verstanden habe, haben die "Other Approaches" keine Relevanz für dein Ergebnis. Aber sie stören den Lesefluss. Ich würde sie in den Appendix schieben.}\\
-\textcolor{red}{Wir brauchen einen anderen Namen dafür. Und man sollte hervorheben, dass das ein optionales Modul ist. Soll heißen, man kann es direkt in den Algorithmus einbauen und somit alles andere unverändert weiterverwenden. Erster Vorschlag für Namen: "Decontamination module"}
+\chapter{Decontamination module \label{chapt:contbased}}
+%\textcolor{red}{Soweit ich verstanden habe, haben die "Other Approaches" keine Relevanz für dein Ergebnis. Aber sie stören den Lesefluss. Ich würde sie in den Appendix schieben.}\\
+
 	Based on the findings about the influence of external parameters on the \ce{BrO} error we propose an algorithm which is able to pick an appropriate volcanic-trace-gas free reference. The algorithm uses the dependencies found in \Cref{Chap:BROErr} to find a sufficiently good matching reference. The input is a list of ambient conditions.\\ 
-	The first step is, to evaluate every reference with solar atlas spectrum, to check for contamination. A reference is classified as contaminated if the fit against the solar atlas spectrum yields an SO2 SCD above the plume limit ($2\cdot 10^{17}$).\\
+	The first step is, to evaluate every reference with solar atlas spectrum, to check for contamination. A reference is classified as contaminated if the fit against the solar atlas spectrum yields an \ce{SO2} SCD above the plume limit ($2\cdot 10^{17}$).\\
 	\\
 	In the second step we determine for each contaminated reference:
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{Bilder/Cont}
-		\caption{Visualization of the contamination based Method. A list of possible references is available, where the temporal difference between the plume and the reference is not longer than two weeks. For every possible reference, the estimated BrO error is calculated by considering the corresponding difference in important external parameters. The reference with the so calculated minima BrO error is used for the evaluation.}
+		\caption{Visualization of the decontamination module. A list of possible references is available, where the temporal difference between the plume and the reference is not longer than two weeks. For every possible reference, the estimated BrO error is calculated by considering the corresponding difference in important external parameters. The reference with the so calculated minima BrO error is used for the evaluation.}
 		\label{fig:Cont}
 	\end{figure}
 
@@ -717,7 +717,7 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 		\caption{Deviation from the NOVAC-evaluation as a function of the selection of differences in external parameters which are used for the evaluation. Here the utilized combination of external parameters are plotted on the x-axis and the deviation on the y-axis. The ideal combination (lowest deviation) is marked with a red cross.}
 		\label{fig:WelcheEP}
 	\end{figure}
-	To answer this question quantitatively for the fitting routine we evaluated data of Tungurahua and Nevado Del Ruiz with different combinations of the external parameter described in \Cref{Chap:BROErr}. Since we could not observe any correlation between the \ce{BrO} error and the elevation angle the external parameter elevation angle was neglected in this analysis. To rate the results for the single instruments (three at Tungurahua and two at Nevado Del Ruiz) the difference to the "NOVAC-evaluation" is used. Hereby the factor $X$, a quantity which describes the distinction between the NOVAC-Method and the contamination based method, serves as a indicator:
+	To answer this question quantitatively for the fitting routine we evaluated data of Tungurahua and Nevado Del Ruiz with different combinations of the external parameter described in \Cref{Chap:BROErr}. Since we could not observe any correlation between the \ce{BrO} error and the elevation angle the external parameter elevation angle was neglected in this analysis. To rate the results for the single instruments (three at Tungurahua and two at Nevado Del Ruiz) the difference to the "NOVAC-evaluation" is used. Hereby the factor $X$, a quantity which describes the distinction between the NOVAC-Method and the decontamination module, serves as a indicator:
 	\begin{equation}
 	X = \frac{1}{n}\sum_{k}^{n} \frac{E_{ContBased, k}}{E_{novac,k}}
 	\label{eq:mean}
@@ -742,10 +742,11 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 	\\
 %	
 	\begin{table}
+		\centering
 		\subfigure{
 			\begin{tabular}{c|c|c}
 				\toprule
-				Constant\\
+				Const\\
 				\toprule
 				$a_{T}$\\
 				\midrule
@@ -761,13 +762,13 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 				\toprule
 				value & import\\
 				\toprule
-				 7.505$\cdot$ e+12&0.866\\
+				 7.51$\cdot$ e+12&0.866\\
 				\midrule
-				3.482$\cdot$ e+13&0.048\\
+				3.48$\cdot$ e+13&0.048\\
 				\midrule
 				-3.2$\cdot$ e+09& 0.0\\
 				\midrule
-				1.869$\cdot$ e+12&0.095\\
+				1.87$\cdot$ e+12&0.095\\
 				\bottomrule
 		\end{tabular}}		
 	\subfigure[Data of Nevado Del Riz D2J2200\_0]{
@@ -801,12 +802,14 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			\bottomrule
 	\end{tabular}}
 	\label{tab:coefNevad}
-	\caption{\textcolor{red}{import: du musst erklaeren was das bedeutet, insbesondere mathematisch/statistisch}
-		\textcolor{red}{Delta a\_T wird in 1C-Schritten gemessen (oder?!) aber in was werden die anderen Deltas gemessen, das hat doch sicher einen Einfluss auf diese Werte hier. Gibt es eine Moeglichkeit das zu normieren?}
-		\textcolor{red}{vielleicht kann man die "importance besser durch ein Saeulendiagramm veranschaulichen, mit allen 7 Instrumenten in einem Bild} The results of the fitting with a first order polynomial. 
+	\caption{
+		%\textcolor{red}{import: du musst erklaeren was das bedeutet, insbesondere mathematisch/statistisch}
+%		\textcolor{red}{Delta a\_T wird in 1C-Schritten gemessen (oder?!) aber in was werden die anderen Deltas gemessen, das hat doch sicher einen Einfluss auf diese Werte hier. Gibt es eine Moeglichkeit das zu normieren?}
+%		\textcolor{red}{vielleicht kann man die "importance besser durch ein Saeulendiagramm veranschaulichen, mit allen 7 Instrumenten in einem Bild} 
+		The results of the fitting with a first order polynomial. 
 		The constants of \Cref{calc:delterr} are calculated.
 		The value shows the actual number. The importance,  referred to as
-		import, indicates the relative impact on the evaluation.
+		import, indicates the relative impact on the evaluation and is shown in percent.
 		(a)Data from Nevado Del Ruiz from the D2J2201\_0 instrument. 
 		%$\epsilon_{0} = =  5.404e+12$
 			(b)Data from Nevado Del Ruiz from the D2J2200\_0 instrument.  %$\epsilon_{0} = =  1.105e+13$ (c) 
@@ -818,7 +821,7 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 	\subfigure{
 		\begin{tabular}{c|c|c}
 			\toprule
-			Constant\\
+			Const\\
 			\toprule
 			$a_{T}$\\
 			\midrule
@@ -835,13 +838,13 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			\toprule
 			value & import\\
 			\toprule
-			 3.732$\cdot$ e+12&0.664\\
+			 3.73$\cdot$ e+12&0.664\\
 			 \midrule
-			 6.982$\cdot$ e+13&0.078\\
+			 6.98$\cdot$ e+13&0.078\\
 		     \midrule
 		     3.5$\cdot$ e+10&0.2 \\
 			 \midrule
-			 7.797$\cdot$ e+11&0.069\\
+			 7.80$\cdot$ e+11&0.069\\
 			 \midrule
 			 \bottomrule
 	\end{tabular}}
@@ -875,7 +878,8 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 			\midrule
 			\bottomrule
 	\end{tabular}}
-	\subfigure[Data of Tungurahua I2J8546\_0]{
+\centering
+	\subfigure[Data of Tungurahua all instruments]{
 	\begin{tabular}{c|c|c}
 			\toprule
 			value & import \\
@@ -892,19 +896,18 @@ temporal difference, temperature, daytime, colorindex, elevation angle, exposure
 	\end{tabular}}
 		\label{tab:coefTung}
 		\caption{The results of the fitting with a first order polynomial. The value shows the actual number. The importance,  referred to as
-			import,  indicates the relative impact on the evaluation.
+			import,  indicates the relative impact on the evaluation is shown in percent.
 			The constants of \Cref{calc:delterr} are calculated.
-			(a)Data from Tungurahua  from the instrument. 
-			(b)Data from Tungurahua from the  instrument. %$\epsilon_{0} = 1.105e+13$ 
-			(c) Data from Tungurahua averaged over all instrument.  %$\epsilon_{0} = 1.260e+13$,
-			 both instruments Tungurahua% zero point  =  1.610e+13 \textcolor{red}{besser}
+			(a)Data from Tungurahua  from the instrument D2J2140\_0.  
+			(b)Data from Tungurahua from the  instrument I2J8548\_0. %$\epsilon_{0} = 1.105e+13$ 
+			(c) Data from Tungurahua from the  instrument I2J8546\_0. (e)  Data from Tungurahua averaged over all instrument.  %$\epsilon_{0} = 1.260e+13$,% zero point  =  1.610e+13 \textcolor{red}{besser}
 		 }
 	\end{table}			
 %	As can be concluded from \Cref{fig:WelcheEP} the best results are found if all parameters are used with a mean correlation above 0.3 (see \Cref{tab:CorrEP}).\\
-	\\
+	
 	As it is shown in \Cref{Chap:BrOdep}, not only the BrO retrieval error depends on the difference in external parameter but also the BrO SCD (see \Cref{fig:difftempbroallinstruments}). 
 	The question is, if the correlation between the BrO error and an considered external parameter as can be seen in \Cref{fig:difftempbroallinstruments}, can also be found in the BrO SCD and the corresponding differences in external paramter of the final choice of the reference, resulting from the fit routine. The answer to this question is No, since the maximal correlation is below 0.01. On Comparison, the maximal correlation if all references are used is above 0.8. Thus we can conclude, that the BrO SCDs resulting from the fit routine do not depend largely on the differences in external parameter.\\
-	
+	%
 	The fitting routine provides a list, where the possible references are sorted by there probable compatibility with the plume spectra. To quantize the influence of the choice of the reference on the BrO SCD, the BrO SCDs, retrieved by using the first 10 spectra of the list provided by the fitting routine are compared.
 	For Tungurahua the mean standard deviation between the different BrO SCDs calculated with the different references is 28.7 \% of the mean BrO SCD. The mean BrO retrieval error is 43.8\% of the BrO SCD.
 	At Nevado del Ruiz the standard deviation of the BrO SCD is 25.4\% of the mean BrO SCD. The mean BrO retrieval error is 36.9\% of the BrO SCD.
@@ -1020,22 +1023,7 @@ Two of the presented method use the differences in external parameter between th
 
 	
 	\chapter{Results}
-	\textcolor{red}{1) Verbesserung der Lesbarkeit: "Strategisches" von "Technischem"
-		teilen. Alles was für beiden Vulkane/allgemein erklärt werden kann vorne
-		oder hinten gesammelt besprechen. Die ganzen Prozentzahlen etc. in einer
-		Tabelle sammeln und ansonsten nur mit minimaler Wortzahl im Text
-		besprechen. Alle technischen Details der Bildbesprechung in die
-		Bildunterschriften. Dann kann man je nach Ziel entweder strategische
-		oder technische Abschnitte überspringen. Gerade ist es eher gemixt und
-		zwingt einen alles zu lesen.}\\
-		%
-		\textcolor{red}{Bisher besprichst du v.a. die quantitativen Ergebnisse, d.h. wie
-		ändern sich die Zeitreihen und Mittelwerte. Die qualitativen Ergebnisse
-		sollte am Ende nochmal klar benannt und interpretiert werden. Z.B.
-		siehst du eine klare BrO Kontaminierung. Angenommen dass die
-		kontaminierende Fahne vom Vortag stammt, bedeutet das, dass die BrO
-		Lebensdauer auch mindestens einen (halben) Tag lang sein müsste.}
-	This chapter shows and discusses the difference of the \ce{SO2}, \ce{BrO} and \ce{BrO}/\ce{SO2}  ratio data when evaluating with the NOVAC-Method, or with the contamination based method.
+	This chapter shows and discusses the difference of the \ce{SO2}, \ce{BrO} and \ce{BrO}/\ce{SO2}  ratio data when evaluating with the NOVAC-Method, or with the decontamination module.
 	The aim is to discover the systematic differences between the different retrievals and to discuss the reliability of the data.\\
 	\\
 	To obtain the reference leading to an evaluation with minimal expected \ce{BrO}  error, the calculation of \Cref{calc:delterr} and the corresponding coefficients from \Cref{tab:coefTung} (Tungurahua) and \Cref{tab:coefNevad} (Nevado Del Ruiz) are used. 
@@ -1051,7 +1039,7 @@ Two of the presented method use the differences in external parameter between th
 		\subfigure[Data of Nevado Del Riz]{\includegraphics[width=0.5\textwidth]{Bilder/NevadoDelRuiz_Pic/bro_novac_conbased}
 		\label{fig:diffNovacd}}
 
-		\caption{Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method. The black solid line shows a linear fit of the data (m:slope, b:intercept). For the fit only data are used where the corresponding \ce{SO2}  column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. The dotted line indicates the unity line. (a) Results for the \ce{SO2}  column densities from Tungurahua; (b) Results for the \ce{SO2}  column densities from Nevado Del Ruiz; (c) Results for the \ce{BrO}  column densities from Tungurahua; (d) Results for the  \ce{BrO} column densities from Nevado Del Ruiz}
+		\caption{Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the decontamination module. The black solid line shows a linear fit of the data (m:slope, b:intercept). For the fit only data are used where the corresponding \ce{SO2}  column density (retrieved from the decontamination module) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. The dotted line indicates the unity line. (a) Results for the \ce{SO2}  column densities from Tungurahua; (b) Results for the \ce{SO2}  column densities from Nevado Del Ruiz; (c) Results for the \ce{BrO}  column densities from Tungurahua; (d) Results for the  \ce{BrO} column densities from Nevado Del Ruiz}
 		\label{fig:diffNovac}
 	\end{figure}
 \begin{figure}[h!]		
@@ -1063,18 +1051,18 @@ Two of the presented method use the differences in external parameter between th
 		\label{fig:diffratioc}}
 	\subfigure[]{\includegraphics[width=0.5\textwidth]{Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased}
 		\label{fig:diffratiod}}
-	\caption{\textcolor{red}{simon hat hier sehr viel geschrieben}Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the contamination based method.  (a)+(b): The black solid line shows a linear fit of the data (m:slope, b:intercept). For the fit only data are used where the corresponding \ce{SO2}  column density (retrieved from the contamination based method) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. The dotted line indicates the unity line. (a) Results for the \ce{BrO}  /\ce{SO2}  column densities from Tungurahua; (b) Results for the \ce{BrO}  /\ce{SO2}  column densities from Nevado Del Ruiz. 
-		(c) +(d) The column density calculated with NOVAC is subtracted from the corresponding column density retrieved with the contamination based method. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero. That means both evaluations lead to the same ratio. (c) Tungurahua (d) Nevado Del Ruiz \textcolor{red}{FL:Die Achsen sollten soweit wie möglich gleiche Bereiche zeigen. Wenn eine Plot quantitative ganz aus der Reihe fällt, dann kann man die Bereiche ausnahmsweise ändern (und ggf. in der Bildunterschrift darauf hinweisen).}}
+	\caption{Comparison of the results of contaminated data for performing the evaluation with the NOVAC-method and the decontamination module.  (a)+(b): The black solid line shows a linear fit of the data (m:slope, b:intercept). For the fit only data are used where the corresponding \ce{SO2}  column density (retrieved from the decontamination module) lies above the plume limit of $SO2\_SCD>7\cdot 10^{17}$. The dotted line indicates the unity line. (a) Results for the \ce{BrO}  /\ce{SO2}  column densities from Tungurahua; (b) Results for the \ce{BrO}  /\ce{SO2}  column densities from Nevado Del Ruiz. 
+		(c) +(d) The column density calculated with NOVAC is subtracted from the corresponding column density retrieved with the decontamination module. The black valid line indicates a linear fit of the data, the dotted grey line shows where the difference is zero. That means both evaluations lead to the same ratio. (c) Tungurahua (d) Nevado Del Ruiz }
 	\label{fig:diffratio}
 \end{figure}
 	We are interested in the systematic differences if using the contaminated same time references spectrum or a gas free alternative reference.  
-	\Cref{fig:diffNovac} shows a comparison of the results of contaminated data if performing the evaluation with the NOVAC-method and the contamination based method. 
-	%Only data are used where the \ce{SO2} SCDs evaluated with the contamination based method  lies above the plume limit ($SO2\_SCD>7\cdot 10^{17}\frac{molec}{cm^2}$). Thus, the corresponding \ce{SO2}  SCDs evaluated with NOVAC could be below $7\cdot 10^{17}$. 
-	As expected the \ce{SO2}  column densities retrieved by the contamination based method are larger for almost every measurement compared to the NOVAC method. The difference between the \ce{SO2} SCDs retrieved by the conventional NOVAC-method increases slightly with increasing SO2 SCD. Fitting of the data results in a slope of 1.22 (Tungurahua) and 1.16 (Nevado del Ruiz). Thus, we can conclude that  a higher SO2 amount leads to a slightly higher contamination (see \Cref{fig:diffNovac}). The extent of BrO contamination does not seem to depend on the BrO amount. The slope of the linear fit of the BrO SCDs have a slope which does not differ significantly from one. The slope at Tungurahua is 1.01 and for Nevado del Ruiz  is 1.07. \\
-	\Cref{fig:diffratio} shows the difference of the \ce{SO2}/\ce{BrO} ratio when performing the evaluation with the NOVAC method and the contamination based method.\\
-	(\Cref{fig:diffratiob} , \ref{fig:diffratiod}). \Cref{fig:diffratioa} and \ref{fig:diffratiob} show the results of the contamination based method plotted against the results of the NOVAC method. \Cref{fig:diffratioc}  and \ref{fig:diffratiod} show the actual difference between both methods. The column density calculated with NOVAC is subtracted from the corresponding column density retrieved with the contamination based method.  For low \ce{BrO}/\ce{SO2}  ratios around below zero, the ratios calculated with the contamination based method are higher than the ratios retrieved with the NOVAC method. For higher \ce{BrO}/\ce{SO2}  ratios (above zero) the ratios calculated with the NOVAC method are larger. The absolute difference between both evaluation methods increases with the increase of the 
-\textcolor{red}{postives Offset, was ist der Effekt von der höheren Anzahl Datenpunkte}
-	Due to the increase of the \ce{SO2}  column density when performing the evaluation with the contamination based method more \ce{SO2}  SCD lies above the plume limit of $7\cdot10^{17}\quad \frac{molec}{cm^2}$. This leads to an increase of the amount of data which show a large \ce{SO2} signal.\\ 
+	\Cref{fig:diffNovac} shows a comparison of the results of contaminated data if performing the evaluation with the NOVAC-method and the decontamination module. 
+	%Only data are used where the \ce{SO2} SCDs evaluated with the decontamination module  lies above the plume limit ($SO2\_SCD>7\cdot 10^{17}\frac{molec}{cm^2}$). Thus, the corresponding \ce{SO2}  SCDs evaluated with NOVAC could be below $7\cdot 10^{17}$. 
+	As expected the \ce{SO2}  column densities retrieved by the decontamination module are larger for almost every measurement compared to the NOVAC method. The difference between the \ce{SO2} SCDs retrieved by the conventional NOVAC-method increases slightly with increasing \ce{SO2} SCD. Fitting of the data results in a slope of 1.22 (Tungurahua) and 1.16 (Nevado del Ruiz). Thus, we can conclude that  a higher \ce{SO2} amount leads to a slightly higher contamination (see \Cref{fig:diffNovac}). The extent of BrO contamination does not seem to depend on the BrO amount. The slope of the linear fit of the BrO SCDs have a slope which does not differ significantly from one. The slope at Tungurahua is 1.01 and for Nevado del Ruiz  is 1.07. \\
+	\Cref{fig:diffratio} shows the difference of the \ce{SO2}/\ce{BrO} ratio when performing the evaluation with the NOVAC method and the decontamination module.\\
+	(\Cref{fig:diffratiob} , \ref{fig:diffratiod}). \Cref{fig:diffratioa} and \ref{fig:diffratiob} show the results of the decontamination module plotted against the results of the NOVAC method. \Cref{fig:diffratioc}  and \ref{fig:diffratiod} show the actual difference between both methods. The column density calculated with NOVAC is subtracted from the corresponding column density retrieved with the decontamination module.  For low \ce{BrO}/\ce{SO2}  ratios around below zero, the ratios calculated with the decontamination module are higher than the ratios retrieved with the NOVAC method. For higher \ce{BrO}/\ce{SO2}  ratios (above zero) the ratios calculated with the NOVAC method are larger. The absolute difference between both evaluation methods increases with the increase of the 
+%\textcolor{red}{postives Offset, was ist der Effekt von der höheren Anzahl Datenpunkte}
+	Due to the increase of the \ce{SO2}  column density when performing the evaluation with the decontamination module more \ce{SO2}  SCD lies above the plume limit of $7\cdot10^{17}\quad \frac{molec}{cm^2}$. This leads to an increase of the amount of data which show a large \ce{SO2} signal.\\ 
 	In the following we discuss the results for the Tungurahua volcano and the Nevado Del Ruiz. 
 
 
@@ -1087,19 +1075,18 @@ Two of the presented method use the differences in external parameter between th
 			\toprule
 			Total amount of scans&&6500&14005\\
 			\midrule
-			NOVAC: SO2 SCDs above plume limit&&0.064\%& 0.121\%\\
+			NOVAC: \ce{SO2} SCDs above plume limit&&6.4\%&12.1\%\\
 			\midrule
-			NOVAC: SO2 SCDs above plume limit without cont.&& 0.055\%& 0.088\%\\
+			NOVAC: \ce{SO2} SCDs above plume limit without cont.&& 5.5\%& 8.8\%\\
 			\midrule
 			contaminated scans&&6\%&9.9\%\\
 			\midrule
-			&NOVAC: above  plume limit & 0.153&0.328\\
+			&NOVAC: above  plume limit & 15.3\%&32.8\%\\
 			\midrule
-			&Contbased: above plume limit& 0.299&0.598\\			
+			&Contbased: above plume limit&29.9\%&59.8\%\\			
+		
 			\midrule
-			Not conatminated data: above plume limit &&0.055&0.088\\
-			\midrule
-			In total: above plume limit &&0.073&0.14\\
+			In total: above plume limit &&7.3\%&14.0\%\\
 			\bottomrule			
 	\end{tabular}}
 	\caption{Results for Tungurahua and Nevado Del Ruiz. The absolute amount of data and the amount of data above the plume limit and the amount of contaminated data are shown.  Results for Tungurahua and Nevado Del Ruiz. The temporal difference between the measuring times of plume and reference is not longer than $\pm$2week. The maximal temperature difference is smaller then 3.3$^{\circ}$C ($\Delta T < 3.3^{\circ}$C). The maximal relative BrO error for the contaminated data is not larger as the corresponding BrO SCD. }
@@ -1117,13 +1104,13 @@ Two of the presented method use the differences in external parameter between th
  	A higher amount of spectra above the \ce{SO2}  plume limit can be found in the contaminated data even if the contaminated data are evaluated with the NOVAC-method. Here, the percentage of data in the plume-limit is 0.153\%.
  	This means that the contaminated data are 2.381 times more frequently above the plume limit. This leads to the presumption, that the probability of getting contaminated data increases with the gas amount leaving the volcano.\\
  	The following paragraph deals only with the contaminated data.	
- 	When performing the evaluation of the contaminated data with the contamination based method 0.299\% of the resulting \ce{SO2}  column densities are in the plume limit. Thus, the reliable amount of contaminated data increase bya factor of two while the total amount of data increase by 1.8 percent points. Thus 0.073\% of all data are above plume limit when using the contamination based method.\\
+ 	When performing the evaluation of the contaminated data with the decontamination module 0.299\% of the resulting \ce{SO2}  column densities are in the plume limit. Thus, the reliable amount of contaminated data increase bya factor of two while the total amount of data increase by 1.8 percent points. Thus 0.073\% of all data are above plume limit when using the decontamination module.\\
  	By using trace gas free references instead of contaminated references about 25.2 \% more data are available. \\
 
 %	\begin{figure}
 %		\centering
 %		\includegraphics[width=0.7\linewidth]{Bilder/tung_so2_novac_sametime}
-%		\caption{Time series of \ce{SO2} column densities at Tungurahua. Blue data points are below the detection limit, green data points are not contaminated, valid \ce{SO2} SCDs. Red data points are contaminated data, evaluated with the contamination based method.}
+%		\caption{Time series of \ce{SO2} column densities at Tungurahua. Blue data points are below the detection limit, green data points are not contaminated, valid \ce{SO2} SCDs. Red data points are contaminated data, evaluated with the decontamination module.}
 %		\label{fig:tungso2novacsametime}
 %	\end{figure}
 	
@@ -1133,9 +1120,9 @@ Two of the presented method use the differences in external parameter between th
 At Nevado Del Ruiz a larger time span (from the end of 2009 to the end of 2011) is examined. The resulting amount of "Multi Add" data is 14005.
 Neglecting contamination and thus evaluate all data using the conventional NOVAC method results in 0.121 of all data above the plume limit. 
 %When ignoring contamination and evaluating all spectra with the NOVAC-method 12.8\% of the \ce{SO2} SCDs are above the plume limit.\\
-The total amount of contamination data is 1392. This is equivalent to 9.9\% of all data. Evaluating the contaminated data with the NOVAC-method yields in 32.8\% of the cases in SO2 SCDs above the plume limit. As at Tungurahua the occurrence of data above the plume limit within the contaminated data is larger as for not contaminated data (by a factor of 2.7).\\
+The total amount of contamination data is 1392. This is equivalent to 9.9\% of all data. Evaluating the contaminated data with the NOVAC-method yields in 32.8\% of the cases in \ce{SO2} SCDs above the plume limit. As at Tungurahua the occurrence of data above the plume limit within the contaminated data is larger as for not contaminated data (by a factor of 2.7).\\
 The following paragraph only deals with the contaminated data.
-If using the contamination based method 0.598\% of the \ce{SO2} column densities are above the detection limit. Thus, an increase of the number of detected \ce{SO2} SCDs above the plume limit within the contaminated data of 95\% is observable. In total the number of \ce{SO2} SCDs above the plume limit increases by 2.7 percent points. As a result 14.8\% of all data are above the plume limit.\\
+If using the decontamination module 0.598\% of the \ce{SO2} column densities are above the detection limit. Thus, an increase of the number of detected \ce{SO2} SCDs above the plume limit within the contaminated data of 95\% is observable. In total the number of \ce{SO2} SCDs above the plume limit increases by 2.7 percent points. As a result 14.8\% of all data are above the plume limit.\\
 \FloatBarrier
 
 
@@ -1163,7 +1150,7 @@ This section presents the final time series of SO2, BrO and \ce{BrO}/\ce{SO2}  f
 %		\includegraphics[width=0.49\linewidth]{Bilder/Results/Results_Tungurahua}}
 %		\subfigure{
 %		\includegraphics[width=0.49\linewidth]{"Bilder/Results/Results_NevadoDelRuiz (1)"}}
-%		\caption{Time series of the BrO/\ce{SO2} ratios for Nevado del Ruiz (left) and Tungurahua (right). The contaminated data are evaluated by using the contamination based method. The \ce{SO2} SCDs used for this plot are above the plume limit.}
+%		\caption{Time series of the BrO/\ce{SO2} ratios for Nevado del Ruiz (left) and Tungurahua (right). The contaminated data are evaluated by using the decontamination module. The \ce{SO2} SCDs used for this plot are above the plume limit.}
 %		\label{fig:resultsnevadodelruiz-1}
 %	\end{figure}
 
@@ -1176,7 +1163,7 @@ This section presents the final time series of SO2, BrO and \ce{BrO}/\ce{SO2}  f
 	\subfigure{
 	\includegraphics[width=1\linewidth]{Bilder/tung_rat_sametime}}
 
-	\caption{Time series of the BrO/\ce{SO2} ratios for Tungurahua. The contaminated data are evaluated by using the contamination based method.  Blue data points are below the detection limit, green data points are not contaminated, valid \ce{SO2} SCDs. Red data points are contaminated data, evaluated with the contamination based method.}
+	\caption{Time series of the BrO/\ce{SO2} ratios for Tungurahua. The contaminated data are evaluated by using the decontamination module.  Blue data points are below the detection limit, green data points are not contaminated, valid \ce{SO2} SCDs. Red data points are contaminated data, evaluated with the decontamination module.}
 	\label{fig:tungso2novacsametime}
 \end{figure}
 \begin{figure}
@@ -1187,14 +1174,14 @@ This section presents the final time series of SO2, BrO and \ce{BrO}/\ce{SO2}  f
 		\includegraphics[width=1\linewidth]{Bilder/ndr_bro_sametime}}
 	\subfigure{
 		\includegraphics[width=1\linewidth]{Bilder/ndr_rat_sametime}}
-	\caption{Time series of BrO, SO2 and the BrO/\ce{SO2} ratios for Nevado del Ruiz . The contaminated data are evaluated by using the contamination based method. Blue data points are below the detection limit, green data points are not contaminated, valid \ce{SO2} SCDs. Red data points are contaminated data, evaluated with the contamination based method. The contaminated data points are only marked in red, if the \ce{SO2} SCD is above the plume limit. Contaminated data below the detection limit are not particularly marked. }
+	\caption{Time series of BrO, \ce{SO2} and the BrO/\ce{SO2} ratios for Nevado del Ruiz . The contaminated data are evaluated by using the decontamination module. Blue data points are below the detection limit, green data points are not contaminated, valid \ce{SO2} SCDs. Red data points are contaminated data, evaluated with the decontamination module. The contaminated data points are only marked in red, if the \ce{SO2} SCD is above the plume limit. Contaminated data below the detection limit are not particularly marked. }
 	\label{fig:ndrso2novacsametime}
 \end{figure}	
 
 	%
-	Contaminated data either need to be excluded from the evaluation or to corrected due to using a not contaminated reference. If the contaminated data are excluded from the evaluation, the amount of data where the corresponding SO2 amount is above the plume limit is significantly smaller. The additionally data retrieved by using the contamination based method can be seen in \Cref{fig:tungso2novacsametime} for Tungurahua (visualized with red circles) respectively for Nevado del Ruiz in \Cref{fig:ndrso2novacsametime}.
-	The time series of Tungurahua and Nevado del Ruiz show, that contamination occurs rather frequently at high SO2 and BrO column densities. The share of contaminated data above a SO2 SCD of $2e18\frac{molec}{cm^2}$ is significantly higher as below (see \Cref{fig:ndrso2novacsametime} for Nevado del Ruiz and \Cref{fig:tungso2novacsametime} for the Tungurahua volcano). High BrO SCDs (above $1e14\frac{molec}{cm^2}$) are as well above average contaminated data.\\
-	While the SO2 SCDs and BrO SCDs increase on average due to using the contaminated data the average BrO/SO2 ratio does not chance significantly compared to the average ratio when only using not contaminated data, as can be seen in \Cref{fig:tungso2novacsametime} for Tungurahua (the plot at the bottom) or in \Cref{fig:ndrso2novacsametime} for Nevado del Ruiz.\\
+	Contaminated data either need to be excluded from the evaluation or to corrected due to using a not contaminated reference. If the contaminated data are excluded from the evaluation, the amount of data where the corresponding \ce{SO2} amount is above the plume limit is significantly smaller. The additionally data retrieved by using the decontamination module can be seen in \Cref{fig:tungso2novacsametime} for Tungurahua (visualized with red circles) respectively for Nevado del Ruiz in \Cref{fig:ndrso2novacsametime}.
+	The time series of Tungurahua and Nevado del Ruiz show, that contamination occurs rather frequently at high \ce{SO2} and BrO column densities. The share of contaminated data above a \ce{SO2} SCD of $2e18\frac{molec}{cm^2}$ is significantly higher as below (see \Cref{fig:ndrso2novacsametime} for Nevado del Ruiz and \Cref{fig:tungso2novacsametime} for the Tungurahua volcano). High BrO SCDs (above $1e14\frac{molec}{cm^2}$) are as well above average contaminated data.\\
+	While the \ce{SO2} SCDs and BrO SCDs increase on average due to using the contaminated data the average BrO/\ce{SO2} ratio does not chance significantly compared to the average ratio when only using not contaminated data, as can be seen in \Cref{fig:tungso2novacsametime} for Tungurahua (the plot at the bottom) or in \Cref{fig:ndrso2novacsametime} for Nevado del Ruiz.\\
 
 	
 %	\Cref{fig:ndrso2novacsametime} shows the results for the Nevado del Ruiz volcano. The plot at the top of \Cref{fig:ndrso2novacsametime} shows the results for SO2. If the contaminated data would be excluded from the evaluation only the green data points can be used for the evaluation of the time series.\\ 
@@ -1214,26 +1201,27 @@ This section presents the final time series of SO2, BrO and \ce{BrO}/\ce{SO2}  f
 	\subsection*{Daily Means}
 	
 	 Due to the very small amount of volcanic gas plumes with 
-	\ce{BrO}  column densities above the detection limit often the daily mean of the \ce{BrO}/\ce{SO2}  ratios is used. Hereby at least four "Multi Adds" per day above the plume limit are considered in order to avoid outliers. Thus, performing the evaluation of contaminated data with the contamination based method leads to more data.\\
+	\ce{BrO}  column densities above the detection limit often the daily mean of the \ce{BrO}/\ce{SO2}  ratios is used. Hereby at least four "Multi Adds" per day above the plume limit are considered in order to avoid outliers. Thus, performing the evaluation of contaminated data with the decontamination module leads to more data.\\
 
-	At Tungurahua In fact 30.8\% more daily mean data can be retrieved when using the contamination based method compared to exclude the contaminated data. The amount of daily means increases less than the total amount of data, this effect can be explained due to a higher occurrence of contamination if the \ce{SO2}  column densities are high, thus more data are retrieved for days with a high \ce{SO2}  amount.
+	At Tungurahua In fact 30.8\% more daily mean data can be retrieved when using the decontamination module compared to exclude the contaminated data. The amount of daily means increases less than the total amount of data, this effect can be explained due to a higher occurrence of contamination if the \ce{SO2}  column densities are high, thus more data are retrieved for days with a high \ce{SO2}  amount.
 	In the considered time period we have data on 365 days. 
-	If we exclude the contaminated data from the evaluation we get at 36 days daily means (more than 4 valid data points per day). If the contamination problem is neglected at 43 days daily means are retrieved. At 52 days we can calculate daily means if we use the contamination based method this is equivalent to 14.\% of all data.\\
+	If we exclude the contaminated data from the evaluation we get at 36 days daily means (more than 4 valid data points per day). If the contamination problem is neglected at 43 days daily means are retrieved. At 52 days we can calculate daily means if we use the decontamination module this is equivalent to 14.\% of all data.\\
 
 	At Nevado del Ruiz the amount of daily means increases by 27.9\%. if the contaminated data are used compared to the scenario where the contaminated data are excluded.
 	In total we have data at 688 days.	When excluding the contaminated data it total there are 165.
-	If the contamination problem is neglected the total amount of daily means in the evaluated time period is 198. And if we use the contamintion based method for the contaminated data we get an total amount of 229 data. This is  equivalent to 33\% of all data. Thus we have twice at much daily means at Nevado del Ruiz compared to Tungurahua.
+	If the contamination problem is neglected the total amount of daily means in the evaluated time period is 198. And if we use the decontamination module for the contaminated data we get an total amount of 229 data. This is  equivalent to 33\% of all data. Thus we have twice at much daily means at Nevado del Ruiz compared to Tungurahua.
 
-	More data leads to a smaller error of the daily mean data, since the standard derivation is decreases if the amount of data increases (Standard derivation is proportional to $\frac{1}{\sqrt{n}}$). The mean error of the daily means excluding the contaminated data is $1.49\cdot 10^{-5}$ (Tungurahua) and .......... (Nevado del Ruiz). If the contaminated data are decontaminated and considered for the daily mean calculation the mean error decreases to: $1.16\cdot 10^{-5}$ and .......... (Nevado del Ruiz).
+	More data leads to a smaller error of the daily mean data, since the standard derivation is decreases if the amount of data increases (Standard derivation is proportional to $\frac{1}{\sqrt{n}}$). The mean error of the daily means excluding the contaminated data is $1.49\cdot 10^{-5}$ (Tungurahua) and $1.7\cdot 10^{-5}$ (Nevado del Ruiz). If the contaminated data are decontaminated and considered for the daily mean calculation the mean error decreases to: $1.16\cdot 10^{-5}$ (Tungurahua) and $1.036\cdot 10^{-5}$ (Nevado del Ruiz).
+%	\begin{wrapfigure}{r}{5.5cm}
 	\begin{table}
-		\begin{tabular}{p{3cm}p{4cm}p{4cm}}
+		\begin{tabular}{p{5cm}p{4cm}p{4cm}}
 		&Tungurahua&Nevado Del Ruiz\\
 		\toprule
-		Decrease of the mean daily mean error&22.5\%&
+		Decrease of the mean daily mean error&22.5\%&39.2\%\\
 		\bottomrule			
-	\end{tabular}}
-	\end{table}	
-	
+	\end{tabular}
+	\end{table}		
+%	\end{wrapfigure} 
 	\Cref{fig:dailymeanstungurahua} shows a time series of Daily means of the BrO/\ce{SO2} ratio. The minimum amount of valid data point within one day is above 4. Days where 3 or less valid data where recorded are not considered in this figure.  Thus all considered ratios have an \ce{SO2} SCD above the plume limit. The red marked ratios shows daily means which includes at least one contaminated spectra.
 %Menge an Daten insgesamt: ----------------------------------------------------- 14005 ≙ 1
 %Davon: Menge an daten (auch kontaminierten)(NOVAC) über plume limit--------- 1793  ≙ 0.128
@@ -1249,33 +1237,20 @@ This section presents the final time series of SO2, BrO and \ce{BrO}/\ce{SO2}  f
 %
 %	Dh in den kontaminierten daten sind mit NOVAC ausgewerteten daten \underline{3.449} häufiger über dem plume limit\\
 \FloatBarrier
-	\section{Issues of the contamination based method}
-	\textcolor{red}{diese Besprechung ist vielleicht vorne im Kapitel zu Kontaminierung besser aufgehoben. Da dann 8.6. als realistischen/klassischen Fall beschreiben. Also ohne Korrektur unterschätzung, mit korrektur überschätzung. Den unkorrigeten Fall kennen wir schon, du (und vor dir auch Lübcke et al 2016) untersuchen jetzt den korrigierten (überschätzen Fall). Die Wahrheit liegt vermutlich irgendwo dazwischen aber können wir zum heutigen Stand nicht ermitteln. Dann ist klar was du vor hast und wie die folgenden ergebnisse interpretiert werden müssen/dürfen. Und es gibt nicht am ende der Arbeit ein großes Aber. Figure 8.7 kann/sollte auch schon vorne kommen. Mit dem Verweis, dass wir solche Fälle ignorieren bzw. annehmen dass nur 8.6. vorliegt.}
-	The contamination method is arguable because it does not consider contamination of the plume due to a lack of information. Moreover, we do not consider the different lifetimes of \ce{SO2} and BrO. This leads to a faster depletion of BrO.
-	\textcolor{red}{die besprechung der Lebensdauern muss noch ausführlicher werden. Insbesondere implizieren deine Daten, dass die BrO Lebensdauer relative lange ist. Ansonsten wäre ja zumindest eine Kontaminierung vom Tag davor nicht möglich. Das sollte auf jeden Fall einen ausführlich besprochenes ergebnis sein. Passend dazu eine Frage: Ist die Kontaminierung eigentlich vornehmlich morgens aufgetreten? Denn nachts kommt ja genauso viel \ce{Hbr} aus dem Vulkan, nur dass es eben nicht umgesetzt wird. (Memo an mich selbst!! :-D )}
-	\subsection{Contamination of the plume}
-	\textcolor{red}{UP:sollte dieser Para. nicht vor den Ergebnissen kommen?}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Bilder/Contaminationplume}
-		\caption{Visualization of the contamination of the plume. Due to a lack of wind the old plume sinks down an accumulates
-		above the instrument. The light path trough the old plume is longer when recording the reference spectra (orange).}
-		\label{fig:contaminationplume}
-	\end{figure}
-		\begin{figure}
-			\centering
-			\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/Contaminationplumeinstrinplum}}
-			\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/Contaminationplumewideplume}}
-			\caption{Visualization of possible scenarios for contamination. Left: the plume sinks in a way that the instrument is within the plume, therefore, all elavation angles will contain volcanic trace gases, while the plume is not additionally contaminated. Right: the plume covers the hole sky, thus all elvation angles "see" volcanic trace gases. }
-			\label{fig:contaminationplumewideplume}
-		\end{figure}
+\section{Disscusion of the BrO contamination}
 
-	 As discussed above it occurs, that the plume is contaminated as well (see \Cref{fig:contaminationplume}). This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates in the vicinity of the volcano and thus is seen by the instrument. In such a scenario, using an contamination free reference recorded at another time would lead to an overestimation of the gas column densities in the plume.\\
-	 This is one possible occurence of contamination. As it can be seen gas of the old plume affects the measurement of the reference and the plume. However, for this example the influence on the measurement of the reference is much larger since the light path trough the old plume (coloured orange in \Cref{fig:contaminationplume}) is longer for the reference than for the measurement of the volcanic plume. Thus, we underestimate the gas amount if we do not use a gas free reference, but might overestimate if we do so.
-	 The real gas amount might be between the measured amount with and without using a reference measured at another time.\\
-	 The contamination setup could differ from \Cref{fig:contaminationplume}. This would lead to different results. However, the reference region is in most cases at a larger elevation angle than the plume. Thus, the assumption that the light path trough the old plume is in average longer for the reference, if both, reference and plume are contaminated.
-	 
-	  With the data retrieved by the NOVAC instruments it is very difficult or even impossible to discover whether the plume is contaminated or not. \\
+
+	
+		The evaluation with a gas free reference show higher \ce{SO2} SCDs as well as higher BrO SCDs. Thus we can conclude that the reference region is contaminated in both, SO2 and BrO. A result which can not be retrieved by using a solar atlas spectrum as alternative gas free reference.\\
+		The SO2 lifetime \footnote{meaning the time until the amount decreased to $\frac{1}{e}$ of the initial amount} is estimated from 4h to several days dependent on the conditions. SO2 is filtered by aerosols and in the end washed out of the atmosphere. This processes limits the SO2 lifetime.
+		The BrO lifetime is rather hard to define due to continues reformation (see \Cref{fig:broexplosion}).
+		There a several interpretations for the BrO contamination.\\
+		Taking scenario described in \Cref{fig:contaminationplume} as basis:
+		Contamination is in this case a result of an old plume. The age of the plume is here in the order of hours to days. Thus we can make the assumption, that the BrO lifetime is in the same order.
+		BrO lifetimes below this would make BrO contaminations in the scenario of \Cref{fig:contaminationplume} rather unlikely. In this case contamination is rather a result of the scenarios described in  \Cref{fig:contaminationplumewideplume}. This would lead to the result, that the problem of plume contamination is also rather unlikely.
+		Another possibility would be, that the DOASIS fit routine does not evaluate BrO and \ce{SO2} independently, thus, if the fit routine finds more \ce{SO2} due to a not contaminated reference the calculation systematically overestimates the BrO SCD. Since  a higher \ce{SO2} emission usually coincidence with increased emission of all other volcanic trace gases this possibility needs also be considered.
+
+
 %	
 %	\textcolor{red}{
 %	\cite{geeignete quelle, irgendwo hab ich das schon gehoert} made investigations on the lifetime of \ce{SO2} and BrO. The lifetime of \ce{SO2} is several weeks, while the decay of BrO proceed in smaller time scales. As a result we should observe a lower contamination for BrO. This can be observed in our results. In theory it can be that due to the smaller lifetimes of BrO contamination only influences the \ce{SO2} evaluation, if that is the case, the best option would be to use a high defined solar atlas spectrum as reference for the \ce{SO2} evaluation, but an reference recorded with the same instrument at the same time for the BrO evaluation, since BrO could not be retrieved using an high defined solar atlas spectrum.}
@@ -1294,32 +1269,25 @@ This section presents the final time series of SO2, BrO and \ce{BrO}/\ce{SO2}  f
 	Based on this findings an algorithm is introduced to automatically find the alternative reference if the reference, which is measured at the same time as the plum spectrum, to be replaced due to contamination.\\
 	Fitting the data with a four dimensional first order polynomial turned out to give the best estimation of the expected error on the trace gas measurement.\\
 	The evaluation of the contaminated data with the here proposed algorithm shows that BrO as well as \ce{SO2} was underestimated by ignoring the contamination problem.
-	We shows that the contamination based method in average estimates the value of the BrO column destiny by 1.2$\cdot$ e+13 higher at Tungurahua (2.0e13 Nevado Del Ruiz). The \ce{SO2} amount increases as well by an amount of 6.5$\cdot$ e+17 at Tungurahua (7.4$\cdot$ e+17 Nevado Del Ruiz) . Thus, the results for the BrO/\ce{SO2} ratio calculated with the contamination based method changed compared to the conventional method in the way, that low ratios increases, while high ratios decrease.\\
-	A further advantage of the new calculation is, that due to the higher amount of the \ce{SO2} SCDs the amount of data above the plume limit increases. Using the contamination based method leads to an total increase of data of 45 \% (Tungurahua) and 87\% (Nevado Del Ruiz).\\
+	We shows that the decontamination module in average estimates the value of the BrO column destiny by 1.2$\cdot$ e+13 higher at Tungurahua (2.0e13 Nevado Del Ruiz). The \ce{SO2} amount increases as well by an amount of 6.5$\cdot$ e+17 at Tungurahua (7.4$\cdot$ e+17 Nevado Del Ruiz) . Thus, the results for the BrO/\ce{SO2} ratio calculated with the decontamination module changed compared to the conventional method in the way, that low ratios increases, while high ratios decrease.\\
+	A further advantage of the new calculation is, that due to the higher amount of the \ce{SO2} SCDs the amount of data above the plume limit increases. Using the decontamination module leads to an total increase of data of 45 \% (Tungurahua) and 87\% (Nevado Del Ruiz).\\
 	\\
 	The Method proposed in this thesis improves the evaluation of the spectra provided by NOVAC and eliminates the systematic error occurring due to contamination. As a result the amount of usable data increases. This is a important step fo a better understanding of volcanoes.
 
 
 	
 	
-	
+%	\section*{Outlook}
+%	During the night BrO can not be formed due to the lack of sunlight (see \Cref{fig:broexplosion}). Thus another interesting question is the daytime where BrO contamination occurs. 
 
 
 
-  \part{Appendix}
-  \begin{appendix}
-	\begin{figure}
-		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/D2J2140}}
-		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/D2J2200_0}}
-		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/D2J2200_1}}
-		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/D2J2201_0}}
-		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/I2J8546}}
-		\subfigure[]{\includegraphics[width=0.45\linewidth]{Bilder/WelcheEP/I2J8548}}
-		\caption{}
-		\label{fig:I2J8548}
-		\end{figure}
+\part{Appendix}
+\begin{appendix}
 	\subsection*{Dependency external parameters on each other}
-			\textbf{Difference of Temperature on  Difference of exposure time}
+	In addition to \Cref{fig:correlationmatrix} here the parameter of a linear fit\footnote{calculated by python using the numpy library (version) based on least square method} between the external parameters. Significant correlations can be found in \Cref{fig:correlationmatrix}.
+	
+	\textbf{Difference of Temperature on  Difference of exposure time}
 	\begin{equation}
 	\Delta T =  -26.32\cdot \Delta ExpTime + 2\cdot 10^{-15}
 	\end{equation}
@@ -1369,72 +1337,7 @@ This section presents the final time series of SO2, BrO and \ce{BrO}/\ce{SO2}  f
 	\begin{equation}
 	\Delta ColIdX  =3.5\cdot \Delta ElevAngle-6\cdot 10^{-16}
 	\end{equation}
-	\subsection*{Figures to more plumes to one ref}
-	\begin{figure}
-		\subfigure[]{
-		\includegraphics[width=0.5\linewidth]{Bilder/OneRefMorePlumes_refdate_081115_1337/D2J2140_0_onerefColorindex_BrO_TemporalDiff}
-			}
-		\subfigure[]{
-		\includegraphics[width=0.5\linewidth]{"Bilder/OneRefMorePlumes_refdate_081115_1337/D2J2140_0_onerefDaytime (Plume)_BrO_TemporalDiff"}
-				}
-		\subfigure[]{
-		\includegraphics[width=0.5\linewidth]{"Bilder/OneRefMorePlumes_refdate_081115_1337/D2J2140_0_onerefElevation Angle [deg]_BrO_TemporalDiff"}
-				}
-		\subfigure[]{
-		\includegraphics[width=0.5\linewidth]{"Bilder/OneRefMorePlumes_refdate_081115_1337/D2J2140_0_onerefExposure Time [ms]_BrO_TemporalDiff"}
-			}\\
-		\subfigure[]{
-		\includegraphics[width=0.5\linewidth]{Bilder/OneRefMorePlumes_refdate_081115_1337/onerefD2J2140_0_6_02_18_DiffColorindex_BrO}
-			}
-		\subfigure[]{
-		\includegraphics[width=0.5\linewidth]{"Bilder/OneRefMorePlumes_refdate_081115_1337/onerefD2J2140_0_6_02_18_DiffElevation Angle [deg]_BrO"}
-			}\\
-	
-		\subfigure[]{
-		\includegraphics[width=0.5\linewidth]{"Bilder/OneRefMorePlumes_refdate_081115_1337/onerefD2J2140_0_6_02_18_DiffExposure Time [ms]_BrO"}
-			}
-		\caption{}
-		\label{fig:donerefd2j2140060218difftemperature-cbro}
-	\end{figure}
-\subsection*{Evaluation of the dependence of the BrO SCD on external dependence}
-	\begin{figure}
-		\subfigure[]{
-		\includegraphics[width=0.45\linewidth]{Bilder/Appendix_BrOTotalevaluation/DiffColidxBrOwithoutOtherparamallInstruments}
-				}
-		\subfigure[]{
-		\includegraphics[width=0.45\linewidth]{Bilder/Appendix_BrOTotalevaluation/DiffDaytimeBrOwithoutOtherparamallInstruments}
-				}
-		\subfigure[]{
-		\includegraphics[width=0.45\linewidth]{Bilder/Appendix_BrOTotalevaluation/DiffElevAngleBrOwithoutOtherparamallInstruments}
-				}
-		\subfigure[]{
-		\includegraphics[width=0.45\linewidth]{Bilder/Appendix_BrOTotalevaluation/DiffExpTimeBrOwithoutOtherparamallInstruments}
-				}
-		\subfigure[]{
-		\includegraphics[width=0.45\linewidth]{Bilder/Appendix_BrOTotalevaluation/DatBrOwithoutOtherparamallInstruments}}
-		\caption{}
-		\label{fig:datbrowithoutotherparamallinstruments}
-	\end{figure}
-	\begin{figure}
-		\subfigure[]{
-			\includegraphics[width=0.45\linewidth]{Bilder/Appendix_BrOTotalevaluation/DatTotalBrOwithoutOtherparamallInstruments}
-		}
-		\subfigure[]{
-			\centering
-			\includegraphics[width=0.45\linewidth]{Bilder/Appendix_BrOTotalevaluation/DiffColidxTotalBrOwithoutOtherparamallInstruments}
-		}
-		\subfigure[]{
-			\includegraphics[width=0.45\linewidth]{Bilder/Appendix_BrOTotalevaluation/DiffDaytimeTotalBrOwithoutOtherparamallInstruments}
-		}
-		\subfigure[]{
-			\includegraphics[width=0.45\linewidth]{Bilder/Appendix_BrOTotalevaluation/DiffElevAngleTotalBrOwithoutOtherparamallInstruments}
-		}
-		\subfigure[]{
-			\includegraphics[width=0.45\linewidth]{Bilder/Appendix_BrOTotalevaluation/DiffExpTimeTotalBrOwithoutOtherparamallInstruments}
-		}
-		\caption{}
-		\label{fig:instruments}
-	\end{figure}	
+
     \chapter{Lists}
     \listoffigures
     \listoftables

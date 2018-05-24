@@ -1,7 +1,7 @@
-This chapter discusses the evaluation of the \ce{BrO} SCD , calculated from the spectra recorded by the spectroscopic instruments of NOVAC. The quality of the BrO retrieval hereby is defined by the BrO retrieval error.\\
-\Cref{fig:allbroerrordistribution} shows the BrO "Multi Add"\footnote{More information about the multiadd-retrieval and the fit settings can be found in \Cref{Chap:evalroutine}} retrieval error distribution, which is centered around $1.1\cdot e^{+13}$ to $1.4\cdot e^{+13}$. \\
+This chapter discusses the evaluation of the \ce{BrO} SCD , calculated from the spectra recorded by the spectroscopic instruments of NOVAC. The BrO SCD error hereby taken as a measure for the quality of the BrO retrieval.\\
+\Cref{fig:allbroerrordistribution} shows the BrO "Multi Add"\footnote{More information about the multiadd-retrieval and the fit settings can be found in \Cref{Chap:evalroutine}} retrieval error distribution, which is centered around $1.1\cdot e^{+13}$ to $1.4\cdot e^{+13}\frac{molec}{cm^2}$. \\
 \\
-The evaluation of the data from NOVAC are separated in the evaluation of \ce{SO2} and the evaluation of BrO. While the retrieval of \ce{SO2} is relatively easy due to the high amount of \ce{SO2} in the plume (magnitude of \ce{SO2} at Tungurahua $\approx 1e^{18}$), the \ce{BrO} evaluation is much more challenging due to not distinct BrO curves as a result of the lower BrO magnitudes (as can be seen in \Cref{fig:plumeref}). The magnitude of \ce{BrO} SCD is around $\approx 1e^{14}$. \\
+The evaluation of the data from NOVAC are separated in the evaluation of \ce{SO2} and the evaluation of BrO. While the retrieval of \ce{SO2} is relatively easy due to the high amount of \ce{SO2} in the plume (magnitude of \ce{SO2} at Tungurahua $\approx 1e^{18}$), the \ce{BrO} evaluation is much more challenging due to not distinct BrO curves as a result of the lower BrO magnitudes (as can be seen in \Cref{fig:plumeref}). The magnitude of \ce{BrO} SCD is around $\approx 1\cdot 10^{14}\frac{molec}{cm^2}$. \\
 %
 \begin{figure}
 	\subfigure{
@@ -25,7 +25,6 @@ Due to the large uncertainty of \ce{BrO} relative to \ce{SO2} the optimization o
 \\
 The amount of gas free alternative references is around 1500 per year. To make an optimal choice, it is necessary to examine the conditions which influence the \ce{BrO} retrieval.\\
 Every spectrum is recorded under particular/unique ambient conditions. These measuring conditions generally are not equal for different scans. In our study, we show that references for which the surrounding conditions e.g temperature or cloudiness are equivalent with the surrounding conditions of the  plume measuring lead to a small error.\\
-In the following, we take a closer look at the dependence of the \ce{BrO} error on external parameters. 
 %
 \subsubsection*{Data used for the analysis}
 I evaluate a fixed plume spectrum using more than 1000 recorded multi add reference spectra in order to find the optimal reference spectrum. This evaluation is performed for more than 1000 multi add plume spectra in order to obtain a high statistical significance. Thus 1000 recorded "multi add" spectra result in $1000^2$ possible plume reference pairs and the coelrresponding differences in the external parameter and their associated \ce{BrO} error. 
@@ -33,9 +32,10 @@ I evaluate a fixed plume spectrum using more than 1000 recorded multi add refere
 
 \section{Influence of ambient conditions on the measurement \label{Chap:BROErr}}
 The measurement and evaluation of the spectra monitored with NOVAC depends on the ambient conditions like temperature or cloudiness \citep{lubcke2014optical}.\\
-Thus, the ambient conditions need to be taken into account for choosing a new reference.
-\\
-The ambient conditions that are considered in this thesis are written in \Cref{tab:externalparametters}
+Thus, the ambient conditions need to be taken into account for choosing a new reference.\\
+The analysis of these external parameters are performed for spectra recorded at Tungurahua and Nevado del Ruiz. At Tungurahua three instruments with data recorded in the time span from July in 2008 to August in 2009 are used. Nevado del Ruiz contributes with two instruments in the time from the end of 2009 to the end of 2011.\\
+%
+The ambient conditions that are considered in this thesis are:
 \begin{table}[h!]
 	\centering
 	\begin{tabular}{p{4cm}p{8.5cm}}
@@ -50,7 +50,7 @@ The ambient conditions that are considered in this thesis are written in \Cref{t
 	\end{tabular}
 \end{table}	
 %
-The analysis of these external parameters are performed for spectra recorded at Tungurahua and Nevado del Ruiz. At Tungurahua three instruments with data recorded in the time span from July in 2008 to August in 2009 are used. Nevado del Ruiz contributes with two instruments in the time from the end of 2009 to the end of 2011.
+
 
 
 \subsection{Strategy}
@@ -95,8 +95,8 @@ The Mean, the corresponding standard deviation as well as the minimum and the ma
 	\label{fig:dat}
 \end{figure}
 %
-\textcolor{red}{irgendwie stimmt hier was nicht noch mal SImons arbeit durchlesen oder sp}
-Due to instrument drifts the fit quality decreases with the time difference between recording the plume and the reference. This could be a result of a wavelength shift over time observed by \citet{WarnachSimon}.  \citet{WarnachSimon} suggests that the drift is caused by a hysteresis effect. \Cref{fig:driftkomplettnew} shows the wavelength shift as a function of the time for six NOVAC instruments located at Tungurahua in the time between 2008 to 2014. In this thesis for the analysis data of Tungurahua between 2008 to the mid of 2009 are used. \Cref{fig:driftkomplettnew} shows a rather steep drift in this time interval.
+
+Due to instrument change with time the fit quality decreases with the time difference between recording the plume and the reference. This could a result of the same changes which lead to the wavelength shift over time observed by \citet{WarnachSimon}.  \citet{WarnachSimon} suggests that the drift is caused by a hysteresis effect. \Cref{fig:driftkomplettnew} shows the wavelength shift as a function of the time for six NOVAC instruments located at Tungurahua in the time between 2008 to 2014. In this thesis for the analysis data of Tungurahua between 2008 to the mid of 2009 are used. \Cref{fig:driftkomplettnew} shows a rather steep drift in this time interval.
 \citet{WarnachSimon} observed a decrease of the shift after initial negative drift after the first two years at Pillate station. Thus we can observe an rather step drift at new installed instruments. Thus, it is observed that the temporal difference becomes less important after an initial adaptation on the surroundings after the installation of the instruments.\\
 When using reference and plume spectra of the same time, these effects are cut out since the shift is equal for the plume and reference spectrum.\\
 To examine the effect of the temporal difference on the retrieved \ce{BrO} error, for all reference-plume pairs the corresponding \ce{BrO} error is calculated. Due to the large amount of reference plume pairs within one year, it takes more than a month (Hardware details: Intel(R) Core(TM) i5-4570 CPU @ 3.20Ghz 64 Bit operating system, amount of 4 kernels) to evaluate the corresponding \ce{BrO} error for every possible reference-plume pair of one instrument. I did this for the  D2J2140 instrument installed at Tungurahua:\\
