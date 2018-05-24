@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  24 MAY 2018 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  24 MAY 2018 16:44
 entering extended mode
 **./Wilken_Elsa_MasterThesis.tex
 (Wilken_Elsa_MasterThesis.tex
@@ -2468,13 +2468,13 @@ ure Time [ms]_Difference in Temperature [C]_Tungu".png  used on input line 465.
  on input line 465.
 Package pdftex.def Info: Requested size: 298.75267pt x 256.07838pt on input lin
 e 465.
-<Bilder/varCorrelation_matrix.pdf, id=1882, pagebox=cropbox, 578.16pt x 578.16p
-t>
+<Bilder/varCorrelation_matrix.pdf, id=1882, pagebox=cropbox, 455.7025pt x 426.5
+9375pt>
 File: Bilder/varCorrelation_matrix.pdf Graphic file (type pdf)
 <use Bilder/varCorrelation_matrix.pdf>
 Package pdftex.def Info: Bilder/varCorrelation_matrix.pdf  used on input line 4
 71. on input line 471.
-Package pdftex.def Info: Requested size: 426.7914pt x 426.79071pt on input line
+Package pdftex.def Info: Requested size: 426.7914pt x 399.54008pt on input line
  471.
 <Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstruments.pdf, id=1902, pagebox
 =cropbox, 505.89pt x 505.89pt>
@@ -2683,7 +2683,7 @@ e
 
 ]
 chapter 7.
-<Bilder/Cont.pdf, id=2679, pagebox=cropbox, 597.23125pt x 361.35pt>
+<Bilder/Cont.pdf, id=2637, pagebox=cropbox, 597.23125pt x 361.35pt>
 File: Bilder/Cont.pdf Graphic file (type pdf)
 <use Bilder/Cont.pdf>
 Package pdftex.def Info: Bilder/Cont.pdf  used on input line 635. on input line
@@ -2740,7 +2740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 693--694
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<"Bilder/WelcheEP/Nevado Del Ruiz".pdf, id=2710, pagebox=cropbox, 433.62pt x 43
+<"Bilder/WelcheEP/Nevado Del Ruiz".pdf, id=2668, pagebox=cropbox, 433.62pt x 43
 3.62pt>
 File: "Bilder/WelcheEP/Nevado Del Ruiz".pdf Graphic file (type pdf)
 <use "Bilder/WelcheEP/Nevado Del Ruiz".pdf>
@@ -2748,7 +2748,7 @@ Package pdftex.def Info: "Bilder/WelcheEP/Nevado Del Ruiz".pdf  used on input l
 ine 714. on input line 714.
 Package pdftex.def Info: Requested size: 213.39569pt x 213.39536pt on input lin
 e 714.
-<Bilder/WelcheEP/Tungurahua.pdf, id=2711, pagebox=cropbox, 433.62pt x 433.62pt>
+<Bilder/WelcheEP/Tungurahua.pdf, id=2669, pagebox=cropbox, 433.62pt x 433.62pt>
 
 File: Bilder/WelcheEP/Tungurahua.pdf Graphic file (type pdf)
 <use Bilder/WelcheEP/Tungurahua.pdf>
@@ -2820,7 +2820,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1026--1031
 
  []
 
-<Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf, id=2870, pagebox=cropbox, 5
+<Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf, id=2828, pagebox=cropbox, 5
 05.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf Graphic file (type pdf)
 
@@ -2829,7 +2829,7 @@ Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf  use
 d on input line 1034. on input line 1034.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
 e 1034.
-<Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf, id=2871, pagebox=cropbox, 505
+<Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf, id=2829, pagebox=cropbox, 505
 .89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf Graphic file (type pdf)
 <use Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf>
@@ -2837,7 +2837,7 @@ Package pdftex.def Info: Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf  used
 on input line 1036. on input line 1036.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
 e 1036.
-<Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf, id=2872, pagebox=cropbox, 5
+<Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf, id=2830, pagebox=cropbox, 5
 05.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf Graphic file (type pdf)
 
@@ -2846,7 +2846,7 @@ Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf  use
 d on input line 1038. on input line 1038.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
 e 1038.
-<Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf, id=2873, pagebox=cropbox, 505
+<Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf, id=2831, pagebox=cropbox, 505
 .89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf Graphic file (type pdf)
 <use Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf>
@@ -2867,7 +2867,7 @@ Overfull \hbox (10.4419pt too wide) in paragraph at lines 1034--1041
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf, id=2874, pagebox=cropbox,
+<Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf, id=2832, pagebox=cropbox,
  505.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf Graphic file (type pd
 f)
@@ -2876,7 +2876,7 @@ Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf  u
 sed on input line 1047. on input line 1047.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
 e 1047.
-<Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf, id=2875, pagebox=cropbox, 5
+<Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf, id=2833, pagebox=cropbox, 5
 05.89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf Graphic file (type pdf)
 
@@ -2885,7 +2885,7 @@ Package pdftex.def Info: Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf  use
 d on input line 1049. on input line 1049.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
 e 1049.
-<Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.pdf, id=2876, pagebox=cro
+<Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.pdf, id=2834, pagebox=cro
 pbox, 505.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.pdf Graphic file (ty
 pe pdf)
@@ -2894,7 +2894,7 @@ Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.p
 df  used on input line 1051. on input line 1051.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
 e 1051.
-<Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf, id=2877, pagebox=cropb
+<Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf, id=2835, pagebox=cropb
 ox, 505.89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf Graphic file (type
  pdf)
@@ -2987,7 +2987,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1145--1146
 
  []
 
-<Bilder/tung_so2_novac_sametime.pdf, id=3237, pagebox=cropbox, 867.24pt x 361.3
+<Bilder/tung_so2_novac_sametime.pdf, id=3195, pagebox=cropbox, 867.24pt x 361.3
 5pt>
 File: Bilder/tung_so2_novac_sametime.pdf Graphic file (type pdf)
 <use Bilder/tung_so2_novac_sametime.pdf>
@@ -2995,14 +2995,14 @@ Package pdftex.def Info: Bilder/tung_so2_novac_sametime.pdf  used on input line
  1160. on input line 1160.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
  1160.
-<Bilder/tung_bro_sametime.pdf, id=3238, pagebox=cropbox, 867.24pt x 361.35pt>
+<Bilder/tung_bro_sametime.pdf, id=3196, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/tung_bro_sametime.pdf Graphic file (type pdf)
 <use Bilder/tung_bro_sametime.pdf>
 Package pdftex.def Info: Bilder/tung_bro_sametime.pdf  used on input line 1162.
  on input line 1162.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
  1162.
-<Bilder/tung_rat_sametime.pdf, id=3239, pagebox=cropbox, 867.24pt x 361.35pt>
+<Bilder/tung_rat_sametime.pdf, id=3197, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/tung_rat_sametime.pdf Graphic file (type pdf)
 <use Bilder/tung_rat_sametime.pdf>
 Package pdftex.def Info: Bilder/tung_rat_sametime.pdf  used on input line 1164.
@@ -3027,7 +3027,7 @@ Overfull \hbox (3.91571pt too wide) in paragraph at lines 1160--1165
 
 LaTeX Warning: Float too large for page by 8.48834pt on input line 1168.
 
-<Bilder/ndr_so2_novac_sametime.pdf, id=3240, pagebox=cropbox, 867.24pt x 361.35
+<Bilder/ndr_so2_novac_sametime.pdf, id=3198, pagebox=cropbox, 867.24pt x 361.35
 pt>
 File: Bilder/ndr_so2_novac_sametime.pdf Graphic file (type pdf)
 <use Bilder/ndr_so2_novac_sametime.pdf>
@@ -3035,14 +3035,14 @@ Package pdftex.def Info: Bilder/ndr_so2_novac_sametime.pdf  used on input line
 1172. on input line 1172.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
  1172.
-<Bilder/ndr_bro_sametime.pdf, id=3241, pagebox=cropbox, 867.24pt x 361.35pt>
+<Bilder/ndr_bro_sametime.pdf, id=3199, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/ndr_bro_sametime.pdf Graphic file (type pdf)
 <use Bilder/ndr_bro_sametime.pdf>
 Package pdftex.def Info: Bilder/ndr_bro_sametime.pdf  used on input line 1174. 
 on input line 1174.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
  1174.
-<Bilder/ndr_rat_sametime.pdf, id=3242, pagebox=cropbox, 867.24pt x 361.35pt>
+<Bilder/ndr_rat_sametime.pdf, id=3200, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/ndr_rat_sametime.pdf Graphic file (type pdf)
 <use Bilder/ndr_rat_sametime.pdf>
 Package pdftex.def Info: Bilder/ndr_rat_sametime.pdf  used on input line 1176. 
@@ -3072,7 +3072,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1182--1185
 
  []
 
-<Bilder/dailymeansNevadoDelRuiz.pdf, id=3249, pagebox=cropbox, 505.89pt x 361.3
+<Bilder/dailymeansNevadoDelRuiz.pdf, id=3207, pagebox=cropbox, 505.89pt x 361.3
 5pt>
 File: Bilder/dailymeansNevadoDelRuiz.pdf Graphic file (type pdf)
 <use Bilder/dailymeansNevadoDelRuiz.pdf>
@@ -3080,7 +3080,7 @@ Package pdftex.def Info: Bilder/dailymeansNevadoDelRuiz.pdf  used on input line
  1194. on input line 1194.
 Package pdftex.def Info: Requested size: 213.39569pt x 152.42761pt on input lin
 e 1194.
-<Bilder/dailymeanstungurahua.pdf, id=3250, pagebox=cropbox, 505.89pt x 361.35pt
+<Bilder/dailymeanstungurahua.pdf, id=3208, pagebox=cropbox, 505.89pt x 361.35pt
 >
 File: Bilder/dailymeanstungurahua.pdf Graphic file (type pdf)
 <use Bilder/dailymeanstungurahua.pdf>
@@ -3299,7 +3299,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1349.
 Here is how much of TeX's memory you used:
  21774 strings out of 493312
  410372 string characters out of 3138883
- 632707 words of memory out of 3000000
+ 632712 words of memory out of 3000000
  24558 multiletter control sequences out of 15000+200000
  562289 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3344,9 +3344,9 @@ msfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on Wilken_Elsa_MasterThesis.pdf (115 pages, 7380156 bytes).
+Output written on Wilken_Elsa_MasterThesis.pdf (115 pages, 7399598 bytes).
 PDF statistics:
- 4993 PDF objects out of 5155 (max. 8388607)
+ 4951 PDF objects out of 5155 (max. 8388607)
  406 named destinations out of 1000 (max. 500000)
  734 words of extra memory for PDF output out of 10000 (max. 10000000)
 
