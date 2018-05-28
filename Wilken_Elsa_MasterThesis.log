@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  24 MAY 2018 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  28 MAY 2018 15:25
 entering extended mode
 **./Wilken_Elsa_MasterThesis.tex
 (Wilken_Elsa_MasterThesis.tex
@@ -1160,7 +1160,7 @@ Overfull \hbox (2.03697pt too wide) detected at line 48
 
 
 Overfull \hbox (2.03697pt too wide) detected at line 51
- []\T1/cmss/bx/n/12 110
+ []\T1/cmss/bx/n/12 111
  []
 
 )
@@ -1294,8 +1294,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17 <./Bilder/rat_diff.pdf>]
 
-Package natbib Warning: Citation `samaniego' on page 18 undefined on input line
- 262.
+Package natbib Warning: Citation `samaniego2003peligros' on page 18 undefined o
+n input line 262.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 258--264
@@ -1413,12 +1413,12 @@ der_Tung/Map_Tungurahua2.png> <./Bilder/NdR_map.pdf>]
 chapter 5.
 (Chapters/NOVACEval/NOVACEval.tex
 
-Package natbib Warning: Citation `lehman 2014' on page 30 undefined on input li
-ne 35.
+Package natbib Warning: Citation `lehmann2011improving' on page 30 undefined on
+ input line 35.
 
 
-Package natbib Warning: Citation `wagner2009' on page 30 undefined on input lin
-e 35.
+Package natbib Warning: Citation `wagner2009three' on page 30 undefined on inpu
+t line 35.
 
 <Bilder/Simon/Bilder_Tung/SO2_Scan_0.png, id=747, 868.6854pt x 678.3744pt>
 File: Bilder/Simon/Bilder_Tung/SO2_Scan_0.png Graphic file (type png)
@@ -1709,7 +1709,7 @@ pdfTeX warning: pdflatex.exe (file E:/Masterarbeit/BrO_Error_Distribution/AllBr
 OErrorDistribution.pdf): PDF inclusion: multiple pdfs with page group included 
 in a single page
 >] [44]
-<Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png, id=1341, 712.91344pt x 752.81
+<Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png, id=1340, 712.91344pt x 752.81
 25pt>
 File: Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png>
@@ -1717,14 +1717,14 @@ Package pdftex.def Info: Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png  used
 on input line 84. on input line 84.
 Package pdftex.def Info: Requested size: 426.7914pt x 450.68013pt on input line
  84.
-<Bilder/Datum.png, id=1346, 433.62pt x 361.35pt>
+<Bilder/Datum.png, id=1345, 433.62pt x 361.35pt>
 File: Bilder/Datum.png Graphic file (type png)
 <use Bilder/Datum.png>
 Package pdftex.def Info: Bilder/Datum.png  used on input line 91. on input line
  91.
 Package pdftex.def Info: Requested size: 213.39569pt x 177.82945pt on input lin
 e 91.
-<Bilder/datumkurz.png, id=1348, 433.62pt x 361.35pt>
+<Bilder/datumkurz.png, id=1347, 433.62pt x 361.35pt>
 File: Bilder/datumkurz.png Graphic file (type png)
 <use Bilder/datumkurz.png>
 Package pdftex.def Info: Bilder/datumkurz.png  used on input line 93. on input 
@@ -1736,7 +1736,7 @@ Overfull \hbox (10.4419pt too wide) in paragraph at lines 91--94
 [][] [][] 
  []
 
-<Bilder/Hist.pdf, id=1359, pagebox=cropbox, 361.35pt x 361.35pt>
+<Bilder/Hist.pdf, id=1358, pagebox=cropbox, 361.35pt x 361.35pt>
 File: Bilder/Hist.pdf Graphic file (type pdf)
 <use Bilder/Hist.pdf>
 Package pdftex.def Info: Bilder/Hist.pdf  used on input line 114. on input line
@@ -1759,10 +1759,9 @@ Overfull \hbox (2.28989pt too wide) in paragraph at lines 124--152
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [47 <./Bilder/Datum.png> <./Bilder/datumkurz.png>] [48 <./Bilder/Hist.pdf>]
-<Bilder/DatallInstruments.pdf, id=1426, pagebox=cropbox, 505.89pt x 505.89pt>
+<Bilder/DatallInstruments.pdf, id=1371, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DatallInstruments.pdf Graphic file (type pdf)
 <use Bilder/DatallInstruments.pdf>
 Package pdftex.def Info: Bilder/DatallInstruments.pdf  used on input line 161. 
@@ -1774,7 +1773,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--167
 
  []
 
-<Bilder/DiffDaytimeallInstruments.pdf, id=1428, pagebox=cropbox, 505.89pt x 505
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47 <./Bilder/Datum.png> <./Bilder/datumkurz.png>] [48 <./Bilder/Hist.pdf>]
+<Bilder/DiffDaytimeallInstruments.pdf, id=1427, pagebox=cropbox, 505.89pt x 505
 .89pt>
 File: Bilder/DiffDaytimeallInstruments.pdf Graphic file (type pdf)
 <use Bilder/DiffDaytimeallInstruments.pdf>
@@ -1908,7 +1911,7 @@ Overfull \hbox (2.28989pt too wide) in paragraph at lines 216--242
  [][] 
  []
 
-<Bilder/DiffTempallInstruments1.pdf, id=1554, pagebox=cropbox, 505.89pt x 505.8
+<Bilder/DiffTempallInstruments1.pdf, id=1553, pagebox=cropbox, 505.89pt x 505.8
 9pt>
 File: Bilder/DiffTempallInstruments1.pdf Graphic file (type pdf)
 <use Bilder/DiffTempallInstruments1.pdf>
@@ -1916,11 +1919,7 @@ Package pdftex.def Info: Bilder/DiffTempallInstruments1.pdf  used on input line
  255. on input line 255.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
 e 255.
-
-Underfull \vbox (badness 1983) has occurred while \output is active []
-
- [52]
-<Bilder/Simon/Bilder_Tung/D2J2140_Before.png, id=1564, 579.3645pt x 405.9165pt>
+<Bilder/Simon/Bilder_Tung/D2J2140_Before.png, id=1557, 579.3645pt x 405.9165pt>
 
 File: Bilder/Simon/Bilder_Tung/D2J2140_Before.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/D2J2140_Before.png>
@@ -1928,7 +1927,7 @@ Package pdftex.def Info: Bilder/Simon/Bilder_Tung/D2J2140_Before.png  used on i
 nput line 268. on input line 268.
 Package pdftex.def Info: Requested size: 209.13013pt x 146.52003pt on input lin
 e 268.
-<Bilder/Simon/Bilder_Tung/D2J2140_After.png, id=1565, 580.3281pt x 405.1938pt>
+<Bilder/Simon/Bilder_Tung/D2J2140_After.png, id=1558, 580.3281pt x 405.1938pt>
 File: Bilder/Simon/Bilder_Tung/D2J2140_After.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/D2J2140_After.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/D2J2140_After.png  used on in
@@ -2042,11 +2041,15 @@ Overfull \hbox (13.44496pt too wide) in paragraph at lines 260--351
 n/12 \OT1/cmr/m/n/12 10[][]$
  []
 
-[53] [54 <./Bilder/DiffTempallInstruments1.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+[53 <./Bilder/DiffTempallInstruments1.pdf>] [54]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/DiffColidxallInstruments.pdf, id=1600, pagebox=cropbox, 505.89pt x 505.
+<Bilder/DiffColidxallInstruments.pdf, id=1599, pagebox=cropbox, 505.89pt x 505.
 89pt>
 File: Bilder/DiffColidxallInstruments.pdf Graphic file (type pdf)
 <use Bilder/DiffColidxallInstruments.pdf>
@@ -2178,7 +2181,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--441
 
  []
 
-<Bilder/DiffElevAngleallInstruments.pdf, id=1684, pagebox=cropbox, 505.89pt x 5
+<Bilder/DiffElevAngleallInstruments.pdf, id=1683, pagebox=cropbox, 505.89pt x 5
 05.89pt>
 File: Bilder/DiffElevAngleallInstruments.pdf Graphic file (type pdf)
 <use Bilder/DiffElevAngleallInstruments.pdf>
@@ -2194,7 +2197,7 @@ Overfull \hbox (1.17752pt too wide) in paragraph at lines 483--483
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/DiffElevAngleKomischesInstr.pdf, id=1685, pagebox=cropbox, 505.89pt x 5
+<Bilder/DiffElevAngleKomischesInstr.pdf, id=1684, pagebox=cropbox, 505.89pt x 5
 05.89pt>
 File: Bilder/DiffElevAngleKomischesInstr.pdf Graphic file (type pdf)
 <use Bilder/DiffElevAngleKomischesInstr.pdf>
@@ -2209,7 +2212,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 512--518
 
 [58] [59 <./Bilder/DiffElevAngleallInstruments.pdf>] [60 <./Bilder/DiffElevAngl
 eKomischesInstr.pdf>]
-<Bilder/DiffExpTimeallInstruments.pdf, id=1808, pagebox=cropbox, 505.89pt x 505
+<Bilder/DiffExpTimeallInstruments.pdf, id=1807, pagebox=cropbox, 505.89pt x 505
 .89pt>
 File: Bilder/DiffExpTimeallInstruments.pdf Graphic file (type pdf)
 <use Bilder/DiffExpTimeallInstruments.pdf>
@@ -2221,10 +2224,6 @@ e 521.
 Overfull \hbox (1.17752pt too wide) in paragraph at lines 537--537
 []\T1/cmr/m/n/12 Correlation| 
  []
-
-[61] [62 <./Bilder/DiffExpTimeallInstruments.pdf>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \hbox (5.62384pt too wide) in paragraph at lines 556--556
@@ -2337,128 +2336,122 @@ Overfull \hbox (2.28989pt too wide) in paragraph at lines 554--580
  []
 
 
-Overfull \hbox (5.62384pt too wide) in paragraph at lines 593--593
+Overfull \hbox (5.62384pt too wide) in paragraph at lines 590--590
 []\T1/cmr/m/n/12 Instrument| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
 []\T1/cmr/m/n/12 36.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
 []\T1/cmr/m/n/12 112.9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 594--594
 []\T1/cmr/m/n/12 148.9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 594--594
 []\T1/cmr/m/n/12 217.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 []\T1/cmr/m/n/12 140.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 600--600
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\T1/cmr/m/n/12 22.35
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 598--598
 []\T1/cmr/m/n/12 50.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 []\T1/cmr/m/n/12 75.9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 600--600
 []\T1/cmr/m/n/12 82.1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--605
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
 []\T1/cmr/m/n/12 71.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 607--607
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
 []\T1/cmr/m/n/12 1$ $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
 []\T1/cmr/m/n/12 8$ $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--609
+Underfull \hbox (badness 10000) in paragraph at lines 606--606
 []\T1/cmr/m/n/12 12
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []\T1/cmr/m/n/12 3$ $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--612
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
 []\T1/cmr/m/n/12 6$ $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--615
+Underfull \hbox (badness 10000) in paragraph at lines 611--612
 []\T1/cmr/m/n/12 127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--616
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
 []\T1/cmr/m/n/12 212
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--617
+Underfull \hbox (badness 10000) in paragraph at lines 613--614
 []\T1/cmr/m/n/12 382
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--618
+Underfull \hbox (badness 10000) in paragraph at lines 614--615
 []\T1/cmr/m/n/12 398
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--619
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
 []\T1/cmr/m/n/12 283
  []
 
 
-Overfull \hbox (2.28989pt too wide) in paragraph at lines 591--622
+Overfull \hbox (2.28989pt too wide) in paragraph at lines 588--619
  [][] 
  []
 
+[61] [62 <./Bilder/DiffExpTimeallInstruments.pdf>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--625
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 585--625
-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 <"../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Difference
- in Temperature [C]_Tungu".png, id=1881, 505.89pt x 433.62pt>
+ in Temperature [C]_Tungu".png, id=1880, 505.89pt x 433.62pt>
 File: "../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Diffe
 rence in Temperature [C]_Tungu".png Graphic file (type png)
 <use "../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Differ
@@ -2468,7 +2461,7 @@ ure Time [ms]_Difference in Temperature [C]_Tungu".png  used on input line 465.
  on input line 465.
 Package pdftex.def Info: Requested size: 298.75267pt x 256.07838pt on input lin
 e 465.
-<Bilder/varCorrelation_matrix.pdf, id=1882, pagebox=cropbox, 455.7025pt x 426.5
+<Bilder/varCorrelation_matrix.pdf, id=1881, pagebox=cropbox, 455.7025pt x 426.5
 9375pt>
 File: Bilder/varCorrelation_matrix.pdf Graphic file (type pdf)
 <use Bilder/varCorrelation_matrix.pdf>
@@ -2476,62 +2469,58 @@ Package pdftex.def Info: Bilder/varCorrelation_matrix.pdf  used on input line 4
 71. on input line 471.
 Package pdftex.def Info: Requested size: 426.7914pt x 399.54008pt on input line
  471.
-<Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstruments.pdf, id=1902, pagebox
+<Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstruments.pdf, id=1901, pagebox
 =cropbox, 505.89pt x 505.89pt>
 File: Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstruments.pdf Graphic file
  (type pdf)
 <use Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstrumen
-ts.pdf  used on input line 491. on input line 491.
-Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 491.
-<Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf, id=1903,
- pagebox=cropbox, 505.89pt x 505.89pt>
-File: Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf Grap
-hic file (type pdf)
-<use Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf>
-Package pdftex.def Info: Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallI
-nstruments.pdf  used on input line 497. on input line 497.
-Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 497.
-<Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf, id=1904, 
-pagebox=cropbox, 505.89pt x 505.89pt>
-File: Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf Graph
-ic file (type pdf)
-<use Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf>
-Package pdftex.def Info: Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallIn
-struments.pdf  used on input line 503. on input line 503.
-Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 503.
-<Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOtherparamallInstruments.pdf, id=1905,
+ts.pdf  used on input line 493. on input line 493.
+Package pdftex.def Info: Requested size: 213.39569pt x 213.39865pt on input lin
+e 493.
+<Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOtherparamallInstruments.pdf, id=1902,
  pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOtherparamallInstruments.pdf Grap
 hic file (type pdf)
 <use Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOtherparamallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOtherparamallI
-nstruments.pdf  used on input line 509. on input line 509.
-Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 509.
+nstruments.pdf  used on input line 499. on input line 499.
+Package pdftex.def Info: Requested size: 213.39569pt x 213.39865pt on input lin
+e 499.
+<Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf, id=1903, 
+pagebox=cropbox, 505.89pt x 505.89pt>
+File: Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf Graph
+ic file (type pdf)
+<use Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf>
+Package pdftex.def Info: Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallIn
+struments.pdf  used on input line 506. on input line 506.
+Package pdftex.def Info: Requested size: 213.39569pt x 213.39865pt on input lin
+e 506.
+<Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf, id=1904,
+ pagebox=cropbox, 505.89pt x 505.89pt>
+File: Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf Grap
+hic file (type pdf)
+<use Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf>
+Package pdftex.def Info: Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallI
+nstruments.pdf  used on input line 512. on input line 512.
+Package pdftex.def Info: Requested size: 213.39569pt x 213.39865pt on input lin
+e 512.
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--514
+Underfull \hbox (badness 10000) in paragraph at lines 460--516
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--514
+Underfull \hbox (badness 10000) in paragraph at lines 460--516
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63]
-[64] [65]
+[63] [64] [65]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [66 <../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Differe
-nce in Temperature [C]_Tungu.png>] [67]
+nce in Temperature [C]_Tungu.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2546,124 +2535,146 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@cee' on input line 555.
+(hyperref)                removing `\mhchem@cee' on input line 559.
 
 <"Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_6_02_18_DiffTemperatu
-re [C]_BrO".pdf, id=1940, pagebox=cropbox, 722.7pt x 433.62pt>
+re [C]_BrO".pdf, id=1932, pagebox=cropbox, 722.7pt x 433.62pt>
 File: "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_6_02_18_DiffTemp
 erature [C]_BrO".pdf Graphic file (type pdf)
 <use "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_6_02_18_DiffTempe
 rature [C]_BrO".pdf>
 Package pdftex.def Info: "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140
-_0_6_02_18_DiffTemperature [C]_BrO".pdf  used on input line 559. on input line 
-559.
+_0_6_02_18_DiffTemperature [C]_BrO".pdf  used on input line 563. on input line 
+563.
 Package pdftex.def Info: Requested size: 213.39569pt x 128.03589pt on input lin
-e 559.
+e 563.
 <"Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_plumeat12Temperature 
-[C]_BrO_TemporalDiff".pdf, id=1941, pagebox=cropbox, 722.7pt x 433.62pt>
+[C]_BrO_TemporalDiff".pdf, id=1933, pagebox=cropbox, 722.7pt x 433.62pt>
 File: "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_plumeat12Tempera
 ture [C]_BrO_TemporalDiff".pdf Graphic file (type pdf)
 <use "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_plumeat12Temperat
 ure [C]_BrO_TemporalDiff".pdf>
 Package pdftex.def Info: "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140
-_0_plumeat12Temperature [C]_BrO_TemporalDiff".pdf  used on input line 560. on i
-nput line 560.
+_0_plumeat12Temperature [C]_BrO_TemporalDiff".pdf  used on input line 564. on i
+nput line 564.
 Package pdftex.def Info: Requested size: 213.39569pt x 128.03589pt on input lin
-e 560.
+e 564.
 
-Overfull \hbox (6.52618pt too wide) in paragraph at lines 559--561
+Overfull \hbox (6.52618pt too wide) in paragraph at lines 563--565
 [][] [][] 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
 <Bilder/BrOVariables/DatBrOallInstruments.pdf, id=1950, pagebox=cropbox, 505.89
 pt x 505.89pt>
 File: Bilder/BrOVariables/DatBrOallInstruments.pdf Graphic file (type pdf)
 <use Bilder/BrOVariables/DatBrOallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOVariables/DatBrOallInstruments.pdf  used on 
-input line 602. on input line 602.
+input line 615. on input line 615.
 Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 602.
-<Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf, id=1951, pagebox=cropbox,
- 505.89pt x 505.89pt>
-File: Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf Graphic file (type pd
-f)
-<use Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf>
-Package pdftex.def Info: Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf  u
-sed on input line 605. on input line 605.
-Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 605.
-<Bilder/BrOVariables/DiffDaytimeBrOallInstruments.pdf, id=1952, pagebox=cropbox
+e 615.
+<Bilder/BrOVariables/DiffDaytimeBrOallInstruments.pdf, id=1951, pagebox=cropbox
 , 505.89pt x 505.89pt>
 File: Bilder/BrOVariables/DiffDaytimeBrOallInstruments.pdf Graphic file (type p
 df)
 <use Bilder/BrOVariables/DiffDaytimeBrOallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOVariables/DiffDaytimeBrOallInstruments.pdf  
-used on input line 608. on input line 608.
+used on input line 618. on input line 618.
 Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 608.
-<Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf, id=1953, pagebox=cropb
-ox, 505.89pt x 505.89pt>
-File: Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf Graphic file (type
- pdf)
-<use Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf>
-Package pdftex.def Info: Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf
-  used on input line 611. on input line 611.
-Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 611.
-<Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf, id=1954, pagebox=cropbox
-, 505.89pt x 505.89pt>
-File: Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf Graphic file (type p
-df)
-<use Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf>
-Package pdftex.def Info: Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf  
-used on input line 614. on input line 614.
-Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 614.
-<Bilder/BrOVariables/DiffTempBrOallInstruments.pdf, id=1955, pagebox=cropbox, 5
+e 618.
+<Bilder/BrOVariables/DiffTempBrOallInstruments.pdf, id=1952, pagebox=cropbox, 5
 05.89pt x 505.89pt>
 File: Bilder/BrOVariables/DiffTempBrOallInstruments.pdf Graphic file (type pdf)
 
 <use Bilder/BrOVariables/DiffTempBrOallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOVariables/DiffTempBrOallInstruments.pdf  use
-d on input line 616. on input line 616.
+d on input line 620. on input line 620.
 Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 616.
+e 620.
+<Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf, id=1953, pagebox=cropbox,
+ 505.89pt x 505.89pt>
+File: Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf Graphic file (type pd
+f)
+<use Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf>
+Package pdftex.def Info: Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf  u
+sed on input line 623. on input line 623.
+Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
+e 623.
+<Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf, id=1954, pagebox=cropb
+ox, 505.89pt x 505.89pt>
+File: Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf Graphic file (type
+ pdf)
+<use Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf>
+Package pdftex.def Info: Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf
+  used on input line 626. on input line 626.
+Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
+e 626.
+<Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf, id=1955, pagebox=cropbox
+, 505.89pt x 505.89pt>
+File: Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf Graphic file (type p
+df)
+<use Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf>
+Package pdftex.def Info: Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf  
+used on input line 629. on input line 629.
+Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
+e 629.
 
-Underfull \hbox (badness 7047) in paragraph at lines 602--617
+Overfull \hbox (6.26465pt too wide) in paragraph at lines 615--630
 [][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--617
+Overfull \hbox (1.6963pt too wide) in paragraph at lines 615--630
 [][] [][]
  []
 
 
-LaTeX Warning: Float too large for page by 30.16405pt on input line 619.
+Overfull \hbox (3.51186pt too wide) in paragraph at lines 615--630
+[][] [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 21.66258pt on input line 632.
 
 [68] [69 <./Bilder/varCorrelation_matrix.pdf>] [70 <./Bilder/BrOErr_OhnEVar/Dat
-withoutOtherparamallInstruments.pdf>] [71 <./Bilder/BrOErr_OhnEVar/DiffExpTimew
-ithoutOtherparamallInstruments.pdf>] [72 <./Bilder/BrOErr_OhnEVar/DiffColidxwit
-houtOtherparamallInstruments.pdf>] [73 <./Bilder/BrOErr_OhnEVar/DiffDaytimewith
-outOtherparamallInstruments.pdf>] [74 <./Bilder/OnePlumeMoreRefs_plumedate_0812
-03_1646/D2J2140_0_6_02_18_DiffTemperature [C]_BrO.pdf> <./Bilder/OnePlumeMoreRe
-fs_plumedate_081203_1646/D2J2140_0_plumeat12Temperature [C]_BrO_TemporalDiff.pd
-f
+withoutOtherparamallInstruments.pdf> <./Bilder/BrOErr_OhnEVar/DiffDaytimewithou
+tOtherparamallInstruments.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOt
+herparamallInstruments.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
+>] [71 <./Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf> 
+<./Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOt
+herparamallInstruments.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
+>] [72 <./Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_6_02_18_DiffT
+emperature [C]_BrO.pdf> <./Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J214
+0_0_plumeat12Temperature [C]_BrO_TemporalDiff.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/OnePlumeMoreRefs_plumedate_081203_1
 646/D2J2140_0_plumeat12Temperature [C]_BrO_TemporalDiff.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
->] [75 <./Bilder/BrOVariables/DatBrOallInstruments.pdf> <./Bilder/BrOVariables/
-DiffColidxBrOallInstruments.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Bilder/BrOVariables/DiffColidxBrOallInstru
-ments.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
-> <./Bilder/BrOVariables/DiffDaytimeBrOallInstruments.pdf
+>] [73 <./Bilder/BrOVariables/DatBrOallInstruments.pdf> <./Bilder/BrOVariables/
+DiffDaytimeBrOallInstruments.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/BrOVariables/DiffDaytimeBrOallInstr
 uments.pdf): PDF inclusion: multiple pdfs with page group included in a single 
 page
+> <./Bilder/BrOVariables/DiffTempBrOallInstruments.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/BrOVariables/DiffTempBrOallInstrume
+nts.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/BrOVariables/DiffColidxBrOallInstru
+ments.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
 > <./Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/BrOVariables/DiffElevAngleBrOallIns
@@ -2674,257 +2685,258 @@ e page
 pdfTeX warning: pdflatex.exe (file ./Bilder/BrOVariables/DiffExpTimeBrOallInstr
 uments.pdf): PDF inclusion: multiple pdfs with page group included in a single 
 page
-> <./Bilder/BrOVariables/DiffTempBrOallInstruments.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Bilder/BrOVariables/DiffTempBrOallInstrume
-nts.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->] [76
+>] [74
 
 ]
 chapter 7.
-<Bilder/Cont.pdf, id=2637, pagebox=cropbox, 597.23125pt x 361.35pt>
+<Bilder/Cont.pdf, id=2627, pagebox=cropbox, 597.23125pt x 361.35pt>
 File: Bilder/Cont.pdf Graphic file (type pdf)
 <use Bilder/Cont.pdf>
-Package pdftex.def Info: Bilder/Cont.pdf  used on input line 635. on input line
- 635.
+Package pdftex.def Info: Bilder/Cont.pdf  used on input line 648. on input line
+ 648.
 Package pdftex.def Info: Requested size: 298.75267pt x 180.75726pt on input lin
-e 635.
+e 648.
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--639
+Underfull \hbox (badness 10000) in paragraph at lines 642--652
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 641.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 654.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 641.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 654.
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--670
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 655--670
+Underfull \hbox (badness 10000) in paragraph at lines 668--683
 
  []
 
-[77
+
+Underfull \hbox (badness 10000) in paragraph at lines 668--683
+
+ []
+
+[75
 
 ]
 Underfull \vbox (badness 2359) has occurred while \output is active []
 
- [78 <./Bilder/Cont.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 672--677
+ [76 <./Bilder/Cont.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 685--690
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--683
+Underfull \hbox (badness 10000) in paragraph at lines 693--696
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 693--693
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []\T1/cmr/m/n/12 Mean -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 693--694
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
 []\T1/cmr/m/n/12 Highest -
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<"Bilder/WelcheEP/Nevado Del Ruiz".pdf, id=2668, pagebox=cropbox, 433.62pt x 43
+<"Bilder/WelcheEP/Nevado Del Ruiz".pdf, id=2658, pagebox=cropbox, 433.62pt x 43
 3.62pt>
 File: "Bilder/WelcheEP/Nevado Del Ruiz".pdf Graphic file (type pdf)
 <use "Bilder/WelcheEP/Nevado Del Ruiz".pdf>
 Package pdftex.def Info: "Bilder/WelcheEP/Nevado Del Ruiz".pdf  used on input l
-ine 714. on input line 714.
+ine 727. on input line 727.
 Package pdftex.def Info: Requested size: 213.39569pt x 213.39536pt on input lin
-e 714.
-<Bilder/WelcheEP/Tungurahua.pdf, id=2669, pagebox=cropbox, 433.62pt x 433.62pt>
+e 727.
+<Bilder/WelcheEP/Tungurahua.pdf, id=2659, pagebox=cropbox, 433.62pt x 433.62pt>
 
 File: Bilder/WelcheEP/Tungurahua.pdf Graphic file (type pdf)
 <use Bilder/WelcheEP/Tungurahua.pdf>
-Package pdftex.def Info: Bilder/WelcheEP/Tungurahua.pdf  used on input line 716
-. on input line 716.
+Package pdftex.def Info: Bilder/WelcheEP/Tungurahua.pdf  used on input line 729
+. on input line 729.
 Package pdftex.def Info: Requested size: 213.39569pt x 213.39536pt on input lin
-e 716.
+e 729.
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 714--717
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 727--730
 [][] [][] 
  []
 
-[79] [80 <./Bilder/WelcheEP/Nevado Del Ruiz.pdf> <./Bilder/WelcheEP/Tungurahua.
+[77] [78 <./Bilder/WelcheEP/Nevado Del Ruiz.pdf> <./Bilder/WelcheEP/Tungurahua.
 pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/WelcheEP/Tungurahua.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
-
-LaTeX Warning: Reference `fig:I2J8548' on page 1 undefined on input line 727.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 724--728
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 730--731
-
- []
-
-
-Underfull \hbox (badness 2547) in paragraph at lines 803--803
+Underfull \hbox (badness 2547) in paragraph at lines 813--813
 []\T1/cmr/m/n/10 (d) Data of Nevado Del
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 850--850
+Underfull \hbox (badness 1762) in paragraph at lines 860--860
 []\T1/cmr/m/n/10 (b) Data of Tun-gu-rahua
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--865
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 []\T1/cmr/m/n/10 (c) Data of Tun-gu-rahua
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 880--880
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
 []\T1/cmr/m/n/10 (d) Data of Tun-gu-rahua
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--907
+Underfull \hbox (badness 10000) in paragraph at lines 737--927
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--927
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--927
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[81] [82] [83] [84] [85]
+[79] [80] [81] [82] [83] [84]
 chapter 8.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1026--1031
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1026--1031
-
- []
-
-<Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf, id=2828, pagebox=cropbox, 5
+<Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf, id=2821, pagebox=cropbox, 5
 05.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf Graphic file (type pdf)
 
 <use Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf  use
-d on input line 1034. on input line 1034.
+d on input line 1047. on input line 1047.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1034.
-<Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf, id=2829, pagebox=cropbox, 505
+e 1047.
+<Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf, id=2822, pagebox=cropbox, 505
 .89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf Graphic file (type pdf)
 <use Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf  used 
-on input line 1036. on input line 1036.
+on input line 1049. on input line 1049.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1036.
-<Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf, id=2830, pagebox=cropbox, 5
+e 1049.
+<Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf, id=2823, pagebox=cropbox, 5
 05.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf Graphic file (type pdf)
 
 <use Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf  use
-d on input line 1038. on input line 1038.
+d on input line 1051. on input line 1051.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1038.
-<Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf, id=2831, pagebox=cropbox, 505
+e 1051.
+<Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf, id=2824, pagebox=cropbox, 505
 .89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf Graphic file (type pdf)
 <use Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf  used 
-on input line 1040. on input line 1040.
+on input line 1053. on input line 1053.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1040.
+e 1053.
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 1034--1041
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 1047--1054
 [][] [][]
  []
 
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 1034--1041
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 1047--1054
 [][] [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf, id=2832, pagebox=cropbox,
+<Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf, id=2825, pagebox=cropbox,
  505.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf Graphic file (type pd
 f)
 <use Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf  u
-sed on input line 1047. on input line 1047.
+sed on input line 1060. on input line 1060.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1047.
-<Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf, id=2833, pagebox=cropbox, 5
+e 1060.
+<Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf, id=2826, pagebox=cropbox, 5
 05.89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf Graphic file (type pdf)
 
 <use Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf  use
-d on input line 1049. on input line 1049.
+d on input line 1062. on input line 1062.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1049.
-<Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.pdf, id=2834, pagebox=cro
+e 1062.
+<Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.pdf, id=2827, pagebox=cro
 pbox, 505.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.pdf Graphic file (ty
 pe pdf)
 <use Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.p
-df  used on input line 1051. on input line 1051.
+df  used on input line 1064. on input line 1064.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1051.
-<Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf, id=2835, pagebox=cropb
+e 1064.
+<Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf, id=2828, pagebox=cropb
 ox, 505.89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf Graphic file (type
  pdf)
 <use Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf
-  used on input line 1053. on input line 1053.
+  used on input line 1066. on input line 1066.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1053.
+e 1066.
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 1047--1055
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 1060--1068
 [][] [][]
  []
 
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 1047--1055
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 1060--1068
 [][] [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1080
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1080
+
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 1609) has occurred while \output is active []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- [86
+
+Underfull \vbox (badness 3460) has occurred while \output is active []
+
+ [85
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1104
+[]\T1/cmr/m/n/12 Contbased: above
+ []
+
+
+Overfull \hbox (51.91563pt too wide) in paragraph at lines 1104--1105
+[][] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87 <./Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf> <./Bilder/NevadoDelR
+ [86 <./Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf> <./Bilder/NevadoDelR
 uiz_Pic/so2_novac_conbased.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/NevadoDelRuiz_Pic/so2_novac_conbase
@@ -2939,29 +2951,16 @@ e
 pdfTeX warning: pdflatex.exe (file ./Bilder/NevadoDelRuiz_Pic/bro_novac_conbase
 d.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 1091--1091
-[]\T1/cmr/m/n/12 Contbased: above
- []
-
-
-Overfull \hbox (51.91563pt too wide) in paragraph at lines 1091--1092
-[][] 
- []
-
-
-LaTeX Warning: Reference `tab:calc' on page 88 undefined on input line 1103.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1109
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1122
 
  []
 
-[88]
-Underfull \hbox (badness 10000) in paragraph at lines 1120--1126
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1139
 
  []
 
-[89] [90 <./Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf> <./Bilder/Neva
+[88] [89 <./Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf> <./Bilder/Neva
 doDelRuiz_Pic/ratio_novac_conbased.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/NevadoDelRuiz_Pic/ratio_novac_conba
@@ -2980,132 +2979,132 @@ e page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@cee' on input line 1143.
+(hyperref)                removing `\mhchem@cee' on input line 1156.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1145--1146
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1159
 
  []
 
-<Bilder/tung_so2_novac_sametime.pdf, id=3195, pagebox=cropbox, 867.24pt x 361.3
+<Bilder/tung_so2_novac_sametime.pdf, id=3190, pagebox=cropbox, 867.24pt x 361.3
 5pt>
 File: Bilder/tung_so2_novac_sametime.pdf Graphic file (type pdf)
 <use Bilder/tung_so2_novac_sametime.pdf>
 Package pdftex.def Info: Bilder/tung_so2_novac_sametime.pdf  used on input line
- 1160. on input line 1160.
+ 1173. on input line 1173.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1160.
-<Bilder/tung_bro_sametime.pdf, id=3196, pagebox=cropbox, 867.24pt x 361.35pt>
+ 1173.
+<Bilder/tung_bro_sametime.pdf, id=3191, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/tung_bro_sametime.pdf Graphic file (type pdf)
 <use Bilder/tung_bro_sametime.pdf>
-Package pdftex.def Info: Bilder/tung_bro_sametime.pdf  used on input line 1162.
- on input line 1162.
+Package pdftex.def Info: Bilder/tung_bro_sametime.pdf  used on input line 1175.
+ on input line 1175.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1162.
-<Bilder/tung_rat_sametime.pdf, id=3197, pagebox=cropbox, 867.24pt x 361.35pt>
+ 1175.
+<Bilder/tung_rat_sametime.pdf, id=3192, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/tung_rat_sametime.pdf Graphic file (type pdf)
 <use Bilder/tung_rat_sametime.pdf>
-Package pdftex.def Info: Bilder/tung_rat_sametime.pdf  used on input line 1164.
- on input line 1164.
+Package pdftex.def Info: Bilder/tung_rat_sametime.pdf  used on input line 1177.
+ on input line 1177.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1164.
+ 1177.
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1160--1165
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1173--1178
  [][] 
  []
 
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1160--1165
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1173--1178
  [][] 
  []
 
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1160--1165
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1173--1178
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 8.48834pt on input line 1168.
+LaTeX Warning: Float too large for page by 8.48834pt on input line 1181.
 
-<Bilder/ndr_so2_novac_sametime.pdf, id=3198, pagebox=cropbox, 867.24pt x 361.35
+<Bilder/ndr_so2_novac_sametime.pdf, id=3193, pagebox=cropbox, 867.24pt x 361.35
 pt>
 File: Bilder/ndr_so2_novac_sametime.pdf Graphic file (type pdf)
 <use Bilder/ndr_so2_novac_sametime.pdf>
 Package pdftex.def Info: Bilder/ndr_so2_novac_sametime.pdf  used on input line 
-1172. on input line 1172.
+1185. on input line 1185.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1172.
-<Bilder/ndr_bro_sametime.pdf, id=3199, pagebox=cropbox, 867.24pt x 361.35pt>
+ 1185.
+<Bilder/ndr_bro_sametime.pdf, id=3194, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/ndr_bro_sametime.pdf Graphic file (type pdf)
 <use Bilder/ndr_bro_sametime.pdf>
-Package pdftex.def Info: Bilder/ndr_bro_sametime.pdf  used on input line 1174. 
-on input line 1174.
+Package pdftex.def Info: Bilder/ndr_bro_sametime.pdf  used on input line 1187. 
+on input line 1187.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1174.
-<Bilder/ndr_rat_sametime.pdf, id=3200, pagebox=cropbox, 867.24pt x 361.35pt>
+ 1187.
+<Bilder/ndr_rat_sametime.pdf, id=3195, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/ndr_rat_sametime.pdf Graphic file (type pdf)
 <use Bilder/ndr_rat_sametime.pdf>
-Package pdftex.def Info: Bilder/ndr_rat_sametime.pdf  used on input line 1176. 
-on input line 1176.
+Package pdftex.def Info: Bilder/ndr_rat_sametime.pdf  used on input line 1189. 
+on input line 1189.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1176.
+ 1189.
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1172--1177
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1185--1190
  [][] 
  []
 
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1172--1177
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1185--1190
  [][] 
  []
 
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1172--1177
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1185--1190
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 51.98834pt on input line 1179.
+LaTeX Warning: Float too large for page by 51.98834pt on input line 1192.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1182--1185
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1198
 
  []
 
-<Bilder/dailymeansNevadoDelRuiz.pdf, id=3207, pagebox=cropbox, 505.89pt x 361.3
+<Bilder/dailymeansNevadoDelRuiz.pdf, id=3202, pagebox=cropbox, 505.89pt x 361.3
 5pt>
 File: Bilder/dailymeansNevadoDelRuiz.pdf Graphic file (type pdf)
 <use Bilder/dailymeansNevadoDelRuiz.pdf>
 Package pdftex.def Info: Bilder/dailymeansNevadoDelRuiz.pdf  used on input line
- 1194. on input line 1194.
+ 1207. on input line 1207.
 Package pdftex.def Info: Requested size: 213.39569pt x 152.42761pt on input lin
-e 1194.
-<Bilder/dailymeanstungurahua.pdf, id=3208, pagebox=cropbox, 505.89pt x 361.35pt
+e 1207.
+<Bilder/dailymeanstungurahua.pdf, id=3203, pagebox=cropbox, 505.89pt x 361.35pt
 >
 File: Bilder/dailymeanstungurahua.pdf Graphic file (type pdf)
 <use Bilder/dailymeanstungurahua.pdf>
-Package pdftex.def Info: Bilder/dailymeanstungurahua.pdf  used on input line 11
-96. on input line 1196.
+Package pdftex.def Info: Bilder/dailymeanstungurahua.pdf  used on input line 12
+09. on input line 1209.
 Package pdftex.def Info: Requested size: 213.39569pt x 152.42761pt on input lin
-e 1196.
+e 1209.
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 1194--1198
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 1207--1211
 [][] [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1203--1205
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1206--1209
+Underfull \hbox (badness 10000) in paragraph at lines 1219--1222
 
  []
 
-[91
+[90
 
-] [92 <./Bilder/tung_so2_novac_sametime.pdf> <./Bilder/tung_bro_sametime.pdf
+] [91 <./Bilder/tung_so2_novac_sametime.pdf> <./Bilder/tung_bro_sametime.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/tung_bro_sametime.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
@@ -3113,7 +3112,7 @@ on: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/tung_rat_sametime.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->] [93 <./Bilder/ndr_so2_novac_sametime.pdf> <./Bilder/ndr_bro_sametime.pdf
+>] [92 <./Bilder/ndr_so2_novac_sametime.pdf> <./Bilder/ndr_bro_sametime.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/ndr_bro_sametime.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -3122,30 +3121,34 @@ n: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./Bilder/ndr_rat_sametime.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
+<Bilder/bro_contdaytime.png, id=3484, 505.89pt x 361.35pt>
+File: Bilder/bro_contdaytime.png Graphic file (type png)
+<use Bilder/bro_contdaytime.png>
+Package pdftex.def Info: Bilder/bro_contdaytime.png  used on input line 1257. o
+n input line 1257.
+Package pdftex.def Info: Requested size: 256.07744pt x 182.91313pt on input lin
+e 1257.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94 <./Bilder/dailymeansNevadoDelRuiz.pdf> <./Bilder/dailymeanstungurahua.pdf
+ [93 <./Bilder/dailymeansNevadoDelRuiz.pdf> <./Bilder/dailymeanstungurahua.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/dailymeanstungurahua.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->] [95]
+>] [94 <./Bilder/bro_contdaytime.png>] [95]
 chapter 9.
+[96
 
-Underfull \hbox (badness 10000) in paragraph at lines 1261--1276
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1296--1302
 
  []
 
-
-Underfull \vbox (badness 3460) has occurred while \output is active []
-
- [96
-
-]
 [97]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1285.
+(scrkbase)              on input line 1310.
 [98
 
 ]
@@ -3161,15 +3164,15 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              inconsistent.
 (scrreprt)              Because of this, you should remove `\end{appendix}'
 (scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 1286.
+(scrreprt)              `\appendix' on input line 1311.
 
 
 LaTeX Warning: Reference `fig:correlationmatrix' on page 1 undefined on input l
-ine 1288.
+ine 1313.
 
 
 LaTeX Warning: Reference `fig:correlationmatrix' on page 1 undefined on input l
-ine 1288.
+ine 1313.
 
 [99]
 chapter A.
@@ -3206,26 +3209,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [104]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105])
+ [105]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106])
 \tf@lof=\write5
 \openout5 = `Wilken_Elsa_MasterThesis.lof'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [106]
 (Wilken_Elsa_MasterThesis.lot
-Underfull \vbox (badness 7433) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [107]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [108])
+[108])
 \tf@lot=\write6
 \openout6 = `Wilken_Elsa_MasterThesis.lot'.
 
+ (Wilken_Elsa_MasterThesis.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(Wilken_Elsa_MasterThesis.bbl [109]
+ [109]
+[110]
 chapter B.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 10.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
@@ -3269,39 +3273,39 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[110
+[111
 
-] [111] [112] [113]) [114]
+] [112] [113] [114]) [115]
 \openout2 = `deposition.aux'.
 
- (deposition.tex) [115
+ (deposition.tex) [116
 
 ]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1349.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1349.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1374.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1374.
 (Wilken_Elsa_MasterThesis.aux (titlepages-eng.aux) (abstracts.aux)
 (deposition.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1349.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1349.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1374.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1374.
 
 Package rerunfilecheck Info: File `Wilken_Elsa_MasterThesis.out' has not change
 d.
-(rerunfilecheck)             Checksum: 7F6A0AC940632FEA012C50FF6188EC0A;3266.
+(rerunfilecheck)             Checksum: B432DB6DA07E2305E742025263942FB8;3268.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1349.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1374.
  ) 
 Here is how much of TeX's memory you used:
- 21774 strings out of 493312
- 410372 string characters out of 3138883
- 632712 words of memory out of 3000000
- 24558 multiletter control sequences out of 15000+200000
- 562289 words of font info for 98 fonts, out of 3000000 for 9000
+ 21788 strings out of 493312
+ 410652 string characters out of 3138883
+ 633248 words of memory out of 3000000
+ 24563 multiletter control sequences out of 15000+200000
+ 563063 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,20n,80p,10387b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
@@ -3313,40 +3317,41 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
  <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
 00\ecti1200.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
 knappen\ec\dpi600\ectt1200.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fo
-nts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\Novac_Eval\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Novac_Ev
-al\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:
+nts\pk\ljfour\jknappen\ec\dpi600\ecsx1000.pk> <C:\Users\Novac_Eval\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\Novac_Ev
+al\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:
 \Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-csx2488.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecrm1200.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\Novac_Eval\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk> <C:\Users\Novac_Eval\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Use
-rs\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
-095.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecbx0800.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\Novac_Eval\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1728.pk> <C:\Users\N
-ovac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.
+cbx1200.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecsx2488.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Novac_Eval\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\Novac_Eval\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk> <C:\Use
+rs\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0
+800.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm1095.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecbx0800.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Novac_Eval\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\N
+ovac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1728.
 pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\ecss1440.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecss1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
->
-Output written on Wilken_Elsa_MasterThesis.pdf (115 pages, 7399598 bytes).
+pi600\ecrm1440.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecss1440.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1728.pk><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb>
+Output written on Wilken_Elsa_MasterThesis.pdf (116 pages, 7423011 bytes).
 PDF statistics:
- 4951 PDF objects out of 5155 (max. 8388607)
- 406 named destinations out of 1000 (max. 500000)
- 734 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4968 PDF objects out of 5155 (max. 8388607)
+ 413 named destinations out of 1000 (max. 500000)
+ 739 words of extra memory for PDF output out of 10000 (max. 10000000)
 

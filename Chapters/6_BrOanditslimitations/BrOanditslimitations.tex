@@ -27,7 +27,7 @@ The amount of gas free alternative references is around 1500 per year. To make a
 Every spectrum is recorded under particular/unique ambient conditions. These measuring conditions generally are not equal for different scans. In our study, we show that references for which the surrounding conditions e.g temperature or cloudiness are equivalent with the surrounding conditions of the  plume measuring lead to a small error.\\
 %
 \subsubsection*{Data used for the analysis}
-I evaluate a fixed plume spectrum using more than 1000 recorded multi add reference spectra in order to find the optimal reference spectrum. This evaluation is performed for more than 1000 multi add plume spectra in order to obtain a high statistical significance. Thus 1000 recorded "multi add" spectra result in $1000^2$ possible plume reference pairs and the coelrresponding differences in the external parameter and their associated \ce{BrO} error. 
+I evaluate a fixed plume spectrum using more than 1000 recorded multi add reference spectra in order to find the optimal reference spectrum. This evaluation is performed for more than 1000 multi add plume spectra in order to obtain a high statistical significance. Thus 1000 recorded multi add spectra result in $1000^2$ possible plume reference pairs and the corresponding differences in the external parameter and their associated \ce{BrO} error. 
 
 
 \section{Influence of ambient conditions on the measurement \label{Chap:BROErr}}
@@ -43,7 +43,7 @@ The ambient conditions that are considered in this thesis are:
 		Temporal difference &Temporal difference between measuring the plume and the reference.\\
 		Daytime & Time of the day, and thus a measure of solar altitude.\\
 		Temperature& The temperature of the instrument while recording the spectra.\\
-		Colorindex&Ratio of two intensities at different wavelength as a measure for the cloudiness of the sky.\\
+		Colour index&Ratio of two intensities at different wavelength as a measure for the cloudiness of the sky.\\
 		Exposure time& Length of time the sensor of the NOVAC instrument is exposed to light.\\
 		Elevation angle& Orientation of the instrument relative to the zenith, which corresponds to an elevation angle of zero degree.\\
 		\label{tab:externalparametters}
@@ -55,10 +55,10 @@ The ambient conditions that are considered in this thesis are:
 
 \subsection{Strategy}
 
-The external parameters described in \Cref{tab:externalparametters} are analyzed one by one in the following sections. Hereby I will proceed as follows:
+The external parameters described above are analysed one by one in the following sections. Hereby I will proceed as follows:
 A first step is to define a maximal temporal difference to prevent too large computational time.\\
-The BrO measurement error as a function of the difference in the specific external parameter between the reference spectrum and the plume spectrum is shown for each of the individual instruments at Tungurahua and Nevado Del Ruiz. 
-To quantify the dependency between the BrO retrieval error and the external parameter, the data are fitted with a first order polynomial for each of the individual instruments at Tungurahua and Nevado Del Ruiz. Hereby only the absolute differences were used. For every external parameter the fitting parameters slope and zero point are calculated.\\
+The BrO measurement error as a function of the difference in the specific external parameter between the reference spectrum and the plume spectrum is shown for each of the individual instruments at Tungurahua and Nevado del Ruiz. 
+To quantify the dependency between the BrO retrieval error and the external parameter, the data are fitted with a first order polynomial for each of the individual instruments at Tungurahua and Nevado del Ruiz. Hereby only the absolute differences were used. For every external parameter the fitting parameters slope and intercept are calculated.\\
 Moreover, the correlation\footnote{See site \pageref{ff}}  between the BrO error and the absolute difference in the specific external parameter is calculated. If the BrO retrieval increases with increasing differences in surrounding condition between the plume spectra and the reference spectra, the difference, where the BrO retrieval error ($Mean(\Delta EP_{2})$)\footnote{EP: placeholder for any external parameter} is twice as high as for no difference is also calculated.\\  
 Differences in external parameters can lead to large uncertainties in the retrieval, thus we analyze the amount of data possible references, if only data with differences smaller than ($Mean(\Delta EP_{2})$) in the specific external parameter are used. 
 The advantage of restricting the accepted difference between the plume and the reference spectrum is a better control of the choice of the best reference. The disadvantage is that the amount of possible references decreases. Thus, it could occur that a reference is dismissed, which has a large difference in one parameter but is very similar in the remaining parameters.\\
@@ -96,15 +96,15 @@ The Mean, the corresponding standard deviation as well as the minimum and the ma
 \end{figure}
 %
 
-Due to instrument change with time the fit quality decreases with the time difference between recording the plume and the reference. This could a result of the same changes which lead to the wavelength shift over time observed by \citet{WarnachSimon}.  \citet{WarnachSimon} suggests that the drift is caused by a hysteresis effect. \Cref{fig:driftkomplettnew} shows the wavelength shift as a function of the time for six NOVAC instruments located at Tungurahua in the time between 2008 to 2014. In this thesis for the analysis data of Tungurahua between 2008 to the mid of 2009 are used. \Cref{fig:driftkomplettnew} shows a rather steep drift in this time interval.
+Due to instrument change with time the fit quality decreases with the time difference between recording the plume and the reference. This could a result of the same changes which lead to the wavelength shift over time observed by \citet{WarnachSimon}.  \citet{WarnachSimon} suggests that the drift is caused by a hysteresis effect. \Cref{fig:driftkomplettnew} shows the wavelength shift as a function of the time for six NOVAC instruments located at Tungurahua in the time between 2008 to 2014. \Cref{fig:driftkomplettnew} shows a rather steep drift in this time interval.
 \citet{WarnachSimon} observed a decrease of the shift after initial negative drift after the first two years at Pillate station. Thus we can observe an rather step drift at new installed instruments. Thus, it is observed that the temporal difference becomes less important after an initial adaptation on the surroundings after the installation of the instruments.\\
 When using reference and plume spectra of the same time, these effects are cut out since the shift is equal for the plume and reference spectrum.\\
 To examine the effect of the temporal difference on the retrieved \ce{BrO} error, for all reference-plume pairs the corresponding \ce{BrO} error is calculated. Due to the large amount of reference plume pairs within one year, it takes more than a month (Hardware details: Intel(R) Core(TM) i5-4570 CPU @ 3.20Ghz 64 Bit operating system, amount of 4 kernels) to evaluate the corresponding \ce{BrO} error for every possible reference-plume pair of one instrument. I did this for the  D2J2140 instrument installed at Tungurahua:\\
 With the data from the D2J2140 instrument the dependency between the BrO retrieval error and the temporal difference between measuring the plume spectrum and the reference spectrum.\\
-For an increasing temporal different between reference and plume measurement time the fit quality decreases on the average (On short timescales the influence of the temperature, daytime or other external parameter could be counteractive to the impact of the temporal distance). Thus a large temporal difference results in an increase of the \ce{BrO}  error of more than 600\% (see \Cref{fig:dat} (a)).
+For an increasing temporal different between reference and plume measurement time the fit quality decreases on the average (On short timescales the influence of the temperature, daytime or other external parameter could be counteractive to the impact of the temporal distance). Thus a large temporal difference results in an increase of the \ce{BrO}  error of more than 600\% (see \cref{fig:dat} (a)).
 \ce{BrO} errors of such magnitudes are too large for our purposes. Therefore, it is useful to set a maximal temporal difference, to prevent too large \ce{BrO} error and to reduce the calculation time.
 %
-In \Cref{fig:dat} (a) it can be seen that the evolution of the \ce{BrO}  error with the temporal difference is symmetric around zero. Thus it is not necessary to distinguish between positive or negative temporal differences.
+In \cref{fig:dat} (a) it can be seen that the evolution of the \ce{BrO}  error with the temporal difference is symmetric around zero. Thus it is not necessary to distinguish between positive or negative temporal differences.
 %The maximal temporal difference should be large enough to ensure a sufficient amount of references to be able to pick a reference with similar conditions. However, the maximal temporal difference should be small enough to prevent too large \ce{BrO} errors due to long term shifts.\\
 \\
 To evaluate the maximal time difference, for which we still get reliable results for every plume, where the "same time reference" is contaminated, the alternative reference is chosen, which leads to the minimal \ce{BrO} error.\\
@@ -116,7 +116,7 @@ To evaluate the maximal time difference, for which we still get reliable results
 	\label{fig:Hist}
 \end{figure}
 %
-In \Cref{fig:Hist} a histogram with the probability of picking the best reference as a function of the time difference is plotted. The mean of the Gaussian fitted on the data is slightly above zero. However the variance is calculated as approximately 14 days, thus a mean of 0.9 is statistical irrelevant. For the retrieval we allow all time differences within one sigma area. Thus, the maximal time difference is about two weeks.\\
+In \cref{fig:Hist} a histogram with the probability of picking the best reference as a function of the time difference is plotted. The mean of the Gaussian fitted on the data is slightly above zero. However the variance is calculated as approximately 14 days, thus a mean of 0.9 is statistical irrelevant. For the retrieval we allow all time differences within one sigma area. Thus, the maximal time difference is about two weeks.\\
 
 % remaining possible reference spectra
 \begin{table}[h]
@@ -177,10 +177,10 @@ For the following analysis of the remaining external parameters all temporal dif
 Here I discuss the dependency of the BrO retrieval error based on the bulk effect of a difference in daytime. During the day a lot of external parameters like temperature, solar zenith angle etc. change. In particular, the solar zenith angle could have an impact on the fit quality since the light path of the sun is much longer in the morning or evening compared to the noon. Therefore, the scattering effects and the light intensity are different for both spectra.\\
 
 % fig_curves
-In \Cref{fig:diffdaytime} the \ce{BrO} error is plotted against the daytime difference between the plume spectrum and the reference spectrum.  \\
-Because of the observed symmetry around zero the absolute daytime difference is used for the fit. The computed fitting parameters slope and intercept for each instrument are shown in \Cref{tab:dtcalc}. \\
+In \cref{fig:diffdaytime} the \ce{BrO} error is plotted against the daytime difference between the plume spectrum and the reference spectrum.  \\
+Because of the observed symmetry around zero the absolute daytime difference is used for the fit. The computed fitting parameters slope and intercept for each instrument are shown in tab. \ref{tab:dtcalc}. \\
 %
-As it can be seen in \Cref{tab:dtcalc}, the intercepts, which defines the main BrO retrieval error for a daytime difference of zero, vary at Tungurahua between 3.28$\cdot10^{13}\frac{molec}{cm^2}$ and 3.43$\cdot10^{13}\frac{molec}{cm^2}$. The variation at Nevado del Ruiz ranges from  2.24$\cdot10^{13}\frac{molec}{cm^2}$ to 4.01$\cdot10^{13}\frac{molec}{cm^2}$. \\
+As it can be seen in tab. \ref{tab:dtcalc}, the intercepts, which defines the main BrO retrieval error for a daytime difference of zero, vary at Tungurahua between 3.28$\cdot10^{13}\frac{molec}{cm^2}$ and 3.43$\cdot10^{13}\frac{molec}{cm^2}$. The variation at Nevado del Ruiz ranges from  2.24$\cdot10^{13}\frac{molec}{cm^2}$ to 4.01$\cdot10^{13}\frac{molec}{cm^2}$. \\
 The correlation coefficient between daytime und BrO error 
 ranges from 0.156 for the instrument I2J8546 to  0.631 for D2J2201 and exhibits a large variation between the instruments. This lead to the conclusion, that the dependence of the fit quality on the daytime depends largely on the location of the instrument.\\
 The $\Delta DT_{2}$, the daytime difference for which the BrO retrieval error doubles compared to a daytime difference of zero is rather high for the instruments installed at Tungurahua (6.8h to 24.2h) and rather low for the instruments installed at Nevado del Ruiz (11.62h to 1.9h).
@@ -244,7 +244,7 @@ The $\Delta DT_{2}$, the daytime difference for which the BrO retrieval error do
 \end{table}	
 % tab_ratio
 The mean ($Mean(\Delta DT_{2})$) is calculated without taking the instrument I2J8546 into account due to the low correlation of 0.156. Using the I2J8546 instrument as well would lead to an  $Mean(\Delta DT_{2})$ of $8.6h$, thus, the restriction would not have any influence, since the maximal time difference is limited to the time where the sun is shining.\\ 
-Excluding references with daytime differences above $4.75$h restricts the amount of potential references to $85.1\%$ for D2J2140 to $96.8\%$ for D2J2200. In extreme cases a restriction down to $51.3\%$ of the entire set of references can occur (see \Cref{tab:daytimerest}).
+Excluding references with daytime differences above $4.75$h restricts the amount of potential references to $85.1\%$ for D2J2140 to $96.8\%$ for D2J2200. In extreme cases a restriction down to $51.3\%$ of the entire set of references can occur (see \cref{tab:daytimerest}).
 
 
 
@@ -258,7 +258,7 @@ Excluding references with daytime differences above $4.75$h restricts the amount
 \end{figure}
 % individual text
 In this section I discuss the particular effect of a difference in temperature, which has been shown to be the most important influence.
-The instrument design of the NOVAC instruments compromises between accuracy and robustness as explained in \Cref{NOVAC}. In particular, there are no internal thermal stabilizations installed as an attempt to reduce the instruments power consumption and increase the robustness. This can influence the recorded spectra.\\
+The instrument design of the NOVAC instruments compromises between accuracy and robustness as explained in \cref{NOVAC}. In particular, there are no internal thermal stabilizations installed as an attempt to reduce the instruments power consumption and increase the robustness. This can influence the recorded spectra.\\
 The ambient temperature however has an influence on the optical adjustment of the NOVAC instrument and thus on the instrument line function and calibration of the spectrometer.
 The calibration for the wavelength to pixel mapping (WPM) is commonly determined by a mercury lamp or by the comparison with the high defined Kuruz spectrum.
 As the WPM depends on the optical alignment of the spectrometer, which itself depends on the temperature, it is not constant.
@@ -270,8 +270,8 @@ Changes in the spectrometers temperature can cause changes in the instrument lin
 	\caption{Short term wavelength as a function of the instrument temperature for Pillate 1. The coloring of the scatter points indicate the temporal evolvement. (a) initial period prior to January 2010 (b) after 2010. Source: \cite{WarnachSimon}.}
 	\label{fig:shorttermshift}
 \end{figure}
-Moreover, \cite{WarnachSimon} show that, short term shifts are related to the instrument temperature (see \Cref{fig:shorttermshift}).\\
-The above discussed temperature dependence of the WPM causes a reduction of the fit quality with increasing instrument temperature difference between plume and reference (see \Cref{fig:difftemp}). Thus, the \ce{BrO} error also increases with the temperature difference.
+Moreover, \cite{WarnachSimon} show that, short term shifts are related to the instrument temperature (see \cref{fig:shorttermshift}).\\
+The above discussed temperature dependence of the instrument line function causes a reduction of the fit quality with increasing instrument temperature difference between plume and reference (see \cref{fig:difftemp}). Thus, the \ce{BrO} error also increases with the temperature difference.
 Compared to the other external parameters the temperature difference has the largest impact on the \ce{BrO} error.\\
 \\
 % tab_fit CAPTION
@@ -301,11 +301,11 @@ Compared to the other external parameters the temperature difference has the lar
 \end{table}
 % tab_fit
 % fig_curves
-The plots reveal a symmetry around axis with zero temperature difference (see \Cref{fig:difftemp}), thus using only the absolute temperature difference for the fit is reasonable.\\
-The intercepts for the BrO error at Tungurahua vary from 1.6$\cdot10^{13}\frac{molec}{cm^2}$ to 2.58$\cdot10^{13}\frac{molec}{cm^2}$ (see \Cref{tab:tempe}). The intercepts at Nevado del Ruiz are lower and ranges from  9.07$\cdot10^{12}\frac{molec}{cm^2}$ to 1.38$\cdot10^{13}\frac{molec}{cm^2}$. The $\Delta T_{2}$ from the data of Tungurahua (2.5 K to 6.3K) are significantly higher as at Nevado del Ruiz (1.1 K). The mean $\Delta T_{2}$ is $ 3.3$K. The conclusion is, that the Temperature has a stronger influence at the Nevado del Ruiz volcano.\\
-The correlation between the \ce{BrO} error and the absolute temperature difference has a high significants. 
+The plots reveal a symmetry around axis with zero temperature difference (see \cref{fig:difftemp}), thus using only the absolute temperature difference for the fit is reasonable.\\
+The intercepts for the BrO error at Tungurahua vary from 1.6$\cdot10^{13}\frac{molec}{cm^2}$ to 2.58$\cdot10^{13}\frac{molec}{cm^2}$ (see tab. \ref{tab:tempe}). The intercepts at Nevado del Ruiz are lower and ranges from  9.07$\cdot10^{12}\frac{molec}{cm^2}$ to 1.38$\cdot10^{13}\frac{molec}{cm^2}$. The $\Delta T_{2}$ from the data of Tungurahua (2.5 K to 6.3K) are significantly higher as at Nevado del Ruiz (1.1 K). The mean $\Delta T_{2}$ is $ 3.3$K. The conclusion is, that the temperature has a stronger influence at the Nevado del Ruiz volcano.\\
+The correlation between the \ce{BrO} error and the absolute temperature difference has a high significance. 
 The correlation coefficients ranges from 0.593 for the instrument D2J2140 to  0.92 for D2J2201 and exhibits a large variation between the instruments. \\
-The computed fitting parameters slope and intercept for each instrument are shown in \Cref{tab:tempe}.\\
+The computed fitting parameters slope and intercept for each instrument are shown in tab. \ref{tab:tempe}.\\
 % tab_ratio CAPTION
 \begin{table}
 	\centering
@@ -343,17 +343,17 @@ The computed fitting parameters slope and intercept for each instrument are show
 		296	 ($\entspricht\,$99.7\%)\\
 		\bottomrule
 	\end{tabular}
-	\caption{This table shows the absolute amount and the ratio (to \Cref{Tab:refstime}) of remaining references if restricting the temperature difference to the mean $\Delta T_{2}$ over all instruments ($Mean(\Delta T_{2}) = 3.3^{\circ}C$). Here in the ”Mean” and “Std” row for each  instrument the average restriction is shown with the corresponding standard deviation. The “Min” and “Max” rows show the extend of restriction in the extreme cases (minimum and maximum amount of available references / restriction ratio).}
+	\caption{This table shows the absolute amount and the ratio (to \cref{Tab:refstime}) of remaining references if restricting the temperature difference to the mean $\Delta T_{2}$ over all instruments ($Mean(\Delta T_{2}) = 3.3^{\circ}C$). Here in the ”Mean” and “Std” row for each  instrument the average restriction is shown with the corresponding standard deviation. The “Min” and “Max” rows show the extend of restriction in the extreme cases (minimum and maximum amount of available references / restriction ratio).}
 	\label{tab:decTemp}
 \end{table}	
 % tab_ratio
-If restricting the temperature difference to the mean $\Delta T_{2}$ over all instruments ($Mean(\Delta T_{2}) = 3.3$) the amount of possible references decrease as shown in \Cref{tab:decTemp}. Excluding references with temperature differences above $Mean(\Delta T_{2}) = 3.3$ restricts the amount of potential references to $46.8\%$ for the $D2J2140$ instrument to $82.3\%$ for the $D2J2200$ instrument.
+If restricting the temperature difference to the mean $\Delta T_{2}$ over all instruments ($Mean(\Delta T_{2}) = 3.3$) the amount of possible references decrease as shown in tab. \ref{tab:decTemp}. Excluding references with temperature differences above $Mean(\Delta T_{2}) = 3.3$ restricts the amount of potential references to $46.8\%$ for the $D2J2140$ instrument to $82.3\%$ for the $D2J2200$ instrument.
 
-\subsection{ Colorindex}
+\subsection{ Colour index}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{Bilder/DiffColidxallInstruments}
-	\caption{The \ce{BrO} measurement error as a function of the difference of colorindex between the reference and the plume is shown for each of the individual instruments at Tungurahua and Nevado del Ruiz. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. An increase of the \ce{BrO} error with the absolute difference in colorindex is observable. This is quantified by a correlation between the \ce{BrO} retrieval error and the absolute difference in colorindex. The plots reveal a symmetry around axis with zero colorindex difference. }
+	\caption{The \ce{BrO} measurement error as a function of the difference of colour index between the reference and the plume is shown for each of the individual instruments at Tungurahua and Nevado del Ruiz. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. An increase of the \ce{BrO} error with the absolute difference in colour index is observable. This is quantified by a correlation between the \ce{BrO} retrieval error and the absolute difference in colour index. The plots reveal a symmetry around axis with zero colour index difference. }
 	\label{fig:diffcolidx}
 \end{figure}
 % individual text
@@ -369,10 +369,10 @@ These two wavelengths are as far apart as the filter used for stray-light preven
 On the other hand, the lower wavelength avoids the deep UV range where \ce{SO2} and  \ce{O3} absorption plays a dominant role.
 %% I don’t understand 	
 The Mie scattering in the clouds is responsible for the higher amount of radiation from larger wavelengths. This results in a decrease of the CI which was observed for NOVAC instruments by \citet{lubcke2014optical}.\\
-We evaluated the CI at the zenith. To increase the stability of the fit we add 10 the intensities from 10 consecutive spectra. Using always the zenith to evaluate the colour index makes the colour index more comparable, but if broken clouds occur, the CI of the reference and the plume could differ from the calculated CI of the zenith. This could be a reason for the large deviations of the mean \ce{BrO} error as function of the colour index (see \Cref{fig:diffcolidx})\\
+We evaluated the CI at the zenith. To increase the stability of the fit we add 10 the intensities from 10 consecutive spectra. Using always the zenith to evaluate the colour index makes the colour index more comparable, but if broken clouds occur, the CI of the reference and the plume could differ from the calculated CI of the zenith. This could be a reason for the large deviations of the mean \ce{BrO} error as function of the colour index (see \cref{fig:diffcolidx})\\
 % fig_curves
-In \Cref{fig:diffcolidx} the \ce{BrO} error is plotted against the colorindex difference between the plume and the reference spectrum. The plot is done similar as the plots for the temperature.
-The plots mostly reveal a symmetry around the zero colorindex difference-axis. Thus, the absolute colorindex can be used for the fitting which is done equivalently to the analysis of the temperature and the daytime. The computed fitting parameters slope and intercept for each instrument are shown in \cref{tab:colidxcalc}. \\
+In \cref{fig:diffcolidx} the \ce{BrO} error is plotted against the colour index difference between the plume and the reference spectrum. The plot is done similar as the plots for the temperature.
+The plots mostly reveal a symmetry around the zero colour index difference-axis. Thus, the absolute colour index can be used for the fitting which is done equivalently to the analysis of the temperature and the daytime. The computed fitting parameters slope and intercept for each instrument are shown in \cref{tab:colidxcalc}. \\
 The intercepts at Tungurahua vary from 3.36$\cdot10^{13}\frac{molec}{cm^2}$ to 4.01$\cdot10^{13}\frac{molec}{cm^2}$. The variation at Nevado del Ruiz ranges from  4.74$\cdot10^{13}\frac{molec}{cm^2}$ to 7.21$\cdot10^{13}\frac{molec}{cm^2}$.\\
 The correlation is as well calculated and ranges from 0.2 for the instrument I2J8546 to  0.409 for D2J2200.\\
 \begin{table}[h]
@@ -395,7 +395,7 @@ The correlation is as well calculated and ranges from 0.2 for the instrument I2J
 		$\Delta CI_{2}$&0.174&0.424&0.297&0.133&0.248\\
 		\bottomrule
 	\end{tabular}
-	\caption{The \ce{BrO} measurement error as a function of the difference of colorindex between the reference and the plume is fitted with a first order polynomial for each of the individual instruments at Tungurahua and Nevado del Ruiz. This table shows the fitting parameters slope and intercept. Moreover, the correlation between the \ce{BrO} error and the absolute colorindex difference is shown. In the $\Delta CI_{2}$ row the colorindex difference for which the error doubles compared to a colorindex difference of zero is shown.}
+	\caption{The \ce{BrO} measurement error as a function of the difference of colour index between the reference and the plume is fitted with a first order polynomial for each of the individual instruments at Tungurahua and Nevado del Ruiz. This table shows the fitting parameters slope and intercept. Moreover, the correlation between the \ce{BrO} error and the absolute colour index difference is shown. In the $\Delta CI_{2}$ row the colour index difference for which the error doubles compared to a colour index difference of zero is shown.}
 	\label{tab:colidxcalc}
 \end{table}
 
@@ -431,13 +431,13 @@ The correlation is as well calculated and ranges from 0.2 for the instrument I2J
 		&297 ($\entspricht\,$100\%)  \\
 		\bottomrule
 	\end{tabular}
-	\caption{This table shows the absolute amount and the ratio  (to \Cref{Tab:refstime}) of remaining references if restricting the colorindex difference to the mean $\Delta CI_{2}$ over all instruments ($Mean(\Delta CI_{2}) = 0.2553.$). Here in the ”Mean” and “Std” row for each  instrument the average restriction is shown with the corresponding standard deviation. The “Min” and “Max” rows show the extend of restriction in the extreme cases (minimum and maximum amount of available references / restriction ratio).}
+	\caption{This table shows the absolute amount and the ratio  (to \cref{Tab:refstime}) of remaining references if restricting the colour index difference to the mean $\Delta CI_{2}$ over all instruments ($Mean(\Delta CI_{2}) = 0.2553.$). Here in the ”Mean” and “Std” row for each  instrument the average restriction is shown with the corresponding standard deviation. The “Min” and “Max” rows show the extend of restriction in the extreme cases (minimum and maximum amount of available references / restriction ratio).}
 	\label{tab:colidxres}
 \end{table}	
 % tab_ratio CAPTION
 % tab_ratio
-The $\Delta CI_{2})$ vary from 0.174 to 0.424 at Tungurahua and from 0.133 to 0.248 at Nevado del Ruiz, the
-the mean can be calculated as: $Mean(\Delta CI_{2}) = 0.255$. Exclusion of all references with a higher difference in the colorindex than $ 0.255$ does not chance the amount of references significantly (see \Cref{tab:colidxres}).\\
+The $\Delta( CI_{2})$ vary from 0.174 to 0.424 at Tungurahua and from 0.133 to 0.248 at Nevado del Ruiz, the
+the mean can be calculated as: $Mean(\Delta CI_{2}) = 0.255$. Exclusion of all references with a higher difference in the colour index than $ 0.255$ does not chance the amount of references significantly (see \cref{tab:colidxres}).\\
 
 %\begin{table}
 %	\centering
@@ -511,8 +511,8 @@ the mean can be calculated as: $Mean(\Delta CI_{2}) = 0.255$. Exclusion of all r
 
 The elevation angle describes the angle between the horizon and the zenith. When using the plume spectrum and the reference spectrum of the same time, the difference in elevation angle cannot be zero, since the location of the plume does not coincidence with the location of the reference.\\
 In \cref{fig:diffeleangle} the \ce{BrO} error is plotted as a function of the elevation angle. No significant correlation between the two parameters can be identified. \\
-Only the data of the D2J2200 instrument significantly vary with the elevation angle. The observable variation of the \ce{BrO} error with the elevation angle differs from the symmetric dependence of all other external parameter, the minimum \ce{BrO} error can be found at a difference in elevation angle of -20$^{\circ}$. This curve is a result of the solar altitude over the day which can be obtained if only using data of the same day time. Such a plot can be seen in \Cref{fig:d2j22000diffelevangleonetempnevad}.
-\Cref{fig:d2j22000diffelevangleonetempnevad} shows the \ce{BrO} retrieval error as function of the difference elevation angle for the D2J2200 instrument at the Nevado del Ruiz volcano. The blue line is equivalent to the results which are shown in \Cref{fig:diffeleangle} for comparison. The green lines show data, with a maximal difference in temperature of 1$^{\circ}C$ or maximal difference in daytime of 1$h$. If restricting the data to just small differences in temperature or/and daytime, the dependency between the \ce{BrO} retrieval and elevation angle appears to be not significant. Whereas the maximum of the \ce{BrO} error can be found at an difference in elevation angle of zero.\\
+Only the data of the D2J2200 instrument significantly vary with the elevation angle. The observable variation of the \ce{BrO} error with the elevation angle differs from the symmetric dependence of all other external parameter, the minimum \ce{BrO} error can be found at a difference in elevation angle of -20$^{\circ}$. This curve is a result of the solar altitude over the day which can be obtained if only using data of the same day time. Such a plot can be seen in \cref{fig:d2j22000diffelevangleonetempnevad}.
+\Cref{fig:d2j22000diffelevangleonetempnevad} shows the \ce{BrO} retrieval error as function of the difference elevation angle for the D2J2200 instrument at the Nevado del Ruiz volcano. The blue line is equivalent to the results which are shown in \cref{fig:diffeleangle} for comparison. The green lines show data, with a maximal difference in temperature of 1$^{\circ}C$ or maximal difference in daytime of 1$h$. If restricting the data to just small differences in temperature or/and daytime, the dependency between the \ce{BrO} retrieval and elevation angle appears to be not significant. Whereas the maximum of the \ce{BrO} error can be found at an difference in elevation angle of zero.\\
 \\	
 Since the \ce{BrO} error does not depend significantly on the elevation angle no restriction on difference of the elevation angle is needed.
 \subsection{Exposure time}
@@ -522,10 +522,10 @@ Since the \ce{BrO} error does not depend significantly on the elevation angle no
 	\caption{The \ce{BrO}  measurement error as a function of the difference of exposure time between measuring the reference and the plume are shown. To evaluate the plume spectra all reference spectra with a temporal distance of no longer than two weeks are used. An increase of the \ce{BrO} error with the distance in exposure time is observable.}
 	\label{fig:diffexptime}
 \end{figure}
-The  exposure time is the length of time the sensor of the NOVAC instrument is exposed to light. In one scan the exposure time is set constant to the exposure time of the first scan, the pre-reference. The amount of light that reaches the film or image sensor is proportional to the exposure time. The exposure time is adjusted in the way that the maximum intensity does not overly the capacity of the sensor. Thus, the exposure time can be used as a degree of sky lightness.\\
-We can observe a small dependency of the \ce{BrO} error on the exposure time at Tungurahua and Nevado del Ruiz as it is shown in \Cref{fig:diffexptime}. The \ce{BrO}  error as a function of the difference in exposure time is also symmetric around zero for all instruments. Thus the absolute difference in the exposure time is sufficient for the evaluation.\\
+The  exposure time is the length of time the sensor of the NOVAC instrument is exposed to light. In one scan the exposure time is set constant to the exposure time of the first scan, the pre-reference. The amount of light that reaches the film or image sensor is proportional to the exposure time. The exposure time is adjusted in the way that the maximum intensity does not overly the capacity of the sensor. Thus, the exposure time can be used as a proxy for the degree of sky lightness.\\
+We can observe a small dependency of the \ce{BrO} error on the exposure time at Tungurahua and Nevado del Ruiz as it is shown in \cref{fig:diffexptime}. The \ce{BrO}  error as a function of the difference in exposure time is also symmetric around zero for all instruments. Thus the absolute difference in the exposure time is sufficient for the evaluation.\\
 The instruments at Tungurahua do not show a significant dependence (correlation coefficient between 0.067 and 0.251) on the exposure time, even though there is always a minimum of the \ce{BrO} error at a difference of the Exposure Time of 0ms.\\
-Nevado del Ruiz shows a stronger correlation between the \ce{BrO}  error and the exposure time.
+Nevado del Ruiz shows a stronger correlation between the \ce{BrO}  error and the exposure time.\\
 \begin{table}[h]
 	\centering
 	\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
@@ -548,7 +548,7 @@ Nevado del Ruiz shows a stronger correlation between the \ce{BrO}  error and the
 	\caption{The \ce{BrO} measurement error as a function of the difference of exposure time between the reference and the plume is fitted with a first order polynomial for each of the individual instruments at Tungurahua and Nevado del Ruiz. This table shows the fitting parameters slope and intercept. Moreover, the correlation between the \ce{BrO} error and the absolute exposure time difference is shown.}
 	\label{tab:exptimecalc}
 \end{table}
-
+%
 \begin{table}
 	\centering
 	\begin{tabular}{|p{1.8cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}|}
@@ -580,12 +580,9 @@ Nevado del Ruiz shows a stronger correlation between the \ce{BrO}  error and the
 	\caption{Amount of possible references when restricting the difference in exposure time  between plume and reference to differences below 632.25 ms.}
 	\label{tab:etrest}
 \end{table}	
-
-
-\Cref{tab:exptimecalc} shows the slope, correlation, intercept and the $\Delta ET_{2}$s. The differences in exposure time where the \ce{BrO} error increases by a factor of two compared to the difference of exposure time of zero.
+%
+Table \ref{tab:exptimecalc} shows the slope, correlation, intercept and the $\Delta ET_{2}$s. The differences in exposure time where the \ce{BrO} error increases by a factor of two compared to the difference of exposure time of zero.
 Restrictions of the exposure time to the mean of the $\Delta ET_{2}$s of all instruments which is 632.25 ms leads to an average decrease compared to \cref{Tab:refstime} of data of 98.78\%. The results for each instrument can be found in \cref{tab:etrest}.\\
-\\
-\\
 \begin{table}
 	\centering
 	\begin{tabular}{|p{1.8cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}|p{2.15cm}|}
@@ -619,8 +616,8 @@ Restrictions of the exposure time to the mean of the $\Delta ET_{2}$s of all ins
 		\bottomrule
 	\end{tabular}
 	\label{tab:restrictall}
-	\caption{Amount of possible references while restricting the difference in colorindex  between plume and reference to differences above 0.255. maximal Time difference is 3.358$^{\circ}C$, maximal daytime difference is 4.75h without Exposure Time  between plume and reference to differences below 632.25 ms.}
+	\caption{Amount of possible references while restricting the difference in colour index  between plume and reference to differences above 0.255. maximal Time difference is 3.358$^{\circ}C$, maximal daytime difference is 4.75h without Exposure Time  between plume and reference to differences below 632.25 ms.}
 \end{table}	
-\Cref{tab:restrictall} shows the amount of possible references if the only data are considered which do not exceed the thresholds in each external parameter.  The average amount of available references per plume decreases to 64\%. While the performance is as good as without the restriction, this means the averaged BrO error is almost the same (deviations are below 0.1\%).
+Table \ref{tab:restrictall} shows the amount of possible references if the only data are considered which do not exceed the thresholds in each external parameter.  The average amount of available references per plume decreases to 64\%. While the performance is as good as without the restriction, this means the averaged BrO error is almost the same (deviations are below 0.1\%).
 
 
