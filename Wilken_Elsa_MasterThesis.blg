@@ -1,24 +1,18 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Wilken_Elsa_MasterThesis.aux
 A level-1 auxiliary file: titlepages-eng.aux
 A level-1 auxiliary file: abstracts.aux
-White space in argument---line 189 of file Wilken_Elsa_MasterThesis.aux
- : \citation{lehman
- :                  2014}
-I'm skipping whatever remains of this command
-White space in argument---line 199 of file Wilken_Elsa_MasterThesis.aux
- : \citation{lehman
- :                  2014}
-I'm skipping whatever remains of this command
 The style file: plainnat.bst
 A level-1 auxiliary file: deposition.aux
 Database file #1: references.bib
-"{" immediately follows a field part---line 128 of file references.bib
+I was expecting a `,' or a `}'---line 22 of file references.bib
+ :   
+ :   year={2014}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 163 of file references.bib
  :   howpublished = \url
  :                      {https://www.meteoblue.com/en/weather/forecast/modelclimate/nevado-del-ruiz_colombia_3670563}}
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "samaniego"
-Warning--I didn't find a database entry for "wagner2009"
-Warning--I didn't find a database entry for "lubcke2014"
 Warning--to sort, need author or key in GlobalVolcanismProgram
 Warning--to sort, need author or key in NOVACsite
 Warning--to sort, need author or key in Windrose
@@ -31,6 +25,7 @@ Warning--can't use both author and editor fields in IPCC
 Warning--empty school in kern2009spectroscopic
 Warning--empty school in lubcke2014optical
 Warning--empty booktitle in oppenheimer2003volcanic
+Warning--empty journal in samaniego2003peligros
 Warning--empty school in vogel2011volcanic
 Warning--empty school in WarnachSimon
-(There were 3 error messages)
+(There were 2 error messages)

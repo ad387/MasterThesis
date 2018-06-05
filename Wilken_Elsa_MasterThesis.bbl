@@ -1,4 +1,4 @@
-\begin{thebibliography}{53}
+\begin{thebibliography}{56}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -22,7 +22,7 @@ Novac-project.
 \newblock Accessed: 2018-01-19.
 
 \bibitem[Win()]{Windrose}
-nevado-del-ruiz_colombia: Windrose.
+nevado-del-ruiz colombia: Windrose.
 
 \bibitem[Beirle et~al.(2014)Beirle, H{\"o}rmann, Penning~de Vries, D{\"o}rner,
   Kern, and Wagner]{beirle2014estimating}
@@ -181,6 +181,13 @@ Stefan Kraus.
 \newblock \emph{DOASIS: A framework design for DOAS}.
 \newblock Shaker, 2006.
 
+\bibitem[Lehmann(2011)]{lehmann2011improving}
+T~Lehmann.
+\newblock \emph{Improving the sensitivity of spectroscopic measurements of
+  atmospheric trace gases by modern signal processing algorithms}.
+\newblock PhD thesis, Ph. D. thesis, IUP, University Heidelberg, in
+  preparation, 2011.
+
 \bibitem[L{\"u}bcke(2014)]{lubcke2014optical}
 Peter L{\"u}bcke.
 \newblock \emph{Optical remote sensing measurements of bromine and sulphur
@@ -269,6 +276,13 @@ GG~Salerno, MR~Burton, C~Oppenheimer, T~Caltabiano, VI~Tsanev, and N~Bruno.
 \newblock Novel retrieval of volcanic so2 abundance from ultraviolet spectra.
 \newblock \emph{Journal of Volcanology and Geothermal Research}, 181\penalty0
   (1-2):\penalty0 141--153, 2009.
+
+\bibitem[Samaniego et~al.(2003)Samaniego, Eissen, Le~Pennec, Hall, Monzier,
+  Mothes, Ram{\'o}n, Robin, Egred, Molina, et~al.]{samaniego2003peligros}
+Pablo Samaniego, Jean-Philippe Eissen, Jean-Luc Le~Pennec, M~Hall, Michel
+  Monzier, P~Mothes, P~Ram{\'o}n, Claude Robin, J~Egred, I~Molina, et~al.
+\newblock Los peligros volc{\'a}nicos asociados con el tungurahua.
+\newblock 2003.
 
 \bibitem[Schmidt and Robock(2015)]{schmidt2015volcanismarticle}
 A~Schmidt and A~Robock.
@@ -359,6 +373,13 @@ Leif Vogel.
 \newblock \emph{Volcanic plumes: Evaluation of spectroscopic measurements,
   early detection, and bromine chemistry}.
 \newblock PhD thesis, 2011.
+
+\bibitem[Wagner et~al.(2009)Wagner, Beirle, and Deutschmann]{wagner2009three}
+T~Wagner, S~Beirle, and T~Deutschmann.
+\newblock Three-dimensional simulation of the ring effect in observations of
+  scattered sun light using monte carlo radiative transfer models.
+\newblock \emph{Atmospheric Measurement Techniques}, 2\penalty0 (1):\penalty0
+  113--124, 2009.
 
 \bibitem[Wagner et~al.(2014)Wagner, Apituley, Beirle, D{\"o}rner, Friess,
   Remmers, and Shaiganfar]{wagner2014cloud}
