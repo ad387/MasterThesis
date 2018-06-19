@@ -5,25 +5,6 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Glo()]{GlobalVolcanismProgram}
-{Smithsonian Institution} global volcanism program.
-\newblock \url{https://volcano.si.edu/}.
-\newblock Accessed: 2018-03-20.
-
-\bibitem[NOV()]{NOVACsite}
-Novac-project.
-\newblock \url{http://www.novac-project.eu/}.
-\newblock Accessed: 2018-01-29.
-
-\bibitem[SKl()]{SKlearn}
-{Python} scikit-learn.org.
-\newblock
-  \url{http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html}.
-\newblock Accessed: 2018-01-19.
-
-\bibitem[Win()]{Windrose}
-nevado-del-ruiz colombia: Windrose.
-
 \bibitem[Beirle et~al.(2014)Beirle, H{\"o}rmann, Penning~de Vries, D{\"o}rner,
   Kern, and Wagner]{beirle2014estimating}
 Steffen Beirle, Christoph H{\"o}rmann, M~Penning~de Vries, Stefan D{\"o}rner,
@@ -34,20 +15,20 @@ Steffen Beirle, Christoph H{\"o}rmann, M~Penning~de Vries, Stefan D{\"o}rner,
   8309--8322, 2014.
 
 \bibitem[Bobrowski and Giuffrida(2006)]{bobrowski2006bromine}
-N~Bobrowski and G~Giuffrida.
+Nicole Bobrowski and G~Giuffrida.
 \newblock Bromine monoxide/sulphur dioxide ratios in relation to volcanological
   observations at mt.
 \newblock \emph{Etna}, 2009:\penalty0 433--445, 2006.
 
 \bibitem[Bobrowski and Platt(2007)]{bobrowski2007so2}
-N~Bobrowski and U~Platt.
+Nicole Bobrowski and U~Platt.
 \newblock So2/bro ratios studied in five volcanic plumes.
 \newblock \emph{Journal of Volcanology and Geothermal Research}, 166\penalty0
   (3-4):\penalty0 147--160, 2007.
 
 \bibitem[Bobrowski et~al.(2003)Bobrowski, H{\"o}nninger, Galle, and
   Platt]{bobrowski2003detection}
-N~Bobrowski, G~H{\"o}nninger, B~Galle, and U~Platt.
+Nicole Bobrowski, G~H{\"o}nninger, B~Galle, and U~Platt.
 \newblock Detection of bromine monoxide in a volcanic plume.
 \newblock \emph{Nature}, 423\penalty0 (6937):\penalty0 273, 2003.
 
@@ -154,8 +135,8 @@ Silvana Hidalgo, Jean Battaglia, Santiago Arellano, Alexander Steele, Benjamin
 
 \bibitem[H{\"o}rmann et~al.(2013)H{\"o}rmann, Sihler, Bobrowski, Beirle,
   De~Vries, Platt, and Wagner]{hormann2013systematic}
-C~H{\"o}rmann, H~Sihler, N~Bobrowski, S~Beirle, M~Penning De~Vries, U~Platt,
-  and T~Wagner.
+C~H{\"o}rmann, H~Sihler, Nicole Bobrowski, S~Beirle, M~Penning De~Vries,
+  U~Platt, and T~Wagner.
 \newblock Systematic investigation of bromine monoxide in volcanic plumes from
   space by using the gome-2 instrument.
 \newblock \emph{Atmospheric Chemistry and Physics}, 13\penalty0 (9):\penalty0
@@ -209,12 +190,21 @@ Richard Meller and Geert~K Moortgat.
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 105\penalty0
   (D6):\penalty0 7089--7101, 2000.
 
+\bibitem[nevado-del-ruiz~colombia: Windrose()]{Windrose}
+nevado-del-ruiz~colombia: Windrose.
+
 \bibitem[Noguchi and Kamiya(1963)]{noguchi1963prediction}
 Kimio Noguchi and Hiroshi Kamiya.
 \newblock Prediction of volcanic eruption by measuring the chemical composition
   and amounts of gases.
 \newblock \emph{Bulletin Volcanologique}, 26\penalty0 (1):\penalty0 367--378,
   1963.
+
+\bibitem[NOVAC-website()]{NOVACsite}
+NOVAC-website.
+\newblock Novac-project.
+\newblock \url{http://www.novac-project.eu/}.
+\newblock Accessed: 2018-01-29.
 
 \bibitem[Oppenheimer et~al.(2003)Oppenheimer, Pyle, and
   Barclay]{oppenheimer2003volcanic}
@@ -264,6 +254,11 @@ Ulrich Platt and Jochen Stutz.
 \newblock \emph{Differential Optical Absorption Spectroscopy}, pages 135--174,
   2008.
 
+\bibitem[Program()]{GlobalVolcanismProgram}
+{Smithsonian Institution} Global~Volcanism Program.
+\newblock \url{https://volcano.si.edu/}.
+\newblock Accessed: 2018-03-20.
+
 \bibitem[Robock(2000)]{robock2000volcanic}
 Alan Robock.
 \newblock Volcanic eruptions and climate.
@@ -299,6 +294,12 @@ Hans-Ulrich Schmincke.
 \newblock \emph{Vulkanismus}.
 \newblock Wissenschaftliche Buchgesellschaft, 3 edition, 2000.
 
+\bibitem[scikit learn.org()]{SKlearn}
+{Python} scikit learn.org.
+\newblock
+  \url{http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html}.
+\newblock Accessed: 2018-01-19.
+
 \bibitem[Seinfeld and Pandis(2016)]{seinfeld2016atmospheric}
 John~H Seinfeld and Spyros~N Pandis.
 \newblock \emph{Atmospheric chemistry and physics: from air pollution to
@@ -321,7 +322,7 @@ Susan Solomon, Arthur~L Schmeltekopf, and Ryan~W Sanders.
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 92\penalty0
   (D7):\penalty0 8311--8319, 1987.
 
-\bibitem[Stutz and Platt(1996)]{Stutz:96}
+\bibitem[Stutz and Platt(1996)]{Stutz96}
 Jochen Stutz and Ulrich Platt.
 \newblock Numerical analysis and estimation of the statistical error of
   differential optical absorption spectroscopy measurements with least-squares

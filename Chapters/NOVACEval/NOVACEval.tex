@@ -2,57 +2,6 @@
 
 %% NOVAC
 %% =============
-%%
-This chapter outlines the algorithm which is used for the evaluation of the spectroscopic data recorded in NOVAC. 
-The problem of contamination of the reference is explained and possible solutions are presented.
-
-\section{Conventional evaluation routine}
-The fitting routine used for this thesis is based on the DOASIS software \citep{kraus2006doasis}. 
-The equations of the DOAS retrieval of this work are slightly different from \Cref{eq:taustrich} and therefore described in the following.
-\Cref{eq:lbe} can be rewritten as:
-\begin{align}
-ln\left(I\left(\lambda, L\right)\right) = &ln\left(I_0 \right) + P \left(\lambda\right) -	\int_{0}^{L}\sum_{j}\sigma_j \left(\lambda, p, T \right) \cdot c_j \left(l\right)dl \nonumber \\
-= &ln\left(I_0 \right) + P \left(\lambda\right)-
-\sum_{j}\sigma_j \left(\lambda, p, T \right) \cdot S_j
-\label{eq:lben}
-\end{align}
-%
-The polynomial $ P \left(\lambda\right)$ accounts for all broad-band effects which approximates the scattering effects of the atmosphere as well as broad band absorptions.
-
-The task of the DOAS retrieval is to find a model function $F \left(\lambda\right)$ that minimizes $\chi^2$:
-\begin{equation}
-\chi^2 = \sum_{i=\lambda_1}^{\lambda_2}\left(ln(I(i))-F(i)\right)^2
-\label{eq:Chi}
-\end{equation}
-While $F\left(\lambda\right)$ can be expressed on the basis of \Cref{eq:lben}:
-\begin{equation}
-F\left(\lambda\right) = ln\left(I_0 \right) + P \left(\lambda\right)-
-\sum_{j}\sigma_j \left(\lambda\right) \cdot S_j
-\label{eq:F}
-\end{equation}
-The DOAS fitting routine uses a combination of a standard least-squares fit and a Levenberg-Marquard algorithm to minimize $\chi^2$\\
-\\
-Prior to the DOAS fitting. the spectra need to be calibrated, this done by using a wavelength to pixel mapping function (WMP) developed by \citet{lehmann2011improving}. The WMP uses a solar atlas spectrum that is concolced with the Hg line of the single instruments, hereby am initial calibration based on the Hg lines is given as a first parameter. The calibration is done by fitting the Fraunhofer lines of the recorded spectrum on the convolved Solar Atlas spectrum. The Rayleigh scattering is considered by adding a Ring spectrum as well as a wavelength dependent Ring spectrum (proportional to $\lambda^4$) \citep{wagner2009three}. Mie scattering and broadband absorption structures were accounted due to adding a third order polynomial to the retrieval well as an offset polynomial to correct for stray-light influence \citep{lubcke2014bro}.\\
-The \ce{SO2} evaluation is performed for a wavelength range between 314.8~nm and 328~nm. Including a \ce{SO2} absorption cross section recorded at a temperature of 298K \citep{vandaele2009fourier} and a  \ce{O3} absorption cross section recorded at 221K \citep{burrows1999atmospheric}.\\
-The \ce{BrO}  evaluation is performed for a wavelength range between 330.6~nm and 352.7~nm (found by \citet{vogel2011volcanic}). The sum in \Cref{eq:F} includes for the BrO evaluation the following absorption cross sections:
-\ce{BrO}  at 298K \citep{fleischmann2004new}, the \ce{SO2} and  \ce{O3} absorption cross sections described above, \ce{O4} \citep{hermans2003absorption},  \ce{NO2} at 298K \citep{vandaele1998measurements} and  \ce{CH2O} at 298K \citep{meller2000temperature}.\\
-%
-The choice of the wavelength range as well as the considered trace gases used in the fits is based on studies on the optimal evaluation wavelength range in a combination of real measurement data and theoretical studies \\
-%
-The choice of the wavelength range as well as the considered tracfor BrO and SO2, made by \citet{vogel2011volcanic}.\\
-The spectra of the trace gases were convoluted by using the 334.15 nm line of a mercury lamp.\\
-A further effect influencing the evaluation is the $I_{0}$ effect, in order to account for the I0-effect \citep{platt2008differential} an iterative approach was used. Further informations can be found at (Wagner et al., 2002), \cite{lubcke2014bro},\cite{vogel2011volcanic}).
-To further correct for small inaccuracies of the WMP, the FRS and both Ring spectra as one set, and all trace gases absorption cross sections as another set, are allowed to be shifted, and first order squeezed against the measurement spectrum.\\
-%
-NOVAC provides spectral data for roughly 50 different elevation angles. For the DOAS evaluation a reference and a measurement spectrum is needed. Obtaining the complete amount of volcanic gases is only possible in the case of the availability of references which is free of the volcanic gases of interest (this will be discussed more detailed in \Cref{Chap:Cont}). The column density of  \ce{BrO}  and \ce{SO2} of the measurement spectrum relatively to the reference spectrum can be calculated \Cref{eq:Chi} and \ref{eq:F}. \\
-\\
-\begin{figure}
-	\subfigure[]{\includegraphics[width=0.51\textwidth]{Bilder/Simon/Bilder_Tung/SO2_Scan_0}}
-	\subfigure[]{\includegraphics[width=0.51\textwidth]{Bilder/Simon/Bilder_Tung/BrO_Scan}}
-	\caption{(a) \ce{SO2} SCD as a function of the elevation angle with error bars computed by the DOASIS fitting routin. (b) \ce{BrO} SCD as a function of the elevation angle with fit error bars computed by the DOASIS fitting routine.  Taken from \cite{WarnachSimon}}
-	\label{fig:plumeref}
-\end{figure}
-\textcolor{red}{bis hierhin gehört das alles in den allgemeinen theorie teil (kapitel 3)}
 %
 In the following I describe the technical implementation of the DOAS approach using the data of NOVAC instruments:\\
 %
@@ -86,7 +35,7 @@ In a further step multiple reference and plume spectra of successive measurement
 \end{figure}
 \Cref{fig:algorithm} (b) shows the routine of adding multiple spectra of consecutive measuring times. In the following the spectra resulting from the multi adding technique will be referred to as "Multi Add Spectra". The algorithm for co-adding is visualized in \Cref{fig:algorithm} (b) was invented by \citet{vogel2011volcanic} and \citet{lubcke2014bro}. At Tungurahua periods with significant degassing have a mean temporal resolution of 19 and up to 45 "Multi Add Spectra" per day (resulting from three instruments)\\
 
-The mean standard deviation of BrO SCD is about $2.6\cdot10^{13} \frac{molec}{cm^{2}}$. Hereby the standard deviation is estimated as 2 times the DOAS fit error of the multi-scan BrO fit \citet{Stutz:96} \\
+The mean standard deviation of BrO SCD is about $2.6\cdot10^{13} \frac{molec}{cm^{2}}$. Hereby the standard deviation is estimated as 2 times the DOAS fit error of the multi-scan BrO fit \citet{Stutz96} \\
 %
 The SO2	detection limit is in the order of $6\cdot10^{16}\frac{molec}{cm^{2}}$.\\
 %
@@ -95,24 +44,24 @@ Thus, spectra measured in a thin volcano plume need to be excluded.
 This could be achieved by setting a \ce{BrO} or/and an \ce{SO2} threshold. A reasonable \ce{BrO} threshold needs to be at least in the order of the DOAS fit error. The BrO detection limit can be enhanced by an daily averaging, then one get an detection limit of: BrO$_{DT}=\frac{2.6\cdot10^{13}}{n}\cdot\frac{molec}{cm^{2}}$ (n: number of Multi Add Scans per day, the minimum amount is four): However most BrO SCDs are below the detection limit.
 Rejecting all BrO SCDs below the detection limit leads to an drastical decreases of data points since only the high BrO SCDs will be maintained and thus to systematic elevated \ce{BrO}/\ce{SO2} ratios  \citep{lubcke2014bro}.\\
 %
-The other possibility is to set an \ce{SO2} threshold to ensure only measuring in strong degassing periods. In this thesis an \ce{SO2} threshold (plume limit) of $7\cdot 10^{17} \frac{molec}{cm^2}$ is used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. \\
+The other possibility is to set an \ce{SO2} threshold to ensure only measuring in strong degassing periods. In this thesis an \ce{SO2} threshold (plume limit) of $7\cdot 10^{17} \frac{\text{molec}}{\text{cm}^2}$ is used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. \\
 %
-Within the data above a \ce{SO2} plume limit of $7\cdot 10^{17} \frac{molec}{cm^2}$ the maximum detection limit of the BrO/\ce{SO2} ratio is estimated as $(BrO/SO2)_{DT}	=	\frac{\ce{BrO}_{DT}}{SO2_{thres}}=\frac{4	}{\sqrt{n}}\cdot10^{-5}	 \leq 	1\cdot10^{-5}$.
-A plume limit of $7\cdot 10^{17} \frac{molec}{cm^2}$ is a high threshold for the column density. However, this approach assures that only strongly significant gas amounts are accounted \citep{lubcke2014bro}. Choosing the \ce{SO2} threshold in this way is a compromise getween a low BrO/\ce{SO2} detection limit and a sufficient amount of data.\\
+Within the data above a \ce{SO2} plume limit of $7\cdot 10^{17} \frac{\text{molec}}{\text{cm}^2}$ the maximum detection limit of the BrO/\ce{SO2} ratio is estimated as $(BrO/SO2)_{DT}	=	\frac{\ce{BrO}_{DT}}{SO2_{thres}}=\frac{4	}{\sqrt{n}}\cdot10^{-5}	 \leq 	1\cdot10^{-5}$.
+A plume limit of $7\cdot 10^{17} \frac{\text{molec}}{\text{cm}^2}$ is a high threshold for the column density. However, this approach assures that only strongly significant gas amounts are accounted \citep{lubcke2014bro}. Choosing the \ce{SO2} threshold in this way is a compromise getween a low BrO/\ce{SO2} detection limit and a sufficient amount of data.\\
 \begin{figure}
 	\centering
 	\subfigure{	\includegraphics[width=0.49\linewidth]{Bilder/tungpercentage_minSO2}}
 	\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/percentage_minSO2}}
-	\caption{The decrease of the amount of daily means amount above the plume limit as a function of the \ce{SO2} SCD. The \ce{SO2} SCDs below the actual plume limit of 7$\cdot10^{17}\,\frac{molec}{cm^2}$ are marked with a yellow shade. Left: Data of three instruments at Tungurahua. Right: data of two instruments at Nevado del Ruiz.}
+	\caption[The ce{SO2} SCD  as a function of the decrease of the amount of daily means amount above the plume limit. Data of Tungurahua and Nevado del Ruiz.]{The ce{SO2} SCD  as a function of the decrease of the amount of daily means amount above the plume limit. The \ce{SO2} SCDs below the actual plume limit of 7$\cdot10^{17}\,\frac{\text{molec}}{\text{cm}^2}$ are marked with a yellow shade. Left: Data of three instruments at Tungurahua. Right: data of two instruments at Nevado del Ruiz.}
 	\label{fig:percentageminso2}
 \end{figure}
-Increasing a plume limit leads to a decrease of usable data. The amount of usable  daily means as a function of the plume limit is shown in \Cref{fig:percentageminso2}. A plume limit of 7$\cdot10^{17}\frac{molec}{cm^2}$ leads to a ratio of usable data of approximately 10\%.
+Increasing a plume limit leads to a decrease of usable data. The amount of usable  daily means as a function of the plume limit is shown in \Cref{fig:percentageminso2}. A plume limit of 7$\cdot10^{17}\frac{\text{molec}}{\text{cm}^2}$ leads to a ratio of usable data of approximately 10\%.
 
 
 \section{Retrieval of absolute slant column densities\label{Chap:Cont}}
-\textcolor{red}{"problem" klingt so negativ, vllt eher "Retrieval of absolute slant column densities" -> das würde dann so vorne wunderbar ins DOAS kapitel passen als letzter schritt von dSCDs zu SCDs. Nach dem Motto: "...at the volcano the atmospheric background levels in SO2 are negligible, thus one can interprete the dSCDs as SCDS...however, this is not the case if an old/... plume is contaminating the reference spectrum...one better check for contamination, and correct for it if necessary...}\\
-\textcolor{red}{Die konventienelle Auswertung funktioniert auch ohne diese Annahme. Sie gibt halt dSCDs heraus. Was wir wollen sind aber SCDs und da beginnt das Kontaminierungsproblem.}
-The conventional evaluation is based on the assumption, that the reference is free of volcanic gases. This assumption was checked by using a volcanic gas free a high resolution solar atlas spectrum (see below) to evaluate the reference \cite{lubcke2014optical}; \cite{salerno2009novel}. In some reference spectra an amount of \ce{SO2}  different from zero is found. Thus one can conclude, that there are some references which contain a non-negligible amount of volcanic trace gases.
+
+At the volcano the atmospheric background levels in SO2 are negligible, thus one can interpret the dSCDs as SCDS. However, this is not the case if any volcanic trace gases are contaminating the reference spectrum.
+The conventional evaluation is based on the assumption, that the reference is free of volcanic gases. This assumption was checked by using a volcanic gas free a high resolution solar atlas spectrum (see below) to evaluate the reference (\cite{lubcke2014optical}; \cite{salerno2009novel}). In some reference spectra an amount of \ce{SO2}  different from zero is found. Thus one can conclude, that there are some references which contain a non-negligible amount of volcanic trace gases.
 In rare (ca. 10\% of the data) scenarios, the
 volcanic plume covers the whole scan region.
 This could happen if for example the volcanic plume of the day before extends over the hole scan area as a consequence of windless conditions.
@@ -166,7 +115,7 @@ contamination and a reference spectrum recorded in temporal proximity by the sam
 \begin{figure}
 \centering
 \includegraphics[width=0.5\linewidth]{Bilder/ConProb}
-\caption{The possibility of contamination relatively to all not contaminated data recorded at the same time as a function of the day time. The probability is calculated by dividing the amount of contaminated scans recorded at a specific daytime by the amount of not contaminated data recorded at the same daytime. The square root of the data amount is taken as the error, the visualized error is than calculated by using error propagation. The local time can be calculated from the daytime as UTC-5h. The data are taken from the Nevado del Ruiz volcano.}
+\caption[The possibility of contamination relatively to all not contaminated data recorded at the same time as a function of the day time. The data are taken from the Nevado del Ruiz volcano.]{The possibility of contamination relatively to all not contaminated data recorded at the same time as a function of the day time. The probability is calculated by dividing the amount of contaminated scans recorded at a specific daytime by the amount of not contaminated data recorded at the same daytime. The square root of the data amount is taken as the error, the visualized error is than calculated by using error propagation. The local time can be calculated from the daytime as UTC-5h. The data are taken from the Nevado del Ruiz volcano.}
 \label{fig:conprob}
 \end{figure}
 The probability of contamination changes with the daytime as can be seen in \cref{fig:conprob}. In the Morning the probability of contamination is much lower than at noon. Thus one can conclude that the conditions at the day favors the occurrence of contamination more than the conditions at night. The decrease of contamination at the evening can be a result of less data, and is therefore not significant.
@@ -194,7 +143,7 @@ If that happens, the gas amount is underestimated by using a contaminated refere
 	\centering
 	\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/Contaminationplumeinstrinplum}}
 	\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/Contaminationplumewideplume}}
-	\caption{Visualization of possible scenarios for contamination. Left: the plume sinks in a way that the instrument is within the plume, therefore, all elavation angles will contain volcanic trace gases, while the plume is not additionally contaminated. Right: the plume covers the hole sky, thus all elvation angles "see" volcanic trace gases. }
+	\caption[Visualization of possible scenarios for contamination]{Visualization of possible scenarios for contamination. Left: the plume sinks in a way that the instrument is within the plume, therefore, all elavation angles will contain volcanic trace gases, while the plume is not additionally contaminated. Right: the plume covers the hole sky, thus all elvation angles "see" volcanic trace gases. }
 	\label{fig:contaminationplumewideplume}
 \end{figure}
 %
@@ -212,7 +161,7 @@ With the data retrieved by the NOVAC instruments it is very difficult or even im
 		\includegraphics[width=0.5\linewidth]{Bilder/contaminationdependency_so2}}
 	\subfigure{
 		\includegraphics[width=0.5\linewidth]{Bilder/contaminationdependency_so2_Nevad}}
-	\caption{The strength of contamination as function of the mean \ce{SO2} column density (daily mean) of the day before. The strength of contamination is defined as the difference in \ce{SO2} SCD  when evaluation with an alternative reference, or neglect the contamination. Left: data from Tungurahua. Right: data from Nevado Del Ruiz. }
+	\caption[The strength of contamination as function of the mean \ce{SO2} column density (daily mean) of the day before. Data from Tungurahua and Nevado Del Ruiz.]{The strength of contamination as function of the mean \ce{SO2} column density (daily mean) of the day before. The strength of contamination is defined as the difference in \ce{SO2} SCD  when evaluation with an alternative reference, or neglect the contamination. Left: data from Tungurahua. Right: data from Nevado Del Ruiz. }
 	\label{fig:contaminationdependencyso2}
 \end{figure}
 

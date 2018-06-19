@@ -4,28 +4,24 @@ A level-1 auxiliary file: abstracts.aux
 The style file: plainnat.bst
 A level-1 auxiliary file: deposition.aux
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 22 of file references.bib
+I was expecting a `,' or a `}'---line 20 of file references.bib
  :   
  :   year={2014}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 163 of file references.bib
+"{" immediately follows a field part---line 164 of file references.bib
  :   howpublished = \url
  :                      {https://www.meteoblue.com/en/weather/forecast/modelclimate/nevado-del-ruiz_colombia_3670563}}
 I'm skipping whatever remains of this entry
-Warning--to sort, need author or key in GlobalVolcanismProgram
-Warning--to sort, need author or key in NOVACsite
-Warning--to sort, need author or key in Windrose
-Warning--to sort, need author or key in SKlearn
-Warning--empty year in GlobalVolcanismProgram
-Warning--empty year in NOVACsite
-Warning--empty year in SKlearn
-Warning--empty year in Windrose
 Warning--can't use both author and editor fields in IPCC
 Warning--empty school in kern2009spectroscopic
 Warning--empty school in lubcke2014optical
+Warning--empty year in Windrose
+Warning--empty year in NOVACsite
 Warning--empty booktitle in oppenheimer2003volcanic
+Warning--empty year in GlobalVolcanismProgram
 Warning--empty journal in samaniego2003peligros
+Warning--empty year in SKlearn
 Warning--empty school in vogel2011volcanic
 Warning--empty school in WarnachSimon
 (There were 2 error messages)

@@ -1,52 +1,51 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}
-\contentsline {part}{\numberline {I}Theoretical background}{9}{part.1}
-\contentsline {chapter}{\numberline {2}Volcanism and volcanic chemistry}{10}{chapter.2}
-\contentsline {section}{\numberline {2.1}Volcanism}{10}{section.2.1}
-\contentsline {paragraph}{\nonumberline Mid-ocean ridge volcanism}{10}{section*.2}
-\contentsline {paragraph}{\nonumberline Continental rift zone volcanism}{10}{section*.3}
-\contentsline {paragraph}{\nonumberline Subduction zone volcanoes}{10}{section*.4}
-\contentsline {paragraph}{\nonumberline Hot-spot volcanoes}{10}{section*.5}
-\contentsline {section}{\numberline {2.2}Volcanic gases and their impact on the climate}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}Volcanic degassing}{12}{section.2.3}
-\contentsline {section}{\numberline {2.4}Volcanic plume chemistry}{12}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Sulphur species}{12}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Bromine oxide}{13}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Using the \ce {BrO}/\ce {SO2} ratio to study volcanic activity}{15}{section.2.5}
-\contentsline {chapter}{\numberline {3}Remote sensing of volcanic gases}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Differential Optical Absorption Spectroscopy (DOAS)}{23}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Technical implementation of the DOAS approach}{24}{subsection.3.1.1}
-\contentsline {part}{\numberline {II}Empirics}{27}{part.2}
-\contentsline {chapter}{\numberline {4}Network for Observation of Volcanic and Atmospheric Change }{28}{chapter.4}
-\contentsline {section}{\numberline {4.1}Measurement routine}{29}{section.4.1}
-\contentsline {chapter}{\numberline {5}Evaluation routine}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}Conventional evaluation routine}{31}{section.5.1}
-\contentsline {section}{\numberline {5.2}Retrieval of absolute slant column densities}{35}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Contamination of the plume}{39}{subsection.5.2.1}
-\contentsline {chapter}{\numberline {6}\ce {BrO} evaluation and its limitations}{43}{chapter.6}
-\contentsline {section}{\numberline {6.1}Influence of ambient conditions on the measurement }{44}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Statistical assessment scale}{45}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Temporal difference}{46}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Daytime }{50}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Temperature}{53}{subsection.6.1.4}
-\contentsline {subsection}{\numberline {6.1.5}Colour index}{56}{subsection.6.1.5}
-\contentsline {subsection}{\numberline {6.1.6}Elevation Angle}{60}{subsection.6.1.6}
-\contentsline {subsection}{\numberline {6.1.7}Exposure time}{64}{subsection.6.1.7}
-\contentsline {section}{\numberline {6.2}\ce {BrO} dependence on external parameters}{68}{section.6.2}
-\contentsline {part}{\numberline {III}Retrieval advances}{76}{part.3}
-\contentsline {chapter}{\numberline {7}Decontamination module }{77}{chapter.7}
-\contentsline {section}{\numberline {7.1}Fit with a first order polynomial}{79}{section.7.1}
-\contentsline {section}{\numberline {7.2}Other approaches}{83}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Nearest neighbor approach}{83}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Iterative approach}{85}{subsection.7.2.2}
-\contentsline {chapter}{\numberline {8}Results}{87}{chapter.8}
-\contentsline {section}{\numberline {8.1}Tungurahua}{89}{section.8.1}
-\contentsline {section}{\numberline {8.2}Nevado del Ruiz}{90}{section.8.2}
-\contentsline {section}{\numberline {8.3}BrO/\ce {SO2} time series}{92}{section.8.3}
-\contentsline {section}{\numberline {8.4}Disscusion of the BrO contamination}{96}{section.8.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{98}{chapter.9}
-\contentsline {part}{\numberline {IV}Appendix}{100}{part.4}
-\contentsline {chapter}{\numberline {A}Lists}{102}{appendix.A}
-\contentsline {section}{\numberline {A.1}List of Figures}{102}{section.A.1}
-\contentsline {section}{\numberline {A.2}List of Tables}{109}{section.A.2}
-\contentsline {chapter}{\numberline {B}Bibliography}{113}{appendix.B}
+\contentsline {part}{\numberline {I}Theoretical background}{8}{part.1}
+\contentsline {chapter}{\numberline {2}Volcanism and volcanic chemistry}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Volcanism}{9}{section.2.1}
+\contentsline {paragraph}{\nonumberline Mid-ocean ridge volcanism}{9}{section*.2}
+\contentsline {paragraph}{\nonumberline Continental rift zone volcanism}{9}{section*.3}
+\contentsline {paragraph}{\nonumberline Hot-spot volcanoes}{9}{section*.4}
+\contentsline {paragraph}{\nonumberline Subduction zone volcanoes}{9}{section*.5}
+\contentsline {section}{\numberline {2.2}Volcanic degassing}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Volcanic plume chemistry}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Sulphur species}{10}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Bromine oxide}{11}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Using the \ce {BrO}/\ce {SO2} ratio to study volcanic activity}{13}{section.2.3}
+\contentsline {chapter}{\numberline {3}Network for Observation of Volcanic and Atmospheric Change }{18}{chapter.3}
+\contentsline {section}{\numberline {3.1}Measurement routine}{19}{section.3.1}
+\contentsline {chapter}{\numberline {4}Remote sensing of volcanic gases}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Differential Optical Absorption Spectroscopy (DOAS)}{25}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Technical implementation of the DOAS approach}{26}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Evaluation routine}{28}{section.4.2}
+\contentsline {section}{\numberline {4.3}Conventional evaluation routine}{29}{section.4.3}
+\contentsline {section}{\numberline {4.4}Retrieval of absolute slant column densities}{33}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Contamination of the plume}{36}{subsection.4.4.1}
+\contentsline {part}{\numberline {II}Empirics}{40}{part.2}
+\contentsline {chapter}{\numberline {5}\ce {BrO} evaluation and its limitations}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}Influence of ambient conditions on the measurement }{42}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Statistical assessment scale}{43}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Temporal difference}{44}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Daytime }{48}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Temperature}{53}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Colour index}{54}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Elevation Angle}{58}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {5.1.7}Exposure time}{61}{subsection.5.1.7}
+\contentsline {section}{\numberline {5.2}\ce {BrO} dependence on external parameters}{66}{section.5.2}
+\contentsline {part}{\numberline {III}Retrieval advances}{74}{part.3}
+\contentsline {chapter}{\numberline {6}Decontamination module }{75}{chapter.6}
+\contentsline {section}{\numberline {6.1}Fit with a first order polynomial}{77}{section.6.1}
+\contentsline {section}{\numberline {6.2}Other approaches}{81}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Nearest neighbor approach}{81}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Iterative approach}{82}{subsection.6.2.2}
+\contentsline {chapter}{\numberline {7}Results}{84}{chapter.7}
+\contentsline {section}{\numberline {7.1}Tungurahua}{86}{section.7.1}
+\contentsline {section}{\numberline {7.2}Nevado del Ruiz}{87}{section.7.2}
+\contentsline {section}{\numberline {7.3}BrO/\ce {SO2} time series}{89}{section.7.3}
+\contentsline {section}{\numberline {7.4}Discussion of the BrO contamination}{93}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusion}{95}{chapter.8}
+\contentsline {part}{\numberline {IV}Appendix}{97}{part.4}
+\contentsline {chapter}{\numberline {A}Lists}{99}{appendix.A}
+\contentsline {section}{\numberline {A.1}List of Figures}{99}{section.A.1}
+\contentsline {section}{\numberline {A.2}List of Tables}{102}{section.A.2}
+\contentsline {chapter}{\numberline {B}Bibliography}{104}{appendix.B}
