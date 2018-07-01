@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  20 JUN 2018 13:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.20)  1 JUL 2018 18:18
 entering extended mode
 **./Wilken_Elsa_MasterThesis.tex
 (Wilken_Elsa_MasterThesis.tex
@@ -502,6 +502,14 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+(C:\Users\Novac_Eval\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+\wrapoverhang=\dimen113
+\WF@size=\dimen114
+\c@WF@wrappedlines=\count101
+\WF@box=\box30
+\WF@everypar=\toks22
+Package: wrapfig 2003/01/31  v 3.6
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -516,8 +524,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
-\Gin@req@height=\dimen113
-\Gin@req@width=\dimen114
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2017/11/03 3.15 The Babel package
@@ -541,8 +549,8 @@ File: babel.def 2017/11/03 3.15 Babel common definitions
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
 File: switch.def 2017/11/03 3.15 Babel switching mechanism
 )
-\babel@savecnt=\count101
-\U@D=\dimen115
+\babel@savecnt=\count102
+\U@D=\dimen117
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -553,7 +561,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip59
 \bibsep=\skip60
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count102
+\c@NAT@ctr=\count103
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
@@ -611,16 +619,16 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen116
-\Hy@linkcounter=\count103
-\Hy@pagecounter=\count104
+\@linkdim=\dimen118
+\Hy@linkcounter=\count104
+\Hy@pagecounter=\count105
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count105
+\Hy@SavedSpaceFactor=\count106
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -632,17 +640,17 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count106
+\c@Hy@tempcnt=\count107
 
 (C:\Users\Novac_Eval\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen117
-\Fld@menulength=\count107
-\Field@Width=\dimen118
-\Fld@charsize=\dimen119
+\XeTeXLinkMargin=\dimen119
+\Fld@menulength=\count108
+\Field@Width=\dimen120
+\Fld@charsize=\dimen121
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -652,17 +660,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count108
-\c@Item=\count109
-\c@Hfootnote=\count110
+\Hy@abspage=\count109
+\c@Item=\count110
+\c@Hfootnote=\count111
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count111
-\c@bookmark@seq@number=\count112
+\Fld@listcount=\count112
+\c@bookmark@seq@number=\count113
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -689,14 +697,14 @@ LaTeX Info: Redefining \labelcpageref on input line 2230.
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip62
 \subfigcapskip=\skip63
-\subfigcaptopadj=\dimen120
+\subfigcaptopadj=\dimen122
 \subfigbottomskip=\skip64
-\subfigcapmargin=\dimen121
+\subfigcapmargin=\dimen123
 \subfiglabelskip=\skip65
-\c@subfigure=\count113
-\c@lofdepth=\count114
-\c@subtable=\count115
-\c@lotdepth=\count116
+\c@subfigure=\count114
+\c@lofdepth=\count115
+\c@subtable=\count116
+\c@lotdepth=\count117
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -708,68 +716,67 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip68
-\multirow@cntb=\count117
+\multirow@cntb=\count118
 \multirow@dima=\skip69
-\bigstrutjot=\dimen122
+\bigstrutjot=\dimen124
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen123
-\lightrulewidth=\dimen124
-\cmidrulewidth=\dimen125
-\belowrulesep=\dimen126
-\belowbottomsep=\dimen127
-\aboverulesep=\dimen128
-\abovetopsep=\dimen129
-\cmidrulesep=\dimen130
-\cmidrulekern=\dimen131
-\defaultaddspace=\dimen132
-\@cmidla=\count118
-\@cmidlb=\count119
-\@aboverulesep=\dimen133
-\@belowrulesep=\dimen134
-\@thisruleclass=\count120
-\@lastruleclass=\count121
-\@thisrulewidth=\dimen135
+\heavyrulewidth=\dimen125
+\lightrulewidth=\dimen126
+\cmidrulewidth=\dimen127
+\belowrulesep=\dimen128
+\belowbottomsep=\dimen129
+\aboverulesep=\dimen130
+\abovetopsep=\dimen131
+\cmidrulesep=\dimen132
+\cmidrulekern=\dimen133
+\defaultaddspace=\dimen134
+\@cmidla=\count119
+\@cmidlb=\count120
+\@aboverulesep=\dimen135
+\@belowrulesep=\dimen136
+\@thisruleclass=\count121
+\@lastruleclass=\count122
+\@thisrulewidth=\dimen137
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen136
-\extrarowheight=\dimen137
-\NC@list=\toks22
+\col@sep=\dimen138
+\extrarowheight=\dimen139
+\NC@list=\toks23
 \extratabsurround=\skip70
 \backup@length=\skip71
 )
-\everycr=\toks23
+\everycr=\toks24
 \minrowclearance=\skip72
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count122
-\mult@box=\box30
-\multicol@leftmargin=\dimen138
-\c@unbalance=\count123
-\c@collectmore=\count124
-\doublecol@number=\count125
-\multicoltolerance=\count126
-\multicolpretolerance=\count127
-\full@width=\dimen139
-\page@free=\dimen140
-\premulticols=\dimen141
-\postmulticols=\dimen142
+\c@tracingmulticols=\count123
+\mult@box=\box31
+\multicol@leftmargin=\dimen140
+\c@unbalance=\count124
+\c@collectmore=\count125
+\doublecol@number=\count126
+\multicoltolerance=\count127
+\multicolpretolerance=\count128
+\full@width=\dimen141
+\page@free=\dimen142
+\premulticols=\dimen143
+\postmulticols=\dimen144
 \multicolsep=\skip73
 \multicolbaselineskip=\skip74
-\partial@page=\box31
-\last@line=\box32
-\maxbalancingoverflow=\dimen143
-\mult@rightbox=\box33
-\mult@grightbox=\box34
-\mult@gfirstbox=\box35
-\mult@firstbox=\box36
-\@tempa=\box37
+\partial@page=\box32
+\last@line=\box33
+\maxbalancingoverflow=\dimen145
+\mult@rightbox=\box34
+\mult@grightbox=\box35
+\mult@gfirstbox=\box36
+\mult@firstbox=\box37
 \@tempa=\box38
 \@tempa=\box39
 \@tempa=\box40
@@ -786,14 +793,15 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box51
 \@tempa=\box52
 \@tempa=\box53
-\c@columnbadness=\count128
-\c@finalcolumnbadness=\count129
-\last@try=\dimen144
-\multicolovershoot=\dimen145
-\multicolundershoot=\dimen146
-\mult@nat@firstbox=\box54
-\colbreak@box=\box55
-\mc@col@check@num=\count130
+\@tempa=\box54
+\c@columnbadness=\count129
+\c@finalcolumnbadness=\count130
+\last@try=\dimen146
+\multicolovershoot=\dimen147
+\multicolundershoot=\dimen148
+\mult@nat@firstbox=\box55
+\colbreak@box=\box56
+\mc@col@check@num=\count131
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mhchem\mhchem.sty"
 Package: mhchem 2017/07/24 v4.07 for typesetting chemical formulae
@@ -803,24 +811,24 @@ Package: expl3 2017/12/16 L3 programming layer (loader)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
 Package: expl3 2017/12/16 L3 programming layer (code)
-\c_max_int=\count131
-\l_tmpa_int=\count132
-\l_tmpb_int=\count133
-\g_tmpa_int=\count134
-\g_tmpb_int=\count135
-\g__intarray_font_int=\count136
-\g__prg_map_int=\count137
-\c_log_iow=\count138
-\l_iow_line_count_int=\count139
-\l__iow_line_target_int=\count140
-\l__iow_one_indent_int=\count141
-\l__iow_indent_int=\count142
-\c_zero_dim=\dimen147
-\c_max_dim=\dimen148
-\l_tmpa_dim=\dimen149
-\l_tmpb_dim=\dimen150
-\g_tmpa_dim=\dimen151
-\g_tmpb_dim=\dimen152
+\c_max_int=\count132
+\l_tmpa_int=\count133
+\l_tmpb_int=\count134
+\g_tmpa_int=\count135
+\g_tmpb_int=\count136
+\g__intarray_font_int=\count137
+\g__prg_map_int=\count138
+\c_log_iow=\count139
+\l_iow_line_count_int=\count140
+\l__iow_line_target_int=\count141
+\l__iow_one_indent_int=\count142
+\l__iow_indent_int=\count143
+\c_zero_dim=\dimen149
+\c_max_dim=\dimen150
+\l_tmpa_dim=\dimen151
+\l_tmpb_dim=\dimen152
+\g_tmpa_dim=\dimen153
+\g_tmpb_dim=\dimen154
 \c_zero_skip=\skip75
 \c_max_skip=\skip76
 \l_tmpa_skip=\skip77
@@ -833,152 +841,152 @@ Package: expl3 2017/12/16 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count143
-\c__fp_leading_shift_int=\count144
-\c__fp_middle_shift_int=\count145
-\c__fp_trailing_shift_int=\count146
-\c__fp_big_leading_shift_int=\count147
-\c__fp_big_middle_shift_int=\count148
-\c__fp_big_trailing_shift_int=\count149
-\c__fp_Bigg_leading_shift_int=\count150
-\c__fp_Bigg_middle_shift_int=\count151
-\c__fp_Bigg_trailing_shift_int=\count152
-\c__fp_rand_size_int=\count153
-\c__fp_rand_four_int=\count154
-\c__fp_rand_eight_int=\count155
-\l__sort_length_int=\count156
-\l__sort_min_int=\count157
-\l__sort_top_int=\count158
-\l__sort_max_int=\count159
-\l__sort_true_max_int=\count160
-\l__sort_block_int=\count161
-\l__sort_begin_int=\count162
-\l__sort_end_int=\count163
-\l__sort_A_int=\count164
-\l__sort_B_int=\count165
-\l__sort_C_int=\count166
-\l__tl_build_start_index_int=\count167
-\l__tl_build_index_int=\count168
-\l__tl_analysis_normal_int=\count169
-\l__tl_analysis_index_int=\count170
-\l__tl_analysis_nesting_int=\count171
-\l__tl_analysis_type_int=\count172
-\l__regex_internal_a_int=\count173
-\l__regex_internal_b_int=\count174
-\l__regex_internal_c_int=\count175
-\l__regex_balance_int=\count176
-\l__regex_group_level_int=\count177
-\l__regex_mode_int=\count178
-\c__regex_cs_in_class_mode_int=\count179
-\c__regex_cs_mode_int=\count180
-\l__regex_catcodes_int=\count181
-\l__regex_default_catcodes_int=\count182
-\c__regex_catcode_D_int=\count183
-\c__regex_catcode_S_int=\count184
-\c__regex_catcode_L_int=\count185
-\c__regex_catcode_O_int=\count186
-\c__regex_catcode_A_int=\count187
-\c__regex_all_catcodes_int=\count188
-\l__regex_show_lines_int=\count189
-\l__regex_min_state_int=\count190
-\l__regex_max_state_int=\count191
-\l__regex_left_state_int=\count192
-\l__regex_right_state_int=\count193
-\l__regex_capturing_group_int=\count194
-\l__regex_min_pos_int=\count195
-\l__regex_max_pos_int=\count196
-\l__regex_curr_pos_int=\count197
-\l__regex_start_pos_int=\count198
-\l__regex_success_pos_int=\count199
-\l__regex_curr_char_int=\count266
-\l__regex_curr_catcode_int=\count267
-\l__regex_last_char_int=\count268
-\l__regex_case_changed_char_int=\count269
-\l__regex_curr_state_int=\count270
-\l__regex_step_int=\count271
-\l__regex_min_active_int=\count272
-\l__regex_max_active_int=\count273
-\l__regex_replacement_csnames_int=\count274
-\l__regex_match_count_int=\count275
-\l__regex_min_submatch_int=\count276
-\l__regex_submatch_int=\count277
-\l__regex_zeroth_submatch_int=\count278
-\g__debug_trace_regex_int=\count279
-\c_empty_box=\box56
-\l_tmpa_box=\box57
-\l_tmpb_box=\box58
-\g_tmpa_box=\box59
-\g_tmpb_box=\box60
-\l__box_top_dim=\dimen153
-\l__box_bottom_dim=\dimen154
-\l__box_left_dim=\dimen155
-\l__box_right_dim=\dimen156
-\l__box_top_new_dim=\dimen157
-\l__box_bottom_new_dim=\dimen158
-\l__box_left_new_dim=\dimen159
-\l__box_right_new_dim=\dimen160
-\l__box_internal_box=\box61
-\l__coffin_internal_box=\box62
-\l__coffin_internal_dim=\dimen161
-\l__coffin_offset_x_dim=\dimen162
-\l__coffin_offset_y_dim=\dimen163
-\l__coffin_x_dim=\dimen164
-\l__coffin_y_dim=\dimen165
-\l__coffin_x_prime_dim=\dimen166
-\l__coffin_y_prime_dim=\dimen167
-\c_empty_coffin=\box63
-\l__coffin_aligned_coffin=\box64
-\l__coffin_aligned_internal_coffin=\box65
-\l_tmpa_coffin=\box66
-\l_tmpb_coffin=\box67
-\l__coffin_display_coffin=\box68
-\l__coffin_display_coord_coffin=\box69
-\l__coffin_display_pole_coffin=\box70
-\l__coffin_display_offset_dim=\dimen168
-\l__coffin_display_x_dim=\dimen169
-\l__coffin_display_y_dim=\dimen170
-\l__coffin_bounding_shift_dim=\dimen171
-\l__coffin_left_corner_dim=\dimen172
-\l__coffin_right_corner_dim=\dimen173
-\l__coffin_bottom_corner_dim=\dimen174
-\l__coffin_top_corner_dim=\dimen175
-\l__coffin_scaled_total_height_dim=\dimen176
-\l__coffin_scaled_width_dim=\dimen177
+\l_keys_choice_int=\count144
+\c__fp_leading_shift_int=\count145
+\c__fp_middle_shift_int=\count146
+\c__fp_trailing_shift_int=\count147
+\c__fp_big_leading_shift_int=\count148
+\c__fp_big_middle_shift_int=\count149
+\c__fp_big_trailing_shift_int=\count150
+\c__fp_Bigg_leading_shift_int=\count151
+\c__fp_Bigg_middle_shift_int=\count152
+\c__fp_Bigg_trailing_shift_int=\count153
+\c__fp_rand_size_int=\count154
+\c__fp_rand_four_int=\count155
+\c__fp_rand_eight_int=\count156
+\l__sort_length_int=\count157
+\l__sort_min_int=\count158
+\l__sort_top_int=\count159
+\l__sort_max_int=\count160
+\l__sort_true_max_int=\count161
+\l__sort_block_int=\count162
+\l__sort_begin_int=\count163
+\l__sort_end_int=\count164
+\l__sort_A_int=\count165
+\l__sort_B_int=\count166
+\l__sort_C_int=\count167
+\l__tl_build_start_index_int=\count168
+\l__tl_build_index_int=\count169
+\l__tl_analysis_normal_int=\count170
+\l__tl_analysis_index_int=\count171
+\l__tl_analysis_nesting_int=\count172
+\l__tl_analysis_type_int=\count173
+\l__regex_internal_a_int=\count174
+\l__regex_internal_b_int=\count175
+\l__regex_internal_c_int=\count176
+\l__regex_balance_int=\count177
+\l__regex_group_level_int=\count178
+\l__regex_mode_int=\count179
+\c__regex_cs_in_class_mode_int=\count180
+\c__regex_cs_mode_int=\count181
+\l__regex_catcodes_int=\count182
+\l__regex_default_catcodes_int=\count183
+\c__regex_catcode_D_int=\count184
+\c__regex_catcode_S_int=\count185
+\c__regex_catcode_L_int=\count186
+\c__regex_catcode_O_int=\count187
+\c__regex_catcode_A_int=\count188
+\c__regex_all_catcodes_int=\count189
+\l__regex_show_lines_int=\count190
+\l__regex_min_state_int=\count191
+\l__regex_max_state_int=\count192
+\l__regex_left_state_int=\count193
+\l__regex_right_state_int=\count194
+\l__regex_capturing_group_int=\count195
+\l__regex_min_pos_int=\count196
+\l__regex_max_pos_int=\count197
+\l__regex_curr_pos_int=\count198
+\l__regex_start_pos_int=\count199
+\l__regex_success_pos_int=\count266
+\l__regex_curr_char_int=\count267
+\l__regex_curr_catcode_int=\count268
+\l__regex_last_char_int=\count269
+\l__regex_case_changed_char_int=\count270
+\l__regex_curr_state_int=\count271
+\l__regex_step_int=\count272
+\l__regex_min_active_int=\count273
+\l__regex_max_active_int=\count274
+\l__regex_replacement_csnames_int=\count275
+\l__regex_match_count_int=\count276
+\l__regex_min_submatch_int=\count277
+\l__regex_submatch_int=\count278
+\l__regex_zeroth_submatch_int=\count279
+\g__debug_trace_regex_int=\count280
+\c_empty_box=\box57
+\l_tmpa_box=\box58
+\l_tmpb_box=\box59
+\g_tmpa_box=\box60
+\g_tmpb_box=\box61
+\l__box_top_dim=\dimen155
+\l__box_bottom_dim=\dimen156
+\l__box_left_dim=\dimen157
+\l__box_right_dim=\dimen158
+\l__box_top_new_dim=\dimen159
+\l__box_bottom_new_dim=\dimen160
+\l__box_left_new_dim=\dimen161
+\l__box_right_new_dim=\dimen162
+\l__box_internal_box=\box62
+\l__coffin_internal_box=\box63
+\l__coffin_internal_dim=\dimen163
+\l__coffin_offset_x_dim=\dimen164
+\l__coffin_offset_y_dim=\dimen165
+\l__coffin_x_dim=\dimen166
+\l__coffin_y_dim=\dimen167
+\l__coffin_x_prime_dim=\dimen168
+\l__coffin_y_prime_dim=\dimen169
+\c_empty_coffin=\box64
+\l__coffin_aligned_coffin=\box65
+\l__coffin_aligned_internal_coffin=\box66
+\l_tmpa_coffin=\box67
+\l_tmpb_coffin=\box68
+\l__coffin_display_coffin=\box69
+\l__coffin_display_coord_coffin=\box70
+\l__coffin_display_pole_coffin=\box71
+\l__coffin_display_offset_dim=\dimen170
+\l__coffin_display_x_dim=\dimen171
+\l__coffin_display_y_dim=\dimen172
+\l__coffin_bounding_shift_dim=\dimen173
+\l__coffin_left_corner_dim=\dimen174
+\l__coffin_right_corner_dim=\dimen175
+\l__coffin_bottom_corner_dim=\dimen176
+\l__coffin_top_corner_dim=\dimen177
+\l__coffin_scaled_total_height_dim=\dimen178
+\l__coffin_scaled_width_dim=\dimen179
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count280
-\l__driver_tmp_box=\box71
+\l__driver_color_stack_int=\count281
+\l__driver_tmp_box=\box72
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
 Package: l3keys2e 2017/12/16 LaTeX2e option processing using LaTeX3 keys
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count281
-\calc@Bcount=\count282
-\calc@Adimen=\dimen178
-\calc@Bdimen=\dimen179
+\calc@Acount=\count282
+\calc@Bcount=\count283
+\calc@Adimen=\dimen180
+\calc@Bdimen=\dimen181
 \calc@Askip=\skip81
 \calc@Bskip=\skip82
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count283
+\calc@Ccount=\count284
 \calc@Cskip=\skip83
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\chemgreek\chemgreek.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
 Package: xparse 2017/12/16 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count284
-\g__xparse_grabber_int=\count285
-\l__xparse_m_args_int=\count286
-\l__xparse_mandatory_args_int=\count287
-\l__xparse_v_nesting_int=\count288
+\l__xparse_current_arg_int=\count285
+\g__xparse_grabber_int=\count286
+\l__xparse_m_args_int=\count287
+\l__xparse_mandatory_args_int=\count288
+\l__xparse_v_nesting_int=\count289
 )
 Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
 stry (CN)
-\l__chemgreek_tmpa_int=\count289
-\g__chemgreek_tmpa_int=\count290
+\l__chemgreek_tmpa_int=\count290
+\g__chemgreek_tmpa_int=\count291
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1030,7 +1038,7 @@ stry (CN)
 . Defining command \selectchemgreekmapping with sig. 'm' on line 491.
 .................................................
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count291
+\l__mhchem_ce_distanceFromLastComma_int=\count292
 \__mhchem_arrow_extPgfLength_skip=\skip84
 \mhchem@minispace@tmp=\skip85
 \mhchem@minibackspace@tmp=\skip86
@@ -1041,16 +1049,16 @@ stry (CN)
 \mhchem@smallbondwidth=\skip91
 \mhchem@bondtmp@minussidebearingleft=\skip92
 \mhchem@bondtmp@minussidebearingright=\skip93
-\l__mhchem_option_version_int=\count292
-\mhchem@option@minusmathsidebearingleft=\dimen180
-\mhchem@option@minusmathsidebearingright=\dimen181
-\mhchem@option@minustextsidebearingleft=\dimen182
-\mhchem@option@minustextsidebearingright=\dimen183
+\l__mhchem_option_version_int=\count293
+\mhchem@option@minusmathsidebearingleft=\dimen182
+\mhchem@option@minusmathsidebearingright=\dimen183
+\mhchem@option@minustextsidebearingleft=\dimen184
+\mhchem@option@minustextsidebearingright=\dimen185
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-\epsfxsize=\dimen184
-\epsfysize=\dimen185
+\epsfxsize=\dimen186
+\epsfysize=\dimen187
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\placeins\placeins.sty"
 Package: placeins 2005/04/18  v 2.2
@@ -1065,30 +1073,30 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 51.
+Package hyperref Info: Option `colorlinks' set `true' on input line 52.
 
 (C:\Users\Novac_Eval\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2017/11/22 v2.5 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count293
+\etb@tempcnta=\count294
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip94
 \LTright=\skip95
 \LTpre=\skip96
 \LTpost=\skip97
-\LTchunksize=\count294
-\LTcapwidth=\dimen186
-\LT@head=\box72
-\LT@firsthead=\box73
-\LT@foot=\box74
-\LT@lastfoot=\box75
-\LT@cols=\count295
-\LT@rows=\count296
-\c@LT@tables=\count297
-\c@LT@chunks=\count298
-\LT@p@ftn=\toks24
+\LTchunksize=\count295
+\LTcapwidth=\dimen188
+\LT@head=\box73
+\LT@firsthead=\box74
+\LT@foot=\box75
+\LT@lastfoot=\box76
+\LT@cols=\count296
+\LT@rows=\count297
+\c@LT@tables=\count298
+\c@LT@chunks=\count299
+\LT@p@ftn=\toks25
 )
-Class scrreprt Info: longtable captions redefined on input line 58.
+Class scrreprt Info: longtable captions redefined on input line 59.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -1120,36 +1128,45 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
 (Wilken_Elsa_MasterThesis.aux (titlepages-eng.aux) (abstracts.aux)
-(deposition.aux))
+! Undefined control sequence.
+l.512 \citat
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
 \openout1 = `Wilken_Elsa_MasterThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
-\scratchdimen=\dimen187
-\scratchbox=\box76
-\nofMPsegments=\count300
-\nofMParguments=\count301
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count302
-\MPscratchDim=\dimen188
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count300
+\scratchdimen=\dimen189
+\scratchbox=\box77
+\nofMPsegments=\count301
+\nofMParguments=\count302
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen190
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
+\everyMPtoPDFconversion=\toks27
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1163,8 +1180,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box77
-Package hyperref Info: Link coloring ON on input line 81.
+\AtBeginShipoutBox=\box78
+Package hyperref Info: Link coloring ON on input line 82.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1172,11 +1189,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count305
+\c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 81.
-LaTeX Info: Redefining \pageref on input line 81.
-LaTeX Info: Redefining \nameref on input line 81.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
 
 (Wilken_Elsa_MasterThesis.out) (Wilken_Elsa_MasterThesis.out)
 \@outlinefile=\write3
@@ -1185,7 +1202,7 @@ LaTeX Info: Redefining \nameref on input line 81.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 81.
+. Activating mapping `default' on line 82.
 .................................................
 \openout2 = `titlepages-eng.aux'.
 
@@ -1215,62 +1232,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (abstract-ger.tex) (abstract-eng.tex)) [3
 
 
-] (Wilken_Elsa_MasterThesis.toc
+] (Wilken_Elsa_MasterThesis.toc)
+\tf@toc=\write4
+\openout4 = `Wilken_Elsa_MasterThesis.toc'.
+
+
 [4
 
 
 ]
-Overfull \hbox (2.03697pt too wide) detected at line 48
- []\T1/cmss/bx/n/12 100
- []
-
-
-Overfull \hbox (2.03697pt too wide) detected at line 51
- []\T1/cmss/bx/n/12 105
- []
-
-)
-\tf@toc=\write4
-\openout4 = `Wilken_Elsa_MasterThesis.toc'.
-
- [5]
 chapter 1.
 (Chapters/1_Introduction/1_Intruduction.tex
 
-Package xcolor Warning: Incompatible color definition on input line 10.
+Package natbib Warning: Citation `schmincke2000vulkanismus' on page 5 undefined
+ on input line 10.
 
 
-Package xcolor Warning: Incompatible color definition on input line 10.
+Package natbib Warning: Citation `schmidt2015volcanismarticle' on page 5 undefi
+ned on input line 11.
 
 
-Package xcolor Warning: Incompatible color definition on input line 11.
+Package natbib Warning: Citation `thordarson2003atmospheric' on page 5 undefine
+d on input line 12.
 
 
-Package xcolor Warning: Incompatible color definition on input line 11.
+Package natbib Warning: Citation `schmidt2015volcanism' on page 5 undefined on 
+input line 13.
 
 
-Package xcolor Warning: Incompatible color definition on input line 12.
+Package natbib Warning: Citation `solomon1998ozone' on page 5 undefined on inpu
+t line 14.
 
 
-Package xcolor Warning: Incompatible color definition on input line 12.
-
-
-Package xcolor Warning: Incompatible color definition on input line 13.
-
-
-Package xcolor Warning: Incompatible color definition on input line 13.
-
-
-Package xcolor Warning: Incompatible color definition on input line 14.
-
-
-Package xcolor Warning: Incompatible color definition on input line 14.
-
-
-Package xcolor Warning: Incompatible color definition on input line 33.
-
-
-Package xcolor Warning: Incompatible color definition on input line 33.
+Package natbib Warning: Citation `platt2008differential' on page 5 undefined on
+ input line 33.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--59
@@ -1290,754 +1285,599 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--59
 
 Underfull \vbox (badness 3460) has occurred while \output is active []
 
- [6
+ [5
 
 ])
-[7]
+[6]
 part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 91.
-[8
+(scrkbase)              on input line 92.
+[7
 
 ]
 chapter 2.
 
-Package xcolor Warning: Incompatible color definition on input line 106.
+Package natbib Warning: Citation `textor2004emissions' on page 8 undefined on i
+nput line 107.
 
 
-Package xcolor Warning: Incompatible color definition on input line 106.
+Package natbib Warning: Citation `textor2004emissions' on page 8 undefined on i
+nput line 107.
 
 
-Package xcolor Warning: Incompatible color definition on input line 106.
-
-
-Package xcolor Warning: Incompatible color definition on input line 106.
-
-
-Overfull \hbox (4.17816pt too wide) in paragraph at lines 118--118
+Overfull \hbox (4.17816pt too wide) in paragraph at lines 119--119
 []|\T1/cmr/m/n/12 0.0078| 
  []
 
 
-Overfull \hbox (6.1888pt too wide) in paragraph at lines 108--123
+Overfull \hbox (6.1888pt too wide) in paragraph at lines 109--124
 [][] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 125.
+Package natbib Warning: Citation `gerlach2004volcanic' on page 8 undefined on i
+nput line 126.
 
 
-Package xcolor Warning: Incompatible color definition on input line 125.
+Package natbib Warning: Citation `platt2015quantification' on page 8 undefined 
+on input line 128.
 
 
-Package xcolor Warning: Incompatible color definition on input line 127.
-
-
-Package xcolor Warning: Incompatible color definition on input line 127.
-
-
-Package xcolor Warning: Incompatible color definition on input line 128.
-
-
-Package xcolor Warning: Incompatible color definition on input line 128.
+Package natbib Warning: Citation `platt2015quantification' on page 8 undefined 
+on input line 129.
 
 
 Underfull \vbox (badness 2173) has occurred while \output is active []
 
- [9
+ [8
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 134.
+Package natbib Warning: Citation `oppenheimer2003volcanic' on page 9 undefined 
+on input line 135.
 
 
-Package xcolor Warning: Incompatible color definition on input line 134.
+Package natbib Warning: Citation `seinfeld2016atmospheric' on page 9 undefined 
+on input line 136.
 
 
-Package xcolor Warning: Incompatible color definition on input line 135.
+Package natbib Warning: Citation `robock2000volcanic' on page 9 undefined on in
+put line 138.
 
 
-Package xcolor Warning: Incompatible color definition on input line 135.
+Package natbib Warning: Citation `lubcke2014optical' on page 9 undefined on inp
+ut line 139.
 
 
-Package xcolor Warning: Incompatible color definition on input line 137.
+Package natbib Warning: Citation `bobrowski2007reactive' on page 9 undefined on
+ input line 142.
 
 
-Package xcolor Warning: Incompatible color definition on input line 137.
-
-
-Package xcolor Warning: Incompatible color definition on input line 138.
-
-
-Package xcolor Warning: Incompatible color definition on input line 138.
-
-
-Package xcolor Warning: Incompatible color definition on input line 141.
-
-
-Package xcolor Warning: Incompatible color definition on input line 141.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--144
+Underfull \hbox (badness 10000) in paragraph at lines 134--145
 
  []
 
-[10]
-<Bilder/Simon/Bilder_Tung/BrO_Plume.png, id=344, 2216.28pt x 1599.9775pt>
+[9]
+<Bilder/Simon/Bilder_Tung/BrO_Plume.png, id=74, 2216.28pt x 1599.9775pt>
 File: Bilder/Simon/Bilder_Tung/BrO_Plume.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/BrO_Plume.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/BrO_Plume.png  used on input 
-line 148. on input line 148.
+line 149. on input line 149.
 Package pdftex.def Info: Requested size: 341.43442pt x 246.4803pt on input line
- 148.
+ 149.
 
 
-Package xcolor Warning: Incompatible color definition on input line 150.
+Package natbib Warning: Citation `bobrowski2007reactive' on page 10 undefined o
+n input line 151.
 
 
-Package xcolor Warning: Incompatible color definition on input line 150.
+Package natbib Warning: Citation `bobrowski2007reactive' on page 10 undefined o
+n input line 151.
 
 
-Package xcolor Warning: Incompatible color definition on input line 150.
+Package natbib Warning: Citation `bobrowski2003detection' on page 10 undefined 
+on input line 154.
 
 
-Package xcolor Warning: Incompatible color definition on input line 150.
+Package natbib Warning: Citation `bobrowski2007so2' on page 10 undefined on inp
+ut line 155.
 
 
-Package xcolor Warning: Incompatible color definition on input line 153.
+Package natbib Warning: Citation `bobrowski2007reactive' on page 10 undefined o
+n input line 155.
 
 
-Package xcolor Warning: Incompatible color definition on input line 153.
+Package natbib Warning: Citation `vogel2011volcanic' on page 10 undefined on in
+put line 155.
 
 
-Package xcolor Warning: Incompatible color definition on input line 154.
+Package natbib Warning: Citation `lubcke2014bro' on page 10 undefined on input 
+line 155.
 
 
-Package xcolor Warning: Incompatible color definition on input line 154.
-
-
-Package xcolor Warning: Incompatible color definition on input line 154.
-
-
-Package xcolor Warning: Incompatible color definition on input line 154.
-
-
-Package xcolor Warning: Incompatible color definition on input line 154.
-
-
-Package xcolor Warning: Incompatible color definition on input line 154.
-
-
-Package xcolor Warning: Incompatible color definition on input line 154.
-
-
-Package xcolor Warning: Incompatible color definition on input line 154.
-
-
-Package xcolor Warning: Incompatible color definition on input line 156.
-
-
-Package xcolor Warning: Incompatible color definition on input line 156.
+Package natbib Warning: Citation `bobrowski2007reactive' on page 10 undefined o
+n input line 157.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [10]
 
-Package xcolor Warning: Incompatible color definition on input line 173.
+Package natbib Warning: Citation `lubcke2014bro' on page 11 undefined on input 
+line 174.
 
-
-Package xcolor Warning: Incompatible color definition on input line 173.
-
-<Bilder/Simon/Bilder_Tung/BrO_Explosion.png, id=383, 673.7353pt x 459.7502pt>
+<Bilder/Simon/Bilder_Tung/BrO_Explosion.png, id=88, 673.7353pt x 459.7502pt>
 File: Bilder/Simon/Bilder_Tung/BrO_Explosion.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/BrO_Explosion.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/BrO_Explosion.png  used on in
-put line 177. on input line 177.
+put line 178. on input line 178.
 Package pdftex.def Info: Requested size: 298.75267pt x 203.86913pt on input lin
-e 177.
+e 178.
 
-Package xcolor Warning: Incompatible color definition on input line 178.
-
-
-Package xcolor Warning: Incompatible color definition on input line 178.
+Package natbib Warning: Citation `WarnachSimon' on page 11 undefined on input l
+ine 179.
 
 
-Package xcolor Warning: Incompatible color definition on input line 178.
+Package natbib Warning: Citation `WarnachSimon' on page 11 undefined on input l
+ine 179.
 
-
-Package xcolor Warning: Incompatible color definition on input line 178.
-
-[12 <./Bilder/Simon/Bilder_Tung/BrO_Plume.png>]
+[11 <./Bilder/Simon/Bilder_Tung/BrO_Plume.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@cee' on input line 182.
+(hyperref)                removing `\mhchem@cee' on input line 183.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@cee' on input line 182.
+(hyperref)                removing `\mhchem@cee' on input line 183.
 
-<Zwischenbericht2018/Bilder/so2_bro.png, id=405, 726.715pt x 492.84125pt>
+<Zwischenbericht2018/Bilder/so2_bro.png, id=106, 726.715pt x 492.84125pt>
 File: Zwischenbericht2018/Bilder/so2_bro.png Graphic file (type png)
 <use Zwischenbericht2018/Bilder/so2_bro.png>
 Package pdftex.def Info: Zwischenbericht2018/Bilder/so2_bro.png  used on input 
-line 185. on input line 185.
+line 186. on input line 186.
 Package pdftex.def Info: Requested size: 384.10965pt x 260.49771pt on input lin
-e 185.
+e 186.
 
-Package xcolor Warning: Incompatible color definition on input line 186.
-
-
-Package xcolor Warning: Incompatible color definition on input line 186.
+Package natbib Warning: Citation `lubcke2014optical' on page 12 undefined on in
+put line 187.
 
 
-Package xcolor Warning: Incompatible color definition on input line 186.
+Package natbib Warning: Citation `lubcke2014optical' on page 12 undefined on in
+put line 187.
 
 
-Package xcolor Warning: Incompatible color definition on input line 186.
+Package natbib Warning: Citation `noguchi1963prediction' on page 12 undefined o
+n input line 203.
 
 
-Package xcolor Warning: Incompatible color definition on input line 202.
+Package natbib Warning: Citation `pennisi1998variations' on page 12 undefined o
+n input line 205.
 
 
-Package xcolor Warning: Incompatible color definition on input line 202.
+Package natbib Warning: Citation `burton2007magmatic' on page 12 undefined on i
+nput line 207.
 
-
-Package xcolor Warning: Incompatible color definition on input line 204.
-
-
-Package xcolor Warning: Incompatible color definition on input line 204.
-
-
-Package xcolor Warning: Incompatible color definition on input line 206.
-
-
-Package xcolor Warning: Incompatible color definition on input line 206.
-
-<Bilder/rat_diff.pdf, id=418, pagebox=cropbox, 313.17pt x 227.85126pt>
+<Bilder/rat_diff.pdf, id=109, pagebox=cropbox, 313.17pt x 227.85126pt>
 File: Bilder/rat_diff.pdf Graphic file (type pdf)
 <use Bilder/rat_diff.pdf>
-Package pdftex.def Info: Bilder/rat_diff.pdf  used on input line 210. on input 
-line 210.
+Package pdftex.def Info: Bilder/rat_diff.pdf  used on input line 211. on input 
+line 211.
 Package pdftex.def Info: Requested size: 298.75267pt x 217.36836pt on input lin
-e 210.
+e 211.
 
-Package xcolor Warning: Incompatible color definition on input line 211.
-
-
-Package xcolor Warning: Incompatible color definition on input line 211.
+Package natbib Warning: Citation `lubcke2014optical' on page 12 undefined on in
+put line 212.
 
 
-Package xcolor Warning: Incompatible color definition on input line 211.
+Package natbib Warning: Citation `lubcke2014optical' on page 12 undefined on in
+put line 212.
 
 
-Package xcolor Warning: Incompatible color definition on input line 211.
+Package natbib Warning: Citation `bobrowski2006bromine' on page 12 undefined on
+ input line 220.
 
 
-Package xcolor Warning: Incompatible color definition on input line 219.
+Package natbib Warning: Citation `lubcke2014bro' on page 12 undefined on input 
+line 222.
 
 
-Package xcolor Warning: Incompatible color definition on input line 219.
+Package natbib Warning: Citation `bobrowski2007reactive' on page 12 undefined o
+n input line 224.
 
 
-Package xcolor Warning: Incompatible color definition on input line 221.
+Package natbib Warning: Citation `lubcke2014optical' on page 12 undefined on in
+put line 224.
 
 
-Package xcolor Warning: Incompatible color definition on input line 221.
+Package natbib Warning: Citation `hormann2013systematic' on page 12 undefined o
+n input line 224.
 
 
-Package xcolor Warning: Incompatible color definition on input line 223.
+Package natbib Warning: Citation `beirle2014estimating' on page 12 undefined on
+ input line 224.
 
 
-Package xcolor Warning: Incompatible color definition on input line 223.
+Package natbib Warning: Citation `bobrowski2007reactive' on page 12 undefined o
+n input line 226.
 
 
-Package xcolor Warning: Incompatible color definition on input line 223.
+Package natbib Warning: Citation `lubcke2014optical' on page 12 undefined on in
+put line 226.
 
 
-Package xcolor Warning: Incompatible color definition on input line 223.
-
-
-Package xcolor Warning: Incompatible color definition on input line 223.
-
-
-Package xcolor Warning: Incompatible color definition on input line 223.
-
-
-Package xcolor Warning: Incompatible color definition on input line 223.
-
-
-Package xcolor Warning: Incompatible color definition on input line 223.
-
-
-Package xcolor Warning: Incompatible color definition on input line 225.
-
-
-Package xcolor Warning: Incompatible color definition on input line 225.
-
-
-Package xcolor Warning: Incompatible color definition on input line 225.
-
-
-Package xcolor Warning: Incompatible color definition on input line 225.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--227
+Underfull \hbox (badness 10000) in paragraph at lines 195--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--227
+Underfull \hbox (badness 10000) in paragraph at lines 195--228
 
  []
 
-[13 <./Bilder/Simon/Bilder_Tung/BrO_Explosion.png>]
+[12 <./Bilder/Simon/Bilder_Tung/BrO_Explosion.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 <./Zwischenbericht2018/Bilder/so2_bro.png>]
+ [13 <./Zwischenbericht2018/Bilder/so2_bro.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15 <./Bilder/rat_diff.pdf>]
-<Bilder/Simon/Bilder_Tung/Climate_Influence.png, id=472, 1214.5375pt x 921.4425
+ [14 <./Bilder/rat_diff.pdf>]
+<Bilder/Simon/Bilder_Tung/Climate_Influence.png, id=135, 1214.5375pt x 921.4425
 pt>
 File: Bilder/Simon/Bilder_Tung/Climate_Influence.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/Climate_Influence.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/Climate_Influence.png  used o
-n input line 230. on input line 230.
+n input line 231. on input line 231.
 Package pdftex.def Info: Requested size: 341.43442pt x 259.02852pt on input lin
-e 230.
+e 231.
 
 
-Package xcolor Warning: Incompatible color definition on input line 231.
+Package natbib Warning: Citation `robock2000volcanic' on page 15 undefined on i
+nput line 232.
 
 
-Package xcolor Warning: Incompatible color definition on input line 231.
+Package natbib Warning: Citation `robock2000volcanic' on page 15 undefined on i
+nput line 232.
 
 
-Package xcolor Warning: Incompatible color definition on input line 231.
+Package natbib Warning: Citation `robock2000volcanic' on page 15 undefined on i
+nput line 235.
 
 
-Package xcolor Warning: Incompatible color definition on input line 231.
+Package natbib Warning: Citation `halmer2002annual' on page 15 undefined on inp
+ut line 239.
 
 
-Package xcolor Warning: Incompatible color definition on input line 234.
+Package natbib Warning: Citation `halmer2002annual' on page 15 undefined on inp
+ut line 240.
 
 
-Package xcolor Warning: Incompatible color definition on input line 234.
+Package natbib Warning: Citation `IPCC' on page 15 undefined on input line 240.
 
 
-Package xcolor Warning: Incompatible color definition on input line 238.
+
+Package natbib Warning: Citation `graf1997volcanic' on page 15 undefined on inp
+ut line 240.
 
 
-Package xcolor Warning: Incompatible color definition on input line 238.
+Package natbib Warning: Citation `IPCC' on page 15 undefined on input line 240.
 
 
-Package xcolor Warning: Incompatible color definition on input line 239.
+
+Package natbib Warning: Citation `twomey1974pollution' on page 15 undefined on 
+input line 241.
 
 
-Package xcolor Warning: Incompatible color definition on input line 239.
+Package natbib Warning: Citation `robock2000volcanic' on page 15 undefined on i
+nput line 246.
 
 
-Package xcolor Warning: Incompatible color definition on input line 239.
+Package natbib Warning: Citation `IPCC' on page 15 undefined on input line 247.
 
 
-Package xcolor Warning: Incompatible color definition on input line 239.
 
-
-Package xcolor Warning: Incompatible color definition on input line 239.
-
-
-Package xcolor Warning: Incompatible color definition on input line 239.
-
-
-Package xcolor Warning: Incompatible color definition on input line 239.
-
-
-Package xcolor Warning: Incompatible color definition on input line 239.
-
-
-Package xcolor Warning: Incompatible color definition on input line 240.
-
-
-Package xcolor Warning: Incompatible color definition on input line 240.
-
-
-Package xcolor Warning: Incompatible color definition on input line 245.
-
-
-Package xcolor Warning: Incompatible color definition on input line 245.
-
-
-Package xcolor Warning: Incompatible color definition on input line 246.
-
-
-Package xcolor Warning: Incompatible color definition on input line 246.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--248
+Underfull \hbox (badness 10000) in paragraph at lines 235--249
 
  []
 
-[16 <./Bilder/Simon/Bilder_Tung/Climate_Influence.png>] [17]
+[15 <./Bilder/Simon/Bilder_Tung/Climate_Influence.png>] [16]
 chapter 3.
 (Chapters/2_NOVAC/2_NOVAC.tex
-<Bilder/NOVAC2015.pdf, id=511, pagebox=cropbox, 558.085pt x 329.23pt>
+<Bilder/NOVAC2015.pdf, id=148, pagebox=cropbox, 558.085pt x 329.23pt>
 File: Bilder/NOVAC2015.pdf Graphic file (type pdf)
 <use Bilder/NOVAC2015.pdf>
-Package pdftex.def Info: Bilder/NOVAC2015.pdf  used on input line 9. on input l
-ine 9.
+Package pdftex.def Info: Bilder/NOVAC2015.pdf  used on input line 7. on input l
+ine 7.
 Package pdftex.def Info: Requested size: 341.43442pt x 201.42781pt on input lin
-e 9.
+e 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--20
+Underfull \hbox (badness 10000) in paragraph at lines 11--17
 
  []
 
-<Bilder/Simon/Bilder_Tung/NOVAC_Instrument.png, id=513, 905.3825pt x 584.1825pt
+<Bilder/Simon/Bilder_Tung/NOVAC_Instrument.png, id=150, 905.3825pt x 584.1825pt
 >
 File: Bilder/Simon/Bilder_Tung/NOVAC_Instrument.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/NOVAC_Instrument.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/NOVAC_Instrument.png  used on
- input line 28. on input line 28.
+ input line 25. on input line 25.
 Package pdftex.def Info: Requested size: 426.7914pt x 275.37697pt on input line
- 28.
+ 25.
 
-Package xcolor Warning: Incompatible color definition on input line 30.
-
-
-Package xcolor Warning: Incompatible color definition on input line 30.
+Package natbib Warning: Citation `galle2010network' on page 17 undefined on inp
+ut line 27.
 
 
-Package xcolor Warning: Incompatible color definition on input line 30.
+Package natbib Warning: Citation `galle2010network' on page 17 undefined on inp
+ut line 27.
 
 
-Package xcolor Warning: Incompatible color definition on input line 30.
+Package natbib Warning: Citation `NOVACsite' on page 17 undefined on input line
+ 32.
 
-
-Package xcolor Warning: Incompatible color definition on input line 35.
-
-[18
+[17
 
  <./Bilder/NOVAC2015.pdf>]
-<Bilder/Simon/Bilder_Tung/Map_Tungurahua2.png, id=529, 875.27pt x 1012.78375pt>
+<Bilder/Simon/Bilder_Tung/Map_Tungurahua2.png, id=161, 875.27pt x 1012.78375pt>
 
 File: Bilder/Simon/Bilder_Tung/Map_Tungurahua2.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/Map_Tungurahua2.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/Map_Tungurahua2.png  used on 
-input line 45. on input line 45.
+input line 42. on input line 42.
 Package pdftex.def Info: Requested size: 208.27701pt x 240.9868pt on input line
- 45.
-<Bilder/NdR_map.pdf, id=530, pagebox=cropbox, 304.13625pt x 318.18875pt>
+ 42.
+<Bilder/NdR_map.pdf, id=162, pagebox=cropbox, 304.13625pt x 318.18875pt>
 File: Bilder/NdR_map.pdf Graphic file (type pdf)
 <use Bilder/NdR_map.pdf>
-Package pdftex.def Info: Bilder/NdR_map.pdf  used on input line 47. on input li
-ne 47.
+Package pdftex.def Info: Bilder/NdR_map.pdf  used on input line 44. on input li
+ne 44.
 Package pdftex.def Info: Requested size: 231.32411pt x 242.02016pt on input lin
-e 47.
+e 44.
 
-Overfull \hbox (3.09984pt too wide) in paragraph at lines 43--48
+Overfull \hbox (3.09984pt too wide) in paragraph at lines 40--45
 []|  [][] [][] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 48.
+Package natbib Warning: Citation `hidalgo2015so2' on page 18 undefined on input
+ line 45.
 
 
-Package xcolor Warning: Incompatible color definition on input line 48.
+Package natbib Warning: Citation `Windrose' on page 18 undefined on input line 
+45.
 
 
-Package xcolor Warning: Incompatible color definition on input line 48.
+Package natbib Warning: Citation `hidalgo2015so2' on page 18 undefined on input
+ line 45.
 
 
-Package xcolor Warning: Incompatible color definition on input line 48.
-
-
-Package xcolor Warning: Incompatible color definition on input line 48.
-
-
-Package xcolor Warning: Incompatible color definition on input line 48.
+Package natbib Warning: Citation `Windrose' on page 18 undefined on input line 
+45.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[19 <./Bilder/Simon/Bilder_Tung/NOVAC_Instrument.png>]
+[18 <./Bilder/Simon/Bilder_Tung/NOVAC_Instrument.png>]
+
+Package natbib Warning: Citation `hall1999tungurahua' on page 19 undefined on i
+nput line 82.
+
+
+Package natbib Warning: Citation `GlobalVolcanismProgram' on page 19 undefined 
+on input line 85.
+
+
+Package natbib Warning: Citation `samaniego2003peligros' on page 19 undefined o
+n input line 86.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--88
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <./Bilder/Simon/Bilder_Tung/Map_Tungurahua2.png> <./Bilder/NdR_map.pdf>]
-
-Package xcolor Warning: Incompatible color definition on input line 85.
-
-
-Package xcolor Warning: Incompatible color definition on input line 85.
-
-
-Package xcolor Warning: Incompatible color definition on input line 88.
-
-
-Package xcolor Warning: Incompatible color definition on input line 89.
-
-
-Package xcolor Warning: Incompatible color definition on input line 89.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--91
+ [19 <./Bilder/Simon/Bilder_Tung/Map_Tungurahua2.png> <./Bilder/NdR_map.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
-
- []
-
-
-Package xcolor Warning: Incompatible color definition on input line 98.
+Package natbib Warning: Citation `GlobalVolcanismProgram' on page 20 undefined 
+on input line 95.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 96--253
+Underfull \hbox (badness 10000) in paragraph at lines 93--254
 
  []
 
 
-Underfull \vbox (badness 1337) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-[22]
+ [20]
+[21]
 chapter 4.
 
-Package xcolor Warning: Incompatible color definition on input line 255.
+Package natbib Warning: Citation `platt1980observations' on page 22 undefined o
+n input line 256.
 
-
-Package xcolor Warning: Incompatible color definition on input line 255.
-
-[23
+[22
 
 ]
-<Bilder/DOASFunction.pdf, id=614, pagebox=cropbox, 589.20125pt x 455.7025pt>
+<Bilder/DOASFunction.pdf, id=226, pagebox=cropbox, 589.20125pt x 455.7025pt>
 File: Bilder/DOASFunction.pdf Graphic file (type pdf)
 <use Bilder/DOASFunction.pdf>
-Package pdftex.def Info: Bilder/DOASFunction.pdf  used on input line 284. on in
-put line 284.
+Package pdftex.def Info: Bilder/DOASFunction.pdf  used on input line 285. on in
+put line 285.
 Package pdftex.def Info: Requested size: 298.75267pt x 231.06317pt on input lin
-e 284.
- [24 <./Bilder/DOASFunction.pdf>]
-<Bilder/Simon/Bilder_Tung/DOAS_Intensity.png, id=653, 754.82pt x 544.0325pt>
+e 285.
+ [23 <./Bilder/DOASFunction.pdf>]
+<Bilder/Simon/Bilder_Tung/DOAS_Intensity.png, id=265, 754.82pt x 544.0325pt>
 File: Bilder/Simon/Bilder_Tung/DOAS_Intensity.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/DOAS_Intensity.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/DOAS_Intensity.png  used on i
-nput line 311. on input line 311.
+nput line 312. on input line 312.
 Package pdftex.def Info: Requested size: 341.43442pt x 246.08246pt on input lin
-e 311.
+e 312.
 
 
-Package xcolor Warning: Incompatible color definition on input line 312.
+Package natbib Warning: Citation `kern2009spectroscopic' on page 24 undefined o
+n input line 313.
 
 
-Package xcolor Warning: Incompatible color definition on input line 312.
+Package natbib Warning: Citation `kern2009spectroscopic' on page 24 undefined o
+n input line 313.
 
 
-Package xcolor Warning: Incompatible color definition on input line 312.
+Package natbib Warning: Citation `perner1979detection' on page 24 undefined on 
+input line 316.
 
 
-Package xcolor Warning: Incompatible color definition on input line 312.
+Package natbib Warning: Citation `platt2008differential' on page 24 undefined o
+n input line 316.
 
 
-Package xcolor Warning: Incompatible color definition on input line 315.
-
-
-Package xcolor Warning: Incompatible color definition on input line 315.
-
-
-Package xcolor Warning: Incompatible color definition on input line 315.
-
-
-Package xcolor Warning: Incompatible color definition on input line 315.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--324
+Underfull \hbox (badness 10000) in paragraph at lines 316--325
 
  []
 
-[25 <./Bilder/Simon/Bilder_Tung/DOAS_Intensity.png>]
-Overfull \hbox (0.16998pt too wide) detected at line 336
+[24 <./Bilder/Simon/Bilder_Tung/DOAS_Intensity.png>]
+Overfull \hbox (0.16998pt too wide) detected at line 337
 []
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
+Package natbib Warning: Citation `lubcke2014optical' on page 25 undefined on in
+put line 361.
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
+Underfull \hbox (badness 10000) in paragraph at lines 360--362
 
  []
 
+[25]
+
+Package natbib Warning: Citation `lubcke2014bro' on page 26 undefined on input 
+line 388.
+
+
+Package natbib Warning: Citation `bussemer1993ring' on page 26 undefined on inp
+ut line 392.
+
+
+Package natbib Warning: Citation `solomon1987interpretation' on page 26 undefin
+ed on input line 392.
+
+
+Package natbib Warning: Citation `solomon1987interpretation' on page 26 undefin
+ed on input line 394.
+
 [26]
 
-Package xcolor Warning: Incompatible color definition on input line 387.
+Package natbib Warning: Citation `kraus2006doasis' on page 27 undefined on inpu
+t line 399.
 
 
-Package xcolor Warning: Incompatible color definition on input line 387.
+Package natbib Warning: Citation `lehmann2011improving' on page 27 undefined on
+ input line 424.
 
 
-Package xcolor Warning: Incompatible color definition on input line 391.
+Package natbib Warning: Citation `wagner2009three' on page 27 undefined on inpu
+t line 424.
 
 
-Package xcolor Warning: Incompatible color definition on input line 391.
+Package natbib Warning: Citation `lubcke2014bro' on page 27 undefined on input 
+line 424.
 
 
-Package xcolor Warning: Incompatible color definition on input line 391.
+Package natbib Warning: Citation `vandaele2009fourier' on page 27 undefined on 
+input line 425.
 
 
-Package xcolor Warning: Incompatible color definition on input line 391.
+Package natbib Warning: Citation `burrows1999atmospheric' on page 27 undefined 
+on input line 425.
 
 
-Package xcolor Warning: Incompatible color definition on input line 393.
+Package natbib Warning: Citation `vogel2011volcanic' on page 27 undefined on in
+put line 426.
 
 
-Package xcolor Warning: Incompatible color definition on input line 393.
+Package natbib Warning: Citation `fleischmann2004new' on page 27 undefined on i
+nput line 427.
 
-[27]
 
-Package xcolor Warning: Incompatible color definition on input line 398.
+Package natbib Warning: Citation `hermans2003absorption' on page 27 undefined o
+n input line 427.
 
 
-Package xcolor Warning: Incompatible color definition on input line 398.
+Package natbib Warning: Citation `vandaele1998measurements' on page 27 undefine
+d on input line 427.
 
 
-Package xcolor Warning: Incompatible color definition on input line 423.
+Package natbib Warning: Citation `meller2000temperature' on page 27 undefined o
+n input line 427.
 
 
-Package xcolor Warning: Incompatible color definition on input line 423.
+Package natbib Warning: Citation `vogel2011volcanic' on page 27 undefined on in
+put line 431.
 
 
-Package xcolor Warning: Incompatible color definition on input line 423.
+Package natbib Warning: Citation `platt2008differential' on page 27 undefined o
+n input line 433.
 
 
-Package xcolor Warning: Incompatible color definition on input line 423.
+Package natbib Warning: Citation `lubcke2014bro' on page 27 undefined on input 
+line 433.
 
 
-Package xcolor Warning: Incompatible color definition on input line 423.
+Package natbib Warning: Citation `vogel2011volcanic' on page 27 undefined on in
+put line 433.
 
-
-Package xcolor Warning: Incompatible color definition on input line 423.
-
-
-Package xcolor Warning: Incompatible color definition on input line 424.
-
-
-Package xcolor Warning: Incompatible color definition on input line 424.
-
-
-Package xcolor Warning: Incompatible color definition on input line 424.
-
-
-Package xcolor Warning: Incompatible color definition on input line 424.
-
-
-Package xcolor Warning: Incompatible color definition on input line 425.
-
-
-Package xcolor Warning: Incompatible color definition on input line 425.
-
-
-Package xcolor Warning: Incompatible color definition on input line 426.
-
-
-Package xcolor Warning: Incompatible color definition on input line 426.
-
-
-Package xcolor Warning: Incompatible color definition on input line 426.
-
-
-Package xcolor Warning: Incompatible color definition on input line 426.
-
-
-Package xcolor Warning: Incompatible color definition on input line 426.
-
-
-Package xcolor Warning: Incompatible color definition on input line 426.
-
-
-Package xcolor Warning: Incompatible color definition on input line 426.
-
-
-Package xcolor Warning: Incompatible color definition on input line 426.
-
-
-Package xcolor Warning: Incompatible color definition on input line 430.
-
-
-Package xcolor Warning: Incompatible color definition on input line 430.
-
-
-Package xcolor Warning: Incompatible color definition on input line 432.
-
-
-Package xcolor Warning: Incompatible color definition on input line 432.
-
-
-Package xcolor Warning: Incompatible color definition on input line 432.
-
-
-Package xcolor Warning: Incompatible color definition on input line 432.
-
-
-Package xcolor Warning: Incompatible color definition on input line 432.
-
-
-Package xcolor Warning: Incompatible color definition on input line 432.
-
-<Bilder/Simon/Bilder_Tung/SO2_Scan_0.png, id=743, 868.6854pt x 678.3744pt>
+<Bilder/Simon/Bilder_Tung/SO2_Scan_0.png, id=305, 868.6854pt x 678.3744pt>
 File: Bilder/Simon/Bilder_Tung/SO2_Scan_0.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/SO2_Scan_0.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/SO2_Scan_0.png  used on input
- line 438. on input line 438.
+ line 439. on input line 439.
 Package pdftex.def Info: Requested size: 217.66125pt x 169.97618pt on input lin
-e 438.
-<Bilder/Simon/Bilder_Tung/BrO_Scan.png, id=744, 868.74562pt x 678.28406pt>
+e 439.
+<Bilder/Simon/Bilder_Tung/BrO_Scan.png, id=306, 868.74562pt x 678.28406pt>
 File: Bilder/Simon/Bilder_Tung/BrO_Scan.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/BrO_Scan.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/BrO_Scan.png  used on input l
-ine 439. on input line 439.
+ine 440. on input line 440.
 Package pdftex.def Info: Requested size: 217.66125pt x 169.94318pt on input lin
-e 439.
+e 440.
 
-Overfull \hbox (11.1416pt too wide) in paragraph at lines 438--440
+Overfull \hbox (11.1416pt too wide) in paragraph at lines 439--441
 [][] [][] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 440.
+Package natbib Warning: Citation `WarnachSimon' on page 27 undefined on input l
+ine 441.
 
 
-Package xcolor Warning: Incompatible color definition on input line 440.
+Package natbib Warning: Citation `WarnachSimon' on page 27 undefined on input l
+ine 441.
 
 
-Package xcolor Warning: Incompatible color definition on input line 440.
-
-
-Package xcolor Warning: Incompatible color definition on input line 440.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--443
+Underfull \hbox (badness 10000) in paragraph at lines 421--444
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--443
+Underfull \hbox (badness 10000) in paragraph at lines 421--444
 
  []
 
-[28] (Chapters/NOVACEval/NOVACEval.tex [29]
-<Bilder/NOVAC_Eval.pdf, id=778, pagebox=cropbox, 1275.76625pt x 419.5675pt>
+[27] (Chapters/NOVACEval/NOVACEval.tex [28]
+<Bilder/NOVAC_Eval.pdf, id=324, pagebox=cropbox, 1275.76625pt x 419.5675pt>
 File: Bilder/NOVAC_Eval.pdf Graphic file (type pdf)
 <use Bilder/NOVAC_Eval.pdf>
 Package pdftex.def Info: Bilder/NOVAC_Eval.pdf  used on input line 18. on input
@@ -2046,25 +1886,21 @@ Package pdftex.def Info: Requested size: 426.7914pt x 140.35912pt on input line
  18.
 
 
-Package xcolor Warning: Incompatible color definition on input line 19.
+Package natbib Warning: Citation `WarnachSimon' on page 29 undefined on input l
+ine 19.
 
 
-Package xcolor Warning: Incompatible color definition on input line 19.
+Package natbib Warning: Citation `WarnachSimon' on page 29 undefined on input l
+ine 19.
 
-
-Package xcolor Warning: Incompatible color definition on input line 19.
-
-
-Package xcolor Warning: Incompatible color definition on input line 19.
-
-<Bilder/Simon/Bilder_Tung/SO2_Scan.png, id=787, 868.6854pt x 678.3744pt>
+<Bilder/Simon/Bilder_Tung/SO2_Scan.png, id=329, 868.6854pt x 678.3744pt>
 File: Bilder/Simon/Bilder_Tung/SO2_Scan.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/SO2_Scan.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/SO2_Scan.png  used on input l
 ine 31. on input line 31.
 Package pdftex.def Info: Requested size: 226.19891pt x 176.64232pt on input lin
 e 31.
-<Bilder/Simon/Bilder_Tung/Algorithm.png, id=788, 730.73pt x 707.64375pt>
+<Bilder/Simon/Bilder_Tung/Algorithm.png, id=330, 730.73pt x 707.64375pt>
 File: Bilder/Simon/Bilder_Tung/Algorithm.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/Algorithm.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/Algorithm.png  used on input 
@@ -2077,67 +1913,49 @@ Overfull \hbox (2.61047pt too wide) in paragraph at lines 31--33
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 33.
+Package natbib Warning: Citation `WarnachSimon' on page 29 undefined on input l
+ine 33.
 
 
-Package xcolor Warning: Incompatible color definition on input line 33.
+Package natbib Warning: Citation `lubcke2014optical' on page 29 undefined on in
+put line 33.
 
 
-Package xcolor Warning: Incompatible color definition on input line 33.
+Package natbib Warning: Citation `WarnachSimon' on page 29 undefined on input l
+ine 33.
 
 
-Package xcolor Warning: Incompatible color definition on input line 33.
+Package natbib Warning: Citation `lubcke2014optical' on page 29 undefined on in
+put line 33.
 
 
-Package xcolor Warning: Incompatible color definition on input line 33.
+Package natbib Warning: Citation `vogel2011volcanic' on page 29 undefined on in
+put line 36.
 
 
-Package xcolor Warning: Incompatible color definition on input line 33.
-
-
-Package xcolor Warning: Incompatible color definition on input line 33.
-
-
-Package xcolor Warning: Incompatible color definition on input line 33.
-
-
-Package xcolor Warning: Incompatible color definition on input line 36.
-
-
-Package xcolor Warning: Incompatible color definition on input line 36.
-
-
-Package xcolor Warning: Incompatible color definition on input line 36.
-
-
-Package xcolor Warning: Incompatible color definition on input line 36.
+Package natbib Warning: Citation `lubcke2014bro' on page 29 undefined on input 
+line 36.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--37
 
  []
 
-[30 <./Bilder/Simon/Bilder_Tung/SO2_Scan_0.png (PNG copy)> <./Bilder/Simon/Bild
+[29 <./Bilder/Simon/Bilder_Tung/SO2_Scan_0.png (PNG copy)> <./Bilder/Simon/Bild
 er_Tung/BrO_Scan.png (PNG copy)>]
 
-Package xcolor Warning: Incompatible color definition on input line 38.
+Package natbib Warning: Citation `Stutz96' on page 30 undefined on input line 3
+8.
 
 
-Package xcolor Warning: Incompatible color definition on input line 38.
+Package natbib Warning: Citation `lubcke2014bro' on page 30 undefined on input 
+line 45.
 
 
-Package xcolor Warning: Incompatible color definition on input line 45.
+Package natbib Warning: Citation `lubcke2014bro' on page 30 undefined on input 
+line 50.
 
-
-Package xcolor Warning: Incompatible color definition on input line 45.
-
-
-Package xcolor Warning: Incompatible color definition on input line 50.
-
-
-Package xcolor Warning: Incompatible color definition on input line 50.
-
-<Bilder/tungpercentage_minSO2.pdf, id=817, pagebox=cropbox, 361.35pt x 289.08pt
+<Bilder/tungpercentage_minSO2.pdf, id=341, pagebox=cropbox, 361.35pt x 289.08pt
 >
 File: Bilder/tungpercentage_minSO2.pdf Graphic file (type pdf)
 <use Bilder/tungpercentage_minSO2.pdf>
@@ -2145,170 +1963,153 @@ Package pdftex.def Info: Bilder/tungpercentage_minSO2.pdf  used on input line 5
 3. on input line 53.
 Package pdftex.def Info: Requested size: 209.13013pt x 167.30481pt on input lin
 e 53.
-<Bilder/percentage_minSO2.pdf, id=818, pagebox=cropbox, 361.35pt x 289.08pt>
+<Bilder/percentage_minSO2.pdf, id=342, pagebox=cropbox, 361.35pt x 289.08pt>
 File: Bilder/percentage_minSO2.pdf Graphic file (type pdf)
 <use Bilder/percentage_minSO2.pdf>
 Package pdftex.def Info: Bilder/percentage_minSO2.pdf  used on input line 54. o
 n input line 54.
 Package pdftex.def Info: Requested size: 209.13013pt x 167.30481pt on input lin
 e 54.
-[31 <./Bilder/NOVAC_Eval.pdf>]
+[30 <./Bilder/NOVAC_Eval.pdf>]
 
-Package xcolor Warning: Incompatible color definition on input line 64.
-
-
-Package xcolor Warning: Incompatible color definition on input line 64.
+Package natbib Warning: Citation `lubcke2014optical' on page 31 undefined on in
+put line 64.
 
 
-Package xcolor Warning: Incompatible color definition on input line 64.
+Package natbib Warning: Citation `salerno2009novel' on page 31 undefined on inp
+ut line 64.
 
-
-Package xcolor Warning: Incompatible color definition on input line 64.
-
-<Bilder/contaminated.pdf, id=853, pagebox=cropbox, 370.38374pt x 341.275pt>
+<Bilder/contaminated.pdf, id=371, pagebox=cropbox, 370.38374pt x 341.275pt>
 File: Bilder/contaminated.pdf Graphic file (type pdf)
 <use Bilder/contaminated.pdf>
-Package pdftex.def Info: Bilder/contaminated.pdf  used on input line 73. on inp
-ut line 73.
+Package pdftex.def Info: Bilder/contaminated.pdf  used on input line 72. on inp
+ut line 72.
 Package pdftex.def Info: Requested size: 298.75267pt x 275.27518pt on input lin
-e 73.
+e 72.
 
-Package xcolor Warning: Incompatible color definition on input line 74.
-
-
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package natbib Warning: Citation `WarnachSimon' on page 31 undefined on input l
+ine 73.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package natbib Warning: Citation `WarnachSimon' on page 31 undefined on input l
+ine 73.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--89
+Underfull \hbox (badness 10000) in paragraph at lines 63--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--89
+Underfull \hbox (badness 10000) in paragraph at lines 63--88
 
  []
 
-
+[31 <./Bilder/Simon/Bilder_Tung/SO2_Scan.png (PNG copy)> <./Bilder/Simon/Bilder
+_Tung/Algorithm.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32 <./Bilder/Simon/Bilder_Tung/SO2_Scan.png (PNG copy)> <./Bilder/Simon/Bilde
-r_Tung/Algorithm.png>]
-Underfull \vbox (badness 2368) has occurred while \output is active []
-
- [33 <./Bilder/tungpercentage_minSO2.pdf> <./Bilder/percentage_minSO2.pdf
+ [32 <./Bilder/tungpercentage_minSO2.pdf> <./Bilder/percentage_minSO2.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/percentage_minSO2.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
 
-Package xcolor Warning: Incompatible color definition on input line 90.
+Package natbib Warning: Citation `chance2010improved' on page 33 undefined on i
+nput line 89.
 
 
-Package xcolor Warning: Incompatible color definition on input line 90.
+Package natbib Warning: Citation `salerno2009novel' on page 33 undefined on inp
+ut line 90.
 
 
-Package xcolor Warning: Incompatible color definition on input line 91.
+Package natbib Warning: Citation `lubcke2014bro' on page 33 undefined on input 
+line 90.
 
 
-Package xcolor Warning: Incompatible color definition on input line 91.
-
-
-Package xcolor Warning: Incompatible color definition on input line 91.
-
-
-Package xcolor Warning: Incompatible color definition on input line 91.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--100
+Underfull \hbox (badness 10000) in paragraph at lines 89--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--100
+Underfull \hbox (badness 10000) in paragraph at lines 89--99
 
  []
 
-[34 <./Bilder/contaminated.pdf>]
-<Bilder/ConProb.pdf, id=971, pagebox=cropbox, 505.89pt x 433.62pt>
+[33 <./Bilder/contaminated.pdf>]
+<Bilder/ConProb.pdf, id=476, pagebox=cropbox, 505.89pt x 433.62pt>
 File: Bilder/ConProb.pdf Graphic file (type pdf)
 <use Bilder/ConProb.pdf>
-Package pdftex.def Info: Bilder/ConProb.pdf  used on input line 117. on input l
-ine 117.
+Package pdftex.def Info: Bilder/ConProb.pdf  used on input line 116. on input l
+ine 116.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 117.
+e 116.
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--128
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
 
  []
 
-[35]
-<Bilder/Contaminationplume.pdf, id=979, pagebox=cropbox, 589.20125pt x 455.7025
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
+
+ []
+
+[34]
+<Bilder/Contaminationplume.pdf, id=484, pagebox=cropbox, 589.20125pt x 455.7025
 pt>
 File: Bilder/Contaminationplume.pdf Graphic file (type pdf)
 <use Bilder/Contaminationplume.pdf>
-Package pdftex.def Info: Bilder/Contaminationplume.pdf  used on input line 137.
- on input line 137.
+Package pdftex.def Info: Bilder/Contaminationplume.pdf  used on input line 136.
+ on input line 136.
 Package pdftex.def Info: Requested size: 298.75267pt x 231.06317pt on input lin
-e 137.
-<Bilder/Contaminationplumeinstrinplum.pdf, id=980, pagebox=cropbox, 589.20125pt
+e 136.
+<Bilder/Contaminationplumeinstrinplum.pdf, id=485, pagebox=cropbox, 589.20125pt
  x 455.7025pt>
 File: Bilder/Contaminationplumeinstrinplum.pdf Graphic file (type pdf)
 <use Bilder/Contaminationplumeinstrinplum.pdf>
 Package pdftex.def Info: Bilder/Contaminationplumeinstrinplum.pdf  used on inpu
-t line 144. on input line 144.
+t line 143. on input line 143.
 Package pdftex.def Info: Requested size: 209.13013pt x 161.74422pt on input lin
-e 144.
-<Bilder/Contaminationplumewideplume.pdf, id=981, pagebox=cropbox, 589.20125pt x
+e 143.
+<Bilder/Contaminationplumewideplume.pdf, id=486, pagebox=cropbox, 589.20125pt x
  455.7025pt>
 File: Bilder/Contaminationplumewideplume.pdf Graphic file (type pdf)
 <use Bilder/Contaminationplumewideplume.pdf>
 Package pdftex.def Info: Bilder/Contaminationplumewideplume.pdf  used on input 
-line 145. on input line 145.
+line 144. on input line 144.
 Package pdftex.def Info: Requested size: 209.13013pt x 161.74422pt on input lin
-e 145.
-<Bilder/contaminationdependency_so2.pdf, id=984, pagebox=cropbox, 505.89pt x 50
+e 144.
+<Bilder/contaminationdependency_so2.pdf, id=489, pagebox=cropbox, 505.89pt x 50
 5.89pt>
 File: Bilder/contaminationdependency_so2.pdf Graphic file (type pdf)
 <use Bilder/contaminationdependency_so2.pdf>
 Package pdftex.def Info: Bilder/contaminationdependency_so2.pdf  used on input 
-line 161. on input line 161.
+line 160. on input line 160.
 Package pdftex.def Info: Requested size: 213.39569pt x 213.39865pt on input lin
-e 161.
-<Bilder/contaminationdependency_so2_Nevad.pdf, id=985, pagebox=cropbox, 505.89p
+e 160.
+<Bilder/contaminationdependency_so2_Nevad.pdf, id=490, pagebox=cropbox, 505.89p
 t x 505.89pt>
 File: Bilder/contaminationdependency_so2_Nevad.pdf Graphic file (type pdf)
 <use Bilder/contaminationdependency_so2_Nevad.pdf>
 Package pdftex.def Info: Bilder/contaminationdependency_so2_Nevad.pdf  used on 
-input line 163. on input line 163.
+input line 162. on input line 162.
 Package pdftex.def Info: Requested size: 213.39569pt x 213.39865pt on input lin
-e 163.
+e 162.
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 161--164
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 160--163
 [][] [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--167
+Underfull \hbox (badness 10000) in paragraph at lines 129--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--167
+Underfull \hbox (badness 10000) in paragraph at lines 129--166
 
  []
 
-[36 <./Bilder/ConProb.pdf>] [37 <./Bilder/Contaminationplume.pdf> <./Bilder/Con
+[35 <./Bilder/ConProb.pdf>] [36 <./Bilder/Contaminationplume.pdf> <./Bilder/Con
 taminationplumeinstrinplum.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/Contaminationplumeinstrinplum.pdf):
@@ -2320,35 +2121,35 @@ DF inclusion: multiple pdfs with page group included in a single page
 >]
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [38 <./Bilder/contaminationdependency_so2.pdf> <./Bilder/contaminationdependen
+ [37 <./Bilder/contaminationdependency_so2.pdf> <./Bilder/contaminationdependen
 cy_so2_Nevad.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/contaminationdependency_so2_Nevad.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
->]) [39]
+>]) [38]
 part II.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 448.
-[40
+(scrkbase)              on input line 449.
+[39
 
 ]
 chapter 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@cee' on input line 449.
+(hyperref)                removing `\mhchem@cee' on input line 450.
 
 (Chapters/6_BrOanditslimitations/BrOanditslimitations.tex
-<Bilder/sametimeBrOErrorDistribution.pdf, id=1228, pagebox=cropbox, 505.89pt x 
-361.35pt>
+<Bilder/sametimeBrOErrorDistribution.pdf, id=735, pagebox=cropbox, 505.89pt x 3
+61.35pt>
 File: Bilder/sametimeBrOErrorDistribution.pdf Graphic file (type pdf)
 <use Bilder/sametimeBrOErrorDistribution.pdf>
 Package pdftex.def Info: Bilder/sametimeBrOErrorDistribution.pdf  used on input
  line 8. on input line 8.
 Package pdftex.def Info: Requested size: 209.13013pt x 149.37851pt on input lin
 e 8.
-<E:/Masterarbeit/BrO_Error_Distribution/AllBrOErrorDistribution.pdf, id=1229, p
-agebox=cropbox, 505.89pt x 361.35pt>
+<E:/Masterarbeit/BrO_Error_Distribution/AllBrOErrorDistribution.pdf, id=736, pa
+gebox=cropbox, 505.89pt x 361.35pt>
 File: E:/Masterarbeit/BrO_Error_Distribution/AllBrOErrorDistribution.pdf Graphi
 c file (type pdf)
 <use E:/Masterarbeit/BrO_Error_Distribution/AllBrOErrorDistribution.pdf>
@@ -2379,14 +2180,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--29
 
 Underfull \vbox (badness 2103) has occurred while \output is active []
 
- [41
+ [40
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 34.
-
-
-Package xcolor Warning: Incompatible color definition on input line 34.
+Package natbib Warning: Citation `lubcke2014optical' on page 41 undefined on in
+put line 34.
 
 
 Underfull \hbox (badness 1331) in paragraph at lines 50--50
@@ -2398,15 +2197,15 @@ Underfull \hbox (badness 3068) in paragraph at lines 50--50
 []|\T1/cmr/m/n/12 The tem-per-a-ture of the in-stru-ment while
  []
 
-[42 <./Bilder/sametimeBrOErrorDistribution.pdf> <E:/Masterarbeit/BrO_Error_Dist
+[41 <./Bilder/sametimeBrOErrorDistribution.pdf> <E:/Masterarbeit/BrO_Error_Dist
 ribution/AllBrOErrorDistribution.pdf
 
 pdfTeX warning: pdflatex.exe (file E:/Masterarbeit/BrO_Error_Distribution/AllBr
 OErrorDistribution.pdf): PDF inclusion: multiple pdfs with page group included 
 in a single page
->] [43]
-<Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png, id=1343, 712.91344pt x 752.81
-25pt>
+>] [42]
+<Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png, id=850, 712.91344pt x 752.812
+5pt>
 File: Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png  used 
@@ -2415,25 +2214,21 @@ Package pdftex.def Info: Requested size: 426.7914pt x 450.68013pt on input line
  84.
 
 
-Package xcolor Warning: Incompatible color definition on input line 85.
+Package natbib Warning: Citation `WarnachSimon' on page 43 undefined on input l
+ine 85.
 
 
-Package xcolor Warning: Incompatible color definition on input line 85.
+Package natbib Warning: Citation `WarnachSimon' on page 43 undefined on input l
+ine 85.
 
-
-Package xcolor Warning: Incompatible color definition on input line 85.
-
-
-Package xcolor Warning: Incompatible color definition on input line 85.
-
-<Bilder/Datum.png, id=1348, 433.62pt x 361.35pt>
+<Bilder/Datum.png, id=851, 433.62pt x 361.35pt>
 File: Bilder/Datum.png Graphic file (type png)
 <use Bilder/Datum.png>
 Package pdftex.def Info: Bilder/Datum.png  used on input line 91. on input line
  91.
 Package pdftex.def Info: Requested size: 213.39569pt x 177.82945pt on input lin
 e 91.
-<Bilder/datumkurz.png, id=1350, 433.62pt x 361.35pt>
+<Bilder/datumkurz.png, id=853, 433.62pt x 361.35pt>
 File: Bilder/datumkurz.png Graphic file (type png)
 <use Bilder/datumkurz.png>
 Package pdftex.def Info: Bilder/datumkurz.png  used on input line 93. on input 
@@ -2446,24 +2241,18 @@ Overfull \hbox (10.4419pt too wide) in paragraph at lines 91--94
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 99.
+Package natbib Warning: Citation `WarnachSimon' on page 43 undefined on input l
+ine 99.
 
 
-Package xcolor Warning: Incompatible color definition on input line 99.
+Package natbib Warning: Citation `WarnachSimon' on page 43 undefined on input l
+ine 99.
 
 
-Package xcolor Warning: Incompatible color definition on input line 99.
+Package natbib Warning: Citation `WarnachSimon' on page 43 undefined on input l
+ine 100.
 
-
-Package xcolor Warning: Incompatible color definition on input line 99.
-
-
-Package xcolor Warning: Incompatible color definition on input line 100.
-
-
-Package xcolor Warning: Incompatible color definition on input line 100.
-
-<Bilder/Hist.pdf, id=1361, pagebox=cropbox, 361.35pt x 361.35pt>
+<Bilder/Hist.pdf, id=858, pagebox=cropbox, 361.35pt x 361.35pt>
 File: Bilder/Hist.pdf Graphic file (type pdf)
 <use Bilder/Hist.pdf>
 Package pdftex.def Info: Bilder/Hist.pdf  used on input line 114. on input line
@@ -2475,504 +2264,490 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--120
 
  []
 
-[44] [45 <./Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46 <./Bilder/Datum.png> <./Bilder/datumkurz.png>] [47 <./Bilder/Hist.pdf>]
-Overfull \hbox (5.62384pt too wide) in paragraph at lines 153--153
+[43] [44 <./Bilder/Simon/Bilder_Tung/Drift_Komplett_NEW.png>]
+Overfull \hbox (5.62384pt too wide) in paragraph at lines 155--155
 []|\T1/cmr/m/n/12 Instrument| 
  []
 
 
-Overfull \hbox (9.08987pt too wide) in paragraph at lines 153--155
+Overfull \hbox (9.08987pt too wide) in paragraph at lines 155--157
  [][] 
  []
 
-<Bilder/DatallInstruments.pdf, id=1428, pagebox=cropbox, 505.89pt x 505.89pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/DatallInstruments.pdf, id=873, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/DatallInstruments.pdf Graphic file (type pdf)
 <use Bilder/DatallInstruments.pdf>
-Package pdftex.def Info: Bilder/DatallInstruments.pdf  used on input line 162. 
-on input line 162.
+Package pdftex.def Info: Bilder/DatallInstruments.pdf  used on input line 164. 
+on input line 164.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 162.
+e 164.
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--168
+Underfull \hbox (badness 10000) in paragraph at lines 158--170
 
  []
 
-<Bilder/DiffDaytimeallInstruments.pdf, id=1430, pagebox=cropbox, 505.89pt x 505
-.89pt>
+
+Underfull \vbox (badness 4492) has occurred while \output is active []
+
+ [45 <./Bilder/Datum.png> <./Bilder/datumkurz.png>] [46 <./Bilder/Hist.pdf>]
+<Bilder/DiffDaytimeallInstruments.pdf, id=929, pagebox=cropbox, 505.89pt x 505.
+89pt>
 File: Bilder/DiffDaytimeallInstruments.pdf Graphic file (type pdf)
 <use Bilder/DiffDaytimeallInstruments.pdf>
 Package pdftex.def Info: Bilder/DiffDaytimeallInstruments.pdf  used on input li
-ne 173. on input line 173.
+ne 175. on input line 175.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 173.
+e 175.
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-[48] [49 <./Bilder/DatallInstruments.pdf>] [50 <./Bilder/DiffDaytimeallInstrume
+[47] [48 <./Bilder/DatallInstruments.pdf>] [49 <./Bilder/DiffDaytimeallInstrume
 nts.pdf>]
-Overfull \hbox (1.17752pt too wide) in paragraph at lines 210--210
+Overfull \hbox (1.17752pt too wide) in paragraph at lines 213--213
 []|\T1/cmr/m/n/12 Correlation| 
  []
 
 
-Overfull \hbox (14.78033pt too wide) in paragraph at lines 210--212
+Overfull \hbox (14.78033pt too wide) in paragraph at lines 213--215
  [][] 
  []
 
 
-Overfull \hbox (5.62384pt too wide) in paragraph at lines 246--246
+Overfull \hbox (5.62384pt too wide) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 Instrument| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 72.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 147.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 198.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 275.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 205.8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 31.87
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 32.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 71.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 70.8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 50.1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 58
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 91
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 54
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 45
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 160
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 214
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 399
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 433
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/cmr/m/n/12 297
  []
 
 
-Overfull \hbox (9.08987pt too wide) in paragraph at lines 246--247
+Overfull \hbox (9.08987pt too wide) in paragraph at lines 249--250
  [][] 
  []
 
-<Bilder/DiffTempallInstruments1.pdf, id=1558, pagebox=cropbox, 505.89pt x 505.8
+<Bilder/DiffTempallInstruments1.pdf, id=1059, pagebox=cropbox, 505.89pt x 505.8
 9pt>
 File: Bilder/DiffTempallInstruments1.pdf Graphic file (type pdf)
 <use Bilder/DiffTempallInstruments1.pdf>
 Package pdftex.def Info: Bilder/DiffTempallInstruments1.pdf  used on input line
- 260. on input line 260.
+ 263. on input line 263.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 260.
+e 263.
 
-Package xcolor Warning: Incompatible color definition on input line 268.
-
-
-Package xcolor Warning: Incompatible color definition on input line 268.
+Package natbib Warning: Citation `chance2010improved' on page 50 undefined on i
+nput line 271.
 
 
-Package xcolor Warning: Incompatible color definition on input line 270.
+Package natbib Warning: Citation `pinardi2007influence' on page 50 undefined on
+ input line 273.
 
-
-Package xcolor Warning: Incompatible color definition on input line 270.
-
-<Bilder/Simon/Bilder_Tung/D2J2140_Before.png, id=1564, 579.3645pt x 405.9165pt>
+<Bilder/Simon/Bilder_Tung/D2J2140_Before.png, id=1061, 579.3645pt x 405.9165pt>
 
 File: Bilder/Simon/Bilder_Tung/D2J2140_Before.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/D2J2140_Before.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/D2J2140_Before.png  used on i
-nput line 273. on input line 273.
+nput line 276. on input line 276.
 Package pdftex.def Info: Requested size: 209.13013pt x 146.52003pt on input lin
-e 273.
-<Bilder/Simon/Bilder_Tung/D2J2140_After.png, id=1565, 580.3281pt x 405.1938pt>
+e 276.
+<Bilder/Simon/Bilder_Tung/D2J2140_After.png, id=1062, 580.3281pt x 405.1938pt>
 File: Bilder/Simon/Bilder_Tung/D2J2140_After.png Graphic file (type png)
 <use Bilder/Simon/Bilder_Tung/D2J2140_After.png>
 Package pdftex.def Info: Bilder/Simon/Bilder_Tung/D2J2140_After.png  used on in
-put line 274. on input line 274.
+put line 277. on input line 277.
 Package pdftex.def Info: Requested size: 209.13013pt x 146.01804pt on input lin
-e 274.
+e 277.
 
-Package xcolor Warning: Incompatible color definition on input line 275.
-
-
-Package xcolor Warning: Incompatible color definition on input line 275.
+Package natbib Warning: Citation `WarnachSimon' on page 50 undefined on input l
+ine 278.
 
 
-Package xcolor Warning: Incompatible color definition on input line 275.
+Package natbib Warning: Citation `WarnachSimon' on page 50 undefined on input l
+ine 278.
 
 
-Package xcolor Warning: Incompatible color definition on input line 275.
+Package natbib Warning: Citation `WarnachSimon' on page 50 undefined on input l
+ine 281.
 
 
-Package xcolor Warning: Incompatible color definition on input line 278.
-
-
-Package xcolor Warning: Incompatible color definition on input line 278.
-
-
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 304--304
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 309--309
 []|\T1/cmr/m/n/12 D2J2140_0| 
  []
 
 
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 304--304
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 309--309
 []|\T1/cmr/m/n/12 D2J2200_0| 
  []
 
 
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 304--304
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 309--309
 []|\T1/cmr/m/n/12 D2J2201_0| 
  []
 
 
-Overfull \hbox (1.17752pt too wide) in paragraph at lines 304--304
+Overfull \hbox (1.17752pt too wide) in paragraph at lines 309--309
 []|\T1/cmr/m/n/12 Correlation| 
  []
 
 
-Overfull \hbox (5.62384pt too wide) in paragraph at lines 354--354
+Overfull \hbox (5.62384pt too wide) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 Instrument| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 39.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 119.3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 158.2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 233.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 151.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 24.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 50.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 76.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 84.5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 72.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 12
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 130
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 213
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 386
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 414
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 296
  []
 
 
-Overfull \hbox (9.08987pt too wide) in paragraph at lines 354--355
+Overfull \hbox (9.08987pt too wide) in paragraph at lines 359--360
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--360
+Underfull \hbox (badness 10000) in paragraph at lines 268--365
 
  []
 
 
-Overfull \hbox (25.87234pt too wide) in paragraph at lines 265--360
+Overfull \hbox (25.87234pt too wide) in paragraph at lines 268--365
 \T1/cmr/m/n/12 The in-ter-cepts for the BrO fit er-ror at Tun-gu-rahua vary fro
 m 1.6$\OMS/cmsy/m/n/12 \OT1/cmr/m/n/12 10[][]$ \T1/cmr/m/n/12 to 2.58$\OMS/cms
 y/m/n/12 \OT1/cmr/m/n/12 10[][]$
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]
-[52 <./Bilder/DiffTempallInstruments1.pdf>] [53]
+[50] [51 <./Bilder/DiffTempallInstruments1.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/DiffColidxallInstruments.pdf, id=1611, pagebox=cropbox, 505.89pt x 505.
+[52]
+<Bilder/DiffColidxallInstruments.pdf, id=1102, pagebox=cropbox, 505.89pt x 505.
 89pt>
 File: Bilder/DiffColidxallInstruments.pdf Graphic file (type pdf)
 <use Bilder/DiffColidxallInstruments.pdf>
 Package pdftex.def Info: Bilder/DiffColidxallInstruments.pdf  used on input lin
-e 364. on input line 364.
+e 369. on input line 369.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 364.
-
-Package xcolor Warning: Incompatible color definition on input line 369.
+e 369.
 
 
-Package xcolor Warning: Incompatible color definition on input line 369.
+Package natbib Warning: Citation `wagner2014cloud' on page 53 undefined on inpu
+t line 374.
 
 
-Package xcolor Warning: Incompatible color definition on input line 373.
+Package natbib Warning: Citation `wagner2014cloud' on page 53 undefined on inpu
+t line 378.
 
 
-Package xcolor Warning: Incompatible color definition on input line 373.
+Package natbib Warning: Citation `lubcke2014optical' on page 53 undefined on in
+put line 385.
 
 
-Package xcolor Warning: Incompatible color definition on input line 380.
-
-
-Package xcolor Warning: Incompatible color definition on input line 380.
-
-
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 407--407
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 414--414
 []|\T1/cmr/m/n/12 D2J2140_0| 
  []
 
 
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 407--407
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 414--414
 []|\T1/cmr/m/n/12 D2J2200_0| 
  []
 
 
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 407--407
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 414--414
 []|\T1/cmr/m/n/12 D2J2201_0| 
  []
 
 
-Overfull \hbox (1.17752pt too wide) in paragraph at lines 407--407
+Overfull \hbox (1.17752pt too wide) in paragraph at lines 414--414
 []|\T1/cmr/m/n/12 Correlation| 
  []
 
 
-Overfull \hbox (3.37581pt too wide) in paragraph at lines 369--411
+Overfull \hbox (3.37581pt too wide) in paragraph at lines 374--418
 \T1/cmr/m/n/12 The cor-re-la-tion is as well cal-cu-lated and ranges from 0.2 f
 or the in-stru-ment I2J8546_0
  []
 
-[54 <./Bilder/Simon/Bilder_Tung/D2J2140_Before.png (PNG copy)> <./Bilder/Simon/
-Bilder_Tung/D2J2140_After.png (PNG copy)>] [55 <./Bilder/DiffColidxallInstrumen
-ts.pdf>] [56]
-Overfull \hbox (5.62384pt too wide) in paragraph at lines 446--446
+[53 <./Bilder/Simon/Bilder_Tung/D2J2140_Before.png (PNG copy)> <./Bilder/Simon/
+Bilder_Tung/D2J2140_After.png (PNG copy)>] [54 <./Bilder/DiffColidxallInstrumen
+ts.pdf>] [55]
+Overfull \hbox (5.62384pt too wide) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 Instrument| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 84.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 163.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 215.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 275.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 219.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 35.8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 29.9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 65.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 67.8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 49.86
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 113
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 97
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 61
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 28
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 169
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 214
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 399
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 421
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 297
  []
 
 
-Overfull \hbox (9.08987pt too wide) in paragraph at lines 446--447
+Overfull \hbox (9.08987pt too wide) in paragraph at lines 453--454
  [][] 
  []
 
@@ -2980,380 +2755,390 @@ Overfull \hbox (9.08987pt too wide) in paragraph at lines 446--447
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--454
+Underfull \hbox (badness 10000) in paragraph at lines 459--461
 
  []
 
-[57]
-<Bilder/DiffElevAngleallInstruments.pdf, id=1700, pagebox=cropbox, 505.89pt x 5
+<Bilder/DiffElevAngleallInstruments.pdf, id=1180, pagebox=cropbox, 505.89pt x 5
 05.89pt>
 File: Bilder/DiffElevAngleallInstruments.pdf Graphic file (type pdf)
 <use Bilder/DiffElevAngleallInstruments.pdf>
 Package pdftex.def Info: Bilder/DiffElevAngleallInstruments.pdf  used on input 
-line 483. on input line 483.
+line 490. on input line 490.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 483.
+e 490.
 
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 506--506
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+ [56]
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 514--514
 []|\T1/cmr/m/n/12 D2J2140_0| 
  []
 
 
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 506--506
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 514--514
 []|\T1/cmr/m/n/12 D2J2200_0| 
  []
 
 
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 506--506
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 514--514
 []|\T1/cmr/m/n/12 D2J2201_0| 
  []
 
 
-Overfull \hbox (1.17752pt too wide) in paragraph at lines 506--506
+Overfull \hbox (1.17752pt too wide) in paragraph at lines 514--514
 []|\T1/cmr/m/n/12 Correlation| 
  []
 
-<Bilder/DiffElevAngleKomischesInstr.pdf, id=1701, pagebox=cropbox, 505.89pt x 5
+<Bilder/DiffElevAngleKomischesInstr.pdf, id=1186, pagebox=cropbox, 505.89pt x 5
 05.89pt>
 File: Bilder/DiffElevAngleKomischesInstr.pdf Graphic file (type pdf)
 <use Bilder/DiffElevAngleKomischesInstr.pdf>
 Package pdftex.def Info: Bilder/DiffElevAngleKomischesInstr.pdf  used on input 
-line 520. on input line 520.
+line 528. on input line 528.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 520.
+e 528.
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--532
+Underfull \hbox (badness 10000) in paragraph at lines 534--540
 
  []
 
-[58] [59 <./Bilder/DiffElevAngleallInstruments.pdf>] [60 <./Bilder/DiffElevAngl
+[57] [58 <./Bilder/DiffElevAngleallInstruments.pdf>] [59 <./Bilder/DiffElevAngl
 eKomischesInstr.pdf>]
-<Bilder/DiffExpTimeallInstruments.pdf, id=1824, pagebox=cropbox, 505.89pt x 505
+<Bilder/DiffExpTimeallInstruments.pdf, id=1309, pagebox=cropbox, 505.89pt x 505
 .89pt>
 File: Bilder/DiffExpTimeallInstruments.pdf Graphic file (type pdf)
 <use Bilder/DiffExpTimeallInstruments.pdf>
 Package pdftex.def Info: Bilder/DiffExpTimeallInstruments.pdf  used on input li
-ne 535. on input line 535.
+ne 543. on input line 543.
 Package pdftex.def Info: Requested size: 298.75267pt x 298.75812pt on input lin
-e 535.
+e 543.
 
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 562--562
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 572--572
 []|\T1/cmr/m/n/12 D2J2140_0| 
  []
 
 
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 562--562
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 572--572
 []|\T1/cmr/m/n/12 D2J2200_0| 
  []
 
 
-Overfull \hbox (2.47859pt too wide) in paragraph at lines 562--562
+Overfull \hbox (2.47859pt too wide) in paragraph at lines 572--572
 []|\T1/cmr/m/n/12 D2J2201_0| 
  []
 
 
-Overfull \hbox (1.17752pt too wide) in paragraph at lines 562--562
+Overfull \hbox (1.17752pt too wide) in paragraph at lines 572--572
 []|\T1/cmr/m/n/12 Correlation| 
  []
 
 
-Overfull \hbox (5.62384pt too wide) in paragraph at lines 597--597
+Overfull \hbox (5.62384pt too wide) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 Instrument| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 81.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 162.8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 212.8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 284.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 225.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 35.3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 30.1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 64.5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 69.5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 41.2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 113
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 95
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 64
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 63
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 167
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 214
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 395
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 433
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
 []|\T1/cmr/m/n/12 297
  []
 
 
-Overfull \hbox (9.08987pt too wide) in paragraph at lines 597--598
+Overfull \hbox (9.08987pt too wide) in paragraph at lines 607--608
  [][] 
  []
 
 
-Overfull \hbox (5.62384pt too wide) in paragraph at lines 638--638
+Overfull \hbox (5.62384pt too wide) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 Instrument| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 36.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 112.9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 148.9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 217.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 140.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 22.35
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 50.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 75.9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 82.1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 71.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 1$ $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 8$ $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 12
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 3$ $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 6$ $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 212
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 382
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 398
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 []|\T1/cmr/m/n/12 283
  []
 
 
-Overfull \hbox (9.08987pt too wide) in paragraph at lines 638--640
+Overfull \hbox (9.08987pt too wide) in paragraph at lines 648--650
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[61] [62 <./Bilder/DiffExpTimeallInstruments.pdf>])
+ [60 <./Bilder/DiffExpTimeallInstruments.pdf>])
 <"../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Difference
- in Temperature [C]_Tungu".png, id=1900, 505.89pt x 433.62pt>
+ in Temperature [C]_Tungu".png, id=1377, 505.89pt x 433.62pt>
 File: "../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Diffe
 rence in Temperature [C]_Tungu".png Graphic file (type png)
 <use "../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Differ
 ence in Temperature [C]_Tungu".png>
 Package pdftex.def Info: "../Ausarbeitung/Uebersicht/Bilder/Difference in Expos
-ure Time [ms]_Difference in Temperature [C]_Tungu".png  used on input line 457.
- on input line 457.
+ure Time [ms]_Difference in Temperature [C]_Tungu".png  used on input line 458.
+ on input line 458.
 Package pdftex.def Info: Requested size: 298.75267pt x 256.07838pt on input lin
-e 457.
-<Bilder/varCorrelation_matrix.pdf, id=1901, pagebox=cropbox, 455.7025pt x 426.5
+e 458.
+<Bilder/varCorrelation_matrix.pdf, id=1378, pagebox=cropbox, 455.7025pt x 426.5
 9375pt>
 File: Bilder/varCorrelation_matrix.pdf Graphic file (type pdf)
 <use Bilder/varCorrelation_matrix.pdf>
 Package pdftex.def Info: Bilder/varCorrelation_matrix.pdf  used on input line 4
-63. on input line 463.
+64. on input line 464.
 Package pdftex.def Info: Requested size: 426.7914pt x 399.54008pt on input line
- 463.
-<Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstruments.pdf, id=1921, pagebox
+ 464.
+<Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstruments.pdf, id=1398, pagebox
 =cropbox, 505.89pt x 505.89pt>
 File: Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstruments.pdf Graphic file
  (type pdf)
 <use Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOErr_OhnEVar/DatwithoutOtherparamallInstrumen
-ts.pdf  used on input line 485. on input line 485.
+ts.pdf  used on input line 486. on input line 486.
 Package pdftex.def Info: Requested size: 213.39569pt x 213.39865pt on input lin
-e 485.
-<Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOtherparamallInstruments.pdf, id=1922,
+e 486.
+<Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOtherparamallInstruments.pdf, id=1399,
  pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOtherparamallInstruments.pdf Grap
 hic file (type pdf)
 <use Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOtherparamallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOtherparamallI
-nstruments.pdf  used on input line 491. on input line 491.
+nstruments.pdf  used on input line 492. on input line 492.
 Package pdftex.def Info: Requested size: 213.39569pt x 213.39865pt on input lin
-e 491.
-<Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf, id=1923, 
+e 492.
+<Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf, id=1400, 
 pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf Graph
 ic file (type pdf)
 <use Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallIn
-struments.pdf  used on input line 498. on input line 498.
+struments.pdf  used on input line 499. on input line 499.
 Package pdftex.def Info: Requested size: 213.39569pt x 213.39865pt on input lin
-e 498.
-<Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf, id=1924,
+e 499.
+<Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf, id=1401,
  pagebox=cropbox, 505.89pt x 505.89pt>
 File: Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf Grap
 hic file (type pdf)
 <use Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallI
-nstruments.pdf  used on input line 504. on input line 504.
+nstruments.pdf  used on input line 505. on input line 505.
 Package pdftex.def Info: Requested size: 213.39569pt x 213.39865pt on input lin
-e 504.
+e 505.
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--508
+Underfull \hbox (badness 10000) in paragraph at lines 453--509
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--508
+Underfull \vbox (badness 2452) has occurred while \output is active []
 
- []
-
-[63]
+ [61]
+[62]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[64] [65 <../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Di
-fference in Temperature [C]_Tungu.png>]
+
+Underfull \vbox (badness 3657) has occurred while \output is active []
+
+ [63]
+[64 <../Ausarbeitung/Uebersicht/Bilder/Difference in Exposure Time [ms]_Differe
+nce in Temperature [C]_Tungu.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -3368,128 +3153,128 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@cee' on input line 551.
+(hyperref)                removing `\mhchem@cee' on input line 552.
 
 <"Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_6_02_18_DiffTemperatu
-re [C]_BrO".pdf, id=1946, pagebox=cropbox, 722.7pt x 433.62pt>
+re [C]_BrO".pdf, id=1432, pagebox=cropbox, 722.7pt x 433.62pt>
 File: "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_6_02_18_DiffTemp
 erature [C]_BrO".pdf Graphic file (type pdf)
 <use "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_6_02_18_DiffTempe
 rature [C]_BrO".pdf>
 Package pdftex.def Info: "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140
-_0_6_02_18_DiffTemperature [C]_BrO".pdf  used on input line 555. on input line 
-555.
+_0_6_02_18_DiffTemperature [C]_BrO".pdf  used on input line 556. on input line 
+556.
 Package pdftex.def Info: Requested size: 213.39569pt x 128.03589pt on input lin
-e 555.
+e 556.
 <"Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_plumeat12Temperature 
-[C]_BrO_TemporalDiff".pdf, id=1947, pagebox=cropbox, 722.7pt x 433.62pt>
+[C]_BrO_TemporalDiff".pdf, id=1433, pagebox=cropbox, 722.7pt x 433.62pt>
 File: "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_plumeat12Tempera
 ture [C]_BrO_TemporalDiff".pdf Graphic file (type pdf)
 <use "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_plumeat12Temperat
 ure [C]_BrO_TemporalDiff".pdf>
 Package pdftex.def Info: "Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140
-_0_plumeat12Temperature [C]_BrO_TemporalDiff".pdf  used on input line 556. on i
-nput line 556.
+_0_plumeat12Temperature [C]_BrO_TemporalDiff".pdf  used on input line 557. on i
+nput line 557.
 Package pdftex.def Info: Requested size: 213.39569pt x 128.03589pt on input lin
-e 556.
+e 557.
 
-Overfull \hbox (6.52618pt too wide) in paragraph at lines 555--557
+Overfull \hbox (6.52618pt too wide) in paragraph at lines 556--558
 [][] [][] 
  []
 
-[66]
-<Bilder/BrOVariables/DatBrOallInstruments.pdf, id=1963, pagebox=cropbox, 505.89
+[65]
+<Bilder/BrOVariables/DatBrOallInstruments.pdf, id=1451, pagebox=cropbox, 505.89
 pt x 505.89pt>
 File: Bilder/BrOVariables/DatBrOallInstruments.pdf Graphic file (type pdf)
 <use Bilder/BrOVariables/DatBrOallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOVariables/DatBrOallInstruments.pdf  used on 
-input line 607. on input line 607.
+input line 608. on input line 608.
 Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 607.
-<Bilder/BrOVariables/DiffDaytimeBrOallInstruments.pdf, id=1964, pagebox=cropbox
+e 608.
+<Bilder/BrOVariables/DiffDaytimeBrOallInstruments.pdf, id=1452, pagebox=cropbox
 , 505.89pt x 505.89pt>
 File: Bilder/BrOVariables/DiffDaytimeBrOallInstruments.pdf Graphic file (type p
 df)
 <use Bilder/BrOVariables/DiffDaytimeBrOallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOVariables/DiffDaytimeBrOallInstruments.pdf  
-used on input line 610. on input line 610.
+used on input line 611. on input line 611.
 Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 610.
-<Bilder/BrOVariables/DiffTempBrOallInstruments.pdf, id=1965, pagebox=cropbox, 5
+e 611.
+<Bilder/BrOVariables/DiffTempBrOallInstruments.pdf, id=1453, pagebox=cropbox, 5
 05.89pt x 505.89pt>
 File: Bilder/BrOVariables/DiffTempBrOallInstruments.pdf Graphic file (type pdf)
 
 <use Bilder/BrOVariables/DiffTempBrOallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOVariables/DiffTempBrOallInstruments.pdf  use
-d on input line 612. on input line 612.
+d on input line 613. on input line 613.
 Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 612.
-<Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf, id=1966, pagebox=cropbox,
+e 613.
+<Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf, id=1454, pagebox=cropbox,
  505.89pt x 505.89pt>
 File: Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf Graphic file (type pd
 f)
 <use Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOVariables/DiffColidxBrOallInstruments.pdf  u
-sed on input line 615. on input line 615.
+sed on input line 616. on input line 616.
 Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 615.
-<Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf, id=1967, pagebox=cropb
+e 616.
+<Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf, id=1455, pagebox=cropb
 ox, 505.89pt x 505.89pt>
 File: Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf Graphic file (type
  pdf)
 <use Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOVariables/DiffElevAngleBrOallInstruments.pdf
-  used on input line 618. on input line 618.
+  used on input line 619. on input line 619.
 Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 618.
-<Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf, id=1968, pagebox=cropbox
+e 619.
+<Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf, id=1456, pagebox=cropbox
 , 505.89pt x 505.89pt>
 File: Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf Graphic file (type p
 df)
 <use Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf>
 Package pdftex.def Info: Bilder/BrOVariables/DiffExpTimeBrOallInstruments.pdf  
-used on input line 621. on input line 621.
+used on input line 622. on input line 622.
 Package pdftex.def Info: Requested size: 192.05482pt x 192.05493pt on input lin
-e 621.
+e 622.
 
-Overfull \hbox (6.26465pt too wide) in paragraph at lines 607--622
+Overfull \hbox (6.26465pt too wide) in paragraph at lines 608--623
 [][] [][]
  []
 
 
-Overfull \hbox (1.6963pt too wide) in paragraph at lines 607--622
+Overfull \hbox (1.6963pt too wide) in paragraph at lines 608--623
 [][] [][]
  []
 
 
-Overfull \hbox (3.51186pt too wide) in paragraph at lines 607--622
+Overfull \hbox (3.51186pt too wide) in paragraph at lines 608--623
 [][] [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 21.66258pt on input line 624.
+LaTeX Warning: Float too large for page by 21.66258pt on input line 625.
 
-[67] [68 <./Bilder/varCorrelation_matrix.pdf>] [69 <./Bilder/BrOErr_OhnEVar/Dat
+[66] [67 <./Bilder/varCorrelation_matrix.pdf>] [68 <./Bilder/BrOErr_OhnEVar/Dat
 withoutOtherparamallInstruments.pdf> <./Bilder/BrOErr_OhnEVar/DiffDaytimewithou
 tOtherparamallInstruments.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/BrOErr_OhnEVar/DiffDaytimewithoutOt
 herparamallInstruments.pdf): PDF inclusion: multiple pdfs with page group inclu
 ded in a single page
->] [70 <./Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf> 
+>] [69 <./Bilder/BrOErr_OhnEVar/DiffColidxwithoutOtherparamallInstruments.pdf> 
 <./Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOtherparamallInstruments.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/BrOErr_OhnEVar/DiffExpTimewithoutOt
 herparamallInstruments.pdf): PDF inclusion: multiple pdfs with page group inclu
 ded in a single page
->] [71 <./Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_6_02_18_DiffT
+>] [70 <./Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J2140_0_6_02_18_DiffT
 emperature [C]_BrO.pdf> <./Bilder/OnePlumeMoreRefs_plumedate_081203_1646/D2J214
 0_0_plumeat12Temperature [C]_BrO_TemporalDiff.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/OnePlumeMoreRefs_plumedate_081203_1
 646/D2J2140_0_plumeat12Temperature [C]_BrO_TemporalDiff.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
->] [72 <./Bilder/BrOVariables/DatBrOallInstruments.pdf> <./Bilder/BrOVariables/
+>] [71 <./Bilder/BrOVariables/DatBrOallInstruments.pdf> <./Bilder/BrOVariables/
 DiffDaytimeBrOallInstruments.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/BrOVariables/DiffDaytimeBrOallInstr
@@ -3515,239 +3300,225 @@ e page
 pdfTeX warning: pdflatex.exe (file ./Bilder/BrOVariables/DiffExpTimeBrOallInstr
 uments.pdf): PDF inclusion: multiple pdfs with page group included in a single 
 page
->] [73
+>] [72
 
 ]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 631.
-[74
+(scrkbase)              on input line 632.
+[73
 
 ]
 chapter 6.
-<Bilder/Cont.pdf, id=2643, pagebox=cropbox, 597.23125pt x 361.35pt>
-File: Bilder/Cont.pdf Graphic file (type pdf)
-<use Bilder/Cont.pdf>
-Package pdftex.def Info: Bilder/Cont.pdf  used on input line 641. on input line
- 641.
-Package pdftex.def Info: Requested size: 298.75267pt x 180.75726pt on input lin
-e 641.
-
-Underfull \hbox (badness 10000) in paragraph at lines 635--645
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 647.
+<Bilder/smaldiag.pdf, id=2132, pagebox=cropbox, 455.7025pt x 426.59375pt>
+File: Bilder/smaldiag.pdf Graphic file (type pdf)
+<use Bilder/smaldiag.pdf>
+Package pdftex.def Info: Bilder/smaldiag.pdf  used on input line 638. on input 
+line 638.
+Package pdftex.def Info: Requested size: 217.66125pt x 203.76024pt on input lin
+e 638.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 645.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 647.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 645.
+<Bilder/Cont.pdf, id=2134, pagebox=cropbox, 597.23125pt x 361.35pt>
+File: Bilder/Cont.pdf Graphic file (type pdf)
+<use Bilder/Cont.pdf>
+Package pdftex.def Info: Bilder/Cont.pdf  used on input line 650. on input line
+ 650.
+Package pdftex.def Info: Requested size: 298.75267pt x 180.75726pt on input lin
+e 650.
+ [74
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--678
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 663--678
-
- []
-
-[75
-
-]
-Underfull \vbox (badness 2359) has occurred while \output is active []
-
- [76 <./Bilder/Cont.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 680--685
+ <./Bilder/smaldiag.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 672--687
 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 690.
+Underfull \hbox (badness 10000) in paragraph at lines 672--687
 
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--691
+[75 <./Bilder/Cont.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 689--694
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--702
+Package natbib Warning: Citation `SKlearn' on page 76 undefined on input line 6
+99.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--700
+
+ []
+
+[76]
+Underfull \hbox (badness 10000) in paragraph at lines 711--711
 []|\T1/cmr/m/n/12 Mean -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--703
+Underfull \hbox (badness 10000) in paragraph at lines 711--712
 []|\T1/cmr/m/n/12 Highest -
  []
 
-[77]
-<"Bilder/WelcheEP/Nevado Del Ruiz".pdf, id=2681, pagebox=cropbox, 433.62pt x 43
+<"Bilder/WelcheEP/Nevado Del Ruiz".pdf, id=2183, pagebox=cropbox, 433.62pt x 43
 3.62pt>
 File: "Bilder/WelcheEP/Nevado Del Ruiz".pdf Graphic file (type pdf)
 <use "Bilder/WelcheEP/Nevado Del Ruiz".pdf>
 Package pdftex.def Info: "Bilder/WelcheEP/Nevado Del Ruiz".pdf  used on input l
-ine 720. on input line 720.
+ine 729. on input line 729.
 Package pdftex.def Info: Requested size: 213.39569pt x 213.39536pt on input lin
-e 720.
-<Bilder/WelcheEP/Tungurahua.pdf, id=2682, pagebox=cropbox, 433.62pt x 433.62pt>
+e 729.
+<Bilder/WelcheEP/Tungurahua.pdf, id=2184, pagebox=cropbox, 433.62pt x 433.62pt>
 
 File: Bilder/WelcheEP/Tungurahua.pdf Graphic file (type pdf)
 <use Bilder/WelcheEP/Tungurahua.pdf>
-Package pdftex.def Info: Bilder/WelcheEP/Tungurahua.pdf  used on input line 722
-. on input line 722.
+Package pdftex.def Info: Bilder/WelcheEP/Tungurahua.pdf  used on input line 731
+. on input line 731.
 Package pdftex.def Info: Requested size: 213.39569pt x 213.39536pt on input lin
-e 722.
+e 731.
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 720--723
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 729--732
 [][] [][] 
  []
 
 
-Underfull \hbox (badness 7649) in paragraph at lines 861--861
+Underfull \hbox (badness 7649) in paragraph at lines 869--869
 []\T1/cmr/m/n/10 (a) Data of Tun-gu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--922
+Underfull \hbox (badness 10000) in paragraph at lines 739--930
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--922
+Underfull \hbox (badness 10000) in paragraph at lines 739--930
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--922
+Underfull \hbox (badness 10000) in paragraph at lines 739--930
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[78] [79 <./Bilder/WelcheEP/Nevado Del Ruiz.pdf> <./Bilder/WelcheEP/Tungurahua.
+[77] [78 <./Bilder/WelcheEP/Nevado Del Ruiz.pdf> <./Bilder/WelcheEP/Tungurahua.
 pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/WelcheEP/Tungurahua.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
-Underfull \vbox (badness 1418) has occurred while \output is active []
 
- [80]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[79]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81]
-[82]
-Underfull \vbox (badness 1210) has occurred while \output is active []
-
- [83]
-[84]
+ [80]
+[81] [82] [83]
 chapter 7.
-<Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf, id=2836, pagebox=cropbox, 5
+<Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf, id=2342, pagebox=cropbox, 5
 05.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf Graphic file (type pdf)
 
 <use Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf  use
-d on input line 1042. on input line 1042.
+d on input line 1044. on input line 1044.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1042.
-<Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf, id=2837, pagebox=cropbox, 505
+e 1044.
+<Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf, id=2343, pagebox=cropbox, 505
 .89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf Graphic file (type pdf)
 <use Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/NevadoDelRuiz_Pic/so2_novac_conbased.pdf  used 
-on input line 1044. on input line 1044.
+on input line 1046. on input line 1046.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1044.
-<Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf, id=2838, pagebox=cropbox, 5
+e 1046.
+<Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf, id=2344, pagebox=cropbox, 5
 05.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf Graphic file (type pdf)
 
 <use Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_bro_novac_conbased.pdf  use
-d on input line 1046. on input line 1046.
+d on input line 1048. on input line 1048.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1046.
-<Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf, id=2839, pagebox=cropbox, 505
+e 1048.
+<Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf, id=2345, pagebox=cropbox, 505
 .89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf Graphic file (type pdf)
 <use Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/NevadoDelRuiz_Pic/bro_novac_conbased.pdf  used 
-on input line 1048. on input line 1048.
+on input line 1050. on input line 1050.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1048.
+e 1050.
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 1042--1049
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 1044--1051
 [][] [][]
  []
 
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 1042--1049
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 1044--1051
 [][] [][] 
  []
 
-<Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf, id=2840, pagebox=cropbox,
+<Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf, id=2346, pagebox=cropbox,
  505.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf Graphic file (type pd
 f)
 <use Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf  u
-sed on input line 1055. on input line 1055.
+sed on input line 1057. on input line 1057.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1055.
-<Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf, id=2841, pagebox=cropbox, 5
+e 1057.
+<Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf, id=2347, pagebox=cropbox, 5
 05.89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf Graphic file (type pdf)
 
 <use Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf  use
-d on input line 1057. on input line 1057.
+d on input line 1059. on input line 1059.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1057.
-<Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.pdf, id=2842, pagebox=cro
+e 1059.
+<Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.pdf, id=2348, pagebox=cro
 pbox, 505.89pt x 433.62pt>
 File: Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.pdf Graphic file (ty
 pe pdf)
 <use Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/Tungurahua_Pic/tung_ratio_diff_novac_conbased.p
-df  used on input line 1059. on input line 1059.
+df  used on input line 1061. on input line 1061.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1059.
-<Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf, id=2843, pagebox=cropb
+e 1061.
+<Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf, id=2349, pagebox=cropb
 ox, 505.89pt x 433.62pt>
 File: Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf Graphic file (type
  pdf)
 <use Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf>
 Package pdftex.def Info: Bilder/NevadoDelRuiz_Pic/ratio_diff_novac_conbased.pdf
-  used on input line 1061. on input line 1061.
+  used on input line 1063. on input line 1063.
 Package pdftex.def Info: Requested size: 213.39569pt x 182.91313pt on input lin
-e 1061.
+e 1063.
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 1055--1063
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 1057--1065
 [][] [][]
  []
 
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 1055--1063
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 1057--1065
 [][] [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1075
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1075
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1075
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1145
 
  []
 
@@ -3760,12 +3531,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 3460) has occurred while \output is active []
 
- [85
+ [84
 
 ]
+
+LaTeX Warning: Reference `tab:calc1' on page 85 undefined on input line 1152.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1158
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86 <./Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf> <./Bilder/NevadoDelR
+ [85 <./Bilder/Tungurahua_Pic/tung_so2_novac_conbased.pdf> <./Bilder/NevadoDelR
 uiz_Pic/so2_novac_conbased.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/NevadoDelRuiz_Pic/so2_novac_conbase
@@ -3780,27 +3560,12 @@ e
 pdfTeX warning: pdflatex.exe (file ./Bilder/NevadoDelRuiz_Pic/bro_novac_conbase
 d.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
-[]|\T1/cmr/m/n/12 Contbased: above
- []
-
-
-Overfull \hbox (51.91563pt too wide) in paragraph at lines 1097--1098
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1105--1115
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1175
 
  []
 
-[87]
-Underfull \hbox (badness 10000) in paragraph at lines 1126--1132
-
- []
-
-[88] [89 <./Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf> <./Bilder/Neva
-doDelRuiz_Pic/ratio_novac_conbased.pdf
+[86] [87] [88 <./Bilder/Tungurahua_Pic/tung_ratio_novac_conbased.pdf> <./Bilder
+/NevadoDelRuiz_Pic/ratio_novac_conbased.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/NevadoDelRuiz_Pic/ratio_novac_conba
 sed.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
@@ -3818,132 +3583,132 @@ e page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@cee' on input line 1149.
+(hyperref)                removing `\mhchem@cee' on input line 1192.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1151--1152
+Underfull \hbox (badness 10000) in paragraph at lines 1194--1195
 
  []
 
-<Bilder/tung_so2_novac_sametime.pdf, id=3205, pagebox=cropbox, 867.24pt x 361.3
+<Bilder/tung_so2_novac_sametime.pdf, id=2711, pagebox=cropbox, 867.24pt x 361.3
 5pt>
 File: Bilder/tung_so2_novac_sametime.pdf Graphic file (type pdf)
 <use Bilder/tung_so2_novac_sametime.pdf>
 Package pdftex.def Info: Bilder/tung_so2_novac_sametime.pdf  used on input line
- 1166. on input line 1166.
+ 1209. on input line 1209.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1166.
-<Bilder/tung_bro_sametime.pdf, id=3206, pagebox=cropbox, 867.24pt x 361.35pt>
+ 1209.
+<Bilder/tung_bro_sametime.pdf, id=2712, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/tung_bro_sametime.pdf Graphic file (type pdf)
 <use Bilder/tung_bro_sametime.pdf>
-Package pdftex.def Info: Bilder/tung_bro_sametime.pdf  used on input line 1168.
- on input line 1168.
+Package pdftex.def Info: Bilder/tung_bro_sametime.pdf  used on input line 1211.
+ on input line 1211.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1168.
-<Bilder/tung_rat_sametime.pdf, id=3207, pagebox=cropbox, 867.24pt x 361.35pt>
+ 1211.
+<Bilder/tung_rat_sametime.pdf, id=2713, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/tung_rat_sametime.pdf Graphic file (type pdf)
 <use Bilder/tung_rat_sametime.pdf>
-Package pdftex.def Info: Bilder/tung_rat_sametime.pdf  used on input line 1170.
- on input line 1170.
+Package pdftex.def Info: Bilder/tung_rat_sametime.pdf  used on input line 1213.
+ on input line 1213.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1170.
+ 1213.
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1166--1171
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1209--1214
  [][] 
  []
 
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1166--1171
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1209--1214
  [][] 
  []
 
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1166--1171
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1209--1214
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 8.48834pt on input line 1174.
+LaTeX Warning: Float too large for page by 8.48834pt on input line 1217.
 
-<Bilder/ndr_so2_novac_sametime.pdf, id=3208, pagebox=cropbox, 867.24pt x 361.35
+<Bilder/ndr_so2_novac_sametime.pdf, id=2714, pagebox=cropbox, 867.24pt x 361.35
 pt>
 File: Bilder/ndr_so2_novac_sametime.pdf Graphic file (type pdf)
 <use Bilder/ndr_so2_novac_sametime.pdf>
 Package pdftex.def Info: Bilder/ndr_so2_novac_sametime.pdf  used on input line 
-1178. on input line 1178.
+1221. on input line 1221.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1178.
-<Bilder/ndr_bro_sametime.pdf, id=3209, pagebox=cropbox, 867.24pt x 361.35pt>
+ 1221.
+<Bilder/ndr_bro_sametime.pdf, id=2715, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/ndr_bro_sametime.pdf Graphic file (type pdf)
 <use Bilder/ndr_bro_sametime.pdf>
-Package pdftex.def Info: Bilder/ndr_bro_sametime.pdf  used on input line 1180. 
-on input line 1180.
+Package pdftex.def Info: Bilder/ndr_bro_sametime.pdf  used on input line 1223. 
+on input line 1223.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1180.
-<Bilder/ndr_rat_sametime.pdf, id=3210, pagebox=cropbox, 867.24pt x 361.35pt>
+ 1223.
+<Bilder/ndr_rat_sametime.pdf, id=2716, pagebox=cropbox, 867.24pt x 361.35pt>
 File: Bilder/ndr_rat_sametime.pdf Graphic file (type pdf)
 <use Bilder/ndr_rat_sametime.pdf>
-Package pdftex.def Info: Bilder/ndr_rat_sametime.pdf  used on input line 1182. 
-on input line 1182.
+Package pdftex.def Info: Bilder/ndr_rat_sametime.pdf  used on input line 1225. 
+on input line 1225.
 Package pdftex.def Info: Requested size: 426.7914pt x 177.82945pt on input line
- 1182.
+ 1225.
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1178--1183
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1221--1226
  [][] 
  []
 
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1178--1183
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1221--1226
  [][] 
  []
 
 
-Overfull \hbox (3.91571pt too wide) in paragraph at lines 1178--1183
+Overfull \hbox (3.91571pt too wide) in paragraph at lines 1221--1226
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 51.98834pt on input line 1185.
+LaTeX Warning: Float too large for page by 51.98834pt on input line 1228.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1188--1191
+Underfull \hbox (badness 10000) in paragraph at lines 1231--1234
 
  []
 
-<Bilder/dailymeansNevadoDelRuiz.pdf, id=3217, pagebox=cropbox, 505.89pt x 361.3
+<Bilder/dailymeansNevadoDelRuiz.pdf, id=2723, pagebox=cropbox, 505.89pt x 361.3
 5pt>
 File: Bilder/dailymeansNevadoDelRuiz.pdf Graphic file (type pdf)
 <use Bilder/dailymeansNevadoDelRuiz.pdf>
 Package pdftex.def Info: Bilder/dailymeansNevadoDelRuiz.pdf  used on input line
- 1200. on input line 1200.
+ 1243. on input line 1243.
 Package pdftex.def Info: Requested size: 213.39569pt x 152.42761pt on input lin
-e 1200.
-<Bilder/dailymeanstungurahua.pdf, id=3218, pagebox=cropbox, 505.89pt x 361.35pt
+e 1243.
+<Bilder/dailymeanstungurahua.pdf, id=2724, pagebox=cropbox, 505.89pt x 361.35pt
 >
 File: Bilder/dailymeanstungurahua.pdf Graphic file (type pdf)
 <use Bilder/dailymeanstungurahua.pdf>
 Package pdftex.def Info: Bilder/dailymeanstungurahua.pdf  used on input line 12
-02. on input line 1202.
+45. on input line 1245.
 Package pdftex.def Info: Requested size: 213.39569pt x 152.42761pt on input lin
-e 1202.
+e 1245.
 
-Overfull \hbox (10.4419pt too wide) in paragraph at lines 1200--1204
+Overfull \hbox (10.4419pt too wide) in paragraph at lines 1243--1247
 [][] [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1209--1211
+Underfull \hbox (badness 10000) in paragraph at lines 1252--1254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1212--1215
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1258
 
  []
 
-[90
+[89
 
-] [91 <./Bilder/tung_so2_novac_sametime.pdf> <./Bilder/tung_bro_sametime.pdf
+] [90 <./Bilder/tung_so2_novac_sametime.pdf> <./Bilder/tung_bro_sametime.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/tung_bro_sametime.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
@@ -3951,7 +3716,7 @@ on: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/tung_rat_sametime.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->] [92 <./Bilder/ndr_so2_novac_sametime.pdf> <./Bilder/ndr_bro_sametime.pdf
+>] [91 <./Bilder/ndr_so2_novac_sametime.pdf> <./Bilder/ndr_bro_sametime.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/ndr_bro_sametime.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -3960,39 +3725,39 @@ n: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./Bilder/ndr_rat_sametime.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
-<Bilder/bro_contdaytime.png, id=3499, 505.89pt x 361.35pt>
+<Bilder/bro_contdaytime.png, id=3006, 505.89pt x 361.35pt>
 File: Bilder/bro_contdaytime.png Graphic file (type png)
 <use Bilder/bro_contdaytime.png>
-Package pdftex.def Info: Bilder/bro_contdaytime.png  used on input line 1250. o
-n input line 1250.
+Package pdftex.def Info: Bilder/bro_contdaytime.png  used on input line 1281. o
+n input line 1281.
 Package pdftex.def Info: Requested size: 256.07744pt x 182.91313pt on input lin
-e 1250.
+e 1281.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93 <./Bilder/dailymeansNevadoDelRuiz.pdf> <./Bilder/dailymeanstungurahua.pdf
+ [92 <./Bilder/dailymeansNevadoDelRuiz.pdf> <./Bilder/dailymeanstungurahua.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/dailymeanstungurahua.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->] [94 <./Bilder/bro_contdaytime.png>] [95]
+>] [93 <./Bilder/bro_contdaytime.png>] [94]
 chapter 8.
 
-Package natbib Warning: Citation `lubcke2016retrieval' on page 96 undefined on 
-input line 1275.
+Package natbib Warning: Citation `lubcke2016retrieval' on page 95 undefined on 
+input line 1305.
 
-[96
+[95
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1289--1295
+Underfull \hbox (badness 10000) in paragraph at lines 1320--1326
 
  []
 
-[97]
+[96]
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1303.
-[98
+(scrkbase)              on input line 1333.
+[97
 
 ]
 
@@ -4007,250 +3772,25 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              inconsistent.
 (scrreprt)              Because of this, you should remove `\end{appendix}'
 (scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 1304.
+(scrreprt)              `\appendix' on input line 1334.
 
-
-LaTeX Warning: Reference `fig:correlationmatrix' on page 1 undefined on input l
-ine 1306.
-
-
-LaTeX Warning: Reference `fig:correlationmatrix' on page 1 undefined on input l
-ine 1306.
-
-[99]
+[98]
 chapter A.
-(Wilken_Elsa_MasterThesis.lof
-
-Package xcolor Warning: Incompatible color definition on input line 4.
-
-
-Package xcolor Warning: Incompatible color definition on input line 4.
-
-
-Package xcolor Warning: Incompatible color definition on input line 5.
-
-
-Package xcolor Warning: Incompatible color definition on input line 5.
-
-
-Package xcolor Warning: Incompatible color definition on input line 6.
-
-
-Package xcolor Warning: Incompatible color definition on input line 6.
-
-
-Package xcolor Warning: Incompatible color definition on input line 7.
-
-
-Package xcolor Warning: Incompatible color definition on input line 7.
-
-
-Package xcolor Warning: Incompatible color definition on input line 8.
-
-
-Package xcolor Warning: Incompatible color definition on input line 8.
-
-
-Overfull \hbox (1.7165pt too wide) in paragraph at lines 10--10
- [][] [][][]\T1/cmr/m/n/12 Global map of the vol-ca-noes mon-i-tored by NO-VAC.
- Used with friendly 
- []
-
-
-Package xcolor Warning: Incompatible color definition on input line 11.
-
-
-Package xcolor Warning: Incompatible color definition on input line 11.
-
-
-Package xcolor Warning: Incompatible color definition on input line 12.
-
-
-Package xcolor Warning: Incompatible color definition on input line 12.
-
-
-Package xcolor Warning: Incompatible color definition on input line 15.
-
-
-Package xcolor Warning: Incompatible color definition on input line 15.
-
-
-Package xcolor Warning: Incompatible color definition on input line 16.
-
-
-Package xcolor Warning: Incompatible color definition on input line 16.
-
-
-Package xcolor Warning: Incompatible color definition on input line 19.
-
-
-Package xcolor Warning: Incompatible color definition on input line 19.
-
-
-Package xcolor Warning: Incompatible color definition on input line 20.
-
-
-Package xcolor Warning: Incompatible color definition on input line 20.
-
-
-Package xcolor Warning: Incompatible color definition on input line 20.
-
-
-Package xcolor Warning: Incompatible color definition on input line 20.
-
-
-Underfull \vbox (badness 5036) has occurred while \output is active []
-
- [100
-
-]
-
-Package xcolor Warning: Incompatible color definition on input line 24.
-
-
-Package xcolor Warning: Incompatible color definition on input line 24.
-
-
-Package xcolor Warning: Incompatible color definition on input line 31.
-
-
-Package xcolor Warning: Incompatible color definition on input line 31.
-
-
-Package xcolor Warning: Incompatible color definition on input line 39.
-
-
-Package xcolor Warning: Incompatible color definition on input line 39.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [101]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [102])
+(Wilken_Elsa_MasterThesis.lof)
 \tf@lof=\write5
 \openout5 = `Wilken_Elsa_MasterThesis.lof'.
 
+ (Wilken_Elsa_MasterThesis.lot
 
-(Wilken_Elsa_MasterThesis.lot
-
-Package xcolor Warning: Incompatible color definition on input line 4.
-
-
-Package xcolor Warning: Incompatible color definition on input line 4.
+Package natbib Warning: Citation `textor2004emissions' on page 99 undefined on 
+input line 4.
 
 
-Underfull \vbox (badness 2042) has occurred while \output is active []
+Underfull \vbox (badness 1383) has occurred while \output is active []
 
- [103])
-\tf@lot=\write6
-\openout6 = `Wilken_Elsa_MasterThesis.lot'.
-
-
-(Wilken_Elsa_MasterThesis.bbl [104]
-chapter B.
-[105
+ [99
 
 ]
-
-Package xcolor Warning: Incompatible color definition on input line 152.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 152.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [106]
-
-Package xcolor Warning: Incompatible color definition on input line 206.
-
-[107]
-
-Package xcolor Warning: Incompatible color definition on input line 259.
-
-
-Package xcolor Warning: Incompatible color definition on input line 300.
-
-
-Package xcolor Warning: Incompatible color definition on input line 332.
-
-[108]) [109]
-\openout2 = `deposition.aux'.
-
- (deposition.tex) [110
-
-]
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1370.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1370.
-(Wilken_Elsa_MasterThesis.aux (titlepages-eng.aux) (abstracts.aux)
-(deposition.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1370.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1370.
-
-Package rerunfilecheck Info: File `Wilken_Elsa_MasterThesis.out' has not change
-d.
-(rerunfilecheck)             Checksum: B59CC276B8F3251D5F7022B51B404C84;3234.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1370.
- ) 
-Here is how much of TeX's memory you used:
- 22881 strings out of 493312
- 424831 string characters out of 3138883
- 636492 words of memory out of 3000000
- 25634 multiletter control sequences out of 15000+200000
- 563063 words of font info for 99 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 49i,21n,80p,10387b,680s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
-, replaced by a fixed one
-
- <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
-00\ectt1200.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecti1200.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fo
-nts\pk\ljfour\jknappen\ec\dpi600\ecsx1000.pk> <C:\Users\Novac_Eval\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Novac_Ev
-al\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:
-\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-crm1000.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecsx2488.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Novac_Eval\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\Novac_Eval\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk> <C:\Use
-rs\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0
-800.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecrm1095.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\jknappen\ec\dpi600\ecbx0800.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Novac_Eval\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\N
-ovac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1728.
-pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\ecrm1440.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecss1440.pk> <C:\Users\Novac_Eval\AppData\Local\MiKTeX\2.9
-\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1728.pk><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
-bols/msbm10.pfb>
-Output written on Wilken_Elsa_MasterThesis.pdf (110 pages, 7382283 bytes).
-PDF statistics:
- 4766 PDF objects out of 5155 (max. 8388607)
- 408 named destinations out of 1000 (max. 500000)
- 739 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Runaway argument?
+{\numberline {7.3}{\ignorespaces Results for Tungurahua and Nevado de\ETC.
+! Paragraph ended before \contentsline was complet

@@ -1,4 +1,4 @@
-\begin{thebibliography}{56}
+\begin{thebibliography}{57}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -182,6 +182,18 @@ Peter L{\"u}bcke, Nicole Bobrowski, S~Arellano, Bo~Galle, G~Garz{\'o}n, Leif
 \newblock Bro/so 2 molar ratios from scanning doas measurements in the novac
   network.
 \newblock \emph{Solid Earth}, 5\penalty0 (1):\penalty0 409, 2014.
+
+\bibitem[L{\"u}bcke et~al.(2016)L{\"u}bcke, Lampel, Arellano, Bobrowski,
+  Dinger, Galle, Garz{\'o}n, Hidalgo, Ortiz, Vogel,
+  et~al.]{lubcke2016retrieval}
+Peter L{\"u}bcke, Johannes Lampel, Santiago Arellano, Nicole Bobrowski, Florian
+  Dinger, Bo~Galle, Gustavo Garz{\'o}n, Silvana Hidalgo, Zoraida~Chac{\'o}n
+  Ortiz, Leif Vogel, et~al.
+\newblock Retrieval of absolute so 2 column amounts from scattered-light
+  spectra: implications for the evaluation of data from automated doas
+  networks.
+\newblock \emph{Atmospheric Measurement Techniques}, 9\penalty0 (12):\penalty0
+  5677, 2016.
 
 \bibitem[Meller and Moortgat(2000)]{meller2000temperature}
 Richard Meller and Geert~K Moortgat.
