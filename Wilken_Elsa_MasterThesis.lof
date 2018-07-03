@@ -1,0 +1,80 @@
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces schematic sketch of a bromine Explosion. Adapted from \citet {bobrowski2007reactive}.}}{12}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Bromine reactions inside of a volcanic vent. From \citet {WarnachSimon}.}}{13}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Dependence of the ratios of different volcanic trace gases on depth. Data originate from Stromboli volcano. From \citet {lubcke2014optical} reproduced from Burton et al. (2007)}}{14}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces BrO/\ce {SO2} ratio as a function of the distance from the volcanic vent with a constant wind speed of 10 m/s. From \citet {lubcke2014optical}.}}{15}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Influence of volcanic eruptions and quiet degassing on earth climate. Redrawn on the basis of \citet {robock2000volcanic}}}{16}{figure.2.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Global map of the volcanoes monitored by NOVAC. Used with friendly permission of Santiago Arellano.}}{18}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces schematic sketch of a NOVAC instrument. From \cite {galle2010network}}}{19}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Topographig Map of the Tungurahua Volcano ( from \cite {hidalgo2015so2}) and Nevado del Ruiz volcano}}{20}{figure.3.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic sketch of the DOAS measurement of volcanic plume constituents.}}{24}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Basic idea of the DOAS principle: Light attenuate due to broad band and narrow band effects. Adapted from \citet {kern2009spectroscopic}.}}{25}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces (a) \ce {SO2} SCD as a function of the elevation angle with error bars computed by the DOASIS fitting routin. (b) \ce {BrO} SCD as a function of the elevation angle computed by the DOASIS fitting routine. Taken from \cite {WarnachSimon}}}{30}{figure.4.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{30}{figure.4.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{30}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces NOVAC evaluation: (a) Measurement at the volcano (b) Evaluation of the spectral data with the DOAS routine using the absorption cross sections of \ce {BrO} and \ce {SO2}. (c) Finding the location of the plume and reference(taken from \cite {WarnachSimon}). With the so found plume and reference spectra, the BrO/\ce {SO2} can be calculated. }}{31}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces (a) \ce {SO2} SCD as a function of the elevation angle. The co-added plume region is marked with red diamonds, and the co added reference region with green stars. From \cite {WarnachSimon}. (b) Flow chart of the \ce {BrO} and \ce {SO2} evaluation. From \cite {lubcke2014optical}.}}{32}{figure.4.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { }}}{32}{figure.4.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { }}}{32}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The ce{SO2} SCD as a function of the decrease of the amount of daily means amount above the plume limit. Data of Tungurahua and Nevado del Ruiz.}}{33}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Scan with a contaminated reference spectrum from April 2011. From \cite {WarnachSimon}}}{34}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The possibility of contamination relatively to all not contaminated data recorded at the same time as a function of the daytime. The data are taken from the Nevado del Ruiz volcano.}}{36}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Visualization of the contamination of the plume. Due to a lack of wind the old plume sinks down an accumulates above the instrument. The light path trough the old plume is longer when recording the reference spectra (orange).}}{37}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Visualization of possible scenarios for contamination}}{38}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces The strength of contamination as function of the mean \ce {SO2} column density (daily mean) of the day before. Data from Tungurahua and Nevado Del Ruiz.}}{39}{figure.4.11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Histogram of \ce {BrO} error, shown for all instruments considered in this thesis.}}{41}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Wavelength shift over the time. The shift is shown for six NOVAC- instruments from Tungurahua. The red and yellow dots show the running mean over 20 days. Red line indicates a temperature independent long term polynomial. Source: \cite {WarnachSimon}}}{45}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The \ce {BrO} error as a function of the temporal difference shown for the Pillate instrument from Tungurahua (2008-2009).}}{46}{figure.5.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{46}{figure.5.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{46}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Histogram showing the frequency of getting the best reference as a function of the time difference between plume and reference measuring.}}{47}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The \ce {BrO} measurement error as a function of the temporal difference in days between the reference and the plume is shown for each of the individual instruments at Tungurahua and Nevado del Ruiz. }}{49}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The \ce {BrO} measurement error as a function of the difference of daytime between the reference and the plume is shown for each of the individual instruments at Tungurahua and Nevado del Ruiz.}}{50}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The \ce {BrO} measurement error as a function of the difference of temperature between the reference and the plume is shown for each of the individual instruments at Tungurahua and Nevado del Ruiz.}}{52}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Short term wavelength as a function of the instrument temperature for Pillate 1. The coloring of the scatter points indicate the temporal evolvement. (a) initial period prior to January 2010 (b) after 2010. Source: \cite {WarnachSimon}.}}{53}{figure.5.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{53}{figure.5.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{53}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces The \ce {BrO} measurement error as a function of the difference of colour index between the reference and the plume is shown for each of the individual instruments at Tungurahua and Nevado del Ruiz.}}{55}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The \ce {BrO} measurement error as a function of the difference of elevation angle. Data of Tungurahua and Nevado del Ruiz}}{57}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces The \ce {BrO} measurement error as a function of the difference of elevation angle between the reference and the plume for the D2J2200\_0 instrument.}}{59}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces The \ce {BrO} measurement error as a function of the difference of exposure time between recording the reference and the plume.}}{60}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces An example of the dependency of external parameters on each other. The difference in temperature as a function of the exposure time. Data from Tungurahua.}}{62}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Correlation matrix of the external parameters using the data from D2J2140\_0.}}{63}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces The BrO retrieval error as a function of the difference in a specific external parameter between the reference spectrum and the plume spectrum. All other external parameters which affect the observed parameter are kept constant }}{65}{figure.5.15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\parbox {6.9cm}{The reference spectra are restricted such that the \hspace {0.2cm} maximal temperature difference between reference and plume is $1^\circ $ C.}}}}{65}{figure.5.15}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\parbox {6.9cm}{ The reference spectra are restricted such that the maximal temperature difference between reference and plume is $1^\circ $C. The maximal exposure time difference is $100 $ms.}}}}{65}{figure.5.15}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\parbox {6.9cm}{The reference spectra are restricted such that the maximal temperature difference between reference and plume is $1^\circ $C. The maximal exposure time difference is $100 $ms.}}}}{65}{figure.5.15}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\parbox {6.9cm}{The reference spectra are restricted such that the maximal color index difference between reference and plume is $0.05$. The maximal daytime difference is $1$h.}}}}{65}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces One plume is evaluated by using different references. The y-axis shows the \ce {BrO} SCD difference between the NOVAC routine and decontamination module. (a) The difference in \ce {BrO} as a function of the temperature difference. (b) The difference in \ce {BrO} as a function of the time difference between the one plume and the different references.}}{66}{figure.5.16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}{figure.5.16}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces The BrO SCD as a function of the difference of the external parameters between measuring the reference and the plume are shown.}}{67}{figure.5.17}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Visualization of the basic idea for considering contamination}}{70}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Visualization of the decontamination module.}}{71}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Deviation from the NOVAC-evaluation as a function of the selection of differences in external parameters which are used for the evaluation.}}{74}{figure.6.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Nevado del Ruiz}}}{74}{figure.6.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tungurahua}}}{74}{figure.6.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-routine and the decontamination module. The results for BrO and \ce {SO2} are shown.}}{81}{figure.7.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Data of Tungurahua}}}{81}{figure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz}}}{81}{figure.7.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Data of Tungurahua}}}{81}{figure.7.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Data of Nevado Del Riz}}}{81}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Comparison of the results of contaminated data for performing the evaluation with the NOVAC-routine and the decontamination module. The results for the ratio of BrO/\ce {SO2} are shown.}}{84}{figure.7.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{84}{figure.7.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{84}{figure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{84}{figure.7.2}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{84}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Time series of the BrO/\ce {SO2} ratios for Tungurahua. The contaminated data are evaluated by using the decontamination module.}}{86}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Time series of BrO, \ce {SO2} and the BrO/\ce {SO2} ratios for Nevado del Ruiz . The contaminated data are evaluated by using the decontamination module.}}{87}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces BrO/\ce {SO2} ratio daily mean time series for Nevado del Ruiz (left) and Tungurahua (right).}}{88}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Strength of BrO contamination as a function of the daytime. The strength of BrO contamination is calculated as the difference in the BrO SCD when using the contaminated same time reference and the not contaminated reference selected by the decontamination module.}}{89}{figure.7.6}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

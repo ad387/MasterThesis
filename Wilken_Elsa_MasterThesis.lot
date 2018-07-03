@@ -1,4 +1,4 @@
-\select@language {english}
+\babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces Volcanic gas constituents at the emission vent and global estimated source strength. Adapted from \citet {textor2004emissions}.}}{10}{table.2.1}
@@ -9,31 +9,30 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Amount of possible references when restricting the time span between plume and reference to two weeks.}}{48}{table.5.1}
 \contentsline {table}{\numberline {5.2}{\ignorespaces Results of the fit of the \ce {BrO} measurement error as a function of the difference in daytime between the reference and the plume. Data from Tungurahua and Nevado del Ruiz.}}{51}{table.5.2}
-\contentsline {table}{\numberline {5.3}{\ignorespaces The absolute amount and the percentage corresponding to initial number of references without any restrictions of ambient conditions of remaining references if restricting the daytime difference to the mean $\Delta DT_{2}$ over all instruments}}{53}{table.5.3}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Results of the fit of the \ce {BrO} measurement error as a function of the difference of temperature between the reference and the plume. Data from Tungurahua and Nevado del Ruiz.}}{56}{table.5.4}
-\contentsline {table}{\numberline {5.5}{\ignorespaces This table shows the absolute amount and the ratio (to \cref {Tab:refstime}) of remaining references if restricting the temperature difference to the mean $\Delta T_{2}$ over all instruments ($Mean(\Delta T_{2}) = 3.3^{\circ }C$).}}{57}{table.5.5}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Results of the fit of the \ce {BrO} measurement error as a function of the difference of color index between the reference and the plume. Data from Tungurahua and Nevado del Ruiz.}}{57}{table.5.6}
-\contentsline {table}{\numberline {5.7}{\ignorespaces This table shows the absolute amount and the ratio (to \cref {Tab:refstime}) of remaining references if restricting the colour index difference to the mean $\Delta CI_{2}$ over all instruments ($Mean(\Delta CI_{2}) = 0.255$).}}{58}{table.5.7}
+\contentsline {table}{\numberline {5.3}{\ignorespaces The absolute amount and the percentage corresponding to initial number of references without any restrictions of ambient conditions of remaining references if restricting the daytime difference to the mean $\Delta DT_{2}$ over all instruments}}{51}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Results of the fit of the \ce {BrO} measurement error as a function of the difference of temperature between the reference and the plume. Data from Tungurahua and Nevado del Ruiz.}}{53}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces This table shows the absolute amount and the ratio (to \cref {Tab:refstime}) of remaining references if restricting the temperature difference to the mean $\Delta T_{2}$ over all instruments ($Mean(\Delta T_{2}) = 3.3^{\circ }C$).}}{54}{table.5.5}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Results of the fit of the \ce {BrO} measurement error as a function of the difference of color index between the reference and the plume. Data from Tungurahua and Nevado del Ruiz.}}{56}{table.5.6}
+\contentsline {table}{\numberline {5.7}{\ignorespaces This table shows the absolute amount and the ratio (to \cref {Tab:refstime}) of remaining references if restricting the colour index difference to the mean $\Delta CI_{2}$ over all instruments ($Mean(\Delta CI_{2}) = 0.255$).}}{56}{table.5.7}
 \contentsline {table}{\numberline {5.8}{\ignorespaces Results of the fit of the \ce {BrO} measurement error as a function of the difference of elevation angle between the reference and the plume. Data from Tungurahua and Nevado del Ruiz.}}{58}{table.5.8}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Results of the fit of the \ce {BrO} measurement error as a function of the difference of exposure time between the reference and the plume. Data from Tungurahua and Nevado del Ruiz.}}{63}{table.5.9}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Amount of possible references when restricting the difference in exposure time between plume and reference to differences below 632.25 ms.}}{63}{table.5.10}
-\contentsline {table}{\numberline {5.11}{\ignorespaces Amount of possible references while restricting the difference in colour index between plume and reference to differences above 0.255.}}{64}{table.5.11}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Results of the fit of the \ce {BrO} measurement error as a function of the difference of exposure time between the reference and the plume. Data from Tungurahua and Nevado del Ruiz.}}{61}{table.5.9}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Amount of possible references when restricting the difference in exposure time between plume and reference to differences below 632.25 ms.}}{61}{table.5.10}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Amount of possible references while restricting the difference in several external parameter. The maximal colour index between plume and reference to is 0.255.}}{61}{table.5.11}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces The correlation coefficients between the BrO measurement error and the different external parameters. As a correlation value both the average and the maximum correlation is given.}}{78}{table.6.1}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Data of Nevado Del Riz D2J2201\_0}}}{81}{subtable.6.1.3}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz D2J2200\_0}}}{81}{subtable.6.1.3}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Data of Nevado Del Both Instruments}}}{81}{subtable.6.1.3}
-\contentsline {table}{\numberline {6.2}{\ignorespaces The results of the fitting with a first-order polynomial. The constants of \cref {calc:delterr} are calculated. The value shows the actual number. The importance, referred to as import, indicates the relative impact on the evaluation and is shown in percent. (a) Data from Nevado del Ruiz from the D2J2201\_0 instrument. (b) Data from Nevado del Ruiz from the D2J2200\_0 instrument. Data from Nevado del Ruiz from both instrument. }}{81}{table.6.2}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Data of Tungurahua D2J2140\_0}}}{82}{subtable.6.2.4}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Data of Tungurahua I2J8548\_0}}}{82}{subtable.6.2.4}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Data of Tungurahua I2J8546\_0}}}{82}{subtable.6.2.4}
-\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Data of Tungurahua all instruments}}}{82}{subtable.6.2.4}
-\contentsline {table}{\numberline {6.3}{\ignorespaces The results of the fitting with a first-order polynomial. The value shows the actual number.}}{82}{table.6.3}
+\contentsline {table}{\numberline {6.1}{\ignorespaces The correlation coefficients between the BrO measurement error and the different external parameters. As a correlation value both the average and the maximum correlation is given.}}{73}{table.6.1}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Data of Nevado Del Riz D2J2201\_0}}}{75}{subtable.6.1.3}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Data of Nevado Del Riz D2J2200\_0}}}{75}{subtable.6.1.3}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Data of Nevado Del Both Instruments}}}{75}{subtable.6.1.3}
+\contentsline {table}{\numberline {6.2}{\ignorespaces The results of the fitting with a first-order polynomial. The constants of \cref {calc:delterr} are calculated. The value shows the actual number. The importance, referred to as import, indicates the relative impact on the evaluation and is shown in percent. (a) Data from Nevado del Ruiz from the D2J2201\_0 instrument. (b) Data from Nevado del Ruiz from the D2J2200\_0 instrument. Data from Nevado del Ruiz from both instrument. }}{75}{table.6.2}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Data of Tungurahua D2J2140\_0}}}{76}{subtable.6.2.4}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Data of Tungurahua I2J8548\_0}}}{76}{subtable.6.2.4}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Data of Tungurahua I2J8546\_0}}}{76}{subtable.6.2.4}
+\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Data of Tungurahua all instruments}}}{76}{subtable.6.2.4}
+\contentsline {table}{\numberline {6.3}{\ignorespaces The results of the fitting with a first-order polynomial. The value shows the actual number.}}{76}{table.6.3}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Results for Tungurahua and Nevado del Ruiz.}}{87}{table.7.1}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Results for Tungurahua and Nevado del Ruiz. all data}}{87}{table.7.2}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Results for Tungurahua and Nevado del Ruiz. contaminated scans&&6\%&9.9\%\GenericError { }{LaTeX Error: There's no line here to end}{See the LaTeX manual or LaTeX Companion for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}\par \let \reserved@d = *\def \par }}{88}{table.7.3}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Results for Tungurahua and Nevado del Ruiz. Above plume limit}}{88}{table.7.4}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Total amount of utilized scans and the share of contaminated scans.}}{80}{table.7.1}
+\contentsline {table}{\numberline {7.2}{\ignorespaces The Amount of \ce {SO2} SCDs above the plume limit, retrieved with the NOVAC-routine and the new-Method.}}{82}{table.7.2}
+\contentsline {table}{\numberline {7.3}{\ignorespaces The Amount of \ce {SO2} SCDs above the plume limit, retrieved with the NOVAC-routine and the new-Method, relative to the amount of contaminated data. Results for Tungurahua and Nevado del Ruiz are shown.}}{82}{table.7.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
