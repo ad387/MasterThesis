@@ -24,7 +24,7 @@ The absolute slant column densities (SCDs) of \ce{BrO}  and \ce{SO2} can now be 
 In \Cref{fig:plumeref} (a) an example \ce{SO2} SCD as a function of the elevation angle is shown. The \ce{SO2} curve has a maximum at the position of the plume at an elevation angle of approximately $-30^{\circ}$ to $0^{\circ}$  and a reference region at an elevation angle of $40^{\circ}$ to $70^{\circ}$. \Cref{fig:plumeref} (b)  illustrates that  extrema of the \ce{BrO}  curve are not as distinct as it is the case for the \ce{SO2} curve.\\
 Since the \ce{BrO} column density is much lower than the \ce{SO2} column density, and just lies slightly above the detection limit, the plume is hard to detect using the \ce{BrO} column density as it is shown in fig. \ref{fig:plumeref} (b). 
 Therefore  \ce{BrO} is only in the plume location determined by using \ce{SO2} evaluated.\\
-To avoid a distortion of the data as a consequence of relatively bad scans, only scans with a $\chi^2$ (BrO fit) below $10^{-3}$ ($\approx$    95 \% of all suitable scans) are considered.
+To avoid a distortion of the data as a consequence of relatively bad scans only scans with a $\chi^2$ (BrO fit) below $10^{-3}$ ($\approx$    95 \% of all suitable scans) are considered.
 In a further step, multiple reference and plume spectra of successive measurements are added to further increase the fit quality.
 \Cref{fig:NOVAC_Eval} visualizes the different steps described above in the retrieval of the BrO/\ce{SO2} ratios.\\
 \begin{figure}
@@ -37,7 +37,7 @@ In a further step, multiple reference and plume spectra of successive measuremen
 
 The mean standard deviation of BrO SCD is about $2.6\cdot10^{13} \frac{molec}{cm^{2}}$. Hereby the standard deviation is estimated as 2 times the DOAS fit error of the multi-scan BrO fit \citet{Stutz96} \\
 %
-The SO2    detection limit is in the order of $6\cdot10^{16}\frac{molec}{cm^{2}}$.\\
+The \ce{SO2}  detection limit is in the order of $6\cdot10^{16}\frac{molec}{cm^{2}}$.\\
 %
 Taking the \ce{BrO}/\ce{SO2} molar ratios if the column densities are close to zero yields unpredictable and unrealistic results. 
 Thus, spectra measured in a thin volcano plume need to be excluded.
@@ -46,13 +46,13 @@ Rejecting all BrO SCDs below the detection limit leads to an drastical decreases
 %
 The other possibility is to set an \ce{SO2} threshold to ensure only measuring in strong degassing periods. In this thesis an \ce{SO2} threshold (plume limit) of $7\cdot 10^{17} \frac{\text{molec}}{\text{cm}^2}$ is used for the selection of spectra for the evaluation of the \ce{BrO}/\ce{SO2} ratio. \\
 %
-Within the data above a \ce{SO2} plume limit of $7\cdot 10^{17} \frac{\text{molec}}{\text{cm}^2}$ the maximum detection limit of the BrO/\ce{SO2} ratio is estimated as $(BrO/SO2)_{DT}    =    \frac{\ce{BrO}_{DT}}{SO2_{thres}}=\frac{4    }{\sqrt{n}}\cdot10^{-5}     \leq     1\cdot10^{-5}$.
+Within the data above a \ce{SO2} plume limit of $7\cdot 10^{17} \frac{\text{molec}}{\text{cm}^2}$ the maximum detection limit of the BrO/\ce{SO2} ratio is estimated as $(BrO/\ce{SO2})_{DT}    =    \frac{\ce{BrO}_{DT}}{SO2_{thres}}=\frac{4}{\sqrt{n}}\cdot10^{-5}     \leq     1\cdot10^{-5}$.
 A plume limit of $7\cdot 10^{17} \frac{\text{molec}}{\text{cm}^2}$ is a high threshold for the column density. However, this approach assures that only strongly significant gas amounts are accounted \citep{lubcke2014bro}. Choosing the \ce{SO2} threshold in this way is a compromise getween a low BrO/\ce{SO2} detection limit and a sufficient amount of data.\\
 \begin{figure}
 	\centering
 	\subfigure{    \includegraphics[width=0.49\linewidth]{Bilder/tungpercentage_minSO2}}
 	\subfigure{\includegraphics[width=0.49\linewidth]{Bilder/percentage_minSO2}}
-	\caption[The ce{SO2} SCD  as a function of the decrease of the amount of daily means amount above the plume limit. Data of Tungurahua and Nevado del Ruiz.]{The ce{SO2} SCD  as a function of the decrease of the amount of daily means amount above the plume limit. The \ce{SO2} SCDs below the actual plume limit of 7$\cdot10^{17}\,\frac{\text{molec}}{\text{cm}^2}$ are marked with a yellow shade. Left: Data of three instruments at Tungurahua. Right: data of two instruments at Nevado del Ruiz.}
+	\caption[The \ce{SO2} SCD  as a function of the decrease of the amount of daily means amount above the plume limit. Data of Tungurahua and Nevado del Ruiz.]{The \ce{SO2} SCD  as a function of the decrease of the amount of daily means amount above the plume limit. The \ce{SO2} SCDs below the actual plume limit of 7$\cdot10^{17}\,\frac{\text{molec}}{\text{cm}^2}$ are marked with a yellow shade. Left: Data of three instruments at Tungurahua. Right: data of two instruments at Nevado del Ruiz.}
 	\label{fig:percentageminso2}
 \end{figure}
 Increasing a plume limit leads to a decrease of usable data. The amount of usable  daily means as a function of the plume limit is shown in \Cref{fig:percentageminso2}. A plume limit of 7$\cdot10^{17}\frac{\text{molec}}{\text{cm}^2}$ leads to a ratio of usable data of approximately 10\%.
@@ -88,7 +88,7 @@ In the following, I will discuss the two alternative reference spectra.
 \subsection*{Evaluation using a Solar Atlas spectrum \label{kuruz}}
 An alternative for choosing the region with the lowest column density as reference region is to use a theoretical high-resolution solar atlas spectrum as reference \citep{chance2010improved}.
 The use of a theoretical solar atlas spectrum as a reference which is completely volcanic-trace-gases-free was first proposed by \cite{salerno2009novel} and evolved by \citep{lubcke2014bro}.
-The advantage of using a solar atlas spectrum as reference is, that it is sure that it is not affected by past or current volcanic gas emissions. Thus, it allows for a retrieval of the absolute trace gas SCDs in the volcanic gas plume. The disadvantage is, that using a solar atlas spectrum comes along with a drawback of precision: The spectral resolution of the theoretical solar atlas spectrum is much  higher than of the NOVAC instruments. Therefore the instrument functions would need to be perfectly modeled and added to the retrieval. This is not straightforward, because the instrumental line-shape varies over the wavelength region and is also mathematically often not perfectly described by a simple approach like Gauss, Lorentz,..etc.\\ 
+The advantage of using a solar atlas spectrum as reference is, that it is sure that it is not affected by past or current volcanic gas emissions. Thus, it allows for a retrieval of the absolute trace gas SCDs in the volcanic gas plume. The disadvantage is, that using a solar atlas spectrum comes along with a drawback of precision: The spectral resolution of the theoretical solar atlas spectrum is much higher than of the NOVAC instruments. Therefore the instrument functions would need to be perfectly modeled and added to the retrieval. This is not straightforward, because the instrumental line-shape varies over the wavelength region and is also mathematically often not perfectly described by a simple approach like Gauss, Lorentz,..etc.\\ 
 The reduction of precision is acceptable for the
 \ce{SO2} retrieval but not suitable for a \ce{BrO} retrieval because then most data would be below the detection limit.\\
 %
@@ -109,8 +109,7 @@ Using the reference of the same instrument but recorded at another day, leads al
 \\
 In this work, I combine both options in order to
 achieve both, enhanced accuracy but still maximum possible precision of
-the \ce{SO2} and \ce{BrO} retrievals. So I use the solar atlas spectrum to check for 
-contamination and a reference spectrum recorded in temporal proximity by the same instrument as reference.\\
+the \ce{SO2} and \ce{BrO} retrievals. So I use the solar atlas spectrum to check for contamination and a reference spectrum recorded in temporal proximity by the same instrument as reference.\\
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Bilder/ConProb}
@@ -150,7 +149,7 @@ Plume contamination could occur in a scenario described by  \cref{fig:contaminat
 This might be the case if the volcanic gas of the volcano is not taken away by the wind, but accumulates in the vicinity of the volcano and thus is seen by the instrument. In such a scenario, using a contamination free reference recorded at another time would lead to an overestimation of the gas column densities in the plume.\\
 This is one possible occurrence of contamination. As it can be seen gas of the old plume affects the measurement of the reference and the plume. However, for this example, the influence on the measurement of the reference is much larger since the light path through the old plume (colored orange in \cref{fig:contaminationplume}) is longer for the reference than for the measurement of the volcanic plume. Thus, the gas amount is underestimated by not using a gas-free reference, but might be overestimated if a gas-free reference spectrum is used.
 The real gas amount might be between the measured amount with and without using a reference measured at another time.\\
-%The contamination setup could differ from \cref{fig:contaminationplume}. This would lead to different results. However, the reference region is in most cases at a larger elevation angle than the plume. Thus, the assumption that the light path through the old plume is in average longer for the reference, if both, reference and plume are contaminated.\\
+%The contamination setup could differ from \cref{fig:contaminationplume}. This would lead to different results. However, the reference region is in most cases at a larger elevation angle than the plume. Thus, the assumption that the light path through the old plume is, in average, longer for the reference, if both, reference and plume are contaminated.\\
 %
 With the data retrieved by the NOVAC instruments, it is very difficult or even impossible to discover whether the plume is contaminated or not. \\
 \\
@@ -166,11 +165,7 @@ With the data retrieved by the NOVAC instruments, it is very difficult or even i
 
 If the contamination is a result of strong emissions of the day before, a dependency of the strength of contamination on the emission of the day before could appear. 
 The mean \ce{SO2} SCDs of a day (daily mean) could be used as a proxy for the total emission. The strength of contamination can be calculated as the difference between the evaluation for \ce{SO2} with a contaminated reference recorded at the same time as the plume spectrum was recorded and using a gas-free reference. Such a plot is shown for Tungurahua and Nevado del Ruiz in \cref{fig:contaminationdependencyso2}. Even though both plots show a slight increase in contamination strength with the mean amount of \ce{SO2} of the day before, the increase is not significant. Another possible proxy for the \ce{SO2} emission would be the maximum \ce{SO2} SCD of the day before contamination occurs. However, taking the maximum does not lead to a more significant relation between the emission and the strength of contamination. \\
-Thus the \ce{SO2} emission is, if it influences the possibility of contamination, not the only significant factor. To further examine the reasons for contamination the wind conditions should be studied in particular. 
-%\textcolor{red}{hier waere es gut noch andere parameter zu testen - wie in Luebcke et al, zum beispile als funktion von Wind geschwindigkeit,..   Für NdR kann ich die Meteorologischen Daten ab 2014 beisteuern.}
+Thus the \ce{SO2} emission is if it influences the possibility of contamination, not the only significant factor. To further examine the reasons for contamination the wind conditions should be studied in particular.
 \\
 However, this thesis is built on the assumption, that the plume is free of additional contamination. %\textcolor{yellow}{Nicole hat hier noch fragen, was ?}. 
 In the following, I discuss how to automatically determine an optimal reference from another scan.
-
-
-

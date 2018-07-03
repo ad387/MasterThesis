@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}
 \contentsline {part}{\numberline {I}Theoretical background}{8}{part.1}
 \contentsline {chapter}{\numberline {2}Volcanism and volcanic chemistry}{9}{chapter.2}
@@ -31,21 +31,21 @@
 \contentsline {subsection}{\numberline {5.1.5}Colour index difference}{54}{subsection.5.1.5}
 \contentsline {subsection}{\numberline {5.1.6}Elevation Angle difference}{57}{subsection.5.1.6}
 \contentsline {subsection}{\numberline {5.1.7}Exposure time difference}{58}{subsection.5.1.7}
-\contentsline {section}{\numberline {5.2}\ce {BrO} dependence on external parameters}{64}{section.5.2}
-\contentsline {part}{\numberline {III}Improving BrO retrieval}{69}{part.3}
-\contentsline {chapter}{\numberline {6}Decontamination module }{70}{chapter.6}
-\contentsline {section}{\numberline {6.1}Fit with a first-order polynomial}{72}{section.6.1}
-\contentsline {section}{\numberline {6.2}Other approaches}{77}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Nearest neighbor approach}{77}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Iterative approach}{78}{subsection.6.2.2}
-\contentsline {chapter}{\numberline {7}Applying the new algorithm -Results}{80}{chapter.7}
-\contentsline {section}{\numberline {7.1}Tungurahua}{82}{section.7.1}
-\contentsline {section}{\numberline {7.2}Nevado del Ruiz}{83}{section.7.2}
-\contentsline {section}{\numberline {7.3}BrO/\ce {SO2} time series}{85}{section.7.3}
-\contentsline {section}{\numberline {7.4}Discussion of the BrO contamination}{89}{section.7.4}
-\contentsline {chapter}{\numberline {8}Conclusions}{91}{chapter.8}
-\contentsline {part}{\numberline {IV}Appendix}{93}{part.4}
-\contentsline {chapter}{\numberline {A}Lists}{95}{appendix.A}
-\contentsline {section}{\numberline {A.1}List of Figures}{95}{section.A.1}
-\contentsline {section}{\numberline {A.2}List of Tables}{98}{section.A.2}
-\contentsline {chapter}{\numberline {B}Bibliography}{100}{appendix.B}
+\contentsline {section}{\numberline {5.2}\ce {BrO} dependence on external parameters}{66}{section.5.2}
+\contentsline {part}{\numberline {III}Improving BrO retrieval}{70}{part.3}
+\contentsline {chapter}{\numberline {6}Decontamination module }{71}{chapter.6}
+\contentsline {section}{\numberline {6.1}Fit with a first-order polynomial}{73}{section.6.1}
+\contentsline {section}{\numberline {6.2}Other approaches}{78}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Nearest neighbor approach}{78}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Iterative approach}{79}{subsection.6.2.2}
+\contentsline {chapter}{\numberline {7}Applying the new algorithm -Results}{81}{chapter.7}
+\contentsline {section}{\numberline {7.1}Tungurahua}{83}{section.7.1}
+\contentsline {section}{\numberline {7.2}Nevado del Ruiz}{84}{section.7.2}
+\contentsline {section}{\numberline {7.3}BrO/\ce {SO2} time series}{86}{section.7.3}
+\contentsline {section}{\numberline {7.4}Discussion of the BrO contamination}{90}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusions}{92}{chapter.8}
+\contentsline {part}{\numberline {IV}Appendix}{94}{part.4}
+\contentsline {chapter}{\numberline {A}Lists}{96}{appendix.A}
+\contentsline {section}{\numberline {A.1}List of Figures}{96}{section.A.1}
+\contentsline {section}{\numberline {A.2}List of Tables}{99}{section.A.2}
+\contentsline {chapter}{\numberline {B}Bibliography}{101}{appendix.B}
